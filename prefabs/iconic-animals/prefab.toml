@@ -218,8 +218,8 @@ include = [
 ]
 
 [assets."sprites/spr_cartoon_axolotl"]
-description = "Pink kawaii axolotl face with frilly external gills and a tiny smile; soft cartoon shading, no outline."
-tags = [ "subject:axolotl", "style:cartoon" ]
+description = "Pink kawaii axolotl face with frilly external gills and a big cheerful grin; soft cartoon shading, no outline. [cache-test v0.1.1]"
+tags = [ "subject:axolotl", "style:cartoon", "mood:happy" ]
 
 [assets."sprites/spr_cartoon_axolotl_with_stroke"]
 description = "Pink cartoon axolotl face with feathery gills, framed by a bold black outline."
