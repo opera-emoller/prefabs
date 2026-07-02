@@ -1,0 +1,16 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "instances"
+depth = 0
+
+[[entries]]
+id = "inst_rm_demo1_obj_logo_0"
+object = "obj_logo"
+x = 640.0
+y = 360.0
+
+[[entries]]
+id = "inst_rm_demo1_obj_demo_0"
+object = "obj_demo"
+x = 0.0
+y = 0.0

@@ -1,0 +1,10 @@
+# Prefab manifest — a derived transition. Inherits everything from
+# transition-base and overrides only the fragment shader.
+name = "Transition Swirl"
+description = "A swirl room transition — the frame twists into a spiral and unwinds to reveal the incoming room."
+category = "effects"
+tags = ["effect:transition", "effect:swirl", "role:library"]
+
+[parent-link]
+# Pinned source; resolves once transition-base is published + tagged.
+source = "gh:opera-emoller/prefabs/transition-base@0.1.0"

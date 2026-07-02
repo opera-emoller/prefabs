@@ -1,0 +1,10 @@
+# Prefab manifest — a derived transition. Inherits everything from
+# transition-base and overrides only the fragment shader.
+name = "Transition Undulating Burnout"
+description = "An undulating burn-out room transition — a wavy radial burn sweeps out from the centre to reveal the next room."
+category = "effects"
+tags = ["effect:transition", "effect:undulating-burnout", "role:library"]
+
+[parent-link]
+# Pinned source; resolves once transition-base is published + tagged.
+source = "gh:opera-emoller/prefabs/transition-base@0.1.0"

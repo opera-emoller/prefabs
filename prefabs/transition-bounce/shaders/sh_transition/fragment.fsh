@@ -1,0 +1,51 @@
+#version 300 es
+precision highp float;
+
+// sh_transition — effect: bounce.
+// Adapted from gl-transitions `Bounce.glsl` (MIT):
+//   https://github.com/gl-transitions/gl-transitions/blob/master/transitions/Bounce.glsl
+// Overrides transition-base's fragment shader; the vertex shader is inherited.
+// Keep the V-flip in getFromColor/getToColor (matches the base contract).
+
+uniform sampler2D from_tex;
+uniform sampler2D to_tex;
+uniform float progress;
+
+in vec2 v_vTexcoord;
+out vec4 frag_colour;
+
+vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
+vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
+
+const vec4 shadow_colour = vec4(0.0, 0.0, 0.0, 0.6);
+uniform float shadow_height;   // set via goto(..., { shadow_height_f: N }); 0 => default
+uniform float bounces;         // set via goto(..., { bounces_f: N }); 0 => default
+
+const float PI = 3.14159265358;
+
+vec4 transition(vec2 uv) {
+    float sh = (shadow_height == 0.0) ? 0.075 : shadow_height;
+    float b = (bounces == 0.0) ? 3.0 : bounces;
+    float time = progress;
+    float stime = sin(time * PI / 2.0);
+    float phase = time * PI * b;
+    float y = (abs(cos(phase))) * (1.0 - stime);
+    float d = uv.y - y;
+    return mix(
+        mix(
+            getToColor(uv),
+            shadow_colour,
+            step(d, sh) * (1.0 - mix(
+                ((d / sh) * shadow_colour.a) + (1.0 - shadow_colour.a),
+                1.0,
+                smoothstep(0.95, 1.0, progress) // fade-out the shadow at the end
+            ))
+        ),
+        getFromColor(vec2(uv.x, uv.y + (1.0 - y))),
+        step(d, 0.0)
+    );
+}
+
+void main() {
+    frag_colour = transition(v_vTexcoord);
+}

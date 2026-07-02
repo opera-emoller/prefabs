@@ -1,0 +1,12 @@
+{
+  "seed": 1,
+  "fps": 60,
+  "total_frames": 215,
+  "chunks": {
+    "mid_transition": { "gml": "return instance_exists(obj_transition);" }
+  },
+  "timeline": [
+    { "frame": 165, "assert": { "id": "mid_transition", "name": "transition active mid-way", "expect": true } },
+    { "frame": 165, "screenshot": "thumbnail.png" }
+  ]
+}

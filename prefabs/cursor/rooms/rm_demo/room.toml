@@ -1,4 +1,0 @@
-#:schema ../../.gm-schema/v1.json#room
-
-size = { width = 1280, height = 720 }
-view = { width = 1280, height = 720 }

@@ -1,0 +1,17 @@
+# Prefab manifest — discovery metadata for the gmx prefab catalog.
+name = "Transition Base"
+description = "Room transitions via a full-screen blend shader. Derive a new effect by overriding just the fragment shader — the goto() API and machinery come for free."
+category = "effects"
+tags = ["effect:transition", "role:library"]
+
+# Demo-only resources: present so `gmx run` shows the effect, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "objects/obj_logo",
+  "objects/obj_gm_logo",
+  "sprites/spr_logo",
+  "sprites/spr_gm_logo",
+  "rooms/rm_demo1",
+  "rooms/rm_demo2",
+]

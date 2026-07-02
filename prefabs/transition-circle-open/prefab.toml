@@ -1,0 +1,10 @@
+# Prefab manifest — a derived transition. Inherits everything from
+# transition-base and overrides only the fragment shader.
+name = "Transition Circle Open"
+description = "A circle-open room transition — a soft-edged circular wipe expands from the centre to reveal the incoming room."
+category = "effects"
+tags = ["effect:transition", "effect:circle-open", "role:library"]
+
+[parent-link]
+# Pinned source; resolves once transition-base is published + tagged.
+source = "gh:opera-emoller/prefabs/transition-base@0.1.0"
