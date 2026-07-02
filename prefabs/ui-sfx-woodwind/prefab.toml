@@ -1,5 +1,3 @@
-id = "ui-sfx-woodwind"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A pack of ~39 user-interface sound effects voiced as soft woodwind tones — gentle flute-like clicks, hovers, pops, confirmations, errors and navigation cues with a warm, mellow, organic character."

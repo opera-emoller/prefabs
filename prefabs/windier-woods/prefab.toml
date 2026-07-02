@@ -1,5 +1,3 @@
-id = "windier-woods"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Windier Woods: a bright, painted side-scrolling platformer environment pack of alpine and arctic (snowbound) sprites, parallax backgrounds, ice/snow props, VFX and looping music."

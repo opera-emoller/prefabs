@@ -1,5 +1,3 @@
-id = "fantasy-platformer"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A bright, fun cartoon fantasy side-scrolling platformer pack: smoothly animated Knight, Bat, Skeleton and Spider, forest/cave/castle/house environments, tilesets, parallax backdrops, plus a full SFX + music library."

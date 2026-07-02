@@ -1,5 +1,3 @@
-id = "scrolling-shmup"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Retro arcade top-down vertical-scrolling shooter (SHMUP) art and audio pack: pixel-art aircraft, ground targets, projectiles, pickups and VFX, with chiptune-flavored MP3 music and sound effects."

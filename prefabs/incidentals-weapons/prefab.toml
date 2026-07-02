@@ -1,5 +1,3 @@
-id = "incidentals-weapons"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A pack of 90+ weapon icons -- axes, bombs, guns, knives, mauls and swords -- each rendered as a glossy painted color icon (with and without outline) plus flat black and flat white silhouette variants; clean UI-ready game weapon iconography."

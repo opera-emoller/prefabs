@@ -1,5 +1,3 @@
-id = "space-rocks-hd"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Space Rocks HD — an HD asset pack for a top-down Asteroids-style arcade shooter: shaded cartoon spaceships, tumbling asteroids, glowing blasters and lasers, planets, and rendered starfield/nebula backgrounds with explosion, muzzle-flash and thruster VFX."

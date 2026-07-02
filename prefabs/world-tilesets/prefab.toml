@@ -1,5 +1,3 @@
-id = "world-tilesets"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Twenty auto-tile-ready 47-tile platformer terrain tilesets across five biomes (ice, lava, haunted, neon city, underwater), each in pixel-art and illustrated styles and in side-on and top-down variants, with matching preview sprite copies."

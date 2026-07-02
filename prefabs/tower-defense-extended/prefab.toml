@@ -1,5 +1,3 @@
-id = "tower-defense-extended"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Hand-drawn cartoon tower-defense effect pack: attack VFX and projectile spritesheets for ten tower types (Cannon, Explosive, Flamer, Freeze, Heal, Holy, Magic, Poison, Rail, Slow), viewed top-down in a colorful storybook style."

@@ -1,5 +1,3 @@
-id = "maritime-mayhem"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Maritime Mayhem — a bright, detailed cartoon top-down naval action pack: five classes of tall sailing ship plus a rowboat in navy/pirate/plain liveries with damage states, sea-life, coastal terrain and fortifications, plus a full set of nautical SFX, voice and music."

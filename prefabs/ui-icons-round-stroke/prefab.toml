@@ -1,5 +1,3 @@
-id = "ui-icons-round-stroke"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Stroke round UI glyph icons: a set of 37 smooth-rounded interface symbols rendered as thin clean outline strokes on transparent backgrounds."

@@ -1,5 +1,3 @@
-id = "ui-sfx-stone"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A stone-and-rock flavored UI sound effect pack: gritty clicks, confirms, navigation, window and slider sounds rendered as dry stony clacks, gravel grinds and dull rock thuds for a chunky earthen interface."

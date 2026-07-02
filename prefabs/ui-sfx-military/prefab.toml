@@ -1,5 +1,3 @@
-id = "ui-sfx-military"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Military-flavored UI sound effect pack: tactical clicks, confirms, navigation, sliders, window/swipe transitions, and mission-style task results, all with a crisp modern command-console vibe."

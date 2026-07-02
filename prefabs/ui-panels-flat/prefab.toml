@@ -1,5 +1,3 @@
-id = "ui-panels-flat"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "Flat-style UI pack of ~135 user-interface elements - bordered panels, ribbon banners, solid button shapes (circle, square, diamond, triangle), pill and rectangle bars, dot toggles and vertical scrollbars - in nine color variants (blue, cyan, green, grey, orange, pink, purple, red, yellow), each with a soft two-tone gradient and clean flat edges."

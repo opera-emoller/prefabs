@@ -1,5 +1,3 @@
-id = "camera-shake"
-version = "0.1.0"
 kind = "library"
 license = "MIT"
 description = "Camera-shake library: applies a configurable screen shake effect to the active camera for impacts, explosions, and hits. A single camera_shake(time, mag_r, mag_g, mag_b) call drives an RGB-split displacement that decays over the given duration."

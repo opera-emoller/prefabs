@@ -1,5 +1,3 @@
-id = "sfx-retro-ninja"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A retro platformer SFX pack of ~28 bit-crushed, chiptune-flavored one-shots covering coin pick-ups, movement, combat, hits, and menu UI blips."

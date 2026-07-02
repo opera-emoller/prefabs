@@ -1,5 +1,3 @@
-id = "ui-sfx-pen-and-paper"
-version = "1.0.0"
 kind = "asset"
 license = "Apache-2.0"
 description = "A pen-and-paper themed UI sound effects pack: clicks, confirms, page turns, pops and slider sweeps rendered with paper rustle, pen scribble and page-turn textures for a stationery/notebook interface vibe."
