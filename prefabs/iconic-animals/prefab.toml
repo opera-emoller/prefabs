@@ -1,0 +1,1050 @@
+id = "iconic-animals"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A large pack of cute head-on animal face icons in two matching art styles — soft kawaii cartoon and blocky pixel art — each available with or without a bold black outline; 50+ species across pets, farm, wild and exotic animals, ideal for menus, avatars, collection grids and emoji-style UI."
+tags = [ "asset_type:sprite", "role:ui", "projection:portrait", "state:static", "theme:nature" ]
+
+[export]
+include = [
+  "sprites/spr_cartoon_axolotl",
+  "sprites/spr_cartoon_axolotl_with_stroke",
+  "sprites/spr_cartoon_badger",
+  "sprites/spr_cartoon_badger_with_stroke",
+  "sprites/spr_cartoon_bat",
+  "sprites/spr_cartoon_bat_with_stroke",
+  "sprites/spr_cartoon_bear",
+  "sprites/spr_cartoon_bear_panda",
+  "sprites/spr_cartoon_bear_panda_with_stroke",
+  "sprites/spr_cartoon_bear_polar",
+  "sprites/spr_cartoon_bear_polar_with_stroke",
+  "sprites/spr_cartoon_bear_with_stroke",
+  "sprites/spr_cartoon_capybara",
+  "sprites/spr_cartoon_capybara_with_stroke",
+  "sprites/spr_cartoon_cat_black",
+  "sprites/spr_cartoon_cat_black_with_stroke",
+  "sprites/spr_cartoon_cat_blue",
+  "sprites/spr_cartoon_cat_blue_with_stroke",
+  "sprites/spr_cartoon_cat_ginger",
+  "sprites/spr_cartoon_cat_ginger_with_stroke",
+  "sprites/spr_cartoon_chick",
+  "sprites/spr_cartoon_chick_with_stroke",
+  "sprites/spr_cartoon_chicken",
+  "sprites/spr_cartoon_chicken_with_stroke",
+  "sprites/spr_cartoon_cow_friesian",
+  "sprites/spr_cartoon_cow_friesian_with_stroke",
+  "sprites/spr_cartoon_cow_highland",
+  "sprites/spr_cartoon_cow_highland_with_stroke",
+  "sprites/spr_cartoon_cow_jersey",
+  "sprites/spr_cartoon_cow_jersey_with_stroke",
+  "sprites/spr_cartoon_crocodile",
+  "sprites/spr_cartoon_crocodile_wirh_stroke",
+  "sprites/spr_cartoon_deer",
+  "sprites/spr_cartoon_deer_stag",
+  "sprites/spr_cartoon_deer_stag_with_stroke",
+  "sprites/spr_cartoon_deer_with_stroke",
+  "sprites/spr_cartoon_dog_corgi",
+  "sprites/spr_cartoon_dog_corgi_with_stroke",
+  "sprites/spr_cartoon_dog_husky",
+  "sprites/spr_cartoon_dog_husky_with_stroke",
+  "sprites/spr_cartoon_dog_labrador",
+  "sprites/spr_cartoon_dog_labrador_with_stroke",
+  "sprites/spr_cartoon_dog_west_highland",
+  "sprites/spr_cartoon_dog_west_highland_with_stroke",
+  "sprites/spr_cartoon_duck",
+  "sprites/spr_cartoon_duck_with_stroke",
+  "sprites/spr_cartoon_dumbo_octopus",
+  "sprites/spr_cartoon_dumbo_octopus_with_stroke",
+  "sprites/spr_cartoon_fox",
+  "sprites/spr_cartoon_fox_with_stroke",
+  "sprites/spr_cartoon_frog",
+  "sprites/spr_cartoon_frog_rain",
+  "sprites/spr_cartoon_frog_rain_with_stroke",
+  "sprites/spr_cartoon_frog_tree",
+  "sprites/spr_cartoon_frog_tree_with_stroke",
+  "sprites/spr_cartoon_frog_with_stroke",
+  "sprites/spr_cartoon_gecko",
+  "sprites/spr_cartoon_gecko_with_stroke",
+  "sprites/spr_cartoon_giraffe",
+  "sprites/spr_cartoon_giraffe_with_stroke",
+  "sprites/spr_cartoon_goat",
+  "sprites/spr_cartoon_goat_with_stroke",
+  "sprites/spr_cartoon_hamster",
+  "sprites/spr_cartoon_hamster_with_stroke",
+  "sprites/spr_cartoon_hedgehog",
+  "sprites/spr_cartoon_hedgehog_with_stroke",
+  "sprites/spr_cartoon_horse",
+  "sprites/spr_cartoon_horse_with_stroke",
+  "sprites/spr_cartoon_lion",
+  "sprites/spr_cartoon_lion_with_stroke",
+  "sprites/spr_cartoon_monkey",
+  "sprites/spr_cartoon_monkey_with_stroke",
+  "sprites/spr_cartoon_mouse",
+  "sprites/spr_cartoon_mouse_with_stroke",
+  "sprites/spr_cartoon_otter_brown",
+  "sprites/spr_cartoon_otter_brown_with_stroke",
+  "sprites/spr_cartoon_otter_grey",
+  "sprites/spr_cartoon_otter_grey_with_stroke",
+  "sprites/spr_cartoon_owl",
+  "sprites/spr_cartoon_owl_with_stroke",
+  "sprites/spr_cartoon_penguin",
+  "sprites/spr_cartoon_penguin_with_stroke",
+  "sprites/spr_cartoon_pig",
+  "sprites/spr_cartoon_pig_with_stroke_",
+  "sprites/spr_cartoon_rabbit_black",
+  "sprites/spr_cartoon_rabbit_black_with_stroke",
+  "sprites/spr_cartoon_rabbit_brown",
+  "sprites/spr_cartoon_rabbit_brown_with_stroke",
+  "sprites/spr_cartoon_rabbit_white",
+  "sprites/spr_cartoon_rabbit_white_with_stroke",
+  "sprites/spr_cartoon_raccoon",
+  "sprites/spr_cartoon_raccoon_with_stroke",
+  "sprites/spr_cartoon_sheep",
+  "sprites/spr_cartoon_sheep_with_stroke",
+  "sprites/spr_cartoon_snake",
+  "sprites/spr_cartoon_snake_with_stroke",
+  "sprites/spr_cartoon_squirrel_grey",
+  "sprites/spr_cartoon_squirrel_grey_with_stroke",
+  "sprites/spr_cartoon_squirrel_red",
+  "sprites/spr_cartoon_squirrel_red_with_stroke",
+  "sprites/spr_cartoon_tiger",
+  "sprites/spr_cartoon_tiger_with_stroke",
+  "sprites/spr_cartoon_zebra",
+  "sprites/spr_cartoon_zebra_with_stroke",
+  "sprites/spr_pixel_axolotl",
+  "sprites/spr_pixel_axolotl_with_stroke",
+  "sprites/spr_pixel_badger",
+  "sprites/spr_pixel_badger_with_stroke",
+  "sprites/spr_pixel_bat",
+  "sprites/spr_pixel_bat_with_stroke",
+  "sprites/spr_pixel_bear",
+  "sprites/spr_pixel_bear_panda",
+  "sprites/spr_pixel_bear_panda_with_stroke",
+  "sprites/spr_pixel_bear_polar",
+  "sprites/spr_pixel_bear_polar_with_stroke",
+  "sprites/spr_pixel_bear_with_stroke",
+  "sprites/spr_pixel_capybara",
+  "sprites/spr_pixel_capybara_with_stroke",
+  "sprites/spr_pixel_cat_1_",
+  "sprites/spr_pixel_cat_1_with_stroke",
+  "sprites/spr_pixel_cat_2",
+  "sprites/spr_pixel_cat_2_with_stroke",
+  "sprites/spr_pixel_cat_3",
+  "sprites/spr_pixel_cat_3_with_stroke",
+  "sprites/spr_pixel_chick",
+  "sprites/spr_pixel_chick_with_stroke",
+  "sprites/spr_pixel_chicken",
+  "sprites/spr_pixel_chicken_with_stroke",
+  "sprites/spr_pixel_cow_1",
+  "sprites/spr_pixel_cow_1_with_stroke",
+  "sprites/spr_pixel_cow_2",
+  "sprites/spr_pixel_cow_2_with_stroke",
+  "sprites/spr_pixel_cow_3",
+  "sprites/spr_pixel_cow_3_with_stroke",
+  "sprites/spr_pixel_crocodile",
+  "sprites/spr_pixel_crocodile_with_stroke",
+  "sprites/spr_pixel_deer",
+  "sprites/spr_pixel_deer_with_stroke",
+  "sprites/spr_pixel_dog_corgi",
+  "sprites/spr_pixel_dog_corgi_with_stroke",
+  "sprites/spr_pixel_dog_husky",
+  "sprites/spr_pixel_dog_husky_with_stroke",
+  "sprites/spr_pixel_dog_lab_",
+  "sprites/spr_pixel_dog_lab_with_stroke",
+  "sprites/spr_pixel_dog_west_highland",
+  "sprites/spr_pixel_dog_west_highland_with_stroke",
+  "sprites/spr_pixel_duck",
+  "sprites/spr_pixel_duck_with_stroke",
+  "sprites/spr_pixel_fox_",
+  "sprites/spr_pixel_fox_with_stroke",
+  "sprites/spr_pixel_frog",
+  "sprites/spr_pixel_frog_rain",
+  "sprites/spr_pixel_frog_rain_with_stroke",
+  "sprites/spr_pixel_frog_tree",
+  "sprites/spr_pixel_frog_tree_with_stroke",
+  "sprites/spr_pixel_frog_with_stroke",
+  "sprites/spr_pixel_geko",
+  "sprites/spr_pixel_geko_with_stroke",
+  "sprites/spr_pixel_giraffe",
+  "sprites/spr_pixel_giraffe_with_stroke",
+  "sprites/spr_pixel_goat",
+  "sprites/spr_pixel_goat_with_stroke",
+  "sprites/spr_pixel_hamster",
+  "sprites/spr_pixel_hamster_with_stroke",
+  "sprites/spr_pixel_hedgehog",
+  "sprites/spr_pixel_hedgehog_with_stroke",
+  "sprites/spr_pixel_horse",
+  "sprites/spr_pixel_horse_with_stroke",
+  "sprites/spr_pixel_lion",
+  "sprites/spr_pixel_lion_with_stroke",
+  "sprites/spr_pixel_monkey",
+  "sprites/spr_pixel_monkey_with_stroke",
+  "sprites/spr_pixel_mouse",
+  "sprites/spr_pixel_mouse_with_stroke",
+  "sprites/spr_pixel_octopus_adorabilis",
+  "sprites/spr_pixel_octopus_adorabilis_with_stroke",
+  "sprites/spr_pixel_otter_1",
+  "sprites/spr_pixel_otter_1_with_stroke",
+  "sprites/spr_pixel_otter_2",
+  "sprites/spr_pixel_otter_2_with_stroke",
+  "sprites/spr_pixel_owl_barn",
+  "sprites/spr_pixel_owl_barn_with_stroke",
+  "sprites/spr_pixel_penguin",
+  "sprites/spr_pixel_penguin_with_stroke",
+  "sprites/spr_pixel_pig",
+  "sprites/spr_pixel_pig_with_stroke",
+  "sprites/spr_pixel_rabbit_1",
+  "sprites/spr_pixel_rabbit_1_with_stroke",
+  "sprites/spr_pixel_rabbit_2",
+  "sprites/spr_pixel_rabbit_2_with_stroke",
+  "sprites/spr_pixel_rabbit_3",
+  "sprites/spr_pixel_rabbit_3_with_stroke",
+  "sprites/spr_pixel_raccoon",
+  "sprites/spr_pixel_raccoon_with_stroke",
+  "sprites/spr_pixel_sheep",
+  "sprites/spr_pixel_sheep_with_stroke",
+  "sprites/spr_pixel_snake",
+  "sprites/spr_pixel_snake_with_stroke",
+  "sprites/spr_pixel_squirrel_1",
+  "sprites/spr_pixel_squirrel_1_with_stroke",
+  "sprites/spr_pixel_squirrel_2",
+  "sprites/spr_pixel_squirrel_2_with_stroke",
+  "sprites/spr_pixel_stag",
+  "sprites/spr_pixel_stag_with_stroke",
+  "sprites/spr_pixel_tiger",
+  "sprites/spr_pixel_tiger_with_stroke",
+  "sprites/spr_pixel_zebra",
+  "sprites/spr_pixel_zebra_with_stroke",
+]
+
+[assets."sprites/spr_cartoon_axolotl"]
+description = "Pink kawaii axolotl face with frilly external gills and a tiny smile; soft cartoon shading, no outline."
+tags = [ "subject:axolotl", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_axolotl_with_stroke"]
+description = "Pink cartoon axolotl face with feathery gills, framed by a bold black outline."
+tags = [ "subject:axolotl", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_badger"]
+description = "Black-and-white striped badger face, soft cartoon style, no outline."
+tags = [ "subject:badger", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_badger_with_stroke"]
+description = "Striped badger face in cartoon style with a bold black outline."
+tags = [ "subject:badger", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_bat"]
+description = "Dark purple-grey bat face with big pointed ears and fangs; cute cartoon style, no outline."
+tags = [ "subject:bat", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_bat_with_stroke"]
+description = "Purple-grey bat face with pointed ears, framed by a bold black outline."
+tags = [ "subject:bat", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_bear"]
+description = "Warm brown bear face with round ears and a friendly snout; soft cartoon shading."
+tags = [ "subject:bear", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_bear_panda"]
+description = "Black-and-white panda face with dark eye patches and round ears; cute cartoon style."
+tags = [ "subject:panda", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_bear_panda_with_stroke"]
+description = "Black-and-white panda face with eye patches, framed by a bold black outline."
+tags = [ "subject:panda", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_bear_polar"]
+description = "Creamy white polar bear face with small round ears; soft cartoon shading."
+tags = [ "subject:bear", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_bear_polar_with_stroke"]
+description = "White polar bear face with a bold black outline, cartoon style."
+tags = [ "subject:bear", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_bear_with_stroke"]
+description = "Brown bear face with round ears, framed by a bold black outline."
+tags = [ "subject:bear", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_capybara"]
+description = "Tan-brown capybara face with a long blunt muzzle and small ears; soft cartoon style."
+tags = [ "subject:capybara", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_capybara_with_stroke"]
+description = "Tan capybara face with blunt muzzle and a bold black outline."
+tags = [ "subject:capybara", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cat_black"]
+description = "Sleek black cat face with pointed ears and yellow eyes; soft cartoon style."
+tags = [ "subject:cat", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cat_black_with_stroke"]
+description = "Black cat face with pointed ears, framed by a bold black outline."
+tags = [ "subject:cat", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cat_blue"]
+description = "Blue-grey cat face with pointed ears; cute cartoon shading, no outline."
+tags = [ "subject:cat", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cat_blue_with_stroke"]
+description = "Blue-grey cat face with a bold black outline, cartoon style."
+tags = [ "subject:cat", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cat_ginger"]
+description = "Orange tabby cat face with pointed ears and stripes; soft cartoon style."
+tags = [ "subject:cat", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cat_ginger_with_stroke"]
+description = "Ginger tabby cat face framed by a bold black outline."
+tags = [ "subject:cat", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_chick"]
+description = "Tiny round yellow chick face with an orange beak; cute cartoon style, no outline."
+tags = [ "subject:chicken", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_chick_with_stroke"]
+description = "Yellow chick face with orange beak, framed by a bold black outline."
+tags = [ "subject:chicken", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_chicken"]
+description = "White hen face with a red comb and orange beak; soft cartoon style."
+tags = [ "subject:chicken", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_chicken_with_stroke"]
+description = "White chicken face with red comb, framed by a bold black outline."
+tags = [ "subject:chicken", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cow_friesian"]
+description = "Black-and-white Friesian cow face with patches and a pink muzzle; soft cartoon style."
+tags = [ "subject:cow", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cow_friesian_with_stroke"]
+description = "Black-and-white Friesian cow face with a bold black outline."
+tags = [ "subject:cow", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cow_highland"]
+description = "Shaggy ginger Highland cow face with horns and a fringe; soft cartoon style."
+tags = [ "subject:cow", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cow_highland_with_stroke"]
+description = "Shaggy Highland cow face with horns, framed by a bold black outline."
+tags = [ "subject:cow", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_cow_jersey"]
+description = "Light brown Jersey cow face with small horns and a pink muzzle; soft cartoon style."
+tags = [ "subject:cow", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_cow_jersey_with_stroke"]
+description = "Tan Jersey cow face with horns, framed by a bold black outline."
+tags = [ "subject:cow", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_crocodile"]
+description = "Green crocodile face with a long snout and toothy grin; soft cartoon style."
+tags = [ "subject:crocodile", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_crocodile_wirh_stroke"]
+description = "Green crocodile face with toothy snout, framed by a bold black outline."
+tags = [ "subject:crocodile", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_deer"]
+description = "Tan fawn face with big ears and gentle eyes; soft cartoon style, no antlers."
+tags = [ "subject:deer", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_deer_stag"]
+description = "Brown stag face with branching antlers and big ears; soft cartoon style."
+tags = [ "subject:deer", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_deer_stag_with_stroke"]
+description = "Antlered stag face framed by a bold black outline."
+tags = [ "subject:deer", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_deer_with_stroke"]
+description = "Tan fawn face with big ears, framed by a bold black outline."
+tags = [ "subject:deer", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_dog_corgi"]
+description = "Tan-and-white corgi face with large upright ears; soft cartoon style."
+tags = [ "subject:dog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_dog_corgi_with_stroke"]
+description = "Corgi face with big ears, framed by a bold black outline."
+tags = [ "subject:dog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_dog_husky"]
+description = "Grey-and-white husky face with pointed ears and blue eyes; soft cartoon style."
+tags = [ "subject:dog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_dog_husky_with_stroke"]
+description = "Husky face with pointed ears, framed by a bold black outline."
+tags = [ "subject:dog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_dog_labrador"]
+description = "Golden labrador face with floppy ears and a dark nose; soft cartoon style."
+tags = [ "subject:dog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_dog_labrador_with_stroke"]
+description = "Golden labrador face with floppy ears and a bold black outline."
+tags = [ "subject:dog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_dog_west_highland"]
+description = "Fluffy white West Highland terrier face with perky ears; soft cartoon style."
+tags = [ "subject:dog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_dog_west_highland_with_stroke"]
+description = "White Westie terrier face framed by a bold black outline."
+tags = [ "subject:dog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_duck"]
+description = "Yellow duck face with a wide orange bill; cute cartoon style, no outline."
+tags = [ "subject:duck", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_duck_with_stroke"]
+description = "Yellow duck face with orange bill, framed by a bold black outline."
+tags = [ "subject:duck", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_dumbo_octopus"]
+description = "Pale pink dumbo octopus with ear-like fins and curling tentacles; soft cartoon style."
+tags = [ "subject:octopus", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_dumbo_octopus_with_stroke"]
+description = "Pink dumbo octopus with fins and tentacles, framed by a bold black outline."
+tags = [ "subject:octopus", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_fox"]
+description = "Orange fox face with white cheeks, black-tipped ears and a pointed snout; soft cartoon style."
+tags = [ "subject:fox", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_fox_with_stroke"]
+description = "Orange fox face framed by a bold black outline."
+tags = [ "subject:fox", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_frog"]
+description = "Bright green frog face with big round eyes and a wide smile; soft cartoon style."
+tags = [ "subject:frog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_frog_rain"]
+description = "Green rain frog face with a grumpy round look; soft cartoon style."
+tags = [ "subject:frog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_frog_rain_with_stroke"]
+description = "Round rain frog face framed by a bold black outline."
+tags = [ "subject:frog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_frog_tree"]
+description = "Lime tree frog face with bulging eyes and orange feet hints; soft cartoon style."
+tags = [ "subject:frog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_frog_tree_with_stroke"]
+description = "Tree frog face with bulging eyes, framed by a bold black outline."
+tags = [ "subject:frog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_frog_with_stroke"]
+description = "Green frog face with big eyes, framed by a bold black outline."
+tags = [ "subject:frog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_gecko"]
+description = "Bright green gecko face with large round eyes; soft cartoon style."
+tags = [ "subject:gecko", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_gecko_with_stroke"]
+description = "Green gecko face framed by a bold black outline."
+tags = [ "subject:gecko", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_giraffe"]
+description = "Yellow giraffe face with brown spots, little ossicones and big ears; soft cartoon style."
+tags = [ "subject:giraffe", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_giraffe_with_stroke"]
+description = "Spotted giraffe face with ossicones, framed by a bold black outline."
+tags = [ "subject:giraffe", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_goat"]
+description = "Grey-white goat face with curved horns and a tuft beard; soft cartoon style."
+tags = [ "subject:goat", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_goat_with_stroke"]
+description = "Horned goat face framed by a bold black outline."
+tags = [ "subject:goat", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_hamster"]
+description = "Plump tan-and-white hamster face with chubby cheeks; soft cartoon style."
+tags = [ "subject:hamster", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_hamster_with_stroke"]
+description = "Chubby hamster face framed by a bold black outline."
+tags = [ "subject:hamster", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_hedgehog"]
+description = "Brown hedgehog face with a spiky crown of quills and a pointed snout; soft cartoon style."
+tags = [ "subject:hedgehog", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_hedgehog_with_stroke"]
+description = "Spiky hedgehog face framed by a bold black outline."
+tags = [ "subject:hedgehog", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_horse"]
+description = "Brown horse face with a flowing dark mane and gentle eyes; soft cartoon style."
+tags = [ "subject:horse", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_horse_with_stroke"]
+description = "Brown horse face with mane, framed by a bold black outline."
+tags = [ "subject:horse", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_lion"]
+description = "Golden lion face with a full orange mane; soft cartoon style."
+tags = [ "subject:lion", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_lion_with_stroke"]
+description = "Maned lion face framed by a bold black outline."
+tags = [ "subject:lion", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_monkey"]
+description = "Brown monkey face with a pale tan muzzle and rounded ears; soft cartoon style."
+tags = [ "subject:monkey", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_monkey_with_stroke"]
+description = "Monkey face with tan muzzle, framed by a bold black outline."
+tags = [ "subject:monkey", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_mouse"]
+description = "Grey mouse face with large round ears and a pink nose; soft cartoon style."
+tags = [ "subject:mouse", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_mouse_with_stroke"]
+description = "Grey mouse face with big ears, framed by a bold black outline."
+tags = [ "subject:mouse", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_otter_brown"]
+description = "Brown otter face with a broad muzzle and whiskers; soft cartoon style."
+tags = [ "subject:otter", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_otter_brown_with_stroke"]
+description = "Brown otter face framed by a bold black outline."
+tags = [ "subject:otter", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_otter_grey"]
+description = "Grey otter face with a pale muzzle and whiskers; soft cartoon style."
+tags = [ "subject:otter", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_otter_grey_with_stroke"]
+description = "Grey otter face framed by a bold black outline."
+tags = [ "subject:otter", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_owl"]
+description = "Round owl face with big eyes and a small beak; brown-and-cream cartoon style."
+tags = [ "subject:owl", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_owl_with_stroke"]
+description = "Round owl face with big eyes, framed by a bold black outline."
+tags = [ "subject:owl", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_penguin"]
+description = "Black-and-white penguin face with an orange beak; cute cartoon style."
+tags = [ "subject:penguin", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_penguin_with_stroke"]
+description = "Penguin face with orange beak, framed by a bold black outline."
+tags = [ "subject:penguin", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_pig"]
+description = "Pink pig face with a round snout and floppy ears; soft cartoon style."
+tags = [ "subject:pig", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_pig_with_stroke_"]
+description = "Pink pig face with round snout, framed by a bold black outline."
+tags = [ "subject:pig", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_rabbit_black"]
+description = "Black rabbit face with long upright ears and a pink nose; soft cartoon style."
+tags = [ "subject:rabbit", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_rabbit_black_with_stroke"]
+description = "Black rabbit face with long ears, framed by a bold black outline."
+tags = [ "subject:rabbit", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_rabbit_brown"]
+description = "Brown rabbit face with long ears and a pink nose; soft cartoon style."
+tags = [ "subject:rabbit", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_rabbit_brown_with_stroke"]
+description = "Brown rabbit face with long ears, framed by a bold black outline."
+tags = [ "subject:rabbit", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_rabbit_white"]
+description = "White rabbit face with long pink-lined ears; soft cartoon style."
+tags = [ "subject:rabbit", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_rabbit_white_with_stroke"]
+description = "White rabbit face with long ears, framed by a bold black outline."
+tags = [ "subject:rabbit", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_raccoon"]
+description = "Grey raccoon face with a black bandit mask and pointed ears; soft cartoon style."
+tags = [ "subject:raccoon", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_raccoon_with_stroke"]
+description = "Masked raccoon face framed by a bold black outline."
+tags = [ "subject:raccoon", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_sheep"]
+description = "Fluffy cream sheep face with a woolly fringe and small ears; soft cartoon style."
+tags = [ "subject:sheep", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_sheep_with_stroke"]
+description = "Woolly sheep face framed by a bold black outline."
+tags = [ "subject:sheep", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_snake"]
+description = "Green snake face with round eyes and a flicking tongue; soft cartoon style."
+tags = [ "subject:snake", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_snake_with_stroke"]
+description = "Green snake face with tongue, framed by a bold black outline."
+tags = [ "subject:snake", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_squirrel_grey"]
+description = "Grey squirrel face with tufted ears and big eyes; soft cartoon style."
+tags = [ "subject:squirrel", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_squirrel_grey_with_stroke"]
+description = "Grey squirrel face framed by a bold black outline."
+tags = [ "subject:squirrel", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_squirrel_red"]
+description = "Red-brown squirrel face with tufted ears; soft cartoon style."
+tags = [ "subject:squirrel", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_squirrel_red_with_stroke"]
+description = "Red squirrel face framed by a bold black outline."
+tags = [ "subject:squirrel", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_tiger"]
+description = "Orange tiger face with black stripes and white cheeks; soft cartoon style."
+tags = [ "subject:tiger", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_tiger_with_stroke"]
+description = "Striped tiger face framed by a bold black outline."
+tags = [ "subject:tiger", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_cartoon_zebra"]
+description = "Black-and-white striped zebra face with a tufted mane; soft cartoon style."
+tags = [ "subject:zebra", "style:cartoon" ]
+
+[assets."sprites/spr_cartoon_zebra_with_stroke"]
+description = "Striped zebra face framed by a bold black outline."
+tags = [ "subject:zebra", "style:cartoon", "style:outlined" ]
+
+[assets."sprites/spr_pixel_axolotl"]
+description = "Pink axolotl face with blocky external gills; pixel-art style, no outline."
+tags = [ "subject:axolotl", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_axolotl_with_stroke"]
+description = "Pixel-art pink axolotl face with gills and a bold black outline."
+tags = [ "subject:axolotl", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_badger"]
+description = "Black-and-white striped badger face in chunky pixel art, no outline."
+tags = [ "subject:badger", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_badger_with_stroke"]
+description = "Pixel-art striped badger face with a bold black outline."
+tags = [ "subject:badger", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_bat"]
+description = "Dark bat face with pointed ears and fangs; pixel-art style."
+tags = [ "subject:bat", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_bat_with_stroke"]
+description = "Pixel-art bat face with a bold black outline."
+tags = [ "subject:bat", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_bear"]
+description = "Brown bear face with round ears; chunky pixel-art style."
+tags = [ "subject:bear", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_bear_panda"]
+description = "Black-and-white panda face with eye patches; pixel-art style."
+tags = [ "subject:panda", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_bear_panda_with_stroke"]
+description = "Pixel-art panda face with a bold black outline."
+tags = [ "subject:panda", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_bear_polar"]
+description = "White polar bear face with small ears; pixel-art style."
+tags = [ "subject:bear", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_bear_polar_with_stroke"]
+description = "Pixel-art polar bear face with a bold black outline."
+tags = [ "subject:bear", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_bear_with_stroke"]
+description = "Pixel-art brown bear face with a bold black outline."
+tags = [ "subject:bear", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_capybara"]
+description = "Tan capybara face with a blunt muzzle; pixel-art style."
+tags = [ "subject:capybara", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_capybara_with_stroke"]
+description = "Pixel-art capybara face with a bold black outline."
+tags = [ "subject:capybara", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cat_1_"]
+description = "Black cat face with pointed ears and yellow eyes; pixel-art style."
+tags = [ "subject:cat", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cat_1_with_stroke"]
+description = "Pixel-art black cat face with a bold black outline."
+tags = [ "subject:cat", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cat_2"]
+description = "Orange tabby cat face with pointed ears; pixel-art style."
+tags = [ "subject:cat", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cat_2_with_stroke"]
+description = "Pixel-art ginger cat face with a bold black outline."
+tags = [ "subject:cat", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cat_3"]
+description = "Grey-brown cat face with pointed ears; pixel-art style."
+tags = [ "subject:cat", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cat_3_with_stroke"]
+description = "Pixel-art cat face with a bold black outline."
+tags = [ "subject:cat", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_chick"]
+description = "Tiny yellow chick face with an orange beak; pixel-art style."
+tags = [ "subject:chicken", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_chick_with_stroke"]
+description = "Pixel-art yellow chick face with a bold black outline."
+tags = [ "subject:chicken", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_chicken"]
+description = "White hen face with a red comb; pixel-art style."
+tags = [ "subject:chicken", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_chicken_with_stroke"]
+description = "Pixel-art chicken face with a bold black outline."
+tags = [ "subject:chicken", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cow_1"]
+description = "Black-and-white spotted cow face with a pink muzzle; pixel-art style."
+tags = [ "subject:cow", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cow_1_with_stroke"]
+description = "Pixel-art spotted cow face with a bold black outline."
+tags = [ "subject:cow", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cow_2"]
+description = "Brown cow face with small horns; pixel-art style."
+tags = [ "subject:cow", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cow_2_with_stroke"]
+description = "Pixel-art brown cow face with a bold black outline."
+tags = [ "subject:cow", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_cow_3"]
+description = "Light tan cow face with horns; pixel-art style."
+tags = [ "subject:cow", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_cow_3_with_stroke"]
+description = "Pixel-art tan cow face with a bold black outline."
+tags = [ "subject:cow", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_crocodile"]
+description = "Green crocodile face with a toothy snout; pixel-art style."
+tags = [ "subject:crocodile", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_crocodile_with_stroke"]
+description = "Pixel-art crocodile face with a bold black outline."
+tags = [ "subject:crocodile", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_deer"]
+description = "Tan fawn face with big ears; pixel-art style, no antlers."
+tags = [ "subject:deer", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_deer_with_stroke"]
+description = "Pixel-art fawn face with a bold black outline."
+tags = [ "subject:deer", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_dog_corgi"]
+description = "Tan-and-white corgi face with big upright ears; pixel-art style."
+tags = [ "subject:dog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_dog_corgi_with_stroke"]
+description = "Pixel-art corgi face with a bold black outline."
+tags = [ "subject:dog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_dog_husky"]
+description = "Grey-and-white husky face with pointed ears; pixel-art style."
+tags = [ "subject:dog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_dog_husky_with_stroke"]
+description = "Pixel-art husky face with a bold black outline."
+tags = [ "subject:dog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_dog_lab_"]
+description = "Golden labrador face with floppy ears; pixel-art style."
+tags = [ "subject:dog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_dog_lab_with_stroke"]
+description = "Pixel-art labrador face with a bold black outline."
+tags = [ "subject:dog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_dog_west_highland"]
+description = "White West Highland terrier face with perky ears; pixel-art style."
+tags = [ "subject:dog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_dog_west_highland_with_stroke"]
+description = "Pixel-art Westie terrier face with a bold black outline."
+tags = [ "subject:dog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_duck"]
+description = "Yellow duck face with an orange bill; pixel-art style."
+tags = [ "subject:duck", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_duck_with_stroke"]
+description = "Pixel-art duck face with a bold black outline."
+tags = [ "subject:duck", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_fox_"]
+description = "Orange fox face with white cheeks and black-tipped ears; pixel-art style."
+tags = [ "subject:fox", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_fox_with_stroke"]
+description = "Pixel-art fox face with a bold black outline."
+tags = [ "subject:fox", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_frog"]
+description = "Bright green frog face with big round eyes; pixel-art style."
+tags = [ "subject:frog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_frog_rain"]
+description = "Green rain frog face with a grumpy look; pixel-art style."
+tags = [ "subject:frog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_frog_rain_with_stroke"]
+description = "Pixel-art rain frog face with a bold black outline."
+tags = [ "subject:frog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_frog_tree"]
+description = "Lime tree frog face with bulging eyes; pixel-art style."
+tags = [ "subject:frog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_frog_tree_with_stroke"]
+description = "Pixel-art tree frog face with a bold black outline."
+tags = [ "subject:frog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_frog_with_stroke"]
+description = "Pixel-art green frog face with a bold black outline."
+tags = [ "subject:frog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_geko"]
+description = "Bright green gecko face with large eyes; pixel-art style."
+tags = [ "subject:gecko", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_geko_with_stroke"]
+description = "Pixel-art gecko face with a bold black outline."
+tags = [ "subject:gecko", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_giraffe"]
+description = "Yellow giraffe face with brown spots and ossicones; pixel-art style."
+tags = [ "subject:giraffe", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_giraffe_with_stroke"]
+description = "Pixel-art giraffe face with a bold black outline."
+tags = [ "subject:giraffe", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_goat"]
+description = "Grey-white goat face with curved horns and a beard; pixel-art style."
+tags = [ "subject:goat", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_goat_with_stroke"]
+description = "Pixel-art horned goat face with a bold black outline."
+tags = [ "subject:goat", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_hamster"]
+description = "Plump tan hamster face with chubby cheeks; pixel-art style."
+tags = [ "subject:hamster", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_hamster_with_stroke"]
+description = "Pixel-art hamster face with a bold black outline."
+tags = [ "subject:hamster", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_hedgehog"]
+description = "Brown hedgehog face with a spiky crown and pointed snout; pixel-art style."
+tags = [ "subject:hedgehog", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_hedgehog_with_stroke"]
+description = "Pixel-art spiky hedgehog face with a bold black outline."
+tags = [ "subject:hedgehog", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_horse"]
+description = "Brown horse face with a dark mane; pixel-art style."
+tags = [ "subject:horse", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_horse_with_stroke"]
+description = "Pixel-art horse face with a bold black outline."
+tags = [ "subject:horse", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_lion"]
+description = "Golden lion face with a full mane; pixel-art style."
+tags = [ "subject:lion", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_lion_with_stroke"]
+description = "Pixel-art maned lion face with a bold black outline."
+tags = [ "subject:lion", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_monkey"]
+description = "Brown monkey face with a pale muzzle; pixel-art style."
+tags = [ "subject:monkey", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_monkey_with_stroke"]
+description = "Pixel-art monkey face with a bold black outline."
+tags = [ "subject:monkey", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_mouse"]
+description = "Grey mouse face with big round ears and a pink nose; pixel-art style."
+tags = [ "subject:mouse", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_mouse_with_stroke"]
+description = "Pixel-art mouse face with a bold black outline."
+tags = [ "subject:mouse", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_octopus_adorabilis"]
+description = "Pink flapjack octopus with ear-like fins and tentacles; pixel-art style."
+tags = [ "subject:octopus", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_octopus_adorabilis_with_stroke"]
+description = "Pixel-art pink octopus with a bold black outline."
+tags = [ "subject:octopus", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_otter_1"]
+description = "Grey otter face with a pale muzzle and whiskers; pixel-art style."
+tags = [ "subject:otter", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_otter_1_with_stroke"]
+description = "Pixel-art grey otter face with a bold black outline."
+tags = [ "subject:otter", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_otter_2"]
+description = "Brown otter face with a broad muzzle; pixel-art style."
+tags = [ "subject:otter", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_otter_2_with_stroke"]
+description = "Pixel-art brown otter face with a bold black outline."
+tags = [ "subject:otter", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_owl_barn"]
+description = "Pale barn owl face with a heart-shaped facial disc; pixel-art style."
+tags = [ "subject:owl", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_owl_barn_with_stroke"]
+description = "Pixel-art barn owl face with a bold black outline."
+tags = [ "subject:owl", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_penguin"]
+description = "Black-and-white penguin face with an orange beak; pixel-art style."
+tags = [ "subject:penguin", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_penguin_with_stroke"]
+description = "Pixel-art penguin face with a bold black outline."
+tags = [ "subject:penguin", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_pig"]
+description = "Pink pig face with a round snout and floppy ears; pixel-art style."
+tags = [ "subject:pig", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_pig_with_stroke"]
+description = "Pixel-art pig face with a bold black outline."
+tags = [ "subject:pig", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_rabbit_1"]
+description = "Brown rabbit face with long upright ears; pixel-art style."
+tags = [ "subject:rabbit", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_rabbit_1_with_stroke"]
+description = "Pixel-art brown rabbit face with a bold black outline."
+tags = [ "subject:rabbit", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_rabbit_2"]
+description = "White rabbit face with long pink-lined ears; pixel-art style."
+tags = [ "subject:rabbit", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_rabbit_2_with_stroke"]
+description = "Pixel-art white rabbit face with a bold black outline."
+tags = [ "subject:rabbit", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_rabbit_3"]
+description = "Black rabbit face with long ears; pixel-art style."
+tags = [ "subject:rabbit", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_rabbit_3_with_stroke"]
+description = "Pixel-art black rabbit face with a bold black outline."
+tags = [ "subject:rabbit", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_raccoon"]
+description = "Grey raccoon face with a black bandit mask; pixel-art style."
+tags = [ "subject:raccoon", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_raccoon_with_stroke"]
+description = "Pixel-art masked raccoon face with a bold black outline."
+tags = [ "subject:raccoon", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_sheep"]
+description = "Fluffy cream sheep face with a woolly fringe; pixel-art style."
+tags = [ "subject:sheep", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_sheep_with_stroke"]
+description = "Pixel-art woolly sheep face with a bold black outline."
+tags = [ "subject:sheep", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_snake"]
+description = "Green snake face with round eyes and a forked tongue; pixel-art style."
+tags = [ "subject:snake", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_snake_with_stroke"]
+description = "Pixel-art green snake face with a bold black outline."
+tags = [ "subject:snake", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_squirrel_1"]
+description = "Red-brown squirrel face with tufted ears; pixel-art style."
+tags = [ "subject:squirrel", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_squirrel_1_with_stroke"]
+description = "Pixel-art red squirrel face with a bold black outline."
+tags = [ "subject:squirrel", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_squirrel_2"]
+description = "Grey squirrel face with tufted ears; pixel-art style."
+tags = [ "subject:squirrel", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_squirrel_2_with_stroke"]
+description = "Pixel-art grey squirrel face with a bold black outline."
+tags = [ "subject:squirrel", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_stag"]
+description = "Brown stag face with branching antlers; pixel-art style."
+tags = [ "subject:deer", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_stag_with_stroke"]
+description = "Pixel-art antlered stag face with a bold black outline."
+tags = [ "subject:deer", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_tiger"]
+description = "Orange tiger face with black stripes and white cheeks; pixel-art style."
+tags = [ "subject:tiger", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_tiger_with_stroke"]
+description = "Pixel-art striped tiger face with a bold black outline."
+tags = [ "subject:tiger", "style:pixel-art", "style:outlined" ]
+
+[assets."sprites/spr_pixel_zebra"]
+description = "Black-and-white striped zebra face with a tufted mane; pixel-art style."
+tags = [ "subject:zebra", "style:pixel-art" ]
+
+[assets."sprites/spr_pixel_zebra_with_stroke"]
+description = "Pixel-art striped zebra face with a bold black outline."
+tags = [ "subject:zebra", "style:pixel-art", "style:outlined" ]

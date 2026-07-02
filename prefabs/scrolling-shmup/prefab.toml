@@ -1,0 +1,575 @@
+id = "scrolling-shmup"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Retro arcade top-down vertical-scrolling shooter (SHMUP) art and audio pack: pixel-art aircraft, ground targets, projectiles, pickups and VFX, with chiptune-flavored MP3 music and sound effects."
+tags = [ "genre:shmup", "style:pixel-art", "projection:top-down", "theme:modern" ]
+
+[export]
+include = [
+  "sprites/spr_building_1_animated",
+  "sprites/spr_building_2_animated",
+  "sprites/spr_building_3_animated",
+  "sprites/spr_building_4_animated",
+  "sprites/spr_building_5_animated",
+  "sprites/spr_building_6_animated",
+  "sprites/spr_buildings_strip",
+  "sprites/spr_cloud_huge",
+  "sprites/spr_cloud_huge_shadow",
+  "sprites/spr_cloud_large",
+  "sprites/spr_cloud_large_shadow",
+  "sprites/spr_cloud_medium",
+  "sprites/spr_cloud_medium_shadow",
+  "sprites/spr_cloud_small",
+  "sprites/spr_cloud_small_shadow",
+  "sprites/spr_cloud_tiny",
+  "sprites/spr_cloud_tiny_shadow",
+  "sprites/spr_clouds_shadows_strip",
+  "sprites/spr_clouds_strip",
+  "sprites/spr_enemy_train_car_side",
+  "sprites/spr_enemy_train_car_strip",
+  "sprites/spr_enemy_train_car_updown",
+  "sprites/spr_enemy_train_down",
+  "sprites/spr_enemy_train_side",
+  "sprites/spr_enemy_train_strip",
+  "sprites/spr_enemy_train_up",
+  "sprites/spr_explosion_big",
+  "sprites/spr_explosion_small",
+  "sprites/spr_item_arrowUp",
+  "sprites/spr_item_outline",
+  "sprites/spr_item_outline_palette",
+  "sprites/spr_item_shadow",
+  "sprites/spr_item_strip",
+  "sprites/spr_plane_enemy_big_1_strip",
+  "sprites/spr_plane_enemy_big_2_strip",
+  "sprites/spr_plane_enemy_big_3_strip",
+  "sprites/spr_plane_enemy_medium_1",
+  "sprites/spr_plane_enemy_medium_2",
+  "sprites/spr_plane_enemy_medium_3",
+  "sprites/spr_plane_enemy_shadow",
+  "sprites/spr_plane_enemy_small_1",
+  "sprites/spr_plane_enemy_small_2",
+  "sprites/spr_plane_enemy_small_3",
+  "sprites/spr_plane_enemy_turret",
+  "sprites/spr_plane_player",
+  "sprites/spr_plane_player_shadow",
+  "sprites/spr_projectile_bomb_big",
+  "sprites/spr_projectile_bomb_small",
+  "sprites/spr_projectile_circle_big",
+  "sprites/spr_projectile_circle_small",
+  "sprites/spr_projectile_missile_big",
+  "sprites/spr_projectile_missile_small",
+  "sprites/spr_projectile_shot_big",
+  "sprites/spr_projectile_shot_small",
+  "sprites/spr_shield",
+  "sprites/spr_tileset_forest",
+  "sprites/spr_tileset_railroad",
+  "sprites/spr_tileset_water",
+  "sprites/spr_ui_font_score_8x8",
+  "sprites/spr_ui_font_text_en_8x8",
+  "sprites/spr_ui_icon_health",
+  "sounds/snd_ambient_seascape_1_MP3",
+  "sounds/snd_ambient_seascape_2_MP3",
+  "sounds/snd_ambient_windscape_1_MP3",
+  "sounds/snd_ambient_windscape_2_MP3",
+  "sounds/snd_armor_hit_1_MP3",
+  "sounds/snd_big_explosion_1_MP3",
+  "sounds/snd_bomb_fall_1_MP3",
+  "sounds/snd_bomb_fall_2_MP3",
+  "sounds/snd_bomb_fall_3_MP3",
+  "sounds/snd_boss_full_MP3",
+  "sounds/snd_building_collapse_MP3",
+  "sounds/snd_energy_shield_hit_1_MP3",
+  "sounds/snd_energy_shield_hit_2_MP3",
+  "sounds/snd_life_up_1_MP3",
+  "sounds/snd_life_up_2_MP3",
+  "sounds/snd_lose_sting_MP3",
+  "sounds/snd_machine_gun_1_MP3",
+  "sounds/snd_machine_gun_2_MP3",
+  "sounds/snd_machine_gun_3_MP3",
+  "sounds/snd_machine_gun_4_MP3",
+  "sounds/snd_machine_gun_5_MP3",
+  "sounds/snd_missile_launch_woosh_1_MP3",
+  "sounds/snd_missile_launch_woosh_2_MP3",
+  "sounds/snd_power_pickup_1_MP3",
+  "sounds/snd_power_pickup_2_MP3",
+  "sounds/snd_shield_break_MP3",
+  "sounds/snd_small_explosion_MP3",
+  "sounds/snd_stage_MP3",
+  "sounds/snd_train_movement_1_MP3",
+  "sounds/snd_train_movement_2_MP3",
+  "sounds/snd_train_movement_3_MP3",
+  "sounds/snd_turret_cannon_fire_1_MP3",
+  "sounds/snd_turret_cannon_fire_2_MP3",
+  "sounds/snd_turret_cannon_fire_3_MP3",
+  "sounds/snd_vehicle_flight_idle_1_MP3",
+  "sounds/snd_vehicle_flight_idle_2_MP3",
+  "sounds/snd_vehicle_flight_idle_3_MP3",
+  "sounds/snd_vehicle_flight_idle_4_MP3",
+  "sounds/snd_vehicle_flight_moving_1_MP3",
+  "sounds/snd_vehicle_flight_moving_2_MP3",
+  "sounds/snd_vehicle_flight_moving_3_MP3",
+  "sounds/snd_vehicle_flight_moving_4_MP3",
+  "sounds/snd_vehicle_idle_5_MP3",
+  "sounds/snd_vehicle_moving_5_MP3",
+  "sounds/snd_vehicle_upgrade_arcade_MP3",
+  "sounds/snd_vehicle_upgrade_mechanical_MP3",
+  "sounds/snd_weapon_pickup_1_MP3",
+  "sounds/snd_weapon_pickup_2_MP3",
+  "sounds/snd_win_sting_MP3",
+  "tilesets/ts_forest",
+  "tilesets/ts_rail",
+  "tilesets/ts_water",
+]
+
+[assets."sprites/spr_building_1_animated"]
+description = "Small pixel-art building / ground structure, brown-grey tones; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_building_2_animated"]
+description = "Tall reddish pixel-art building with a pointed top; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_building_3_animated"]
+description = "Squat brown pixel-art building; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_building_4_animated"]
+description = "Compact tan pixel-art building; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_building_5_animated"]
+description = "Tall narrow grey pixel-art building; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_building_6_animated"]
+description = "Low wide brown pixel-art structure; 2-frame animation."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:animation" ]
+
+[assets."sprites/spr_buildings_strip"]
+description = "Vertical strip sheet stacking the building sprites in muted browns and greys; single frame."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_cloud_huge"]
+description = "Big fluffy white pixel-art cloud for the scrolling sky backdrop; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_huge_shadow"]
+description = "Dark purple drop-shadow blob matching the huge cloud; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_large"]
+description = "Large puffy white cloud, slightly elongated; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_large_shadow"]
+description = "Dark purple shadow for the large cloud; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_medium"]
+description = "Medium white cloud puff; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_medium_shadow"]
+description = "Dark purple shadow for the medium cloud; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_small"]
+description = "Small white cloud; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_small_shadow"]
+description = "Dark purple shadow for the small cloud; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_tiny"]
+description = "Tiny white cloud wisp; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_tiny_shadow"]
+description = "Tiny dark purple cloud shadow; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_clouds_shadows_strip"]
+description = "Strip of cloud drop-shadows in dark purple at varying sizes; 5-frame sheet."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:animation" ]
+
+[assets."sprites/spr_clouds_strip"]
+description = "Strip of fluffy white clouds at varying sizes for parallax sky; 5-frame sheet."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_car_side"]
+description = "Small grey train car seen from the side; 2-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_car_strip"]
+description = "Strip of grey train-car frames; 4-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_car_updown"]
+description = "Small grey train car oriented vertically (up/down); 2-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_down"]
+description = "Train locomotive facing down; brown-grey pixel art, 2-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_side"]
+description = "Train locomotive facing sideways; brown-grey pixel art, 2-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_strip"]
+description = "Strip of train locomotive directional frames; 6-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_enemy_train_up"]
+description = "Train locomotive facing up; brown-grey pixel art, 2-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:train", "state:animation" ]
+
+[assets."sprites/spr_explosion_big"]
+description = "Large fiery burst explosion, expanding orange-and-grey smoke; 11-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:explosion", "state:animation" ]
+
+[assets."sprites/spr_explosion_small"]
+description = "Small puff explosion, orange flash to grey smoke; 11-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:explosion", "state:animation" ]
+
+[assets."sprites/spr_item_arrowUp"]
+description = "Power-up capsule with a white upward-arrow indicator on top; single frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:powerup", "state:static" ]
+
+[assets."sprites/spr_item_outline"]
+description = "Outline template showing the rounded pickup-capsule silhouettes; single frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:powerup", "state:static" ]
+
+[assets."sprites/spr_item_outline_palette"]
+description = "1px-tall palette swatch row (9 colors) for recoloring item outlines; single frame."
+tags = [ "asset_type:sprite", "role:pickup", "state:static" ]
+
+[assets."sprites/spr_item_shadow"]
+description = "Tiny oval drop-shadow for floating pickups; single frame."
+tags = [ "asset_type:sprite", "role:pickup", "state:static" ]
+
+[assets."sprites/spr_item_strip"]
+description = "Animated power-up capsule cycling through icon/color variants; 9-frame animation."
+tags = [ "asset_type:sprite", "role:pickup", "subject:powerup", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_big_1_strip"]
+description = "Large green twin-prop enemy aircraft, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_big_2_strip"]
+description = "Large green/red multi-engine enemy aircraft, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_big_3_strip"]
+description = "Large green/purple enemy bomber, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_medium_1"]
+description = "Medium yellow-and-grey enemy fighter, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_medium_2"]
+description = "Medium red-and-grey enemy fighter, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_medium_3"]
+description = "Medium purple-and-grey enemy fighter, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_shadow"]
+description = "Small grey aircraft drop-shadow for enemy planes; single frame."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:static" ]
+
+[assets."sprites/spr_plane_enemy_small_1"]
+description = "Small green enemy plane, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_small_2"]
+description = "Small red enemy plane, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_small_3"]
+description = "Small purple enemy plane, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_enemy_turret"]
+description = "Grey rotating gun turret / cannon emplacement, top-down; 8-frame rotation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "state:animation" ]
+
+[assets."sprites/spr_plane_player"]
+description = "Player fighter aircraft, blue-and-white striped fuselage, top-down; 12-frame banking animation."
+tags = [ "asset_type:sprite", "role:player", "subject:aircraft", "state:animation" ]
+
+[assets."sprites/spr_plane_player_shadow"]
+description = "Small grey drop-shadow for the player plane; single frame."
+tags = [ "asset_type:sprite", "role:player", "subject:aircraft", "state:static" ]
+
+[assets."sprites/spr_projectile_bomb_big"]
+description = "Large dropping bomb projectile, red-tipped; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bomb", "state:animation" ]
+
+[assets."sprites/spr_projectile_bomb_small"]
+description = "Small dropping bomb projectile; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bomb", "state:animation" ]
+
+[assets."sprites/spr_projectile_circle_big"]
+description = "Large round energy bullet orb; 4-frame pulse animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "state:animation" ]
+
+[assets."sprites/spr_projectile_circle_small"]
+description = "Small round energy bullet orb; 2-frame pulse animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "state:animation" ]
+
+[assets."sprites/spr_projectile_missile_big"]
+description = "Large guided missile with fins, orange-red; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "state:animation" ]
+
+[assets."sprites/spr_projectile_missile_small"]
+description = "Small guided missile, orange-red; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "state:animation" ]
+
+[assets."sprites/spr_projectile_shot_big"]
+description = "Large blue tracer shot / bolt; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "state:animation" ]
+
+[assets."sprites/spr_projectile_shot_small"]
+description = "Small blue tracer shot / bolt; 2-frame animation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "state:animation" ]
+
+[assets."sprites/spr_shield"]
+description = "Glowing blue circular energy shield bubble around the player; 4-frame shimmer animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:shield", "state:animation" ]
+
+[assets."sprites/spr_tileset_forest"]
+description = "Preview strip of the forest tileset: green foliage with dirt paths; single frame."
+tags = [ "asset_type:sprite", "role:tile", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_tileset_railroad"]
+description = "Preview strip of the railroad tileset: brown sleepers and grey rails; single frame."
+tags = [ "asset_type:sprite", "role:tile", "subject:train", "state:static" ]
+
+[assets."sprites/spr_tileset_water"]
+description = "Preview strip of the water tileset: blue water with sandy shore edges; single frame."
+tags = [ "asset_type:sprite", "role:tile", "subject:water", "state:static" ]
+
+[assets."sprites/spr_ui_font_score_8x8"]
+description = "8x8 pixel bitmap font of digits/score glyphs; 11-frame glyph sheet."
+tags = [ "asset_type:sprite", "role:ui", "projection:ui-icon", "subject:icon", "state:animation" ]
+
+[assets."sprites/spr_ui_font_text_en_8x8"]
+description = "8x8 pixel bitmap font of English letters and characters; 58-frame glyph sheet."
+tags = [ "asset_type:sprite", "role:ui", "projection:ui-icon", "subject:icon", "state:animation" ]
+
+[assets."sprites/spr_ui_icon_health"]
+description = "Small red-and-white health/medical UI icon; single frame."
+tags = [ "asset_type:sprite", "role:ui", "projection:ui-icon", "subject:heart", "state:static" ]
+
+[assets."tilesets/ts_forest"]
+description = "Top-down forest terrain tileset: dense green foliage with winding tan dirt paths."
+tags = [ "asset_type:tileset", "role:terrain", "subject:foliage", "theme:nature" ]
+
+[assets."tilesets/ts_rail"]
+description = "Top-down railroad tileset: grey rails and brown sleepers over dirt for train tracks."
+tags = [ "asset_type:tileset", "role:terrain", "subject:train" ]
+
+[assets."tilesets/ts_water"]
+description = "Top-down water/coast tileset: blue ocean with sandy shoreline and foam edges."
+tags = [ "asset_type:tileset", "role:terrain", "subject:water", "theme:nature" ]
+
+[assets."sounds/snd_ambient_seascape_1_MP3"]
+description = "Looping ocean ambience bed, ~17s — gentle sea atmosphere."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ocean" ]
+
+[assets."sounds/snd_ambient_seascape_2_MP3"]
+description = "Short ocean ambience swell, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ocean" ]
+
+[assets."sounds/snd_ambient_windscape_1_MP3"]
+description = "Looping high-altitude wind ambience bed, ~10.5s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:sky" ]
+
+[assets."sounds/snd_ambient_windscape_2_MP3"]
+description = "Looping wind ambience bed, ~14s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:sky" ]
+
+[assets."sounds/snd_armor_hit_1_MP3"]
+description = "Short metallic armor-hit impact thunk, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/snd_big_explosion_1_MP3"]
+description = "Big booming explosion blast, ~2.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/snd_bomb_fall_1_MP3"]
+description = "Falling bomb whistle, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bomb" ]
+
+[assets."sounds/snd_bomb_fall_2_MP3"]
+description = "Falling bomb whistle variant, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bomb" ]
+
+[assets."sounds/snd_bomb_fall_3_MP3"]
+description = "Short falling bomb whistle, ~0.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bomb" ]
+
+[assets."sounds/snd_boss_full_MP3"]
+description = "Full-length boss-battle music track, ~126s — driving chiptune arcade theme."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/snd_building_collapse_MP3"]
+description = "Rumbling building collapse / debris crash, ~3.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:house" ]
+
+[assets."sounds/snd_energy_shield_hit_1_MP3"]
+description = "Energy shield deflect zap, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/snd_energy_shield_hit_2_MP3"]
+description = "Energy shield deflect zap variant, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/snd_life_up_1_MP3"]
+description = "Cheerful extra-life / life-up chime, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_life_up_2_MP3"]
+description = "Short life-up chime variant, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_lose_sting_MP3"]
+description = "Game-over / defeat musical sting, ~6.9s — descending chiptune jingle."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/snd_machine_gun_1_MP3"]
+description = "Rapid machine-gun fire burst, ~0.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/snd_machine_gun_2_MP3"]
+description = "Tiny machine-gun fire tick, ~0.06s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/snd_machine_gun_3_MP3"]
+description = "Machine-gun fire burst, ~0.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/snd_machine_gun_4_MP3"]
+description = "Short machine-gun fire tick, ~0.09s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/snd_machine_gun_5_MP3"]
+description = "Machine-gun fire burst variant, ~0.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/snd_missile_launch_woosh_1_MP3"]
+description = "Missile launch whoosh, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/snd_missile_launch_woosh_2_MP3"]
+description = "Missile launch whoosh variant, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/snd_power_pickup_1_MP3"]
+description = "Bright power-up collect blip, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_power_pickup_2_MP3"]
+description = "Power-up collect blip variant, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_shield_break_MP3"]
+description = "Shield shatter / break burst, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/snd_small_explosion_MP3"]
+description = "Small explosion pop, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/snd_stage_MP3"]
+description = "Full-length stage / level music track, ~125s — upbeat chiptune arcade theme."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/snd_train_movement_1_MP3"]
+description = "Train chugging / movement loop, ~3.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:train" ]
+
+[assets."sounds/snd_train_movement_2_MP3"]
+description = "Short train movement clack, ~1.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:train" ]
+
+[assets."sounds/snd_train_movement_3_MP3"]
+description = "Train movement loop variant, ~2.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:train" ]
+
+[assets."sounds/snd_turret_cannon_fire_1_MP3"]
+description = "Heavy turret cannon boom, ~2.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/snd_turret_cannon_fire_2_MP3"]
+description = "Turret cannon fire, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/snd_turret_cannon_fire_3_MP3"]
+description = "Short turret cannon fire, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/snd_vehicle_flight_idle_1_MP3"]
+description = "Aircraft engine flight-idle hum, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_idle_2_MP3"]
+description = "Aircraft engine flight-idle hum variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_idle_3_MP3"]
+description = "Aircraft engine flight-idle hum, ~2.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_idle_4_MP3"]
+description = "Aircraft engine flight-idle hum, ~4.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_moving_1_MP3"]
+description = "Aircraft flight engine accelerate, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_moving_2_MP3"]
+description = "Aircraft flight engine moving, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_moving_3_MP3"]
+description = "Aircraft flight engine moving variant, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_flight_moving_4_MP3"]
+description = "Aircraft flight engine moving, ~2.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_idle_5_MP3"]
+description = "Vehicle engine idle hum, ~2.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_moving_5_MP3"]
+description = "Vehicle engine moving rev, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/snd_vehicle_upgrade_arcade_MP3"]
+description = "Arcade-style vehicle upgrade jingle, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_vehicle_upgrade_mechanical_MP3"]
+description = "Mechanical vehicle upgrade / power-up sound, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_weapon_pickup_1_MP3"]
+description = "Weapon pickup collect blip, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_weapon_pickup_2_MP3"]
+description = "Weapon pickup collect blip variant, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/snd_win_sting_MP3"]
+description = "Victory / win musical sting, ~6.4s — triumphant chiptune jingle."
+tags = [ "asset_type:sound", "audio_type:music" ]

@@ -1,0 +1,3958 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_bone_femur"
+sprite = "spr_bone_femur"
+x = 14.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bone_femur_with_stroke"
+sprite = "spr_bone_femur_with_stroke"
+x = 61.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bone_head"
+sprite = "spr_bone_head"
+x = 107.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bone_head_with_stroke"
+sprite = "spr_bone_head_with_stroke"
+x = 154.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bone_rib"
+sprite = "spr_bone_rib"
+x = 201.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bone_rib_with_stroke"
+sprite = "spr_bone_rib_with_stroke"
+x = 247.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_blue"
+sprite = "spr_book_blue"
+x = 294.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_blue_with_stroke"
+sprite = "spr_book_blue_with_stroke"
+x = 341.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_cyan"
+sprite = "spr_book_cyan"
+x = 387.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_cyan_with_stroke"
+sprite = "spr_book_cyan_with_stroke"
+x = 434.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_green"
+sprite = "spr_book_green"
+x = 481.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_green_with_stroke"
+sprite = "spr_book_green_with_stroke"
+x = 527.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_orange"
+sprite = "spr_book_orange"
+x = 574.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_orange_with_stroke"
+sprite = "spr_book_orange_with_stroke"
+x = 621.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_pink"
+sprite = "spr_book_pink"
+x = 667.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_pink_with_stroke"
+sprite = "spr_book_pink_with_stroke"
+x = 714.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_purple"
+sprite = "spr_book_purple"
+x = 761.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_purple_with_stroke"
+sprite = "spr_book_purple_with_stroke"
+x = 807.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_red"
+sprite = "spr_book_red"
+x = 854.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_red_with_stroke"
+sprite = "spr_book_red_with_stroke"
+x = 901.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_yellow"
+sprite = "spr_book_yellow"
+x = 947.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_book_yellow_with_stroke"
+sprite = "spr_book_yellow_with_stroke"
+x = 994.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_blue"
+sprite = "spr_bookopen_blue"
+x = 1041.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_blue_with_stroke"
+sprite = "spr_bookopen_blue_with_stroke"
+x = 1087.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_cyan"
+sprite = "spr_bookopen_cyan"
+x = 1134.3
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_cyan_with_stroke"
+sprite = "spr_bookopen_cyan_with_stroke"
+x = 1181.0
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_green"
+sprite = "spr_bookopen_green"
+x = 1227.7
+y = 14.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_green_with_stroke"
+sprite = "spr_bookopen_green_with_stroke"
+x = 14.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_orange"
+sprite = "spr_bookopen_orange"
+x = 61.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_orange_with_stroke"
+sprite = "spr_bookopen_orange_with_stroke"
+x = 107.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_pink"
+sprite = "spr_bookopen_pink"
+x = 154.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_pink_with_stroke"
+sprite = "spr_bookopen_pink_with_stroke"
+x = 201.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_purple"
+sprite = "spr_bookopen_purple"
+x = 247.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_purple_with_stroke"
+sprite = "spr_bookopen_purple_with_stroke"
+x = 294.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_red"
+sprite = "spr_bookopen_red"
+x = 341.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_red_with_stroke"
+sprite = "spr_bookopen_red_with_stroke"
+x = 387.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_yellow"
+sprite = "spr_bookopen_yellow"
+x = 434.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bookopen_yellow_with_stroke"
+sprite = "spr_bookopen_yellow_with_stroke"
+x = 481.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden"
+sprite = "spr_chest_golden"
+x = 527.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden_open"
+sprite = "spr_chest_golden_open"
+x = 574.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden_open_fx"
+sprite = "spr_chest_golden_open_fx"
+x = 621.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden_open_fx_with_stroke"
+sprite = "spr_chest_golden_open_fx_with_stroke"
+x = 667.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden_open_with_stroke"
+sprite = "spr_chest_golden_open_with_stroke"
+x = 714.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_golden_with_stroke"
+sprite = "spr_chest_golden_with_stroke"
+x = 761.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver"
+sprite = "spr_chest_silver"
+x = 807.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver_open"
+sprite = "spr_chest_silver_open"
+x = 854.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver_open_fx"
+sprite = "spr_chest_silver_open_fx"
+x = 901.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver_open_fx_with_stroke"
+sprite = "spr_chest_silver_open_fx_with_stroke"
+x = 947.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver_open_with_stroke"
+sprite = "spr_chest_silver_open_with_stroke"
+x = 994.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_silver_with_stroke"
+sprite = "spr_chest_silver_with_stroke"
+x = 1041.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden"
+sprite = "spr_chest_wooden"
+x = 1087.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden_open"
+sprite = "spr_chest_wooden_open"
+x = 1134.3
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden_open_fx"
+sprite = "spr_chest_wooden_open_fx"
+x = 1181.0
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden_open_fx_with_stroke"
+sprite = "spr_chest_wooden_open_fx_with_stroke"
+x = 1227.7
+y = 58.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden_open_with_stroke"
+sprite = "spr_chest_wooden_open_with_stroke"
+x = 14.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chest_wooden_with_stroke"
+sprite = "spr_chest_wooden_with_stroke"
+x = 61.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_clock"
+sprite = "spr_clock"
+x = 107.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_clock_with_stroke"
+sprite = "spr_clock_with_stroke"
+x = 154.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_copper"
+sprite = "spr_coin_copper"
+x = 201.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_copper_with_stroke"
+sprite = "spr_coin_copper_with_stroke"
+x = 247.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_gold"
+sprite = "spr_coin_gold"
+x = 294.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_gold_with_stroke"
+sprite = "spr_coin_gold_with_stroke"
+x = 341.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_silver"
+sprite = "spr_coin_silver"
+x = 387.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_coin_silver_with_stroke"
+sprite = "spr_coin_silver_with_stroke"
+x = 434.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_glass"
+sprite = "spr_containersbottle_glass"
+x = 481.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_glass_with_stroke"
+sprite = "spr_containersbottle_glass_with_stroke"
+x = 527.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_jar"
+sprite = "spr_containersbottle_jar"
+x = 574.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_jar_with_stroke"
+sprite = "spr_containersbottle_jar_with_stroke"
+x = 621.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_tincan"
+sprite = "spr_containersbottle_tincan"
+x = 667.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_containersbottle_tincan_with_stroke"
+sprite = "spr_containersbottle_tincan_with_stroke"
+x = 714.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_big"
+sprite = "spr_crates_big"
+x = 761.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_big_02"
+sprite = "spr_crates_big_02"
+x = 807.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_big_02_with_stroke"
+sprite = "spr_crates_big_02_with_stroke"
+x = 854.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_big_with_stroke"
+sprite = "spr_crates_big_with_stroke"
+x = 901.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_mid"
+sprite = "spr_crates_mid"
+x = 947.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_mid_with_stroke"
+sprite = "spr_crates_mid_with_stroke"
+x = 994.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_small"
+sprite = "spr_crates_small"
+x = 1041.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crates_small_with_stroke"
+sprite = "spr_crates_small_with_stroke"
+x = 1087.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_chopstick"
+sprite = "spr_cutlery_chopstick"
+x = 1134.3
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_chopstick_with_stroke"
+sprite = "spr_cutlery_chopstick_with_stroke"
+x = 1181.0
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_knife"
+sprite = "spr_cutlery_knife"
+x = 1227.7
+y = 101.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_knife_with_stroke"
+sprite = "spr_cutlery_knife_with_stroke"
+x = 14.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_spoon"
+sprite = "spr_cutlery_spoon"
+x = 61.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_spoon_with_stroke"
+sprite = "spr_cutlery_spoon_with_stroke"
+x = 107.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_table_spoon"
+sprite = "spr_cutlery_table_spoon"
+x = 154.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cutlery_table_spoon_with_stroke"
+sprite = "spr_cutlery_table_spoon_with_stroke"
+x = 201.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatback_bone_femur"
+sprite = "spr_flatback_bone_femur"
+x = 247.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bone_head"
+sprite = "spr_flatblack_bone_head"
+x = 294.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bone_pile"
+sprite = "spr_flatblack_bone_pile"
+x = 341.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bone_rib"
+sprite = "spr_flatblack_bone_rib"
+x = 387.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_book"
+sprite = "spr_flatblack_book"
+x = 434.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bookopen"
+sprite = "spr_flatblack_bookopen"
+x = 481.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_chest"
+sprite = "spr_flatblack_chest"
+x = 527.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_chest_open"
+sprite = "spr_flatblack_chest_open"
+x = 574.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_clock"
+sprite = "spr_flatblack_clock"
+x = 621.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_coin"
+sprite = "spr_flatblack_coin"
+x = 667.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_containersbottle_glass"
+sprite = "spr_flatblack_containersbottle_glass"
+x = 714.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_containersbottle_jar"
+sprite = "spr_flatblack_containersbottle_jar"
+x = 761.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_containersbottle_tincan"
+sprite = "spr_flatblack_containersbottle_tincan"
+x = 807.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_crates_big"
+sprite = "spr_flatblack_crates_big"
+x = 854.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_crates_mid"
+sprite = "spr_flatblack_crates_mid"
+x = 901.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_crates_small"
+sprite = "spr_flatblack_crates_small"
+x = 947.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_cup"
+sprite = "spr_flatblack_cup"
+x = 994.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_cutlery_chopstick"
+sprite = "spr_flatblack_cutlery_chopstick"
+x = 1041.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_cutlery_knife"
+sprite = "spr_flatblack_cutlery_knife"
+x = 1087.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_cutlery_spoon"
+sprite = "spr_flatblack_cutlery_spoon"
+x = 1134.3
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_cutlery_table_spoon"
+sprite = "spr_flatblack_cutlery_table_spoon"
+x = 1181.0
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gadget_alchemy"
+sprite = "spr_flatblack_gadget_alchemy"
+x = 1227.7
+y = 145.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gadget_runic"
+sprite = "spr_flatblack_gadget_runic"
+x = 14.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gadget_vinci"
+sprite = "spr_flatblack_gadget_vinci"
+x = 61.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gem"
+sprite = "spr_flatblack_gem"
+x = 107.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gift_box"
+sprite = "spr_flatblack_gift_box"
+x = 154.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gift_box_open"
+sprite = "spr_flatblack_gift_box_open"
+x = 201.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_hand"
+sprite = "spr_flatblack_hand"
+x = 247.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_heart"
+sprite = "spr_flatblack_heart"
+x = 294.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_hour_glass_01"
+sprite = "spr_flatblack_hour_glass_01"
+x = 341.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_key"
+sprite = "spr_flatblack_key"
+x = 387.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_lock"
+sprite = "spr_flatblack_lock"
+x = 434.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_lock_open"
+sprite = "spr_flatblack_lock_open"
+x = 481.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_minerals_coal"
+sprite = "spr_flatblack_minerals_coal"
+x = 527.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_minerals_copper"
+sprite = "spr_flatblack_minerals_copper"
+x = 574.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_minerals_gold"
+sprite = "spr_flatblack_minerals_gold"
+x = 621.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_minerals_gold_bar"
+sprite = "spr_flatblack_minerals_gold_bar"
+x = 667.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_minerals_iron"
+sprite = "spr_flatblack_minerals_iron"
+x = 714.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plant_01"
+sprite = "spr_flatblack_plant_01"
+x = 761.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plant_02"
+sprite = "spr_flatblack_plant_02"
+x = 807.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plant_03"
+sprite = "spr_flatblack_plant_03"
+x = 854.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plant_04"
+sprite = "spr_flatblack_plant_04"
+x = 901.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plant_05"
+sprite = "spr_flatblack_plant_05"
+x = 947.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plates_bowl"
+sprite = "spr_flatblack_plates_bowl"
+x = 994.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plates_cup"
+sprite = "spr_flatblack_plates_cup"
+x = 1041.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plates_cup_coffee"
+sprite = "spr_flatblack_plates_cup_coffee"
+x = 1087.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plates_dinner"
+sprite = "spr_flatblack_plates_dinner"
+x = 1134.3
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plates_saucer"
+sprite = "spr_flatblack_plates_saucer"
+x = 1181.0
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_potion"
+sprite = "spr_flatblack_potion"
+x = 1227.7
+y = 188.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_potion_testtube"
+sprite = "spr_flatblack_potion_testtube"
+x = 14.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_rosette"
+sprite = "spr_flatblack_rosette"
+x = 61.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sack"
+sprite = "spr_flatblack_sack"
+x = 107.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_satchel"
+sprite = "spr_flatblack_satchel"
+x = 154.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_satchel_heavy"
+sprite = "spr_flatblack_satchel_heavy"
+x = 201.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_scroll_close"
+sprite = "spr_flatblack_scroll_close"
+x = 247.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_scroll_open"
+sprite = "spr_flatblack_scroll_open"
+x = 294.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sign"
+sprite = "spr_flatblack_sign"
+x = 341.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_tools_hammer"
+sprite = "spr_flatblack_tools_hammer"
+x = 387.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_tools_pickaxe"
+sprite = "spr_flatblack_tools_pickaxe"
+x = 434.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_tools_saw"
+sprite = "spr_flatblack_tools_saw"
+x = 481.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_tools_spanner"
+sprite = "spr_flatblack_tools_spanner"
+x = 527.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_trophy"
+sprite = "spr_flatblack_trophy"
+x = 574.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bone_femur"
+sprite = "spr_flatwhite_bone_femur"
+x = 621.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bone_head"
+sprite = "spr_flatwhite_bone_head"
+x = 667.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bone_pile"
+sprite = "spr_flatwhite_bone_pile"
+x = 714.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bone_rib"
+sprite = "spr_flatwhite_bone_rib"
+x = 761.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_book"
+sprite = "spr_flatwhite_book"
+x = 807.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bookopen"
+sprite = "spr_flatwhite_bookopen"
+x = 854.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_chest"
+sprite = "spr_flatwhite_chest"
+x = 901.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_chest_open"
+sprite = "spr_flatwhite_chest_open"
+x = 947.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_clock"
+sprite = "spr_flatwhite_clock"
+x = 994.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_coin"
+sprite = "spr_flatwhite_coin"
+x = 1041.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_containersbottle_glass"
+sprite = "spr_flatwhite_containersbottle_glass"
+x = 1087.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_containersbottle_jar"
+sprite = "spr_flatwhite_containersbottle_jar"
+x = 1134.3
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_containersbottle_tincan"
+sprite = "spr_flatwhite_containersbottle_tincan"
+x = 1181.0
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_crates_big"
+sprite = "spr_flatwhite_crates_big"
+x = 1227.7
+y = 232.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_crates_mid"
+sprite = "spr_flatwhite_crates_mid"
+x = 14.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_crates_small"
+sprite = "spr_flatwhite_crates_small"
+x = 61.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_cup"
+sprite = "spr_flatwhite_cup"
+x = 107.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_cutlery_chopstick"
+sprite = "spr_flatwhite_cutlery_chopstick"
+x = 154.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_cutlery_knife"
+sprite = "spr_flatwhite_cutlery_knife"
+x = 201.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_cutlery_spoon"
+sprite = "spr_flatwhite_cutlery_spoon"
+x = 247.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_cutlery_table_spoon"
+sprite = "spr_flatwhite_cutlery_table_spoon"
+x = 294.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gadget_alchemy"
+sprite = "spr_flatwhite_gadget_alchemy"
+x = 341.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gadget_runic"
+sprite = "spr_flatwhite_gadget_runic"
+x = 387.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gadget_vinci"
+sprite = "spr_flatwhite_gadget_vinci"
+x = 434.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gem"
+sprite = "spr_flatwhite_gem"
+x = 481.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gift_box"
+sprite = "spr_flatwhite_gift_box"
+x = 527.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gift_box_open"
+sprite = "spr_flatwhite_gift_box_open"
+x = 574.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_hand"
+sprite = "spr_flatwhite_hand"
+x = 621.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_heart"
+sprite = "spr_flatwhite_heart"
+x = 667.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_hour_glass_01"
+sprite = "spr_flatwhite_hour_glass_01"
+x = 714.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_key"
+sprite = "spr_flatwhite_key"
+x = 761.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_lock"
+sprite = "spr_flatwhite_lock"
+x = 807.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_lock_open"
+sprite = "spr_flatwhite_lock_open"
+x = 854.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_minerals_coal"
+sprite = "spr_flatwhite_minerals_coal"
+x = 901.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_minerals_copper"
+sprite = "spr_flatwhite_minerals_copper"
+x = 947.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_minerals_gold"
+sprite = "spr_flatwhite_minerals_gold"
+x = 994.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_minerals_gold_bar"
+sprite = "spr_flatwhite_minerals_gold_bar"
+x = 1041.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_minerals_iron"
+sprite = "spr_flatwhite_minerals_iron"
+x = 1087.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plant_01"
+sprite = "spr_flatwhite_plant_01"
+x = 1134.3
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plant_02"
+sprite = "spr_flatwhite_plant_02"
+x = 1181.0
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plant_03"
+sprite = "spr_flatwhite_plant_03"
+x = 1227.7
+y = 275.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plant_04"
+sprite = "spr_flatwhite_plant_04"
+x = 14.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plant_05"
+sprite = "spr_flatwhite_plant_05"
+x = 61.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plates_bowl"
+sprite = "spr_flatwhite_plates_bowl"
+x = 107.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plates_cup"
+sprite = "spr_flatwhite_plates_cup"
+x = 154.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plates_cup_coffee"
+sprite = "spr_flatwhite_plates_cup_coffee"
+x = 201.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plates_dinner"
+sprite = "spr_flatwhite_plates_dinner"
+x = 247.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plates_saucer"
+sprite = "spr_flatwhite_plates_saucer"
+x = 294.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_potion"
+sprite = "spr_flatwhite_potion"
+x = 341.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_potion_testtube"
+sprite = "spr_flatwhite_potion_testtube"
+x = 387.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_rosette"
+sprite = "spr_flatwhite_rosette"
+x = 434.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sack"
+sprite = "spr_flatwhite_sack"
+x = 481.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_satchel"
+sprite = "spr_flatwhite_satchel"
+x = 527.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_satchel_heavy"
+sprite = "spr_flatwhite_satchel_heavy"
+x = 574.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_scroll_close"
+sprite = "spr_flatwhite_scroll_close"
+x = 621.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_scroll_open"
+sprite = "spr_flatwhite_scroll_open"
+x = 667.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sign"
+sprite = "spr_flatwhite_sign"
+x = 714.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_tools_hammer"
+sprite = "spr_flatwhite_tools_hammer"
+x = 761.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_tools_pickaxe"
+sprite = "spr_flatwhite_tools_pickaxe"
+x = 807.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_tools_saw"
+sprite = "spr_flatwhite_tools_saw"
+x = 854.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_tools_spanner"
+sprite = "spr_flatwhite_tools_spanner"
+x = 901.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_trophy"
+sprite = "spr_flatwhite_trophy"
+x = 947.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_alchemy"
+sprite = "spr_gadget_alchemy"
+x = 994.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_alchemy_with_stroke"
+sprite = "spr_gadget_alchemy_with_stroke"
+x = 1041.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_runic"
+sprite = "spr_gadget_runic"
+x = 1087.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_runic_with_stroke"
+sprite = "spr_gadget_runic_with_stroke"
+x = 1134.3
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_vinci"
+sprite = "spr_gadget_vinci"
+x = 1181.0
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gadget_vinci_with_stroke"
+sprite = "spr_gadget_vinci_with_stroke"
+x = 1227.7
+y = 319.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_blue"
+sprite = "spr_gem_blue"
+x = 14.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_blue_with_stroke"
+sprite = "spr_gem_blue_with_stroke"
+x = 61.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_cyan"
+sprite = "spr_gem_cyan"
+x = 107.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_cyan_with_stroke"
+sprite = "spr_gem_cyan_with_stroke"
+x = 154.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_green"
+sprite = "spr_gem_green"
+x = 201.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_green_with_stroke"
+sprite = "spr_gem_green_with_stroke"
+x = 247.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_orange"
+sprite = "spr_gem_orange"
+x = 294.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_orange_with_stroke"
+sprite = "spr_gem_orange_with_stroke"
+x = 341.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_pink"
+sprite = "spr_gem_pink"
+x = 387.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_pink_with_stroke"
+sprite = "spr_gem_pink_with_stroke"
+x = 434.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_purple"
+sprite = "spr_gem_purple"
+x = 481.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_purple_with_stroke"
+sprite = "spr_gem_purple_with_stroke"
+x = 527.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_red"
+sprite = "spr_gem_red"
+x = 574.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_red_with_stroke"
+sprite = "spr_gem_red_with_stroke"
+x = 621.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_yellow"
+sprite = "spr_gem_yellow"
+x = 667.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gem_yellow_with_stroke"
+sprite = "spr_gem_yellow_with_stroke"
+x = 714.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gift_box"
+sprite = "spr_gift_box"
+x = 761.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gift_box_open"
+sprite = "spr_gift_box_open"
+x = 807.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gift_box_open_with_stroke"
+sprite = "spr_gift_box_open_with_stroke"
+x = 854.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gift_box_with_stroke"
+sprite = "spr_gift_box_with_stroke"
+x = 901.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand"
+sprite = "spr_hand"
+x = 947.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand_with_stroke"
+sprite = "spr_hand_with_stroke"
+x = 994.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_heart"
+sprite = "spr_heart"
+x = 1041.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_heart_with_stroke"
+sprite = "spr_heart_with_stroke"
+x = 1087.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_01"
+sprite = "spr_hour_glass_01"
+x = 1134.3
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_01_with_stroke"
+sprite = "spr_hour_glass_01_with_stroke"
+x = 1181.0
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_02"
+sprite = "spr_hour_glass_02"
+x = 1227.7
+y = 362.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_02_with_stroke"
+sprite = "spr_hour_glass_02_with_stroke"
+x = 14.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_03"
+sprite = "spr_hour_glass_03"
+x = 61.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hour_glass_03_with_stroke"
+sprite = "spr_hour_glass_03_with_stroke"
+x = 107.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_bronze"
+sprite = "spr_key_bronze"
+x = 154.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_bronze_with_stroke"
+sprite = "spr_key_bronze_with_stroke"
+x = 201.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_gold"
+sprite = "spr_key_gold"
+x = 247.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_gold_with_stroke"
+sprite = "spr_key_gold_with_stroke"
+x = 294.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_silver"
+sprite = "spr_key_silver"
+x = 341.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_key_silver_with_stroke"
+sprite = "spr_key_silver_with_stroke"
+x = 387.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_bronze"
+sprite = "spr_lock_bronze"
+x = 434.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_bronze_with_stroke"
+sprite = "spr_lock_bronze_with_stroke"
+x = 481.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_gold"
+sprite = "spr_lock_gold"
+x = 527.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_gold_with_stroke"
+sprite = "spr_lock_gold_with_stroke"
+x = 574.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_open_bronze"
+sprite = "spr_lock_open_bronze"
+x = 621.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_open_bronze_with_stroke"
+sprite = "spr_lock_open_bronze_with_stroke"
+x = 667.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_open_golden"
+sprite = "spr_lock_open_golden"
+x = 714.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_open_golden_with_stroke"
+sprite = "spr_lock_open_golden_with_stroke"
+x = 761.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_silver"
+sprite = "spr_lock_silver"
+x = 807.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_silver_open"
+sprite = "spr_lock_silver_open"
+x = 854.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_silver_open_with_stroke"
+sprite = "spr_lock_silver_open_with_stroke"
+x = 901.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lock_silver_with_stroke"
+sprite = "spr_lock_silver_with_stroke"
+x = 947.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal"
+sprite = "spr_minerals_coal"
+x = 994.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal_bar"
+sprite = "spr_minerals_coal_bar"
+x = 1041.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal_bar_hot"
+sprite = "spr_minerals_coal_bar_hot"
+x = 1087.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal_bar_hot_with_stroke"
+sprite = "spr_minerals_coal_bar_hot_with_stroke"
+x = 1134.3
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal_bar_with_stroke"
+sprite = "spr_minerals_coal_bar_with_stroke"
+x = 1181.0
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_coal_with_stroke"
+sprite = "spr_minerals_coal_with_stroke"
+x = 1227.7
+y = 406.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_copper"
+sprite = "spr_minerals_copper"
+x = 14.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_copper_bar"
+sprite = "spr_minerals_copper_bar"
+x = 61.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_copper_bar_with_stroke"
+sprite = "spr_minerals_copper_bar_with_stroke"
+x = 107.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_copper_with_stroke"
+sprite = "spr_minerals_copper_with_stroke"
+x = 154.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_gold"
+sprite = "spr_minerals_gold"
+x = 201.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_gold_bar"
+sprite = "spr_minerals_gold_bar"
+x = 247.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_gold_bar_with_stroke"
+sprite = "spr_minerals_gold_bar_with_stroke"
+x = 294.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_gold_with_stroke"
+sprite = "spr_minerals_gold_with_stroke"
+x = 341.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_iron"
+sprite = "spr_minerals_iron"
+x = 387.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_iron_bar"
+sprite = "spr_minerals_iron_bar"
+x = 434.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_iron_bar_with_stroke"
+sprite = "spr_minerals_iron_bar_with_stroke"
+x = 481.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_minerals_iron_with_stroke"
+sprite = "spr_minerals_iron_with_stroke"
+x = 527.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_01"
+sprite = "spr_plant_01"
+x = 574.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_01_with_stroke"
+sprite = "spr_plant_01_with_stroke"
+x = 621.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_02"
+sprite = "spr_plant_02"
+x = 667.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_02_with_stroke"
+sprite = "spr_plant_02_with_stroke"
+x = 714.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_03"
+sprite = "spr_plant_03"
+x = 761.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_03_with_stroke"
+sprite = "spr_plant_03_with_stroke"
+x = 807.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_04"
+sprite = "spr_plant_04"
+x = 854.3
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_04_with_stroke"
+sprite = "spr_plant_04_with_stroke"
+x = 901.0
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_05"
+sprite = "spr_plant_05"
+x = 947.7
+y = 449.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plant_05_with_stroke"
+sprite = "spr_plant_05_with_stroke"
+x = 14.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plants_with_stroke"
+sprite = "spr_plants_with_stroke"
+x = 61.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_bowl"
+sprite = "spr_plates_bowl"
+x = 107.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_bowl_with_stroke"
+sprite = "spr_plates_bowl_with_stroke"
+x = 154.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_cup"
+sprite = "spr_plates_cup"
+x = 201.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_cup_coffee"
+sprite = "spr_plates_cup_coffee"
+x = 247.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_cup_coffee_with_stroke"
+sprite = "spr_plates_cup_coffee_with_stroke"
+x = 294.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_cup_with_stroke"
+sprite = "spr_plates_cup_with_stroke"
+x = 341.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_dinner"
+sprite = "spr_plates_dinner"
+x = 387.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_dinner_with_stroke"
+sprite = "spr_plates_dinner_with_stroke"
+x = 434.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_saucer"
+sprite = "spr_plates_saucer"
+x = 481.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plates_saucer_with_stroke"
+sprite = "spr_plates_saucer_with_stroke"
+x = 527.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_blue"
+sprite = "spr_potion_blue"
+x = 574.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_blue_with_stroke"
+sprite = "spr_potion_blue_with_stroke"
+x = 621.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_cyan"
+sprite = "spr_potion_cyan"
+x = 667.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_cyan_with_stroke"
+sprite = "spr_potion_cyan_with_stroke"
+x = 714.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_green"
+sprite = "spr_potion_green"
+x = 761.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_green_with_stroke"
+sprite = "spr_potion_green_with_stroke"
+x = 807.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_orange"
+sprite = "spr_potion_orange"
+x = 854.3
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_orange_with_stroke"
+sprite = "spr_potion_orange_with_stroke"
+x = 901.0
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_pink"
+sprite = "spr_potion_pink"
+x = 947.7
+y = 493.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_pink_with_stroke"
+sprite = "spr_potion_pink_with_stroke"
+x = 14.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_purple"
+sprite = "spr_potion_purple"
+x = 61.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_purple_with_stroke"
+sprite = "spr_potion_purple_with_stroke"
+x = 107.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_red"
+sprite = "spr_potion_red"
+x = 154.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_red_with_stroke"
+sprite = "spr_potion_red_with_stroke"
+x = 201.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_blue"
+sprite = "spr_potion_testtube_blue"
+x = 247.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_blue_with_stroke"
+sprite = "spr_potion_testtube_blue_with_stroke"
+x = 294.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_cyan"
+sprite = "spr_potion_testtube_cyan"
+x = 341.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_cyan_with_stroke"
+sprite = "spr_potion_testtube_cyan_with_stroke"
+x = 387.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_green"
+sprite = "spr_potion_testtube_green"
+x = 434.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_green_with_stroke"
+sprite = "spr_potion_testtube_green_with_stroke"
+x = 481.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_orange"
+sprite = "spr_potion_testtube_orange"
+x = 527.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_orange_with_stroke"
+sprite = "spr_potion_testtube_orange_with_stroke"
+x = 574.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_pink"
+sprite = "spr_potion_testtube_pink"
+x = 621.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_pink_with_stroke"
+sprite = "spr_potion_testtube_pink_with_stroke"
+x = 667.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_purple"
+sprite = "spr_potion_testtube_purple"
+x = 714.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_purple_with_stroke"
+sprite = "spr_potion_testtube_purple_with_stroke"
+x = 761.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_red"
+sprite = "spr_potion_testtube_red"
+x = 807.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_red_with_stroke"
+sprite = "spr_potion_testtube_red_with_stroke"
+x = 854.3
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_yellow"
+sprite = "spr_potion_testtube_yellow"
+x = 901.0
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_testtube_yellow_with_stroke"
+sprite = "spr_potion_testtube_yellow_with_stroke"
+x = 947.7
+y = 536.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_yellow"
+sprite = "spr_potion_yellow"
+x = 14.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_potion_yellow_with_stroke"
+sprite = "spr_potion_yellow_with_stroke"
+x = 61.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rosette_blue"
+sprite = "spr_rosette_blue"
+x = 107.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rosette_blue_with_stroke"
+sprite = "spr_rosette_blue_with_stroke"
+x = 154.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rosette_yellow"
+sprite = "spr_rosette_yellow"
+x = 201.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rosette_yellow_with_stroke"
+sprite = "spr_rosette_yellow_with_stroke"
+x = 247.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_cyan"
+sprite = "spr_rossette_cyan"
+x = 294.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_cyan_with_stroke"
+sprite = "spr_rossette_cyan_with_stroke"
+x = 341.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_green"
+sprite = "spr_rossette_green"
+x = 387.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_green_with_stroke"
+sprite = "spr_rossette_green_with_stroke"
+x = 434.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_orange"
+sprite = "spr_rossette_orange"
+x = 481.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_orange_with_stroke"
+sprite = "spr_rossette_orange_with_stroke"
+x = 527.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_pink"
+sprite = "spr_rossette_pink"
+x = 574.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_pink_with_stroke"
+sprite = "spr_rossette_pink_with_stroke"
+x = 621.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_purple"
+sprite = "spr_rossette_purple"
+x = 667.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_purple_with_stroke"
+sprite = "spr_rossette_purple_with_stroke"
+x = 714.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_red"
+sprite = "spr_rossette_red"
+x = 761.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rossette_red_with_stroke"
+sprite = "spr_rossette_red_with_stroke"
+x = 807.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sack"
+sprite = "spr_sack"
+x = 854.3
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sack_with_stroke"
+sprite = "spr_sack_with_stroke"
+x = 901.0
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_satchel"
+sprite = "spr_satchel"
+x = 947.7
+y = 580.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_satchel_heavy"
+sprite = "spr_satchel_heavy"
+x = 14.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_satchel_heavy_with_stroke"
+sprite = "spr_satchel_heavy_with_stroke"
+x = 61.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_satchel_with_stroke"
+sprite = "spr_satchel_with_stroke"
+x = 107.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close"
+sprite = "spr_scroll_close"
+x = 154.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed"
+sprite = "spr_scroll_close_sealed"
+x = 201.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_blue"
+sprite = "spr_scroll_close_sealed_blue"
+x = 247.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_blue_with_stroke"
+sprite = "spr_scroll_close_sealed_blue_with_stroke"
+x = 294.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_cyan"
+sprite = "spr_scroll_close_sealed_cyan"
+x = 341.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_cyan_with_stroke"
+sprite = "spr_scroll_close_sealed_cyan_with_stroke"
+x = 387.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_green"
+sprite = "spr_scroll_close_sealed_green"
+x = 434.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_green_with_stroke"
+sprite = "spr_scroll_close_sealed_green_with_stroke"
+x = 481.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_orange"
+sprite = "spr_scroll_close_sealed_orange"
+x = 527.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_orange_with_stroke"
+sprite = "spr_scroll_close_sealed_orange_with_stroke"
+x = 574.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_pink"
+sprite = "spr_scroll_close_sealed_pink"
+x = 621.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_pink_with_stroke"
+sprite = "spr_scroll_close_sealed_pink_with_stroke"
+x = 667.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_purple"
+sprite = "spr_scroll_close_sealed_purple"
+x = 714.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_purple_with_stroke"
+sprite = "spr_scroll_close_sealed_purple_with_stroke"
+x = 761.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_with_stroke"
+sprite = "spr_scroll_close_sealed_with_stroke"
+x = 807.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_yellow"
+sprite = "spr_scroll_close_sealed_yellow"
+x = 854.3
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_sealed_yellow_with_stroke"
+sprite = "spr_scroll_close_sealed_yellow_with_stroke"
+x = 901.0
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_close_with_stroke"
+sprite = "spr_scroll_close_with_stroke"
+x = 947.7
+y = 623.8
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_open"
+sprite = "spr_scroll_open"
+x = 14.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_scroll_open_with_stroke"
+sprite = "spr_scroll_open_with_stroke"
+x = 61.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_shadow"
+sprite = "spr_shadow"
+x = 107.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_shadow_with_stroke"
+sprite = "spr_shadow_with_stroke"
+x = 154.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sign_question"
+sprite = "spr_sign_question"
+x = 201.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sign_with_stroke"
+sprite = "spr_sign_with_stroke"
+x = 247.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_hammer"
+sprite = "spr_tools_hammer"
+x = 294.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_hammer_with_stroke"
+sprite = "spr_tools_hammer_with_stroke"
+x = 341.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_pickaxe"
+sprite = "spr_tools_pickaxe"
+x = 387.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_pickaxe_with_stroke"
+sprite = "spr_tools_pickaxe_with_stroke"
+x = 434.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_saw"
+sprite = "spr_tools_saw"
+x = 481.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_saw_with_stroke"
+sprite = "spr_tools_saw_with_stroke"
+x = 527.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_spanner"
+sprite = "spr_tools_spanner"
+x = 574.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tools_spanner_with_stroke"
+sprite = "spr_tools_spanner_with_stroke"
+x = 621.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_bronze"
+sprite = "spr_trophy_bronze"
+x = 667.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_bronze_with_stroke"
+sprite = "spr_trophy_bronze_with_stroke"
+x = 714.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_gold"
+sprite = "spr_trophy_gold"
+x = 761.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_gold_with_stroke"
+sprite = "spr_trophy_gold_with_stroke"
+x = 807.7
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_silver"
+sprite = "spr_trophy_silver"
+x = 854.3
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_trophy_silver_with_stroke"
+sprite = "spr_trophy_silver_with_stroke"
+x = 901.0
+y = 667.2
+scale_x = 0.19
+scale_y = 0.19
+rotation = 0.0
+colour = "#FFFFFFFF"
+

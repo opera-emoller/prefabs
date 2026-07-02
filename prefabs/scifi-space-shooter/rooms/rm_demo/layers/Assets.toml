@@ -1,0 +1,1058 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_sprBackground1"
+sprite = "sprBackground1"
+x = 36.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground2"
+sprite = "sprBackground2"
+x = 126.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground3"
+sprite = "sprBackground3"
+x = 216.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground4"
+sprite = "sprBackground4"
+x = 306.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground5"
+sprite = "sprBackground5"
+x = 396.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground6"
+sprite = "sprBackground6"
+x = 486.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground7"
+sprite = "sprBackground7"
+x = 576.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground8"
+sprite = "sprBackground8"
+x = 666.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBackground9"
+sprite = "sprBackground9"
+x = 756.5
+y = 17.8
+scale_x = 0.03424
+scale_y = 0.03424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyLaserAnim"
+sprite = "sprEnemyLaserAnim"
+x = 846.2
+y = 17.8
+scale_x = 0.21342
+scale_y = 0.21342
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyLaserEmit"
+sprite = "sprEnemyLaserEmit"
+x = 922.1
+y = 20.6
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyMissileAnim"
+sprite = "sprEnemyMissileAnim"
+x = 1026.2
+y = 17.8
+scale_x = 0.21342
+scale_y = 0.21342
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyMissileEmit"
+sprite = "sprEnemyMissileEmit"
+x = 1102.1
+y = 20.6
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyPlasmaAnim"
+sprite = "sprEnemyPlasmaAnim"
+x = 1206.2
+y = 17.8
+scale_x = 0.21342
+scale_y = 0.21342
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyPlasmaEmit"
+sprite = "sprEnemyPlasmaEmit"
+x = 22.1
+y = 98.0
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Base"
+sprite = "sprEnemyShip1_Base"
+x = 112.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Base_Tilt"
+sprite = "sprEnemyShip1_Base_Tilt"
+x = 202.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Base_Tilt2"
+sprite = "sprEnemyShip1_Base_Tilt2"
+x = 292.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Upgraded"
+sprite = "sprEnemyShip1_Upgraded"
+x = 382.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Upgraded_Tilt"
+sprite = "sprEnemyShip1_Upgraded_Tilt"
+x = 472.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip1_Upgraded_Tilt2"
+sprite = "sprEnemyShip1_Upgraded_Tilt2"
+x = 562.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Base"
+sprite = "sprEnemyShip2_Base"
+x = 652.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Base_Tilt"
+sprite = "sprEnemyShip2_Base_Tilt"
+x = 742.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Base_Tilt2"
+sprite = "sprEnemyShip2_Base_Tilt2"
+x = 832.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Upgraded"
+sprite = "sprEnemyShip2_Upgraded"
+x = 922.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Upgraded_Tilt"
+sprite = "sprEnemyShip2_Upgraded_Tilt"
+x = 1012.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip2_Upgraded_Tilt2"
+sprite = "sprEnemyShip2_Upgraded_Tilt2"
+x = 1102.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Base"
+sprite = "sprEnemyShip3_Base"
+x = 1192.1
+y = 95.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Base_Tilt"
+sprite = "sprEnemyShip3_Base_Tilt"
+x = 22.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Base_Tilt2"
+sprite = "sprEnemyShip3_Base_Tilt2"
+x = 112.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Upgraded"
+sprite = "sprEnemyShip3_Upgraded"
+x = 202.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Upgraded_Tilt"
+sprite = "sprEnemyShip3_Upgraded_Tilt"
+x = 292.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip3_Upgraded_Tilt2"
+sprite = "sprEnemyShip3_Upgraded_Tilt2"
+x = 382.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyShip_Thruster"
+sprite = "sprEnemyShip_Thruster"
+x = 485.6
+y = 172.5
+scale_x = 0.20606
+scale_y = 0.20606
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Base"
+sprite = "sprEnemyTurret_Base"
+x = 562.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Base_Destroyed"
+sprite = "sprEnemyTurret_Base_Destroyed"
+x = 652.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Destroyed"
+sprite = "sprEnemyTurret_Destroyed"
+x = 742.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Laser1"
+sprite = "sprEnemyTurret_Laser1"
+x = 832.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Laser2"
+sprite = "sprEnemyTurret_Laser2"
+x = 922.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Missile1"
+sprite = "sprEnemyTurret_Missile1"
+x = 1012.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Missile2"
+sprite = "sprEnemyTurret_Missile2"
+x = 1102.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Plasma1"
+sprite = "sprEnemyTurret_Plasma1"
+x = 1192.1
+y = 172.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemyTurret_Plasma2"
+sprite = "sprEnemyTurret_Plasma2"
+x = 22.1
+y = 249.8
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprEnemy_Tank_Base"
+sprite = "sprEnemy_Tank_Base"
+x = 112.1
+y = 249.8
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprExplosion2Anim"
+sprite = "sprExplosion2Anim"
+x = 202.1
+y = 252.9
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprExplosionAnim"
+sprite = "sprExplosionAnim"
+x = 292.1
+y = 250.3
+scale_x = 0.11085
+scale_y = 0.11085
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickUp_Credits"
+sprite = "sprPickUp_Credits"
+x = 382.3
+y = 249.8
+scale_x = 0.3592
+scale_y = 0.3592
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickUp_Health"
+sprite = "sprPickUp_Health"
+x = 472.3
+y = 249.8
+scale_x = 0.3592
+scale_y = 0.3592
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickUp_PowerUp"
+sprite = "sprPickUp_PowerUp"
+x = 562.3
+y = 249.8
+scale_x = 0.3592
+scale_y = 0.3592
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickUp_Shield"
+sprite = "sprPickUp_Shield"
+x = 652.3
+y = 249.8
+scale_x = 0.3592
+scale_y = 0.3592
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerBullet"
+sprite = "sprPlayerBullet"
+x = 748.7
+y = 249.8
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerBulletAnim"
+sprite = "sprPlayerBulletAnim"
+x = 838.7
+y = 249.8
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerBulletEmit"
+sprite = "sprPlayerBulletEmit"
+x = 922.1
+y = 252.6
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerHeavyMissile"
+sprite = "sprPlayerHeavyMissile"
+x = 1018.7
+y = 249.8
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerHeavyMissileAnim"
+sprite = "sprPlayerHeavyMissileAnim"
+x = 1108.7
+y = 249.8
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerLaserAnim"
+sprite = "sprPlayerLaserAnim"
+x = 1198.7
+y = 249.8
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerLaserEmit"
+sprite = "sprPlayerLaserEmit"
+x = 22.1
+y = 330.0
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerMissile"
+sprite = "sprPlayerMissile"
+x = 118.7
+y = 327.1
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerMissileAnim"
+sprite = "sprPlayerMissileAnim"
+x = 208.7
+y = 327.1
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerMissileEmit"
+sprite = "sprPlayerMissileEmit"
+x = 292.1
+y = 330.0
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerPlasmaAnim"
+sprite = "sprPlayerPlasmaAnim"
+x = 388.7
+y = 327.1
+scale_x = 0.19164
+scale_y = 0.19164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerPlasmaEmit"
+sprite = "sprPlayerPlasmaEmit"
+x = 472.1
+y = 330.0
+scale_x = 0.19505
+scale_y = 0.19505
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Heavy"
+sprite = "sprPlayerShip_Heavy"
+x = 562.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Heavy_Fire"
+sprite = "sprPlayerShip_Heavy_Fire"
+x = 652.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Heavy_Tilt"
+sprite = "sprPlayerShip_Heavy_Tilt"
+x = 742.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Light"
+sprite = "sprPlayerShip_Light"
+x = 832.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Light_Fire"
+sprite = "sprPlayerShip_Light_Fire"
+x = 922.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Light_Tilt"
+sprite = "sprPlayerShip_Light_Tilt"
+x = 1012.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Medium"
+sprite = "sprPlayerShip_Medium"
+x = 1102.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Medium_Fire"
+sprite = "sprPlayerShip_Medium_Fire"
+x = 1192.1
+y = 327.1
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Medium_Tilt"
+sprite = "sprPlayerShip_Medium_Tilt"
+x = 22.1
+y = 404.5
+scale_x = 0.25677
+scale_y = 0.25677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPlayerShip_Thruster"
+sprite = "sprPlayerShip_Thruster"
+x = 125.6
+y = 404.5
+scale_x = 0.20606
+scale_y = 0.20606
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprShield"
+sprite = "sprShield"
+x = 202.1
+y = 405.6
+scale_x = 0.14738
+scale_y = 0.14738
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprShieldAnim"
+sprite = "sprShieldAnim"
+x = 293.4
+y = 404.5
+scale_x = 0.13581
+scale_y = 0.13581
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Corner1"
+sprite = "sprSpaceStationTiles_Corner1"
+x = 382.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Corner2"
+sprite = "sprSpaceStationTiles_Corner2"
+x = 472.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner1"
+sprite = "sprSpaceStationTiles_Inner1"
+x = 562.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner2"
+sprite = "sprSpaceStationTiles_Inner2"
+x = 652.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner3"
+sprite = "sprSpaceStationTiles_Inner3"
+x = 742.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner4"
+sprite = "sprSpaceStationTiles_Inner4"
+x = 832.1
+y = 404.5
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner5"
+sprite = "sprSpaceStationTiles_Inner5"
+x = 22.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner6"
+sprite = "sprSpaceStationTiles_Inner6"
+x = 112.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Inner7"
+sprite = "sprSpaceStationTiles_Inner7"
+x = 202.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_InnerCorner"
+sprite = "sprSpaceStationTiles_InnerCorner"
+x = 292.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Outer1"
+sprite = "sprSpaceStationTiles_Outer1"
+x = 382.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Outer2"
+sprite = "sprSpaceStationTiles_Outer2"
+x = 472.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStationTiles_Outer3"
+sprite = "sprSpaceStationTiles_Outer3"
+x = 562.1
+y = 481.8
+scale_x = 0.12839
+scale_y = 0.12839
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture01"
+sprite = "sprSpaceStation_Fixture01"
+x = 658.7
+y = 481.8
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture02"
+sprite = "sprSpaceStation_Fixture02"
+x = 748.7
+y = 481.8
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture03"
+sprite = "sprSpaceStation_Fixture03"
+x = 838.7
+y = 481.8
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture04"
+sprite = "sprSpaceStation_Fixture04"
+x = 28.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture05"
+sprite = "sprSpaceStation_Fixture05"
+x = 118.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture06"
+sprite = "sprSpaceStation_Fixture06"
+x = 208.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture07"
+sprite = "sprSpaceStation_Fixture07"
+x = 298.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture08"
+sprite = "sprSpaceStation_Fixture08"
+x = 388.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture09"
+sprite = "sprSpaceStation_Fixture09"
+x = 478.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture10"
+sprite = "sprSpaceStation_Fixture10"
+x = 568.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture11"
+sprite = "sprSpaceStation_Fixture11"
+x = 658.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture12"
+sprite = "sprSpaceStation_Fixture12"
+x = 748.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture13"
+sprite = "sprSpaceStation_Fixture13"
+x = 838.7
+y = 559.1
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture14"
+sprite = "sprSpaceStation_Fixture14"
+x = 28.7
+y = 636.5
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture15"
+sprite = "sprSpaceStation_Fixture15"
+x = 118.7
+y = 636.5
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture16"
+sprite = "sprSpaceStation_Fixture16"
+x = 208.7
+y = 636.5
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_Fixture17"
+sprite = "sprSpaceStation_Fixture17"
+x = 298.7
+y = 636.5
+scale_x = 0.09232
+scale_y = 0.09232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpaceStation_TileMap"
+sprite = "sprSpaceStation_TileMap"
+x = 382.1
+y = 636.5
+scale_x = 0.0321
+scale_y = 0.0321
+rotation = 0.0
+colour = "#FFFFFFFF"
+

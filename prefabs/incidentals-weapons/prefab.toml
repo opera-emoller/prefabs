@@ -1,0 +1,600 @@
+id = "incidentals-weapons"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pack of 90+ weapon icons -- axes, bombs, guns, knives, mauls and swords -- each rendered as a glossy painted color icon (with and without outline) plus flat black and flat white silhouette variants; clean UI-ready game weapon iconography."
+tags = [ "role:weapon", "projection:ui-icon", "asset_type:sprite", "state:static" ]
+
+[export]
+include = [
+  "sprites/spr_axe_1",
+  "sprites/spr_axe_1_with_stroke",
+  "sprites/spr_axe_2",
+  "sprites/spr_axe_2_with_stroke",
+  "sprites/spr_axe_3",
+  "sprites/spr_axe_3_with_stroke",
+  "sprites/spr_axe_4",
+  "sprites/spr_axe_4_with_stroke",
+  "sprites/spr_axe_5",
+  "sprites/spr_axe_5_with_stroke",
+  "sprites/spr_bomb_1",
+  "sprites/spr_bomb_1_with_stroke",
+  "sprites/spr_bomb_2",
+  "sprites/spr_bomb_2_with_stroke",
+  "sprites/spr_bomb_3",
+  "sprites/spr_bomb_3_with_stroke",
+  "sprites/spr_bomb_4",
+  "sprites/spr_bomb_4_with_stroke",
+  "sprites/spr_bomb_5",
+  "sprites/spr_bomb_5_with_stroke",
+  "sprites/spr_flatblack_axe_1",
+  "sprites/spr_flatblack_axe_2",
+  "sprites/spr_flatblack_axe_3",
+  "sprites/spr_flatblack_axe_4",
+  "sprites/spr_flatblack_axe_5",
+  "sprites/spr_flatblack_bomb_1",
+  "sprites/spr_flatblack_bomb_2",
+  "sprites/spr_flatblack_bomb_3",
+  "sprites/spr_flatblack_bomb_4",
+  "sprites/spr_flatblack_bomb_5",
+  "sprites/spr_flatblack_gun_1",
+  "sprites/spr_flatblack_gun_2",
+  "sprites/spr_flatblack_gun_3",
+  "sprites/spr_flatblack_gun_4",
+  "sprites/spr_flatblack_gun_5",
+  "sprites/spr_flatblack_knife_1",
+  "sprites/spr_flatblack_knife_2",
+  "sprites/spr_flatblack_knife_3",
+  "sprites/spr_flatblack_knife_4",
+  "sprites/spr_flatblack_knife_5",
+  "sprites/spr_flatblack_maul_1",
+  "sprites/spr_flatblack_maul_2",
+  "sprites/spr_flatblack_maul_3",
+  "sprites/spr_flatblack_maul_4",
+  "sprites/spr_flatblack_sword_1",
+  "sprites/spr_flatblack_sword_2",
+  "sprites/spr_flatblack_sword_3",
+  "sprites/spr_flatblack_sword_4",
+  "sprites/spr_flatblack_sword_5",
+  "sprites/spr_flatwhite_axe_1",
+  "sprites/spr_flatwhite_axe_2",
+  "sprites/spr_flatwhite_axe_3",
+  "sprites/spr_flatwhite_axe_4",
+  "sprites/spr_flatwhite_axe_5",
+  "sprites/spr_flatwhite_bomb_1",
+  "sprites/spr_flatwhite_bomb_2",
+  "sprites/spr_flatwhite_bomb_3",
+  "sprites/spr_flatwhite_bomb_4",
+  "sprites/spr_flatwhite_bomb_5",
+  "sprites/spr_flatwhite_gun_1",
+  "sprites/spr_flatwhite_gun_2",
+  "sprites/spr_flatwhite_gun_3",
+  "sprites/spr_flatwhite_gun_4",
+  "sprites/spr_flatwhite_gun_5",
+  "sprites/spr_flatwhite_knife_1",
+  "sprites/spr_flatwhite_knife_2",
+  "sprites/spr_flatwhite_knife_3",
+  "sprites/spr_flatwhite_knife_4",
+  "sprites/spr_flatwhite_knife_5",
+  "sprites/spr_flatwhite_maul_1",
+  "sprites/spr_flatwhite_maul_2",
+  "sprites/spr_flatwhite_maul_3",
+  "sprites/spr_flatwhite_maul_4",
+  "sprites/spr_flatwhite_sword_1",
+  "sprites/spr_flatwhite_sword_2",
+  "sprites/spr_flatwhite_sword_3",
+  "sprites/spr_flatwhite_sword_4",
+  "sprites/spr_flatwhite_sword_5",
+  "sprites/spr_gun_1",
+  "sprites/spr_gun_1_with_stroke",
+  "sprites/spr_gun_2",
+  "sprites/spr_gun_2_with_stroke",
+  "sprites/spr_gun_3",
+  "sprites/spr_gun_3_with_stroke",
+  "sprites/spr_gun_4",
+  "sprites/spr_gun_4_with_stroke",
+  "sprites/spr_gun_5",
+  "sprites/spr_gun_5_with_stroke",
+  "sprites/spr_knife_1",
+  "sprites/spr_knife_1_with_stroke",
+  "sprites/spr_knife_2",
+  "sprites/spr_knife_2_with_stroke",
+  "sprites/spr_knife_3",
+  "sprites/spr_knife_3_with_stroke",
+  "sprites/spr_knife_4",
+  "sprites/spr_knife_4_with_stroke",
+  "sprites/spr_knife_5",
+  "sprites/spr_knife_5_with_stroke",
+  "sprites/spr_maul_1",
+  "sprites/spr_maul_1_with_stroke",
+  "sprites/spr_maul_2_bronze",
+  "sprites/spr_maul_2_bronze_with_stroke",
+  "sprites/spr_maul_2_silver",
+  "sprites/spr_maul_2_silver_with_stroke",
+  "sprites/spr_maul_3",
+  "sprites/spr_maul_3_with_stroke",
+  "sprites/spr_maul_4",
+  "sprites/spr_maul_4_with_stroke",
+  "sprites/spr_sword_1",
+  "sprites/spr_sword_1_with_stroke",
+  "sprites/spr_sword_2",
+  "sprites/spr_sword_2_with_stroke",
+  "sprites/spr_sword_3",
+  "sprites/spr_sword_3_with_stroke",
+  "sprites/spr_sword_4",
+  "sprites/spr_sword_4_with_stroke",
+  "sprites/spr_sword_5",
+  "sprites/spr_sword_5_with_stroke",
+]
+
+[assets."sprites/spr_axe_1"]
+description = "Painted, fully-shaded color icon of a single-bladed hatchet; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:axe", "style:shaded" ]
+
+[assets."sprites/spr_axe_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a single-bladed hatchet with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:axe", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_axe_2"]
+description = "Painted, fully-shaded color icon of a broad double-edged battle axe; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:axe", "style:shaded" ]
+
+[assets."sprites/spr_axe_2_with_stroke"]
+description = "Painted, fully-shaded color icon of a broad double-edged battle axe with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:axe", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_axe_3"]
+description = "Painted, fully-shaded color icon of a ornate war axe; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:axe", "style:shaded" ]
+
+[assets."sprites/spr_axe_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a ornate war axe with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:axe", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_axe_4"]
+description = "Painted, fully-shaded color icon of a heavy bearded axe; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:axe", "style:shaded" ]
+
+[assets."sprites/spr_axe_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a heavy bearded axe with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:axe", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_axe_5"]
+description = "Painted, fully-shaded color icon of a jagged cleaver-style axe; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:axe", "style:shaded" ]
+
+[assets."sprites/spr_axe_5_with_stroke"]
+description = "Painted, fully-shaded color icon of a jagged cleaver-style axe with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:axe", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_bomb_1"]
+description = "Painted, fully-shaded color icon of a round cartoon bomb with lit fuse; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:bomb", "style:shaded" ]
+
+[assets."sprites/spr_bomb_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a round cartoon bomb with lit fuse with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:bomb", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_bomb_2"]
+description = "Painted, fully-shaded color icon of a green poison flask bottle with skull label and flaming top; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:bomb", "style:shaded" ]
+
+[assets."sprites/spr_bomb_2_with_stroke"]
+description = "Painted, fully-shaded color icon of a green poison flask bottle with skull label and flaming top with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:bomb", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_bomb_3"]
+description = "Painted, fully-shaded color icon of a cluster of red dynamite sticks; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:bomb", "style:shaded" ]
+
+[assets."sprites/spr_bomb_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a cluster of red dynamite sticks with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:bomb", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_bomb_4"]
+description = "Painted, fully-shaded color icon of a grenade-style bomb; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:bomb", "style:shaded" ]
+
+[assets."sprites/spr_bomb_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a grenade-style bomb with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:bomb", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_bomb_5"]
+description = "Painted, fully-shaded color icon of a capsule/canister explosive; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:bomb", "style:shaded" ]
+
+[assets."sprites/spr_bomb_5_with_stroke"]
+description = "Painted, fully-shaded color icon of a capsule/canister explosive with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:bomb", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_flatblack_axe_1"]
+description = "Flat solid-black silhouette icon of a single-bladed hatchet; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatblack_axe_2"]
+description = "Flat solid-black silhouette icon of a broad double-edged battle axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatblack_axe_3"]
+description = "Flat solid-black silhouette icon of a ornate war axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatblack_axe_4"]
+description = "Flat solid-black silhouette icon of a heavy bearded axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatblack_axe_5"]
+description = "Flat solid-black silhouette icon of a jagged cleaver-style axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bomb_1"]
+description = "Flat solid-black silhouette icon of a round cartoon bomb with lit fuse; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bomb_2"]
+description = "Flat solid-black silhouette icon of a green poison flask bottle with skull label and flaming top; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bomb_3"]
+description = "Flat solid-black silhouette icon of a cluster of red dynamite sticks; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bomb_4"]
+description = "Flat solid-black silhouette icon of a grenade-style bomb; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bomb_5"]
+description = "Flat solid-black silhouette icon of a capsule/canister explosive; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatblack_gun_1"]
+description = "Flat solid-black silhouette icon of a semi-automatic pistol; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatblack_gun_2"]
+description = "Flat solid-black silhouette icon of a chunky handgun; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatblack_gun_3"]
+description = "Flat solid-black silhouette icon of a blue-and-orange toy-style blaster pistol; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatblack_gun_4"]
+description = "Flat solid-black silhouette icon of a compact sidearm; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatblack_gun_5"]
+description = "Flat solid-black silhouette icon of a revolver; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatblack_knife_1"]
+description = "Flat solid-black silhouette icon of a straight-bladed dagger; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatblack_knife_2"]
+description = "Flat solid-black silhouette icon of a curved combat knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatblack_knife_3"]
+description = "Flat solid-black silhouette icon of a serrated blade; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatblack_knife_4"]
+description = "Flat solid-black silhouette icon of a broad bowie knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatblack_knife_5"]
+description = "Flat solid-black silhouette icon of a slim throwing knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatblack_maul_1"]
+description = "Flat solid-black silhouette icon of a spiked mace / morning-star club; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatblack_maul_2"]
+description = "Flat solid-black silhouette icon of a spiked club / maul; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatblack_maul_3"]
+description = "Flat solid-black silhouette icon of a heavy flanged mace; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatblack_maul_4"]
+description = "Flat solid-black silhouette icon of a studded war hammer club; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatblack_sword_1"]
+description = "Flat solid-black silhouette icon of a curved cutlass with wrapped grip and gold guard; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatblack_sword_2"]
+description = "Flat solid-black silhouette icon of a straight broadsword; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatblack_sword_3"]
+description = "Flat solid-black silhouette icon of a ornate fantasy longsword; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatblack_sword_4"]
+description = "Flat solid-black silhouette icon of a short sword / gladius; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatblack_sword_5"]
+description = "Flat solid-black silhouette icon of a slim rapier-style blade; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_axe_1"]
+description = "Flat solid-white silhouette icon of a single-bladed hatchet; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_axe_2"]
+description = "Flat solid-white silhouette icon of a broad double-edged battle axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_axe_3"]
+description = "Flat solid-white silhouette icon of a ornate war axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_axe_4"]
+description = "Flat solid-white silhouette icon of a heavy bearded axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_axe_5"]
+description = "Flat solid-white silhouette icon of a jagged cleaver-style axe; clean monochrome shape on transparent, single frame."
+tags = [ "subject:axe", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bomb_1"]
+description = "Flat solid-white silhouette icon of a round cartoon bomb with lit fuse; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bomb_2"]
+description = "Flat solid-white silhouette icon of a green poison flask bottle with skull label and flaming top; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bomb_3"]
+description = "Flat solid-white silhouette icon of a cluster of red dynamite sticks; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bomb_4"]
+description = "Flat solid-white silhouette icon of a grenade-style bomb; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bomb_5"]
+description = "Flat solid-white silhouette icon of a capsule/canister explosive; clean monochrome shape on transparent, single frame."
+tags = [ "subject:bomb", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_gun_1"]
+description = "Flat solid-white silhouette icon of a semi-automatic pistol; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_gun_2"]
+description = "Flat solid-white silhouette icon of a chunky handgun; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_gun_3"]
+description = "Flat solid-white silhouette icon of a blue-and-orange toy-style blaster pistol; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_gun_4"]
+description = "Flat solid-white silhouette icon of a compact sidearm; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_gun_5"]
+description = "Flat solid-white silhouette icon of a revolver; clean monochrome shape on transparent, single frame."
+tags = [ "subject:gun", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_knife_1"]
+description = "Flat solid-white silhouette icon of a straight-bladed dagger; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_knife_2"]
+description = "Flat solid-white silhouette icon of a curved combat knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_knife_3"]
+description = "Flat solid-white silhouette icon of a serrated blade; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_knife_4"]
+description = "Flat solid-white silhouette icon of a broad bowie knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_knife_5"]
+description = "Flat solid-white silhouette icon of a slim throwing knife; clean monochrome shape on transparent, single frame."
+tags = [ "subject:knife", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_maul_1"]
+description = "Flat solid-white silhouette icon of a spiked mace / morning-star club; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_maul_2"]
+description = "Flat solid-white silhouette icon of a spiked club / maul; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_maul_3"]
+description = "Flat solid-white silhouette icon of a heavy flanged mace; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_maul_4"]
+description = "Flat solid-white silhouette icon of a studded war hammer club; clean monochrome shape on transparent, single frame."
+tags = [ "subject:hammer", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_sword_1"]
+description = "Flat solid-white silhouette icon of a curved cutlass with wrapped grip and gold guard; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_sword_2"]
+description = "Flat solid-white silhouette icon of a straight broadsword; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_sword_3"]
+description = "Flat solid-white silhouette icon of a ornate fantasy longsword; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_sword_4"]
+description = "Flat solid-white silhouette icon of a short sword / gladius; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_sword_5"]
+description = "Flat solid-white silhouette icon of a slim rapier-style blade; clean monochrome shape on transparent, single frame."
+tags = [ "subject:sword", "style:flat" ]
+
+[assets."sprites/spr_gun_1"]
+description = "Painted, fully-shaded color icon of a semi-automatic pistol; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:gun", "style:shaded" ]
+
+[assets."sprites/spr_gun_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a semi-automatic pistol with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:gun", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_gun_2"]
+description = "Painted, fully-shaded color icon of a chunky handgun; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:gun", "style:shaded" ]
+
+[assets."sprites/spr_gun_2_with_stroke"]
+description = "Painted, fully-shaded color icon of a chunky handgun with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:gun", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_gun_3"]
+description = "Painted, fully-shaded color icon of a blue-and-orange toy-style blaster pistol; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:gun", "style:shaded" ]
+
+[assets."sprites/spr_gun_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a blue-and-orange toy-style blaster pistol with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:gun", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_gun_4"]
+description = "Painted, fully-shaded color icon of a compact sidearm; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:gun", "style:shaded" ]
+
+[assets."sprites/spr_gun_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a compact sidearm with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:gun", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_gun_5"]
+description = "Painted, fully-shaded color icon of a revolver; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:gun", "style:shaded" ]
+
+[assets."sprites/spr_gun_5_with_stroke"]
+description = "Painted, fully-shaded color icon of a revolver with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:gun", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_knife_1"]
+description = "Painted, fully-shaded color icon of a straight-bladed dagger; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:knife", "style:shaded" ]
+
+[assets."sprites/spr_knife_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a straight-bladed dagger with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:knife", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_knife_2"]
+description = "Painted, fully-shaded color icon of a curved combat knife; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:knife", "style:shaded" ]
+
+[assets."sprites/spr_knife_2_with_stroke"]
+description = "Painted, fully-shaded color icon of a curved combat knife with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:knife", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_knife_3"]
+description = "Painted, fully-shaded color icon of a serrated blade; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:knife", "style:shaded" ]
+
+[assets."sprites/spr_knife_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a serrated blade with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:knife", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_knife_4"]
+description = "Painted, fully-shaded color icon of a broad bowie knife; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:knife", "style:shaded" ]
+
+[assets."sprites/spr_knife_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a broad bowie knife with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:knife", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_knife_5"]
+description = "Painted, fully-shaded color icon of a slim throwing knife; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:knife", "style:shaded" ]
+
+[assets."sprites/spr_knife_5_with_stroke"]
+description = "Painted, fully-shaded color icon of a slim throwing knife with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:knife", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_maul_1"]
+description = "Painted, fully-shaded color icon of a spiked mace / morning-star club; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:hammer", "style:shaded" ]
+
+[assets."sprites/spr_maul_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a spiked mace / morning-star club with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:hammer", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_maul_2_bronze"]
+description = "Painted, fully-shaded color icon of a bronze spiked maul club; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:hammer", "style:shaded" ]
+
+[assets."sprites/spr_maul_2_bronze_with_stroke"]
+description = "Painted, fully-shaded color icon of a bronze spiked maul club with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:hammer", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_maul_2_silver"]
+description = "Painted, fully-shaded color icon of a silver/teal spiked maul club; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:hammer", "style:shaded" ]
+
+[assets."sprites/spr_maul_2_silver_with_stroke"]
+description = "Painted, fully-shaded color icon of a silver/teal spiked maul club with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:hammer", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_maul_3"]
+description = "Painted, fully-shaded color icon of a heavy flanged mace; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:hammer", "style:shaded" ]
+
+[assets."sprites/spr_maul_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a heavy flanged mace with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:hammer", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_maul_4"]
+description = "Painted, fully-shaded color icon of a studded war hammer club; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:hammer", "style:shaded" ]
+
+[assets."sprites/spr_maul_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a studded war hammer club with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:hammer", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_sword_1"]
+description = "Painted, fully-shaded color icon of a curved cutlass with wrapped grip and gold guard; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:sword", "style:shaded" ]
+
+[assets."sprites/spr_sword_1_with_stroke"]
+description = "Painted, fully-shaded color icon of a curved cutlass with wrapped grip and gold guard with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:sword", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_sword_2"]
+description = "Painted, fully-shaded color icon of a straight broadsword; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:sword", "style:shaded" ]
+
+[assets."sprites/spr_sword_2_with_stroke"]
+description = "Painted, fully-shaded color icon of a straight broadsword with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:sword", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_sword_3"]
+description = "Painted, fully-shaded color icon of a ornate fantasy longsword; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:sword", "style:shaded" ]
+
+[assets."sprites/spr_sword_3_with_stroke"]
+description = "Painted, fully-shaded color icon of a ornate fantasy longsword with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:sword", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_sword_4"]
+description = "Painted, fully-shaded color icon of a short sword / gladius; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:sword", "style:shaded" ]
+
+[assets."sprites/spr_sword_4_with_stroke"]
+description = "Painted, fully-shaded color icon of a short sword / gladius with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:sword", "style:shaded", "style:outlined" ]
+
+[assets."sprites/spr_sword_5"]
+description = "Painted, fully-shaded color icon of a slim rapier-style blade; glossy rendered weapon art with no outline, single frame."
+tags = [ "subject:sword", "style:shaded" ]
+
+[assets."sprites/spr_sword_5_with_stroke"]
+description = "Painted, fully-shaded color icon of a slim rapier-style blade with a bold dark outline; glossy rendered weapon art, single frame."
+tags = [ "subject:sword", "style:shaded", "style:outlined" ]

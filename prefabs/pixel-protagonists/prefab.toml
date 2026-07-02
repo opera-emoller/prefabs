@@ -1,0 +1,265 @@
+id = "pixel-protagonists"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Four heroic side-view pixel-art protagonists — Knight, Monk, Wizard and Ninja — each with a full action set (idle, run, jump, melee, ranged, hit, stun, death), plus fireball, magic and blood-splatter VFX. Shaded, highly detailed fantasy character art."
+tags = [ "theme:fantasy", "theme:medieval", "style:pixel-art", "style:shaded", "projection:side-view" ]
+
+[export]
+include = [
+  "sprites/spr_bloodsplatter1",
+  "sprites/spr_bloodsplatter2",
+  "sprites/spr_fireball_charge",
+  "sprites/spr_fireball_impact",
+  "sprites/spr_fireball_loop",
+  "sprites/spr_knight_death",
+  "sprites/spr_knight_hit",
+  "sprites/spr_knight_idle",
+  "sprites/spr_knight_jumpdown",
+  "sprites/spr_knight_jumpmid",
+  "sprites/spr_knight_jumpup",
+  "sprites/spr_knight_meleeattack",
+  "sprites/spr_knight_rangedattack",
+  "sprites/spr_knight_run",
+  "sprites/spr_knight_stunned",
+  "sprites/spr_kunai",
+  "sprites/spr_magic_projectile",
+  "sprites/spr_magic_projectileimpact",
+  "sprites/spr_monk_death",
+  "sprites/spr_monk_hit",
+  "sprites/spr_monk_idle",
+  "sprites/spr_monk_jump_down",
+  "sprites/spr_monk_jump_mid",
+  "sprites/spr_monk_jump_up",
+  "sprites/spr_monk_melee_attack",
+  "sprites/spr_monk_ranged_attack",
+  "sprites/spr_monk_ranged_attack_short_",
+  "sprites/spr_monk_run",
+  "sprites/spr_monk_stunned",
+  "sprites/spr_ninja_death",
+  "sprites/spr_ninja_hit",
+  "sprites/spr_ninja_idle",
+  "sprites/spr_ninja_jump_down",
+  "sprites/spr_ninja_jump_mid",
+  "sprites/spr_ninja_jump_mid_spin",
+  "sprites/spr_ninja_jump_up",
+  "sprites/spr_ninja_melee_attack",
+  "sprites/spr_ninja_ranged_attack",
+  "sprites/spr_ninja_run",
+  "sprites/spr_ninja_stunned",
+  "sprites/spr_wizard_death",
+  "sprites/spr_wizard_hit",
+  "sprites/spr_wizard_idle",
+  "sprites/spr_wizard_jumpdown",
+  "sprites/spr_wizard_jumpmid",
+  "sprites/spr_wizard_jumpup",
+  "sprites/spr_wizard_meleeattack",
+  "sprites/spr_wizard_rangedattack",
+  "sprites/spr_wizard_rangedattackfast",
+  "sprites/spr_wizard_run",
+  "sprites/spr_wizard_stunned",
+]
+
+[assets."sprites/spr_knight_idle"]
+description = "Armored blonde knight at rest, greatsword held ready; dark blue-grey plate, subtle breathing idle loop."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_run"]
+description = "Knight running, sword in hand, armor plates catching light; brisk side-on run cycle."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_jumpup"]
+description = "Knight launching upward into a jump, sword trailing; rising airborne frames."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_jumpmid"]
+description = "Knight at the apex of a jump, suspended mid-air; two-frame peak pose."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_jumpdown"]
+description = "Knight descending from a jump, bracing for landing."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_meleeattack"]
+description = "Knight swinging the greatsword in a heavy overhead/arc slash; eight-frame close attack."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "subject:sword", "state:animation" ]
+
+[assets."sprites/spr_knight_rangedattack"]
+description = "Knight performing a ranged thrust/throw across a wide 192px frame; reaching attack motion."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_hit"]
+description = "Knight recoiling from being struck, brief flinch."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_stunned"]
+description = "Knight staggered and dazed, wobbling in place."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_knight_death"]
+description = "Knight collapsing in defeat; seven-frame death sequence."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_idle"]
+description = "Bald monk in saffron-orange robe, bo staff in hand, calm grounded idle stance."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_run"]
+description = "Monk running with staff, robe flowing; agile side-on run cycle."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_jump_up"]
+description = "Monk springing upward into a jump, staff held close."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_jump_mid"]
+description = "Monk at jump apex, suspended mid-air, six-frame float."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_jump_down"]
+description = "Monk falling from a jump, preparing to land."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_melee_attack"]
+description = "Monk delivering a sweeping bo-staff strike; seven-frame close attack."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_ranged_attack"]
+description = "Monk performing a full extended ranged staff/energy attack; nine-frame windup and release."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_ranged_attack_short_"]
+description = "Monk's quicker, shorter ranged attack variant; six-frame snappy version."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_hit"]
+description = "Monk flinching from a hit, brief recoil."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_stunned"]
+description = "Monk dazed and off-balance, swaying in place."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_monk_death"]
+description = "Monk crumpling in defeat; seven-frame death animation."
+tags = [ "asset_type:sprite", "role:player", "subject:monk", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_idle"]
+description = "Hooded wizard in purple robe with green accents, glowing-tipped staff; gentle idle."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_run"]
+description = "Wizard scurrying along, robe and staff bobbing; compact run cycle."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_jumpup"]
+description = "Wizard hopping upward, robe billowing; rising jump frames."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_jumpmid"]
+description = "Wizard at jump apex, mid-air float, three frames."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_jumpdown"]
+description = "Wizard descending from a jump toward landing."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_meleeattack"]
+description = "Wizard jabbing/swinging the staff in a melee bash; six-frame close attack."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_rangedattack"]
+description = "Wizard casting a long spell, staff raised as magic gathers and fires; lengthy twenty-frame channel."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_wizard_rangedattackfast"]
+description = "Wizard's rapid spell cast, condensed ten-frame version of the ranged attack."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_wizard_hit"]
+description = "Wizard flinching from a strike, brief recoil."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_stunned"]
+description = "Wizard dazed and reeling, staff wavering."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_wizard_death"]
+description = "Wizard collapsing in an elaborate nineteen-frame death sequence."
+tags = [ "asset_type:sprite", "role:player", "subject:wizard", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_idle"]
+description = "White-haired ninja in black garb, poised low and ready; subtle idle loop."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_run"]
+description = "Ninja dashing at speed, fluid side-on run cycle."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_jump_up"]
+description = "Ninja leaping upward, agile rising frames."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_jump_mid"]
+description = "Ninja at jump apex, suspended mid-air, two frames."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_jump_mid_spin"]
+description = "Ninja performing an acrobatic spinning flip at jump apex; eight-frame aerial spin."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_jump_down"]
+description = "Ninja dropping from a jump toward landing."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_melee_attack"]
+description = "Ninja slashing with a blade across a wide 160px frame; six-frame close attack."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "subject:knife", "state:animation" ]
+
+[assets."sprites/spr_ninja_ranged_attack"]
+description = "Ninja throwing motion (kunai toss); four-frame quick ranged attack."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_hit"]
+description = "Ninja flinching from a hit, brief recoil."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_stunned"]
+description = "Ninja dazed and staggering in place."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_ninja_death"]
+description = "Ninja falling in defeat; five-frame death animation."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_kunai"]
+description = "Small dark grey throwing kunai blade, tiny 19x7px single-frame projectile."
+tags = [ "asset_type:sprite", "role:projectile", "role:weapon", "subject:knife", "state:static" ]
+
+[assets."sprites/spr_fireball_charge"]
+description = "Compact yellow-orange fireball gathering/charging energy; five-frame buildup."
+tags = [ "asset_type:sprite", "role:projectile", "role:vfx", "subject:fire", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_fireball_loop"]
+description = "Streaking yellow-orange fireball in flight with a flame tail; looping projectile."
+tags = [ "asset_type:sprite", "role:projectile", "role:vfx", "subject:fire", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_fireball_impact"]
+description = "Bright yellow fiery burst on impact; four-frame fireball explosion."
+tags = [ "asset_type:sprite", "role:vfx", "subject:fire", "subject:impact", "state:animation" ]
+
+[assets."sprites/spr_magic_projectile"]
+description = "Glowing green-yellow magic energy orb traveling through the air; eight-frame spell bolt."
+tags = [ "asset_type:sprite", "role:projectile", "role:vfx", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_magic_projectileimpact"]
+description = "Green magical burst as the spell bolt hits; six-frame impact flash."
+tags = [ "asset_type:sprite", "role:vfx", "subject:magic", "subject:impact", "state:animation" ]
+
+[assets."sprites/spr_bloodsplatter1"]
+description = "Small red blood spray/spatter, six-frame hit gore effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:blood", "subject:impact", "state:animation" ]
+
+[assets."sprites/spr_bloodsplatter2"]
+description = "Larger red blood splatter burst, five-frame heavier hit gore effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:blood", "subject:impact", "state:animation" ]

@@ -1,0 +1,23 @@
+#:schema ../../.gm-schema/v1.json#tileset
+
+animation_speed = 15.0
+animations = []
+frame_data = []
+output_border = 2
+output_columns = 7
+sprite = "spr_illustrated_top_Ice_Land"
+sprite_no_export = true
+texture_group = "default"
+tile_count = 54
+
+[offset]
+x = 0
+y = 0
+
+[separation]
+h = 0
+v = 0
+
+[tile_size]
+height = 256
+width = 256

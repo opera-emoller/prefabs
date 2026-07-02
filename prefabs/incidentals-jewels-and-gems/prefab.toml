@@ -1,0 +1,775 @@
+id = "incidentals-jewels-and-gems"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pack of 100+ glossy, hand-painted jewels, gems and treasure icons in eight colors (blue, cyan, green, orange, pink, purple, red, yellow) across many shapes — coins, crowns, diamonds, hearts, faceted gems, keys, potions, skulls, stars and more. Cartoony, shaded UI icons ideal for match-3 and casual games."
+tags = [ "asset_type:sprite", "role:pickup", "projection:ui-icon", "style:painted", "style:shaded", "style:glossy", "genre:puzzle", "state:static" ]
+
+[export]
+include = [
+  "sprites/spr_Coin_Blue",
+  "sprites/spr_Coin_Cyan",
+  "sprites/spr_Coin_Drop_Shadow",
+  "sprites/spr_Coin_Green",
+  "sprites/spr_Coin_Orange",
+  "sprites/spr_Coin_Pink",
+  "sprites/spr_Coin_Purple",
+  "sprites/spr_Coin_Red",
+  "sprites/spr_Coin_Yellow",
+  "sprites/spr_Crown_Blue",
+  "sprites/spr_Crown_Cyan",
+  "sprites/spr_Crown_Drop_Shadow",
+  "sprites/spr_Crown_Green",
+  "sprites/spr_Crown_Orange",
+  "sprites/spr_Crown_Pink",
+  "sprites/spr_Crown_Purple",
+  "sprites/spr_Crown_Red",
+  "sprites/spr_Crown_Yellow",
+  "sprites/spr_Diamond_Blue",
+  "sprites/spr_Diamond_Cyan",
+  "sprites/spr_Diamond_Drop_Shadow",
+  "sprites/spr_Diamond_Green",
+  "sprites/spr_Diamond_Orange",
+  "sprites/spr_Diamond_Pink",
+  "sprites/spr_Diamond_Purple",
+  "sprites/spr_Diamond_Red",
+  "sprites/spr_Diamond_Yellow",
+  "sprites/spr_Heart_Blue",
+  "sprites/spr_Heart_Cyan",
+  "sprites/spr_Heart_Drop_Shadow",
+  "sprites/spr_Heart_Gem_Blue",
+  "sprites/spr_Heart_Gem_Cyan",
+  "sprites/spr_Heart_Gem_Drop_Shadow",
+  "sprites/spr_Heart_Gem_Green",
+  "sprites/spr_Heart_Gem_Orange",
+  "sprites/spr_Heart_Gem_Pink",
+  "sprites/spr_Heart_Gem_Purple",
+  "sprites/spr_Heart_Gem_Red",
+  "sprites/spr_Heart_Gem_Yellow",
+  "sprites/spr_Heart_Green",
+  "sprites/spr_Heart_Orange",
+  "sprites/spr_Heart_Pink",
+  "sprites/spr_Heart_Purple",
+  "sprites/spr_Heart_Red",
+  "sprites/spr_Heart_Yellow",
+  "sprites/spr_Hexagon_Blue",
+  "sprites/spr_Hexagon_Cyan",
+  "sprites/spr_Hexagon_Drop_Shadow",
+  "sprites/spr_Hexagon_Green",
+  "sprites/spr_Hexagon_Orange",
+  "sprites/spr_Hexagon_Pink",
+  "sprites/spr_Hexagon_Purple",
+  "sprites/spr_Hexagon_Red",
+  "sprites/spr_Hexagon_Yellow",
+  "sprites/spr_Key_Blue",
+  "sprites/spr_Key_Cyan",
+  "sprites/spr_Key_Drop_Shadow",
+  "sprites/spr_Key_Green",
+  "sprites/spr_Key_Orange",
+  "sprites/spr_Key_Pink",
+  "sprites/spr_Key_Purple",
+  "sprites/spr_Key_Red",
+  "sprites/spr_Key_Yellow",
+  "sprites/spr_Pentagon_Blue",
+  "sprites/spr_Pentagon_Cyan",
+  "sprites/spr_Pentagon_Drop_Shadow",
+  "sprites/spr_Pentagon_Green",
+  "sprites/spr_Pentagon_Orange",
+  "sprites/spr_Pentagon_Pink",
+  "sprites/spr_Pentagon_Purple",
+  "sprites/spr_Pentagon_Red",
+  "sprites/spr_Pentagon_Yellow",
+  "sprites/spr_Poison_Blue",
+  "sprites/spr_Poison_Cyan",
+  "sprites/spr_Poison_Drop_Shadow",
+  "sprites/spr_Poison_Green",
+  "sprites/spr_Poison_Orange",
+  "sprites/spr_Poison_Pink",
+  "sprites/spr_Poison_Purple",
+  "sprites/spr_Poison_Red",
+  "sprites/spr_Poison_Yellow",
+  "sprites/spr_Potion_Blue",
+  "sprites/spr_Potion_Cyan",
+  "sprites/spr_Potion_Drop_Shadow",
+  "sprites/spr_Potion_Green",
+  "sprites/spr_Potion_Orange",
+  "sprites/spr_Potion_Pink",
+  "sprites/spr_Potion_Purple",
+  "sprites/spr_Potion_Red",
+  "sprites/spr_Potion_Yellow",
+  "sprites/spr_Rectangle_Blue",
+  "sprites/spr_Rectangle_Cyan",
+  "sprites/spr_Rectangle_Drop_Shadow",
+  "sprites/spr_Rectangle_Green",
+  "sprites/spr_Rectangle_Orange",
+  "sprites/spr_Rectangle_Pink",
+  "sprites/spr_Rectangle_Purple",
+  "sprites/spr_Rectangle_Red",
+  "sprites/spr_Rectangle_Yellow",
+  "sprites/spr_Skull_Blue",
+  "sprites/spr_Skull_Cyan",
+  "sprites/spr_Skull_Drop_Shadow",
+  "sprites/spr_Skull_Green",
+  "sprites/spr_Skull_Orange",
+  "sprites/spr_Skull_Pink",
+  "sprites/spr_Skull_Purple",
+  "sprites/spr_Skull_Red",
+  "sprites/spr_Skull_Yellow",
+  "sprites/spr_Square_Blue",
+  "sprites/spr_Square_Cyan",
+  "sprites/spr_Square_Drop_Shadow",
+  "sprites/spr_Square_Green",
+  "sprites/spr_Square_Orange",
+  "sprites/spr_Square_Pink",
+  "sprites/spr_Square_Purple",
+  "sprites/spr_Square_Red",
+  "sprites/spr_Square_Yellow",
+  "sprites/spr_Star_1_Blue",
+  "sprites/spr_Star_1_Cyan",
+  "sprites/spr_Star_1_Drop_Shadow",
+  "sprites/spr_Star_1_Green",
+  "sprites/spr_Star_1_Orange",
+  "sprites/spr_Star_1_Pink",
+  "sprites/spr_Star_1_Purple",
+  "sprites/spr_Star_1_Red",
+  "sprites/spr_Star_1_Yellow",
+  "sprites/spr_Star_2_Blue",
+  "sprites/spr_Star_2_Cyan",
+  "sprites/spr_Star_2_Drop_Shadow",
+  "sprites/spr_Star_2_Green",
+  "sprites/spr_Star_2_Orange",
+  "sprites/spr_Star_2_Pink",
+  "sprites/spr_Star_2_Purple",
+  "sprites/spr_Star_2_Red",
+  "sprites/spr_Star_2_Yellow",
+  "sprites/spr_Teardrop_Blue",
+  "sprites/spr_Teardrop_Cyan",
+  "sprites/spr_Teardrop_Drop_Shadow",
+  "sprites/spr_Teardrop_Green",
+  "sprites/spr_Teardrop_Orange",
+  "sprites/spr_Teardrop_Pink",
+  "sprites/spr_Teardrop_Purple",
+  "sprites/spr_Teardrop_Red",
+  "sprites/spr_Teardrop_Yellow",
+  "sprites/spr_Triangle_Blue",
+  "sprites/spr_Triangle_Cyan",
+  "sprites/spr_Triangle_Drop_Shadow",
+  "sprites/spr_Triangle_Green",
+  "sprites/spr_Triangle_Orange",
+  "sprites/spr_Triangle_Pink",
+  "sprites/spr_Triangle_Purple",
+  "sprites/spr_Triangle_Red",
+  "sprites/spr_Triangle_Yellow",
+]
+
+[assets."sprites/spr_Coin_Blue"]
+description = "Round glossy blue coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Cyan"]
+description = "Round glossy cyan coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Green"]
+description = "Round glossy green coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Orange"]
+description = "Round glossy orange coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Pink"]
+description = "Round glossy pink coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Purple"]
+description = "Round glossy purple coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Red"]
+description = "Round glossy red coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Yellow"]
+description = "Round glossy yellow coin token with a bright rim highlight; hand-painted shaded."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Coin_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the round coin coin icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:coin" ]
+
+[assets."sprites/spr_Crown_Blue"]
+description = "Glossy blue jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Cyan"]
+description = "Glossy cyan jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Green"]
+description = "Glossy green jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Orange"]
+description = "Glossy orange jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Pink"]
+description = "Glossy pink jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Purple"]
+description = "Glossy purple jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Red"]
+description = "Glossy red jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Yellow"]
+description = "Glossy yellow jeweled crown; hand-painted with shiny highlights and shading."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Crown_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the crown crown icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:crown" ]
+
+[assets."sprites/spr_Diamond_Blue"]
+description = "Faceted blue diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Cyan"]
+description = "Faceted cyan diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Green"]
+description = "Faceted green diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Orange"]
+description = "Faceted orange diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Pink"]
+description = "Faceted pink diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Purple"]
+description = "Faceted purple diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Red"]
+description = "Faceted red diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Yellow"]
+description = "Faceted yellow diamond-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Diamond_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the diamond-cut gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Blue"]
+description = "Glossy blue puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Cyan"]
+description = "Glossy cyan puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Green"]
+description = "Glossy green puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Orange"]
+description = "Glossy orange puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Pink"]
+description = "Glossy pink puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Purple"]
+description = "Glossy purple puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Red"]
+description = "Glossy red puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Yellow"]
+description = "Glossy yellow puffy heart; plump hand-painted icon with a bright sheen and soft shading."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the puffy heart heart icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:heart" ]
+
+[assets."sprites/spr_Heart_Gem_Blue"]
+description = "Faceted blue faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Cyan"]
+description = "Faceted cyan faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Green"]
+description = "Faceted green faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Orange"]
+description = "Faceted orange faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Pink"]
+description = "Faceted pink faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Purple"]
+description = "Faceted purple faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Red"]
+description = "Faceted red faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Yellow"]
+description = "Faceted yellow faceted heart-shaped gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Heart_Gem_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the faceted heart-shaped gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Blue"]
+description = "Faceted blue hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Cyan"]
+description = "Faceted cyan hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Green"]
+description = "Faceted green hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Orange"]
+description = "Faceted orange hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Pink"]
+description = "Faceted pink hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Purple"]
+description = "Faceted purple hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Red"]
+description = "Faceted red hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Yellow"]
+description = "Faceted yellow hexagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Hexagon_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the hexagonal gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Key_Blue"]
+description = "Glossy blue key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Cyan"]
+description = "Glossy cyan key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Green"]
+description = "Glossy green key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Orange"]
+description = "Glossy orange key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Pink"]
+description = "Glossy pink key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Purple"]
+description = "Glossy purple key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Red"]
+description = "Glossy red key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Yellow"]
+description = "Glossy yellow key with an ornate bow; hand-painted shaded jewel-like finish."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Key_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the key key icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:key" ]
+
+[assets."sprites/spr_Pentagon_Blue"]
+description = "Faceted blue pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Cyan"]
+description = "Faceted cyan pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Green"]
+description = "Faceted green pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Orange"]
+description = "Faceted orange pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Pink"]
+description = "Faceted pink pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Purple"]
+description = "Faceted purple pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Red"]
+description = "Faceted red pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Yellow"]
+description = "Faceted yellow pentagonal gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Pentagon_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the pentagonal gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Poison_Blue"]
+description = "Glossy blue skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Cyan"]
+description = "Glossy cyan skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Green"]
+description = "Glossy green skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Orange"]
+description = "Glossy orange skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Pink"]
+description = "Glossy pink skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Purple"]
+description = "Glossy purple skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Red"]
+description = "Glossy red skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Yellow"]
+description = "Glossy yellow skull-marked poison bottle liquid; hand-painted shaded with a bright highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Poison_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the skull-marked poison bottle potion icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Blue"]
+description = "Glossy blue potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Cyan"]
+description = "Glossy cyan potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Green"]
+description = "Glossy green potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Orange"]
+description = "Glossy orange potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Pink"]
+description = "Glossy pink potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Purple"]
+description = "Glossy purple potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Red"]
+description = "Glossy red potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Yellow"]
+description = "Glossy yellow potion bottle of liquid; hand-painted shaded with a glassy highlight."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Potion_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the potion bottle potion icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:potion" ]
+
+[assets."sprites/spr_Rectangle_Blue"]
+description = "Faceted blue rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Cyan"]
+description = "Faceted cyan rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Green"]
+description = "Faceted green rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Orange"]
+description = "Faceted orange rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Pink"]
+description = "Faceted pink rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Purple"]
+description = "Faceted purple rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Red"]
+description = "Faceted red rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Yellow"]
+description = "Faceted yellow rectangular bar-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Rectangle_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the rectangular bar-cut gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Skull_Blue"]
+description = "Glossy blue cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Cyan"]
+description = "Glossy cyan cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Green"]
+description = "Glossy green cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Orange"]
+description = "Glossy orange cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Pink"]
+description = "Glossy pink cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Purple"]
+description = "Glossy purple cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Red"]
+description = "Glossy red cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Yellow"]
+description = "Glossy yellow cartoon skull; hand-painted shaded with a glassy sheen."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Skull_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the skull skull icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:skull" ]
+
+[assets."sprites/spr_Square_Blue"]
+description = "Faceted blue square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Cyan"]
+description = "Faceted cyan square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Green"]
+description = "Faceted green square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Orange"]
+description = "Faceted orange square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Pink"]
+description = "Faceted pink square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Purple"]
+description = "Faceted purple square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Red"]
+description = "Faceted red square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Yellow"]
+description = "Faceted yellow square-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Square_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the square-cut gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Star_1_Blue"]
+description = "Glossy blue five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Cyan"]
+description = "Glossy cyan five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Green"]
+description = "Glossy green five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Orange"]
+description = "Glossy orange five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Pink"]
+description = "Glossy pink five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Purple"]
+description = "Glossy purple five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Red"]
+description = "Glossy red five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Yellow"]
+description = "Glossy yellow five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_1_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the five-point star star icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Blue"]
+description = "Glossy blue rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Cyan"]
+description = "Glossy cyan rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Green"]
+description = "Glossy green rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Orange"]
+description = "Glossy orange rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Pink"]
+description = "Glossy pink rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Purple"]
+description = "Glossy purple rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Red"]
+description = "Glossy red rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Yellow"]
+description = "Glossy yellow rounded five-point star; hand-painted shaded with a bright highlight."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Star_2_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the rounded five-point star star icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:star" ]
+
+[assets."sprites/spr_Teardrop_Blue"]
+description = "Faceted blue teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Cyan"]
+description = "Faceted cyan teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Green"]
+description = "Faceted green teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Orange"]
+description = "Faceted orange teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Pink"]
+description = "Faceted pink teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Purple"]
+description = "Faceted purple teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Red"]
+description = "Faceted red teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Yellow"]
+description = "Faceted yellow teardrop/pear-cut gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Teardrop_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the teardrop/pear-cut gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Blue"]
+description = "Faceted blue triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Cyan"]
+description = "Faceted cyan triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Green"]
+description = "Faceted green triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Orange"]
+description = "Faceted orange triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Pink"]
+description = "Faceted pink triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Purple"]
+description = "Faceted purple triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Red"]
+description = "Faceted red triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Yellow"]
+description = "Faceted yellow triangular gem; glossy hand-painted with bright highlights and soft shading."
+tags = [ "subject:gem" ]
+
+[assets."sprites/spr_Triangle_Drop_Shadow"]
+description = "Soft grey drop-shadow silhouette of the triangular gem icon, used as an offset shadow layer behind the colored sprite."
+tags = [ "subject:gem" ]

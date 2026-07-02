@@ -1,0 +1,270 @@
+id = "sfx-elemental"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Elemental environmental and projectile sound effects pack matching the Elemental VFX bundle — fire, water, lightning, smoke and magic one-shots plus a few looping beds, all .mp3, fantasy game flavor."
+tags = [ "role:audio", "theme:fantasy" ]
+
+[export]
+include = [
+  "sounds/MP3_Bomb_Explosion_Large_1",
+  "sounds/MP3_Bomb_Explosion_Large_2",
+  "sounds/MP3_Bomb_Explosion_Small_1",
+  "sounds/MP3_Bomb_Explosion_Small_2",
+  "sounds/MP3_Bomb_Fuse_Sizzle_1",
+  "sounds/MP3_Bomb_Fuse_Sizzle_2",
+  "sounds/MP3_Campfire_1",
+  "sounds/MP3_Campfire_2",
+  "sounds/MP3_Electric_Discharge_1",
+  "sounds/MP3_Electric_Discharge_2",
+  "sounds/MP3_Electric_Explosion_With_Build_Up_1",
+  "sounds/MP3_Electric_Explosion_With_Build_Up_2",
+  "sounds/MP3_Electro_Ball_1",
+  "sounds/MP3_Electro_Ball_2",
+  "sounds/MP3_Fireball_Impact_1",
+  "sounds/MP3_Fireball_Impact_2",
+  "sounds/MP3_Fireball_Launch_1",
+  "sounds/MP3_Fireball_Launch_2",
+  "sounds/MP3_Fireball_Travel_1",
+  "sounds/MP3_Fireball_Travel_2",
+  "sounds/MP3_Flame_Swoosh_1",
+  "sounds/MP3_Flame_Swoosh_2",
+  "sounds/MP3_Lightning_Arc_1",
+  "sounds/MP3_Lightning_Arc_2",
+  "sounds/MP3_Lightning_Bolt_1",
+  "sounds/MP3_Lightning_Bolt_2",
+  "sounds/MP3_Lightning_Swoosh_1",
+  "sounds/MP3_Lightning_Swoosh_2",
+  "sounds/MP3_Magical_Sparkle_Charge_Up_1",
+  "sounds/MP3_Magical_Sparkle_Charge_Up_2",
+  "sounds/MP3_Magical_Sparkle_Disappate_1",
+  "sounds/MP3_Magical_Sparkle_Disappate_2",
+  "sounds/MP3_Slime_Explosion_With_Build_Up_1",
+  "sounds/MP3_Slime_Explosion_With_Build_Up_2",
+  "sounds/MP3_Small_Spark_1",
+  "sounds/MP3_Small_Spark_2",
+  "sounds/MP3_Smoke_Puff_1",
+  "sounds/MP3_Smoke_Puff_2",
+  "sounds/MP3_Smoke_Swoosh_1",
+  "sounds/MP3_Smoke_Swoosh_2",
+  "sounds/MP3_Water_Circle_Swoosh_1",
+  "sounds/MP3_Water_Circle_Swoosh_2",
+  "sounds/MP3_Water_Droplet_Splash_1",
+  "sounds/MP3_Water_Droplet_Splash_2",
+  "sounds/MP3_Water_Splash_Big_1",
+  "sounds/MP3_Water_Splash_Big_2",
+  "sounds/MP3_Water_Splash_Small_1",
+  "sounds/MP3_Water_Splash_Small_2",
+  "sounds/MP3_Water_Swoosh_1",
+  "sounds/MP3_Water_Swoosh_2",
+  "sounds/MP3_Water_Tornado_1",
+  "sounds/MP3_Water_Tornado_2",
+]
+
+[assets."sounds/MP3_Bomb_Explosion_Large_1"]
+description = "Big booming bomb blast with a deep low-end thump and debris tail, ~4.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:fire" ]
+
+[assets."sounds/MP3_Bomb_Explosion_Large_2"]
+description = "Alternate large explosion, heavy concussive boom with rumbling decay, ~4.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:fire" ]
+
+[assets."sounds/MP3_Bomb_Explosion_Small_1"]
+description = "Compact pop-style explosion, sharp crack with a short tail, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:fire" ]
+
+[assets."sounds/MP3_Bomb_Explosion_Small_2"]
+description = "Alternate small explosion, punchy burst with quick fade, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:fire" ]
+
+[assets."sounds/MP3_Bomb_Fuse_Sizzle_1"]
+description = "Crackling, hissing fuse sizzle burning down, ~5s loop-friendly fire crackle."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Bomb_Fuse_Sizzle_2"]
+description = "Alternate fuse sizzle, fizzing spark and ember crackle, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Campfire_1"]
+description = "Steady crackling campfire bed, warm popping embers and soft roar, ~10s loop ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_Campfire_2"]
+description = "Alternate campfire loop, gentle continuous flame crackle, ~10s ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_Electric_Discharge_1"]
+description = "Sharp electric discharge zap, crackling current release, ~2.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Electric_Discharge_2"]
+description = "Alternate electric discharge, buzzing snap of arcing power, ~2.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Electric_Explosion_With_Build_Up_1"]
+description = "Charging electric whine swelling into a crackling exploding burst, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning", "subject:explosion" ]
+
+[assets."sounds/MP3_Electric_Explosion_With_Build_Up_2"]
+description = "Alternate electric explosion with rising build-up then sparking blast, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning", "subject:explosion" ]
+
+[assets."sounds/MP3_Electro_Ball_1"]
+description = "Sustained electro-ball hum, sizzling orb of crackling energy, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Electro_Ball_2"]
+description = "Alternate electro-ball, buzzing charged sphere drone, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Fireball_Impact_1"]
+description = "Fireball slamming home — fiery whoosh into a fwoomp impact, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire", "subject:impact" ]
+
+[assets."sounds/MP3_Fireball_Impact_2"]
+description = "Alternate fireball impact, blazing crash with flame burst, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire", "subject:impact" ]
+
+[assets."sounds/MP3_Fireball_Launch_1"]
+description = "Fireball launch, igniting fwoosh as the flame projectile fires off, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Fireball_Launch_2"]
+description = "Alternate fireball launch, roaring flame cast, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Fireball_Travel_1"]
+description = "Looping fireball travel bed, sustained roaring flame whoosh in flight, ~8s ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_Fireball_Travel_2"]
+description = "Alternate fireball travel loop, continuous burning rush, ~10s ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_Flame_Swoosh_1"]
+description = "Quick flame swoosh, fiery air-rushing whoosh, ~2.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire", "subject:wind" ]
+
+[assets."sounds/MP3_Flame_Swoosh_2"]
+description = "Alternate flame swoosh, snappy burning gust, ~2.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire", "subject:wind" ]
+
+[assets."sounds/MP3_Lightning_Arc_1"]
+description = "Crackling lightning arc, jagged electric snap and sizzle, ~4.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Lightning_Arc_2"]
+description = "Alternate lightning arc, longer buzzing electric crackle, ~4.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Lightning_Bolt_1"]
+description = "Sharp lightning bolt strike, sudden cracking discharge, ~2.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Lightning_Bolt_2"]
+description = "Alternate lightning bolt, crisp thunderous zap, ~2.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Lightning_Swoosh_1"]
+description = "Electric swoosh, crackling bolt whipping through the air, ~3.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning", "subject:wind" ]
+
+[assets."sounds/MP3_Lightning_Swoosh_2"]
+description = "Alternate lightning swoosh, charged whooshing arc, ~2.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning", "subject:wind" ]
+
+[assets."sounds/MP3_Magical_Sparkle_Charge_Up_1"]
+description = "Shimmering magical sparkle charge-up, rising twinkling glitter swell, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:magic" ]
+
+[assets."sounds/MP3_Magical_Sparkle_Charge_Up_2"]
+description = "Alternate magic charge-up, glistening ascending sparkle, ~4.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:magic" ]
+
+[assets."sounds/MP3_Magical_Sparkle_Disappate_1"]
+description = "Magic sparkle dissipating, twinkling glitter fading away, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:magic" ]
+
+[assets."sounds/MP3_Magical_Sparkle_Disappate_2"]
+description = "Alternate magic dissipate, shimmering sparkle dissolving out, ~3.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:magic" ]
+
+[assets."sounds/MP3_Slime_Explosion_With_Build_Up_1"]
+description = "Squelchy slime explosion with a gooey build-up then wet bursting splat, ~4.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:slime" ]
+
+[assets."sounds/MP3_Slime_Explosion_With_Build_Up_2"]
+description = "Alternate slime explosion, slimy charge then splattering pop, ~4.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion", "subject:slime" ]
+
+[assets."sounds/MP3_Small_Spark_1"]
+description = "Tiny electric spark, brief crackling zap, ~1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Small_Spark_2"]
+description = "Alternate small spark, very short snapping crackle, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/MP3_Smoke_Puff_1"]
+description = "Soft smoke puff, airy pop of a dissipating cloud, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:smoke" ]
+
+[assets."sounds/MP3_Smoke_Puff_2"]
+description = "Alternate smoke puff, gentle whiffing burst, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:smoke" ]
+
+[assets."sounds/MP3_Smoke_Swoosh_1"]
+description = "Smoke swoosh, breathy whooshing gust of air and vapor, ~3.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:smoke", "subject:wind" ]
+
+[assets."sounds/MP3_Smoke_Swoosh_2"]
+description = "Alternate smoke swoosh, soft sweeping air rush, ~3.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:smoke", "subject:wind" ]
+
+[assets."sounds/MP3_Water_Circle_Swoosh_1"]
+description = "Swirling water swoosh, liquid circular sweep, ~2.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water" ]
+
+[assets."sounds/MP3_Water_Circle_Swoosh_2"]
+description = "Alternate water circle swoosh, watery whirling pass, ~3.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water" ]
+
+[assets."sounds/MP3_Water_Droplet_Splash_1"]
+description = "Single water droplet plink and splash, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Droplet_Splash_2"]
+description = "Alternate droplet splash, light plop of falling water, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Splash_Big_1"]
+description = "Big water splash, heavy plunge and spray, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Splash_Big_2"]
+description = "Alternate big splash, forceful watery crash, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Splash_Small_1"]
+description = "Small water splash, light splatter and ripple, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Splash_Small_2"]
+description = "Alternate small splash, quick watery plop, ~1.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash", "subject:water" ]
+
+[assets."sounds/MP3_Water_Swoosh_1"]
+description = "Long water swoosh, surging liquid rush, ~5.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water" ]
+
+[assets."sounds/MP3_Water_Swoosh_2"]
+description = "Alternate water swoosh, flowing watery sweep, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water" ]
+
+[assets."sounds/MP3_Water_Tornado_1"]
+description = "Swirling water tornado bed, churning vortex of rushing water and wind, ~10s ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:water", "subject:wind" ]
+
+[assets."sounds/MP3_Water_Tornado_2"]
+description = "Alternate water vortex loop, roaring whirling waterspout, ~8s ambience."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:water", "subject:wind" ]

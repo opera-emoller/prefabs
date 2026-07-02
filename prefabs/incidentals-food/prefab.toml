@@ -1,0 +1,870 @@
+id = "incidentals-food"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A large pack of glossy rendered cartoon food icons - fruits, vegetables, meats, seafood, baked goods, cakes, drinks and cutlery - each item shipped in a plain glossy version and a bold black-outlined _with_stroke variant; clean UI-icon style on transparent background."
+tags = [ "asset_type:sprite", "subject:food", "role:pickup", "projection:ui-icon", "state:static", "style:glossy", "style:shaded", "theme:nature" ]
+
+[export]
+include = [
+  "sprites/spr_apple",
+  "sprites/spr_apple_with_stroke",
+  "sprites/spr_bacon",
+  "sprites/spr_bacon_with_stroke",
+  "sprites/spr_baguette",
+  "sprites/spr_baguette_with_stroke",
+  "sprites/spr_banana",
+  "sprites/spr_banana_with_stroke",
+  "sprites/spr_bun",
+  "sprites/spr_bun_with_stroke",
+  "sprites/spr_butter",
+  "sprites/spr_butter_with_stroke",
+  "sprites/spr_cake",
+  "sprites/spr_cake_with_stroke",
+  "sprites/spr_carrot",
+  "sprites/spr_carrot_with_stroke",
+  "sprites/spr_cheese",
+  "sprites/spr_cheese_holes",
+  "sprites/spr_cheese_holes_with_stroke",
+  "sprites/spr_cheese_with_stroke",
+  "sprites/spr_cherries",
+  "sprites/spr_cherries_with_stroke",
+  "sprites/spr_chicken_leg",
+  "sprites/spr_chicken_leg_with_stroke",
+  "sprites/spr_chicken_whole",
+  "sprites/spr_chicken_whole_with_stroke",
+  "sprites/spr_chilli",
+  "sprites/spr_chilli_with_stroke",
+  "sprites/spr_choc_cake_slice",
+  "sprites/spr_choc_cake_slice_with_stroke",
+  "sprites/spr_chocolate_bar",
+  "sprites/spr_chocolate_bar_with_stroke",
+  "sprites/spr_chopsticks",
+  "sprites/spr_chopsticks_with_stroke",
+  "sprites/spr_cookie",
+  "sprites/spr_cookie_with_stroke",
+  "sprites/spr_corn",
+  "sprites/spr_corn_with_stroke",
+  "sprites/spr_crab_claw",
+  "sprites/spr_crab_claw_with_stroke",
+  "sprites/spr_crab_whole",
+  "sprites/spr_crab_whole_with_stroke",
+  "sprites/spr_croissant",
+  "sprites/spr_croissant_with_stroke",
+  "sprites/spr_cucumber",
+  "sprites/spr_cucumber_with_stroke",
+  "sprites/spr_cupcake_cho_with_stroke",
+  "sprites/spr_cupcake_choc",
+  "sprites/spr_cupcake_pink",
+  "sprites/spr_cupcake_pink_with_stroke",
+  "sprites/spr_doughnut_glazed",
+  "sprites/spr_doughnut_glazed_with_stroke",
+  "sprites/spr_doughnut_pink",
+  "sprites/spr_doughnut_pink_with_stroke",
+  "sprites/spr_doughnut_with_choc_balls",
+  "sprites/spr_doughnut_with_choc_balls_with_stroke",
+  "sprites/spr_egg",
+  "sprites/spr_egg_cracked",
+  "sprites/spr_egg_cracked_with_stroke",
+  "sprites/spr_egg_with_stroke",
+  "sprites/spr_fish",
+  "sprites/spr_fish_with_stroke",
+  "sprites/spr_fork",
+  "sprites/spr_fork_with_stroke",
+  "sprites/spr_garlic",
+  "sprites/spr_garlic_with_stroke",
+  "sprites/spr_glass_of_milk",
+  "sprites/spr_glass_of_milk_with_stroke",
+  "sprites/spr_glass_of_water",
+  "sprites/spr_glass_of_water_with_stroke",
+  "sprites/spr_grapes",
+  "sprites/spr_grapes_with_stroke",
+  "sprites/spr_ice_cream_mint",
+  "sprites/spr_ice_cream_mint_choc_chip",
+  "sprites/spr_ice_cream_mint_choc_chip_with_stroke",
+  "sprites/spr_ice_cream_mint_with_stroke",
+  "sprites/spr_ice_cream_vanilla",
+  "sprites/spr_ice_cream_vanilla_with_sprinkles",
+  "sprites/spr_ice_cream_vanilla_with_sprinkles_with_stroke",
+  "sprites/spr_ice_cream_vanilla_with_stroke",
+  "sprites/spr_jug_blue",
+  "sprites/spr_jug_blue_with_stroke",
+  "sprites/spr_jug_cyan",
+  "sprites/spr_jug_cyan_with_stroke",
+  "sprites/spr_jug_empty",
+  "sprites/spr_jug_empty_with_stroke",
+  "sprites/spr_jug_green",
+  "sprites/spr_jug_green_with_stroke",
+  "sprites/spr_jug_orange",
+  "sprites/spr_jug_orange_with_stroke",
+  "sprites/spr_jug_pink",
+  "sprites/spr_jug_pink_with_stroke",
+  "sprites/spr_jug_purple",
+  "sprites/spr_jug_purple_with_stroke",
+  "sprites/spr_jug_red",
+  "sprites/spr_jug_red_with_stroke",
+  "sprites/spr_jug_yellow",
+  "sprites/spr_jug_yellow_with_stroke",
+  "sprites/spr_knife",
+  "sprites/spr_knife_with_stroke",
+  "sprites/spr_leek",
+  "sprites/spr_leek_with_stroke",
+  "sprites/spr_lemon",
+  "sprites/spr_lemon_with_stroke",
+  "sprites/spr_lettuce",
+  "sprites/spr_lettuce_with_stroke",
+  "sprites/spr_loaf",
+  "sprites/spr_loaf_with_stroke",
+  "sprites/spr_muffin_blueberry",
+  "sprites/spr_muffin_blueberry_with_stroke",
+  "sprites/spr_muffin_choc",
+  "sprites/spr_muffin_choc_with_stroke",
+  "sprites/spr_mushroom",
+  "sprites/spr_mushroom_with_stroke",
+  "sprites/spr_onion",
+  "sprites/spr_onion_with_stroke",
+  "sprites/spr_orange",
+  "sprites/spr_orange_with_stroke",
+  "sprites/spr_pear",
+  "sprites/spr_pear_with_stroke",
+  "sprites/spr_pink_cake_slice",
+  "sprites/spr_pink_cake_slice_with_stroke",
+  "sprites/spr_porridge",
+  "sprites/spr_porridge_with_stroke",
+  "sprites/spr_red_mushroom",
+  "sprites/spr_red_mushroom_with_stroke",
+  "sprites/spr_red_onion",
+  "sprites/spr_red_onion_with_stroke",
+  "sprites/spr_ribs",
+  "sprites/spr_ribs_with_stroke",
+  "sprites/spr_salmon_fillet",
+  "sprites/spr_salmon_fillet_with_stroke",
+  "sprites/spr_salmon_steak",
+  "sprites/spr_salmon_steak_with_stroke",
+  "sprites/spr_spoon",
+  "sprites/spr_spoon_with_stroke",
+  "sprites/spr_spork",
+  "sprites/spr_spork_with_stroke",
+  "sprites/spr_steak",
+  "sprites/spr_steak_knife",
+  "sprites/spr_steak_knife_with_stroke",
+  "sprites/spr_steak_with_stroke",
+  "sprites/spr_strawberry",
+  "sprites/spr_strawberry_with_stroke",
+  "sprites/spr_sushi_1",
+  "sprites/spr_sushi_1_with_stroke",
+  "sprites/spr_sushi_2",
+  "sprites/spr_sushi_2_with_stroke",
+  "sprites/spr_sushi_3",
+  "sprites/spr_sushi_3_with_stroke",
+  "sprites/spr_tin_empty",
+  "sprites/spr_tin_empty_with_stroke",
+  "sprites/spr_tinned_bean",
+  "sprites/spr_tinned_beans_with_stroke",
+  "sprites/spr_tinned_fruit",
+  "sprites/spr_tinned_fruit_with_stroke",
+  "sprites/spr_tinned_soup",
+  "sprites/spr_tinned_soup_with_stroke",
+  "sprites/spr_tinned_tuna",
+  "sprites/spr_tinned_tuna_with_stroke",
+  "sprites/spr_toast",
+  "sprites/spr_toast_with_jam",
+  "sprites/spr_toast_with_jam_with_stroke",
+  "sprites/spr_toast_with_stroke",
+  "sprites/spr_tomato",
+  "sprites/spr_tomato_with_stroke",
+  "sprites/spr_tuna_steak",
+  "sprites/spr_tuna_steak_with_stroke",
+  "sprites/spr_wine_bottle",
+  "sprites/spr_wine_bottle_with_stroke",
+  "sprites/spr_wine_glass",
+  "sprites/spr_wine_glass_with_stroke",
+]
+
+[assets."sprites/spr_apple"]
+description = "Glossy red apple with a small green leaf and bright highlight; rendered cartoon, single frame."
+tags = []
+
+[assets."sprites/spr_apple_with_stroke"]
+description = "Same glossy red apple with green leaf, wrapped in a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_bacon"]
+description = "Two wavy strips of streaky bacon, pink meat marbled with cream fat; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_bacon_with_stroke"]
+description = "Wavy bacon strips with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_baguette"]
+description = "Long crusty golden-brown French baguette with scored top; glossy rendered."
+tags = []
+
+[assets."sprites/spr_baguette_with_stroke"]
+description = "Golden baguette outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_banana"]
+description = "Bright yellow curved banana with brown stem tip; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_banana_with_stroke"]
+description = "Yellow banana with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_bun"]
+description = "Round golden bread bun with a glossy domed top; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_bun_with_stroke"]
+description = "Golden bread bun outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_butter"]
+description = "Pale yellow stick of butter on a small dish; glossy rendered."
+tags = []
+
+[assets."sprites/spr_butter_with_stroke"]
+description = "Yellow butter stick with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cake"]
+description = "Whole layered cream cake with smooth frosting and a cherry on top; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_cake_with_stroke"]
+description = "Whole frosted cake outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_carrot"]
+description = "Bright orange carrot with leafy green top; glossy rendered."
+tags = []
+
+[assets."sprites/spr_carrot_with_stroke"]
+description = "Orange carrot with green top, bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cheese"]
+description = "Triangular wedge of solid yellow cheese with a glossy sheen; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_cheese_holes"]
+description = "Yellow cheese wedge dotted with round holes; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_cheese_holes_with_stroke"]
+description = "Holey cheese wedge with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cheese_with_stroke"]
+description = "Solid yellow cheese wedge outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cherries"]
+description = "Pair of shiny red cherries joined by green stems; glossy rendered."
+tags = []
+
+[assets."sprites/spr_cherries_with_stroke"]
+description = "Twin red cherries with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_chicken_leg"]
+description = "Roasted chicken drumstick, golden-brown skin with white bone end; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_chicken_leg_with_stroke"]
+description = "Roast chicken drumstick outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_chicken_whole"]
+description = "Whole roasted chicken, plump golden-brown body; glossy rendered."
+tags = []
+
+[assets."sprites/spr_chicken_whole_with_stroke"]
+description = "Whole roast chicken with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_chilli"]
+description = "Glossy red chilli pepper with green stem, curved and pointed; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_chilli_with_stroke"]
+description = "Red chilli pepper outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_choc_cake_slice"]
+description = "Slice of chocolate layer cake with dark sponge and creamy filling; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_choc_cake_slice_with_stroke"]
+description = "Chocolate cake slice with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_chocolate_bar"]
+description = "Bar of dark chocolate broken into glossy segments; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_chocolate_bar_with_stroke"]
+description = "Chocolate bar outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_chopsticks"]
+description = "Pair of wooden chopsticks angled together; glossy rendered."
+tags = []
+
+[assets."sprites/spr_chopsticks_with_stroke"]
+description = "Wooden chopsticks with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cookie"]
+description = "Round golden cookie studded with chocolate chips; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_cookie_with_stroke"]
+description = "Choc-chip cookie outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_corn"]
+description = "Yellow corn cob with neat kernel rows and green husk leaves; glossy rendered."
+tags = []
+
+[assets."sprites/spr_corn_with_stroke"]
+description = "Corn cob with husk, bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_crab_claw"]
+description = "Single orange-red crab claw with a glossy shell; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_crab_claw_with_stroke"]
+description = "Crab claw outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_crab_whole"]
+description = "Whole red crab with rounded shell and outstretched claws; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_crab_whole_with_stroke"]
+description = "Whole red crab with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_croissant"]
+description = "Flaky golden-brown crescent croissant with glossy sheen; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_croissant_with_stroke"]
+description = "Golden croissant outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cucumber"]
+description = "Dark green cucumber with smooth glossy skin; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_cucumber_with_stroke"]
+description = "Green cucumber with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cupcake_cho_with_stroke"]
+description = "Chocolate-frosted cupcake in a paper case, bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_cupcake_choc"]
+description = "Cupcake topped with swirled chocolate frosting in a fluted paper case; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_cupcake_pink"]
+description = "Cupcake with swirled pink frosting in a paper case; glossy rendered."
+tags = []
+
+[assets."sprites/spr_cupcake_pink_with_stroke"]
+description = "Pink-frosted cupcake outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_doughnut_glazed"]
+description = "Ring doughnut with a glossy golden glaze; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_doughnut_glazed_with_stroke"]
+description = "Glazed ring doughnut outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_doughnut_pink"]
+description = "Ring doughnut topped with pink icing; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_doughnut_pink_with_stroke"]
+description = "Pink-iced doughnut with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_doughnut_with_choc_balls"]
+description = "Chocolate-iced ring doughnut sprinkled with little choc balls; glossy rendered."
+tags = []
+
+[assets."sprites/spr_doughnut_with_choc_balls_with_stroke"]
+description = "Choc-ball doughnut outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_egg"]
+description = "Whole white egg with a soft glossy sheen; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_egg_cracked"]
+description = "Cracked egg showing a bright yellow yolk in clear white; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_egg_cracked_with_stroke"]
+description = "Cracked egg with yolk, bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_egg_with_stroke"]
+description = "Whole white egg outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_fish"]
+description = "Whole silvery-blue fish in side profile with fins and tail; glossy rendered."
+tags = []
+
+[assets."sprites/spr_fish_with_stroke"]
+description = "Whole fish with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_fork"]
+description = "Shiny silver dinner fork; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_fork_with_stroke"]
+description = "Silver fork outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_garlic"]
+description = "Bulb of white garlic with papery skin and a small stem; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_garlic_with_stroke"]
+description = "Garlic bulb with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_glass_of_milk"]
+description = "Tall glass of white milk with a glossy surface; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_glass_of_milk_with_stroke"]
+description = "Glass of milk outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_glass_of_water"]
+description = "Tall glass of clear water with light reflections; glossy rendered."
+tags = []
+
+[assets."sprites/spr_glass_of_water_with_stroke"]
+description = "Glass of water with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_grapes"]
+description = "Cluster of glossy purple grapes with a green stem; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_grapes_with_stroke"]
+description = "Purple grape cluster outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_ice_cream_mint"]
+description = "Scoop of pale mint-green ice cream in a waffle cone; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_ice_cream_mint_choc_chip"]
+description = "Mint-green ice cream cone flecked with chocolate chips; glossy rendered."
+tags = []
+
+[assets."sprites/spr_ice_cream_mint_choc_chip_with_stroke"]
+description = "Mint choc-chip cone with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_ice_cream_mint_with_stroke"]
+description = "Mint ice cream cone outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_ice_cream_vanilla"]
+description = "Scoop of creamy vanilla ice cream in a waffle cone; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_ice_cream_vanilla_with_sprinkles"]
+description = "Vanilla ice cream cone topped with colourful sprinkles; glossy rendered."
+tags = []
+
+[assets."sprites/spr_ice_cream_vanilla_with_sprinkles_with_stroke"]
+description = "Sprinkled vanilla cone with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_ice_cream_vanilla_with_stroke"]
+description = "Vanilla ice cream cone outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_blue"]
+description = "Glossy pitcher filled with blue liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_blue_with_stroke"]
+description = "Blue-filled jug with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_cyan"]
+description = "Glossy pitcher filled with cyan liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_cyan_with_stroke"]
+description = "Cyan-filled jug outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_empty"]
+description = "Empty glass pitcher with a curved handle; glossy rendered."
+tags = []
+
+[assets."sprites/spr_jug_empty_with_stroke"]
+description = "Empty jug with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_green"]
+description = "Glossy pitcher filled with green liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_green_with_stroke"]
+description = "Green-filled jug outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_orange"]
+description = "Glossy pitcher filled with orange liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_orange_with_stroke"]
+description = "Orange-filled jug with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_pink"]
+description = "Glossy pitcher filled with pink liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_pink_with_stroke"]
+description = "Pink-filled jug outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_purple"]
+description = "Glossy pitcher filled with purple liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_purple_with_stroke"]
+description = "Purple-filled jug with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_red"]
+description = "Glossy pitcher filled with red liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_red_with_stroke"]
+description = "Red-filled jug outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_jug_yellow"]
+description = "Glossy pitcher filled with yellow liquid; rendered cartoon jug."
+tags = []
+
+[assets."sprites/spr_jug_yellow_with_stroke"]
+description = "Yellow-filled jug with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_knife"]
+description = "Shiny silver dinner knife; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_knife_with_stroke"]
+description = "Silver knife outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_leek"]
+description = "Long leek with white stalk and green leafy tops; glossy rendered."
+tags = []
+
+[assets."sprites/spr_leek_with_stroke"]
+description = "Leek with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_lemon"]
+description = "Bright yellow lemon with a glossy dimpled skin; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_lemon_with_stroke"]
+description = "Yellow lemon outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_lettuce"]
+description = "Round head of leafy green lettuce with crinkled leaves; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_lettuce_with_stroke"]
+description = "Green lettuce head with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_loaf"]
+description = "Whole loaf of golden-brown bread with rounded top; glossy rendered."
+tags = []
+
+[assets."sprites/spr_loaf_with_stroke"]
+description = "Bread loaf outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_muffin_blueberry"]
+description = "Muffin with a domed golden top dotted with blueberries; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_muffin_blueberry_with_stroke"]
+description = "Blueberry muffin with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_muffin_choc"]
+description = "Chocolate muffin with a rich domed top and chips; glossy rendered."
+tags = []
+
+[assets."sprites/spr_muffin_choc_with_stroke"]
+description = "Chocolate muffin outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_mushroom"]
+description = "Brown-capped button mushroom with pale stalk; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_mushroom_with_stroke"]
+description = "Brown mushroom outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_onion"]
+description = "Golden-brown onion with papery skin and a small green sprout; glossy rendered."
+tags = []
+
+[assets."sprites/spr_onion_with_stroke"]
+description = "Brown onion with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_orange"]
+description = "Round bright orange citrus fruit with a glossy peel; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_orange_with_stroke"]
+description = "Orange fruit outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_pear"]
+description = "Green pear with classic bell shape and glossy skin; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_pear_with_stroke"]
+description = "Green pear with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_pink_cake_slice"]
+description = "Slice of pink-frosted layer cake with cream filling; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_pink_cake_slice_with_stroke"]
+description = "Pink cake slice outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_porridge"]
+description = "Bowl of creamy porridge oats; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_porridge_with_stroke"]
+description = "Bowl of porridge with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_red_mushroom"]
+description = "Toadstool with a bright red cap and white spots on a pale stalk; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_red_mushroom_with_stroke"]
+description = "Red-spotted toadstool outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_red_onion"]
+description = "Purple-red onion with glossy skin and a small sprout; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_red_onion_with_stroke"]
+description = "Red onion with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_ribs"]
+description = "Rack of glazed barbecue ribs, browned meat on curved bones; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_ribs_with_stroke"]
+description = "Rack of ribs outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_salmon_fillet"]
+description = "Pink-orange salmon fillet with pale flesh lines; glossy rendered."
+tags = []
+
+[assets."sprites/spr_salmon_fillet_with_stroke"]
+description = "Salmon fillet with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_salmon_steak"]
+description = "Round salmon steak with pink flesh and central bone; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_salmon_steak_with_stroke"]
+description = "Salmon steak outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_spoon"]
+description = "Shiny silver spoon with a rounded bowl; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_spoon_with_stroke"]
+description = "Silver spoon outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_spork"]
+description = "Shiny silver spork, a spoon-fork hybrid; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_spork_with_stroke"]
+description = "Silver spork outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_steak"]
+description = "Thick raw red steak with marbled fat; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_steak_knife"]
+description = "Serrated silver steak knife with a dark handle; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_steak_knife_with_stroke"]
+description = "Steak knife with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_steak_with_stroke"]
+description = "Red marbled steak outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_strawberry"]
+description = "Bright red strawberry dotted with seeds and a green leafy cap; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_strawberry_with_stroke"]
+description = "Red strawberry outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_sushi_1"]
+description = "Piece of nigiri sushi, rice topped with a pink-orange fish slice; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_sushi_1_with_stroke"]
+description = "Nigiri sushi piece outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_sushi_2"]
+description = "Sushi roll wrapped in dark seaweed with a colourful centre; glossy rendered."
+tags = []
+
+[assets."sprites/spr_sushi_2_with_stroke"]
+description = "Seaweed sushi roll with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_sushi_3"]
+description = "Sushi roll with rice and a bright fish-and-veg filling; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_sushi_3_with_stroke"]
+description = "Sushi roll outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tin_empty"]
+description = "Empty open metal food tin with a shiny rim; glossy rendered."
+tags = []
+
+[assets."sprites/spr_tin_empty_with_stroke"]
+description = "Empty tin can with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tinned_bean"]
+description = "Open tin of baked beans in tomato sauce with a paper label; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_tinned_beans_with_stroke"]
+description = "Tin of baked beans outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tinned_fruit"]
+description = "Tin of fruit in syrup with a colourful label; glossy rendered."
+tags = []
+
+[assets."sprites/spr_tinned_fruit_with_stroke"]
+description = "Tin of fruit with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tinned_soup"]
+description = "Tin of soup with a labelled can; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_tinned_soup_with_stroke"]
+description = "Tin of soup outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tinned_tuna"]
+description = "Open tin of tuna showing flaked fish; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_tinned_tuna_with_stroke"]
+description = "Tin of tuna with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_toast"]
+description = "Slice of golden toasted bread with a glossy crust; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_toast_with_jam"]
+description = "Slice of toast spread with glossy red jam; rendered cartoon."
+tags = []
+
+[assets."sprites/spr_toast_with_jam_with_stroke"]
+description = "Jam toast with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_toast_with_stroke"]
+description = "Plain toast slice outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tomato"]
+description = "Round shiny red tomato with a small green stem; glossy cartoon."
+tags = []
+
+[assets."sprites/spr_tomato_with_stroke"]
+description = "Red tomato with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_tuna_steak"]
+description = "Dark red tuna steak with dense flesh; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_tuna_steak_with_stroke"]
+description = "Tuna steak outlined in black."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_wine_bottle"]
+description = "Dark green wine bottle with a pale label and foil neck; glossy rendered."
+tags = []
+
+[assets."sprites/spr_wine_bottle_with_stroke"]
+description = "Wine bottle with a bold black outline."
+tags = [ "style:outlined" ]
+
+[assets."sprites/spr_wine_glass"]
+description = "Stemmed glass holding deep red wine; glossy rendered cartoon."
+tags = []
+
+[assets."sprites/spr_wine_glass_with_stroke"]
+description = "Glass of red wine outlined in black."
+tags = [ "style:outlined" ]

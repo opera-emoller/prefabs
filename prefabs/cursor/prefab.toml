@@ -1,0 +1,10 @@
+id = "cursor"
+version = "0.1.0"
+kind = "asset"
+license = "Apache-2.0"
+tags = []
+
+[export]
+include = [
+  "objects/Cursor",
+]

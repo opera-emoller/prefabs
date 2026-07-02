@@ -1,0 +1,1688 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_front_view_cart_back"
+sprite = "spr_front_view_cart_back"
+x = 22.4
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_cart_front"
+sprite = "spr_front_view_cart_front"
+x = 96.5
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_cart_left"
+sprite = "spr_front_view_cart_left"
+x = 170.6
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_cart_right"
+sprite = "spr_front_view_cart_right"
+x = 244.8
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_01_back"
+sprite = "spr_front_view_farm_house_01_back"
+x = 318.9
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_01_front"
+sprite = "spr_front_view_farm_house_01_front"
+x = 393.0
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_01_left"
+sprite = "spr_front_view_farm_house_01_left"
+x = 467.1
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_01_right"
+sprite = "spr_front_view_farm_house_01_right"
+x = 541.2
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_02_back"
+sprite = "spr_front_view_farm_house_02_back"
+x = 615.4
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_02_front"
+sprite = "spr_front_view_farm_house_02_front"
+x = 689.5
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_02_left"
+sprite = "spr_front_view_farm_house_02_left"
+x = 763.6
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_02_right"
+sprite = "spr_front_view_farm_house_02_right"
+x = 837.7
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_field_back"
+sprite = "spr_front_view_farm_house_field_back"
+x = 911.8
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_field_front"
+sprite = "spr_front_view_farm_house_field_front"
+x = 985.9
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_field_left"
+sprite = "spr_front_view_farm_house_field_left"
+x = 1060.1
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_farm_house_field_right"
+sprite = "spr_front_view_farm_house_field_right"
+x = 1134.2
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_guard_tower_back"
+sprite = "spr_front_view_guard_tower_back"
+x = 1208.3
+y = 16.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_guard_tower_front"
+sprite = "spr_front_view_guard_tower_front"
+x = 22.4
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_guard_tower_left"
+sprite = "spr_front_view_guard_tower_left"
+x = 96.5
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_guard_tower_right"
+sprite = "spr_front_view_guard_tower_right"
+x = 170.6
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_01_back"
+sprite = "spr_front_view_house_01_back"
+x = 244.8
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_01_front"
+sprite = "spr_front_view_house_01_front"
+x = 318.9
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_01_left"
+sprite = "spr_front_view_house_01_left"
+x = 393.0
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_01_right"
+sprite = "spr_front_view_house_01_right"
+x = 467.1
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_02_back"
+sprite = "spr_front_view_house_02_back"
+x = 541.2
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_02_front"
+sprite = "spr_front_view_house_02_front"
+x = 615.4
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_02_left"
+sprite = "spr_front_view_house_02_left"
+x = 689.5
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_house_02_right"
+sprite = "spr_front_view_house_02_right"
+x = 763.6
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_inn_back"
+sprite = "spr_front_view_inn_back"
+x = 837.7
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_inn_front"
+sprite = "spr_front_view_inn_front"
+x = 911.8
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_inn_left"
+sprite = "spr_front_view_inn_left"
+x = 985.9
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_inn_right"
+sprite = "spr_front_view_inn_right"
+x = 1060.1
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_01_back"
+sprite = "spr_front_view_shop_01_back"
+x = 1134.2
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_01_front"
+sprite = "spr_front_view_shop_01_front"
+x = 1208.3
+y = 74.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_01_left"
+sprite = "spr_front_view_shop_01_left"
+x = 22.4
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_01_right"
+sprite = "spr_front_view_shop_01_right"
+x = 96.5
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_02_back"
+sprite = "spr_front_view_shop_02_back"
+x = 170.6
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_02_front"
+sprite = "spr_front_view_shop_02_front"
+x = 244.8
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_02_left"
+sprite = "spr_front_view_shop_02_left"
+x = 318.9
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_shop_02_right"
+sprite = "spr_front_view_shop_02_right"
+x = 393.0
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_01_back"
+sprite = "spr_front_view_stall_01_back"
+x = 467.1
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_01_front"
+sprite = "spr_front_view_stall_01_front"
+x = 541.2
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_01_left"
+sprite = "spr_front_view_stall_01_left"
+x = 615.4
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_01_right"
+sprite = "spr_front_view_stall_01_right"
+x = 689.5
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_02_back"
+sprite = "spr_front_view_stall_02_back"
+x = 763.6
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_02_front"
+sprite = "spr_front_view_stall_02_front"
+x = 837.7
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_02_left"
+sprite = "spr_front_view_stall_02_left"
+x = 911.8
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_stall_02_right"
+sprite = "spr_front_view_stall_02_right"
+x = 985.9
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_trees_back"
+sprite = "spr_front_view_trees_back"
+x = 1060.1
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_trees_front"
+sprite = "spr_front_view_trees_front"
+x = 1134.2
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_trees_left"
+sprite = "spr_front_view_trees_left"
+x = 1208.3
+y = 132.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_trees_right"
+sprite = "spr_front_view_trees_right"
+x = 22.4
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_windmill_back"
+sprite = "spr_front_view_windmill_back"
+x = 96.5
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_windmill_front"
+sprite = "spr_front_view_windmill_front"
+x = 170.6
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_windmill_left"
+sprite = "spr_front_view_windmill_left"
+x = 244.8
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_front_view_windmill_right"
+sprite = "spr_front_view_windmill_right"
+x = 318.9
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_cart_back"
+sprite = "spr_isometric_view_cart_back"
+x = 393.0
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_cart_front"
+sprite = "spr_isometric_view_cart_front"
+x = 467.1
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_cart_left"
+sprite = "spr_isometric_view_cart_left"
+x = 541.2
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_cart_right"
+sprite = "spr_isometric_view_cart_right"
+x = 615.4
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_01_back"
+sprite = "spr_isometric_view_farm_house_01_back"
+x = 689.5
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_01_font"
+sprite = "spr_isometric_view_farm_house_01_font"
+x = 763.6
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_01_left"
+sprite = "spr_isometric_view_farm_house_01_left"
+x = 837.7
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_01_right"
+sprite = "spr_isometric_view_farm_house_01_right"
+x = 911.8
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_02_back"
+sprite = "spr_isometric_view_farm_house_02_back"
+x = 985.9
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_02_front"
+sprite = "spr_isometric_view_farm_house_02_front"
+x = 1060.1
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_02_left"
+sprite = "spr_isometric_view_farm_house_02_left"
+x = 1134.2
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_02_right"
+sprite = "spr_isometric_view_farm_house_02_right"
+x = 1208.3
+y = 190.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_field_back"
+sprite = "spr_isometric_view_farm_house_field_back"
+x = 22.4
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_field_front"
+sprite = "spr_isometric_view_farm_house_field_front"
+x = 96.5
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_field_left"
+sprite = "spr_isometric_view_farm_house_field_left"
+x = 170.6
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_farm_house_field_right"
+sprite = "spr_isometric_view_farm_house_field_right"
+x = 244.8
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_guard_tower_back"
+sprite = "spr_isometric_view_guard_tower_back"
+x = 318.9
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_guard_tower_front"
+sprite = "spr_isometric_view_guard_tower_front"
+x = 393.0
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_guard_tower_left"
+sprite = "spr_isometric_view_guard_tower_left"
+x = 467.1
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_guard_tower_right"
+sprite = "spr_isometric_view_guard_tower_right"
+x = 541.2
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_01_back"
+sprite = "spr_isometric_view_house_01_back"
+x = 615.4
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_01_front"
+sprite = "spr_isometric_view_house_01_front"
+x = 689.5
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_01_left"
+sprite = "spr_isometric_view_house_01_left"
+x = 763.6
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_01_right"
+sprite = "spr_isometric_view_house_01_right"
+x = 837.7
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_02_back"
+sprite = "spr_isometric_view_house_02_back"
+x = 911.8
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_02_front"
+sprite = "spr_isometric_view_house_02_front"
+x = 985.9
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_02_left"
+sprite = "spr_isometric_view_house_02_left"
+x = 1060.1
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_house_02_right"
+sprite = "spr_isometric_view_house_02_right"
+x = 1134.2
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_inn_back"
+sprite = "spr_isometric_view_inn_back"
+x = 1208.3
+y = 248.3
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_inn_front"
+sprite = "spr_isometric_view_inn_front"
+x = 22.4
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_inn_left"
+sprite = "spr_isometric_view_inn_left"
+x = 96.5
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_inn_right"
+sprite = "spr_isometric_view_inn_right"
+x = 170.6
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_01_back"
+sprite = "spr_isometric_view_shop_01_back"
+x = 244.8
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_01_front"
+sprite = "spr_isometric_view_shop_01_front"
+x = 318.9
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_01_left"
+sprite = "spr_isometric_view_shop_01_left"
+x = 393.0
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_01_right"
+sprite = "spr_isometric_view_shop_01_right"
+x = 467.1
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_02_back"
+sprite = "spr_isometric_view_shop_02_back"
+x = 541.2
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_02_front"
+sprite = "spr_isometric_view_shop_02_front"
+x = 615.4
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_02_left"
+sprite = "spr_isometric_view_shop_02_left"
+x = 689.5
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_shop_02_right"
+sprite = "spr_isometric_view_shop_02_right"
+x = 763.6
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_01_back"
+sprite = "spr_isometric_view_stall_01_back"
+x = 837.7
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_01_front"
+sprite = "spr_isometric_view_stall_01_front"
+x = 911.8
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_01_left"
+sprite = "spr_isometric_view_stall_01_left"
+x = 985.9
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_01_right"
+sprite = "spr_isometric_view_stall_01_right"
+x = 1060.1
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_02_back"
+sprite = "spr_isometric_view_stall_02_back"
+x = 1134.2
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_02_front"
+sprite = "spr_isometric_view_stall_02_front"
+x = 1208.3
+y = 306.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_02_left"
+sprite = "spr_isometric_view_stall_02_left"
+x = 22.4
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_stall_02_right"
+sprite = "spr_isometric_view_stall_02_right"
+x = 96.5
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_trees_back"
+sprite = "spr_isometric_view_trees_back"
+x = 170.6
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_trees_front"
+sprite = "spr_isometric_view_trees_front"
+x = 244.8
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_trees_left"
+sprite = "spr_isometric_view_trees_left"
+x = 318.9
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_trees_right"
+sprite = "spr_isometric_view_trees_right"
+x = 393.0
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_windmill_back"
+sprite = "spr_isometric_view_windmill_back"
+x = 467.1
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_windmill_front"
+sprite = "spr_isometric_view_windmill_front"
+x = 541.2
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_windmill_left"
+sprite = "spr_isometric_view_windmill_left"
+x = 615.4
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_isometric_view_windmill_right"
+sprite = "spr_isometric_view_windmill_right"
+x = 689.5
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_cart_back"
+sprite = "spr_top_down_view_cart_back"
+x = 763.6
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_cart_front"
+sprite = "spr_top_down_view_cart_front"
+x = 837.7
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_cart_left"
+sprite = "spr_top_down_view_cart_left"
+x = 911.8
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_cart_right"
+sprite = "spr_top_down_view_cart_right"
+x = 985.9
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_field_back"
+sprite = "spr_top_down_view_farm_field_back"
+x = 1060.1
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_field_front"
+sprite = "spr_top_down_view_farm_field_front"
+x = 1134.2
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_field_left"
+sprite = "spr_top_down_view_farm_field_left"
+x = 1208.3
+y = 364.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_field_right"
+sprite = "spr_top_down_view_farm_field_right"
+x = 22.4
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_01_back"
+sprite = "spr_top_down_view_farm_house_01_back"
+x = 96.5
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_01_front"
+sprite = "spr_top_down_view_farm_house_01_front"
+x = 170.6
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_01_left"
+sprite = "spr_top_down_view_farm_house_01_left"
+x = 244.8
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_01_right"
+sprite = "spr_top_down_view_farm_house_01_right"
+x = 318.9
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_02_back"
+sprite = "spr_top_down_view_farm_house_02_back"
+x = 393.0
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_02_front"
+sprite = "spr_top_down_view_farm_house_02_front"
+x = 467.1
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_02_left"
+sprite = "spr_top_down_view_farm_house_02_left"
+x = 541.2
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_farm_house_02_right"
+sprite = "spr_top_down_view_farm_house_02_right"
+x = 615.4
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_guard_tower_back"
+sprite = "spr_top_down_view_guard_tower_back"
+x = 689.5
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_guard_tower_front"
+sprite = "spr_top_down_view_guard_tower_front"
+x = 763.6
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_guard_tower_left"
+sprite = "spr_top_down_view_guard_tower_left"
+x = 837.7
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_guard_tower_right"
+sprite = "spr_top_down_view_guard_tower_right"
+x = 911.8
+y = 422.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_01_back"
+sprite = "spr_top_down_view_house_01_back"
+x = 22.4
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_01_front"
+sprite = "spr_top_down_view_house_01_front"
+x = 96.5
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_01_left"
+sprite = "spr_top_down_view_house_01_left"
+x = 170.6
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_01_right"
+sprite = "spr_top_down_view_house_01_right"
+x = 244.8
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_02_back"
+sprite = "spr_top_down_view_house_02_back"
+x = 318.9
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_02_front"
+sprite = "spr_top_down_view_house_02_front"
+x = 393.0
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_02_left"
+sprite = "spr_top_down_view_house_02_left"
+x = 467.1
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_house_02_right"
+sprite = "spr_top_down_view_house_02_right"
+x = 541.2
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_inn_back"
+sprite = "spr_top_down_view_inn_back"
+x = 615.4
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_inn_front"
+sprite = "spr_top_down_view_inn_front"
+x = 689.5
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_inn_left"
+sprite = "spr_top_down_view_inn_left"
+x = 763.6
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_inn_right"
+sprite = "spr_top_down_view_inn_right"
+x = 837.7
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_01_back"
+sprite = "spr_top_down_view_shop_01_back"
+x = 911.8
+y = 480.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_01_front"
+sprite = "spr_top_down_view_shop_01_front"
+x = 22.4
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_01_left"
+sprite = "spr_top_down_view_shop_01_left"
+x = 96.5
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_01_right"
+sprite = "spr_top_down_view_shop_01_right"
+x = 170.6
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_02_back"
+sprite = "spr_top_down_view_shop_02_back"
+x = 244.8
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_02_front"
+sprite = "spr_top_down_view_shop_02_front"
+x = 318.9
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_02_left"
+sprite = "spr_top_down_view_shop_02_left"
+x = 393.0
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_shop_02_right"
+sprite = "spr_top_down_view_shop_02_right"
+x = 467.1
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_01_back"
+sprite = "spr_top_down_view_stall_01_back"
+x = 541.2
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_01_front"
+sprite = "spr_top_down_view_stall_01_front"
+x = 615.4
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_01_left"
+sprite = "spr_top_down_view_stall_01_left"
+x = 689.5
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_01_right"
+sprite = "spr_top_down_view_stall_01_right"
+x = 763.6
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_02_back"
+sprite = "spr_top_down_view_stall_02_back"
+x = 837.7
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_02_front"
+sprite = "spr_top_down_view_stall_02_front"
+x = 911.8
+y = 538.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_02_left"
+sprite = "spr_top_down_view_stall_02_left"
+x = 22.4
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_stall_02_right"
+sprite = "spr_top_down_view_stall_02_right"
+x = 96.5
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_trees_back"
+sprite = "spr_top_down_view_trees_back"
+x = 170.6
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_trees_front"
+sprite = "spr_top_down_view_trees_front"
+x = 244.8
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_trees_left"
+sprite = "spr_top_down_view_trees_left"
+x = 318.9
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_trees_right"
+sprite = "spr_top_down_view_trees_right"
+x = 393.0
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_windmill_back"
+sprite = "spr_top_down_view_windmill_back"
+x = 467.1
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_windmill_front"
+sprite = "spr_top_down_view_windmill_front"
+x = 541.2
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_windmill_left"
+sprite = "spr_top_down_view_windmill_left"
+x = 615.4
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_top_down_view_windmill_right"
+sprite = "spr_top_down_view_windmill_right"
+x = 689.5
+y = 596.4
+scale_x = 0.09629
+scale_y = 0.09629
+rotation = 0.0
+colour = "#FFFFFFFF"
+

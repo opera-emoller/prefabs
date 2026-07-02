@@ -1,0 +1,925 @@
+id = "scifi-space-shooter"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Bright, detailed cartoon sci-fi space-shooter art and audio pack: 3 player ships, 6 enemy ships, 6 turrets, animated weapons and VFX, a modular space station, and full SFX plus music tracks for a vertical scrolling shmup."
+tags = [ "genre:shmup", "theme:sci-fi", "theme:space", "style:cartoon" ]
+
+[export]
+include = [
+  "sprites/sprBackground1",
+  "sprites/sprBackground2",
+  "sprites/sprBackground3",
+  "sprites/sprBackground4",
+  "sprites/sprBackground5",
+  "sprites/sprBackground6",
+  "sprites/sprBackground7",
+  "sprites/sprBackground8",
+  "sprites/sprBackground9",
+  "sprites/sprEnemyLaserAnim",
+  "sprites/sprEnemyLaserEmit",
+  "sprites/sprEnemyMissileAnim",
+  "sprites/sprEnemyMissileEmit",
+  "sprites/sprEnemyPlasmaAnim",
+  "sprites/sprEnemyPlasmaEmit",
+  "sprites/sprEnemyShip1_Base",
+  "sprites/sprEnemyShip1_Base_Tilt",
+  "sprites/sprEnemyShip1_Base_Tilt2",
+  "sprites/sprEnemyShip1_Upgraded",
+  "sprites/sprEnemyShip1_Upgraded_Tilt",
+  "sprites/sprEnemyShip1_Upgraded_Tilt2",
+  "sprites/sprEnemyShip2_Base",
+  "sprites/sprEnemyShip2_Base_Tilt",
+  "sprites/sprEnemyShip2_Base_Tilt2",
+  "sprites/sprEnemyShip2_Upgraded",
+  "sprites/sprEnemyShip2_Upgraded_Tilt",
+  "sprites/sprEnemyShip2_Upgraded_Tilt2",
+  "sprites/sprEnemyShip3_Base",
+  "sprites/sprEnemyShip3_Base_Tilt",
+  "sprites/sprEnemyShip3_Base_Tilt2",
+  "sprites/sprEnemyShip3_Upgraded",
+  "sprites/sprEnemyShip3_Upgraded_Tilt",
+  "sprites/sprEnemyShip3_Upgraded_Tilt2",
+  "sprites/sprEnemyShip_Thruster",
+  "sprites/sprEnemyTurret_Base",
+  "sprites/sprEnemyTurret_Base_Destroyed",
+  "sprites/sprEnemyTurret_Destroyed",
+  "sprites/sprEnemyTurret_Laser1",
+  "sprites/sprEnemyTurret_Laser2",
+  "sprites/sprEnemyTurret_Missile1",
+  "sprites/sprEnemyTurret_Missile2",
+  "sprites/sprEnemyTurret_Plasma1",
+  "sprites/sprEnemyTurret_Plasma2",
+  "sprites/sprEnemy_Tank_Base",
+  "sprites/sprExplosion2Anim",
+  "sprites/sprExplosionAnim",
+  "sprites/sprPickUp_Credits",
+  "sprites/sprPickUp_Health",
+  "sprites/sprPickUp_PowerUp",
+  "sprites/sprPickUp_Shield",
+  "sprites/sprPlayerBullet",
+  "sprites/sprPlayerBulletAnim",
+  "sprites/sprPlayerBulletEmit",
+  "sprites/sprPlayerHeavyMissile",
+  "sprites/sprPlayerHeavyMissileAnim",
+  "sprites/sprPlayerLaserAnim",
+  "sprites/sprPlayerLaserEmit",
+  "sprites/sprPlayerMissile",
+  "sprites/sprPlayerMissileAnim",
+  "sprites/sprPlayerMissileEmit",
+  "sprites/sprPlayerPlasmaAnim",
+  "sprites/sprPlayerPlasmaEmit",
+  "sprites/sprPlayerShip_Heavy",
+  "sprites/sprPlayerShip_Heavy_Fire",
+  "sprites/sprPlayerShip_Heavy_Tilt",
+  "sprites/sprPlayerShip_Light",
+  "sprites/sprPlayerShip_Light_Fire",
+  "sprites/sprPlayerShip_Light_Tilt",
+  "sprites/sprPlayerShip_Medium",
+  "sprites/sprPlayerShip_Medium_Fire",
+  "sprites/sprPlayerShip_Medium_Tilt",
+  "sprites/sprPlayerShip_Thruster",
+  "sprites/sprShield",
+  "sprites/sprShieldAnim",
+  "sprites/sprSpaceStationTiles_Corner1",
+  "sprites/sprSpaceStationTiles_Corner2",
+  "sprites/sprSpaceStationTiles_Inner1",
+  "sprites/sprSpaceStationTiles_Inner2",
+  "sprites/sprSpaceStationTiles_Inner3",
+  "sprites/sprSpaceStationTiles_Inner4",
+  "sprites/sprSpaceStationTiles_Inner5",
+  "sprites/sprSpaceStationTiles_Inner6",
+  "sprites/sprSpaceStationTiles_Inner7",
+  "sprites/sprSpaceStationTiles_InnerCorner",
+  "sprites/sprSpaceStationTiles_Outer1",
+  "sprites/sprSpaceStationTiles_Outer2",
+  "sprites/sprSpaceStationTiles_Outer3",
+  "sprites/sprSpaceStation_Fixture01",
+  "sprites/sprSpaceStation_Fixture02",
+  "sprites/sprSpaceStation_Fixture03",
+  "sprites/sprSpaceStation_Fixture04",
+  "sprites/sprSpaceStation_Fixture05",
+  "sprites/sprSpaceStation_Fixture06",
+  "sprites/sprSpaceStation_Fixture07",
+  "sprites/sprSpaceStation_Fixture08",
+  "sprites/sprSpaceStation_Fixture09",
+  "sprites/sprSpaceStation_Fixture10",
+  "sprites/sprSpaceStation_Fixture11",
+  "sprites/sprSpaceStation_Fixture12",
+  "sprites/sprSpaceStation_Fixture13",
+  "sprites/sprSpaceStation_Fixture14",
+  "sprites/sprSpaceStation_Fixture15",
+  "sprites/sprSpaceStation_Fixture16",
+  "sprites/sprSpaceStation_Fixture17",
+  "sprites/sprSpaceStation_TileMap",
+  "sounds/SFX_Electrodes1",
+  "sounds/SFX_Electrodes2",
+  "sounds/SFX_Electrodes3",
+  "sounds/SFX_EnemyShip_Laser1",
+  "sounds/SFX_EnemyShip_Laser2",
+  "sounds/SFX_EnemyShip_Laser3",
+  "sounds/SFX_EnemyShip_Missile1",
+  "sounds/SFX_EnemyShip_Missile2",
+  "sounds/SFX_EnemyShip_Missile3",
+  "sounds/SFX_EnemyShip_Plasma1",
+  "sounds/SFX_EnemyShip_Plasma2",
+  "sounds/SFX_EnemyShip_Plasma3",
+  "sounds/SFX_EnemyShip_Thruster1",
+  "sounds/SFX_EnemyShip_Thruster2",
+  "sounds/SFX_Engine_Vehicle1_Loop",
+  "sounds/SFX_Engine_Vehicle1_LoopEnd",
+  "sounds/SFX_Engine_Vehicle1_LoopStart",
+  "sounds/SFX_Engine_Vehicle2_Loop",
+  "sounds/SFX_Engine_Vehicle2_LoopEnd",
+  "sounds/SFX_Engine_Vehicle2_LoopStart",
+  "sounds/SFX_Explosion_Big",
+  "sounds/SFX_Explosion_Small",
+  "sounds/SFX_Pickup_Powerup",
+  "sounds/SFX_PlayerShip_BlasterFire1",
+  "sounds/SFX_PlayerShip_BlasterFire2",
+  "sounds/SFX_PlayerShip_BlasterFire3",
+  "sounds/SFX_PlayerShip_BulletFire1",
+  "sounds/SFX_PlayerShip_BulletFire2",
+  "sounds/SFX_PlayerShip_BulletFire3",
+  "sounds/SFX_PlayerShip_HeavyRocketFire1",
+  "sounds/SFX_PlayerShip_HeavyRocketFire2",
+  "sounds/SFX_PlayerShip_HeavyRocketFire3",
+  "sounds/SFX_PlayerShip_PlasmaFire1",
+  "sounds/SFX_PlayerShip_PlasmaFire2",
+  "sounds/SFX_PlayerShip_PlasmaFire3",
+  "sounds/SFX_PlayerShip_RocketFire1",
+  "sounds/SFX_PlayerShip_RocketFire2",
+  "sounds/SFX_PlayerShip_RocketFire3",
+  "sounds/SFX_PlayerShip_Shield1_Loop",
+  "sounds/SFX_PlayerShip_Shield1_LoopEnd",
+  "sounds/SFX_PlayerShip_Shield1_LoopStart",
+  "sounds/SFX_PlayerShip_Shield2_Loop",
+  "sounds/SFX_PlayerShip_Shield2_LoopEnd",
+  "sounds/SFX_PlayerShip_Shield2_LoopStart",
+  "sounds/SFX_PlayerShip_Shield3_Loop",
+  "sounds/SFX_PlayerShip_Shield3_LoopEnd",
+  "sounds/SFX_PlayerShip_Shield3_LoopStart",
+  "sounds/SFX_PlayerShip_Thruster",
+  "sounds/SFX_PlayerShip_Thruster_Upgrade1",
+  "sounds/SFX_PlayerShip_Thruster_Upgrade2",
+  "sounds/SFX_PlayerShip_Thruster_Upgrade3",
+  "sounds/SFX_PlayerShip_Upgrade",
+  "sounds/SFX_Turret_Laser1",
+  "sounds/SFX_Turret_Laser2",
+  "sounds/SFX_Turret_Laser3",
+  "sounds/SFX_Turret_Laser_Upgraded1",
+  "sounds/SFX_Turret_Laser_Upgraded2",
+  "sounds/SFX_Turret_Laser_Upgraded3",
+  "sounds/SFX_Turret_Missile1",
+  "sounds/SFX_Turret_Missile2",
+  "sounds/SFX_Turret_Missile3",
+  "sounds/SFX_Turret_Missile_Upgraded1",
+  "sounds/SFX_Turret_Missile_Upgraded2",
+  "sounds/SFX_Turret_Missile_Upgraded3",
+  "sounds/SFX_Turret_Plasma1",
+  "sounds/SFX_Turret_Plasma2",
+  "sounds/SFX_Turret_Plasma3",
+  "sounds/SFX_Turret_Plasma_Upgraded1",
+  "sounds/SFX_Turret_Plasma_Upgraded2",
+  "sounds/SFX_Turret_Plasma_Upgraded3",
+  "sounds/SFX_Turret_Swivel1",
+  "sounds/SFX_Turret_Swivel2",
+  "sounds/sndTrack1",
+  "sounds/sndTrack1_Lose",
+  "sounds/sndTrack1_Win",
+  "sounds/sndTrack2",
+  "sounds/sndTrack2_Lose",
+  "sounds/sndTrack2_Win",
+]
+
+[assets."sprites/sprBackground1"]
+description = "Tall portrait deep-space backdrop, dark starfield with faint nebula tint."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground2"]
+description = "Tall portrait space backdrop with bluish nebula clouds and scattered stars."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground3"]
+description = "Tall portrait space backdrop, teal-green nebula haze over a star field."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground4"]
+description = "Tall portrait space backdrop with purple nebula swirls and distant stars."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground5"]
+description = "Tall portrait deep-space backdrop, moody dark nebula gradient."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground6"]
+description = "Tall portrait space backdrop with violet nebula and dense stars."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground7"]
+description = "Tall portrait cosmic backdrop, colored nebula bands across a star field."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground8"]
+description = "Tall portrait space backdrop with soft glowing nebula clouds."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprBackground9"]
+description = "Tall portrait deep-space backdrop, dark sky dotted with stars and faint nebula."
+tags = [ "asset_type:sprite", "role:background", "subject:space", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnemyLaserAnim"]
+description = "Animated cyan-blue enemy laser bolt, glowing energy beam, 5 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:laser", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyLaserEmit"]
+description = "Animated muzzle-flash burst for the enemy laser, bright energy flare, 5 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyMissileAnim"]
+description = "Animated enemy missile projectile with energized blue trail, 4 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyMissileEmit"]
+description = "Animated launch-flash burst for the enemy missile, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyPlasmaAnim"]
+description = "Animated glowing enemy plasma orb projectile, pulsing blue energy, 7 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:projectile", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyPlasmaEmit"]
+description = "Animated plasma muzzle-flash burst, radiant energy bloom, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyShip1_Base"]
+description = "Top-down cartoon enemy fighter, type 1 base — sleek blue-purple hull with angular wings."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip1_Base_Tilt"]
+description = "Enemy fighter type 1 base, banking/tilt pose (slight roll)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip1_Base_Tilt2"]
+description = "Enemy fighter type 1 base, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip1_Upgraded"]
+description = "Enemy fighter type 1 upgraded variant, beefier armored hull."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip1_Upgraded_Tilt"]
+description = "Enemy fighter type 1 upgraded, banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip1_Upgraded_Tilt2"]
+description = "Enemy fighter type 1 upgraded, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Base"]
+description = "Top-down cartoon enemy ship, type 2 base — wider winged blue-purple craft."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Base_Tilt"]
+description = "Enemy ship type 2 base, banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Base_Tilt2"]
+description = "Enemy ship type 2 base, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Upgraded"]
+description = "Enemy ship type 2 upgraded variant, reinforced hull."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Upgraded_Tilt"]
+description = "Enemy ship type 2 upgraded, banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip2_Upgraded_Tilt2"]
+description = "Enemy ship type 2 upgraded, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Base"]
+description = "Top-down cartoon enemy ship, type 3 base — arrowhead-shaped blue-purple craft."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Base_Tilt"]
+description = "Enemy ship type 3 base, banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Base_Tilt2"]
+description = "Enemy ship type 3 base, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Upgraded"]
+description = "Enemy ship type 3 upgraded variant, heavier armored hull."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Upgraded_Tilt"]
+description = "Enemy ship type 3 upgraded, banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip3_Upgraded_Tilt2"]
+description = "Enemy ship type 3 upgraded, steeper banking/tilt pose."
+tags = [ "asset_type:sprite", "role:enemy", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyShip_Thruster"]
+description = "Animated engine thruster flame for enemy ships, blue-white exhaust plume, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:thruster", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprEnemyTurret_Base"]
+description = "Top-down stationary enemy turret mount, blue-purple armored base ring."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Base_Destroyed"]
+description = "Destroyed/wrecked version of the turret base, scorched and broken."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Destroyed"]
+description = "Destroyed turret, blown-apart smoking wreck."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Laser1"]
+description = "Top-down enemy laser turret, dual energy barrels, variant 1."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Laser2"]
+description = "Top-down enemy laser turret, variant 2."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Missile1"]
+description = "Top-down enemy missile turret with rocket pods, variant 1."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Missile2"]
+description = "Top-down enemy missile turret, variant 2."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Plasma1"]
+description = "Top-down enemy plasma turret with glowing emitter, variant 1."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemyTurret_Plasma2"]
+description = "Top-down enemy plasma turret, variant 2."
+tags = [ "asset_type:sprite", "role:enemy", "subject:cannon", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprEnemy_Tank_Base"]
+description = "Top-down enemy ground tank base, armored treaded vehicle in blue-purple palette."
+tags = [ "asset_type:sprite", "role:enemy", "subject:tank", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprExplosion2Anim"]
+description = "Large animated explosion blast, fiery orange-yellow burst with smoke, 10 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:explosion", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprExplosionAnim"]
+description = "Animated explosion fireball with expanding shockwave, 11 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:explosion", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprShield"]
+description = "Translucent bluish energy shield bubble, single static frame."
+tags = [ "asset_type:sprite", "role:vfx", "subject:shield", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprShieldAnim"]
+description = "Animated energy shield bubble, shimmering protective dome, 10 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:shield", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPickUp_Credits"]
+description = "Glowing golden credits/coin pickup with dollar emblem, round UI-style icon."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/sprPickUp_Health"]
+description = "Health pickup icon, glowing red cross/heart on a rounded badge."
+tags = [ "asset_type:sprite", "role:pickup", "subject:heart", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/sprPickUp_PowerUp"]
+description = "Generic power-up pickup, bright glowing energy orb icon."
+tags = [ "asset_type:sprite", "role:pickup", "subject:powerup", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/sprPickUp_Shield"]
+description = "Shield pickup icon, glowing blue shield emblem badge."
+tags = [ "asset_type:sprite", "role:pickup", "subject:shield", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/sprPlayerBullet"]
+description = "Single-frame player bullet, bright energy slug, vertical orientation."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerBulletAnim"]
+description = "Animated player bullet projectile, glowing energy round, 5 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:bullet", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerBulletEmit"]
+description = "Animated player bullet muzzle-flash burst, 4 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerHeavyMissile"]
+description = "Single-frame player heavy missile, large rocket with fins."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerHeavyMissileAnim"]
+description = "Animated player heavy missile with thruster flame, 6 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerLaserAnim"]
+description = "Animated player laser bolt, bright cyan-white energy beam, 5 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:laser", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerLaserEmit"]
+description = "Animated player laser muzzle-flash burst, 4 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerMissile"]
+description = "Single-frame player missile, slim rocket projectile."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerMissileAnim"]
+description = "Animated player missile with exhaust trail, 6 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:missile", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerMissileEmit"]
+description = "Animated player missile launch-flash burst, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerPlasmaAnim"]
+description = "Animated player plasma orb projectile, pulsing energy ball, 8 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:projectile", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerPlasmaEmit"]
+description = "Animated player plasma muzzle-flash bloom, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerShip_Heavy"]
+description = "Top-down cartoon player ship, heavy class — bulky armored blue-white gunship."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Heavy_Fire"]
+description = "Heavy player ship firing animation, 8 frames."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerShip_Heavy_Tilt"]
+description = "Heavy player ship banking/tilt pose."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Light"]
+description = "Top-down cartoon player ship, light class — slim agile blue-white fighter."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Light_Fire"]
+description = "Light player ship firing animation, weapons flashing, 12 frames."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerShip_Light_Tilt"]
+description = "Light player ship banking/tilt pose."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Medium"]
+description = "Top-down cartoon player ship, medium class — balanced blue-white craft."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Medium_Fire"]
+description = "Medium player ship firing animation, 8 frames."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprPlayerShip_Medium_Tilt"]
+description = "Medium player ship banking/tilt pose."
+tags = [ "asset_type:sprite", "role:player", "subject:ship", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPlayerShip_Thruster"]
+description = "Animated engine thruster flame for player ships, blue-white exhaust plume, 6 frames."
+tags = [ "asset_type:sprite", "role:vfx", "subject:thruster", "projection:top-down", "state:animation" ]
+
+[assets."sprites/sprSpaceStationTiles_Corner1"]
+description = "Modular space-station structure tile, exterior corner segment, purple-blue paneling with green accents."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Corner2"]
+description = "Modular space-station corner tile, alternate corner segment."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner1"]
+description = "Modular space-station interior floor/panel tile, variant 1."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner2"]
+description = "Modular space-station interior panel tile, variant 2."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner3"]
+description = "Modular space-station interior panel tile, variant 3."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner4"]
+description = "Modular space-station interior panel tile, variant 4."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner5"]
+description = "Modular space-station interior panel tile, variant 5."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner6"]
+description = "Modular space-station interior panel tile, variant 6."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Inner7"]
+description = "Modular space-station interior panel tile, variant 7."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_InnerCorner"]
+description = "Modular space-station interior corner panel tile."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Outer1"]
+description = "Modular space-station exterior hull tile, variant 1."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Outer2"]
+description = "Modular space-station exterior hull tile, variant 2."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStationTiles_Outer3"]
+description = "Modular space-station exterior hull tile, variant 3."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture01"]
+description = "Space-station fixture/module, tall antenna-topped structural piece, purple-blue with green tanks."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture02"]
+description = "Space-station fixture/module, detailed structural decoration piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture03"]
+description = "Space-station fixture/module, mechanical structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture04"]
+description = "Space-station fixture/module, paneled structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture05"]
+description = "Space-station fixture/module, equipment structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture06"]
+description = "Space-station fixture/module, structural decoration piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture07"]
+description = "Space-station fixture/module, structural piece with greebles."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture08"]
+description = "Space-station fixture/module, mechanical detail piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture09"]
+description = "Space-station fixture/module, paneled structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture10"]
+description = "Space-station fixture/module, equipment structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture11"]
+description = "Space-station fixture/module, structural decoration piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture12"]
+description = "Space-station fixture/module, detailed structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture13"]
+description = "Space-station fixture/module, mechanical structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture14"]
+description = "Space-station fixture/module, paneled detail piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture15"]
+description = "Space-station fixture/module, structural decoration piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture16"]
+description = "Space-station fixture/module, equipment structural piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_Fixture17"]
+description = "Space-station fixture/module, structural decoration piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSpaceStation_TileMap"]
+description = "Large assembled space-station tilemap atlas, multiple interior/exterior panels in purple-blue with green machinery accents."
+tags = [ "asset_type:sprite", "role:environment", "subject:building", "projection:top-down", "state:static" ]
+
+[assets."sounds/SFX_Electrodes1"]
+description = "Short crackling electric/electrode zap, ~2.5s sci-fi spark."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/SFX_Electrodes2"]
+description = "Crackling electric arc sting, ~4.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/SFX_Electrodes3"]
+description = "Short electric zap sting, ~2.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:lightning" ]
+
+[assets."sounds/SFX_EnemyShip_Laser1"]
+description = "Enemy ship laser fire, sharp energy zap, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_EnemyShip_Laser2"]
+description = "Enemy ship laser fire variant, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_EnemyShip_Laser3"]
+description = "Enemy ship laser fire variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_EnemyShip_Missile1"]
+description = "Enemy ship missile launch whoosh, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_EnemyShip_Missile2"]
+description = "Enemy ship missile launch variant, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_EnemyShip_Missile3"]
+description = "Enemy ship missile launch variant, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_EnemyShip_Plasma1"]
+description = "Enemy ship plasma weapon fire, energy discharge, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_EnemyShip_Plasma2"]
+description = "Enemy ship plasma weapon fire variant, ~1.6s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_EnemyShip_Plasma3"]
+description = "Enemy ship plasma weapon fire variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_EnemyShip_Thruster1"]
+description = "Enemy ship engine thruster rumble, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_EnemyShip_Thruster2"]
+description = "Enemy ship engine thruster rumble variant, ~2.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle1_Loop"]
+description = "Looping engine hum for vehicle 1, ~2.9s seamless loop body."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle1_LoopEnd"]
+description = "Engine vehicle 1 loop tail-out, ~2.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle1_LoopStart"]
+description = "Engine vehicle 1 loop intro/spin-up, ~2.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle2_Loop"]
+description = "Looping engine hum for vehicle 2, ~4.6s seamless loop body."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle2_LoopEnd"]
+description = "Engine vehicle 2 loop tail-out, ~4.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Engine_Vehicle2_LoopStart"]
+description = "Engine vehicle 2 loop intro/spin-up, ~6.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_Explosion_Big"]
+description = "Big explosion boom with debris, ~1.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Small"]
+description = "Small explosion pop with crackle, ~2.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Pickup_Powerup"]
+description = "Bright rising power-up collect chime, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/SFX_PlayerShip_BlasterFire1"]
+description = "Player blaster shot, snappy energy zap, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_PlayerShip_BlasterFire2"]
+description = "Player blaster shot variant, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_PlayerShip_BlasterFire3"]
+description = "Player blaster shot variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_PlayerShip_BulletFire1"]
+description = "Player bullet/cannon shot, punchy report, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bullet" ]
+
+[assets."sounds/SFX_PlayerShip_BulletFire2"]
+description = "Player bullet shot variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bullet" ]
+
+[assets."sounds/SFX_PlayerShip_BulletFire3"]
+description = "Player bullet shot variant, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bullet" ]
+
+[assets."sounds/SFX_PlayerShip_HeavyRocketFire1"]
+description = "Player heavy rocket launch, deep whoosh, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_HeavyRocketFire2"]
+description = "Player heavy rocket launch variant, ~1.0s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_HeavyRocketFire3"]
+description = "Player heavy rocket launch variant, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_PlasmaFire1"]
+description = "Player plasma weapon fire, energy discharge, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_PlayerShip_PlasmaFire2"]
+description = "Player plasma weapon fire variant, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_PlayerShip_PlasmaFire3"]
+description = "Player plasma weapon fire variant, ~1.3s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_PlayerShip_RocketFire1"]
+description = "Player rocket launch whoosh, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_RocketFire2"]
+description = "Player rocket launch variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_RocketFire3"]
+description = "Player rocket launch variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_PlayerShip_Shield1_Loop"]
+description = "Player shield active hum loop, energy field, ~5.1s loop body."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield1_LoopEnd"]
+description = "Player shield 1 power-down tail, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield1_LoopStart"]
+description = "Player shield 1 activation start, ~0.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield2_Loop"]
+description = "Player shield hum loop variant 2, ~5.2s loop body."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield2_LoopEnd"]
+description = "Player shield 2 power-down tail, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield2_LoopStart"]
+description = "Player shield 2 activation start, ~0.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield3_Loop"]
+description = "Player shield hum loop variant 3, ~5.2s loop body."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield3_LoopEnd"]
+description = "Player shield 3 power-down tail, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Shield3_LoopStart"]
+description = "Player shield 3 activation start, ~0.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:shield" ]
+
+[assets."sounds/SFX_PlayerShip_Thruster"]
+description = "Player ship engine thruster rumble loop, ~2.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_PlayerShip_Thruster_Upgrade1"]
+description = "Upgraded player thruster rumble, beefier engine, ~3.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_PlayerShip_Thruster_Upgrade2"]
+description = "Upgraded player thruster rumble variant, ~2.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_PlayerShip_Thruster_Upgrade3"]
+description = "Upgraded player thruster rumble variant, ~3.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:thruster" ]
+
+[assets."sounds/SFX_PlayerShip_Upgrade"]
+description = "Player ship upgrade/power-up confirmation flourish, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:powerup" ]
+
+[assets."sounds/SFX_Turret_Laser1"]
+description = "Turret laser fire, energy zap, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Laser2"]
+description = "Turret laser fire variant, ~1.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Laser3"]
+description = "Turret laser fire variant, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Laser_Upgraded1"]
+description = "Upgraded turret laser fire, heavier zap, ~1.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Laser_Upgraded2"]
+description = "Upgraded turret laser fire variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Laser_Upgraded3"]
+description = "Upgraded turret laser fire variant, ~1.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:laser" ]
+
+[assets."sounds/SFX_Turret_Missile1"]
+description = "Turret missile launch whoosh, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Missile2"]
+description = "Turret missile launch variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Missile3"]
+description = "Turret missile launch variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Missile_Upgraded1"]
+description = "Upgraded turret missile launch, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Missile_Upgraded2"]
+description = "Upgraded turret missile launch variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Missile_Upgraded3"]
+description = "Upgraded turret missile launch variant, ~1.4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Turret_Plasma1"]
+description = "Turret plasma fire, energy discharge, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Plasma2"]
+description = "Turret plasma fire variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Plasma3"]
+description = "Turret plasma fire variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Plasma_Upgraded1"]
+description = "Upgraded turret plasma fire, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Plasma_Upgraded2"]
+description = "Upgraded turret plasma fire variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Plasma_Upgraded3"]
+description = "Upgraded turret plasma fire variant, ~1.1s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/SFX_Turret_Swivel1"]
+description = "Turret rotation/swivel servo whir, ~2.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/SFX_Turret_Swivel2"]
+description = "Turret rotation/swivel servo whir variant, ~3.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/sndTrack1"]
+description = "Full gameplay music track 1, driving sci-fi action loop, ~2:12."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack1_Lose"]
+description = "Track 1 lose/game-over musical sting, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack1_Win"]
+description = "Track 1 win/victory musical sting, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2"]
+description = "Full gameplay music track 2, energetic sci-fi action loop, ~2:00."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2_Lose"]
+description = "Track 2 lose/game-over musical sting, ~5s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2_Win"]
+description = "Track 2 win/victory musical sting, ~5s."
+tags = [ "asset_type:sound", "audio_type:music" ]

@@ -1,0 +1,3178 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_Cave_Layer1"
+sprite = "Cave_Layer1"
+x = 16.5
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Cave_Layer2"
+sprite = "Cave_Layer2"
+x = 69.0
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Cave_Layer3"
+sprite = "Cave_Layer3"
+x = 121.5
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Cave_Layer4"
+sprite = "Cave_Layer4"
+x = 174.0
+y = 24.1
+scale_x = 0.02054
+scale_y = 0.02054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Forest_Layer1"
+sprite = "Forest_Layer1"
+x = 226.5
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Forest_Layer2"
+sprite = "Forest_Layer2"
+x = 279.0
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Forest_Layer3"
+sprite = "Forest_Layer3"
+x = 331.5
+y = 26.0
+scale_x = 0.01712
+scale_y = 0.01712
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Forest_Layer4"
+sprite = "Forest_Layer4"
+x = 384.0
+y = 24.1
+scale_x = 0.02054
+scale_y = 0.02054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBatSpine"
+sprite = "sprBatSpine"
+x = 436.5
+y = 22.6
+scale_x = 0.11773
+scale_y = 0.11773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Attack"
+sprite = "sprBat_Attack"
+x = 489.0
+y = 20.4
+scale_x = 0.09835
+scale_y = 0.09835
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Die"
+sprite = "sprBat_Die"
+x = 548.3
+y = 15.5
+scale_x = 0.09835
+scale_y = 0.09835
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Fly"
+sprite = "sprBat_Fly"
+x = 594.0
+y = 25.0
+scale_x = 0.14554
+scale_y = 0.14554
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Hang"
+sprite = "sprBat_Hang"
+x = 657.1
+y = 15.5
+scale_x = 0.232
+scale_y = 0.232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Hit"
+sprite = "sprBat_Hit"
+x = 699.0
+y = 23.7
+scale_x = 0.13986
+scale_y = 0.13986
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBat_Idle"
+sprite = "sprBat_Idle"
+x = 751.5
+y = 24.6
+scale_x = 0.15053
+scale_y = 0.15053
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Chimney_Base"
+sprite = "sprBuilding_Chimney_Base"
+x = 804.0
+y = 29.3
+scale_x = 0.2167
+scale_y = 0.2167
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Chimney_Mid"
+sprite = "sprBuilding_Chimney_Mid"
+x = 863.9
+y = 15.5
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Chimney_Top"
+sprite = "sprBuilding_Chimney_Top"
+x = 909.0
+y = 26.1
+scale_x = 0.18259
+scale_y = 0.18259
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Door"
+sprite = "sprBuilding_Door"
+x = 963.7
+y = 15.5
+scale_x = 0.20868
+scale_y = 0.20868
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Door_Cave"
+sprite = "sprBuilding_Door_Cave"
+x = 1014.0
+y = 24.5
+scale_x = 0.07484
+scale_y = 0.07484
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Door_Cave_Dark"
+sprite = "sprBuilding_Door_Cave_Dark"
+x = 1066.5
+y = 24.3
+scale_x = 0.07498
+scale_y = 0.07498
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Doorway_Stone"
+sprite = "sprBuilding_Doorway_Stone"
+x = 1119.0
+y = 17.0
+scale_x = 0.15528
+scale_y = 0.15528
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Doorway_Stone_Dark"
+sprite = "sprBuilding_Doorway_Stone_Dark"
+x = 1171.5
+y = 17.0
+scale_x = 0.15528
+scale_y = 0.15528
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Doorway_Wood"
+sprite = "sprBuilding_Doorway_Wood"
+x = 1224.0
+y = 18.0
+scale_x = 0.14554
+scale_y = 0.14554
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Fence_Left"
+sprite = "sprBuilding_Fence_Left"
+x = 20.1
+y = 61.9
+scale_x = 0.24049
+scale_y = 0.24049
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Fence_Mid1"
+sprite = "sprBuilding_Fence_Mid1"
+x = 69.0
+y = 68.8
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Fence_Mid2"
+sprite = "sprBuilding_Fence_Mid2"
+x = 121.5
+y = 68.2
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Fence_Mid3"
+sprite = "sprBuilding_Fence_Mid3"
+x = 174.0
+y = 69.6
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Fence_Right"
+sprite = "sprBuilding_Fence_Right"
+x = 237.4
+y = 61.9
+scale_x = 0.24805
+scale_y = 0.24805
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plain_Panel"
+sprite = "sprBuilding_Plain_Panel"
+x = 279.0
+y = 61.9
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plain_Panel_Left"
+sprite = "sprBuilding_Plain_Panel_Left"
+x = 335.8
+y = 61.9
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plain_Panel_Right"
+sprite = "sprBuilding_Plain_Panel_Right"
+x = 388.0
+y = 61.9
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Left"
+sprite = "sprBuilding_Plank_Diagonal_Left"
+x = 436.5
+y = 62.5
+scale_x = 0.26293
+scale_y = 0.26293
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Left_Dark"
+sprite = "sprBuilding_Plank_Diagonal_Left_Dark"
+x = 489.0
+y = 62.5
+scale_x = 0.26293
+scale_y = 0.26293
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Left_Shadow"
+sprite = "sprBuilding_Plank_Diagonal_Left_Shadow"
+x = 541.5
+y = 62.4
+scale_x = 0.25445
+scale_y = 0.25445
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Left_Shadow_Dark"
+sprite = "sprBuilding_Plank_Diagonal_Left_Shadow_Dark"
+x = 594.0
+y = 62.4
+scale_x = 0.25445
+scale_y = 0.25445
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Right"
+sprite = "sprBuilding_Plank_Diagonal_Right"
+x = 646.5
+y = 63.5
+scale_x = 0.25445
+scale_y = 0.25445
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Right_Dark"
+sprite = "sprBuilding_Plank_Diagonal_Right_Dark"
+x = 699.0
+y = 63.5
+scale_x = 0.25445
+scale_y = 0.25445
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Right_Shadow"
+sprite = "sprBuilding_Plank_Diagonal_Right_Shadow"
+x = 751.5
+y = 63.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Diagonal_Right_Shadow_Dark"
+sprite = "sprBuilding_Plank_Diagonal_Right_Shadow_Dark"
+x = 804.0
+y = 63.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Left"
+sprite = "sprBuilding_Plank_Left"
+x = 856.5
+y = 77.3
+scale_x = 0.18516
+scale_y = 0.18516
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Left_Dark"
+sprite = "sprBuilding_Plank_Left_Dark"
+x = 909.0
+y = 77.3
+scale_x = 0.18516
+scale_y = 0.18516
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Left_Shadow"
+sprite = "sprBuilding_Plank_Left_Shadow"
+x = 961.5
+y = 76.5
+scale_x = 0.18516
+scale_y = 0.18516
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Left_Shadow_Dark"
+sprite = "sprBuilding_Plank_Left_Shadow_Dark"
+x = 1014.0
+y = 76.5
+scale_x = 0.18516
+scale_y = 0.18516
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Mid"
+sprite = "sprBuilding_Plank_Mid"
+x = 1066.5
+y = 78.1
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Mid_Dark"
+sprite = "sprBuilding_Plank_Mid_Dark"
+x = 1119.0
+y = 78.1
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Mid_Shadow"
+sprite = "sprBuilding_Plank_Mid_Shadow"
+x = 1171.5
+y = 77.4
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Mid_Shadow_Dark"
+sprite = "sprBuilding_Plank_Mid_Shadow_Dark"
+x = 1224.0
+y = 77.4
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Right"
+sprite = "sprBuilding_Plank_Right"
+x = 16.5
+y = 123.7
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Right_Dark"
+sprite = "sprBuilding_Plank_Right_Dark"
+x = 69.0
+y = 123.7
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Right_Shadow"
+sprite = "sprBuilding_Plank_Right_Shadow"
+x = 121.5
+y = 122.9
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Right_Shadow_Dark"
+sprite = "sprBuilding_Plank_Right_Shadow_Dark"
+x = 174.0
+y = 122.9
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Left"
+sprite = "sprBuilding_Plank_Vertical_Left"
+x = 242.8
+y = 108.3
+scale_x = 0.14883
+scale_y = 0.14883
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Left_Dark"
+sprite = "sprBuilding_Plank_Vertical_Left_Dark"
+x = 295.3
+y = 108.3
+scale_x = 0.14883
+scale_y = 0.14883
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Left_Shadow"
+sprite = "sprBuilding_Plank_Vertical_Left_Shadow"
+x = 345.9
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Left_Shadow_Dark"
+sprite = "sprBuilding_Plank_Vertical_Left_Shadow_Dark"
+x = 398.4
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Right"
+sprite = "sprBuilding_Plank_Vertical_Right"
+x = 452.5
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Right_Dark"
+sprite = "sprBuilding_Plank_Vertical_Right_Dark"
+x = 505.0
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Right_Shadow"
+sprite = "sprBuilding_Plank_Vertical_Right_Shadow"
+x = 556.9
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Plank_Vertical_Right_Shadow_Dark"
+sprite = "sprBuilding_Plank_Vertical_Right_Shadow_Dark"
+x = 609.4
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Left"
+sprite = "sprBuilding_Roof_Left"
+x = 646.5
+y = 115.9
+scale_x = 0.15651
+scale_y = 0.15651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Left_Shadow"
+sprite = "sprBuilding_Roof_Left_Shadow"
+x = 699.0
+y = 115.0
+scale_x = 0.15651
+scale_y = 0.15651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Mid"
+sprite = "sprBuilding_Roof_Mid"
+x = 751.5
+y = 116.0
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Mid_Shadow"
+sprite = "sprBuilding_Roof_Mid_Shadow"
+x = 804.0
+y = 115.0
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Right"
+sprite = "sprBuilding_Roof_Right"
+x = 856.5
+y = 115.8
+scale_x = 0.15651
+scale_y = 0.15651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Roof_Right_Shadow"
+sprite = "sprBuilding_Roof_Right_Shadow"
+x = 909.0
+y = 114.9
+scale_x = 0.15651
+scale_y = 0.15651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Shed_Stone"
+sprite = "sprBuilding_Shed_Stone"
+x = 966.9
+y = 108.3
+scale_x = 0.10574
+scale_y = 0.10574
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Shed_Wood"
+sprite = "sprBuilding_Shed_Wood"
+x = 1019.0
+y = 108.3
+scale_x = 0.10747
+scale_y = 0.10747
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Plain"
+sprite = "sprBuilding_Wall_Plain"
+x = 1066.5
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Plain_Left"
+sprite = "sprBuilding_Wall_Plain_Left"
+x = 1123.3
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Plain_Right"
+sprite = "sprBuilding_Wall_Plain_Right"
+x = 1175.5
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone1"
+sprite = "sprBuilding_Wall_Stone1"
+x = 1224.0
+y = 108.3
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone1_Dark"
+sprite = "sprBuilding_Wall_Stone1_Dark"
+x = 16.5
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone2"
+sprite = "sprBuilding_Wall_Stone2"
+x = 69.0
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone2_Dark"
+sprite = "sprBuilding_Wall_Stone2_Dark"
+x = 121.5
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone3"
+sprite = "sprBuilding_Wall_Stone3"
+x = 174.0
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone3_Dark"
+sprite = "sprBuilding_Wall_Stone3_Dark"
+x = 226.5
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone_Left"
+sprite = "sprBuilding_Wall_Stone_Left"
+x = 286.6
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone_Left_Dark"
+sprite = "sprBuilding_Wall_Stone_Left_Dark"
+x = 339.1
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone_Right"
+sprite = "sprBuilding_Wall_Stone_Right"
+x = 391.1
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Stone_Right_Dark"
+sprite = "sprBuilding_Wall_Stone_Right_Dark"
+x = 443.6
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood"
+sprite = "sprBuilding_Wall_Wood"
+x = 489.0
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood_Dark"
+sprite = "sprBuilding_Wall_Wood_Dark"
+x = 541.5
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood_Left"
+sprite = "sprBuilding_Wall_Wood_Left"
+x = 599.0
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood_Left_Dark"
+sprite = "sprBuilding_Wall_Wood_Left_Dark"
+x = 651.5
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood_Right"
+sprite = "sprBuilding_Wall_Wood_Right"
+x = 704.2
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Wall_Wood_Right_Dark"
+sprite = "sprBuilding_Wall_Wood_Right_Dark"
+x = 756.7
+y = 154.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Window_Stone"
+sprite = "sprBuilding_Window_Stone"
+x = 804.0
+y = 157.7
+scale_x = 0.23337
+scale_y = 0.23337
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Window_Stone_Dark_Shadow"
+sprite = "sprBuilding_Window_Stone_Dark_Shadow"
+x = 856.5
+y = 157.7
+scale_x = 0.22282
+scale_y = 0.22282
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Window_Stone_Shadow"
+sprite = "sprBuilding_Window_Stone_Shadow"
+x = 909.0
+y = 157.7
+scale_x = 0.23337
+scale_y = 0.23337
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Window_Wood"
+sprite = "sprBuilding_Window_Wood"
+x = 961.5
+y = 157.5
+scale_x = 0.25778
+scale_y = 0.25778
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprBuilding_Window_Wood_Shadow"
+sprite = "sprBuilding_Window_Wood_Shadow"
+x = 1014.0
+y = 157.5
+scale_x = 0.24805
+scale_y = 0.24805
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprDummySpine"
+sprite = "sprDummySpine"
+x = 1074.8
+y = 154.7
+scale_x = 0.17
+scale_y = 0.17
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprDummy_Hit"
+sprite = "sprDummy_Hit"
+x = 1119.0
+y = 154.8
+scale_x = 0.15346
+scale_y = 0.15346
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprDummy_Idle"
+sprite = "sprDummy_Idle"
+x = 1179.9
+y = 154.7
+scale_x = 0.16365
+scale_y = 0.16365
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnightSpine"
+sprite = "sprKnightSpine"
+x = 1226.4
+y = 154.7
+scale_x = 0.17223
+scale_y = 0.17223
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Arrow"
+sprite = "sprKnight_Arrow"
+x = 16.5
+y = 215.5
+scale_x = 0.37923
+scale_y = 0.37923
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Attack_Bow"
+sprite = "sprKnight_Attack_Bow"
+x = 69.1
+y = 201.1
+scale_x = 0.16571
+scale_y = 0.16571
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Attack_Sword_Heavy"
+sprite = "sprKnight_Attack_Sword_Heavy"
+x = 121.5
+y = 213.0
+scale_x = 0.06077
+scale_y = 0.06077
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Attack_Sword_Light"
+sprite = "sprKnight_Attack_Sword_Light"
+x = 175.3
+y = 201.1
+scale_x = 0.10986
+scale_y = 0.10986
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die"
+sprite = "sprKnight_Die"
+x = 226.5
+y = 206.2
+scale_x = 0.10545
+scale_y = 0.10545
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die_Bow"
+sprite = "sprKnight_Die_Bow"
+x = 279.0
+y = 206.2
+scale_x = 0.10545
+scale_y = 0.10545
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die_Spikes"
+sprite = "sprKnight_Die_Spikes"
+x = 337.2
+y = 201.1
+scale_x = 0.11399
+scale_y = 0.11399
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die_Spikes_Bow"
+sprite = "sprKnight_Die_Spikes_Bow"
+x = 388.5
+y = 201.1
+scale_x = 0.11399
+scale_y = 0.11399
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die_Spikes_Sword"
+sprite = "sprKnight_Die_Spikes_Sword"
+x = 438.7
+y = 201.1
+scale_x = 0.11399
+scale_y = 0.11399
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Die_Sword"
+sprite = "sprKnight_Die_Sword"
+x = 489.0
+y = 206.2
+scale_x = 0.10545
+scale_y = 0.10545
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Hit"
+sprite = "sprKnight_Hit"
+x = 544.6
+y = 201.1
+scale_x = 0.16298
+scale_y = 0.16298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Hit_Bow"
+sprite = "sprKnight_Hit_Bow"
+x = 594.6
+y = 201.1
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Hit_Sword"
+sprite = "sprKnight_Hit_Sword"
+x = 646.5
+y = 204.5
+scale_x = 0.13461
+scale_y = 0.13461
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Idle"
+sprite = "sprKnight_Idle"
+x = 705.7
+y = 201.1
+scale_x = 0.16855
+scale_y = 0.16855
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Idle_Bow"
+sprite = "sprKnight_Idle_Bow"
+x = 751.5
+y = 202.2
+scale_x = 0.15903
+scale_y = 0.15903
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Idle_Sword"
+sprite = "sprKnight_Idle_Sword"
+x = 804.0
+y = 202.2
+scale_x = 0.15903
+scale_y = 0.15903
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Airborne"
+sprite = "sprKnight_Jump_Airborne"
+x = 862.2
+y = 201.1
+scale_x = 0.17529
+scale_y = 0.17529
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Airborne_Bow"
+sprite = "sprKnight_Jump_Airborne_Bow"
+x = 909.0
+y = 201.7
+scale_x = 0.15968
+scale_y = 0.15968
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Airborne_Sword"
+sprite = "sprKnight_Jump_Airborne_Sword"
+x = 964.9
+y = 201.1
+scale_x = 0.13936
+scale_y = 0.13936
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Fall"
+sprite = "sprKnight_Jump_Fall"
+x = 1023.6
+y = 201.1
+scale_x = 0.10298
+scale_y = 0.10298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Fall_Bow"
+sprite = "sprKnight_Jump_Fall_Bow"
+x = 1073.7
+y = 201.1
+scale_x = 0.10298
+scale_y = 0.10298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Fall_Sword"
+sprite = "sprKnight_Jump_Fall_Sword"
+x = 1126.9
+y = 201.1
+scale_x = 0.10298
+scale_y = 0.10298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Up"
+sprite = "sprKnight_Jump_Up"
+x = 1179.2
+y = 201.1
+scale_x = 0.11634
+scale_y = 0.11634
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Up_Bow"
+sprite = "sprKnight_Jump_Up_Bow"
+x = 1229.3
+y = 201.1
+scale_x = 0.11634
+scale_y = 0.11634
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Jump_Up_Sword"
+sprite = "sprKnight_Jump_Up_Sword"
+x = 23.9
+y = 247.5
+scale_x = 0.10406
+scale_y = 0.10406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Roll"
+sprite = "sprKnight_Roll"
+x = 69.0
+y = 252.4
+scale_x = 0.116
+scale_y = 0.116
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Run"
+sprite = "sprKnight_Run"
+x = 125.6
+y = 247.5
+scale_x = 0.14662
+scale_y = 0.14662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Run_Bow"
+sprite = "sprKnight_Run_Bow"
+x = 176.4
+y = 247.5
+scale_x = 0.14662
+scale_y = 0.14662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Run_Sword"
+sprite = "sprKnight_Run_Sword"
+x = 227.2
+y = 247.5
+scale_x = 0.14662
+scale_y = 0.14662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Walk"
+sprite = "sprKnight_Walk"
+x = 286.6
+y = 247.5
+scale_x = 0.14772
+scale_y = 0.14772
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Walk_Bow"
+sprite = "sprKnight_Walk_Bow"
+x = 335.0
+y = 247.5
+scale_x = 0.14394
+scale_y = 0.14394
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprKnight_Walk_Sword"
+sprite = "sprKnight_Walk_Sword"
+x = 387.1
+y = 247.5
+scale_x = 0.14772
+scale_y = 0.14772
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_Bow"
+sprite = "sprPickup_Bow"
+x = 436.5
+y = 247.5
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_BowSpine"
+sprite = "sprPickup_BowSpine"
+x = 494.6
+y = 247.5
+scale_x = 0.27389
+scale_y = 0.27389
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_CoinBronze"
+sprite = "sprPickup_CoinBronze"
+x = 541.5
+y = 248.6
+scale_x = 0.56343
+scale_y = 0.56343
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_CoinGold"
+sprite = "sprPickup_CoinGold"
+x = 594.0
+y = 248.6
+scale_x = 0.56343
+scale_y = 0.56343
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_CoinSilver"
+sprite = "sprPickup_CoinSilver"
+x = 646.5
+y = 248.6
+scale_x = 0.56343
+scale_y = 0.56343
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_CoinSpine"
+sprite = "sprPickup_CoinSpine"
+x = 699.0
+y = 247.8
+scale_x = 0.60677
+scale_y = 0.60677
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_KeyGold"
+sprite = "sprPickup_KeyGold"
+x = 751.5
+y = 249.1
+scale_x = 0.24805
+scale_y = 0.24805
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_KeySilver"
+sprite = "sprPickup_KeySilver"
+x = 804.0
+y = 249.1
+scale_x = 0.24805
+scale_y = 0.24805
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_KeySpine"
+sprite = "sprPickup_KeySpine"
+x = 856.5
+y = 250.0
+scale_x = 0.25445
+scale_y = 0.25445
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_Sword"
+sprite = "sprPickup_Sword"
+x = 917.9
+y = 247.5
+scale_x = 0.25282
+scale_y = 0.25282
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPickup_SwordSpine"
+sprite = "sprPickup_SwordSpine"
+x = 970.2
+y = 247.5
+scale_x = 0.27014
+scale_y = 0.27014
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bed"
+sprite = "sprPropIndoor_Bed"
+x = 1014.0
+y = 259.6
+scale_x = 0.11844
+scale_y = 0.11844
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bedside_Table"
+sprite = "sprPropIndoor_Bedside_Table"
+x = 1066.5
+y = 250.2
+scale_x = 0.2858
+scale_y = 0.2858
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Beermug"
+sprite = "sprPropIndoor_Beermug"
+x = 1119.0
+y = 251.5
+scale_x = 0.66847
+scale_y = 0.66847
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bones1"
+sprite = "sprPropIndoor_Bones1"
+x = 1171.5
+y = 254.5
+scale_x = 0.20122
+scale_y = 0.20122
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bones2"
+sprite = "sprPropIndoor_Bones2"
+x = 1224.0
+y = 250.3
+scale_x = 0.37562
+scale_y = 0.37562
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bones3"
+sprite = "sprPropIndoor_Bones3"
+x = 16.5
+y = 297.6
+scale_x = 0.26649
+scale_y = 0.26649
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Book_Pile1"
+sprite = "sprPropIndoor_Book_Pile1"
+x = 69.0
+y = 305.6
+scale_x = 0.49924
+scale_y = 0.49924
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Book_Pile2"
+sprite = "sprPropIndoor_Book_Pile2"
+x = 121.5
+y = 301.7
+scale_x = 0.50564
+scale_y = 0.50564
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Book_Stack1"
+sprite = "sprPropIndoor_Book_Stack1"
+x = 174.0
+y = 298.3
+scale_x = 0.52587
+scale_y = 0.52587
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Book_Stack2"
+sprite = "sprPropIndoor_Book_Stack2"
+x = 226.5
+y = 300.5
+scale_x = 0.41516
+scale_y = 0.41516
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Bookshelf"
+sprite = "sprPropIndoor_Bookshelf"
+x = 279.5
+y = 293.9
+scale_x = 0.14394
+scale_y = 0.14394
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_CandleSpine"
+sprite = "sprPropIndoor_CandleSpine"
+x = 344.2
+y = 293.9
+scale_x = 0.46952
+scale_y = 0.46952
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_LargeLit"
+sprite = "sprPropIndoor_Candle_LargeLit"
+x = 397.0
+y = 293.9
+scale_x = 0.41957
+scale_y = 0.41957
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_LargeUnlit"
+sprite = "sprPropIndoor_Candle_LargeUnlit"
+x = 446.4
+y = 293.9
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_MediumLit"
+sprite = "sprPropIndoor_Candle_MediumLit"
+x = 499.8
+y = 293.9
+scale_x = 0.52587
+scale_y = 0.52587
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_MediumUnlit"
+sprite = "sprPropIndoor_Candle_MediumUnlit"
+x = 546.4
+y = 293.9
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_SmallLit"
+sprite = "sprPropIndoor_Candle_SmallLit"
+x = 603.6
+y = 293.9
+scale_x = 0.63613
+scale_y = 0.63613
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candle_SmallUnlit"
+sprite = "sprPropIndoor_Candle_SmallUnlit"
+x = 647.7
+y = 293.9
+scale_x = 1.16
+scale_y = 1.16
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candlestick_Bronze"
+sprite = "sprPropIndoor_Candlestick_Bronze"
+x = 705.1
+y = 293.9
+scale_x = 0.52587
+scale_y = 0.52587
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candlestick_Floor_Bronze"
+sprite = "sprPropIndoor_Candlestick_Floor_Bronze"
+x = 758.3
+y = 293.9
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candlestick_Floor_Silver"
+sprite = "sprPropIndoor_Candlestick_Floor_Silver"
+x = 810.8
+y = 293.9
+scale_x = 0.18604
+scale_y = 0.18604
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Candlestick_Silver"
+sprite = "sprPropIndoor_Candlestick_Silver"
+x = 862.6
+y = 293.9
+scale_x = 0.52587
+scale_y = 0.52587
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Chair1"
+sprite = "sprPropIndoor_Chair1"
+x = 913.1
+y = 293.9
+scale_x = 0.23064
+scale_y = 0.23064
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Chair2"
+sprite = "sprPropIndoor_Chair2"
+x = 966.6
+y = 293.9
+scale_x = 0.232
+scale_y = 0.232
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Chandelier_Bronze"
+sprite = "sprPropIndoor_Chandelier_Bronze"
+x = 1017.3
+y = 293.9
+scale_x = 0.15467
+scale_y = 0.15467
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Chandelier_Silver"
+sprite = "sprPropIndoor_Chandelier_Silver"
+x = 1069.8
+y = 293.9
+scale_x = 0.15467
+scale_y = 0.15467
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_ChimneyLit"
+sprite = "sprPropIndoor_ChimneyLit"
+x = 1119.0
+y = 294.8
+scale_x = 0.12287
+scale_y = 0.12287
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_ChimneySpine"
+sprite = "sprPropIndoor_ChimneySpine"
+x = 1171.5
+y = 294.9
+scale_x = 0.12403
+scale_y = 0.12403
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Chimney_Unlit"
+sprite = "sprPropIndoor_Chimney_Unlit"
+x = 1224.0
+y = 294.9
+scale_x = 0.12287
+scale_y = 0.12287
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Cobweb"
+sprite = "sprPropIndoor_Cobweb"
+x = 16.5
+y = 347.5
+scale_x = 0.21319
+scale_y = 0.21319
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Coffee_Table"
+sprite = "sprPropIndoor_Coffee_Table"
+x = 69.0
+y = 354.9
+scale_x = 0.1429
+scale_y = 0.1429
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Dining_Table"
+sprite = "sprPropIndoor_Dining_Table"
+x = 121.5
+y = 353.5
+scale_x = 0.11173
+scale_y = 0.11173
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Grain_Sack"
+sprite = "sprPropIndoor_Grain_Sack"
+x = 174.0
+y = 347.6
+scale_x = 0.27775
+scale_y = 0.27775
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Empty1"
+sprite = "sprPropIndoor_Jar_Empty1"
+x = 230.3
+y = 340.3
+scale_x = 0.83915
+scale_y = 0.83915
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Empty2"
+sprite = "sprPropIndoor_Jar_Empty2"
+x = 279.5
+y = 340.3
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Empty3"
+sprite = "sprPropIndoor_Jar_Empty3"
+x = 335.6
+y = 340.3
+scale_x = 0.82167
+scale_y = 0.82167
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Full1"
+sprite = "sprPropIndoor_Jar_Full1"
+x = 388.1
+y = 340.3
+scale_x = 0.82167
+scale_y = 0.82167
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Full2"
+sprite = "sprPropIndoor_Jar_Full2"
+x = 437.0
+y = 340.3
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Jar_Full3"
+sprite = "sprPropIndoor_Jar_Full3"
+x = 492.8
+y = 340.3
+scale_x = 0.83915
+scale_y = 0.83915
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion1"
+sprite = "sprPropIndoor_Potion1"
+x = 547.5
+y = 340.3
+scale_x = 0.57159
+scale_y = 0.57159
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion2"
+sprite = "sprPropIndoor_Potion2"
+x = 599.5
+y = 340.3
+scale_x = 0.54778
+scale_y = 0.54778
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion3"
+sprite = "sprPropIndoor_Potion3"
+x = 652.3
+y = 340.3
+scale_x = 0.68
+scale_y = 0.68
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion4"
+sprite = "sprPropIndoor_Potion4"
+x = 708.4
+y = 340.3
+scale_x = 0.71709
+scale_y = 0.71709
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion_Empty1"
+sprite = "sprPropIndoor_Potion_Empty1"
+x = 757.8
+y = 340.3
+scale_x = 0.57159
+scale_y = 0.57159
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion_Empty2"
+sprite = "sprPropIndoor_Potion_Empty2"
+x = 809.5
+y = 340.3
+scale_x = 0.54778
+scale_y = 0.54778
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion_Empty3"
+sprite = "sprPropIndoor_Potion_Empty3"
+x = 861.8
+y = 340.3
+scale_x = 0.70429
+scale_y = 0.70429
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potion_Empty4"
+sprite = "sprPropIndoor_Potion_Empty4"
+x = 918.4
+y = 340.3
+scale_x = 0.71709
+scale_y = 0.71709
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potplant1"
+sprite = "sprPropIndoor_Potplant1"
+x = 967.3
+y = 340.3
+scale_x = 0.25778
+scale_y = 0.25778
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potplant2"
+sprite = "sprPropIndoor_Potplant2"
+x = 1022.3
+y = 340.3
+scale_x = 0.25947
+scale_y = 0.25947
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potplant3"
+sprite = "sprPropIndoor_Potplant3"
+x = 1077.2
+y = 340.3
+scale_x = 0.34
+scale_y = 0.34
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Potplant4"
+sprite = "sprPropIndoor_Potplant4"
+x = 1127.8
+y = 340.3
+scale_x = 0.29654
+scale_y = 0.29654
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Scroll1"
+sprite = "sprPropIndoor_Scroll1"
+x = 1171.5
+y = 353.9
+scale_x = 0.37208
+scale_y = 0.37208
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Scroll2"
+sprite = "sprPropIndoor_Scroll2"
+x = 1224.0
+y = 355.5
+scale_x = 0.31055
+scale_y = 0.31055
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Scroll_Wall"
+sprite = "sprPropIndoor_Scroll_Wall"
+x = 21.2
+y = 386.7
+scale_x = 0.26119
+scale_y = 0.26119
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Shelf_Left"
+sprite = "sprPropIndoor_Shelf_Left"
+x = 69.6
+y = 386.7
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Shelf_Mid"
+sprite = "sprPropIndoor_Shelf_Mid"
+x = 121.5
+y = 393.8
+scale_x = 0.3944
+scale_y = 0.3944
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Shelf_Right"
+sprite = "sprPropIndoor_Shelf_Right"
+x = 174.6
+y = 386.7
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stone_Pile1"
+sprite = "sprPropIndoor_Stone_Pile1"
+x = 226.5
+y = 402.4
+scale_x = 0.33709
+scale_y = 0.33709
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stone_Pile2"
+sprite = "sprPropIndoor_Stone_Pile2"
+x = 279.0
+y = 401.3
+scale_x = 0.73037
+scale_y = 0.73037
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stone_Pile3"
+sprite = "sprPropIndoor_Stone_Pile3"
+x = 331.5
+y = 398.3
+scale_x = 1.16
+scale_y = 1.16
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stone_Pile4"
+sprite = "sprPropIndoor_Stone_Pile4"
+x = 384.0
+y = 400.4
+scale_x = 0.57159
+scale_y = 0.57159
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stool_Blue"
+sprite = "sprPropIndoor_Stool_Blue"
+x = 436.5
+y = 393.3
+scale_x = 0.37923
+scale_y = 0.37923
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Stool_Red"
+sprite = "sprPropIndoor_Stool_Red"
+x = 489.0
+y = 393.3
+scale_x = 0.37923
+scale_y = 0.37923
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Suit_Of_Armour"
+sprite = "sprPropIndoor_Suit_Of_Armour"
+x = 551.1
+y = 386.7
+scale_x = 0.19919
+scale_y = 0.19919
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Table_Small"
+sprite = "sprPropIndoor_Table_Small"
+x = 594.0
+y = 393.8
+scale_x = 0.2167
+scale_y = 0.2167
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_WallTorchLit"
+sprite = "sprPropIndoor_WallTorchLit"
+x = 659.1
+y = 386.7
+scale_x = 0.18962
+scale_y = 0.18962
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_WallTorchSpine"
+sprite = "sprPropIndoor_WallTorchSpine"
+x = 711.3
+y = 386.7
+scale_x = 0.21091
+scale_y = 0.21091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_WallTorchUnlit"
+sprite = "sprPropIndoor_WallTorchUnlit"
+x = 760.1
+y = 386.7
+scale_x = 0.3905
+scale_y = 0.3905
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Wine_Barrel"
+sprite = "sprPropIndoor_Wine_Barrel"
+x = 804.0
+y = 387.7
+scale_x = 0.19053
+scale_y = 0.19053
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Wine_Bottle1"
+sprite = "sprPropIndoor_Wine_Bottle1"
+x = 861.6
+y = 386.7
+scale_x = 0.50564
+scale_y = 0.50564
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropIndoor_Wine_Bottle2"
+sprite = "sprPropIndoor_Wine_Bottle2"
+x = 920.6
+y = 386.7
+scale_x = 0.39838
+scale_y = 0.39838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Anvil"
+sprite = "sprPropOutdoor_Anvil"
+x = 961.5
+y = 397.3
+scale_x = 0.23903
+scale_y = 0.23903
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Barrel"
+sprite = "sprPropOutdoor_Barrel"
+x = 1014.3
+y = 386.7
+scale_x = 0.25778
+scale_y = 0.25778
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_BarrelBreak"
+sprite = "sprPropOutdoor_BarrelBreak"
+x = 1066.5
+y = 391.3
+scale_x = 0.15968
+scale_y = 0.15968
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_BarrelSpine"
+sprite = "sprPropOutdoor_BarrelSpine"
+x = 1119.4
+y = 386.7
+scale_x = 0.26119
+scale_y = 0.26119
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Bench"
+sprite = "sprPropOutdoor_Bench"
+x = 1171.5
+y = 395.0
+scale_x = 0.12561
+scale_y = 0.12561
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Board"
+sprite = "sprPropOutdoor_Board"
+x = 1224.0
+y = 389.8
+scale_x = 0.12931
+scale_y = 0.12931
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Boulder"
+sprite = "sprPropOutdoor_Boulder"
+x = 16.6
+y = 433.1
+scale_x = 0.09985
+scale_y = 0.09985
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Boulder_Dark"
+sprite = "sprPropOutdoor_Boulder_Dark"
+x = 69.1
+y = 433.1
+scale_x = 0.09985
+scale_y = 0.09985
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Bucket"
+sprite = "sprPropOutdoor_Bucket"
+x = 126.8
+y = 433.1
+scale_x = 0.2758
+scale_y = 0.2758
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ButterflyFly"
+sprite = "sprPropOutdoor_ButterflyFly"
+x = 180.7
+y = 433.1
+scale_x = 0.33424
+scale_y = 0.33424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ButterflyIdle"
+sprite = "sprPropOutdoor_ButterflyIdle"
+x = 226.5
+y = 435.9
+scale_x = 0.51895
+scale_y = 0.51895
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ButterflySpine"
+sprite = "sprPropOutdoor_ButterflySpine"
+x = 279.0
+y = 436.8
+scale_x = 0.53297
+scale_y = 0.53297
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ChimneyLit"
+sprite = "sprPropOutdoor_ChimneyLit"
+x = 331.5
+y = 437.5
+scale_x = 0.10406
+scale_y = 0.10406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ChimneySpine"
+sprite = "sprPropOutdoor_ChimneySpine"
+x = 384.0
+y = 437.5
+scale_x = 0.10489
+scale_y = 0.10489
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_ChimneyUnlit"
+sprite = "sprPropOutdoor_ChimneyUnlit"
+x = 436.5
+y = 437.5
+scale_x = 0.10406
+scale_y = 0.10406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Crate"
+sprite = "sprPropOutdoor_Crate"
+x = 489.0
+y = 435.8
+scale_x = 0.28171
+scale_y = 0.28171
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_CrateBreak"
+sprite = "sprPropOutdoor_CrateBreak"
+x = 541.5
+y = 438.1
+scale_x = 0.16164
+scale_y = 0.16164
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_CrateSpine"
+sprite = "sprPropOutdoor_CrateSpine"
+x = 594.0
+y = 435.9
+scale_x = 0.28374
+scale_y = 0.28374
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Crystal1"
+sprite = "sprPropOutdoor_Crystal1"
+x = 650.0
+y = 433.1
+scale_x = 0.14662
+scale_y = 0.14662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Crystal2"
+sprite = "sprPropOutdoor_Crystal2"
+x = 699.0
+y = 437.8
+scale_x = 0.12561
+scale_y = 0.12561
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Crystal3"
+sprite = "sprPropOutdoor_Crystal3"
+x = 758.4
+y = 433.1
+scale_x = 0.17927
+scale_y = 0.17927
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Crystal4"
+sprite = "sprPropOutdoor_Crystal4"
+x = 807.1
+y = 433.1
+scale_x = 0.17686
+scale_y = 0.17686
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Flower1"
+sprite = "sprPropOutdoor_Flower1"
+x = 859.6
+y = 433.1
+scale_x = 0.41083
+scale_y = 0.41083
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Flower2"
+sprite = "sprPropOutdoor_Flower2"
+x = 916.8
+y = 433.1
+scale_x = 0.41957
+scale_y = 0.41957
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Gate_Back"
+sprite = "sprPropOutdoor_Gate_Back"
+x = 32.5
+y = 479.5
+scale_x = 0.10805
+scale_y = 0.10805
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Gate_Front"
+sprite = "sprPropOutdoor_Gate_Front"
+x = 78.3
+y = 479.5
+scale_x = 0.10602
+scale_y = 0.10602
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass1"
+sprite = "sprPropOutdoor_Grass1"
+x = 121.5
+y = 481.5
+scale_x = 1.972
+scale_y = 1.972
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass2"
+sprite = "sprPropOutdoor_Grass2"
+x = 174.0
+y = 492.6
+scale_x = 0.77333
+scale_y = 0.77333
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass3"
+sprite = "sprPropOutdoor_Grass3"
+x = 226.5
+y = 480.9
+scale_x = 1.46074
+scale_y = 1.46074
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass4"
+sprite = "sprPropOutdoor_Grass4"
+x = 279.0
+y = 482.6
+scale_x = 1.03789
+scale_y = 1.03789
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass5"
+sprite = "sprPropOutdoor_Grass5"
+x = 331.5
+y = 487.9
+scale_x = 0.83915
+scale_y = 0.83915
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass6"
+sprite = "sprPropOutdoor_Grass6"
+x = 384.0
+y = 490.2
+scale_x = 0.71709
+scale_y = 0.71709
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Grass7"
+sprite = "sprPropOutdoor_Grass7"
+x = 436.5
+y = 489.1
+scale_x = 1.12686
+scale_y = 1.12686
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_HangingLampOff"
+sprite = "sprPropOutdoor_HangingLampOff"
+x = 493.0
+y = 479.5
+scale_x = 0.20122
+scale_y = 0.20122
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_HangingLampOn"
+sprite = "sprPropOutdoor_HangingLampOn"
+x = 545.9
+y = 479.5
+scale_x = 0.18962
+scale_y = 0.18962
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge1"
+sprite = "sprPropOutdoor_Hedge1"
+x = 594.0
+y = 490.0
+scale_x = 0.08537
+scale_y = 0.08537
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge1_Dark"
+sprite = "sprPropOutdoor_Hedge1_Dark"
+x = 646.5
+y = 490.0
+scale_x = 0.08574
+scale_y = 0.08574
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge2"
+sprite = "sprPropOutdoor_Hedge2"
+x = 699.0
+y = 491.4
+scale_x = 0.06651
+scale_y = 0.06651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge2_Dark"
+sprite = "sprPropOutdoor_Hedge2_Dark"
+x = 751.5
+y = 491.2
+scale_x = 0.068
+scale_y = 0.068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge3"
+sprite = "sprPropOutdoor_Hedge3"
+x = 804.0
+y = 490.1
+scale_x = 0.07132
+scale_y = 0.07132
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Hedge3_Dark"
+sprite = "sprPropOutdoor_Hedge3_Dark"
+x = 856.5
+y = 490.1
+scale_x = 0.07132
+scale_y = 0.07132
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_LampSpine"
+sprite = "sprPropOutdoor_LampSpine"
+x = 916.0
+y = 479.5
+scale_x = 0.11669
+scale_y = 0.11669
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Minecart_Empty"
+sprite = "sprPropOutdoor_Minecart_Empty"
+x = 16.5
+y = 533.3
+scale_x = 0.14939
+scale_y = 0.14939
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Minecart_Full"
+sprite = "sprPropOutdoor_Minecart_Full"
+x = 69.0
+y = 530.6
+scale_x = 0.14939
+scale_y = 0.14939
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Mushroom1"
+sprite = "sprPropOutdoor_Mushroom1"
+x = 122.4
+y = 525.9
+scale_x = 0.56343
+scale_y = 0.56343
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Mushroom2"
+sprite = "sprPropOutdoor_Mushroom2"
+x = 174.0
+y = 532.1
+scale_x = 0.464
+scale_y = 0.464
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Mushroom3"
+sprite = "sprPropOutdoor_Mushroom3"
+x = 229.0
+y = 525.9
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Mushroom4"
+sprite = "sprPropOutdoor_Mushroom4"
+x = 281.5
+y = 525.9
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Mushroom5"
+sprite = "sprPropOutdoor_Mushroom5"
+x = 331.5
+y = 529.8
+scale_x = 0.64656
+scale_y = 0.64656
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Plant1"
+sprite = "sprPropOutdoor_Plant1"
+x = 385.0
+y = 525.9
+scale_x = 0.17686
+scale_y = 0.17686
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Plant2"
+sprite = "sprPropOutdoor_Plant2"
+x = 436.5
+y = 528.2
+scale_x = 0.19053
+scale_y = 0.19053
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Plant3"
+sprite = "sprPropOutdoor_Plant3"
+x = 491.7
+y = 525.9
+scale_x = 0.38667
+scale_y = 0.38667
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Plant4"
+sprite = "sprPropOutdoor_Plant4"
+x = 541.5
+y = 529.4
+scale_x = 0.32328
+scale_y = 0.32328
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large1"
+sprite = "sprPropOutdoor_Rock_Large1"
+x = 594.0
+y = 535.8
+scale_x = 0.06931
+scale_y = 0.06931
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large1_Dark"
+sprite = "sprPropOutdoor_Rock_Large1_Dark"
+x = 646.5
+y = 535.8
+scale_x = 0.06931
+scale_y = 0.06931
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large2"
+sprite = "sprPropOutdoor_Rock_Large2"
+x = 699.0
+y = 526.6
+scale_x = 0.12403
+scale_y = 0.12403
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large2_Dark"
+sprite = "sprPropOutdoor_Rock_Large2_Dark"
+x = 751.5
+y = 526.6
+scale_x = 0.12403
+scale_y = 0.12403
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large3"
+sprite = "sprPropOutdoor_Rock_Large3"
+x = 804.0
+y = 536.7
+scale_x = 0.08166
+scale_y = 0.08166
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Large3_Dark"
+sprite = "sprPropOutdoor_Rock_Large3_Dark"
+x = 856.5
+y = 536.7
+scale_x = 0.08166
+scale_y = 0.08166
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small1"
+sprite = "sprPropOutdoor_Rock_Small1"
+x = 909.0
+y = 540.0
+scale_x = 0.14607
+scale_y = 0.14607
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small1_Dark"
+sprite = "sprPropOutdoor_Rock_Small1_Dark"
+x = 16.5
+y = 586.4
+scale_x = 0.14607
+scale_y = 0.14607
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small2"
+sprite = "sprPropOutdoor_Rock_Small2"
+x = 69.0
+y = 584.3
+scale_x = 0.2033
+scale_y = 0.2033
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small2_Dark"
+sprite = "sprPropOutdoor_Rock_Small2_Dark"
+x = 121.5
+y = 584.3
+scale_x = 0.2033
+scale_y = 0.2033
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small3"
+sprite = "sprPropOutdoor_Rock_Small3"
+x = 174.0
+y = 585.8
+scale_x = 0.10191
+scale_y = 0.10191
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small3_Dark"
+sprite = "sprPropOutdoor_Rock_Small3_Dark"
+x = 226.5
+y = 585.8
+scale_x = 0.10191
+scale_y = 0.10191
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small4"
+sprite = "sprPropOutdoor_Rock_Small4"
+x = 279.0
+y = 585.9
+scale_x = 0.14607
+scale_y = 0.14607
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Rock_Small4_Dark"
+sprite = "sprPropOutdoor_Rock_Small4_Dark"
+x = 331.5
+y = 585.9
+scale_x = 0.14607
+scale_y = 0.14607
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Signpost"
+sprite = "sprPropOutdoor_Signpost"
+x = 389.3
+y = 572.3
+scale_x = 0.1843
+scale_y = 0.1843
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_StreetlampOff"
+sprite = "sprPropOutdoor_StreetlampOff"
+x = 443.1
+y = 572.3
+scale_x = 0.11566
+scale_y = 0.11566
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_StreetlampOn"
+sprite = "sprPropOutdoor_StreetlampOn"
+x = 495.4
+y = 572.3
+scale_x = 0.11566
+scale_y = 0.11566
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tracks_Left"
+sprite = "sprPropOutdoor_Tracks_Left"
+x = 541.5
+y = 576.7
+scale_x = 0.16033
+scale_y = 0.16033
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tracks_Mid"
+sprite = "sprPropOutdoor_Tracks_Mid"
+x = 594.0
+y = 587.9
+scale_x = 0.15287
+scale_y = 0.15287
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tracks_Right"
+sprite = "sprPropOutdoor_Tracks_Right"
+x = 646.5
+y = 576.8
+scale_x = 0.15968
+scale_y = 0.15968
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestGold_Anim"
+sprite = "sprPropOutdoor_TreasureChestGold_Anim"
+x = 699.0
+y = 573.5
+scale_x = 0.16298
+scale_y = 0.16298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestGold_Closed"
+sprite = "sprPropOutdoor_TreasureChestGold_Closed"
+x = 751.5
+y = 579.0
+scale_x = 0.21435
+scale_y = 0.21435
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestGold_Open"
+sprite = "sprPropOutdoor_TreasureChestGold_Open"
+x = 804.0
+y = 575.2
+scale_x = 0.17223
+scale_y = 0.17223
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestSilver_Anim"
+sprite = "sprPropOutdoor_TreasureChestSilver_Anim"
+x = 856.5
+y = 573.3
+scale_x = 0.16433
+scale_y = 0.16433
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestSilver_Closed"
+sprite = "sprPropOutdoor_TreasureChestSilver_Closed"
+x = 909.0
+y = 579.0
+scale_x = 0.21435
+scale_y = 0.21435
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestSilver_Open"
+sprite = "sprPropOutdoor_TreasureChestSilver_Open"
+x = 16.5
+y = 621.5
+scale_x = 0.17298
+scale_y = 0.17298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_TreasureChestSpine"
+sprite = "sprPropOutdoor_TreasureChestSpine"
+x = 69.0
+y = 621.6
+scale_x = 0.17451
+scale_y = 0.17451
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Treasure_Gold"
+sprite = "sprPropOutdoor_Treasure_Gold"
+x = 121.5
+y = 633.1
+scale_x = 0.22034
+scale_y = 0.22034
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tree1"
+sprite = "sprPropOutdoor_Tree1"
+x = 174.1
+y = 618.7
+scale_x = 0.05294
+scale_y = 0.05294
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tree2"
+sprite = "sprPropOutdoor_Tree2"
+x = 230.4
+y = 618.7
+scale_x = 0.04624
+scale_y = 0.04624
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Tree3"
+sprite = "sprPropOutdoor_Tree3"
+x = 281.8
+y = 618.7
+scale_x = 0.04905
+scale_y = 0.04905
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Trunk"
+sprite = "sprPropOutdoor_Trunk"
+x = 331.5
+y = 631.9
+scale_x = 0.07018
+scale_y = 0.07018
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprPropOutdoor_Well"
+sprite = "sprPropOutdoor_Well"
+x = 384.0
+y = 620.0
+scale_x = 0.10835
+scale_y = 0.10835
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeletonSpine"
+sprite = "sprSkeletonSpine"
+x = 438.6
+y = 618.7
+scale_x = 0.18344
+scale_y = 0.18344
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Arrow"
+sprite = "sprSkeleton_Arrow"
+x = 489.0
+y = 633.1
+scale_x = 0.37923
+scale_y = 0.37923
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Attack_Bow"
+sprite = "sprSkeleton_Attack_Bow"
+x = 541.5
+y = 622.6
+scale_x = 0.12521
+scale_y = 0.12521
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Attack_Sword_Heavy"
+sprite = "sprSkeleton_Attack_Sword_Heavy"
+x = 594.0
+y = 631.2
+scale_x = 0.07171
+scale_y = 0.07171
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Attack_Sword_Light"
+sprite = "sprSkeleton_Attack_Sword_Light"
+x = 646.5
+y = 620.8
+scale_x = 0.09643
+scale_y = 0.09643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Die_Bow"
+sprite = "sprSkeleton_Die_Bow"
+x = 699.0
+y = 622.2
+scale_x = 0.11432
+scale_y = 0.11432
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Die_Sword"
+sprite = "sprSkeleton_Die_Sword"
+x = 751.5
+y = 623.1
+scale_x = 0.10036
+scale_y = 0.10036
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Hit_Bow"
+sprite = "sprSkeleton_Hit_Bow"
+x = 804.7
+y = 618.7
+scale_x = 0.16571
+scale_y = 0.16571
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Hit_Sword"
+sprite = "sprSkeleton_Hit_Sword"
+x = 856.5
+y = 623.3
+scale_x = 0.1429
+scale_y = 0.1429
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Idle_Bow"
+sprite = "sprSkeleton_Idle_Bow"
+x = 910.3
+y = 618.7
+scale_x = 0.18092
+scale_y = 0.18092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Idle_Sword"
+sprite = "sprSkeleton_Idle_Sword"
+x = 16.5
+y = 668.1
+scale_x = 0.16783
+scale_y = 0.16783
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Run_Bow"
+sprite = "sprSkeleton_Run_Bow"
+x = 70.8
+y = 665.1
+scale_x = 0.15713
+scale_y = 0.15713
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Run_Sword"
+sprite = "sprSkeleton_Run_Sword"
+x = 121.5
+y = 667.7
+scale_x = 0.14607
+scale_y = 0.14607
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Walk_Bow"
+sprite = "sprSkeleton_Walk_Bow"
+x = 178.0
+y = 665.1
+scale_x = 0.16365
+scale_y = 0.16365
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSkeleton_Walk_Sword"
+sprite = "sprSkeleton_Walk_Sword"
+x = 226.5
+y = 665.7
+scale_x = 0.17148
+scale_y = 0.17148
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpiderSpine"
+sprite = "sprSpiderSpine"
+x = 279.0
+y = 673.5
+scale_x = 0.28171
+scale_y = 0.28171
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpider_Attack"
+sprite = "sprSpider_Attack"
+x = 331.5
+y = 676.5
+scale_x = 0.16502
+scale_y = 0.16502
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpider_Die"
+sprite = "sprSpider_Die"
+x = 384.0
+y = 672.6
+scale_x = 0.2167
+scale_y = 0.2167
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpider_Hit"
+sprite = "sprSpider_Hit"
+x = 436.5
+y = 673.7
+scale_x = 0.22798
+scale_y = 0.22798
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpider_Idle"
+sprite = "sprSpider_Idle"
+x = 489.0
+y = 673.0
+scale_x = 0.26119
+scale_y = 0.26119
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_sprSpider_Walk"
+sprite = "sprSpider_Walk"
+x = 541.5
+y = 673.0
+scale_x = 0.2683
+scale_y = 0.2683
+rotation = 0.0
+colour = "#FFFFFFFF"
+

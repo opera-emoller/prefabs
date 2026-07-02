@@ -1,0 +1,535 @@
+id = "heros-trail-extended"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Hero's Trail Extended: a high-res, shaded, cartoony pixel-art pack of top-down dungeon assets — a green slime enemy, animated doors, floors, walls, switches, treasure chests, fountains, and glowing VFX, plus a cave tileset."
+tags = [ "genre:action", "genre:adventure", "theme:fantasy", "theme:medieval", "style:pixel-art", "style:shaded", "projection:top-down" ]
+
+[export]
+include = [
+  "sprites/spr_cracks_bats_anim",
+  "sprites/spr_cracks_dragon_anim",
+  "sprites/spr_cracks_eyes_anim",
+  "sprites/spr_cracks_glows_anim",
+  "sprites/spr_door_crystal_horizontal_anim",
+  "sprites/spr_door_crystal_vertical_anim",
+  "sprites/spr_door_stone_horizontal_anim",
+  "sprites/spr_door_stone_vertical_anim",
+  "sprites/spr_door_vines_horizontal_anim",
+  "sprites/spr_door_vines_vertical_anim",
+  "sprites/spr_doorframe",
+  "sprites/spr_doorframe_vertical",
+  "sprites/spr_drain_drip_anim",
+  "sprites/spr_draindrip",
+  "sprites/spr_entrance_particle",
+  "sprites/spr_flag",
+  "sprites/spr_flagripped",
+  "sprites/spr_floor_1a",
+  "sprites/spr_floor_1b",
+  "sprites/spr_floor_1c",
+  "sprites/spr_floor_1d",
+  "sprites/spr_floor_2a",
+  "sprites/spr_floor_2b",
+  "sprites/spr_floor_2c",
+  "sprites/spr_floor_2d",
+  "sprites/spr_floor_3a",
+  "sprites/spr_floor_3b",
+  "sprites/spr_floor_3c",
+  "sprites/spr_floor_3d",
+  "sprites/spr_floor_tileset",
+  "sprites/spr_fountain_animated",
+  "sprites/spr_fountainstone01",
+  "sprites/spr_fountainstone02",
+  "sprites/spr_fountainstone03",
+  "sprites/spr_fountainstone04",
+  "sprites/spr_glow_torch",
+  "sprites/spr_glow_window",
+  "sprites/spr_hole",
+  "sprites/spr_hole_edge",
+  "sprites/spr_hole_edge_big_01",
+  "sprites/spr_hole_edge_big_02",
+  "sprites/spr_hole_edge_small",
+  "sprites/spr_ooze_animations",
+  "sprites/spr_ooze_attackdown",
+  "sprites/spr_ooze_attackside",
+  "sprites/spr_ooze_attackup",
+  "sprites/spr_ooze_defeated",
+  "sprites/spr_ooze_idleside",
+  "sprites/spr_ooze_walkdown",
+  "sprites/spr_ooze_walkside",
+  "sprites/spr_ooze_walkup",
+  "sprites/spr_pillar_fallen_forest",
+  "sprites/spr_pillar_half_forest",
+  "sprites/spr_pillar_whole_forest",
+  "sprites/spr_sticks01",
+  "sprites/spr_sticks02",
+  "sprites/spr_sticks03",
+  "sprites/spr_stone_desk",
+  "sprites/spr_stonesfloor01",
+  "sprites/spr_stonesfloor02",
+  "sprites/spr_strangestones",
+  "sprites/spr_strangestones02",
+  "sprites/spr_strangestones03",
+  "sprites/spr_switch_floor",
+  "sprites/spr_switch_floor_left",
+  "sprites/spr_switch_floor_middle",
+  "sprites/spr_switch_floor_right",
+  "sprites/spr_switch_wall_off",
+  "sprites/spr_switch_wall_on",
+  "sprites/spr_top_broken_01",
+  "sprites/spr_top_broken_02",
+  "sprites/spr_treasure_closed_forest",
+  "sprites/spr_treasure_open_forest",
+  "sprites/spr_trunk",
+  "sprites/spr_trunk_floor",
+  "sprites/spr_vase_bits_forest_0",
+  "sprites/spr_vase_bits_forest_1",
+  "sprites/spr_vase_bits_forest_2",
+  "sprites/spr_vase_bits_forest_3",
+  "sprites/spr_vase_bits_forest_4",
+  "sprites/spr_vase_bits_forest_5",
+  "sprites/spr_vase_bits_forest_6",
+  "sprites/spr_vase_bits_forest_7",
+  "sprites/spr_vase_whole_forest",
+  "sprites/spr_vegetal01",
+  "sprites/spr_vegetal01b",
+  "sprites/spr_vegetal02",
+  "sprites/spr_vine_entrance",
+  "sprites/spr_wall_0",
+  "sprites/spr_wall_1",
+  "sprites/spr_wall_10",
+  "sprites/spr_wall_2",
+  "sprites/spr_wall_3",
+  "sprites/spr_wall_4",
+  "sprites/spr_wall_5",
+  "sprites/spr_wall_6",
+  "sprites/spr_wall_7",
+  "sprites/spr_wall_8",
+  "sprites/spr_wall_9",
+  "sprites/spr_wall_lower",
+  "sprites/spr_wall_lower_hole",
+  "sprites/spr_wall_torch_animation",
+  "sprites/spr_wall_window_off",
+  "sprites/spr_wall_window_on",
+  "tilesets/ts_caves",
+]
+
+[assets."sprites/spr_cracks_bats_anim"]
+description = "Animated floor-crack decal in a bat-shaped pattern glowing teal-green; magical fissure overlay, 64x64."
+tags = [ "asset_type:sprite", "subject:crack", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_cracks_dragon_anim"]
+description = "Animated floor-crack decal forming a dragon-like glyph glowing teal-green; magical fissure overlay, 64x64."
+tags = [ "asset_type:sprite", "subject:crack", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_cracks_eyes_anim"]
+description = "Animated floor-crack decal resembling glowing eyes in teal-green; magical fissure overlay, 64x64."
+tags = [ "asset_type:sprite", "subject:crack", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_cracks_glows_anim"]
+description = "Animated cracked-stone floor seam pulsing with bright teal-green glow; magical fissure overlay, 64x64."
+tags = [ "asset_type:sprite", "subject:crack", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_door_crystal_horizontal_anim"]
+description = "Tall horizontal stone doorway sealed with glowing teal crystals; 10-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_door_crystal_vertical_anim"]
+description = "Tall vertical stone doorway sealed with glowing teal crystals; 10-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_door_stone_horizontal_anim"]
+description = "Tall horizontal gray stone slab door; 10-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_door_stone_vertical_anim"]
+description = "Tall vertical gray stone slab door; 10-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_door_vines_horizontal_anim"]
+description = "Tall horizontal stone doorway overgrown with green vines; 7-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_door_vines_vertical_anim"]
+description = "Tall vertical stone doorway overgrown with green vines; 10-frame open/close animation."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:animation" ]
+
+[assets."sprites/spr_doorframe"]
+description = "Static carved stone door frame/arch, horizontal orientation; single frame, 96x101."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:static" ]
+
+[assets."sprites/spr_doorframe_vertical"]
+description = "Static carved stone door frame/arch, vertical orientation; single frame, 64x101."
+tags = [ "asset_type:sprite", "subject:door", "role:environment", "state:static" ]
+
+[assets."sprites/spr_drain_drip_anim"]
+description = "Looping animation of water dripping from a floor drain; 30-frame teal water VFX."
+tags = [ "asset_type:sprite", "subject:water", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_draindrip"]
+description = "Shorter looping water-drip animation from a drain; 15-frame teal water VFX."
+tags = [ "asset_type:sprite", "subject:water", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_entrance_particle"]
+description = "Small soft teal glow particle used at dungeon entrances; single 33x33 frame."
+tags = [ "asset_type:sprite", "subject:glow", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_flag"]
+description = "Hanging cloth banner/flag rippling in the wind; 25-frame waving animation."
+tags = [ "asset_type:sprite", "subject:flag", "role:prop", "state:animation" ]
+
+[assets."sprites/spr_flagripped"]
+description = "Tattered, torn cloth banner/flag rippling in the wind; 25-frame waving animation."
+tags = [ "asset_type:sprite", "subject:flag", "role:prop", "state:animation" ]
+
+[assets."sprites/spr_floor_1a"]
+description = "Dark teal-green dungeon floor tile, variant 1a; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_1b"]
+description = "Dark teal-green dungeon floor tile, variant 1b; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_1c"]
+description = "Dark teal-green dungeon floor tile, variant 1c; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_1d"]
+description = "Dark teal-green dungeon floor tile, variant 1d; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_2a"]
+description = "Mossy stone dungeon floor tile, variant 2a; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_2b"]
+description = "Mossy stone dungeon floor tile, variant 2b; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_2c"]
+description = "Mossy stone dungeon floor tile, variant 2c; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_2d"]
+description = "Mossy stone dungeon floor tile, variant 2d; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_3a"]
+description = "Cracked stone dungeon floor tile, variant 3a; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_3b"]
+description = "Cracked stone dungeon floor tile, variant 3b; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_3c"]
+description = "Cracked stone dungeon floor tile, variant 3c; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_3d"]
+description = "Cracked stone dungeon floor tile, variant 3d; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_floor_tileset"]
+description = "Combined floor tile atlas sheet of all dungeon floor variants; 768x256 reference strip."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_fountain_animated"]
+description = "Ornate stone fountain with cascading blue water; 4-frame water animation, 64x128."
+tags = [ "asset_type:sprite", "subject:fountain", "role:prop", "state:animation" ]
+
+[assets."sprites/spr_fountainstone01"]
+description = "Static carved stone fountain basin, variant 01; 64x128 prop."
+tags = [ "asset_type:sprite", "subject:fountain", "role:prop", "state:static" ]
+
+[assets."sprites/spr_fountainstone02"]
+description = "Static carved stone fountain basin, variant 02; 64x128 prop."
+tags = [ "asset_type:sprite", "subject:fountain", "role:prop", "state:static" ]
+
+[assets."sprites/spr_fountainstone03"]
+description = "Static carved stone fountain basin, variant 03; 64x128 prop."
+tags = [ "asset_type:sprite", "subject:fountain", "role:prop", "state:static" ]
+
+[assets."sprites/spr_fountainstone04"]
+description = "Static carved stone fountain basin, variant 04; 64x128 prop."
+tags = [ "asset_type:sprite", "subject:fountain", "role:prop", "state:static" ]
+
+[assets."sprites/spr_glow_torch"]
+description = "Soft warm radial glow halo for torch lighting; large 201x201 additive VFX sprite."
+tags = [ "asset_type:sprite", "subject:glow", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_glow_window"]
+description = "Soft cool radial glow halo for window light; large 201x201 additive VFX sprite."
+tags = [ "asset_type:sprite", "subject:glow", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_hole"]
+description = "Dark pit/hole in the dungeon floor; 64x64 ground tile."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_hole_edge"]
+description = "Edge transition tile for a floor pit; 64x64."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_hole_edge_big_01"]
+description = "Large pit-edge transition tile, variant 01; 64x64."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_hole_edge_big_02"]
+description = "Large pit-edge transition tile, variant 02; 64x64."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_hole_edge_small"]
+description = "Thin small pit-edge transition strip; 64x16."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "state:static" ]
+
+[assets."sprites/spr_ooze_animations"]
+description = "Master sheet of the green slime/ooze enemy with magenta eyes; all 112 animation frames combined, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_attackdown"]
+description = "Green slime enemy attacking downward; 14-frame animation, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_attackside"]
+description = "Green slime enemy attacking sideways; 14-frame animation, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_attackup"]
+description = "Green slime enemy attacking upward; 14-frame animation, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_defeated"]
+description = "Green slime enemy death/dissolve sequence; 10-frame animation, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_idleside"]
+description = "Green slime enemy idle bobbing, side view; 24-frame loop, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_walkdown"]
+description = "Green slime enemy moving downward; 12-frame walk loop, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_walkside"]
+description = "Green slime enemy moving sideways; 12-frame walk loop, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_ooze_walkup"]
+description = "Green slime enemy moving upward; multi-frame walk loop, 180x180."
+tags = [ "asset_type:sprite", "subject:slime", "role:enemy", "state:animation" ]
+
+[assets."sprites/spr_pillar_fallen_forest"]
+description = "Toppled, broken stone pillar with green moss; static prop, 49x91."
+tags = [ "asset_type:sprite", "subject:pillar", "role:prop", "state:static" ]
+
+[assets."sprites/spr_pillar_half_forest"]
+description = "Half-broken standing stone pillar with green moss; static prop, 40x81."
+tags = [ "asset_type:sprite", "subject:pillar", "role:prop", "state:static" ]
+
+[assets."sprites/spr_pillar_whole_forest"]
+description = "Intact tall stone pillar/column with green moss accents; static prop, 40x103."
+tags = [ "asset_type:sprite", "subject:pillar", "role:prop", "state:static" ]
+
+[assets."sprites/spr_sticks01"]
+description = "Small scattered brown twigs/sticks on the floor, variant 01; 64x64 clutter prop."
+tags = [ "asset_type:sprite", "subject:plank", "role:prop", "state:static" ]
+
+[assets."sprites/spr_sticks02"]
+description = "Small scattered brown twigs/sticks on the floor, variant 02; 64x64 clutter prop."
+tags = [ "asset_type:sprite", "subject:plank", "role:prop", "state:static" ]
+
+[assets."sprites/spr_sticks03"]
+description = "Small scattered brown twigs/sticks on the floor, variant 03; 64x64 clutter prop."
+tags = [ "asset_type:sprite", "subject:plank", "role:prop", "state:static" ]
+
+[assets."sprites/spr_stone_desk"]
+description = "Stone desk/table stacked with rolled scrolls and a quill; static furniture prop, 100x109."
+tags = [ "asset_type:sprite", "subject:furniture", "role:prop", "state:static" ]
+
+[assets."sprites/spr_stonesfloor01"]
+description = "Small loose gray floor stones/pebbles, variant 01; 64x64 clutter."
+tags = [ "asset_type:sprite", "subject:rock", "role:prop", "state:static" ]
+
+[assets."sprites/spr_stonesfloor02"]
+description = "Small loose gray floor stones/pebbles, variant 02; 64x64 clutter."
+tags = [ "asset_type:sprite", "subject:rock", "role:prop", "state:static" ]
+
+[assets."sprites/spr_strangestones"]
+description = "Cluster of smooth dark rounded stones; static rock prop, 64x64."
+tags = [ "asset_type:sprite", "subject:rock", "role:prop", "state:static" ]
+
+[assets."sprites/spr_strangestones02"]
+description = "Cluster of smooth dark rounded stones, variant 02; static rock prop, 64x64."
+tags = [ "asset_type:sprite", "subject:rock", "role:prop", "state:static" ]
+
+[assets."sprites/spr_strangestones03"]
+description = "Cluster of smooth dark rounded stones, variant 03; static rock prop, 64x64."
+tags = [ "asset_type:sprite", "subject:rock", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_floor"]
+description = "Floor pressure-plate switch/button, neutral; static prop, 38x50."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_floor_left"]
+description = "Floor pressure-plate switch, left-aligned segment; static prop, 38x50."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_floor_middle"]
+description = "Floor pressure-plate switch, middle segment; static prop, 38x50."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_floor_right"]
+description = "Floor pressure-plate switch, right segment; static prop, 38x50."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_wall_off"]
+description = "Wall-mounted lever switch in the off position; static prop, 38x51."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_switch_wall_on"]
+description = "Wall-mounted lever switch in the on position; static prop, 38x51."
+tags = [ "asset_type:sprite", "subject:button", "role:prop", "state:static" ]
+
+[assets."sprites/spr_top_broken_01"]
+description = "Broken top edge of a dungeon wall, variant 01; 64x64 wall tile."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_top_broken_02"]
+description = "Broken top edge of a dungeon wall, variant 02; 64x64 wall tile."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_treasure_closed_forest"]
+description = "Closed wooden-and-gold treasure chest with mossy accents; static prop, 48x84."
+tags = [ "asset_type:sprite", "subject:chest", "role:prop", "state:static" ]
+
+[assets."sprites/spr_treasure_open_forest"]
+description = "Open treasure chest revealing its interior, mossy accents; static prop, 48x84."
+tags = [ "asset_type:sprite", "subject:chest", "role:prop", "state:static" ]
+
+[assets."sprites/spr_trunk"]
+description = "Dark reddish-brown tree trunk/stump with hanging roots; static prop, 117x141."
+tags = [ "asset_type:sprite", "subject:log", "role:prop", "state:static" ]
+
+[assets."sprites/spr_trunk_floor"]
+description = "Floor-set tree trunk/stump variant with hanging roots; static prop, 117x141."
+tags = [ "asset_type:sprite", "subject:log", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_0"]
+description = "Broken ceramic vase shard, piece 0; tiny debris prop, 20x16."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_1"]
+description = "Broken ceramic vase shard, piece 1; tiny debris prop, 9x20."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_2"]
+description = "Broken ceramic vase shard, piece 2; tiny debris prop, 13x11."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_3"]
+description = "Broken ceramic vase shard, piece 3; tiny debris prop, 6x14."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_4"]
+description = "Broken ceramic vase shard, piece 4; tiny debris prop, 12x12."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_5"]
+description = "Broken ceramic vase shard, piece 5; tiny debris prop, 10x16."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_6"]
+description = "Broken ceramic vase shard, piece 6; tiny debris prop, 11x13."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_bits_forest_7"]
+description = "Broken ceramic vase shard, piece 7; tiny debris prop, 16x17."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vase_whole_forest"]
+description = "Intact dark ceramic vase/urn with mossy tint; static prop, 30x57."
+tags = [ "asset_type:sprite", "subject:vase", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vegetal01"]
+description = "Lush green fern/leafy plant cluster, variant 01; static foliage prop, 64x64."
+tags = [ "asset_type:sprite", "subject:plant", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vegetal01b"]
+description = "Lush green fern/leafy plant cluster, variant 01b; static foliage prop, 64x64."
+tags = [ "asset_type:sprite", "subject:plant", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vegetal02"]
+description = "Tall green leafy plant, variant 02; static foliage prop, 64x64."
+tags = [ "asset_type:sprite", "subject:plant", "role:prop", "state:static" ]
+
+[assets."sprites/spr_vine_entrance"]
+description = "Archway thickly draped with green hanging vines, framing an entrance; static environment piece, 117x141."
+tags = [ "asset_type:sprite", "subject:foliage", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_0"]
+description = "Gray cobblestone dungeon wall tile, variant 0; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_1"]
+description = "Gray cobblestone dungeon wall tile, variant 1; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_10"]
+description = "Tall gray cobblestone dungeon wall section, variant 10; 64x89."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_2"]
+description = "Gray cobblestone dungeon wall tile, variant 2; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_3"]
+description = "Cracked gray cobblestone wall tile, variant 3; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_4"]
+description = "Mossy gray cobblestone wall tile, variant 4; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_5"]
+description = "Mossy cracked gray cobblestone wall tile, variant 5; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_6"]
+description = "Gray cobblestone wall tile with damage, variant 6; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_7"]
+description = "Plain gray cobblestone wall tile, variant 7; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_8"]
+description = "Arched stone wall passage/doorway opening; 64x72 wall section."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_9"]
+description = "Tall gray cobblestone wall section, variant 9; 64x89."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_lower"]
+description = "Lower gray cobblestone wall-base tile; 64x64 seamless."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_lower_hole"]
+description = "Lower wall-base tile with a dark hole/opening; 64x64."
+tags = [ "asset_type:sprite", "subject:wall", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_torch_animation"]
+description = "Wall-mounted torch with flickering orange flame; 16-frame fire animation, 64x64."
+tags = [ "asset_type:sprite", "subject:fire", "role:vfx", "state:animation" ]
+
+[assets."sprites/spr_wall_window_off"]
+description = "Wall section with an unlit window; 64x64 tile."
+tags = [ "asset_type:sprite", "subject:window", "role:environment", "state:static" ]
+
+[assets."sprites/spr_wall_window_on"]
+description = "Wall section with a glowing teal-crystal window; 64x64 tile."
+tags = [ "asset_type:sprite", "subject:window", "role:environment", "state:static" ]
+
+[assets."tilesets/ts_caves"]
+description = "Autotile cave/dungeon tileset: gray cobblestone walls and ledges over a dark teal-green floor backdrop, top-down dungeon layout."
+tags = [ "asset_type:tileset", "subject:wall", "role:tile", "state:static" ]

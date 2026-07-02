@@ -1,0 +1,23 @@
+#:schema ../../.gm-schema/v1.json#sprite
+
+fps = 15.0
+
+[[sequence_events]]
+disabled = false
+key = 0.0
+length = 1.0
+stretch = false
+
+[[sequence_events.channels]]
+channel = 0
+events = ["footstep"]
+
+[[sequence_events]]
+disabled = false
+key = 9.0
+length = 1.0
+stretch = false
+
+[[sequence_events.channels]]
+channel = 0
+events = ["footstep"]

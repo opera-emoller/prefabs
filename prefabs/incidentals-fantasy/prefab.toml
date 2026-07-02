@@ -1,0 +1,1985 @@
+id = "incidentals-fantasy"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Fantasy UI and game icon pack - books, chests, potions, gems, coins, keys, scrolls, tools, ores and more, each in glossy rendered color (plain and outlined) plus flat-black and flat-white silhouette variants."
+tags = [ "theme:fantasy", "role:ui", "projection:ui-icon" ]
+
+[export]
+include = [
+  "sprites/spr_bone_femur",
+  "sprites/spr_bone_femur_with_stroke",
+  "sprites/spr_bone_head",
+  "sprites/spr_bone_head_with_stroke",
+  "sprites/spr_bone_rib",
+  "sprites/spr_bone_rib_with_stroke",
+  "sprites/spr_book_blue",
+  "sprites/spr_book_blue_with_stroke",
+  "sprites/spr_book_cyan",
+  "sprites/spr_book_cyan_with_stroke",
+  "sprites/spr_book_green",
+  "sprites/spr_book_green_with_stroke",
+  "sprites/spr_book_orange",
+  "sprites/spr_book_orange_with_stroke",
+  "sprites/spr_book_pink",
+  "sprites/spr_book_pink_with_stroke",
+  "sprites/spr_book_purple",
+  "sprites/spr_book_purple_with_stroke",
+  "sprites/spr_book_red",
+  "sprites/spr_book_red_with_stroke",
+  "sprites/spr_book_yellow",
+  "sprites/spr_book_yellow_with_stroke",
+  "sprites/spr_bookopen_blue",
+  "sprites/spr_bookopen_blue_with_stroke",
+  "sprites/spr_bookopen_cyan",
+  "sprites/spr_bookopen_cyan_with_stroke",
+  "sprites/spr_bookopen_green",
+  "sprites/spr_bookopen_green_with_stroke",
+  "sprites/spr_bookopen_orange",
+  "sprites/spr_bookopen_orange_with_stroke",
+  "sprites/spr_bookopen_pink",
+  "sprites/spr_bookopen_pink_with_stroke",
+  "sprites/spr_bookopen_purple",
+  "sprites/spr_bookopen_purple_with_stroke",
+  "sprites/spr_bookopen_red",
+  "sprites/spr_bookopen_red_with_stroke",
+  "sprites/spr_bookopen_yellow",
+  "sprites/spr_bookopen_yellow_with_stroke",
+  "sprites/spr_chest_golden",
+  "sprites/spr_chest_golden_open",
+  "sprites/spr_chest_golden_open_fx",
+  "sprites/spr_chest_golden_open_fx_with_stroke",
+  "sprites/spr_chest_golden_open_with_stroke",
+  "sprites/spr_chest_golden_with_stroke",
+  "sprites/spr_chest_silver",
+  "sprites/spr_chest_silver_open",
+  "sprites/spr_chest_silver_open_fx",
+  "sprites/spr_chest_silver_open_fx_with_stroke",
+  "sprites/spr_chest_silver_open_with_stroke",
+  "sprites/spr_chest_silver_with_stroke",
+  "sprites/spr_chest_wooden",
+  "sprites/spr_chest_wooden_open",
+  "sprites/spr_chest_wooden_open_fx",
+  "sprites/spr_chest_wooden_open_fx_with_stroke",
+  "sprites/spr_chest_wooden_open_with_stroke",
+  "sprites/spr_chest_wooden_with_stroke",
+  "sprites/spr_clock",
+  "sprites/spr_clock_with_stroke",
+  "sprites/spr_coin_copper",
+  "sprites/spr_coin_copper_with_stroke",
+  "sprites/spr_coin_gold",
+  "sprites/spr_coin_gold_with_stroke",
+  "sprites/spr_coin_silver",
+  "sprites/spr_coin_silver_with_stroke",
+  "sprites/spr_containersbottle_glass",
+  "sprites/spr_containersbottle_glass_with_stroke",
+  "sprites/spr_containersbottle_jar",
+  "sprites/spr_containersbottle_jar_with_stroke",
+  "sprites/spr_containersbottle_tincan",
+  "sprites/spr_containersbottle_tincan_with_stroke",
+  "sprites/spr_crates_big",
+  "sprites/spr_crates_big_02",
+  "sprites/spr_crates_big_02_with_stroke",
+  "sprites/spr_crates_big_with_stroke",
+  "sprites/spr_crates_mid",
+  "sprites/spr_crates_mid_with_stroke",
+  "sprites/spr_crates_small",
+  "sprites/spr_crates_small_with_stroke",
+  "sprites/spr_cutlery_chopstick",
+  "sprites/spr_cutlery_chopstick_with_stroke",
+  "sprites/spr_cutlery_knife",
+  "sprites/spr_cutlery_knife_with_stroke",
+  "sprites/spr_cutlery_spoon",
+  "sprites/spr_cutlery_spoon_with_stroke",
+  "sprites/spr_cutlery_table_spoon",
+  "sprites/spr_cutlery_table_spoon_with_stroke",
+  "sprites/spr_flatback_bone_femur",
+  "sprites/spr_flatblack_bone_head",
+  "sprites/spr_flatblack_bone_pile",
+  "sprites/spr_flatblack_bone_rib",
+  "sprites/spr_flatblack_book",
+  "sprites/spr_flatblack_bookopen",
+  "sprites/spr_flatblack_chest",
+  "sprites/spr_flatblack_chest_open",
+  "sprites/spr_flatblack_clock",
+  "sprites/spr_flatblack_coin",
+  "sprites/spr_flatblack_containersbottle_glass",
+  "sprites/spr_flatblack_containersbottle_jar",
+  "sprites/spr_flatblack_containersbottle_tincan",
+  "sprites/spr_flatblack_crates_big",
+  "sprites/spr_flatblack_crates_mid",
+  "sprites/spr_flatblack_crates_small",
+  "sprites/spr_flatblack_cup",
+  "sprites/spr_flatblack_cutlery_chopstick",
+  "sprites/spr_flatblack_cutlery_knife",
+  "sprites/spr_flatblack_cutlery_spoon",
+  "sprites/spr_flatblack_cutlery_table_spoon",
+  "sprites/spr_flatblack_gadget_alchemy",
+  "sprites/spr_flatblack_gadget_runic",
+  "sprites/spr_flatblack_gadget_vinci",
+  "sprites/spr_flatblack_gem",
+  "sprites/spr_flatblack_gift_box",
+  "sprites/spr_flatblack_gift_box_open",
+  "sprites/spr_flatblack_hand",
+  "sprites/spr_flatblack_heart",
+  "sprites/spr_flatblack_hour_glass_01",
+  "sprites/spr_flatblack_key",
+  "sprites/spr_flatblack_lock",
+  "sprites/spr_flatblack_lock_open",
+  "sprites/spr_flatblack_minerals_coal",
+  "sprites/spr_flatblack_minerals_copper",
+  "sprites/spr_flatblack_minerals_gold",
+  "sprites/spr_flatblack_minerals_gold_bar",
+  "sprites/spr_flatblack_minerals_iron",
+  "sprites/spr_flatblack_plant_01",
+  "sprites/spr_flatblack_plant_02",
+  "sprites/spr_flatblack_plant_03",
+  "sprites/spr_flatblack_plant_04",
+  "sprites/spr_flatblack_plant_05",
+  "sprites/spr_flatblack_plates_bowl",
+  "sprites/spr_flatblack_plates_cup",
+  "sprites/spr_flatblack_plates_cup_coffee",
+  "sprites/spr_flatblack_plates_dinner",
+  "sprites/spr_flatblack_plates_saucer",
+  "sprites/spr_flatblack_potion",
+  "sprites/spr_flatblack_potion_testtube",
+  "sprites/spr_flatblack_rosette",
+  "sprites/spr_flatblack_sack",
+  "sprites/spr_flatblack_satchel",
+  "sprites/spr_flatblack_satchel_heavy",
+  "sprites/spr_flatblack_scroll_close",
+  "sprites/spr_flatblack_scroll_open",
+  "sprites/spr_flatblack_sign",
+  "sprites/spr_flatblack_tools_hammer",
+  "sprites/spr_flatblack_tools_pickaxe",
+  "sprites/spr_flatblack_tools_saw",
+  "sprites/spr_flatblack_tools_spanner",
+  "sprites/spr_flatblack_trophy",
+  "sprites/spr_flatwhite_bone_femur",
+  "sprites/spr_flatwhite_bone_head",
+  "sprites/spr_flatwhite_bone_pile",
+  "sprites/spr_flatwhite_bone_rib",
+  "sprites/spr_flatwhite_book",
+  "sprites/spr_flatwhite_bookopen",
+  "sprites/spr_flatwhite_chest",
+  "sprites/spr_flatwhite_chest_open",
+  "sprites/spr_flatwhite_clock",
+  "sprites/spr_flatwhite_coin",
+  "sprites/spr_flatwhite_containersbottle_glass",
+  "sprites/spr_flatwhite_containersbottle_jar",
+  "sprites/spr_flatwhite_containersbottle_tincan",
+  "sprites/spr_flatwhite_crates_big",
+  "sprites/spr_flatwhite_crates_mid",
+  "sprites/spr_flatwhite_crates_small",
+  "sprites/spr_flatwhite_cup",
+  "sprites/spr_flatwhite_cutlery_chopstick",
+  "sprites/spr_flatwhite_cutlery_knife",
+  "sprites/spr_flatwhite_cutlery_spoon",
+  "sprites/spr_flatwhite_cutlery_table_spoon",
+  "sprites/spr_flatwhite_gadget_alchemy",
+  "sprites/spr_flatwhite_gadget_runic",
+  "sprites/spr_flatwhite_gadget_vinci",
+  "sprites/spr_flatwhite_gem",
+  "sprites/spr_flatwhite_gift_box",
+  "sprites/spr_flatwhite_gift_box_open",
+  "sprites/spr_flatwhite_hand",
+  "sprites/spr_flatwhite_heart",
+  "sprites/spr_flatwhite_hour_glass_01",
+  "sprites/spr_flatwhite_key",
+  "sprites/spr_flatwhite_lock",
+  "sprites/spr_flatwhite_lock_open",
+  "sprites/spr_flatwhite_minerals_coal",
+  "sprites/spr_flatwhite_minerals_copper",
+  "sprites/spr_flatwhite_minerals_gold",
+  "sprites/spr_flatwhite_minerals_gold_bar",
+  "sprites/spr_flatwhite_minerals_iron",
+  "sprites/spr_flatwhite_plant_01",
+  "sprites/spr_flatwhite_plant_02",
+  "sprites/spr_flatwhite_plant_03",
+  "sprites/spr_flatwhite_plant_04",
+  "sprites/spr_flatwhite_plant_05",
+  "sprites/spr_flatwhite_plates_bowl",
+  "sprites/spr_flatwhite_plates_cup",
+  "sprites/spr_flatwhite_plates_cup_coffee",
+  "sprites/spr_flatwhite_plates_dinner",
+  "sprites/spr_flatwhite_plates_saucer",
+  "sprites/spr_flatwhite_potion",
+  "sprites/spr_flatwhite_potion_testtube",
+  "sprites/spr_flatwhite_rosette",
+  "sprites/spr_flatwhite_sack",
+  "sprites/spr_flatwhite_satchel",
+  "sprites/spr_flatwhite_satchel_heavy",
+  "sprites/spr_flatwhite_scroll_close",
+  "sprites/spr_flatwhite_scroll_open",
+  "sprites/spr_flatwhite_sign",
+  "sprites/spr_flatwhite_tools_hammer",
+  "sprites/spr_flatwhite_tools_pickaxe",
+  "sprites/spr_flatwhite_tools_saw",
+  "sprites/spr_flatwhite_tools_spanner",
+  "sprites/spr_flatwhite_trophy",
+  "sprites/spr_gadget_alchemy",
+  "sprites/spr_gadget_alchemy_with_stroke",
+  "sprites/spr_gadget_runic",
+  "sprites/spr_gadget_runic_with_stroke",
+  "sprites/spr_gadget_vinci",
+  "sprites/spr_gadget_vinci_with_stroke",
+  "sprites/spr_gem_blue",
+  "sprites/spr_gem_blue_with_stroke",
+  "sprites/spr_gem_cyan",
+  "sprites/spr_gem_cyan_with_stroke",
+  "sprites/spr_gem_green",
+  "sprites/spr_gem_green_with_stroke",
+  "sprites/spr_gem_orange",
+  "sprites/spr_gem_orange_with_stroke",
+  "sprites/spr_gem_pink",
+  "sprites/spr_gem_pink_with_stroke",
+  "sprites/spr_gem_purple",
+  "sprites/spr_gem_purple_with_stroke",
+  "sprites/spr_gem_red",
+  "sprites/spr_gem_red_with_stroke",
+  "sprites/spr_gem_yellow",
+  "sprites/spr_gem_yellow_with_stroke",
+  "sprites/spr_gift_box",
+  "sprites/spr_gift_box_open",
+  "sprites/spr_gift_box_open_with_stroke",
+  "sprites/spr_gift_box_with_stroke",
+  "sprites/spr_hand",
+  "sprites/spr_hand_with_stroke",
+  "sprites/spr_heart",
+  "sprites/spr_heart_with_stroke",
+  "sprites/spr_hour_glass_01",
+  "sprites/spr_hour_glass_01_with_stroke",
+  "sprites/spr_hour_glass_02",
+  "sprites/spr_hour_glass_02_with_stroke",
+  "sprites/spr_hour_glass_03",
+  "sprites/spr_hour_glass_03_with_stroke",
+  "sprites/spr_key_bronze",
+  "sprites/spr_key_bronze_with_stroke",
+  "sprites/spr_key_gold",
+  "sprites/spr_key_gold_with_stroke",
+  "sprites/spr_key_silver",
+  "sprites/spr_key_silver_with_stroke",
+  "sprites/spr_lock_bronze",
+  "sprites/spr_lock_bronze_with_stroke",
+  "sprites/spr_lock_gold",
+  "sprites/spr_lock_gold_with_stroke",
+  "sprites/spr_lock_open_bronze",
+  "sprites/spr_lock_open_bronze_with_stroke",
+  "sprites/spr_lock_open_golden",
+  "sprites/spr_lock_open_golden_with_stroke",
+  "sprites/spr_lock_silver",
+  "sprites/spr_lock_silver_open",
+  "sprites/spr_lock_silver_open_with_stroke",
+  "sprites/spr_lock_silver_with_stroke",
+  "sprites/spr_minerals_coal",
+  "sprites/spr_minerals_coal_bar",
+  "sprites/spr_minerals_coal_bar_hot",
+  "sprites/spr_minerals_coal_bar_hot_with_stroke",
+  "sprites/spr_minerals_coal_bar_with_stroke",
+  "sprites/spr_minerals_coal_with_stroke",
+  "sprites/spr_minerals_copper",
+  "sprites/spr_minerals_copper_bar",
+  "sprites/spr_minerals_copper_bar_with_stroke",
+  "sprites/spr_minerals_copper_with_stroke",
+  "sprites/spr_minerals_gold",
+  "sprites/spr_minerals_gold_bar",
+  "sprites/spr_minerals_gold_bar_with_stroke",
+  "sprites/spr_minerals_gold_with_stroke",
+  "sprites/spr_minerals_iron",
+  "sprites/spr_minerals_iron_bar",
+  "sprites/spr_minerals_iron_bar_with_stroke",
+  "sprites/spr_minerals_iron_with_stroke",
+  "sprites/spr_plant_01",
+  "sprites/spr_plant_01_with_stroke",
+  "sprites/spr_plant_02",
+  "sprites/spr_plant_02_with_stroke",
+  "sprites/spr_plant_03",
+  "sprites/spr_plant_03_with_stroke",
+  "sprites/spr_plant_04",
+  "sprites/spr_plant_04_with_stroke",
+  "sprites/spr_plant_05",
+  "sprites/spr_plant_05_with_stroke",
+  "sprites/spr_plants_with_stroke",
+  "sprites/spr_plates_bowl",
+  "sprites/spr_plates_bowl_with_stroke",
+  "sprites/spr_plates_cup",
+  "sprites/spr_plates_cup_coffee",
+  "sprites/spr_plates_cup_coffee_with_stroke",
+  "sprites/spr_plates_cup_with_stroke",
+  "sprites/spr_plates_dinner",
+  "sprites/spr_plates_dinner_with_stroke",
+  "sprites/spr_plates_saucer",
+  "sprites/spr_plates_saucer_with_stroke",
+  "sprites/spr_potion_blue",
+  "sprites/spr_potion_blue_with_stroke",
+  "sprites/spr_potion_cyan",
+  "sprites/spr_potion_cyan_with_stroke",
+  "sprites/spr_potion_green",
+  "sprites/spr_potion_green_with_stroke",
+  "sprites/spr_potion_orange",
+  "sprites/spr_potion_orange_with_stroke",
+  "sprites/spr_potion_pink",
+  "sprites/spr_potion_pink_with_stroke",
+  "sprites/spr_potion_purple",
+  "sprites/spr_potion_purple_with_stroke",
+  "sprites/spr_potion_red",
+  "sprites/spr_potion_red_with_stroke",
+  "sprites/spr_potion_testtube_blue",
+  "sprites/spr_potion_testtube_blue_with_stroke",
+  "sprites/spr_potion_testtube_cyan",
+  "sprites/spr_potion_testtube_cyan_with_stroke",
+  "sprites/spr_potion_testtube_green",
+  "sprites/spr_potion_testtube_green_with_stroke",
+  "sprites/spr_potion_testtube_orange",
+  "sprites/spr_potion_testtube_orange_with_stroke",
+  "sprites/spr_potion_testtube_pink",
+  "sprites/spr_potion_testtube_pink_with_stroke",
+  "sprites/spr_potion_testtube_purple",
+  "sprites/spr_potion_testtube_purple_with_stroke",
+  "sprites/spr_potion_testtube_red",
+  "sprites/spr_potion_testtube_red_with_stroke",
+  "sprites/spr_potion_testtube_yellow",
+  "sprites/spr_potion_testtube_yellow_with_stroke",
+  "sprites/spr_potion_yellow",
+  "sprites/spr_potion_yellow_with_stroke",
+  "sprites/spr_rosette_blue",
+  "sprites/spr_rosette_blue_with_stroke",
+  "sprites/spr_rosette_yellow",
+  "sprites/spr_rosette_yellow_with_stroke",
+  "sprites/spr_rossette_cyan",
+  "sprites/spr_rossette_cyan_with_stroke",
+  "sprites/spr_rossette_green",
+  "sprites/spr_rossette_green_with_stroke",
+  "sprites/spr_rossette_orange",
+  "sprites/spr_rossette_orange_with_stroke",
+  "sprites/spr_rossette_pink",
+  "sprites/spr_rossette_pink_with_stroke",
+  "sprites/spr_rossette_purple",
+  "sprites/spr_rossette_purple_with_stroke",
+  "sprites/spr_rossette_red",
+  "sprites/spr_rossette_red_with_stroke",
+  "sprites/spr_sack",
+  "sprites/spr_sack_with_stroke",
+  "sprites/spr_satchel",
+  "sprites/spr_satchel_heavy",
+  "sprites/spr_satchel_heavy_with_stroke",
+  "sprites/spr_satchel_with_stroke",
+  "sprites/spr_scroll_close",
+  "sprites/spr_scroll_close_sealed",
+  "sprites/spr_scroll_close_sealed_blue",
+  "sprites/spr_scroll_close_sealed_blue_with_stroke",
+  "sprites/spr_scroll_close_sealed_cyan",
+  "sprites/spr_scroll_close_sealed_cyan_with_stroke",
+  "sprites/spr_scroll_close_sealed_green",
+  "sprites/spr_scroll_close_sealed_green_with_stroke",
+  "sprites/spr_scroll_close_sealed_orange",
+  "sprites/spr_scroll_close_sealed_orange_with_stroke",
+  "sprites/spr_scroll_close_sealed_pink",
+  "sprites/spr_scroll_close_sealed_pink_with_stroke",
+  "sprites/spr_scroll_close_sealed_purple",
+  "sprites/spr_scroll_close_sealed_purple_with_stroke",
+  "sprites/spr_scroll_close_sealed_with_stroke",
+  "sprites/spr_scroll_close_sealed_yellow",
+  "sprites/spr_scroll_close_sealed_yellow_with_stroke",
+  "sprites/spr_scroll_close_with_stroke",
+  "sprites/spr_scroll_open",
+  "sprites/spr_scroll_open_with_stroke",
+  "sprites/spr_shadow",
+  "sprites/spr_shadow_with_stroke",
+  "sprites/spr_sign_question",
+  "sprites/spr_sign_with_stroke",
+  "sprites/spr_tools_hammer",
+  "sprites/spr_tools_hammer_with_stroke",
+  "sprites/spr_tools_pickaxe",
+  "sprites/spr_tools_pickaxe_with_stroke",
+  "sprites/spr_tools_saw",
+  "sprites/spr_tools_saw_with_stroke",
+  "sprites/spr_tools_spanner",
+  "sprites/spr_tools_spanner_with_stroke",
+  "sprites/spr_trophy_bronze",
+  "sprites/spr_trophy_bronze_with_stroke",
+  "sprites/spr_trophy_gold",
+  "sprites/spr_trophy_gold_with_stroke",
+  "sprites/spr_trophy_silver",
+  "sprites/spr_trophy_silver_with_stroke",
+]
+
+[assets."sprites/spr_bone_femur"]
+description = "Glossy rendered colorful icon of a femur leg bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bone_femur_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a femur leg bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bone_head"]
+description = "Glossy rendered colorful icon of a skull / skeleton head; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bone_head_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a skull / skeleton head; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bone_rib"]
+description = "Glossy rendered colorful icon of a rib bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bone_rib_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a rib bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_blue"]
+description = "Glossy rendered colorful icon of a blue closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a blue closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_cyan"]
+description = "Glossy rendered colorful icon of a cyan closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cyan closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_green"]
+description = "Glossy rendered colorful icon of a green closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a green closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_orange"]
+description = "Glossy rendered colorful icon of a orange closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a orange closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_pink"]
+description = "Glossy rendered colorful icon of a pink closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pink closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_purple"]
+description = "Glossy rendered colorful icon of a purple closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a purple closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_red"]
+description = "Glossy rendered colorful icon of a red closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a red closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_book_yellow"]
+description = "Glossy rendered colorful icon of a yellow closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_book_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a yellow closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_blue"]
+description = "Glossy rendered colorful icon of an blue open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an blue open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_cyan"]
+description = "Glossy rendered colorful icon of an cyan open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an cyan open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_green"]
+description = "Glossy rendered colorful icon of an green open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an green open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_orange"]
+description = "Glossy rendered colorful icon of an orange open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an orange open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_pink"]
+description = "Glossy rendered colorful icon of an pink open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an pink open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_purple"]
+description = "Glossy rendered colorful icon of an purple open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an purple open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_red"]
+description = "Glossy rendered colorful icon of an red open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an red open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_bookopen_yellow"]
+description = "Glossy rendered colorful icon of an yellow open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_bookopen_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an yellow open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_golden"]
+description = "Glossy rendered colorful icon of a gold golden treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_golden_open"]
+description = "Glossy rendered colorful icon of a gold golden open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_golden_open_fx"]
+description = "Glossy rendered colorful icon of a gold golden open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_golden_open_fx_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold golden open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_golden_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold golden open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_golden_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold golden treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_silver"]
+description = "Glossy rendered colorful icon of a silver silver treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_silver_open"]
+description = "Glossy rendered colorful icon of a silver silver open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_silver_open_fx"]
+description = "Glossy rendered colorful icon of a silver silver open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_silver_open_fx_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver silver open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_silver_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver silver open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_silver_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver silver treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_wooden"]
+description = "Glossy rendered colorful icon of a wooden treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_wooden_open"]
+description = "Glossy rendered colorful icon of a wooden open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_wooden_open_fx"]
+description = "Glossy rendered colorful icon of a wooden open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_chest_wooden_open_fx_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wooden open treasure chest with sparkle FX; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_wooden_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wooden open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_chest_wooden_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wooden treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_clock"]
+description = "Glossy rendered colorful icon of a round clock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_clock_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a round clock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_coin_copper"]
+description = "Glossy rendered colorful icon of a copper coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_coin_copper_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a copper coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_coin_gold"]
+description = "Glossy rendered colorful icon of a gold coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_coin_gold_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_coin_silver"]
+description = "Glossy rendered colorful icon of a silver coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_coin_silver_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_containersbottle_glass"]
+description = "Glossy rendered colorful icon of a glass bottle; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_containersbottle_glass_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a glass bottle; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_containersbottle_jar"]
+description = "Glossy rendered colorful icon of a sealed jar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_containersbottle_jar_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a sealed jar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_containersbottle_tincan"]
+description = "Glossy rendered colorful icon of a tin can; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_containersbottle_tincan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a tin can; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_crates_big"]
+description = "Glossy rendered colorful icon of a large wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_crates_big_02"]
+description = "Glossy rendered colorful icon of a large stacked crate (variant 2); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_crates_big_02_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a large stacked crate (variant 2); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_crates_big_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a large wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_crates_mid"]
+description = "Glossy rendered colorful icon of a medium wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_crates_mid_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a medium wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_crates_small"]
+description = "Glossy rendered colorful icon of a small wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_crates_small_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a small wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_cutlery_chopstick"]
+description = "Glossy rendered colorful icon of a pair of chopsticks; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_cutlery_chopstick_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pair of chopsticks; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_cutlery_knife"]
+description = "Glossy rendered colorful icon of a table knife; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_cutlery_knife_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a table knife; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_cutlery_spoon"]
+description = "Glossy rendered colorful icon of a spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_cutlery_spoon_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_cutlery_table_spoon"]
+description = "Glossy rendered colorful icon of a large table spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_cutlery_table_spoon_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a large table spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_flatback_bone_femur"]
+description = "Solid flat-black silhouette icon of a femur leg bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_bone_head"]
+description = "Solid flat-black silhouette icon of a skull / skeleton head; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_bone_pile"]
+description = "Solid flat-black silhouette icon of a pile of bones; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_bone_rib"]
+description = "Solid flat-black silhouette icon of a rib bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_book"]
+description = "Solid flat-black silhouette icon of a closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_bookopen"]
+description = "Solid flat-black silhouette icon of an open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_chest"]
+description = "Solid flat-black silhouette icon of an treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_chest_open"]
+description = "Solid flat-black silhouette icon of an open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_clock"]
+description = "Solid flat-black silhouette icon of a round clock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_coin"]
+description = "Solid flat-black silhouette icon of a coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_containersbottle_glass"]
+description = "Solid flat-black silhouette icon of a glass bottle; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_containersbottle_jar"]
+description = "Solid flat-black silhouette icon of a sealed jar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_containersbottle_tincan"]
+description = "Solid flat-black silhouette icon of a tin can; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_crates_big"]
+description = "Solid flat-black silhouette icon of a large wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_crates_mid"]
+description = "Solid flat-black silhouette icon of a medium wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_crates_small"]
+description = "Solid flat-black silhouette icon of a small wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_cup"]
+description = "Solid flat-black silhouette icon of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_cutlery_chopstick"]
+description = "Solid flat-black silhouette icon of a pair of chopsticks; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_cutlery_knife"]
+description = "Solid flat-black silhouette icon of a table knife; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_cutlery_spoon"]
+description = "Solid flat-black silhouette icon of a spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_cutlery_table_spoon"]
+description = "Solid flat-black silhouette icon of a large table spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gadget_alchemy"]
+description = "Solid flat-black silhouette icon of an alchemy gadget (mortar/apparatus); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gadget_runic"]
+description = "Solid flat-black silhouette icon of a runic magic gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gadget_vinci"]
+description = "Solid flat-black silhouette icon of a da-Vinci style mechanical gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gem"]
+description = "Solid flat-black silhouette icon of a faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gift_box"]
+description = "Solid flat-black silhouette icon of a wrapped gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_gift_box_open"]
+description = "Solid flat-black silhouette icon of an opened gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_hand"]
+description = "Solid flat-black silhouette icon of a pointing hand / cursor; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:hand", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_heart"]
+description = "Solid flat-black silhouette icon of a heart (health/life); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:heart", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_hour_glass_01"]
+description = "Solid flat-black silhouette icon of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_key"]
+description = "Solid flat-black silhouette icon of a key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_lock"]
+description = "Solid flat-black silhouette icon of a closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_lock_open"]
+description = "Solid flat-black silhouette icon of an open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_minerals_coal"]
+description = "Solid flat-black silhouette icon of a chunk of coal ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_minerals_copper"]
+description = "Solid flat-black silhouette icon of copper ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_minerals_gold"]
+description = "Solid flat-black silhouette icon of gold ore / nugget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_minerals_gold_bar"]
+description = "Solid flat-black silhouette icon of a gold bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_minerals_iron"]
+description = "Solid flat-black silhouette icon of iron ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plant_01"]
+description = "Solid flat-black silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plant_02"]
+description = "Solid flat-black silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plant_03"]
+description = "Solid flat-black silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plant_04"]
+description = "Solid flat-black silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plant_05"]
+description = "Solid flat-black silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plates_bowl"]
+description = "Solid flat-black silhouette icon of a bowl; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plates_cup"]
+description = "Solid flat-black silhouette icon of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plates_cup_coffee"]
+description = "Solid flat-black silhouette icon of a coffee cup with saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plates_dinner"]
+description = "Solid flat-black silhouette icon of a dinner plate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_plates_saucer"]
+description = "Solid flat-black silhouette icon of a saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_potion"]
+description = "Solid flat-black silhouette icon of a round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_potion_testtube"]
+description = "Solid flat-black silhouette icon of a potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_rosette"]
+description = "Solid flat-black silhouette icon of an award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_sack"]
+description = "Solid flat-black silhouette icon of a tied money/loot sack; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_satchel"]
+description = "Solid flat-black silhouette icon of a satchel / pouch; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_satchel_heavy"]
+description = "Solid flat-black silhouette icon of a heavy bulging satchel/bag; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_scroll_close"]
+description = "Solid flat-black silhouette icon of a rolled-up closed scroll; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_scroll_open"]
+description = "Solid flat-black silhouette icon of an open scroll / parchment; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_sign"]
+description = "Solid flat-black silhouette icon of a wooden signpost; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sign", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_tools_hammer"]
+description = "Solid flat-black silhouette icon of a hammer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_tools_pickaxe"]
+description = "Solid flat-black silhouette icon of a pickaxe; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_tools_saw"]
+description = "Solid flat-black silhouette icon of a hand saw; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_tools_spanner"]
+description = "Solid flat-black silhouette icon of a wrench / spanner; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatblack_trophy"]
+description = "Solid flat-black silhouette icon of a trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_bone_femur"]
+description = "Solid flat-white silhouette icon of a femur leg bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_bone_head"]
+description = "Solid flat-white silhouette icon of a skull / skeleton head; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_bone_pile"]
+description = "Solid flat-white silhouette icon of a pile of bones; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_bone_rib"]
+description = "Solid flat-white silhouette icon of a rib bone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bone", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_book"]
+description = "Solid flat-white silhouette icon of a closed book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_bookopen"]
+description = "Solid flat-white silhouette icon of an open book; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:book", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_chest"]
+description = "Solid flat-white silhouette icon of an treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_chest_open"]
+description = "Solid flat-white silhouette icon of an open treasure chest; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:chest", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_clock"]
+description = "Solid flat-white silhouette icon of a round clock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_coin"]
+description = "Solid flat-white silhouette icon of a coin; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:coin", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_containersbottle_glass"]
+description = "Solid flat-white silhouette icon of a glass bottle; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_containersbottle_jar"]
+description = "Solid flat-white silhouette icon of a sealed jar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_containersbottle_tincan"]
+description = "Solid flat-white silhouette icon of a tin can; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:bottle", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_crates_big"]
+description = "Solid flat-white silhouette icon of a large wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_crates_mid"]
+description = "Solid flat-white silhouette icon of a medium wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_crates_small"]
+description = "Solid flat-white silhouette icon of a small wooden crate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:crate", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_cup"]
+description = "Solid flat-white silhouette icon of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_cutlery_chopstick"]
+description = "Solid flat-white silhouette icon of a pair of chopsticks; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_cutlery_knife"]
+description = "Solid flat-white silhouette icon of a table knife; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_cutlery_spoon"]
+description = "Solid flat-white silhouette icon of a spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_cutlery_table_spoon"]
+description = "Solid flat-white silhouette icon of a large table spoon; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:cutlery", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gadget_alchemy"]
+description = "Solid flat-white silhouette icon of an alchemy gadget (mortar/apparatus); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gadget_runic"]
+description = "Solid flat-white silhouette icon of a runic magic gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gadget_vinci"]
+description = "Solid flat-white silhouette icon of a da-Vinci style mechanical gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gem"]
+description = "Solid flat-white silhouette icon of a faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gift_box"]
+description = "Solid flat-white silhouette icon of a wrapped gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_gift_box_open"]
+description = "Solid flat-white silhouette icon of an opened gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_hand"]
+description = "Solid flat-white silhouette icon of a pointing hand / cursor; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:hand", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_heart"]
+description = "Solid flat-white silhouette icon of a heart (health/life); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:heart", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_hour_glass_01"]
+description = "Solid flat-white silhouette icon of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_key"]
+description = "Solid flat-white silhouette icon of a key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_lock"]
+description = "Solid flat-white silhouette icon of a closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_lock_open"]
+description = "Solid flat-white silhouette icon of an open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_minerals_coal"]
+description = "Solid flat-white silhouette icon of a chunk of coal ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_minerals_copper"]
+description = "Solid flat-white silhouette icon of copper ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_minerals_gold"]
+description = "Solid flat-white silhouette icon of gold ore / nugget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_minerals_gold_bar"]
+description = "Solid flat-white silhouette icon of a gold bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_minerals_iron"]
+description = "Solid flat-white silhouette icon of iron ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plant_01"]
+description = "Solid flat-white silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plant_02"]
+description = "Solid flat-white silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plant_03"]
+description = "Solid flat-white silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plant_04"]
+description = "Solid flat-white silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plant_05"]
+description = "Solid flat-white silhouette icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plates_bowl"]
+description = "Solid flat-white silhouette icon of a bowl; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plates_cup"]
+description = "Solid flat-white silhouette icon of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plates_cup_coffee"]
+description = "Solid flat-white silhouette icon of a coffee cup with saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plates_dinner"]
+description = "Solid flat-white silhouette icon of a dinner plate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_plates_saucer"]
+description = "Solid flat-white silhouette icon of a saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_potion"]
+description = "Solid flat-white silhouette icon of a round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_potion_testtube"]
+description = "Solid flat-white silhouette icon of a potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_rosette"]
+description = "Solid flat-white silhouette icon of an award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_sack"]
+description = "Solid flat-white silhouette icon of a tied money/loot sack; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_satchel"]
+description = "Solid flat-white silhouette icon of a satchel / pouch; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_satchel_heavy"]
+description = "Solid flat-white silhouette icon of a heavy bulging satchel/bag; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_scroll_close"]
+description = "Solid flat-white silhouette icon of a rolled-up closed scroll; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_scroll_open"]
+description = "Solid flat-white silhouette icon of an open scroll / parchment; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_sign"]
+description = "Solid flat-white silhouette icon of a wooden signpost; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sign", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_tools_hammer"]
+description = "Solid flat-white silhouette icon of a hammer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_tools_pickaxe"]
+description = "Solid flat-white silhouette icon of a pickaxe; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_tools_saw"]
+description = "Solid flat-white silhouette icon of a hand saw; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_tools_spanner"]
+description = "Solid flat-white silhouette icon of a wrench / spanner; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:flat", "state:static" ]
+
+[assets."sprites/spr_flatwhite_trophy"]
+description = "Solid flat-white silhouette icon of a trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:flat", "state:static" ]
+
+[assets."sprites/spr_gadget_alchemy"]
+description = "Glossy rendered colorful icon of an alchemy gadget (mortar/apparatus); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gadget_alchemy_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an alchemy gadget (mortar/apparatus); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gadget_runic"]
+description = "Glossy rendered colorful icon of a runic magic gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gadget_runic_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a runic magic gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gadget_vinci"]
+description = "Glossy rendered colorful icon of a da-Vinci style mechanical gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gadget_vinci_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a da-Vinci style mechanical gadget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gadget", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_blue"]
+description = "Glossy rendered colorful icon of a blue faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a blue faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_cyan"]
+description = "Glossy rendered colorful icon of a cyan faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cyan faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_green"]
+description = "Glossy rendered colorful icon of a green faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a green faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_orange"]
+description = "Glossy rendered colorful icon of a orange faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a orange faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_pink"]
+description = "Glossy rendered colorful icon of a pink faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pink faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_purple"]
+description = "Glossy rendered colorful icon of a purple faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a purple faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_red"]
+description = "Glossy rendered colorful icon of a red faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a red faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gem_yellow"]
+description = "Glossy rendered colorful icon of a yellow faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gem_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a yellow faceted gemstone; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gem", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gift_box"]
+description = "Glossy rendered colorful icon of a wrapped gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gift_box_open"]
+description = "Glossy rendered colorful icon of an opened gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_gift_box_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an opened gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_gift_box_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wrapped gift box; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:gift", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_hand"]
+description = "Glossy rendered colorful icon of a pointing hand / cursor; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:hand", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_hand_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pointing hand / cursor; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:hand", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_heart"]
+description = "Glossy rendered colorful icon of a heart (health/life); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:heart", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_heart_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a heart (health/life); UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:heart", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_hour_glass_01"]
+description = "Glossy rendered colorful icon of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_hour_glass_01_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_hour_glass_02"]
+description = "Glossy rendered colorful icon of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_hour_glass_02_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_hour_glass_03"]
+description = "Glossy rendered colorful icon of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_hour_glass_03_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an hourglass / sand timer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:clock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_key_bronze"]
+description = "Glossy rendered colorful icon of a bronze key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_key_bronze_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a bronze key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_key_gold"]
+description = "Glossy rendered colorful icon of a gold key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_key_gold_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_key_silver"]
+description = "Glossy rendered colorful icon of a silver key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_key_silver_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver key; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:key", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_bronze"]
+description = "Glossy rendered colorful icon of a bronze closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_bronze_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a bronze closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_gold"]
+description = "Glossy rendered colorful icon of a gold closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_gold_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_open_bronze"]
+description = "Glossy rendered colorful icon of an bronze open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_open_bronze_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an bronze open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_open_golden"]
+description = "Glossy rendered colorful icon of an gold open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_open_golden_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an gold open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_silver"]
+description = "Glossy rendered colorful icon of a silver closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_silver_open"]
+description = "Glossy rendered colorful icon of an silver open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_lock_silver_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an silver open padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_lock_silver_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver closed padlock; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:lock", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_coal"]
+description = "Glossy rendered colorful icon of a chunk of coal ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_coal_bar"]
+description = "Glossy rendered colorful icon of a coal bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_coal_bar_hot"]
+description = "Glossy rendered colorful icon of a glowing hot coal bar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_coal_bar_hot_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a glowing hot coal bar; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_coal_bar_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a coal bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_coal_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a chunk of coal ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_copper"]
+description = "Glossy rendered colorful icon of copper copper ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_copper_bar"]
+description = "Glossy rendered colorful icon of a copper copper ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_copper_bar_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a copper copper ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_copper_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of copper copper ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_gold"]
+description = "Glossy rendered colorful icon of gold gold ore / nugget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_gold_bar"]
+description = "Glossy rendered colorful icon of a gold gold bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_gold_bar_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold gold bar/ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_gold_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of gold gold ore / nugget; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_iron"]
+description = "Glossy rendered colorful icon of iron ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_iron_bar"]
+description = "Glossy rendered colorful icon of an iron ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_minerals_iron_bar_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an iron ingot; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_minerals_iron_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of iron ore; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:ore", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plant_01"]
+description = "Glossy rendered colorful icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plant_01_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plant_02"]
+description = "Glossy rendered colorful icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plant_02_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plant_03"]
+description = "Glossy rendered colorful icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plant_03_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plant_04"]
+description = "Glossy rendered colorful icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plant_04_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plant_05"]
+description = "Glossy rendered colorful icon of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plant_05_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plants_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a potted plant / sprout; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:plant", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plates_bowl"]
+description = "Glossy rendered colorful icon of a bowl; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plates_bowl_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a bowl; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plates_cup"]
+description = "Glossy rendered colorful icon of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plates_cup_coffee"]
+description = "Glossy rendered colorful icon of a coffee cup with saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plates_cup_coffee_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a coffee cup with saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plates_cup_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cup / mug; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plates_dinner"]
+description = "Glossy rendered colorful icon of a dinner plate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plates_dinner_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a dinner plate; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_plates_saucer"]
+description = "Glossy rendered colorful icon of a saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_plates_saucer_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a saucer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tableware", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_blue"]
+description = "Glossy rendered colorful icon of a blue round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a blue round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_cyan"]
+description = "Glossy rendered colorful icon of a cyan round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cyan round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_green"]
+description = "Glossy rendered colorful icon of a green round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a green round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_orange"]
+description = "Glossy rendered colorful icon of a orange round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a orange round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_pink"]
+description = "Glossy rendered colorful icon of a pink round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pink round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_purple"]
+description = "Glossy rendered colorful icon of a purple round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a purple round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_red"]
+description = "Glossy rendered colorful icon of a red round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a red round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_blue"]
+description = "Glossy rendered colorful icon of a blue potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a blue potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_cyan"]
+description = "Glossy rendered colorful icon of a cyan potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cyan potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_green"]
+description = "Glossy rendered colorful icon of a green potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a green potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_orange"]
+description = "Glossy rendered colorful icon of a orange potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a orange potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_pink"]
+description = "Glossy rendered colorful icon of a pink potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pink potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_purple"]
+description = "Glossy rendered colorful icon of a purple potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a purple potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_red"]
+description = "Glossy rendered colorful icon of a red potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a red potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_yellow"]
+description = "Glossy rendered colorful icon of a yellow potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_testtube_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a yellow potion in a test tube; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_potion_yellow"]
+description = "Glossy rendered colorful icon of a yellow round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_potion_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a yellow round-bottle potion; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:potion", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rosette_blue"]
+description = "Glossy rendered colorful icon of an blue award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rosette_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an blue award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rosette_yellow"]
+description = "Glossy rendered colorful icon of an yellow award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rosette_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an yellow award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_cyan"]
+description = "Glossy rendered colorful icon of an cyan award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an cyan award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_green"]
+description = "Glossy rendered colorful icon of an green award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an green award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_orange"]
+description = "Glossy rendered colorful icon of an orange award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an orange award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_pink"]
+description = "Glossy rendered colorful icon of an pink award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an pink award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_purple"]
+description = "Glossy rendered colorful icon of an purple award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an purple award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_rossette_red"]
+description = "Glossy rendered colorful icon of an red award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_rossette_red_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an red award rosette / ribbon medal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:rosette", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_sack"]
+description = "Glossy rendered colorful icon of a tied money/loot sack; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_sack_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a tied money/loot sack; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_satchel"]
+description = "Glossy rendered colorful icon of a satchel / pouch; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_satchel_heavy"]
+description = "Glossy rendered colorful icon of a heavy bulging satchel/bag; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_satchel_heavy_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a heavy bulging satchel/bag; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_satchel_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a satchel / pouch; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sack", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close"]
+description = "Glossy rendered colorful icon of a rolled-up closed scroll; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed"]
+description = "Glossy rendered colorful icon of a closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_blue"]
+description = "Glossy rendered colorful icon of a blue closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_blue_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a blue closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_cyan"]
+description = "Glossy rendered colorful icon of a cyan closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_cyan_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a cyan closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_green"]
+description = "Glossy rendered colorful icon of a green closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_green_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a green closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_orange"]
+description = "Glossy rendered colorful icon of a orange closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_orange_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a orange closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_pink"]
+description = "Glossy rendered colorful icon of a pink closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_pink_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pink closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_purple"]
+description = "Glossy rendered colorful icon of a purple closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_purple_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a purple closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_yellow"]
+description = "Glossy rendered colorful icon of a yellow closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_close_sealed_yellow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a yellow closed scroll with a wax seal; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_close_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a rolled-up closed scroll; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_scroll_open"]
+description = "Glossy rendered colorful icon of an open scroll / parchment; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_scroll_open_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of an open scroll / parchment; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:scroll", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_shadow"]
+description = "Glossy rendered colorful icon of a soft drop-shadow blob; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:shadow", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_shadow_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a soft drop-shadow blob; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:shadow", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_sign_question"]
+description = "Glossy rendered colorful icon of a question-mark sign; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sign", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_sign_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wooden signpost; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:sign", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_tools_hammer"]
+description = "Glossy rendered colorful icon of a hammer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_tools_hammer_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a hammer; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_tools_pickaxe"]
+description = "Glossy rendered colorful icon of a pickaxe; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_tools_pickaxe_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a pickaxe; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_tools_saw"]
+description = "Glossy rendered colorful icon of a hand saw; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_tools_saw_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a hand saw; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_tools_spanner"]
+description = "Glossy rendered colorful icon of a wrench / spanner; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_tools_spanner_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a wrench / spanner; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:tool", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_trophy_bronze"]
+description = "Glossy rendered colorful icon of a bronze trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_trophy_bronze_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a bronze trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_trophy_gold"]
+description = "Glossy rendered colorful icon of a gold trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_trophy_gold_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a gold trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "style:outlined", "state:static" ]
+
+[assets."sprites/spr_trophy_silver"]
+description = "Glossy rendered colorful icon of a silver trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "state:static" ]
+
+[assets."sprites/spr_trophy_silver_with_stroke"]
+description = "Glossy rendered colorful icon with a clean outline/stroke of a silver trophy cup; UI game icon, single frame."
+tags = [ "asset_type:sprite", "subject:trophy", "style:glossy", "style:outlined", "state:static" ]

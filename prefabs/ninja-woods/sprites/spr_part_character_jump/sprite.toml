@@ -1,0 +1,4 @@
+#:schema ../../.gm-schema/v1.json#sprite
+
+fps = 15.0
+

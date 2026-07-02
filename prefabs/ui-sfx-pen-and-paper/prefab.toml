@@ -1,0 +1,205 @@
+id = "ui-sfx-pen-and-paper"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pen-and-paper themed UI sound effects pack: clicks, confirms, page turns, pops and slider sweeps rendered with paper rustle, pen scribble and page-turn textures for a stationery/notebook interface vibe."
+tags = [ "role:ui" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Dry pen-tap keypress with a soft paper rustle tail, ~1.5s — keyboard input feedback."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Crisp pen-nib click on paper, ~0.75s — keyboard input feedback."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Quick scratchy pen tap, ~0.61s — keyboard input feedback."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Short paper-tap select click with a light scribble edge, ~0.5s — mouse click."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Fuller pen-press click trailing into paper rustle, ~1.5s — mouse click."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Soft pencil-graze hover blip over paper, ~0.5s — mouse hover/highlight."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Light paper-brush hover tick, ~0.5s — alternate mouse hover/highlight."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Curt scribbled-cross 'no' buzz with paper grain, ~0.75s — negative/cancel button."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_2"]
+description = "Longer crossing-out scrawl denial, ~1.25s — negative/cancel button."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_1"]
+description = "Small inky pop with paper flick, ~0.5s — element appear/select pop."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Tiny snappy paper pop, ~0.36s — quick element pop."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Descending paper-flip pop folding down, ~1.44s — menu/element collapse."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Settling pop-down with a page-rustle close, ~1.25s — menu/element collapse."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Rising paper-flip pop opening up, ~1.25s — menu/element expand."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Upward pop with a page-turn flourish, ~1.25s — menu/element expand."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Slow paper-fold power-down with a soft scribble fade, ~2.0s — power off / shut down."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Winding-down rustle settling to silence, ~2.0s — power off / shut down."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Unfolding paper power-up sweep brightening, ~2.0s — power on / boot up."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Rising page-turn startup flourish, ~2.0s — power on / boot up."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Pen scribbling up a rising glide, ~1.25s — slider dragged higher."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Longer ascending pencil-stroke sweep, ~2.0s — slider dragged higher."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Pen scribbling down a falling glide, ~1.25s — slider dragged lower."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Longer descending pencil-stroke sweep, ~2.0s — slider dragged lower."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Page-turn swipe rustling shut, ~2.0s — panel/menu swipe closed."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Quicker paper swipe-and-close rustle, ~1.5s — panel/menu swipe closed."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Page-turn swipe rustling open, ~2.0s — panel/menu swipe open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Brisk paper swipe-open rustle, ~1.75s — panel/menu swipe open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Cheerful flourish of pen-stroke chimes and paper rustle, ~6.0s — task completed / success jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Bright multi-note success scribble flourish, ~6.0s — task completed / success jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Downbeat crossing-out scrawl with deflating paper crumple, ~6.0s — task failed / error jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Shorter sour scribble-out failure sting, ~3.5s — task failed / error jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny pen-tap tick, ~0.08s — timer/countdown tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Tiny dry paper-tap tick, ~0.08s — alternate timer/countdown tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Quick page-shut rustle, ~0.7s — window/dialog close."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Fuller paper-fold close with rustle tail, ~1.35s — window/dialog close."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Unfolding page-turn open sweep, ~2.0s — window/dialog open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Spreading paper-rustle open flourish, ~2.0s — window/dialog open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Brief affirmative pen-check tick with paper grain, ~0.75s — confirm/accept button."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Warmer rising confirm scribble, ~1.5s — confirm/accept button."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]

@@ -1,0 +1,205 @@
+id = "ui-sfx-stone"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A stone-and-rock flavored UI sound effect pack: gritty clicks, confirms, navigation, window and slider sounds rendered as dry stony clacks, gravel grinds and dull rock thuds for a chunky earthen interface."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Short dry stone clack, ~0.3s — keyboard keypress UI sound with a gritty pebble tap."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Very short crisp rock tick, ~0.16s — snappy keyboard keypress click, hard stony clack."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Short stony clack with a bit of grit, ~0.34s — keyboard keypress variant, slightly grindier tap."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Brief gravelly stone click, ~0.52s — mouse button press with a dull rock thud edge."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Very short hard stone tick, ~0.14s — snappy mouse click, dry pebble clack."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Tiny stony tick, ~0.1s — light hover/rollover blip, faint grit of rock dust."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Soft brushy stone scrape, ~0.5s — hover/rollover with a gentle gravel grind sweep."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Dull two-tone rock thud, ~0.87s — negative/decline button, heavy stony 'no' clunk."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_2"]
+description = "Low grinding stone thud, ~0.75s — cancel/decline button variant, gritty downward rock clack."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_1"]
+description = "Hollow stone pop with a grind tail, ~1.25s — element appearing, dry rock-cork burst."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Quick stony pop, ~0.25s — short element appear blip with a pebble snap."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Descending gravel grind, ~1.0s — dropdown/collapse closing with a sinking rock-slide tone."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Descending stony slide, ~1.0s — dropdown/collapse variant, dull rock settling downward."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Rising stone grind, ~1.0s — popup/expand opening with an ascending gravel-slide swell."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Longer rising rock-slide, ~1.25s — popup/expand variant, climbing stony grind and bloom."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Long descending rock rumble, ~1.5s — power-off/shutdown sweep, grinding stone winding down."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Falling gravelly drone, ~1.08s — power-off variant, dull rock-slide powering down."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Long rising stone rumble, ~1.75s — power-on/boot sweep, grinding rock spinning up to a hum."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Ascending gravel swell, ~1.54s — power-on variant, stony grind building to an active tone."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Upward gritty stone scrape, ~0.5s — slider raised, gravel grinding up its track."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Upward stony grind, ~0.5s — slider raise variant, rough rock-on-rock ascending drag."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Downward gravel scrape, ~0.75s — slider lowered, stone grinding down its track."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Downward stony grind, ~0.75s — slider lower variant, rough rock drag settling down."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Stony sliding scrape closing, ~0.9s — panel/menu swipe shut, grinding rock-on-rock sweep."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Gravel swipe shut, ~1.0s — close-swipe variant, dry stone slab sliding closed."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Stony sliding scrape opening, ~1.18s — panel/menu swipe open, grinding rock slab pulling apart."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Gravel swipe open, ~1.0s — open-swipe variant, dry stone sliding ajar with grit."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Resolving multi-note stone chime, ~3.25s — task-complete fanfare with bright rock-knock accents and a settling grind."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Positive stony jingle, ~2.87s — task-complete variant, ascending rock-clack flourish into a warm resolve."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Sour descending stone cluster, ~3.0s — task-failed cue, heavy grinding rock thuds falling flat."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Long downbeat rock-rumble fail, ~4.25s — task-failed variant, gritty stone collapse and dull error drone."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny dry stone tick, ~0.09s — timer/countdown tick, sharp pebble clack."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Tiny stony tick, ~0.09s — timer/countdown tick variant, crisp hard rock tap."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Sliding stone-slab shut, ~1.75s — window close, long grinding rock seal with a final thud."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Gravel window shut, ~1.5s — window close variant, dull stone slab grinding closed."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Sliding stone-slab open, ~1.75s — window open, long grinding rock reveal with a settle."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Gravel window open, ~1.75s — window open variant, dry stone slab grinding apart."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Affirmative stony chime, ~1.73s — confirm/accept button, bright rock-knock with a warm grind resolve."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Positive stone clunk, ~1.5s — confirm/accept variant, upbeat gravelly tap into a settled tone."
+tags = [ "asset_type:sound", "role:ui", "audio_type:ui-sound" ]

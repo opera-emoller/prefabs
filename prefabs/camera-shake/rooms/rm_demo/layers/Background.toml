@@ -1,0 +1,8 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "background"
+depth = 200
+
+[background]
+sprite = "spr_sky_nebula1"
+stretch = true

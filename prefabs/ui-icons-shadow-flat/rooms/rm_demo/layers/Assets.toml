@@ -1,0 +1,378 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_Icon_ArrowDown"
+sprite = "Icon_ArrowDown"
+x = 39.5
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ArrowLeft"
+sprite = "Icon_ArrowLeft"
+x = 196.9
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ArrowRight"
+sprite = "Icon_ArrowRight"
+x = 354.4
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ArrowUp"
+sprite = "Icon_ArrowUp"
+x = 511.9
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_AudioOff"
+sprite = "Icon_AudioOff"
+x = 669.5
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_AudioOn"
+sprite = "Icon_AudioOn"
+x = 827.0
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Battle"
+sprite = "Icon_Battle"
+x = 984.5
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Bolt"
+sprite = "Icon_Bolt"
+x = 1142.0
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Cross"
+sprite = "Icon_Cross"
+x = 39.5
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ExclaimationMark"
+sprite = "Icon_ExclaimationMark"
+x = 196.9
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_FastForward"
+sprite = "Icon_FastForward"
+x = 354.4
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Heart"
+sprite = "Icon_Heart"
+x = 511.9
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Home"
+sprite = "Icon_Home"
+x = 669.5
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Magnify"
+sprite = "Icon_Magnify"
+x = 827.0
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Menu"
+sprite = "Icon_Menu"
+x = 984.5
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Menu2"
+sprite = "Icon_Menu2"
+x = 1142.0
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Message"
+sprite = "Icon_Message"
+x = 39.5
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Music"
+sprite = "Icon_Music"
+x = 196.9
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Padlock"
+sprite = "Icon_Padlock"
+x = 354.4
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_PadlockUnlock"
+sprite = "Icon_PadlockUnlock"
+x = 511.9
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Pause"
+sprite = "Icon_Pause"
+x = 669.5
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Play"
+sprite = "Icon_Play"
+x = 827.0
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Plus"
+sprite = "Icon_Plus"
+x = 984.5
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Profile"
+sprite = "Icon_Profile"
+x = 1142.0
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_QuestionMark"
+sprite = "Icon_QuestionMark"
+x = 39.5
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Retry"
+sprite = "Icon_Retry"
+x = 196.9
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Rewind"
+sprite = "Icon_Rewind"
+x = 354.4
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Settings"
+sprite = "Icon_Settings"
+x = 511.9
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Share"
+sprite = "Icon_Share"
+x = 669.5
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Shield"
+sprite = "Icon_Shield"
+x = 827.0
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Shop"
+sprite = "Icon_Shop"
+x = 39.5
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Star"
+sprite = "Icon_Star"
+x = 196.9
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ThumbsDown"
+sprite = "Icon_ThumbsDown"
+x = 354.4
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_ThumbsUp"
+sprite = "Icon_ThumbsUp"
+x = 511.9
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Tick"
+sprite = "Icon_Tick"
+x = 669.5
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_Video"
+sprite = "Icon_Video"
+x = 827.0
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Icon_WiFi"
+sprite = "Icon_WiFi"
+x = 39.5
+y = 600.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+

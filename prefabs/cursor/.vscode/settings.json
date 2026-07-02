@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.editor.customLabels.enabled": true,
+    "workbench.editor.customLabels.patterns": {
+        "**/project.toml": "Project settings",
+        "**/{sprites,objects,rooms,sounds,fonts,shaders,tilesets,paths,scripts,sequences,animation_curves,particle_systems}/*/*": "${dirname}",
+        "**/{rooms,sequences,particle_systems}/*/{layers,tracks,emitters}/*": "${dirname(1)}",
+        "**/{texture_groups,audio_groups,notes}/*": "${filename}"
+    }
+}

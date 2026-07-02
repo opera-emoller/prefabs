@@ -1,0 +1,330 @@
+id = "windier-woods"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Windier Woods: a bright, painted side-scrolling platformer environment pack of alpine and arctic (snowbound) sprites, parallax backgrounds, ice/snow props, VFX and looping music."
+tags = [ "genre:platformer", "theme:nature", "projection:side-view", "style:painted" ]
+
+[export]
+include = [
+  "sprites/spr_VFX_particle_pineneedles",
+  "sprites/spr_VFX_particle_snowflake",
+  "sprites/spr_bg_alpine_mountains_back",
+  "sprites/spr_bg_alpine_mountains_front",
+  "sprites/spr_bg_cave_entrance",
+  "sprites/spr_bg_cave_snowbound",
+  "sprites/spr_bg_cave_snowbound_top",
+  "sprites/spr_bg_snowbound_mountains_back",
+  "sprites/spr_bg_snowbound_mountains_front",
+  "sprites/spr_block_money_off_no_snow",
+  "sprites/spr_block_money_off_snowy",
+  "sprites/spr_block_money_on_snowy",
+  "sprites/spr_block_smash_left_nosnow",
+  "sprites/spr_block_smash_left_snowy",
+  "sprites/spr_block_smash_mid_nosnow",
+  "sprites/spr_block_smash_mid_snowy",
+  "sprites/spr_block_smash_right_nosnow",
+  "sprites/spr_block_smash_right_snowy",
+  "sprites/spr_block_smash_single_nosnow",
+  "sprites/spr_block_smash_single_snowy",
+  "sprites/spr_blockbreak_no_snow",
+  "sprites/spr_blockbreak_snow",
+  "sprites/spr_bridge_ice_left",
+  "sprites/spr_bridge_ice_left_behind",
+  "sprites/spr_bridge_ice_left_behind_cracked",
+  "sprites/spr_bridge_ice_left_cracked",
+  "sprites/spr_bridge_ice_mid",
+  "sprites/spr_bridge_ice_mid_cracked",
+  "sprites/spr_bridge_ice_right",
+  "sprites/spr_bridge_ice_right_behind",
+  "sprites/spr_bridge_ice_right_behind_cracked",
+  "sprites/spr_bridge_ice_right_cracked",
+  "sprites/spr_cave_light",
+  "sprites/spr_exit_inner",
+  "sprites/spr_exit_snowy",
+  "sprites/spr_flowers_1",
+  "sprites/spr_flowers_2",
+  "sprites/spr_flowers_3",
+  "sprites/spr_frozenriver_bottom",
+  "sprites/spr_frozenriver_top",
+  "sprites/spr_grass_1",
+  "sprites/spr_grass_2",
+  "sprites/spr_grass_3",
+  "sprites/spr_ground_alpine",
+  "sprites/spr_ground_snowbound",
+  "sprites/spr_icicles_1",
+  "sprites/spr_icicles_2",
+  "sprites/spr_light_shaft_tops",
+  "sprites/spr_mossgrass_mound",
+  "sprites/spr_snowdrift_1",
+  "sprites/spr_snowdrift_2",
+  "sprites/spr_snowdrift_3",
+  "sprites/spr_snowman",
+  "sprites/spr_tileset_cave",
+  "sprites/spr_tree_front_alpine_elm",
+  "sprites/spr_tree_front_alpine_larch_green",
+  "sprites/spr_tree_front_alpine_larch_yellow",
+  "sprites/spr_tree_front_alpine_spruce",
+  "sprites/spr_tree_front_snowbound_elm",
+  "sprites/spr_tree_front_snowbound_larch",
+  "sprites/spr_tree_front_snowbound_spruce",
+  "sounds/snd_SnowyWilderness_MP3",
+  "tilesets/ts_alpine_ground",
+  "tilesets/ts_snowbound_ground",
+]
+
+[assets."sprites/spr_VFX_particle_pineneedles"]
+description = "Tiny cluster of green pine needles, a particle effect for falling/scattering foliage; soft painted style."
+tags = [ "asset_type:sprite", "role:vfx", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_VFX_particle_snowflake"]
+description = "Small pale-blue snowflake particle sprite for falling-snow weather VFX."
+tags = [ "asset_type:sprite", "role:vfx", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_bg_alpine_mountains_back"]
+description = "Wide painted parallax backdrop of distant snow-capped alpine peaks fading into pale blue haze; far background layer."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_bg_alpine_mountains_front"]
+description = "Painted parallax layer of nearer alpine mountains, snow-dusted ridges against soft blue sky; mid background layer."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_bg_cave_entrance"]
+description = "Dark painted cave-mouth backdrop opening into a snowy platformer interior."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_bg_cave_snowbound"]
+description = "Tileable dark rocky cave interior background, snowbound variant; 128x128."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_bg_cave_snowbound_top"]
+description = "Tileable snowbound cave background top edge piece; 128x128."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_bg_snowbound_mountains_back"]
+description = "Wide painted far parallax of distant frosty arctic peaks under hazy blue sky."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_bg_snowbound_mountains_front"]
+description = "Painted near parallax layer of snow-covered arctic mountains; mid background."
+tags = [ "asset_type:sprite", "role:background", "projection:background", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_money_off_no_snow"]
+description = "Golden question/exclamation reward block in its spent state, snow-free alpine variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/spr_block_money_off_snowy"]
+description = "Golden reward block, depleted state, with a cap of snow on top."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/spr_block_money_on_snowy"]
+description = "Active golden coin/money block marked with an exclamation, capped with snow."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/spr_block_smash_left_nosnow"]
+description = "Breakable rocky platform block, left edge piece, snow-free alpine variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_left_snowy"]
+description = "Breakable rocky block, left edge, with a snow cap on top."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_mid_nosnow"]
+description = "Breakable rocky block, middle/center piece, snow-free."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_mid_snowy"]
+description = "Breakable rocky block, middle piece, snow-capped."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_right_nosnow"]
+description = "Breakable rocky block, right edge piece, snow-free."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_right_snowy"]
+description = "Breakable rocky block, right edge, snow-capped."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_single_nosnow"]
+description = "Standalone single breakable rocky block, snow-free."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_block_smash_single_snowy"]
+description = "Standalone single breakable rocky block with snow on top."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_blockbreak_no_snow"]
+description = "Animated rock-shatter burst (21 frames) for a smashed block, snow-free debris."
+tags = [ "asset_type:sprite", "role:vfx", "subject:impact", "state:animation" ]
+
+[assets."sprites/spr_blockbreak_snow"]
+description = "Animated shatter burst (21 frames) of a smashed snowy block flinging snow and rock debris."
+tags = [ "asset_type:sprite", "role:vfx", "subject:impact", "state:animation" ]
+
+[assets."sprites/spr_bridge_ice_left"]
+description = "Glassy blue ice bridge plank, left end piece; painted with crisp highlights."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_left_behind"]
+description = "Narrow ice-bridge left support/behind piece, thin 32px filler."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_left_behind_cracked"]
+description = "Cracked variant of the thin ice-bridge left behind support piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_left_cracked"]
+description = "Ice bridge left end plank with cracks, near to breaking."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_mid"]
+description = "Ice bridge middle plank, glassy translucent blue; tiling center span."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_mid_cracked"]
+description = "Cracked center span of the ice bridge."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_right"]
+description = "Ice bridge right end plank, glassy blue."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_right_behind"]
+description = "Narrow ice-bridge right support/behind piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_right_behind_cracked"]
+description = "Cracked thin ice-bridge right behind support piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_bridge_ice_right_cracked"]
+description = "Ice bridge right end plank with cracks."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:static" ]
+
+[assets."sprites/spr_cave_light"]
+description = "Soft white-grey light overlay shaft for cave openings; gradient glow VFX."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:static" ]
+
+[assets."sprites/spr_exit_inner"]
+description = "Inner portion of a level exit/cave doorway, dark recessed opening."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_exit_snowy"]
+description = "Snowy cave-mouth level exit, rocky arch dusted with snow."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_flowers_1"]
+description = "Small painted cluster of alpine wildflowers, decorative foliage prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_flowers_2"]
+description = "Small painted patch of wildflowers, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_flowers_3"]
+description = "Small painted patch of wildflowers, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_frozenriver_bottom"]
+description = "Tileable frozen-river surface, lower section; glassy pale-blue ice; 128x128."
+tags = [ "asset_type:sprite", "role:environment", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_frozenriver_top"]
+description = "Tileable frozen-river surface, top edge section; glassy ice."
+tags = [ "asset_type:sprite", "role:environment", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_grass_1"]
+description = "Tiny tuft of green grass, decorative ground detail; variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_2"]
+description = "Tiny tuft of green grass; variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_3"]
+description = "Tiny tuft of green grass; variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_ground_alpine"]
+description = "Large painted alpine ground/terrain fill, dark rock with grassy green top edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_ground_snowbound"]
+description = "Large painted snowbound ground/terrain fill, dark rock capped with bright snow and ice."
+tags = [ "asset_type:sprite", "role:terrain", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_icicles_1"]
+description = "Cluster of pointed blue ice icicles hanging down; variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_icicles_2"]
+description = "Cluster of hanging blue icicles; variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_light_shaft_tops"]
+description = "Tileable top edge for light shafts/god-rays, soft glow VFX overlay."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:static" ]
+
+[assets."sprites/spr_mossgrass_mound"]
+description = "Wide mound of mossy grass, a soft green decorative ground prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_snowdrift_1"]
+description = "Low painted snowdrift mound, soft white pile of snow; variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snowdrift_2"]
+description = "Wider painted snowdrift bank; variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snowdrift_3"]
+description = "Flat painted snowdrift sheet; variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snowman"]
+description = "Cheerful painted snowman with black top hat, orange carrot nose, red scarf, coal buttons and twig arms."
+tags = [ "asset_type:sprite", "role:prop", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_tileset_cave"]
+description = "Source sprite sheet of dark rocky cave tiles for building cave interiors."
+tags = [ "asset_type:sprite", "role:terrain", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_tree_front_alpine_elm"]
+description = "Tall painted alpine elm tree, full leafy green canopy on a brown trunk."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_alpine_larch_green"]
+description = "Painted alpine larch with bright green foliage."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_alpine_larch_yellow"]
+description = "Painted alpine larch in autumn yellow foliage."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_alpine_spruce"]
+description = "Tall painted alpine spruce, lush layered green conifer on a stout trunk."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_snowbound_elm"]
+description = "Painted elm tree dusted with snow, snowbound arctic variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_snowbound_larch"]
+description = "Painted larch laden with snow, snowbound variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_front_snowbound_spruce"]
+description = "Painted spruce conifer covered in snow, snowbound variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sounds/snd_SnowyWilderness_MP3"]
+description = "Long looping background music track (~96s), 'Snowy Wilderness' — atmospheric melodic theme for the snow/alpine environments."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."tilesets/ts_alpine_ground"]
+description = "Alpine ground tileset: dark rocky terrain with bright green grassy and cyan ice top edges for autotiled platforms."
+tags = [ "asset_type:tileset", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."tilesets/ts_snowbound_ground"]
+description = "Snowbound ground tileset: dark rock terrain capped with snow and pale-blue ice for autotiled arctic platforms."
+tags = [ "asset_type:tileset", "role:terrain", "subject:snow", "state:static" ]

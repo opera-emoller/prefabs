@@ -1,0 +1,1188 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_axe_1"
+sprite = "spr_axe_1"
+x = 25.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_1_with_stroke"
+sprite = "spr_axe_1_with_stroke"
+x = 115.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_2"
+sprite = "spr_axe_2"
+x = 205.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_2_with_stroke"
+sprite = "spr_axe_2_with_stroke"
+x = 295.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_3"
+sprite = "spr_axe_3"
+x = 385.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_3_with_stroke"
+sprite = "spr_axe_3_with_stroke"
+x = 475.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_4"
+sprite = "spr_axe_4"
+x = 565.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_4_with_stroke"
+sprite = "spr_axe_4_with_stroke"
+x = 655.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_5"
+sprite = "spr_axe_5"
+x = 745.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_axe_5_with_stroke"
+sprite = "spr_axe_5_with_stroke"
+x = 835.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_1"
+sprite = "spr_bomb_1"
+x = 925.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_1_with_stroke"
+sprite = "spr_bomb_1_with_stroke"
+x = 1015.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_2"
+sprite = "spr_bomb_2"
+x = 1105.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_2_with_stroke"
+sprite = "spr_bomb_2_with_stroke"
+x = 1195.4
+y = 17.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_3"
+sprite = "spr_bomb_3"
+x = 25.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_3_with_stroke"
+sprite = "spr_bomb_3_with_stroke"
+x = 115.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_4"
+sprite = "spr_bomb_4"
+x = 205.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_4_with_stroke"
+sprite = "spr_bomb_4_with_stroke"
+x = 295.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_5"
+sprite = "spr_bomb_5"
+x = 385.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bomb_5_with_stroke"
+sprite = "spr_bomb_5_with_stroke"
+x = 475.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_axe_1"
+sprite = "spr_flatblack_axe_1"
+x = 565.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_axe_2"
+sprite = "spr_flatblack_axe_2"
+x = 655.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_axe_3"
+sprite = "spr_flatblack_axe_3"
+x = 745.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_axe_4"
+sprite = "spr_flatblack_axe_4"
+x = 835.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_axe_5"
+sprite = "spr_flatblack_axe_5"
+x = 925.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bomb_1"
+sprite = "spr_flatblack_bomb_1"
+x = 1015.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bomb_2"
+sprite = "spr_flatblack_bomb_2"
+x = 1105.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bomb_3"
+sprite = "spr_flatblack_bomb_3"
+x = 1195.4
+y = 86.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bomb_4"
+sprite = "spr_flatblack_bomb_4"
+x = 25.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bomb_5"
+sprite = "spr_flatblack_bomb_5"
+x = 115.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gun_1"
+sprite = "spr_flatblack_gun_1"
+x = 205.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gun_2"
+sprite = "spr_flatblack_gun_2"
+x = 295.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gun_3"
+sprite = "spr_flatblack_gun_3"
+x = 385.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gun_4"
+sprite = "spr_flatblack_gun_4"
+x = 475.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_gun_5"
+sprite = "spr_flatblack_gun_5"
+x = 565.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_knife_1"
+sprite = "spr_flatblack_knife_1"
+x = 655.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_knife_2"
+sprite = "spr_flatblack_knife_2"
+x = 745.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_knife_3"
+sprite = "spr_flatblack_knife_3"
+x = 835.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_knife_4"
+sprite = "spr_flatblack_knife_4"
+x = 925.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_knife_5"
+sprite = "spr_flatblack_knife_5"
+x = 1015.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_maul_1"
+sprite = "spr_flatblack_maul_1"
+x = 1105.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_maul_2"
+sprite = "spr_flatblack_maul_2"
+x = 1195.4
+y = 156.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_maul_3"
+sprite = "spr_flatblack_maul_3"
+x = 25.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_maul_4"
+sprite = "spr_flatblack_maul_4"
+x = 115.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sword_1"
+sprite = "spr_flatblack_sword_1"
+x = 205.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sword_2"
+sprite = "spr_flatblack_sword_2"
+x = 295.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sword_3"
+sprite = "spr_flatblack_sword_3"
+x = 385.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sword_4"
+sprite = "spr_flatblack_sword_4"
+x = 475.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_sword_5"
+sprite = "spr_flatblack_sword_5"
+x = 565.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_axe_1"
+sprite = "spr_flatwhite_axe_1"
+x = 655.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_axe_2"
+sprite = "spr_flatwhite_axe_2"
+x = 745.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_axe_3"
+sprite = "spr_flatwhite_axe_3"
+x = 835.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_axe_4"
+sprite = "spr_flatwhite_axe_4"
+x = 925.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_axe_5"
+sprite = "spr_flatwhite_axe_5"
+x = 1015.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bomb_1"
+sprite = "spr_flatwhite_bomb_1"
+x = 1105.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bomb_2"
+sprite = "spr_flatwhite_bomb_2"
+x = 1195.4
+y = 226.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bomb_3"
+sprite = "spr_flatwhite_bomb_3"
+x = 25.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bomb_4"
+sprite = "spr_flatwhite_bomb_4"
+x = 115.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bomb_5"
+sprite = "spr_flatwhite_bomb_5"
+x = 205.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gun_1"
+sprite = "spr_flatwhite_gun_1"
+x = 295.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gun_2"
+sprite = "spr_flatwhite_gun_2"
+x = 385.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gun_3"
+sprite = "spr_flatwhite_gun_3"
+x = 475.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gun_4"
+sprite = "spr_flatwhite_gun_4"
+x = 565.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_gun_5"
+sprite = "spr_flatwhite_gun_5"
+x = 655.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_knife_1"
+sprite = "spr_flatwhite_knife_1"
+x = 745.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_knife_2"
+sprite = "spr_flatwhite_knife_2"
+x = 835.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_knife_3"
+sprite = "spr_flatwhite_knife_3"
+x = 925.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_knife_4"
+sprite = "spr_flatwhite_knife_4"
+x = 1015.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_knife_5"
+sprite = "spr_flatwhite_knife_5"
+x = 1105.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_maul_1"
+sprite = "spr_flatwhite_maul_1"
+x = 1195.4
+y = 295.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_maul_2"
+sprite = "spr_flatwhite_maul_2"
+x = 25.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_maul_3"
+sprite = "spr_flatwhite_maul_3"
+x = 115.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_maul_4"
+sprite = "spr_flatwhite_maul_4"
+x = 205.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sword_1"
+sprite = "spr_flatwhite_sword_1"
+x = 295.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sword_2"
+sprite = "spr_flatwhite_sword_2"
+x = 385.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sword_3"
+sprite = "spr_flatwhite_sword_3"
+x = 475.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sword_4"
+sprite = "spr_flatwhite_sword_4"
+x = 565.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_sword_5"
+sprite = "spr_flatwhite_sword_5"
+x = 655.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_1"
+sprite = "spr_gun_1"
+x = 745.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_1_with_stroke"
+sprite = "spr_gun_1_with_stroke"
+x = 835.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_2"
+sprite = "spr_gun_2"
+x = 925.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_2_with_stroke"
+sprite = "spr_gun_2_with_stroke"
+x = 1015.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_3"
+sprite = "spr_gun_3"
+x = 1105.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_3_with_stroke"
+sprite = "spr_gun_3_with_stroke"
+x = 1195.4
+y = 365.2
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_4"
+sprite = "spr_gun_4"
+x = 25.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_4_with_stroke"
+sprite = "spr_gun_4_with_stroke"
+x = 115.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_5"
+sprite = "spr_gun_5"
+x = 205.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_gun_5_with_stroke"
+sprite = "spr_gun_5_with_stroke"
+x = 295.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_1"
+sprite = "spr_knife_1"
+x = 385.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_1_with_stroke"
+sprite = "spr_knife_1_with_stroke"
+x = 475.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_2"
+sprite = "spr_knife_2"
+x = 565.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_2_with_stroke"
+sprite = "spr_knife_2_with_stroke"
+x = 655.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_3"
+sprite = "spr_knife_3"
+x = 745.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_3_with_stroke"
+sprite = "spr_knife_3_with_stroke"
+x = 835.4
+y = 434.8
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_4"
+sprite = "spr_knife_4"
+x = 25.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_4_with_stroke"
+sprite = "spr_knife_4_with_stroke"
+x = 115.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_5"
+sprite = "spr_knife_5"
+x = 205.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_5_with_stroke"
+sprite = "spr_knife_5_with_stroke"
+x = 295.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_1"
+sprite = "spr_maul_1"
+x = 385.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_1_with_stroke"
+sprite = "spr_maul_1_with_stroke"
+x = 475.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_2_bronze"
+sprite = "spr_maul_2_bronze"
+x = 565.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_2_bronze_with_stroke"
+sprite = "spr_maul_2_bronze_with_stroke"
+x = 655.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_2_silver"
+sprite = "spr_maul_2_silver"
+x = 745.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_2_silver_with_stroke"
+sprite = "spr_maul_2_silver_with_stroke"
+x = 835.4
+y = 504.4
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_3"
+sprite = "spr_maul_3"
+x = 25.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_3_with_stroke"
+sprite = "spr_maul_3_with_stroke"
+x = 115.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_4"
+sprite = "spr_maul_4"
+x = 205.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_maul_4_with_stroke"
+sprite = "spr_maul_4_with_stroke"
+x = 295.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_1"
+sprite = "spr_sword_1"
+x = 385.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_1_with_stroke"
+sprite = "spr_sword_1_with_stroke"
+x = 475.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_2"
+sprite = "spr_sword_2"
+x = 565.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_2_with_stroke"
+sprite = "spr_sword_2_with_stroke"
+x = 655.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_3"
+sprite = "spr_sword_3"
+x = 745.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_3_with_stroke"
+sprite = "spr_sword_3_with_stroke"
+x = 835.4
+y = 574.0
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_4"
+sprite = "spr_sword_4"
+x = 25.4
+y = 643.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_4_with_stroke"
+sprite = "spr_sword_4_with_stroke"
+x = 115.4
+y = 643.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_5"
+sprite = "spr_sword_5"
+x = 205.4
+y = 643.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sword_5_with_stroke"
+sprite = "spr_sword_5_with_stroke"
+x = 295.4
+y = 643.6
+scale_x = 0.23109
+scale_y = 0.23109
+rotation = 0.0
+colour = "#FFFFFFFF"
+

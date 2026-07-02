@@ -1,0 +1,170 @@
+id = "music-tracks-natural-world"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Natural World ambient audio pack: a dozen-plus long environment soundbeds (arctic, desert, forest, ocean, volcano and more) plus looping weather, water, fire and animal ambiences and a few short geological one-shots, all in .mp3 — for layering immersive outdoor atmosphere under a game scene."
+tags = [ "theme:nature", "role:audio", "asset_type:sound" ]
+
+[export]
+include = [
+  "sounds/MP3_SFX_Birdsong",
+  "sounds/MP3_SFX_Campfire",
+  "sounds/MP3_SFX_Crickets",
+  "sounds/MP3_SFX_Crows",
+  "sounds/MP3_SFX_Inferno",
+  "sounds/MP3_SFX_Owls",
+  "sounds/MP3_SFX_Rain_Heavy",
+  "sounds/MP3_SFX_Rain_Light",
+  "sounds/MP3_SFX_Rain_On_Roof",
+  "sounds/MP3_SFX_Rockslide_Big",
+  "sounds/MP3_SFX_Rockslide_Small",
+  "sounds/MP3_SFX_Seagulls",
+  "sounds/MP3_SFX_Thunder_01",
+  "sounds/MP3_SFX_Thunder_02",
+  "sounds/MP3_SFX_Thunder_03",
+  "sounds/MP3_SFX_Waterfalls",
+  "sounds/MP3_SFX_Waves_Heavy",
+  "sounds/MP3_SFX_Waves_Light",
+  "sounds/MP3_SFX_Waves_Medium",
+  "sounds/MP3_SFX_Whalesong",
+  "sounds/MP3_SFX_Wind",
+  "sounds/MP3_SND_Arctic",
+  "sounds/MP3_SND_Badlands",
+  "sounds/MP3_SND_Desert",
+  "sounds/MP3_SND_Forest_At_Night",
+  "sounds/MP3_SND_Grasslands",
+  "sounds/MP3_SND_Oceans",
+  "sounds/MP3_SND_Rainforest",
+  "sounds/MP3_SND_Riverlands",
+  "sounds/MP3_SND_Underwater",
+  "sounds/MP3_SND_Volcano",
+  "sounds/MP3_SND_Woodlands",
+]
+
+[assets."sounds/MP3_SFX_Birdsong"]
+description = "Bright, cheerful chorus of songbirds chirping and trilling, ~30s loop — sunny daytime woodland ambience."
+tags = [ "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/MP3_SFX_Campfire"]
+description = "Crackling, popping campfire with snapping embers, ~21s loop — cozy warm fireside vibe."
+tags = [ "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_SFX_Crickets"]
+description = "Steady rhythmic cricket chirping, ~30s loop — calm nighttime field or summer-evening ambience."
+tags = [ "audio_type:ambience", "subject:insect" ]
+
+[assets."sounds/MP3_SFX_Crows"]
+description = "Harsh cawing of crows over open air, ~30s loop — bleak, ominous rural atmosphere."
+tags = [ "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/MP3_SFX_Inferno"]
+description = "Roaring, hungry blaze with deep crackle and rushing flame, ~26s loop — intense raging-fire ambience."
+tags = [ "audio_type:ambience", "subject:fire" ]
+
+[assets."sounds/MP3_SFX_Owls"]
+description = "Low hooting owls in still air, ~30s loop — eerie, tranquil nighttime forest mood."
+tags = [ "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/MP3_SFX_Rain_Heavy"]
+description = "Dense, drumming downpour of heavy rainfall, ~30s loop — stormy, soaking-wet atmosphere."
+tags = [ "audio_type:ambience", "subject:rain" ]
+
+[assets."sounds/MP3_SFX_Rain_Light"]
+description = "Soft, gentle patter of light rain, ~30s loop — calm, drizzly overcast mood."
+tags = [ "audio_type:ambience", "subject:rain" ]
+
+[assets."sounds/MP3_SFX_Rain_On_Roof"]
+description = "Rain pattering and tapping on a rooftop, ~26s loop — snug indoor-during-a-storm feel."
+tags = [ "audio_type:ambience", "subject:rain" ]
+
+[assets."sounds/MP3_SFX_Rockslide_Big"]
+description = "Heavy tumbling crash of a large rockslide, ~7s one-shot — big crumbling-cliff impact."
+tags = [ "audio_type:sfx", "subject:rock" ]
+
+[assets."sounds/MP3_SFX_Rockslide_Small"]
+description = "Short clatter of smaller falling rocks and scree, ~6.5s one-shot — minor rockfall."
+tags = [ "audio_type:sfx", "subject:rock" ]
+
+[assets."sounds/MP3_SFX_Seagulls"]
+description = "Crying seagulls wheeling overhead, ~29s loop — breezy coastal seaside ambience."
+tags = [ "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/MP3_SFX_Thunder_01"]
+description = "Single rolling thunderclap with a long rumble, ~14.5s one-shot — storm thunder hit."
+tags = [ "audio_type:sfx", "subject:thunder" ]
+
+[assets."sounds/MP3_SFX_Thunder_02"]
+description = "Sharp cracking thunderclap fading to a rumble, ~14s one-shot — storm thunder variant."
+tags = [ "audio_type:sfx", "subject:thunder" ]
+
+[assets."sounds/MP3_SFX_Thunder_03"]
+description = "Deep booming thunderclap, ~13s one-shot — heavy storm thunder variant."
+tags = [ "audio_type:sfx", "subject:thunder" ]
+
+[assets."sounds/MP3_SFX_Waterfalls"]
+description = "Steady roaring cascade of falling water, ~30s loop — powerful waterfall ambience."
+tags = [ "audio_type:ambience", "subject:water" ]
+
+[assets."sounds/MP3_SFX_Waves_Heavy"]
+description = "Big crashing ocean breakers pounding the shore, ~30s loop — rough, powerful surf."
+tags = [ "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/MP3_SFX_Waves_Light"]
+description = "Gentle lapping of small waves, ~30s loop — calm, lazy shoreline ambience."
+tags = [ "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/MP3_SFX_Waves_Medium"]
+description = "Moderate rolling waves washing in and out, ~30s loop — relaxed seaside surf."
+tags = [ "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/MP3_SFX_Whalesong"]
+description = "Haunting, melodic moans and calls of whales, ~25s loop — deep, otherworldly oceanic mood."
+tags = [ "audio_type:ambience", "subject:whale" ]
+
+[assets."sounds/MP3_SFX_Wind"]
+description = "Sustained gusting wind sweeping past, ~30s loop — exposed, blustery open-air ambience."
+tags = [ "audio_type:ambience", "subject:wind" ]
+
+[assets."sounds/MP3_SND_Arctic"]
+description = "Long frozen-tundra soundbed of cold whistling wind over icy emptiness, ~80s — bleak arctic atmosphere."
+tags = [ "audio_type:ambience", "subject:snow", "subject:wind" ]
+
+[assets."sounds/MP3_SND_Badlands"]
+description = "Long arid soundbed of dry desolate wind over barren terrain, ~75s — harsh badlands atmosphere."
+tags = [ "audio_type:ambience", "subject:wind" ]
+
+[assets."sounds/MP3_SND_Desert"]
+description = "Long hot-desert soundbed of shifting sand and dry wind, ~75s — vast, parched dune atmosphere."
+tags = [ "audio_type:ambience", "subject:sand", "subject:wind" ]
+
+[assets."sounds/MP3_SND_Forest_At_Night"]
+description = "Long nocturnal woodland soundbed of crickets, owls and rustling leaves, ~89s — dark, alive forest-at-night atmosphere."
+tags = [ "audio_type:ambience", "subject:foliage", "subject:insect" ]
+
+[assets."sounds/MP3_SND_Grasslands"]
+description = "Long open-prairie soundbed of wind through grass with distant birds, ~78s — wide, rolling grassland atmosphere."
+tags = [ "audio_type:ambience", "subject:grass", "subject:wind" ]
+
+[assets."sounds/MP3_SND_Oceans"]
+description = "Long open-ocean soundbed of rolling waves and sea air, ~72s — expansive coastal atmosphere."
+tags = [ "audio_type:ambience", "subject:ocean" ]
+
+[assets."sounds/MP3_SND_Rainforest"]
+description = "Long jungle soundbed of dripping rain, exotic birds and dense foliage, ~65s — lush, humid rainforest atmosphere."
+tags = [ "audio_type:ambience", "subject:foliage", "subject:rain" ]
+
+[assets."sounds/MP3_SND_Riverlands"]
+description = "Long riverside soundbed of flowing water and gentle current, ~78s — fresh, watery riverlands atmosphere."
+tags = [ "audio_type:ambience", "subject:river" ]
+
+[assets."sounds/MP3_SND_Underwater"]
+description = "Long submerged soundbed of muffled gurgles and drifting currents, ~82s — deep, weightless underwater atmosphere."
+tags = [ "audio_type:ambience", "subject:water" ]
+
+[assets."sounds/MP3_SND_Volcano"]
+description = "Long volcanic soundbed of bubbling lava, low rumbles and fire, ~63s — ominous, molten geothermal atmosphere."
+tags = [ "audio_type:ambience", "subject:lava", "subject:fire" ]
+
+[assets."sounds/MP3_SND_Woodlands"]
+description = "Long temperate-forest soundbed of rustling leaves and scattered birdsong, ~80s — calm, leafy woodland atmosphere."
+tags = [ "audio_type:ambience", "subject:foliage" ]

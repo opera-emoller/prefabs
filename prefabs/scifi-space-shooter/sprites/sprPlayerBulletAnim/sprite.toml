@@ -1,0 +1,6 @@
+#:schema ../../.gm-schema/v1.json#sprite
+
+
+[collision]
+kind = "rectangle"
+

@@ -1,0 +1,195 @@
+id = "ui-icons-shadow-flat"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Flat shadow UI glyph icons: a set of 37 flat solid-white interface symbols, each cast with a soft diagonal long drop shadow, on transparent backgrounds."
+tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:flat" ]
+
+[export]
+include = [
+  "sprites/Icon_ArrowDown",
+  "sprites/Icon_ArrowLeft",
+  "sprites/Icon_ArrowRight",
+  "sprites/Icon_ArrowUp",
+  "sprites/Icon_AudioOff",
+  "sprites/Icon_AudioOn",
+  "sprites/Icon_Battle",
+  "sprites/Icon_Bolt",
+  "sprites/Icon_Cross",
+  "sprites/Icon_ExclaimationMark",
+  "sprites/Icon_FastForward",
+  "sprites/Icon_Heart",
+  "sprites/Icon_Home",
+  "sprites/Icon_Magnify",
+  "sprites/Icon_Menu",
+  "sprites/Icon_Menu2",
+  "sprites/Icon_Message",
+  "sprites/Icon_Music",
+  "sprites/Icon_Padlock",
+  "sprites/Icon_PadlockUnlock",
+  "sprites/Icon_Pause",
+  "sprites/Icon_Play",
+  "sprites/Icon_Plus",
+  "sprites/Icon_Profile",
+  "sprites/Icon_QuestionMark",
+  "sprites/Icon_Retry",
+  "sprites/Icon_Rewind",
+  "sprites/Icon_Settings",
+  "sprites/Icon_Share",
+  "sprites/Icon_Shield",
+  "sprites/Icon_Shop",
+  "sprites/Icon_Star",
+  "sprites/Icon_ThumbsDown",
+  "sprites/Icon_ThumbsUp",
+  "sprites/Icon_Tick",
+  "sprites/Icon_Video",
+  "sprites/Icon_WiFi",
+]
+
+[assets."sprites/Icon_ArrowDown"]
+description = "A downward-pointing arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowLeft"]
+description = "A left-pointing arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowRight"]
+description = "A right-pointing arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowUp"]
+description = "An upward-pointing arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOff"]
+description = "A muted speaker (no sound waves); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOn"]
+description = "A speaker emitting sound waves; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Battle"]
+description = "Two crossed swords (battle / fight); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:sword" ]
+
+[assets."sprites/Icon_Bolt"]
+description = "A lightning bolt; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:lightning" ]
+
+[assets."sprites/Icon_Cross"]
+description = "An X / cross mark (close, cancel); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:cross" ]
+
+[assets."sprites/Icon_ExclaimationMark"]
+description = "An exclamation mark (alert, warning); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_FastForward"]
+description = "A double-triangle fast-forward symbol; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Heart"]
+description = "A heart (love, health, favourite); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:heart" ]
+
+[assets."sprites/Icon_Home"]
+description = "A house (home); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:house" ]
+
+[assets."sprites/Icon_Magnify"]
+description = "A magnifying glass (search, zoom); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu"]
+description = "A vertical three-dot kebab menu; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu2"]
+description = "A bulleted list / hamburger-style menu; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Message"]
+description = "An envelope (mail, message); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Music"]
+description = "A pair of musical notes; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Padlock"]
+description = "A closed padlock (locked); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_PadlockUnlock"]
+description = "An open padlock (unlocked); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_Pause"]
+description = "Two vertical bars (pause); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Play"]
+description = "A right-pointing triangle (play); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Plus"]
+description = "A plus sign (add); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Profile"]
+description = "A person bust silhouette (profile, account); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:human" ]
+
+[assets."sprites/Icon_QuestionMark"]
+description = "A question mark (help); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Retry"]
+description = "A circular refresh / retry arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Rewind"]
+description = "A double-triangle rewind symbol; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Settings"]
+description = "A cog / gear (settings); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Share"]
+description = "A three-node share / network symbol; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Shield"]
+description = "A shield (defense, security); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:shield" ]
+
+[assets."sprites/Icon_Shop"]
+description = "A shopping basket (shop, store); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Star"]
+description = "A five-pointed star (rating, favourite); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:star" ]
+
+[assets."sprites/Icon_ThumbsDown"]
+description = "A thumbs-down (dislike); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ThumbsUp"]
+description = "A thumbs-up (like); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Tick"]
+description = "A checkmark / tick (confirm, done); flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Video"]
+description = "A film strip / video clip symbol; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_WiFi"]
+description = "A wifi signal arc symbol; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background."
+tags = [ "subject:icon" ]

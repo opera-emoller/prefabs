@@ -1,0 +1,685 @@
+id = "ui-panels-flat"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Flat-style UI pack of ~135 user-interface elements - bordered panels, ribbon banners, solid button shapes (circle, square, diamond, triangle), pill and rectangle bars, dot toggles and vertical scrollbars - in nine color variants (blue, cyan, green, grey, orange, pink, purple, red, yellow), each with a soft two-tone gradient and clean flat edges."
+tags = [ "role:ui", "projection:ui-icon", "style:flat", "asset_type:sprite", "state:static", "capability:ui" ]
+
+[export]
+include = [
+  "sprites/Flat_Blue_Banner_Big",
+  "sprites/Flat_Blue_Banner_Small",
+  "sprites/Flat_Blue_Circle",
+  "sprites/Flat_Blue_Diamond",
+  "sprites/Flat_Blue_Dot_Back",
+  "sprites/Flat_Blue_Dot_Front",
+  "sprites/Flat_Blue_Long_Round",
+  "sprites/Flat_Blue_Long_Square",
+  "sprites/Flat_Blue_Panel",
+  "sprites/Flat_Blue_ScrollBarRound_Back",
+  "sprites/Flat_Blue_ScrollBarRound_Front",
+  "sprites/Flat_Blue_ScrollBarSquare_Back",
+  "sprites/Flat_Blue_ScrollBarSquare_Front",
+  "sprites/Flat_Blue_Square",
+  "sprites/Flat_Blue_Triangle",
+  "sprites/Flat_Cyan_Banner_Big",
+  "sprites/Flat_Cyan_Banner_Small",
+  "sprites/Flat_Cyan_Circle",
+  "sprites/Flat_Cyan_Diamond",
+  "sprites/Flat_Cyan_Dot_Back",
+  "sprites/Flat_Cyan_Dot_Front",
+  "sprites/Flat_Cyan_Long_Round",
+  "sprites/Flat_Cyan_Long_Square",
+  "sprites/Flat_Cyan_Panel",
+  "sprites/Flat_Cyan_ScrollBarRound_Back",
+  "sprites/Flat_Cyan_ScrollBarRound_Front",
+  "sprites/Flat_Cyan_ScrollBarSquare_Back",
+  "sprites/Flat_Cyan_ScrollBarSquare_Front",
+  "sprites/Flat_Cyan_Square",
+  "sprites/Flat_Cyan_Triangle",
+  "sprites/Flat_Green_Banner_Big",
+  "sprites/Flat_Green_Banner_Small",
+  "sprites/Flat_Green_Circle",
+  "sprites/Flat_Green_Diamond",
+  "sprites/Flat_Green_Dot_Back",
+  "sprites/Flat_Green_Dot_Front",
+  "sprites/Flat_Green_Long_Round",
+  "sprites/Flat_Green_Long_Square",
+  "sprites/Flat_Green_Panel",
+  "sprites/Flat_Green_ScrollBarRound_Back",
+  "sprites/Flat_Green_ScrollBarRound_Front",
+  "sprites/Flat_Green_ScrollBarSquare_Back",
+  "sprites/Flat_Green_ScrollBarSquare_Front",
+  "sprites/Flat_Green_Square",
+  "sprites/Flat_Green_Triangle",
+  "sprites/Flat_Grey_Banner_Big",
+  "sprites/Flat_Grey_Banner_Small",
+  "sprites/Flat_Grey_Circle",
+  "sprites/Flat_Grey_Diamond",
+  "sprites/Flat_Grey_Dot_Back",
+  "sprites/Flat_Grey_Dot_Front",
+  "sprites/Flat_Grey_Long_Round",
+  "sprites/Flat_Grey_Long_Square",
+  "sprites/Flat_Grey_Panel",
+  "sprites/Flat_Grey_ScrollBarRound_Back",
+  "sprites/Flat_Grey_ScrollBarRound_Front",
+  "sprites/Flat_Grey_ScrollBarSquare_Back",
+  "sprites/Flat_Grey_ScrollBarSquare_Front",
+  "sprites/Flat_Grey_Square",
+  "sprites/Flat_Grey_Triangle",
+  "sprites/Flat_Orange_Banner_Big",
+  "sprites/Flat_Orange_Banner_Small",
+  "sprites/Flat_Orange_Circle",
+  "sprites/Flat_Orange_Diamond",
+  "sprites/Flat_Orange_Dot_Back",
+  "sprites/Flat_Orange_Dot_Front",
+  "sprites/Flat_Orange_Long_Round",
+  "sprites/Flat_Orange_Long_Square",
+  "sprites/Flat_Orange_Panel",
+  "sprites/Flat_Orange_ScrollBarRound_Back",
+  "sprites/Flat_Orange_ScrollBarRound_Front",
+  "sprites/Flat_Orange_ScrollBarSquare_Back",
+  "sprites/Flat_Orange_ScrollBarSquare_Front",
+  "sprites/Flat_Orange_Square",
+  "sprites/Flat_Orange_Triangle",
+  "sprites/Flat_Pink_Banner_Big",
+  "sprites/Flat_Pink_Banner_Small",
+  "sprites/Flat_Pink_Circle",
+  "sprites/Flat_Pink_Diamond",
+  "sprites/Flat_Pink_Dot_Back",
+  "sprites/Flat_Pink_Dot_Front",
+  "sprites/Flat_Pink_Long_Round",
+  "sprites/Flat_Pink_Long_Square",
+  "sprites/Flat_Pink_Panel",
+  "sprites/Flat_Pink_ScrollBarRound_Back",
+  "sprites/Flat_Pink_ScrollBarRound_Front",
+  "sprites/Flat_Pink_ScrollBarSquare_Back",
+  "sprites/Flat_Pink_ScrollBarSquare_Front",
+  "sprites/Flat_Pink_Square",
+  "sprites/Flat_Pink_Triangle",
+  "sprites/Flat_Purple_Banner_Big",
+  "sprites/Flat_Purple_Banner_Small",
+  "sprites/Flat_Purple_Circle",
+  "sprites/Flat_Purple_Diamond",
+  "sprites/Flat_Purple_Dot_Back",
+  "sprites/Flat_Purple_Dot_Front",
+  "sprites/Flat_Purple_Long_Round",
+  "sprites/Flat_Purple_Long_Square",
+  "sprites/Flat_Purple_Panel",
+  "sprites/Flat_Purple_ScrollBarRound_Back",
+  "sprites/Flat_Purple_ScrollBarRound_Front",
+  "sprites/Flat_Purple_ScrollBarSquare_Back",
+  "sprites/Flat_Purple_ScrollBarSquare_Front",
+  "sprites/Flat_Purple_Square",
+  "sprites/Flat_Purple_Triangle",
+  "sprites/Flat_Red_Banner_Big",
+  "sprites/Flat_Red_Banner_Small",
+  "sprites/Flat_Red_Circle",
+  "sprites/Flat_Red_Diamond",
+  "sprites/Flat_Red_Dot_Back",
+  "sprites/Flat_Red_Dot_Front",
+  "sprites/Flat_Red_Long_Round",
+  "sprites/Flat_Red_Long_Square",
+  "sprites/Flat_Red_Panel",
+  "sprites/Flat_Red_ScrollBarRound_Back",
+  "sprites/Flat_Red_ScrollBarRound_Front",
+  "sprites/Flat_Red_ScrollBarSquare_Back",
+  "sprites/Flat_Red_ScrollBarSquare_Front",
+  "sprites/Flat_Red_Square",
+  "sprites/Flat_Red_Triangle",
+  "sprites/Flat_Yellow_Banner_Big",
+  "sprites/Flat_Yellow_Banner_Small",
+  "sprites/Flat_Yellow_Circle",
+  "sprites/Flat_Yellow_Diamond",
+  "sprites/Flat_Yellow_Dot_Back",
+  "sprites/Flat_Yellow_Dot_Front",
+  "sprites/Flat_Yellow_Long_Round",
+  "sprites/Flat_Yellow_Long_Square",
+  "sprites/Flat_Yellow_Panel",
+  "sprites/Flat_Yellow_ScrollBarRound_Back",
+  "sprites/Flat_Yellow_ScrollBarRound_Front",
+  "sprites/Flat_Yellow_ScrollBarSquare_Back",
+  "sprites/Flat_Yellow_ScrollBarSquare_Front",
+  "sprites/Flat_Yellow_Square",
+  "sprites/Flat_Yellow_Triangle",
+]
+
+[assets."sprites/Flat_Blue_Banner_Big"]
+description = "Large blue ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_Banner_Small"]
+description = "Slim blue ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_Circle"]
+description = "Solid blue round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Diamond"]
+description = "Solid blue rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Dot_Back"]
+description = "Small darker blue dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Dot_Front"]
+description = "Small bright blue dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Long_Round"]
+description = "Wide blue pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Long_Square"]
+description = "Wide blue rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Panel"]
+description = "Cream off-white rounded-square panel with a bold blue border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Blue_ScrollBarRound_Back"]
+description = "Tall blue rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_ScrollBarRound_Front"]
+description = "Tall bright blue rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_ScrollBarSquare_Back"]
+description = "Tall blue square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_ScrollBarSquare_Front"]
+description = "Tall bright blue square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Blue_Square"]
+description = "Solid blue rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Blue_Triangle"]
+description = "Solid blue rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Banner_Big"]
+description = "Large cyan ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_Banner_Small"]
+description = "Slim cyan ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_Circle"]
+description = "Solid cyan round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Diamond"]
+description = "Solid cyan rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Dot_Back"]
+description = "Small darker cyan dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Dot_Front"]
+description = "Small bright cyan dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Long_Round"]
+description = "Wide cyan pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Long_Square"]
+description = "Wide cyan rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Panel"]
+description = "Cream off-white rounded-square panel with a bold cyan border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Cyan_ScrollBarRound_Back"]
+description = "Tall cyan rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_ScrollBarRound_Front"]
+description = "Tall bright cyan rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_ScrollBarSquare_Back"]
+description = "Tall cyan square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_ScrollBarSquare_Front"]
+description = "Tall bright cyan square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Cyan_Square"]
+description = "Solid cyan rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Cyan_Triangle"]
+description = "Solid cyan rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Banner_Big"]
+description = "Large green ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_Banner_Small"]
+description = "Slim green ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_Circle"]
+description = "Solid green round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Diamond"]
+description = "Solid green rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Dot_Back"]
+description = "Small darker green dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Dot_Front"]
+description = "Small bright green dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Long_Round"]
+description = "Wide green pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Long_Square"]
+description = "Wide green rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Panel"]
+description = "Cream off-white rounded-square panel with a bold green border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Green_ScrollBarRound_Back"]
+description = "Tall green rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_ScrollBarRound_Front"]
+description = "Tall bright green rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_ScrollBarSquare_Back"]
+description = "Tall green square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_ScrollBarSquare_Front"]
+description = "Tall bright green square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Green_Square"]
+description = "Solid green rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Green_Triangle"]
+description = "Solid green rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Banner_Big"]
+description = "Large grey ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_Banner_Small"]
+description = "Slim grey ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_Circle"]
+description = "Solid grey round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Diamond"]
+description = "Solid grey rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Dot_Back"]
+description = "Small darker grey dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Dot_Front"]
+description = "Small bright grey dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Long_Round"]
+description = "Wide grey pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Long_Square"]
+description = "Wide grey rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Panel"]
+description = "Cream off-white rounded-square panel with a bold grey border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Grey_ScrollBarRound_Back"]
+description = "Tall grey rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_ScrollBarRound_Front"]
+description = "Tall bright grey rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_ScrollBarSquare_Back"]
+description = "Tall grey square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_ScrollBarSquare_Front"]
+description = "Tall bright grey square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Grey_Square"]
+description = "Solid grey rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Grey_Triangle"]
+description = "Solid grey rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Banner_Big"]
+description = "Large orange ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_Banner_Small"]
+description = "Slim orange ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_Circle"]
+description = "Solid orange round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Diamond"]
+description = "Solid orange rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Dot_Back"]
+description = "Small darker orange dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Dot_Front"]
+description = "Small bright orange dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Long_Round"]
+description = "Wide orange pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Long_Square"]
+description = "Wide orange rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Panel"]
+description = "Cream off-white rounded-square panel with a bold orange border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Orange_ScrollBarRound_Back"]
+description = "Tall orange rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_ScrollBarRound_Front"]
+description = "Tall bright orange rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_ScrollBarSquare_Back"]
+description = "Tall orange square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_ScrollBarSquare_Front"]
+description = "Tall bright orange square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Orange_Square"]
+description = "Solid orange rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Orange_Triangle"]
+description = "Solid orange rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Banner_Big"]
+description = "Large pink ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_Banner_Small"]
+description = "Slim pink ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_Circle"]
+description = "Solid pink round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Diamond"]
+description = "Solid pink rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Dot_Back"]
+description = "Small darker pink dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Dot_Front"]
+description = "Small bright pink dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Long_Round"]
+description = "Wide pink pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Long_Square"]
+description = "Wide pink rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Panel"]
+description = "Cream off-white rounded-square panel with a bold pink border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Pink_ScrollBarRound_Back"]
+description = "Tall pink rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_ScrollBarRound_Front"]
+description = "Tall bright pink rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_ScrollBarSquare_Back"]
+description = "Tall pink square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_ScrollBarSquare_Front"]
+description = "Tall bright pink square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Pink_Square"]
+description = "Solid pink rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Pink_Triangle"]
+description = "Solid pink rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Banner_Big"]
+description = "Large purple ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_Banner_Small"]
+description = "Slim purple ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_Circle"]
+description = "Solid purple round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Diamond"]
+description = "Solid purple rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Dot_Back"]
+description = "Small darker purple dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Dot_Front"]
+description = "Small bright purple dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Long_Round"]
+description = "Wide purple pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Long_Square"]
+description = "Wide purple rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Panel"]
+description = "Cream off-white rounded-square panel with a bold purple border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Purple_ScrollBarRound_Back"]
+description = "Tall purple rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_ScrollBarRound_Front"]
+description = "Tall bright purple rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_ScrollBarSquare_Back"]
+description = "Tall purple square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_ScrollBarSquare_Front"]
+description = "Tall bright purple square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Purple_Square"]
+description = "Solid purple rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Purple_Triangle"]
+description = "Solid purple rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Banner_Big"]
+description = "Large red ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_Banner_Small"]
+description = "Slim red ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_Circle"]
+description = "Solid red round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Diamond"]
+description = "Solid red rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Dot_Back"]
+description = "Small darker red dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Dot_Front"]
+description = "Small bright red dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Long_Round"]
+description = "Wide red pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Long_Square"]
+description = "Wide red rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Panel"]
+description = "Cream off-white rounded-square panel with a bold red border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Red_ScrollBarRound_Back"]
+description = "Tall red rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_ScrollBarRound_Front"]
+description = "Tall bright red rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_ScrollBarSquare_Back"]
+description = "Tall red square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_ScrollBarSquare_Front"]
+description = "Tall bright red square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Red_Square"]
+description = "Solid red rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Red_Triangle"]
+description = "Solid red rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Banner_Big"]
+description = "Large yellow ribbon-style header banner with folded notched ends and a raised center plaque; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_Banner_Small"]
+description = "Slim yellow ribbon-style header banner with folded notched ends; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_Circle"]
+description = "Solid yellow round button/icon disc; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Diamond"]
+description = "Solid yellow rounded-diamond button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Dot_Back"]
+description = "Small darker yellow dot, the base/track of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Dot_Front"]
+description = "Small bright yellow dot, the knob/marker of a radio or toggle indicator; flat-style, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Long_Round"]
+description = "Wide yellow pill-shaped (fully rounded) button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Long_Square"]
+description = "Wide yellow rounded-rectangle button bar; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Panel"]
+description = "Cream off-white rounded-square panel with a bold yellow border frame; clean flat UI container, single frame."
+tags = [ "subject:frame" ]
+
+[assets."sprites/Flat_Yellow_ScrollBarRound_Back"]
+description = "Tall yellow rounded vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_ScrollBarRound_Front"]
+description = "Tall bright yellow rounded vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_ScrollBarSquare_Back"]
+description = "Tall yellow square-cornered vertical scrollbar track (back); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_ScrollBarSquare_Front"]
+description = "Tall bright yellow square-cornered vertical scrollbar thumb (front); flat-style, single frame."
+tags = [ "subject:panel" ]
+
+[assets."sprites/Flat_Yellow_Square"]
+description = "Solid yellow rounded-square button/icon; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]
+
+[assets."sprites/Flat_Yellow_Triangle"]
+description = "Solid yellow rounded triangular button/arrow pointing right; flat-style with a soft two-tone gradient and crisp edges, single frame."
+tags = [ "subject:button" ]

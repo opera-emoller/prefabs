@@ -1,0 +1,55 @@
+id = "tower-defense-extended"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Hand-drawn cartoon tower-defense effect pack: attack VFX and projectile spritesheets for ten tower types (Cannon, Explosive, Flamer, Freeze, Heal, Holy, Magic, Poison, Rail, Slow), viewed top-down in a colorful storybook style."
+tags = [ "genre:tower-defense", "theme:fantasy", "style:cartoon", "projection:top-down" ]
+
+[export]
+include = [
+  "sprites/SPR_Cannon_VFX",
+  "sprites/SPR_Flamer_VFX",
+  "sprites/SPR_Freeze_VFX",
+  "sprites/SPR_Heal_VFX",
+  "sprites/SPR_Holy_VFX",
+  "sprites/SPR_Magic_VFX",
+  "sprites/SPR_Poison_VFX",
+  "sprites/SPR_Rail_VFX",
+  "sprites/SPR_Slow_VFX",
+]
+
+[assets."sprites/SPR_Cannon_VFX"]
+description = "Pale yellow puff/muzzle-flash burst that blooms and fades; soft cartoon cannon-fire effect, animated."
+tags = [ "asset_type:sprite", "role:vfx", "subject:flash", "state:animation" ]
+
+[assets."sprites/SPR_Flamer_VFX"]
+description = "Bright orange-and-yellow flame burst that rises into a teardrop fireball and trails away as smoke; animated cartoon fire."
+tags = [ "asset_type:sprite", "role:vfx", "subject:fire", "state:animation" ]
+
+[assets."sprites/SPR_Freeze_VFX"]
+description = "Jagged cyan-and-blue ice spray/beam with scattered frost shards firing outward; chilly animated freeze effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:ice", "state:animation" ]
+
+[assets."sprites/SPR_Heal_VFX"]
+description = "Floating pink and red plus-sign crosses drifting upward, a gentle animated healing/restore effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:cross", "state:animation" ]
+
+[assets."sprites/SPR_Holy_VFX"]
+description = "Soft pale-gold beam of holy light streaking horizontally and fading; radiant animated divine glow."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:animation" ]
+
+[assets."sprites/SPR_Magic_VFX"]
+description = "Wavy translucent green magic energy wave/beam rippling across the frame; animated arcane bolt."
+tags = [ "asset_type:sprite", "role:vfx", "subject:magic", "state:animation" ]
+
+[assets."sprites/SPR_Poison_VFX"]
+description = "Olive-green toxic gas cloud forming a billowing ring of noxious puffs; animated poison effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:smoke", "state:animation" ]
+
+[assets."sprites/SPR_Rail_VFX"]
+description = "Small brown spinning rail-gun projectile — a dart with a four-point burst tip rotating through 12 frames."
+tags = [ "asset_type:sprite", "role:projectile", "subject:arrow", "state:animation" ]
+
+[assets."sprites/SPR_Slow_VFX"]
+description = "Dark olive-yellow expanding pulse ring / shockwave radiating outward, an animated slow-field effect."
+tags = [ "asset_type:sprite", "role:vfx", "subject:impact", "state:animation" ]

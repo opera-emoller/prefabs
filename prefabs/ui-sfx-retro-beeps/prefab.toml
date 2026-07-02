@@ -1,0 +1,205 @@
+id = "ui-sfx-retro-beeps"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Retro chiptune UI sound effect pack: 39 8-bit beeps and blips for clicks, hovers, confirms, errors, window/menu transitions and navigation, all in a crisp lo-fi arcade style."
+tags = [ "role:ui", "style:retro" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Short 8-bit keypress blip, ~0.42s — chiptune keyboard click for typing or button input."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Tight chiptune keypress tick, ~0.17s — snappy retro keyboard click."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Very brief 8-bit click, ~0.05s — minimal keypress beep for rapid typing feedback."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Short retro click beep, ~0.17s — chiptune mouse/button press confirmation."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Quick 8-bit click, ~0.08s — crisp mouse press blip."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Brief chiptune hover blip, ~0.08s — light beep for cursor rolling over a UI element."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Soft retro hover tone, ~0.5s — sustained 8-bit beep for highlighting a menu item."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Descending chiptune buzz, ~0.67s — retro negative/cancel or decline beep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_2"]
+description = "Short 8-bit rejection blip, ~0.25s — terse 'no' or back button tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_1"]
+description = "Rounded 8-bit pop, ~0.5s — bubbly chiptune blip for an element appearing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Slightly longer retro pop, ~0.58s — chiptune bubble pop for popping a UI item."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Short downward chiptune blip, ~0.25s — retro tone for a dropdown closing or collapsing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Longer descending 8-bit sweep, ~1.17s — retro popdown/collapse transition."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Rising chiptune blip, ~0.87s — 8-bit tone for a popup or tooltip appearing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Extended ascending 8-bit sweep, ~1.17s — retro popup expand transition."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Long descending chiptune power-down, ~2.42s — retro 8-bit shutdown sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Falling chiptune power-off tone, ~1.83s — 8-bit device powering down."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Rising chiptune boot-up jingle, ~2.25s — retro 8-bit power-on sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Ascending chiptune startup tone, ~1.83s — 8-bit device powering on."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Upward 8-bit pitch sweep, ~0.33s — chiptune tone for dragging a slider up/right."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Short rising chiptune blip, ~0.25s — retro slider increase tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Downward 8-bit pitch sweep, ~0.25s — chiptune tone for dragging a slider down/left."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Short falling chiptune blip, ~0.25s — retro slider decrease tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Quick descending 8-bit swipe, ~0.58s — chiptune tone for a panel sliding closed."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Brief retro swipe blip, ~0.17s — snappy 8-bit close gesture."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Ascending 8-bit swipe, ~0.58s — chiptune tone for a panel sliding open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Rising retro swipe sweep, ~0.58s — 8-bit open gesture."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Cheerful chiptune success jingle, ~1.5s — rising 8-bit arpeggio for task completion."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Triumphant 8-bit completion fanfare, ~1.92s — retro chiptune success melody."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Descending chiptune failure tone, ~2.0s — 8-bit error/fail jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Long dramatic chiptune failure sequence, ~5.5s — extended retro game-over style fail melody."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny 8-bit tick, ~0.12s — short chiptune blip for a timer or countdown beat."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Very brief retro tick, ~0.08s — minimal 8-bit timer tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Descending chiptune close sweep, ~1.0s — 8-bit tone for closing a window."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Falling retro window-close tone, ~1.0s — alternate 8-bit dismiss sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Rising chiptune open sweep, ~0.87s — 8-bit tone for opening a window."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Ascending retro window-open tone, ~0.75s — alternate 8-bit appear sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Bright ascending chiptune blip, ~0.57s — retro confirm/accept beep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Upbeat 8-bit confirmation tone, ~1.0s — chiptune 'yes' affirmation jingle."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]

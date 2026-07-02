@@ -1,0 +1,150 @@
+id = "sfx-retro-ninja"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A retro platformer SFX pack of ~28 bit-crushed, chiptune-flavored one-shots covering coin pick-ups, movement, combat, hits, and menu UI blips."
+tags = [ "genre:platformer", "style:retro", "role:audio" ]
+
+[export]
+include = [
+  "sounds/MP3_Box_Break",
+  "sounds/MP3_Coin_Collect",
+  "sounds/MP3_Dash",
+  "sounds/MP3_Enemy_Death1",
+  "sounds/MP3_Enemy_Death2",
+  "sounds/MP3_Enemy_Stomped_On",
+  "sounds/MP3_Extra_Life",
+  "sounds/MP3_Headbonk",
+  "sounds/MP3_Jump",
+  "sounds/MP3_Jump_Land",
+  "sounds/MP3_Option_Choose",
+  "sounds/MP3_Option_Select",
+  "sounds/MP3_Player_Death1",
+  "sounds/MP3_Player_Death2",
+  "sounds/MP3_Player_Pain1",
+  "sounds/MP3_Player_Pain2",
+  "sounds/MP3_Potion_Collect",
+  "sounds/MP3_Potion_Use",
+  "sounds/MP3_Ranged_Attack",
+  "sounds/MP3_Score_Counter",
+  "sounds/MP3_Step1",
+  "sounds/MP3_Step2",
+  "sounds/MP3_Sword_Hit1",
+  "sounds/MP3_Sword_Hit2",
+  "sounds/MP3_Sword_Swing1",
+  "sounds/MP3_Sword_Swing2",
+  "sounds/MP3_Water_Splash1",
+  "sounds/MP3_Water_Splash2",
+]
+
+[assets."sounds/MP3_Box_Break"]
+description = "Short crunchy bit-crushed smash, ~0.45s — a crate or box shattering."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:crate" ]
+
+[assets."sounds/MP3_Coin_Collect"]
+description = "Bright chiptune coin pickup chime, ~0.6s — classic platformer coin collect."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:coin" ]
+
+[assets."sounds/MP3_Dash"]
+description = "Quick whooshing burst, ~0.45s — a fast dash or rush move."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Enemy_Death1"]
+description = "Crunchy descending bit-crushed splat, ~0.45s — an enemy being defeated."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:enemy" ]
+
+[assets."sounds/MP3_Enemy_Death2"]
+description = "Alternate gritty enemy death blip, ~0.45s — variant of the defeat sound."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:enemy" ]
+
+[assets."sounds/MP3_Enemy_Stomped_On"]
+description = "Tiny squashy thud, ~0.19s — an enemy stomped underfoot."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:enemy" ]
+
+[assets."sounds/MP3_Extra_Life"]
+description = "Cheerful rising chiptune jingle, ~2s — earning a 1-up or extra life."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:heart" ]
+
+[assets."sounds/MP3_Headbonk"]
+description = "Hollow knock, ~0.32s — head bumping a ceiling or block."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/MP3_Jump"]
+description = "Springy upward chirp, ~0.26s — a player jump."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Jump_Land"]
+description = "Soft landing thump, ~0.32s — touching down after a jump."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Option_Choose"]
+description = "Crisp confirming blip, ~0.58s — choosing a menu option."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/MP3_Option_Select"]
+description = "Bright two-tone menu beep, ~0.81s — navigating or selecting a menu item."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/MP3_Player_Death1"]
+description = "Falling, woozy bit-crushed motif, ~1.07s — the player dying."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:player" ]
+
+[assets."sounds/MP3_Player_Death2"]
+description = "Alternate downbeat player death tone, ~1.07s — variant of the death cue."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:player" ]
+
+[assets."sounds/MP3_Player_Pain1"]
+description = "Short pained grunt-like blip, ~0.32s — the player taking damage."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:player" ]
+
+[assets."sounds/MP3_Player_Pain2"]
+description = "Alternate hurt blip, ~0.32s — variant of the player pain sound."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:player" ]
+
+[assets."sounds/MP3_Potion_Collect"]
+description = "Sparkly pickup chime, ~0.58s — grabbing a potion."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:potion" ]
+
+[assets."sounds/MP3_Potion_Use"]
+description = "Bubbly rising swell, ~0.68s — drinking or using a potion."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:potion" ]
+
+[assets."sounds/MP3_Ranged_Attack"]
+description = "Zippy pew-style shot, ~0.45s — firing a ranged or thrown attack."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:projectile" ]
+
+[assets."sounds/MP3_Score_Counter"]
+description = "Tiny rapid tick, ~0.19s — a UI score tally counting up."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/MP3_Step1"]
+description = "Soft crunchy footstep tap, ~0.19s — a walking step."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Step2"]
+description = "Second footstep variant, ~0.19s — alternating walk step."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Sword_Hit1"]
+description = "Sharp metallic clash, ~0.32s — a sword strike connecting."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword", "subject:impact" ]
+
+[assets."sounds/MP3_Sword_Hit2"]
+description = "Alternate slashing impact, ~0.32s — variant sword hit."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword", "subject:impact" ]
+
+[assets."sounds/MP3_Sword_Swing1"]
+description = "Quick airy swoosh, ~0.32s — a sword swung through the air."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/MP3_Sword_Swing2"]
+description = "Second swoosh variant, ~0.32s — alternate sword swing."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/MP3_Water_Splash1"]
+description = "Wet bit-crushed plop, ~0.68s — a splash into water."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water", "subject:splash" ]
+
+[assets."sounds/MP3_Water_Splash2"]
+description = "Alternate watery splash, ~0.68s — variant splash sound."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:water", "subject:splash" ]

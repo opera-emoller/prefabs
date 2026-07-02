@@ -1,0 +1,210 @@
+id = "world-tilesets"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Twenty auto-tile-ready 47-tile platformer terrain tilesets across five biomes (ice, lava, haunted, neon city, underwater), each in pixel-art and illustrated styles and in side-on and top-down variants, with matching preview sprite copies."
+tags = [ "genre:platformer", "role:terrain" ]
+
+[export]
+include = [
+  "sprites/spr_illustrated_side_Flameville",
+  "sprites/spr_illustrated_side_Haunted_Graveyard",
+  "sprites/spr_illustrated_side_Ice_Land",
+  "sprites/spr_illustrated_side_Neon_City",
+  "sprites/spr_illustrated_side_Underwater",
+  "sprites/spr_illustrated_top_Flameville",
+  "sprites/spr_illustrated_top_Haunted_Graveyard",
+  "sprites/spr_illustrated_top_Ice_Land",
+  "sprites/spr_illustrated_top_Neon_City",
+  "sprites/spr_illustrated_top_Underwater",
+  "sprites/spr_pixel_side_Flameville",
+  "sprites/spr_pixel_side_Haunted_Graveyard",
+  "sprites/spr_pixel_side_Ice_Land",
+  "sprites/spr_pixel_side_Neon_City",
+  "sprites/spr_pixel_side_Underwater",
+  "sprites/spr_pixel_top_Flameville",
+  "sprites/spr_pixel_top_Haunted_Graveyard",
+  "sprites/spr_pixel_top_Ice_Land",
+  "sprites/spr_pixel_top_Neon_City",
+  "sprites/spr_pixel_top_Underwater",
+  "tilesets/ts_iIllustrated_side_Flameville",
+  "tilesets/ts_illustrated_side_Haunted_Graveyard",
+  "tilesets/ts_illustrated_side_Ice_Land",
+  "tilesets/ts_illustrated_side_Neon_City",
+  "tilesets/ts_illustrated_side_Underwater",
+  "tilesets/ts_illustrated_top_Flameville",
+  "tilesets/ts_illustrated_top_Haunted_Graveyard",
+  "tilesets/ts_illustrated_top_Ice_Land",
+  "tilesets/ts_illustrated_top_Neon_City",
+  "tilesets/ts_illustrated_top_Underwater",
+  "tilesets/ts_pixel_side_Flameville",
+  "tilesets/ts_pixel_side_Haunted_Graveyard",
+  "tilesets/ts_pixel_side_Ice_Land",
+  "tilesets/ts_pixel_side_Neon_City",
+  "tilesets/ts_pixel_side_Underwater",
+  "tilesets/ts_pixel_top_Flameville",
+  "tilesets/ts_pixel_top_Haunted_Graveyard",
+  "tilesets/ts_pixel_top_Ice_Land",
+  "tilesets/ts_pixel_top_Neon_City",
+  "tilesets/ts_pixel_top_Underwater",
+]
+
+[assets."tilesets/ts_iIllustrated_side_Flameville"]
+description = "Illustrated side-on volcano terrain: charred dark-brown rock with glowing orange-red molten lava rivers running along platform edges; 47-tile auto-tile layout."
+tags = [ "asset_type:tileset", "style:painted", "projection:side-view", "theme:volcanic", "subject:lava" ]
+
+[assets."tilesets/ts_illustrated_side_Haunted_Graveyard"]
+description = "Illustrated side-on haunted terrain: deep blue-purple cracked stone with mossy green slime dripping off platform ledges; gloomy graveyard vibe, 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:side-view", "theme:horror", "subject:ground" ]
+
+[assets."tilesets/ts_illustrated_side_Ice_Land"]
+description = "Illustrated side-on icy terrain: cold blue-grey cobbled rock capped with crusty white snow and icicles along platform tops; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:side-view", "theme:nature", "subject:ice" ]
+
+[assets."tilesets/ts_illustrated_side_Neon_City"]
+description = "Illustrated side-on cyberpunk terrain: near-black panelled stone with glowing cyan, magenta and orange neon edge strips; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:side-view", "theme:cyberpunk", "subject:city" ]
+
+[assets."tilesets/ts_illustrated_side_Underwater"]
+description = "Illustrated side-on underwater terrain: teal-cyan watery cobbled rock with bright aqua highlights along edges; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:side-view", "theme:underwater", "subject:water" ]
+
+[assets."tilesets/ts_illustrated_top_Flameville"]
+description = "Illustrated top-down volcano terrain: dark scorched rock walls bordering pools and channels of glowing orange lava; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:top-down", "theme:volcanic", "subject:lava" ]
+
+[assets."tilesets/ts_illustrated_top_Haunted_Graveyard"]
+description = "Illustrated top-down haunted terrain: blue-purple stone floors and walls trimmed with sickly green moss; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:top-down", "theme:horror", "subject:ground" ]
+
+[assets."tilesets/ts_illustrated_top_Ice_Land"]
+description = "Illustrated top-down icy terrain: blue-grey stone floors and walls dusted with white snow; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:top-down", "theme:nature", "subject:ice" ]
+
+[assets."tilesets/ts_illustrated_top_Neon_City"]
+description = "Illustrated top-down cyberpunk terrain: dark panelled stone floors and walls outlined with glowing neon cyan/magenta/orange trim; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:top-down", "theme:cyberpunk", "subject:city" ]
+
+[assets."tilesets/ts_illustrated_top_Underwater"]
+description = "Illustrated top-down underwater terrain: glowing teal-cyan water floors framed by dark blue stone walls; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:painted", "projection:top-down", "theme:underwater", "subject:water" ]
+
+[assets."tilesets/ts_pixel_side_Flameville"]
+description = "Pixel-art side-on volcano terrain: dark purple-black rock with bright orange and yellow molten lava; crisp low-res pixels, 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:side-view", "theme:volcanic", "subject:lava" ]
+
+[assets."tilesets/ts_pixel_side_Haunted_Graveyard"]
+description = "Pixel-art side-on haunted terrain: dark blue-grey stone platforms with green mossy tops; retro pixel look, 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:side-view", "theme:horror", "subject:ground" ]
+
+[assets."tilesets/ts_pixel_side_Ice_Land"]
+description = "Pixel-art side-on icy terrain: pale blue-grey blocks topped with white snow; crisp pixels, 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:side-view", "theme:nature", "subject:ice" ]
+
+[assets."tilesets/ts_pixel_side_Neon_City"]
+description = "Pixel-art side-on cyberpunk terrain: dark blocks with bright neon edge pixels in cyan, magenta and orange; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:side-view", "theme:cyberpunk", "subject:city" ]
+
+[assets."tilesets/ts_pixel_side_Underwater"]
+description = "Pixel-art side-on underwater terrain: bright cyan-and-blue water blocks with light highlights; crisp pixels, 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:side-view", "theme:underwater", "subject:water" ]
+
+[assets."tilesets/ts_pixel_top_Flameville"]
+description = "Pixel-art top-down volcano terrain: vivid orange-and-yellow lava channels between dark purple-black rock; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:top-down", "theme:volcanic", "subject:lava" ]
+
+[assets."tilesets/ts_pixel_top_Haunted_Graveyard"]
+description = "Pixel-art top-down haunted terrain: dark blue-grey stone floors and walls with green moss accents; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:top-down", "theme:horror", "subject:ground" ]
+
+[assets."tilesets/ts_pixel_top_Ice_Land"]
+description = "Pixel-art top-down icy terrain: pale blue-grey stone floors and walls with white snow; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:top-down", "theme:nature", "subject:ice" ]
+
+[assets."tilesets/ts_pixel_top_Neon_City"]
+description = "Pixel-art top-down cyberpunk terrain: dark stone floors and walls lined with bright neon pixel trim; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:top-down", "theme:cyberpunk", "subject:city" ]
+
+[assets."tilesets/ts_pixel_top_Underwater"]
+description = "Pixel-art top-down underwater terrain: glowing cyan water floors bordered by dark blue stone walls; 47-tile auto-tile set."
+tags = [ "asset_type:tileset", "style:pixel-art", "projection:top-down", "theme:underwater", "subject:water" ]
+
+[assets."sprites/spr_illustrated_side_Flameville"]
+description = "Preview sprite of the illustrated side-on Flameville tileset: charred rock with glowing orange lava rivers; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:side-view", "theme:volcanic", "subject:lava", "state:static" ]
+
+[assets."sprites/spr_illustrated_side_Haunted_Graveyard"]
+description = "Preview sprite of the illustrated side-on haunted graveyard tileset: blue-purple stone with mossy green ledges; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:side-view", "theme:horror", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_illustrated_side_Ice_Land"]
+description = "Preview sprite of the illustrated side-on ice tileset: blue-grey snow-capped stone; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:side-view", "theme:nature", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_illustrated_side_Neon_City"]
+description = "Preview sprite of the illustrated side-on neon city tileset: dark panels with cyan/magenta/orange neon trim; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:side-view", "theme:cyberpunk", "subject:city", "state:static" ]
+
+[assets."sprites/spr_illustrated_side_Underwater"]
+description = "Preview sprite of the illustrated side-on underwater tileset: teal-cyan watery stone; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:side-view", "theme:underwater", "subject:water", "state:static" ]
+
+[assets."sprites/spr_illustrated_top_Flameville"]
+description = "Preview sprite of the illustrated top-down Flameville tileset: dark rock around glowing lava pools; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:top-down", "theme:volcanic", "subject:lava", "state:static" ]
+
+[assets."sprites/spr_illustrated_top_Haunted_Graveyard"]
+description = "Preview sprite of the illustrated top-down haunted graveyard tileset: blue-purple stone with green moss; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:top-down", "theme:horror", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_illustrated_top_Ice_Land"]
+description = "Preview sprite of the illustrated top-down ice tileset: snow-dusted blue-grey stone; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:top-down", "theme:nature", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_illustrated_top_Neon_City"]
+description = "Preview sprite of the illustrated top-down neon city tileset: dark stone with glowing neon outlines; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:top-down", "theme:cyberpunk", "subject:city", "state:static" ]
+
+[assets."sprites/spr_illustrated_top_Underwater"]
+description = "Preview sprite of the illustrated top-down underwater tileset: glowing teal water floors framed by stone; single frame."
+tags = [ "asset_type:sprite", "style:painted", "projection:top-down", "theme:underwater", "subject:water", "state:static" ]
+
+[assets."sprites/spr_pixel_side_Flameville"]
+description = "Preview sprite of the pixel-art side-on Flameville tileset: dark rock with bright orange/yellow lava; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:side-view", "theme:volcanic", "subject:lava", "state:static" ]
+
+[assets."sprites/spr_pixel_side_Haunted_Graveyard"]
+description = "Preview sprite of the pixel-art side-on haunted graveyard tileset: blue-grey stone with mossy green tops; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:side-view", "theme:horror", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_pixel_side_Ice_Land"]
+description = "Preview sprite of the pixel-art side-on ice tileset: pale blue blocks topped with white snow; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:side-view", "theme:nature", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_pixel_side_Neon_City"]
+description = "Preview sprite of the pixel-art side-on neon city tileset: dark blocks with neon cyan/magenta/orange edges; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:side-view", "theme:cyberpunk", "subject:city", "state:static" ]
+
+[assets."sprites/spr_pixel_side_Underwater"]
+description = "Preview sprite of the pixel-art side-on underwater tileset: bright cyan-and-blue water blocks; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:side-view", "theme:underwater", "subject:water", "state:static" ]
+
+[assets."sprites/spr_pixel_top_Flameville"]
+description = "Preview sprite of the pixel-art top-down Flameville tileset: vivid lava channels in dark rock; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:top-down", "theme:volcanic", "subject:lava", "state:static" ]
+
+[assets."sprites/spr_pixel_top_Haunted_Graveyard"]
+description = "Preview sprite of the pixel-art top-down haunted graveyard tileset: dark blue-grey stone with green moss; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:top-down", "theme:horror", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_pixel_top_Ice_Land"]
+description = "Preview sprite of the pixel-art top-down ice tileset: pale blue-grey stone with white snow; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:top-down", "theme:nature", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_pixel_top_Neon_City"]
+description = "Preview sprite of the pixel-art top-down neon city tileset: dark stone with bright neon pixel trim; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:top-down", "theme:cyberpunk", "subject:city", "state:static" ]
+
+[assets."sprites/spr_pixel_top_Underwater"]
+description = "Preview sprite of the pixel-art top-down underwater tileset: glowing cyan water floors with dark stone walls; single frame."
+tags = [ "asset_type:sprite", "style:pixel-art", "projection:top-down", "theme:underwater", "subject:water", "state:static" ]

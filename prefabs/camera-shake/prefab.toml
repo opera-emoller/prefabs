@@ -1,0 +1,25 @@
+id = "camera-shake"
+version = "0.1.0"
+kind = "library"
+license = "MIT"
+description = "Camera-shake library: applies a configurable screen shake effect to the active camera for impacts, explosions, and hits. A single camera_shake(time, mag_r, mag_g, mag_b) call drives an RGB-split displacement that decays over the given duration."
+tags = [ "capability:camera", "capability:shader-effect", "role:vfx" ]
+
+[export]
+include = [
+  "scripts/scr_camera_shake",
+  "shaders/shdr_camera_shake",
+  "objects/obj_camera_shake",
+]
+
+[assets."scripts/scr_camera_shake"]
+description = "Core script exposing camera_shake(time, mag_r, mag_g, mag_b) to trigger and tune the shake — duration plus per-channel (red/green/blue) magnitude. Auto-creates the controller object on first call."
+tags = [ "asset_type:script" ]
+
+[assets."shaders/shdr_camera_shake"]
+description = "Fragment/vertex shader that performs the block-noise RGB-split screen displacement, with the offset scaled by the per-channel magnitudes and faded out as the shake progresses."
+tags = [ "asset_type:shader" ]
+
+[assets."objects/obj_camera_shake"]
+description = "Persistent controller object that captures the frame to a surface (Pre-Draw), advances the shake timer each step, and re-draws the surface through the shader on Draw-GUI-End before destroying itself when the shake finishes."
+tags = [ "asset_type:object" ]

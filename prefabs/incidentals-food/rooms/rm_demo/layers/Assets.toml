@@ -1,0 +1,1728 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_apple"
+sprite = "spr_apple"
+x = 22.4
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_apple_with_stroke"
+sprite = "spr_apple_with_stroke"
+x = 96.5
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bacon"
+sprite = "spr_bacon"
+x = 170.6
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bacon_with_stroke"
+sprite = "spr_bacon_with_stroke"
+x = 244.8
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_baguette"
+sprite = "spr_baguette"
+x = 318.9
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_baguette_with_stroke"
+sprite = "spr_baguette_with_stroke"
+x = 393.0
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_banana"
+sprite = "spr_banana"
+x = 467.1
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_banana_with_stroke"
+sprite = "spr_banana_with_stroke"
+x = 541.2
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bun"
+sprite = "spr_bun"
+x = 615.4
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bun_with_stroke"
+sprite = "spr_bun_with_stroke"
+x = 689.5
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_butter"
+sprite = "spr_butter"
+x = 763.6
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_butter_with_stroke"
+sprite = "spr_butter_with_stroke"
+x = 837.7
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cake"
+sprite = "spr_cake"
+x = 911.8
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cake_with_stroke"
+sprite = "spr_cake_with_stroke"
+x = 985.9
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_carrot"
+sprite = "spr_carrot"
+x = 1060.1
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_carrot_with_stroke"
+sprite = "spr_carrot_with_stroke"
+x = 1134.2
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cheese"
+sprite = "spr_cheese"
+x = 1208.3
+y = 16.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cheese_holes"
+sprite = "spr_cheese_holes"
+x = 22.4
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cheese_holes_with_stroke"
+sprite = "spr_cheese_holes_with_stroke"
+x = 96.5
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cheese_with_stroke"
+sprite = "spr_cheese_with_stroke"
+x = 170.6
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cherries"
+sprite = "spr_cherries"
+x = 244.8
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cherries_with_stroke"
+sprite = "spr_cherries_with_stroke"
+x = 318.9
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chicken_leg"
+sprite = "spr_chicken_leg"
+x = 393.0
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chicken_leg_with_stroke"
+sprite = "spr_chicken_leg_with_stroke"
+x = 467.1
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chicken_whole"
+sprite = "spr_chicken_whole"
+x = 541.2
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chicken_whole_with_stroke"
+sprite = "spr_chicken_whole_with_stroke"
+x = 615.4
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chilli"
+sprite = "spr_chilli"
+x = 689.5
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chilli_with_stroke"
+sprite = "spr_chilli_with_stroke"
+x = 763.6
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_choc_cake_slice"
+sprite = "spr_choc_cake_slice"
+x = 837.7
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_choc_cake_slice_with_stroke"
+sprite = "spr_choc_cake_slice_with_stroke"
+x = 911.8
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chocolate_bar"
+sprite = "spr_chocolate_bar"
+x = 985.9
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chocolate_bar_with_stroke"
+sprite = "spr_chocolate_bar_with_stroke"
+x = 1060.1
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chopsticks"
+sprite = "spr_chopsticks"
+x = 1134.2
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chopsticks_with_stroke"
+sprite = "spr_chopsticks_with_stroke"
+x = 1208.3
+y = 74.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cookie"
+sprite = "spr_cookie"
+x = 22.4
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cookie_with_stroke"
+sprite = "spr_cookie_with_stroke"
+x = 96.5
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_corn"
+sprite = "spr_corn"
+x = 170.6
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_corn_with_stroke"
+sprite = "spr_corn_with_stroke"
+x = 244.8
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crab_claw"
+sprite = "spr_crab_claw"
+x = 318.9
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crab_claw_with_stroke"
+sprite = "spr_crab_claw_with_stroke"
+x = 393.0
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crab_whole"
+sprite = "spr_crab_whole"
+x = 467.1
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crab_whole_with_stroke"
+sprite = "spr_crab_whole_with_stroke"
+x = 541.2
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_croissant"
+sprite = "spr_croissant"
+x = 615.4
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_croissant_with_stroke"
+sprite = "spr_croissant_with_stroke"
+x = 689.5
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cucumber"
+sprite = "spr_cucumber"
+x = 763.6
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cucumber_with_stroke"
+sprite = "spr_cucumber_with_stroke"
+x = 837.7
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cupcake_cho_with_stroke"
+sprite = "spr_cupcake_cho_with_stroke"
+x = 911.8
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cupcake_choc"
+sprite = "spr_cupcake_choc"
+x = 985.9
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cupcake_pink"
+sprite = "spr_cupcake_pink"
+x = 1060.1
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cupcake_pink_with_stroke"
+sprite = "spr_cupcake_pink_with_stroke"
+x = 1134.2
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_glazed"
+sprite = "spr_doughnut_glazed"
+x = 1208.3
+y = 132.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_glazed_with_stroke"
+sprite = "spr_doughnut_glazed_with_stroke"
+x = 22.4
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_pink"
+sprite = "spr_doughnut_pink"
+x = 96.5
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_pink_with_stroke"
+sprite = "spr_doughnut_pink_with_stroke"
+x = 170.6
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_with_choc_balls"
+sprite = "spr_doughnut_with_choc_balls"
+x = 244.8
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_doughnut_with_choc_balls_with_stroke"
+sprite = "spr_doughnut_with_choc_balls_with_stroke"
+x = 318.9
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_egg"
+sprite = "spr_egg"
+x = 393.0
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_egg_cracked"
+sprite = "spr_egg_cracked"
+x = 467.1
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_egg_cracked_with_stroke"
+sprite = "spr_egg_cracked_with_stroke"
+x = 541.2
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_egg_with_stroke"
+sprite = "spr_egg_with_stroke"
+x = 615.4
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fish"
+sprite = "spr_fish"
+x = 689.5
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fish_with_stroke"
+sprite = "spr_fish_with_stroke"
+x = 763.6
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fork"
+sprite = "spr_fork"
+x = 837.7
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fork_with_stroke"
+sprite = "spr_fork_with_stroke"
+x = 911.8
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_garlic"
+sprite = "spr_garlic"
+x = 985.9
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_garlic_with_stroke"
+sprite = "spr_garlic_with_stroke"
+x = 1060.1
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glass_of_milk"
+sprite = "spr_glass_of_milk"
+x = 1134.2
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glass_of_milk_with_stroke"
+sprite = "spr_glass_of_milk_with_stroke"
+x = 1208.3
+y = 190.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glass_of_water"
+sprite = "spr_glass_of_water"
+x = 22.4
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glass_of_water_with_stroke"
+sprite = "spr_glass_of_water_with_stroke"
+x = 96.5
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_grapes"
+sprite = "spr_grapes"
+x = 170.6
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_grapes_with_stroke"
+sprite = "spr_grapes_with_stroke"
+x = 244.8
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_mint"
+sprite = "spr_ice_cream_mint"
+x = 318.9
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_mint_choc_chip"
+sprite = "spr_ice_cream_mint_choc_chip"
+x = 393.0
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_mint_choc_chip_with_stroke"
+sprite = "spr_ice_cream_mint_choc_chip_with_stroke"
+x = 467.1
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_mint_with_stroke"
+sprite = "spr_ice_cream_mint_with_stroke"
+x = 541.2
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_vanilla"
+sprite = "spr_ice_cream_vanilla"
+x = 615.4
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_vanilla_with_sprinkles"
+sprite = "spr_ice_cream_vanilla_with_sprinkles"
+x = 689.5
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_vanilla_with_sprinkles_with_stroke"
+sprite = "spr_ice_cream_vanilla_with_sprinkles_with_stroke"
+x = 763.6
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_cream_vanilla_with_stroke"
+sprite = "spr_ice_cream_vanilla_with_stroke"
+x = 837.7
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_blue"
+sprite = "spr_jug_blue"
+x = 911.8
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_blue_with_stroke"
+sprite = "spr_jug_blue_with_stroke"
+x = 985.9
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_cyan"
+sprite = "spr_jug_cyan"
+x = 1060.1
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_cyan_with_stroke"
+sprite = "spr_jug_cyan_with_stroke"
+x = 1134.2
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_empty"
+sprite = "spr_jug_empty"
+x = 1208.3
+y = 248.3
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_empty_with_stroke"
+sprite = "spr_jug_empty_with_stroke"
+x = 22.4
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_green"
+sprite = "spr_jug_green"
+x = 96.5
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_green_with_stroke"
+sprite = "spr_jug_green_with_stroke"
+x = 170.6
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_orange"
+sprite = "spr_jug_orange"
+x = 244.8
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_orange_with_stroke"
+sprite = "spr_jug_orange_with_stroke"
+x = 318.9
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_pink"
+sprite = "spr_jug_pink"
+x = 393.0
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_pink_with_stroke"
+sprite = "spr_jug_pink_with_stroke"
+x = 467.1
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_purple"
+sprite = "spr_jug_purple"
+x = 541.2
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_purple_with_stroke"
+sprite = "spr_jug_purple_with_stroke"
+x = 615.4
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_red"
+sprite = "spr_jug_red"
+x = 689.5
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_red_with_stroke"
+sprite = "spr_jug_red_with_stroke"
+x = 763.6
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_yellow"
+sprite = "spr_jug_yellow"
+x = 837.7
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jug_yellow_with_stroke"
+sprite = "spr_jug_yellow_with_stroke"
+x = 911.8
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife"
+sprite = "spr_knife"
+x = 985.9
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knife_with_stroke"
+sprite = "spr_knife_with_stroke"
+x = 1060.1
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_leek"
+sprite = "spr_leek"
+x = 1134.2
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_leek_with_stroke"
+sprite = "spr_leek_with_stroke"
+x = 1208.3
+y = 306.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lemon"
+sprite = "spr_lemon"
+x = 22.4
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lemon_with_stroke"
+sprite = "spr_lemon_with_stroke"
+x = 96.5
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lettuce"
+sprite = "spr_lettuce"
+x = 170.6
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lettuce_with_stroke"
+sprite = "spr_lettuce_with_stroke"
+x = 244.8
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_loaf"
+sprite = "spr_loaf"
+x = 318.9
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_loaf_with_stroke"
+sprite = "spr_loaf_with_stroke"
+x = 393.0
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_muffin_blueberry"
+sprite = "spr_muffin_blueberry"
+x = 467.1
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_muffin_blueberry_with_stroke"
+sprite = "spr_muffin_blueberry_with_stroke"
+x = 541.2
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_muffin_choc"
+sprite = "spr_muffin_choc"
+x = 615.4
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_muffin_choc_with_stroke"
+sprite = "spr_muffin_choc_with_stroke"
+x = 689.5
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mushroom"
+sprite = "spr_mushroom"
+x = 763.6
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mushroom_with_stroke"
+sprite = "spr_mushroom_with_stroke"
+x = 837.7
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_onion"
+sprite = "spr_onion"
+x = 911.8
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_onion_with_stroke"
+sprite = "spr_onion_with_stroke"
+x = 985.9
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_orange"
+sprite = "spr_orange"
+x = 1060.1
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_orange_with_stroke"
+sprite = "spr_orange_with_stroke"
+x = 1134.2
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pear"
+sprite = "spr_pear"
+x = 1208.3
+y = 364.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pear_with_stroke"
+sprite = "spr_pear_with_stroke"
+x = 22.4
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pink_cake_slice"
+sprite = "spr_pink_cake_slice"
+x = 96.5
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pink_cake_slice_with_stroke"
+sprite = "spr_pink_cake_slice_with_stroke"
+x = 170.6
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_porridge"
+sprite = "spr_porridge"
+x = 244.8
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_porridge_with_stroke"
+sprite = "spr_porridge_with_stroke"
+x = 318.9
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_red_mushroom"
+sprite = "spr_red_mushroom"
+x = 393.0
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_red_mushroom_with_stroke"
+sprite = "spr_red_mushroom_with_stroke"
+x = 467.1
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_red_onion"
+sprite = "spr_red_onion"
+x = 541.2
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_red_onion_with_stroke"
+sprite = "spr_red_onion_with_stroke"
+x = 615.4
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ribs"
+sprite = "spr_ribs"
+x = 689.5
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ribs_with_stroke"
+sprite = "spr_ribs_with_stroke"
+x = 763.6
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_salmon_fillet"
+sprite = "spr_salmon_fillet"
+x = 837.7
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_salmon_fillet_with_stroke"
+sprite = "spr_salmon_fillet_with_stroke"
+x = 911.8
+y = 422.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_salmon_steak"
+sprite = "spr_salmon_steak"
+x = 22.4
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_salmon_steak_with_stroke"
+sprite = "spr_salmon_steak_with_stroke"
+x = 96.5
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spoon"
+sprite = "spr_spoon"
+x = 170.6
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spoon_with_stroke"
+sprite = "spr_spoon_with_stroke"
+x = 244.8
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spork"
+sprite = "spr_spork"
+x = 318.9
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spork_with_stroke"
+sprite = "spr_spork_with_stroke"
+x = 393.0
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_steak"
+sprite = "spr_steak"
+x = 467.1
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_steak_knife"
+sprite = "spr_steak_knife"
+x = 541.2
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_steak_knife_with_stroke"
+sprite = "spr_steak_knife_with_stroke"
+x = 615.4
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_steak_with_stroke"
+sprite = "spr_steak_with_stroke"
+x = 689.5
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_strawberry"
+sprite = "spr_strawberry"
+x = 763.6
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_strawberry_with_stroke"
+sprite = "spr_strawberry_with_stroke"
+x = 837.7
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_1"
+sprite = "spr_sushi_1"
+x = 911.8
+y = 480.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_1_with_stroke"
+sprite = "spr_sushi_1_with_stroke"
+x = 22.4
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_2"
+sprite = "spr_sushi_2"
+x = 96.5
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_2_with_stroke"
+sprite = "spr_sushi_2_with_stroke"
+x = 170.6
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_3"
+sprite = "spr_sushi_3"
+x = 244.8
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sushi_3_with_stroke"
+sprite = "spr_sushi_3_with_stroke"
+x = 318.9
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tin_empty"
+sprite = "spr_tin_empty"
+x = 393.0
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tin_empty_with_stroke"
+sprite = "spr_tin_empty_with_stroke"
+x = 467.1
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_bean"
+sprite = "spr_tinned_bean"
+x = 541.2
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_beans_with_stroke"
+sprite = "spr_tinned_beans_with_stroke"
+x = 615.4
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_fruit"
+sprite = "spr_tinned_fruit"
+x = 689.5
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_fruit_with_stroke"
+sprite = "spr_tinned_fruit_with_stroke"
+x = 763.6
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_soup"
+sprite = "spr_tinned_soup"
+x = 837.7
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_soup_with_stroke"
+sprite = "spr_tinned_soup_with_stroke"
+x = 911.8
+y = 538.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_tuna"
+sprite = "spr_tinned_tuna"
+x = 22.4
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tinned_tuna_with_stroke"
+sprite = "spr_tinned_tuna_with_stroke"
+x = 96.5
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_toast"
+sprite = "spr_toast"
+x = 170.6
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_toast_with_jam"
+sprite = "spr_toast_with_jam"
+x = 244.8
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_toast_with_jam_with_stroke"
+sprite = "spr_toast_with_jam_with_stroke"
+x = 318.9
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_toast_with_stroke"
+sprite = "spr_toast_with_stroke"
+x = 393.0
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tomato"
+sprite = "spr_tomato"
+x = 467.1
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tomato_with_stroke"
+sprite = "spr_tomato_with_stroke"
+x = 541.2
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tuna_steak"
+sprite = "spr_tuna_steak"
+x = 615.4
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tuna_steak_with_stroke"
+sprite = "spr_tuna_steak_with_stroke"
+x = 689.5
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wine_bottle"
+sprite = "spr_wine_bottle"
+x = 763.6
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wine_bottle_with_stroke"
+sprite = "spr_wine_bottle_with_stroke"
+x = 837.7
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wine_glass"
+sprite = "spr_wine_glass"
+x = 911.8
+y = 596.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wine_glass_with_stroke"
+sprite = "spr_wine_glass_with_stroke"
+x = 22.4
+y = 654.4
+scale_x = 0.2465
+scale_y = 0.2465
+rotation = 0.0
+colour = "#FFFFFFFF"
+

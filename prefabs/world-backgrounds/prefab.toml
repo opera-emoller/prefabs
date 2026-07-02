@@ -1,0 +1,430 @@
+id = "world-backgrounds"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Parallax background packs for five themed game worlds — volcanic Flameville, a haunted graveyard, a snowy Ice Land, a glowing Neon City, and a sunken Underwater ruin — each delivered as a full composite plus 5+ separable parallax layers, in two visual styles: chunky retro pixel art and smooth illustrated/painted art. Colorful, atmospheric, 1920x1080."
+tags = [ "role:background", "projection:background", "state:static" ]
+
+[export]
+include = [
+  "sprites/spr_flameville",
+  "sprites/spr_flameville_layer00",
+  "sprites/spr_flameville_layer00_vec",
+  "sprites/spr_flameville_layer01",
+  "sprites/spr_flameville_layer01_vec",
+  "sprites/spr_flameville_layer02",
+  "sprites/spr_flameville_layer02_vec",
+  "sprites/spr_flameville_layer03",
+  "sprites/spr_flameville_layer03_vec",
+  "sprites/spr_flameville_layer04",
+  "sprites/spr_flameville_layer04_vec",
+  "sprites/spr_flameville_layer05",
+  "sprites/spr_flameville_layer05_vec",
+  "sprites/spr_flameville_layer06",
+  "sprites/spr_flameville_layer06_vec",
+  "sprites/spr_flameville_layer07_vec",
+  "sprites/spr_flameville_vec",
+  "sprites/spr_haunted_graveyard",
+  "sprites/spr_haunted_graveyard_layer00_vec",
+  "sprites/spr_haunted_graveyard_layer01_vec",
+  "sprites/spr_haunted_graveyard_layer02_vec",
+  "sprites/spr_haunted_graveyard_layer03_vec",
+  "sprites/spr_haunted_graveyard_layer04_vec",
+  "sprites/spr_haunted_graveyard_layer05_vec",
+  "sprites/spr_haunted_graveyard_layer06_vec",
+  "sprites/spr_haunted_graveyard_layer07_vec",
+  "sprites/spr_haunted_graveyard_layer08_vec",
+  "sprites/spr_haunted_graveyard_layer09_vec",
+  "sprites/spr_haunted_graveyard_vec",
+  "sprites/spr_haunted_graveyardlayer_00",
+  "sprites/spr_haunted_graveyardlayer_01",
+  "sprites/spr_haunted_graveyardlayer_02",
+  "sprites/spr_haunted_graveyardlayer_03",
+  "sprites/spr_haunted_graveyardlayer_04",
+  "sprites/spr_haunted_graveyardlayer_05",
+  "sprites/spr_ice_land",
+  "sprites/spr_ice_land_layer00_vec",
+  "sprites/spr_ice_land_layer01_vec",
+  "sprites/spr_ice_land_layer02_vec",
+  "sprites/spr_ice_land_layer03_vec",
+  "sprites/spr_ice_land_layer04_vec",
+  "sprites/spr_ice_land_layer05_vec",
+  "sprites/spr_ice_land_layer06_vec",
+  "sprites/spr_ice_land_layer07_vec",
+  "sprites/spr_ice_land_vec",
+  "sprites/spr_iceland_layer00",
+  "sprites/spr_iceland_layer01",
+  "sprites/spr_iceland_layer02",
+  "sprites/spr_iceland_layer03",
+  "sprites/spr_iceland_layer04",
+  "sprites/spr_iceland_layer05",
+  "sprites/spr_neon_city",
+  "sprites/spr_neon_city_layer00",
+  "sprites/spr_neon_city_layer00_vec",
+  "sprites/spr_neon_city_layer01",
+  "sprites/spr_neon_city_layer01_vec",
+  "sprites/spr_neon_city_layer02",
+  "sprites/spr_neon_city_layer02_vec",
+  "sprites/spr_neon_city_layer03",
+  "sprites/spr_neon_city_layer03_vec",
+  "sprites/spr_neon_city_layer04",
+  "sprites/spr_neon_city_layer04_vec",
+  "sprites/spr_neon_city_layer05",
+  "sprites/spr_neon_city_layer05_vec",
+  "sprites/spr_neon_city_layer06",
+  "sprites/spr_neon_city_vec",
+  "sprites/spr_underwater",
+  "sprites/spr_underwater_layer00",
+  "sprites/spr_underwater_layer00_vec",
+  "sprites/spr_underwater_layer01",
+  "sprites/spr_underwater_layer01_vec",
+  "sprites/spr_underwater_layer02",
+  "sprites/spr_underwater_layer02_vec",
+  "sprites/spr_underwater_layer03",
+  "sprites/spr_underwater_layer03_vec",
+  "sprites/spr_underwater_layer04",
+  "sprites/spr_underwater_layer04_vec",
+  "sprites/spr_underwater_layer05",
+  "sprites/spr_underwater_layer05_vec",
+  "sprites/spr_underwater_layer06_vec",
+  "sprites/spr_underwater_layer07_vec",
+  "sprites/spr_underwater_layer08_vec",
+  "sprites/spr_underwater_layer09_vec",
+  "sprites/spr_underwater_vec",
+]
+
+[assets."sprites/spr_flameville"]
+description = "Pixel-art volcanic landscape: an erupting volcano spewing lava down its slopes, glowing molten rivers in the foreground and a fiery orange-and-purple sky."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer00"]
+description = "Pixel-art back sky band for the volcanic scene — dark indigo fading to fiery orange and yellow at the horizon."
+tags = [ "asset_type:sprite", "subject:sky", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer01"]
+description = "Pixel-art streaky ember clouds in red and orange for the volcanic sky."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer02"]
+description = "Pixel-art far mountain ridge silhouette in dark purple for the volcanic backdrop."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer03"]
+description = "Pixel-art mid mountain range with the central erupting volcano peak."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer04"]
+description = "Pixel-art glowing molten lava field flowing across the volcanic mid-ground."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer05"]
+description = "Pixel-art churning lava and cracked rock in vivid orange and pink for the foreground."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_layer06"]
+description = "Pixel-art foreground crust of cooled black rock veined with bright lava."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:pixel-art" ]
+
+[assets."sprites/spr_flameville_vec"]
+description = "Illustrated volcanic scene: a smoking volcano erupting over jagged rock, blazing lava cracks snaking across the ground, soft peach sky with distant birds."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer00_vec"]
+description = "Painted sky gradient for the volcanic world, warm peach to dusky rose."
+tags = [ "asset_type:sprite", "subject:sky", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer01_vec"]
+description = "Painted wispy clouds and rising smoke over the volcanic horizon."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer02_vec"]
+description = "Painted far purple mountain silhouettes for the lava world."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer03_vec"]
+description = "Painted mid-ground rocky ridge with the erupting volcano cone."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer04_vec"]
+description = "Painted network of bright molten lava cracks across dark rock."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer05_vec"]
+description = "Painted glowing lava flow pooling in the foreground rock."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer06_vec"]
+description = "Painted dark rocky foreground ledge lit by lava glow."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_flameville_layer07_vec"]
+description = "Painted topmost overhang of charred rock framing the volcanic scene."
+tags = [ "asset_type:sprite", "subject:lava", "theme:volcanic", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard"]
+description = "Pixel-art spooky graveyard at night: gnarled bare trees, tilted gravestones, glowing lanterns and a witch-house under a purple dusk sky with a pale crescent moon."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_vec"]
+description = "Illustrated haunted graveyard: a creepy chapel with a cross and lit windows beside a dead tree, bats and skulls under a glowing full moon."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer00_vec"]
+description = "Painted deep blue-purple night sky with a big glowing moon for the haunted scene."
+tags = [ "asset_type:sprite", "subject:sky", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer01_vec"]
+description = "Painted thin drifting night clouds across the moonlit sky."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer02_vec"]
+description = "Painted dark distant hills and pine-tree silhouettes behind the graveyard."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer03_vec"]
+description = "Painted bare twisted tree silhouette for the graveyard mid-ground."
+tags = [ "asset_type:sprite", "subject:tree", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer04_vec"]
+description = "Painted grassy graveyard mound dotted with tombstones."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer05_vec"]
+description = "Painted large gnarled foreground tree framing the haunted scene."
+tags = [ "asset_type:sprite", "subject:tree", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer06_vec"]
+description = "Painted foreground graveyard ground with scattered headstones and skulls."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer07_vec"]
+description = "Painted dead-branch foliage overhanging the top of the scene."
+tags = [ "asset_type:sprite", "subject:tree", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer08_vec"]
+description = "Painted closest graveyard turf and grave markers in deep shadow."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyard_layer09_vec"]
+description = "Painted nearest dark tree trunk and roots at the scene edge."
+tags = [ "asset_type:sprite", "subject:tree", "theme:horror", "style:painted" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_00"]
+description = "Pixel-art night sky gradient, indigo to violet, with a pale crescent moon."
+tags = [ "asset_type:sprite", "subject:sky", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_01"]
+description = "Pixel-art banded purple night clouds for the graveyard sky."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_02"]
+description = "Pixel-art dark hill silhouettes behind the haunted graveyard."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_03"]
+description = "Pixel-art twisted dead trees and a distant witch-house with lit windows."
+tags = [ "asset_type:sprite", "subject:tree", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_04"]
+description = "Pixel-art green grassy graveyard with tombstones, lanterns and a broken fence."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_haunted_graveyardlayer_05"]
+description = "Pixel-art foreground graveyard turf with leaning headstones and barbed fencing."
+tags = [ "asset_type:sprite", "subject:graveyard", "theme:horror", "style:pixel-art" ]
+
+[assets."sprites/spr_ice_land"]
+description = "Pixel-art snowy wilderness: snow-laden pine trees, a tiny igloo and a frozen blue lake before towering snow-capped mountains under a pastel sky with fluffy clouds."
+tags = [ "asset_type:sprite", "subject:snow", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_ice_land_vec"]
+description = "Illustrated cozy winter village: a red-roofed cabin and snow-covered houses on rolling white hills with a frosted tree, falling snow under a soft dusk sky."
+tags = [ "asset_type:sprite", "subject:snow", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer00_vec"]
+description = "Painted soft winter sky gradient, pale blue to rosy lilac."
+tags = [ "asset_type:sprite", "subject:sky", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer01_vec"]
+description = "Painted faint clouds and drifting snow streaks across the winter sky."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer02_vec"]
+description = "Painted far snowy mountain ridge in cool blue tones."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer03_vec"]
+description = "Painted mid-ground snow-covered hills."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer04_vec"]
+description = "Painted rolling foreground snowdrifts."
+tags = [ "asset_type:sprite", "subject:snow", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer05_vec"]
+description = "Painted snow-laden tree with chunky white canopy."
+tags = [ "asset_type:sprite", "subject:tree", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer06_vec"]
+description = "Painted second frosted foreground tree and bare branches."
+tags = [ "asset_type:sprite", "subject:tree", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_ice_land_layer07_vec"]
+description = "Painted nearest snowbank and ground at the scene edge."
+tags = [ "asset_type:sprite", "subject:snow", "theme:nature", "style:painted" ]
+
+[assets."sprites/spr_iceland_layer00"]
+description = "Pixel-art pastel winter sky, blue fading to cream at the horizon."
+tags = [ "asset_type:sprite", "subject:sky", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_iceland_layer01"]
+description = "Pixel-art puffy yellow-green clouds drifting over the icy sky."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_iceland_layer02"]
+description = "Pixel-art jagged snow-capped mountain range in blue and white."
+tags = [ "asset_type:sprite", "subject:mountain", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_iceland_layer03"]
+description = "Pixel-art frozen lake with ice floes and a small igloo on the snow."
+tags = [ "asset_type:sprite", "subject:snow", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_iceland_layer04"]
+description = "Pixel-art snow-covered pine trees on a white field."
+tags = [ "asset_type:sprite", "subject:tree", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_iceland_layer05"]
+description = "Pixel-art foreground snowy pines on a pale icy slope."
+tags = [ "asset_type:sprite", "subject:tree", "theme:nature", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city"]
+description = "Pixel-art cyberpunk skyline: a dense wall of skyscrapers glowing in electric pink, cyan, green and orange neon above a magenta wireframe grid street."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer00"]
+description = "Pixel-art night city sky, deep navy fading to magenta at the base."
+tags = [ "asset_type:sprite", "subject:sky", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer01"]
+description = "Pixel-art purple-pink smog clouds drifting over the neon skyline."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer02"]
+description = "Pixel-art far row of dim neon high-rises."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer03"]
+description = "Pixel-art mid-ground towers studded with bright neon windows and signs."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer04"]
+description = "Pixel-art tall foreground skyscrapers blazing with colored neon."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer05"]
+description = "Pixel-art front buildings and glowing street-light poles."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_layer06"]
+description = "Pixel-art magenta wireframe grid street in the immediate foreground."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:pixel-art" ]
+
+[assets."sprites/spr_neon_city_vec"]
+description = "Illustrated cyberpunk rooftop view: vibrant neon skyscrapers and a spherical tower across the skyline, silhouetted figures on a glowing-edged rooftop."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer00_vec"]
+description = "Painted dark teal night-city sky gradient."
+tags = [ "asset_type:sprite", "subject:sky", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer01_vec"]
+description = "Painted faint haze and glow clouds over the neon city."
+tags = [ "asset_type:sprite", "subject:cloud", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer02_vec"]
+description = "Painted distant neon-lit towers in cool shadow."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer03_vec"]
+description = "Painted mid skyline of colorful glowing skyscrapers and a globe tower."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer04_vec"]
+description = "Painted nearer neon buildings with bright lit windows."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_neon_city_layer05_vec"]
+description = "Painted foreground rooftop railing with neon edge lighting."
+tags = [ "asset_type:sprite", "subject:city", "theme:cyberpunk", "style:painted" ]
+
+[assets."sprites/spr_underwater"]
+description = "Pixel-art sunken ruins: Greek-style columns, temples and a trident-bearing statue amid kelp, coral and schools of fish in turquoise water pierced by light rays."
+tags = [ "asset_type:sprite", "subject:water", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer00"]
+description = "Pixel-art bright turquoise water surface with diagonal sun-ray streaks and bubbles."
+tags = [ "asset_type:sprite", "subject:water", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer01"]
+description = "Pixel-art deeper teal water tint for the mid-water column."
+tags = [ "asset_type:sprite", "subject:water", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer02"]
+description = "Pixel-art tall swaying kelp and seaweed strands."
+tags = [ "asset_type:sprite", "subject:foliage", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer03"]
+description = "Pixel-art submerged ruined temples and columns in the mid-ground."
+tags = [ "asset_type:sprite", "subject:building", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer04"]
+description = "Pixel-art foreground sunken structures and a statue on a plinth."
+tags = [ "asset_type:sprite", "subject:building", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_layer05"]
+description = "Pixel-art seabed with coral, rocks and scattered debris."
+tags = [ "asset_type:sprite", "subject:foliage", "theme:underwater", "style:pixel-art" ]
+
+[assets."sprites/spr_underwater_vec"]
+description = "Illustrated ocean grotto: a sunken Greek temple and an open treasure chest among coral, kelp and tropical fish, lit by sun rays through deep blue water."
+tags = [ "asset_type:sprite", "subject:cave", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer00_vec"]
+description = "Painted bright surface water with sunbeams streaming down."
+tags = [ "asset_type:sprite", "subject:water", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer01_vec"]
+description = "Painted deep blue mid-water column with light shafts."
+tags = [ "asset_type:sprite", "subject:water", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer02_vec"]
+description = "Painted dark rocky underwater cliffs and outcrops."
+tags = [ "asset_type:sprite", "subject:rock", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer03_vec"]
+description = "Painted schools of small orange tropical fish."
+tags = [ "asset_type:sprite", "subject:fish", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer04_vec"]
+description = "Painted sunken columned temple ruin in the mid-ground."
+tags = [ "asset_type:sprite", "subject:building", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer05_vec"]
+description = "Painted rocky seabed rise and boulders."
+tags = [ "asset_type:sprite", "subject:rock", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer06_vec"]
+description = "Painted open treasure chest spilling gold on the ocean floor."
+tags = [ "asset_type:sprite", "subject:chest", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer07_vec"]
+description = "Painted swaying kelp and seagrass in the mid-ground."
+tags = [ "asset_type:sprite", "subject:foliage", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer08_vec"]
+description = "Painted vivid foreground coral and anemones in pink and orange."
+tags = [ "asset_type:sprite", "subject:foliage", "theme:underwater", "style:painted" ]
+
+[assets."sprites/spr_underwater_layer09_vec"]
+description = "Painted dark foreground cave rock framing the underwater grotto."
+tags = [ "asset_type:sprite", "subject:cave", "theme:underwater", "style:painted" ]

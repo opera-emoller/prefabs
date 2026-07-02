@@ -1,0 +1,588 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_building_1_animated"
+sprite = "spr_building_1_animated"
+x = 50.4
+y = 19.5
+scale_x = 3.01837
+scale_y = 3.01837
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_building_2_animated"
+sprite = "spr_building_2_animated"
+x = 177.9
+y = 19.5
+scale_x = 2.81714
+scale_y = 2.81714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_building_3_animated"
+sprite = "spr_building_3_animated"
+x = 295.6
+y = 19.5
+scale_x = 3.67453
+scale_y = 3.67453
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_building_4_animated"
+sprite = "spr_building_4_animated"
+x = 420.3
+y = 19.5
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_building_5_animated"
+sprite = "spr_building_5_animated"
+x = 554.5
+y = 19.5
+scale_x = 2.81714
+scale_y = 2.81714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_building_6_animated"
+sprite = "spr_building_6_animated"
+x = 660.7
+y = 22.1
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_buildings_strip"
+sprite = "spr_buildings_strip"
+x = 821.3
+y = 19.5
+scale_x = 0.48019
+scale_y = 0.48019
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_huge"
+sprite = "spr_cloud_huge"
+x = 912.7
+y = 23.7
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_huge_shadow"
+sprite = "spr_cloud_huge_shadow"
+x = 1038.7
+y = 23.7
+scale_x = 2.11286
+scale_y = 2.11286
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_large"
+sprite = "spr_cloud_large"
+x = 1164.7
+y = 31.2
+scale_x = 0.87128
+scale_y = 0.87128
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_large_shadow"
+sprite = "spr_cloud_large_shadow"
+x = 30.7
+y = 130.3
+scale_x = 1.76071
+scale_y = 1.76071
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_medium"
+sprite = "spr_cloud_medium"
+x = 156.7
+y = 130.7
+scale_x = 1.24286
+scale_y = 1.24286
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_medium_shadow"
+sprite = "spr_cloud_medium_shadow"
+x = 282.7
+y = 130.1
+scale_x = 2.48571
+scale_y = 2.48571
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_small"
+sprite = "spr_cloud_small"
+x = 408.7
+y = 133.5
+scale_x = 1.53662
+scale_y = 1.53662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_small_shadow"
+sprite = "spr_cloud_small_shadow"
+x = 534.7
+y = 131.4
+scale_x = 3.13016
+scale_y = 3.13016
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_tiny"
+sprite = "spr_cloud_tiny"
+x = 660.7
+y = 131.1
+scale_x = 2.22406
+scale_y = 2.22406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cloud_tiny_shadow"
+sprite = "spr_cloud_tiny_shadow"
+x = 786.7
+y = 130.0
+scale_x = 4.44812
+scale_y = 4.44812
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_clouds_shadows_strip"
+sprite = "spr_clouds_shadows_strip"
+x = 912.7
+y = 127.9
+scale_x = 1.50918
+scale_y = 1.50918
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_clouds_strip"
+sprite = "spr_clouds_strip"
+x = 1038.7
+y = 127.9
+scale_x = 0.75459
+scale_y = 0.75459
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_car_side"
+sprite = "spr_enemy_train_car_side"
+x = 1164.7
+y = 118.9
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_car_strip"
+sprite = "spr_enemy_train_car_strip"
+x = 30.7
+y = 218.3
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_car_updown"
+sprite = "spr_enemy_train_car_updown"
+x = 156.7
+y = 218.3
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_down"
+sprite = "spr_enemy_train_down"
+x = 282.7
+y = 218.3
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_side"
+sprite = "spr_enemy_train_side"
+x = 408.7
+y = 218.3
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_strip"
+sprite = "spr_enemy_train_strip"
+x = 534.7
+y = 218.3
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_enemy_train_up"
+sprite = "spr_enemy_train_up"
+x = 660.7
+y = 218.3
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_explosion_big"
+sprite = "spr_explosion_big"
+x = 786.7
+y = 218.3
+scale_x = 1.32054
+scale_y = 1.32054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_explosion_small"
+sprite = "spr_explosion_small"
+x = 912.7
+y = 218.3
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_item_arrowUp"
+sprite = "spr_item_arrowUp"
+x = 1052.2
+y = 218.3
+scale_x = 1.79818
+scale_y = 1.79818
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_item_outline"
+sprite = "spr_item_outline"
+x = 1164.7
+y = 239.9
+scale_x = 0.88036
+scale_y = 0.88036
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_item_outline_palette"
+sprite = "spr_item_outline_palette"
+x = 46.0
+y = 357.0
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_item_shadow"
+sprite = "spr_item_shadow"
+x = 184.0
+y = 336.0
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_item_strip"
+sprite = "spr_item_strip"
+x = 296.2
+y = 317.7
+scale_x = 1.79818
+scale_y = 1.79818
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_big_1_strip"
+sprite = "spr_plane_enemy_big_1_strip"
+x = 408.7
+y = 317.7
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_big_2_strip"
+sprite = "spr_plane_enemy_big_2_strip"
+x = 534.7
+y = 317.7
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_big_3_strip"
+sprite = "spr_plane_enemy_big_3_strip"
+x = 660.7
+y = 317.7
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_medium_1"
+sprite = "spr_plane_enemy_medium_1"
+x = 786.7
+y = 317.7
+scale_x = 1.32054
+scale_y = 1.32054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_medium_2"
+sprite = "spr_plane_enemy_medium_2"
+x = 912.7
+y = 317.7
+scale_x = 1.32054
+scale_y = 1.32054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_medium_3"
+sprite = "spr_plane_enemy_medium_3"
+x = 1038.7
+y = 317.7
+scale_x = 1.32054
+scale_y = 1.32054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_shadow"
+sprite = "spr_plane_enemy_shadow"
+x = 1168.0
+y = 327.0
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_small_1"
+sprite = "spr_plane_enemy_small_1"
+x = 30.7
+y = 417.2
+scale_x = 1.76071
+scale_y = 1.76071
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_small_2"
+sprite = "spr_plane_enemy_small_2"
+x = 156.7
+y = 417.2
+scale_x = 1.76071
+scale_y = 1.76071
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_small_3"
+sprite = "spr_plane_enemy_small_3"
+x = 282.7
+y = 417.2
+scale_x = 1.76071
+scale_y = 1.76071
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_enemy_turret"
+sprite = "spr_plane_enemy_turret"
+x = 408.7
+y = 417.2
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_player"
+sprite = "spr_plane_player"
+x = 534.7
+y = 417.2
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plane_player_shadow"
+sprite = "spr_plane_player_shadow"
+x = 664.0
+y = 423.4
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_bomb_big"
+sprite = "spr_projectile_bomb_big"
+x = 807.9
+y = 417.2
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_bomb_small"
+sprite = "spr_projectile_bomb_small"
+x = 51.9
+y = 516.6
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_circle_big"
+sprite = "spr_projectile_circle_big"
+x = 156.7
+y = 516.6
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_circle_small"
+sprite = "spr_projectile_circle_small"
+x = 282.7
+y = 516.6
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_missile_big"
+sprite = "spr_projectile_missile_big"
+x = 429.9
+y = 516.6
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_missile_small"
+sprite = "spr_projectile_missile_small"
+x = 555.9
+y = 516.6
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_shot_big"
+sprite = "spr_projectile_shot_big"
+x = 681.9
+y = 516.6
+scale_x = 2.64107
+scale_y = 2.64107
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_projectile_shot_small"
+sprite = "spr_projectile_shot_small"
+x = 786.7
+y = 516.6
+scale_x = 5.28214
+scale_y = 5.28214
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_shield"
+sprite = "spr_shield"
+x = 30.7
+y = 616.0
+scale_x = 1.05643
+scale_y = 1.05643
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ui_font_score_8x8"
+sprite = "spr_ui_font_score_8x8"
+x = 175.0
+y = 634.3
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ui_font_text_en_8x8"
+sprite = "spr_ui_font_text_en_8x8"
+x = 301.0
+y = 634.3
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ui_icon_health"
+sprite = "spr_ui_icon_health"
+x = 415.0
+y = 622.3
+scale_x = 6.0
+scale_y = 6.0
+rotation = 0.0
+colour = "#FFFFFFFF"
+

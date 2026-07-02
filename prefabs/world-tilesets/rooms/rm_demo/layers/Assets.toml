@@ -1,0 +1,208 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_side_Flameville"
+sprite = "spr_demo_illustrated_side_Flameville"
+x = 41.0
+y = 43.5
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_side_Haunted_Graveyard"
+sprite = "spr_demo_illustrated_side_Haunted_Graveyard"
+x = 251.1
+y = 43.5
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_side_Ice_Land"
+sprite = "spr_demo_illustrated_side_Ice_Land"
+x = 461.1
+y = 43.5
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_side_Neon_City"
+sprite = "spr_demo_illustrated_side_Neon_City"
+x = 671.0
+y = 43.5
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_side_Underwater"
+sprite = "spr_demo_illustrated_side_Underwater"
+x = 881.0
+y = 43.5
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_top_Flameville"
+sprite = "spr_demo_illustrated_top_Flameville"
+x = 1091.0
+y = 49.7
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_top_Haunted_Graveyard"
+sprite = "spr_demo_illustrated_top_Haunted_Graveyard"
+x = 41.0
+y = 223.7
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_top_Ice_Land"
+sprite = "spr_demo_illustrated_top_Ice_Land"
+x = 251.1
+y = 223.7
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_top_Neon_City"
+sprite = "spr_demo_illustrated_top_Neon_City"
+x = 461.1
+y = 223.7
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_illustrated_top_Underwater"
+sprite = "spr_demo_illustrated_top_Underwater"
+x = 671.0
+y = 223.7
+scale_x = 0.28887
+scale_y = 0.28887
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_side_Flameville"
+sprite = "spr_demo_pixel_side_Flameville"
+x = 881.0
+y = 217.5
+scale_x = 0.57773
+scale_y = 0.57773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_side_Haunted_Graveyard"
+sprite = "spr_demo_pixel_side_Haunted_Graveyard"
+x = 1091.0
+y = 217.5
+scale_x = 0.57773
+scale_y = 0.57773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_side_Ice_Land"
+sprite = "spr_demo_pixel_side_Ice_Land"
+x = 41.0
+y = 391.5
+scale_x = 0.57773
+scale_y = 0.57773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_side_Neon_City"
+sprite = "spr_demo_pixel_side_Neon_City"
+x = 251.1
+y = 391.5
+scale_x = 0.57773
+scale_y = 0.57773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_side_Underwater"
+sprite = "spr_demo_pixel_side_Underwater"
+x = 461.1
+y = 391.5
+scale_x = 0.57773
+scale_y = 0.57773
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_top_Flameville"
+sprite = "spr_demo_pixel_top_Flameville"
+x = 671.0
+y = 397.7
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_top_Haunted_Graveyard"
+sprite = "spr_demo_pixel_top_Haunted_Graveyard"
+x = 41.0
+y = 571.7
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_top_Ice_Land"
+sprite = "spr_demo_pixel_top_Ice_Land"
+x = 251.1
+y = 571.7
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_top_Neon_City"
+sprite = "spr_demo_pixel_top_Neon_City"
+x = 461.1
+y = 571.7
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_demo_pixel_top_Underwater"
+sprite = "spr_demo_pixel_top_Underwater"
+x = 671.0
+y = 571.7
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+

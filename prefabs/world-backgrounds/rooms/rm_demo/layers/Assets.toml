@@ -1,0 +1,848 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_flameville"
+sprite = "spr_flameville"
+x = 25.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer00"
+sprite = "spr_flameville_layer00"
+x = 130.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer00_vec"
+sprite = "spr_flameville_layer00_vec"
+x = 235.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer01"
+sprite = "spr_flameville_layer01"
+x = 340.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer01_vec"
+sprite = "spr_flameville_layer01_vec"
+x = 445.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer02"
+sprite = "spr_flameville_layer02"
+x = 550.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer02_vec"
+sprite = "spr_flameville_layer02_vec"
+x = 655.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer03"
+sprite = "spr_flameville_layer03"
+x = 760.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer03_vec"
+sprite = "spr_flameville_layer03_vec"
+x = 865.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer04"
+sprite = "spr_flameville_layer04"
+x = 970.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer04_vec"
+sprite = "spr_flameville_layer04_vec"
+x = 1075.5
+y = 34.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer05"
+sprite = "spr_flameville_layer05"
+x = 1180.5
+y = 34.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer05_vec"
+sprite = "spr_flameville_layer05_vec"
+x = 25.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer06"
+sprite = "spr_flameville_layer06"
+x = 130.5
+y = 121.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer06_vec"
+sprite = "spr_flameville_layer06_vec"
+x = 235.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_layer07_vec"
+sprite = "spr_flameville_layer07_vec"
+x = 340.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flameville_vec"
+sprite = "spr_flameville_vec"
+x = 445.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard"
+sprite = "spr_haunted_graveyard"
+x = 550.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer00_vec"
+sprite = "spr_haunted_graveyard_layer00_vec"
+x = 655.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer01_vec"
+sprite = "spr_haunted_graveyard_layer01_vec"
+x = 760.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer02_vec"
+sprite = "spr_haunted_graveyard_layer02_vec"
+x = 865.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer03_vec"
+sprite = "spr_haunted_graveyard_layer03_vec"
+x = 970.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer04_vec"
+sprite = "spr_haunted_graveyard_layer04_vec"
+x = 1075.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer05_vec"
+sprite = "spr_haunted_graveyard_layer05_vec"
+x = 1180.5
+y = 121.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer06_vec"
+sprite = "spr_haunted_graveyard_layer06_vec"
+x = 25.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer07_vec"
+sprite = "spr_haunted_graveyard_layer07_vec"
+x = 130.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer08_vec"
+sprite = "spr_haunted_graveyard_layer08_vec"
+x = 235.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_layer09_vec"
+sprite = "spr_haunted_graveyard_layer09_vec"
+x = 340.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyard_vec"
+sprite = "spr_haunted_graveyard_vec"
+x = 445.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_00"
+sprite = "spr_haunted_graveyardlayer_00"
+x = 550.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_01"
+sprite = "spr_haunted_graveyardlayer_01"
+x = 655.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_02"
+sprite = "spr_haunted_graveyardlayer_02"
+x = 760.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_03"
+sprite = "spr_haunted_graveyardlayer_03"
+x = 865.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_04"
+sprite = "spr_haunted_graveyardlayer_04"
+x = 970.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_haunted_graveyardlayer_05"
+sprite = "spr_haunted_graveyardlayer_05"
+x = 1075.5
+y = 208.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land"
+sprite = "spr_ice_land"
+x = 1180.5
+y = 208.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer00_vec"
+sprite = "spr_ice_land_layer00_vec"
+x = 25.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer01_vec"
+sprite = "spr_ice_land_layer01_vec"
+x = 130.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer02_vec"
+sprite = "spr_ice_land_layer02_vec"
+x = 235.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer03_vec"
+sprite = "spr_ice_land_layer03_vec"
+x = 340.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer04_vec"
+sprite = "spr_ice_land_layer04_vec"
+x = 445.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer05_vec"
+sprite = "spr_ice_land_layer05_vec"
+x = 550.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer06_vec"
+sprite = "spr_ice_land_layer06_vec"
+x = 655.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_layer07_vec"
+sprite = "spr_ice_land_layer07_vec"
+x = 760.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ice_land_vec"
+sprite = "spr_ice_land_vec"
+x = 865.5
+y = 295.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer00"
+sprite = "spr_iceland_layer00"
+x = 970.5
+y = 295.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer01"
+sprite = "spr_iceland_layer01"
+x = 1075.5
+y = 295.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer02"
+sprite = "spr_iceland_layer02"
+x = 1180.5
+y = 295.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer03"
+sprite = "spr_iceland_layer03"
+x = 25.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer04"
+sprite = "spr_iceland_layer04"
+x = 130.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iceland_layer05"
+sprite = "spr_iceland_layer05"
+x = 235.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city"
+sprite = "spr_neon_city"
+x = 340.5
+y = 382.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer00"
+sprite = "spr_neon_city_layer00"
+x = 445.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer00_vec"
+sprite = "spr_neon_city_layer00_vec"
+x = 550.5
+y = 382.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer01"
+sprite = "spr_neon_city_layer01"
+x = 655.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer01_vec"
+sprite = "spr_neon_city_layer01_vec"
+x = 760.5
+y = 382.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer02"
+sprite = "spr_neon_city_layer02"
+x = 865.5
+y = 382.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer02_vec"
+sprite = "spr_neon_city_layer02_vec"
+x = 25.5
+y = 469.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer03"
+sprite = "spr_neon_city_layer03"
+x = 130.5
+y = 469.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer03_vec"
+sprite = "spr_neon_city_layer03_vec"
+x = 235.5
+y = 469.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer04"
+sprite = "spr_neon_city_layer04"
+x = 340.5
+y = 469.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer04_vec"
+sprite = "spr_neon_city_layer04_vec"
+x = 445.5
+y = 469.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer05"
+sprite = "spr_neon_city_layer05"
+x = 550.5
+y = 469.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer05_vec"
+sprite = "spr_neon_city_layer05_vec"
+x = 655.5
+y = 469.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_layer06"
+sprite = "spr_neon_city_layer06"
+x = 760.5
+y = 469.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_neon_city_vec"
+sprite = "spr_neon_city_vec"
+x = 865.5
+y = 469.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater"
+sprite = "spr_underwater"
+x = 25.5
+y = 556.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer00"
+sprite = "spr_underwater_layer00"
+x = 130.5
+y = 556.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer00_vec"
+sprite = "spr_underwater_layer00_vec"
+x = 235.5
+y = 556.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer01"
+sprite = "spr_underwater_layer01"
+x = 340.5
+y = 556.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer01_vec"
+sprite = "spr_underwater_layer01_vec"
+x = 445.5
+y = 556.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer02"
+sprite = "spr_underwater_layer02"
+x = 550.5
+y = 556.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer02_vec"
+sprite = "spr_underwater_layer02_vec"
+x = 655.5
+y = 556.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer03"
+sprite = "spr_underwater_layer03"
+x = 760.5
+y = 556.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer03_vec"
+sprite = "spr_underwater_layer03_vec"
+x = 865.5
+y = 554.0
+scale_x = 0.30307
+scale_y = 0.30307
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer04"
+sprite = "spr_underwater_layer04"
+x = 25.5
+y = 643.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer04_vec"
+sprite = "spr_underwater_layer04_vec"
+x = 130.5
+y = 643.4
+scale_x = 0.23932
+scale_y = 0.23932
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer05"
+sprite = "spr_underwater_layer05"
+x = 235.5
+y = 643.7
+scale_x = 0.15406
+scale_y = 0.15406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer05_vec"
+sprite = "spr_underwater_layer05_vec"
+x = 340.5
+y = 649.6
+scale_x = 0.0655
+scale_y = 0.0655
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer06_vec"
+sprite = "spr_underwater_layer06_vec"
+x = 445.5
+y = 649.0
+scale_x = 0.11054
+scale_y = 0.11054
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer07_vec"
+sprite = "spr_underwater_layer07_vec"
+x = 550.5
+y = 643.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer08_vec"
+sprite = "spr_underwater_layer08_vec"
+x = 655.5
+y = 643.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_layer09_vec"
+sprite = "spr_underwater_layer09_vec"
+x = 760.5
+y = 643.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_underwater_vec"
+sprite = "spr_underwater_vec"
+x = 865.5
+y = 643.7
+scale_x = 0.03852
+scale_y = 0.03852
+rotation = 0.0
+colour = "#FFFFFFFF"
+

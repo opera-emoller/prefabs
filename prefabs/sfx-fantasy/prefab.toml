@@ -1,0 +1,345 @@
+id = "sfx-fantasy"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "HD realistic medieval-fantasy sound pack: long location ambiences (cave, church, farm, tavern, blacksmith, battle, town) plus short feature one-shots for trade, warfare and village life — gates, carts, forge work, weapons and footsteps."
+tags = [ "theme:medieval", "theme:fantasy", "role:audio" ]
+
+[export]
+include = [
+  "sounds/MP3_Arrow_Hit_1",
+  "sounds/MP3_Arrow_Hit_2",
+  "sounds/MP3_Battle_Background__Close_Large_",
+  "sounds/MP3_Battle_Background__Close_Medium_",
+  "sounds/MP3_Battle_Background__Far_Large_",
+  "sounds/MP3_Battle_Background__Far_Medium_",
+  "sounds/MP3_Blacksmith_1",
+  "sounds/MP3_Blacksmith_2",
+  "sounds/MP3_Bow_Load_1",
+  "sounds/MP3_Bow_Load_2",
+  "sounds/MP3_Bow_Release_1",
+  "sounds/MP3_Bow_Release_2",
+  "sounds/MP3_Cart_1",
+  "sounds/MP3_Cart_2",
+  "sounds/MP3_Catapult_Firing_1",
+  "sounds/MP3_Catapult_Firing_2",
+  "sounds/MP3_Catapult_Winding_1",
+  "sounds/MP3_Catapult_Winding_2",
+  "sounds/MP3_Cave_1",
+  "sounds/MP3_Cave_2",
+  "sounds/MP3_Church_Exterior_1",
+  "sounds/MP3_Church_Exterior_2",
+  "sounds/MP3_Church_Interior_1",
+  "sounds/MP3_Church_Interior_2",
+  "sounds/MP3_Coin_Stack_Clink_1",
+  "sounds/MP3_Coin_Stack_Clink_2",
+  "sounds/MP3_Farm_Background__Close_Active_",
+  "sounds/MP3_Farm_Background__Close_Inactive_",
+  "sounds/MP3_Flag_Flapping_In_Breeze_1",
+  "sounds/MP3_Flag_Flapping_In_Breeze_2",
+  "sounds/MP3_Flag_Flapping_In_Wind_1",
+  "sounds/MP3_Flag_Flapping_In_Wind_2",
+  "sounds/MP3_Footsteps_Grass",
+  "sounds/MP3_Footsteps_Mud",
+  "sounds/MP3_Footsteps_Stone",
+  "sounds/MP3_Forge_Hammering_Sound_1",
+  "sounds/MP3_Forge_Hammering_Sound_2",
+  "sounds/MP3_Forge_Heating_Sound_1",
+  "sounds/MP3_Forge_Heating_Sound_2",
+  "sounds/MP3_Grindstone_1",
+  "sounds/MP3_Grindstone_2",
+  "sounds/MP3_Metal_Quenching_Sizzle_1",
+  "sounds/MP3_Metal_Quenching_Sizzle_2",
+  "sounds/MP3_Portcullis_Close_1",
+  "sounds/MP3_Portcullis_Close_2",
+  "sounds/MP3_Portcullis_Raise_1",
+  "sounds/MP3_Portcullis_Raise_2",
+  "sounds/MP3_Sword_Draw_1",
+  "sounds/MP3_Sword_Draw_2",
+  "sounds/MP3_Tavern_External_1",
+  "sounds/MP3_Tavern_External_2",
+  "sounds/MP3_Tavern_Internal_1",
+  "sounds/MP3_Tavern_Internal_2",
+  "sounds/MP3_Town_Market_1",
+  "sounds/MP3_Town_Market_2",
+  "sounds/MP3_Town_Square_1",
+  "sounds/MP3_Town_Square_2",
+  "sounds/MP3_Weapon_Hit_On_Armor_1",
+  "sounds/MP3_Weapon_Hit_On_Armor_2",
+  "sounds/MP3_Weapon_Hit_On_Metal_1",
+  "sounds/MP3_Weapon_Hit_On_Metal_2",
+  "sounds/MP3_Windmill_1",
+  "sounds/MP3_Windmill_2",
+  "sounds/MP3_Wooden_Door_Closing_1",
+  "sounds/MP3_Wooden_Door_Closing_2",
+  "sounds/MP3_Wooden_Door_Opening_1",
+  "sounds/MP3_Wooden_Door_Opening_2",
+]
+
+[assets."sounds/MP3_Arrow_Hit_1"]
+description = "Sharp arrow strike, ~1s — fletched shaft thudding into its target with a solid impact. Crisp combat one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:arrow", "subject:impact" ]
+
+[assets."sounds/MP3_Arrow_Hit_2"]
+description = "Arrow impact variant, ~1.25s — slightly heavier thud as the shaft lands and quivers. Crisp combat one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:arrow", "subject:impact" ]
+
+[assets."sounds/MP3_Battle_Background__Close_Large_"]
+description = "60s battle ambience bed — a large army at close range: clashing steel, shouting, and the roar of melee swirling around the listener. Intense, chaotic war soundscape."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Battle_Background__Close_Medium_"]
+description = "60s battle ambience bed — a medium force fighting nearby: ringing weapons and battle cries with a tighter, less overwhelming density."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Battle_Background__Far_Large_"]
+description = "60s battle ambience bed — a large army heard from a distance: a low rumble of massed combat, muffled clashes and a wash of distant shouting."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Battle_Background__Far_Medium_"]
+description = "60s battle ambience bed — a medium force in the distance: faint clamor of fighting drifting on the air. Tense, atmospheric backdrop."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Blacksmith_1"]
+description = "30s blacksmith ambience — rhythmic hammer strikes, crackling forge fire and clinking tools fill a busy smithy. Warm, industrious workshop bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Blacksmith_2"]
+description = "30s blacksmith ambience variant — steady hammering and forge-fire crackle with a different pacing of the smithy's work."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Bow_Load_1"]
+description = "~1.2s bow draw — creak of wood and tightening string as an arrow is nocked and pulled back. Taut, anticipatory one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bow" ]
+
+[assets."sounds/MP3_Bow_Load_2"]
+description = "~1.25s bow draw variant — wooden creak and stretching string as the bow is readied to fire."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bow" ]
+
+[assets."sounds/MP3_Bow_Release_1"]
+description = "~1.5s bow release — the snap of the string and whoosh of the arrow loosing. Quick, satisfying shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bow" ]
+
+[assets."sounds/MP3_Bow_Release_2"]
+description = "~1.75s bow release variant — string twang and arrow whoosh with a slightly longer tail."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bow" ]
+
+[assets."sounds/MP3_Cart_1"]
+description = "10s wooden cart roll — creaking timbers and rumbling wheels trundling over rough ground. Loopable trade-and-travel one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cart" ]
+
+[assets."sounds/MP3_Cart_2"]
+description = "10s wooden cart roll variant — creaking axles and clattering wheels at a slightly different gait."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cart" ]
+
+[assets."sounds/MP3_Catapult_Firing_1"]
+description = "~3.25s catapult firing — the heavy thunk and creaking release of the arm as it hurls its payload. Weighty siege one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:catapult" ]
+
+[assets."sounds/MP3_Catapult_Firing_2"]
+description = "~3.25s catapult firing variant — groan of timber and the launching snap of the throwing arm."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:catapult" ]
+
+[assets."sounds/MP3_Catapult_Winding_1"]
+description = "~2.5s catapult winding — ratcheting clicks and straining rope as the arm is cranked back under tension."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:catapult" ]
+
+[assets."sounds/MP3_Catapult_Winding_2"]
+description = "~2.8s catapult winding variant — clacking ratchet and creaking tension as the siege engine is primed."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:catapult" ]
+
+[assets."sounds/MP3_Cave_1"]
+description = "30s cave ambience — dripping water, hollow echoes and a deep underground hush. Damp, eerie subterranean bed."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:cave" ]
+
+[assets."sounds/MP3_Cave_2"]
+description = "30s cave ambience variant — sparse drips and resonant cavern reverb, slightly different drip pattern. Cold, atmospheric."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:cave" ]
+
+[assets."sounds/MP3_Church_Exterior_1"]
+description = "30s church exterior ambience — distant bells, gentle wind and faint outdoor activity around the building. Solemn, open-air bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Church_Exterior_2"]
+description = "30s church exterior ambience variant — tolling bells and ambient breeze outside the church walls."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Church_Interior_1"]
+description = "30s church interior ambience — echoing stone hall, hushed footsteps and a reverent stillness. Sacred, cavernous indoor bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Church_Interior_2"]
+description = "30s church interior ambience variant — soft reverberant hush of the nave with subtle movement. Reverent and still."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Coin_Stack_Clink_1"]
+description = "~1s coin clink — a stack of metal coins jingling and settling. Bright, satisfying treasure-and-trade one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:coin" ]
+
+[assets."sounds/MP3_Coin_Stack_Clink_2"]
+description = "~0.75s coin clink variant — a quick, lighter shimmer of coins tumbling together."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:coin" ]
+
+[assets."sounds/MP3_Farm_Background__Close_Active_"]
+description = "60s farm ambience — a lively close-up farmyard: clucking, animal calls and bustling rural chores. Warm, busy countryside bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Farm_Background__Close_Inactive_"]
+description = "60s farm ambience variant — a quiet, idle farmyard up close: gentle animal stirrings and a calm rural hush."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Flag_Flapping_In_Breeze_1"]
+description = "10s flag in a light breeze — soft fabric ripples fluttering gently. Subtle outdoor banner texture."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:flag" ]
+
+[assets."sounds/MP3_Flag_Flapping_In_Breeze_2"]
+description = "~9.5s flag in a light breeze variant — gentle cloth flutter with a slightly different rhythm."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:flag" ]
+
+[assets."sounds/MP3_Flag_Flapping_In_Wind_1"]
+description = "~10.75s flag in strong wind — sharp, snapping cloth cracking and billowing. Energetic banner texture."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:flag" ]
+
+[assets."sounds/MP3_Flag_Flapping_In_Wind_2"]
+description = "~9.75s flag in strong wind variant — vigorous flapping and snaps of taut fabric."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:flag" ]
+
+[assets."sounds/MP3_Footsteps_Grass"]
+description = "10s of footsteps on grass — soft, swishing strides over turf. Loopable movement bed for outdoor travel."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:footsteps" ]
+
+[assets."sounds/MP3_Footsteps_Mud"]
+description = "10s of footsteps in mud — wet, squelching steps with a heavy suck. Loopable movement bed for marshy ground."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:footsteps" ]
+
+[assets."sounds/MP3_Footsteps_Stone"]
+description = "10s of footsteps on stone — firm, clicking strides echoing off hard paving. Loopable movement bed for cobbles or castle floors."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:footsteps" ]
+
+[assets."sounds/MP3_Forge_Hammering_Sound_1"]
+description = "~10s of forge hammering — sustained rhythmic clangs of hammer on hot metal at the anvil. Steady smithing loop."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:hammer" ]
+
+[assets."sounds/MP3_Forge_Hammering_Sound_2"]
+description = "~0.4s single forge hammer strike — one sharp ring of metal on anvil. Tight one-shot impact."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:hammer" ]
+
+[assets."sounds/MP3_Forge_Heating_Sound_1"]
+description = "10s forge heating — the roar and crackle of bellows-fed flames heating metal in the fire. Warm, fiery loop."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Forge_Heating_Sound_2"]
+description = "10s forge heating variant — steady whoosh and crackle of the forge fire at a different intensity."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:fire" ]
+
+[assets."sounds/MP3_Grindstone_1"]
+description = "20s grindstone — the gritty, grinding whir of a blade being sharpened against a spinning whetstone, with occasional sparks. Abrasive workshop one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:grindstone" ]
+
+[assets."sounds/MP3_Grindstone_2"]
+description = "20s grindstone variant — rasping, scraping spin of the sharpening wheel at a different cadence."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:grindstone" ]
+
+[assets."sounds/MP3_Metal_Quenching_Sizzle_1"]
+description = "~4.5s quenching sizzle — red-hot metal plunged into water with a violent hiss and bubbling steam. Sharp blacksmithing one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Metal_Quenching_Sizzle_2"]
+description = "~4.25s quenching sizzle variant — searing hiss and crackle as hot steel is cooled in water."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/MP3_Portcullis_Close_1"]
+description = "~4.75s portcullis dropping — rattling chains and the heavy crash of an iron gate slamming down. Weighty castle gate one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:portcullis", "subject:gate" ]
+
+[assets."sounds/MP3_Portcullis_Close_2"]
+description = "~5s portcullis dropping variant — clanking chains and the grinding thud of the grille hitting the ground."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:portcullis", "subject:gate" ]
+
+[assets."sounds/MP3_Portcullis_Raise_1"]
+description = "~6.25s portcullis raising — straining chains and grinding metal as the iron gate is winched upward. Effortful castle gate one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:portcullis", "subject:gate" ]
+
+[assets."sounds/MP3_Portcullis_Raise_2"]
+description = "~4.75s portcullis raising variant — ratcheting chain and scraping iron as the grille lifts."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:portcullis", "subject:gate" ]
+
+[assets."sounds/MP3_Sword_Draw_1"]
+description = "~2.5s sword draw — the long metallic scrape of a blade sliding from its scabbard with a bright ring. Classic weapon one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/MP3_Sword_Draw_2"]
+description = "~1.5s sword draw variant — a quicker steely shing as the blade clears the sheath."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/MP3_Tavern_External_1"]
+description = "60s tavern exterior ambience — muffled merriment, chatter and clinking heard from outside the inn, with street air around it. Inviting village bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Tavern_External_2"]
+description = "60s tavern exterior ambience variant — dampened revelry and crowd murmur drifting out of the alehouse."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Tavern_Internal_1"]
+description = "60s tavern interior ambience — boisterous crowd chatter, laughter, clinking mugs and a warm, crowded room tone. Lively inn bed."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Tavern_Internal_2"]
+description = "60s tavern interior ambience variant — bustling drinkers, conversation and tankard clinks filling the alehouse."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/MP3_Town_Market_1"]
+description = "~56s town market ambience — bustling crowd, haggling voices and the clatter of trade in a busy medieval marketplace. Vibrant village bed."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:city" ]
+
+[assets."sounds/MP3_Town_Market_2"]
+description = "60s town market ambience variant — dense crowd chatter and stall activity of a thriving market."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:city" ]
+
+[assets."sounds/MP3_Town_Square_1"]
+description = "~51s town square ambience — open-air crowd murmur, passing footsteps and general village activity around a public square. Spacious settlement bed."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:city" ]
+
+[assets."sounds/MP3_Town_Square_2"]
+description = "60s town square ambience variant — ambient townsfolk chatter and movement across the square."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:city" ]
+
+[assets."sounds/MP3_Weapon_Hit_On_Armor_1"]
+description = "~0.75s weapon striking armor — a dull, clanking thud of a blade or blow landing on plate. Combat impact one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/MP3_Weapon_Hit_On_Armor_2"]
+description = "~0.75s weapon-on-armor variant — a muffled metallic clank of a hit deflected by armor."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/MP3_Weapon_Hit_On_Metal_1"]
+description = "~0.6s weapon striking metal — a bright, ringing clash of steel on steel. Sharp parry impact one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/MP3_Weapon_Hit_On_Metal_2"]
+description = "~0.65s weapon-on-metal variant — a clanging metallic strike with a quick ring-out."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/MP3_Windmill_1"]
+description = "30s windmill ambience — slow creaking sails, turning wooden gears and a gentle breeze. Rustic, mechanical countryside bed."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:windmill" ]
+
+[assets."sounds/MP3_Windmill_2"]
+description = "30s windmill ambience variant — groaning timber and rotating sails at a different pace. Calm, pastoral."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:windmill" ]
+
+[assets."sounds/MP3_Wooden_Door_Closing_1"]
+description = "~1.5s wooden door closing — creak of hinges and a solid thud as the door shuts. Sturdy medieval door one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:door" ]
+
+[assets."sounds/MP3_Wooden_Door_Closing_2"]
+description = "~1.75s wooden door closing variant — longer hinge creak and firm latching thump."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:door" ]
+
+[assets."sounds/MP3_Wooden_Door_Opening_1"]
+description = "~1s wooden door opening — a quick creak of hinges as the door swings open. Crisp medieval door one-shot."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:door" ]
+
+[assets."sounds/MP3_Wooden_Door_Opening_2"]
+description = "~1.75s wooden door opening variant — a slower, drawn-out hinge groan as the door is pulled wide."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:door" ]

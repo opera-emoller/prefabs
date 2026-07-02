@@ -1,0 +1,1340 @@
+id = "incidentals-scifi"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Sci-fi UI and game icon pack — blasters, plasma blades, crates, test tubes, gadgets, pickups and resources, each rendered in colorful 3D-shaded style plus flat black and flat white silhouette variants."
+tags = [ "theme:sci-fi", "projection:ui-icon", "asset_type:sprite", "state:static" ]
+
+[export]
+include = [
+  "sprites/spr_alien_skull",
+  "sprites/spr_alien_skull_with_stroke",
+  "sprites/spr_alien_tablet",
+  "sprites/spr_alien_tablet_with_stroke",
+  "sprites/spr_alien_tree_01",
+  "sprites/spr_alien_tree_01_with_stroke",
+  "sprites/spr_alien_tree_02",
+  "sprites/spr_alien_tree_02_with_stroke",
+  "sprites/spr_alien_tree_03",
+  "sprites/spr_alien_tree_03_with_stroke",
+  "sprites/spr_astronaut_thruster_01",
+  "sprites/spr_astronaut_thruster_01_with_stroke",
+  "sprites/spr_astronaut_thruster_02",
+  "sprites/spr_astronaut_thruster_02_with_stroke",
+  "sprites/spr_blaster",
+  "sprites/spr_blaster_with_stroke",
+  "sprites/spr_blowtorch",
+  "sprites/spr_blowtorch_with_stroke",
+  "sprites/spr_bush_01",
+  "sprites/spr_bush_01_with_stroke",
+  "sprites/spr_bush_02",
+  "sprites/spr_bush_02_with_stroke",
+  "sprites/spr_bush_03",
+  "sprites/spr_bush_03_with_stroke",
+  "sprites/spr_chunky_holographic_device",
+  "sprites/spr_chunky_holographic_device_with_stroke",
+  "sprites/spr_crate_01_blue",
+  "sprites/spr_crate_01_blue_with_stroke",
+  "sprites/spr_crate_01_cyan",
+  "sprites/spr_crate_01_cyan_with_stroke",
+  "sprites/spr_crate_01_green",
+  "sprites/spr_crate_01_green_with_stroke",
+  "sprites/spr_crate_01_orange",
+  "sprites/spr_crate_01_orange_with_stroke",
+  "sprites/spr_crate_01_pink",
+  "sprites/spr_crate_01_pink_with_stroke",
+  "sprites/spr_crate_01_purple",
+  "sprites/spr_crate_01_purple_with_stroke",
+  "sprites/spr_crate_01_red",
+  "sprites/spr_crate_01_red_with_stroke",
+  "sprites/spr_crate_01_yellow",
+  "sprites/spr_crate_01_yellow_with_stroke",
+  "sprites/spr_crate_02_blue",
+  "sprites/spr_crate_02_blue_with_stroke",
+  "sprites/spr_crate_02_cyan",
+  "sprites/spr_crate_02_cyan_with_stroke",
+  "sprites/spr_crate_02_green",
+  "sprites/spr_crate_02_green_with_stroke",
+  "sprites/spr_crate_02_orange",
+  "sprites/spr_crate_02_orange_with_stroke",
+  "sprites/spr_crate_02_pink",
+  "sprites/spr_crate_02_pink_with_stroke",
+  "sprites/spr_crate_02_purple",
+  "sprites/spr_crate_02_purple_with_stroke",
+  "sprites/spr_crate_02_red",
+  "sprites/spr_crate_02_red_with_stroke",
+  "sprites/spr_crate_02_yellow",
+  "sprites/spr_crate_02_yellow_with_stroke",
+  "sprites/spr_datapad_01",
+  "sprites/spr_datapad_01_with_stroke",
+  "sprites/spr_datapad_02",
+  "sprites/spr_datapad_02_with_stroke",
+  "sprites/spr_first_aid_01",
+  "sprites/spr_first_aid_01_with_stroke",
+  "sprites/spr_first_aid_02",
+  "sprites/spr_first_aid_02_with_stroke",
+  "sprites/spr_flatblack_alien_skull",
+  "sprites/spr_flatblack_alien_tablet",
+  "sprites/spr_flatblack_alien_tree_01",
+  "sprites/spr_flatblack_alien_tree_02",
+  "sprites/spr_flatblack_alien_tree_03",
+  "sprites/spr_flatblack_astronaut_thruster",
+  "sprites/spr_flatblack_blaster",
+  "sprites/spr_flatblack_blowtorch",
+  "sprites/spr_flatblack_bush_01",
+  "sprites/spr_flatblack_bush_02",
+  "sprites/spr_flatblack_bush_03",
+  "sprites/spr_flatblack_chunky_holographic_device",
+  "sprites/spr_flatblack_crate",
+  "sprites/spr_flatblack_crate_small",
+  "sprites/spr_flatblack_datapad_01",
+  "sprites/spr_flatblack_datapad_02",
+  "sprites/spr_flatblack_first_aid_01",
+  "sprites/spr_flatblack_first_aid_02",
+  "sprites/spr_flatblack_flying_saucer",
+  "sprites/spr_flatblack_glowing_handheld_device",
+  "sprites/spr_flatblack_glowing_space_crystals_01",
+  "sprites/spr_flatblack_glowing_space_crystals_02",
+  "sprites/spr_flatblack_hand",
+  "sprites/spr_flatblack_hand_laser",
+  "sprites/spr_flatblack_heart",
+  "sprites/spr_flatblack_hyper_screwdriver",
+  "sprites/spr_flatblack_jetpack",
+  "sprites/spr_flatblack_laser_blaster",
+  "sprites/spr_flatblack_medal",
+  "sprites/spr_flatblack_messenger_bag",
+  "sprites/spr_flatblack_modern_astronaut_helmet_01",
+  "sprites/spr_flatblack_modern_astronaut_helmet_02",
+  "sprites/spr_flatblack_plasmablade",
+  "sprites/spr_flatblack_plasmablade_no_beam",
+  "sprites/spr_flatblack_rocket_ship",
+  "sprites/spr_flatblack_screen",
+  "sprites/spr_flatblack_space_shuttle",
+  "sprites/spr_flatblack_testtube",
+  "sprites/spr_flatblack_testtube_stopper",
+  "sprites/spr_flatblack_timedevice",
+  "sprites/spr_flatblack_triangular_crate",
+  "sprites/spr_flatblack_warpdrive",
+  "sprites/spr_flatwhite_alien_skull",
+  "sprites/spr_flatwhite_alien_tablet",
+  "sprites/spr_flatwhite_alien_tree_01",
+  "sprites/spr_flatwhite_alien_tree_02",
+  "sprites/spr_flatwhite_alien_tree_03",
+  "sprites/spr_flatwhite_astronaut_thruster",
+  "sprites/spr_flatwhite_blaster",
+  "sprites/spr_flatwhite_blowtorch",
+  "sprites/spr_flatwhite_bush_01",
+  "sprites/spr_flatwhite_bush_02",
+  "sprites/spr_flatwhite_bush_03",
+  "sprites/spr_flatwhite_chunky_holographic_device",
+  "sprites/spr_flatwhite_crate",
+  "sprites/spr_flatwhite_crate_small",
+  "sprites/spr_flatwhite_datapad_01",
+  "sprites/spr_flatwhite_datapad_02",
+  "sprites/spr_flatwhite_first_aid_01",
+  "sprites/spr_flatwhite_first_aid_02",
+  "sprites/spr_flatwhite_flying_saucer",
+  "sprites/spr_flatwhite_glowing_handheld_device",
+  "sprites/spr_flatwhite_glowing_space_crystals_01",
+  "sprites/spr_flatwhite_glowing_space_crystals_02",
+  "sprites/spr_flatwhite_hand",
+  "sprites/spr_flatwhite_hand_laser",
+  "sprites/spr_flatwhite_heart",
+  "sprites/spr_flatwhite_hyper_screwdriver",
+  "sprites/spr_flatwhite_jetpack",
+  "sprites/spr_flatwhite_laser_blaster",
+  "sprites/spr_flatwhite_medal",
+  "sprites/spr_flatwhite_messenger_bag",
+  "sprites/spr_flatwhite_modern_astronaut_helmet_01",
+  "sprites/spr_flatwhite_modern_astronaut_helmet_02",
+  "sprites/spr_flatwhite_plasmablade",
+  "sprites/spr_flatwhite_plasmablade_no_beam",
+  "sprites/spr_flatwhite_rocket_ship",
+  "sprites/spr_flatwhite_screen",
+  "sprites/spr_flatwhite_space_shuttle",
+  "sprites/spr_flatwhite_testtube",
+  "sprites/spr_flatwhite_testtube_stopper",
+  "sprites/spr_flatwhite_timedevice",
+  "sprites/spr_flatwhite_triangular_crate",
+  "sprites/spr_flatwhite_warpdrive",
+  "sprites/spr_flying_saucer",
+  "sprites/spr_flying_saucer_with_stroke",
+  "sprites/spr_glowing_handheld_device",
+  "sprites/spr_glowing_handheld_device_with_stroke",
+  "sprites/spr_glowing_space_crystals_01",
+  "sprites/spr_glowing_space_crystals_01_with_stroke",
+  "sprites/spr_glowing_space_crystals_02",
+  "sprites/spr_glowing_space_crystals_02_with_stroke",
+  "sprites/spr_glowing_space_crystals_03",
+  "sprites/spr_glowing_space_crystals_03_with_stroke",
+  "sprites/spr_hand",
+  "sprites/spr_hand_laser",
+  "sprites/spr_hand_laser_with_stroke",
+  "sprites/spr_hand_with_stroke",
+  "sprites/spr_heart",
+  "sprites/spr_heart_with_stroke",
+  "sprites/spr_hyper_screwdriver",
+  "sprites/spr_hyper_screwdriver_with_stroke",
+  "sprites/spr_jetpack_01",
+  "sprites/spr_jetpack_01_with_stroke",
+  "sprites/spr_jetpack_02",
+  "sprites/spr_jetpack_02_with_stroke",
+  "sprites/spr_laser_blaster",
+  "sprites/spr_laser_blaster_with_stroke",
+  "sprites/spr_medal_bronze",
+  "sprites/spr_medal_bronze_with_stroke",
+  "sprites/spr_medal_gold",
+  "sprites/spr_medal_gold_with_stroke",
+  "sprites/spr_medal_silver",
+  "sprites/spr_medal_silver_with_stroke",
+  "sprites/spr_messenger_bag",
+  "sprites/spr_messenger_bag_with_stroke",
+  "sprites/spr_modern_astronaut_helmet_01",
+  "sprites/spr_modern_astronaut_helmet_01_with_stroke",
+  "sprites/spr_modern_astronaut_helmet_02",
+  "sprites/spr_modern_astronaut_helmet_02_with_stroke",
+  "sprites/spr_plasmablade_blue",
+  "sprites/spr_plasmablade_blue_with_stroke",
+  "sprites/spr_plasmablade_cyan",
+  "sprites/spr_plasmablade_cyan_with_stroke",
+  "sprites/spr_plasmablade_green",
+  "sprites/spr_plasmablade_green_with_stroke",
+  "sprites/spr_plasmablade_nobeam",
+  "sprites/spr_plasmablade_nobeam_with_stroke",
+  "sprites/spr_plasmablade_orange",
+  "sprites/spr_plasmablade_orange_with_stroke",
+  "sprites/spr_plasmablade_pink",
+  "sprites/spr_plasmablade_pink_with_stroke",
+  "sprites/spr_plasmablade_purple",
+  "sprites/spr_plasmablade_purple_with_stroke",
+  "sprites/spr_plasmablade_red",
+  "sprites/spr_plasmablade_red_with_stroke",
+  "sprites/spr_plasmablade_yellow",
+  "sprites/spr_plasmablade_yellow_with_stroke",
+  "sprites/spr_rocket_ship",
+  "sprites/spr_rocket_ship_with_stroke",
+  "sprites/spr_screen",
+  "sprites/spr_screen_with_stroke",
+  "sprites/spr_space_shuttle",
+  "sprites/spr_space_shuttle_with_stroke",
+  "sprites/spr_testtube_blue",
+  "sprites/spr_testtube_blue_with_stroke",
+  "sprites/spr_testtube_cyan",
+  "sprites/spr_testtube_cyan_with_stroke",
+  "sprites/spr_testtube_green",
+  "sprites/spr_testtube_green_with_stroke",
+  "sprites/spr_testtube_orange",
+  "sprites/spr_testtube_orange_with_stroke",
+  "sprites/spr_testtube_pink",
+  "sprites/spr_testtube_pink_with_stroke",
+  "sprites/spr_testtube_purple",
+  "sprites/spr_testtube_purple_with_stroke",
+  "sprites/spr_testtube_red",
+  "sprites/spr_testtube_red_with_stroke",
+  "sprites/spr_testtube_stopper_blue",
+  "sprites/spr_testtube_stopper_blue_with_stroke",
+  "sprites/spr_testtube_stopper_cyan",
+  "sprites/spr_testtube_stopper_cyan_with_stroke",
+  "sprites/spr_testtube_stopper_green",
+  "sprites/spr_testtube_stopper_green_with_stroke",
+  "sprites/spr_testtube_stopper_orange",
+  "sprites/spr_testtube_stopper_orange_with_stroke",
+  "sprites/spr_testtube_stopper_pink",
+  "sprites/spr_testtube_stopper_pink_with_stroke",
+  "sprites/spr_testtube_stopper_purple",
+  "sprites/spr_testtube_stopper_purple_with_stroke",
+  "sprites/spr_testtube_stopper_red",
+  "sprites/spr_testtube_stopper_red_with_stroke",
+  "sprites/spr_testtube_stopper_water",
+  "sprites/spr_testtube_stopper_water_with_stroke",
+  "sprites/spr_testtube_stopper_yellow",
+  "sprites/spr_testtube_stopper_yellow_with_stroke",
+  "sprites/spr_testtube_water",
+  "sprites/spr_testtube_water_with_stroke",
+  "sprites/spr_testtube_yellow",
+  "sprites/spr_testtube_yellow_with_stroke",
+  "sprites/spr_timedevice",
+  "sprites/spr_timedevice_with_stroke",
+  "sprites/spr_triangular_crate_blue",
+  "sprites/spr_triangular_crate_blue_with_stroke",
+  "sprites/spr_triangular_crate_cyan",
+  "sprites/spr_triangular_crate_cyan_with_stroke",
+  "sprites/spr_triangular_crate_green",
+  "sprites/spr_triangular_crate_green_with_stroke",
+  "sprites/spr_triangular_crate_orange",
+  "sprites/spr_triangular_crate_orange_with_stroke",
+  "sprites/spr_triangular_crate_pink",
+  "sprites/spr_triangular_crate_pink_with_stroke",
+  "sprites/spr_triangular_crate_purple",
+  "sprites/spr_triangular_crate_purple_with_stroke",
+  "sprites/spr_triangular_crate_red",
+  "sprites/spr_triangular_crate_red_with_stroke",
+  "sprites/spr_triangular_crate_yellow",
+  "sprites/spr_triangular_crate_yellow_with_stroke",
+  "sprites/spr_warpdrive",
+  "sprites/spr_warpdrive_with_stroke",
+]
+
+[assets."sprites/spr_alien_skull"]
+description = "Green-tinged alien skull icon, colorful rendered shading, no outer stroke."
+tags = [ "subject:skull", "style:rendered" ]
+
+[assets."sprites/spr_alien_skull_with_stroke"]
+description = "Green alien skull icon, rendered with a heavy black outline stroke."
+tags = [ "subject:skull", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_alien_tablet"]
+description = "Glowing rectangular alien stone tablet with carved markings, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_alien_tablet_with_stroke"]
+description = "Alien stone tablet with glowing glyphs, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_alien_tree_01"]
+description = "Stylized exotic alien tree/plant, rendered in green tones."
+tags = [ "subject:plant", "style:rendered" ]
+
+[assets."sprites/spr_alien_tree_01_with_stroke"]
+description = "Alien tree plant, rendered with black outline stroke."
+tags = [ "subject:plant", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_alien_tree_02"]
+description = "Bushy alien tree variant, rendered green foliage."
+tags = [ "subject:plant", "style:rendered" ]
+
+[assets."sprites/spr_alien_tree_02_with_stroke"]
+description = "Alien tree variant, rendered with black outline."
+tags = [ "subject:plant", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_alien_tree_03"]
+description = "Tall alien tree/plant variant, rendered green."
+tags = [ "subject:plant", "style:rendered" ]
+
+[assets."sprites/spr_alien_tree_03_with_stroke"]
+description = "Alien tree variant, rendered with black outline."
+tags = [ "subject:plant", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_astronaut_thruster_01"]
+description = "Astronaut jet thruster with blue flame, rendered."
+tags = [ "subject:thruster", "style:rendered" ]
+
+[assets."sprites/spr_astronaut_thruster_01_with_stroke"]
+description = "Astronaut thruster with flame, rendered with black outline."
+tags = [ "subject:thruster", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_astronaut_thruster_02"]
+description = "Alternate astronaut thruster nozzle with exhaust, rendered."
+tags = [ "subject:thruster", "style:rendered" ]
+
+[assets."sprites/spr_astronaut_thruster_02_with_stroke"]
+description = "Astronaut thruster variant, rendered with black outline."
+tags = [ "subject:thruster", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_blaster"]
+description = "Chunky purple-and-silver sci-fi pistol blaster, colorful rendered."
+tags = [ "subject:gun", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_blaster_with_stroke"]
+description = "Purple sci-fi blaster pistol, rendered with black outline."
+tags = [ "subject:gun", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_blowtorch"]
+description = "Handheld sci-fi blowtorch with blue flame, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_blowtorch_with_stroke"]
+description = "Blowtorch tool, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_bush_01"]
+description = "Round alien shrub/bush, rendered green foliage."
+tags = [ "subject:foliage", "style:rendered" ]
+
+[assets."sprites/spr_bush_01_with_stroke"]
+description = "Alien bush, rendered with black outline."
+tags = [ "subject:foliage", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_bush_02"]
+description = "Spiky alien bush variant, rendered green."
+tags = [ "subject:foliage", "style:rendered" ]
+
+[assets."sprites/spr_bush_02_with_stroke"]
+description = "Alien bush variant, rendered with black outline."
+tags = [ "subject:foliage", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_bush_03"]
+description = "Clustered alien bush variant, rendered green."
+tags = [ "subject:foliage", "style:rendered" ]
+
+[assets."sprites/spr_bush_03_with_stroke"]
+description = "Alien bush variant, rendered with black outline."
+tags = [ "subject:foliage", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_chunky_holographic_device"]
+description = "Bulky handheld device projecting a holographic display, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_chunky_holographic_device_with_stroke"]
+description = "Holographic projector device, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_blue"]
+description = "Blue sci-fi supply crate/container, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_blue_with_stroke"]
+description = "Blue crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_cyan"]
+description = "Cyan sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_cyan_with_stroke"]
+description = "Cyan crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_green"]
+description = "Green sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_green_with_stroke"]
+description = "Green crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_orange"]
+description = "Orange sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_orange_with_stroke"]
+description = "Orange crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_pink"]
+description = "Pink sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_pink_with_stroke"]
+description = "Pink crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_purple"]
+description = "Purple sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_purple_with_stroke"]
+description = "Purple crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_red"]
+description = "Red sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_red_with_stroke"]
+description = "Red crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_01_yellow"]
+description = "Yellow sci-fi supply crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_01_yellow_with_stroke"]
+description = "Yellow crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_blue"]
+description = "Blue sci-fi crate, second shape variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_blue_with_stroke"]
+description = "Blue crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_cyan"]
+description = "Cyan sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_cyan_with_stroke"]
+description = "Cyan crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_green"]
+description = "Green sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_green_with_stroke"]
+description = "Green crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_orange"]
+description = "Orange sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_orange_with_stroke"]
+description = "Orange crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_pink"]
+description = "Pink sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_pink_with_stroke"]
+description = "Pink crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_purple"]
+description = "Purple sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_purple_with_stroke"]
+description = "Purple crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_red"]
+description = "Red sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_red_with_stroke"]
+description = "Red crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_crate_02_yellow"]
+description = "Yellow sci-fi crate variant, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_crate_02_yellow_with_stroke"]
+description = "Yellow crate variant, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_datapad_01"]
+description = "Handheld datapad/tablet with lit screen, rendered."
+tags = [ "subject:screen", "style:rendered" ]
+
+[assets."sprites/spr_datapad_01_with_stroke"]
+description = "Datapad tablet, rendered with black outline."
+tags = [ "subject:screen", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_datapad_02"]
+description = "Alternate datapad/tablet device, rendered."
+tags = [ "subject:screen", "style:rendered" ]
+
+[assets."sprites/spr_datapad_02_with_stroke"]
+description = "Datapad variant, rendered with black outline."
+tags = [ "subject:screen", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_first_aid_01"]
+description = "Sci-fi first-aid medkit with cross emblem, rendered."
+tags = [ "subject:icon", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_first_aid_01_with_stroke"]
+description = "First-aid medkit, rendered with black outline."
+tags = [ "subject:icon", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_first_aid_02"]
+description = "Alternate first-aid kit/health pack, rendered."
+tags = [ "subject:icon", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_first_aid_02_with_stroke"]
+description = "First-aid kit variant, rendered with black outline."
+tags = [ "subject:icon", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_flatblack_alien_skull"]
+description = "Alien skull, solid flat black silhouette."
+tags = [ "subject:skull", "style:flat" ]
+
+[assets."sprites/spr_flatblack_alien_tablet"]
+description = "Alien tablet, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_alien_tree_01"]
+description = "Alien tree, solid flat black silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatblack_alien_tree_02"]
+description = "Alien tree variant, solid flat black silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatblack_alien_tree_03"]
+description = "Alien tree variant, solid flat black silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatblack_astronaut_thruster"]
+description = "Astronaut thruster, solid flat black silhouette."
+tags = [ "subject:thruster", "style:flat" ]
+
+[assets."sprites/spr_flatblack_blaster"]
+description = "Blaster pistol, solid flat black silhouette."
+tags = [ "subject:gun", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_blowtorch"]
+description = "Blowtorch, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bush_01"]
+description = "Alien bush, solid flat black silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bush_02"]
+description = "Alien bush variant, solid flat black silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatblack_bush_03"]
+description = "Alien bush variant, solid flat black silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatblack_chunky_holographic_device"]
+description = "Holographic device, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_crate"]
+description = "Supply crate, solid flat black silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_crate_small"]
+description = "Small supply crate, solid flat black silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_datapad_01"]
+description = "Datapad tablet, solid flat black silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatblack_datapad_02"]
+description = "Datapad variant, solid flat black silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatblack_first_aid_01"]
+description = "First-aid medkit, solid flat black silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_first_aid_02"]
+description = "First-aid kit variant, solid flat black silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_flying_saucer"]
+description = "Flying saucer UFO, solid flat black silhouette."
+tags = [ "subject:aircraft", "style:flat" ]
+
+[assets."sprites/spr_flatblack_glowing_handheld_device"]
+description = "Handheld glowing device, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_glowing_space_crystals_01"]
+description = "Space crystals cluster, solid flat black silhouette."
+tags = [ "subject:gem", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_glowing_space_crystals_02"]
+description = "Space crystals variant, solid flat black silhouette."
+tags = [ "subject:gem", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_hand"]
+description = "Robotic/space hand, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_hand_laser"]
+description = "Hand-held laser, solid flat black silhouette."
+tags = [ "subject:laser", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_heart"]
+description = "Heart pickup, solid flat black silhouette."
+tags = [ "subject:heart", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_hyper_screwdriver"]
+description = "Sonic/hyper screwdriver tool, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_jetpack"]
+description = "Jetpack, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_laser_blaster"]
+description = "Laser blaster rifle, solid flat black silhouette."
+tags = [ "subject:gun", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_medal"]
+description = "Award medal, solid flat black silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_messenger_bag"]
+description = "Messenger bag/satchel, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_modern_astronaut_helmet_01"]
+description = "Astronaut helmet, solid flat black silhouette."
+tags = [ "subject:helmet", "style:flat" ]
+
+[assets."sprites/spr_flatblack_modern_astronaut_helmet_02"]
+description = "Astronaut helmet variant, solid flat black silhouette."
+tags = [ "subject:helmet", "style:flat" ]
+
+[assets."sprites/spr_flatblack_plasmablade"]
+description = "Plasma energy sword with beam, solid flat black silhouette."
+tags = [ "subject:sword", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_plasmablade_no_beam"]
+description = "Plasma sword hilt with no beam, solid flat black silhouette."
+tags = [ "subject:sword", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_rocket_ship"]
+description = "Rocket ship, solid flat black silhouette."
+tags = [ "subject:ship", "style:flat" ]
+
+[assets."sprites/spr_flatblack_screen"]
+description = "Monitor/screen, solid flat black silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatblack_space_shuttle"]
+description = "Space shuttle, solid flat black silhouette."
+tags = [ "subject:ship", "style:flat" ]
+
+[assets."sprites/spr_flatblack_testtube"]
+description = "Test tube/potion vial, solid flat black silhouette."
+tags = [ "subject:potion", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_testtube_stopper"]
+description = "Stoppered test tube vial, solid flat black silhouette."
+tags = [ "subject:potion", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_timedevice"]
+description = "Time device/gadget, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatblack_triangular_crate"]
+description = "Triangular crate, solid flat black silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatblack_warpdrive"]
+description = "Warp drive engine, solid flat black silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_alien_skull"]
+description = "Alien skull, solid flat white silhouette."
+tags = [ "subject:skull", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_alien_tablet"]
+description = "Alien tablet, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_alien_tree_01"]
+description = "Alien tree, solid flat white silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_alien_tree_02"]
+description = "Alien tree variant, solid flat white silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_alien_tree_03"]
+description = "Alien tree variant, solid flat white silhouette."
+tags = [ "subject:plant", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_astronaut_thruster"]
+description = "Astronaut thruster, solid flat white silhouette."
+tags = [ "subject:thruster", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_blaster"]
+description = "Blaster pistol, solid flat white silhouette."
+tags = [ "subject:gun", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_blowtorch"]
+description = "Blowtorch, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bush_01"]
+description = "Alien bush, solid flat white silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bush_02"]
+description = "Alien bush variant, solid flat white silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_bush_03"]
+description = "Alien bush variant, solid flat white silhouette."
+tags = [ "subject:foliage", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_chunky_holographic_device"]
+description = "Holographic device, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_crate"]
+description = "Supply crate, solid flat white silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_crate_small"]
+description = "Small supply crate, solid flat white silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_datapad_01"]
+description = "Datapad tablet, solid flat white silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_datapad_02"]
+description = "Datapad variant, solid flat white silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_first_aid_01"]
+description = "First-aid medkit, solid flat white silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_first_aid_02"]
+description = "First-aid kit variant, solid flat white silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_flying_saucer"]
+description = "Flying saucer UFO, solid flat white silhouette."
+tags = [ "subject:aircraft", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_glowing_handheld_device"]
+description = "Handheld glowing device, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_glowing_space_crystals_01"]
+description = "Space crystals cluster, solid flat white silhouette."
+tags = [ "subject:gem", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_glowing_space_crystals_02"]
+description = "Space crystals variant, solid flat white silhouette."
+tags = [ "subject:gem", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_hand"]
+description = "Robotic/space hand, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_hand_laser"]
+description = "Hand-held laser, solid flat white silhouette."
+tags = [ "subject:laser", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_heart"]
+description = "Heart pickup, solid flat white silhouette."
+tags = [ "subject:heart", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_hyper_screwdriver"]
+description = "Sonic/hyper screwdriver tool, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_jetpack"]
+description = "Jetpack, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_laser_blaster"]
+description = "Laser blaster rifle, solid flat white silhouette."
+tags = [ "subject:gun", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_medal"]
+description = "Award medal, solid flat white silhouette."
+tags = [ "subject:icon", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_messenger_bag"]
+description = "Messenger bag/satchel, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_modern_astronaut_helmet_01"]
+description = "Astronaut helmet, solid flat white silhouette."
+tags = [ "subject:helmet", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_modern_astronaut_helmet_02"]
+description = "Astronaut helmet variant, solid flat white silhouette."
+tags = [ "subject:helmet", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_plasmablade"]
+description = "Plasma energy sword with beam, solid flat white silhouette."
+tags = [ "subject:sword", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_plasmablade_no_beam"]
+description = "Plasma sword hilt with no beam, solid flat white silhouette."
+tags = [ "subject:sword", "role:weapon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_rocket_ship"]
+description = "Rocket ship, solid flat white silhouette."
+tags = [ "subject:ship", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_screen"]
+description = "Monitor/screen, solid flat white silhouette."
+tags = [ "subject:screen", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_space_shuttle"]
+description = "Space shuttle, solid flat white silhouette."
+tags = [ "subject:ship", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_testtube"]
+description = "Test tube/potion vial, solid flat white silhouette."
+tags = [ "subject:potion", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_testtube_stopper"]
+description = "Stoppered test tube vial, solid flat white silhouette."
+tags = [ "subject:potion", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_timedevice"]
+description = "Time device/gadget, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_triangular_crate"]
+description = "Triangular crate, solid flat white silhouette."
+tags = [ "subject:crate", "role:pickup", "style:flat" ]
+
+[assets."sprites/spr_flatwhite_warpdrive"]
+description = "Warp drive engine, solid flat white silhouette."
+tags = [ "subject:icon", "style:flat" ]
+
+[assets."sprites/spr_flying_saucer"]
+description = "Classic domed flying saucer UFO, colorful rendered."
+tags = [ "subject:aircraft", "style:rendered" ]
+
+[assets."sprites/spr_flying_saucer_with_stroke"]
+description = "Flying saucer UFO, rendered with black outline."
+tags = [ "subject:aircraft", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_glowing_handheld_device"]
+description = "Handheld device emitting a glow, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_glowing_handheld_device_with_stroke"]
+description = "Glowing handheld device, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_glowing_space_crystals_01"]
+description = "Cluster of glowing purple space crystals/gems, rendered."
+tags = [ "subject:gem", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_glowing_space_crystals_01_with_stroke"]
+description = "Glowing space crystals, rendered with black outline."
+tags = [ "subject:gem", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_glowing_space_crystals_02"]
+description = "Glowing space crystal cluster variant, rendered."
+tags = [ "subject:gem", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_glowing_space_crystals_02_with_stroke"]
+description = "Space crystals variant, rendered with black outline."
+tags = [ "subject:gem", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_glowing_space_crystals_03"]
+description = "Tall glowing space crystal variant, rendered purple."
+tags = [ "subject:gem", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_glowing_space_crystals_03_with_stroke"]
+description = "Space crystals variant, rendered with black outline."
+tags = [ "subject:gem", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_hand"]
+description = "Space/robotic glove hand, colorful rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_hand_laser"]
+description = "Hand-held laser emitter device, rendered."
+tags = [ "subject:laser", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_hand_laser_with_stroke"]
+description = "Hand laser, rendered with black outline."
+tags = [ "subject:laser", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_hand_with_stroke"]
+description = "Space hand glove, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_heart"]
+description = "Glossy red heart pickup/health icon, rendered."
+tags = [ "subject:heart", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_heart_with_stroke"]
+description = "Red heart pickup, rendered with black outline."
+tags = [ "subject:heart", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_hyper_screwdriver"]
+description = "Glowing sonic/hyper screwdriver tool, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_hyper_screwdriver_with_stroke"]
+description = "Hyper screwdriver, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_jetpack_01"]
+description = "Sci-fi jetpack with twin tanks, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_jetpack_01_with_stroke"]
+description = "Jetpack, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_jetpack_02"]
+description = "Alternate jetpack variant, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_jetpack_02_with_stroke"]
+description = "Jetpack variant, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_laser_blaster"]
+description = "Two-handed orange laser blaster rifle, rendered."
+tags = [ "subject:gun", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_laser_blaster_with_stroke"]
+description = "Laser blaster rifle, rendered with black outline."
+tags = [ "subject:gun", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_medal_bronze"]
+description = "Bronze award medal with star and ribbon, rendered."
+tags = [ "subject:icon", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_medal_bronze_with_stroke"]
+description = "Bronze medal, rendered with black outline."
+tags = [ "subject:icon", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_medal_gold"]
+description = "Gold award medal with star and ribbon, rendered."
+tags = [ "subject:icon", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_medal_gold_with_stroke"]
+description = "Gold medal, rendered with black outline."
+tags = [ "subject:icon", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_medal_silver"]
+description = "Silver award medal with star and ribbon, rendered."
+tags = [ "subject:icon", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_medal_silver_with_stroke"]
+description = "Silver medal, rendered with black outline."
+tags = [ "subject:icon", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_messenger_bag"]
+description = "Sci-fi messenger bag/satchel, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_messenger_bag_with_stroke"]
+description = "Messenger bag, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_modern_astronaut_helmet_01"]
+description = "Modern astronaut/space helmet with visor, rendered."
+tags = [ "subject:helmet", "style:rendered" ]
+
+[assets."sprites/spr_modern_astronaut_helmet_01_with_stroke"]
+description = "Astronaut helmet, rendered with black outline."
+tags = [ "subject:helmet", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_modern_astronaut_helmet_02"]
+description = "Alternate astronaut helmet, rendered."
+tags = [ "subject:helmet", "style:rendered" ]
+
+[assets."sprites/spr_modern_astronaut_helmet_02_with_stroke"]
+description = "Astronaut helmet variant, rendered with black outline."
+tags = [ "subject:helmet", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_blue"]
+description = "Plasma energy sword with glowing blue beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_blue_with_stroke"]
+description = "Blue plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_cyan"]
+description = "Plasma sword with glowing cyan beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_cyan_with_stroke"]
+description = "Cyan plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_green"]
+description = "Plasma sword with glowing green beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_green_with_stroke"]
+description = "Green plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_nobeam"]
+description = "Plasma sword hilt with the beam off, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_nobeam_with_stroke"]
+description = "Plasma sword hilt, no beam, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_orange"]
+description = "Plasma sword with glowing orange beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_orange_with_stroke"]
+description = "Orange plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_pink"]
+description = "Plasma sword with glowing pink beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_pink_with_stroke"]
+description = "Pink plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_purple"]
+description = "Plasma sword with glowing purple beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_purple_with_stroke"]
+description = "Purple plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_red"]
+description = "Plasma sword with glowing red beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_red_with_stroke"]
+description = "Red plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_plasmablade_yellow"]
+description = "Plasma sword with glowing yellow beam, rendered."
+tags = [ "subject:sword", "role:weapon", "style:rendered" ]
+
+[assets."sprites/spr_plasmablade_yellow_with_stroke"]
+description = "Yellow plasma blade, rendered with black outline."
+tags = [ "subject:sword", "role:weapon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_rocket_ship"]
+description = "Retro rocket ship with fins, colorful rendered."
+tags = [ "subject:ship", "style:rendered" ]
+
+[assets."sprites/spr_rocket_ship_with_stroke"]
+description = "Rocket ship, rendered with black outline."
+tags = [ "subject:ship", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_screen"]
+description = "Sci-fi monitor/screen display, rendered."
+tags = [ "subject:screen", "style:rendered" ]
+
+[assets."sprites/spr_screen_with_stroke"]
+description = "Monitor screen, rendered with black outline."
+tags = [ "subject:screen", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_space_shuttle"]
+description = "Space shuttle orbiter, colorful rendered."
+tags = [ "subject:ship", "style:rendered" ]
+
+[assets."sprites/spr_space_shuttle_with_stroke"]
+description = "Space shuttle, rendered with black outline."
+tags = [ "subject:ship", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_blue"]
+description = "Test tube vial of glowing blue liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_blue_with_stroke"]
+description = "Blue test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_cyan"]
+description = "Test tube vial of glowing cyan liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_cyan_with_stroke"]
+description = "Cyan test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_green"]
+description = "Test tube vial of glowing green liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_green_with_stroke"]
+description = "Green test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_orange"]
+description = "Test tube vial of glowing orange liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_orange_with_stroke"]
+description = "Orange test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_pink"]
+description = "Test tube vial of glowing pink liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_pink_with_stroke"]
+description = "Pink test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_purple"]
+description = "Test tube vial of glowing purple liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_purple_with_stroke"]
+description = "Purple test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_red"]
+description = "Test tube vial of glowing red liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_red_with_stroke"]
+description = "Red test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_blue"]
+description = "Stoppered test tube of blue liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_blue_with_stroke"]
+description = "Stoppered blue test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_cyan"]
+description = "Stoppered test tube of cyan liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_cyan_with_stroke"]
+description = "Stoppered cyan test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_green"]
+description = "Stoppered test tube of green liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_green_with_stroke"]
+description = "Stoppered green test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_orange"]
+description = "Stoppered test tube of orange liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_orange_with_stroke"]
+description = "Stoppered orange test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_pink"]
+description = "Stoppered test tube of pink liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_pink_with_stroke"]
+description = "Stoppered pink test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_purple"]
+description = "Stoppered test tube of purple liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_purple_with_stroke"]
+description = "Stoppered purple test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_red"]
+description = "Stoppered test tube of red liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_red_with_stroke"]
+description = "Stoppered red test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_water"]
+description = "Stoppered test tube of clear water, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_water_with_stroke"]
+description = "Stoppered clear test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_stopper_yellow"]
+description = "Stoppered test tube of yellow liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_stopper_yellow_with_stroke"]
+description = "Stoppered yellow test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_water"]
+description = "Test tube vial of clear water, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_water_with_stroke"]
+description = "Clear water test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_testtube_yellow"]
+description = "Test tube vial of glowing yellow liquid, rendered."
+tags = [ "subject:potion", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_testtube_yellow_with_stroke"]
+description = "Yellow test tube, rendered with black outline."
+tags = [ "subject:potion", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_timedevice"]
+description = "Sci-fi time device/chrono gadget, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_timedevice_with_stroke"]
+description = "Time device, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_blue"]
+description = "Blue triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_blue_with_stroke"]
+description = "Blue triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_cyan"]
+description = "Cyan triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_cyan_with_stroke"]
+description = "Cyan triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_green"]
+description = "Green triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_green_with_stroke"]
+description = "Green triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_orange"]
+description = "Orange triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_orange_with_stroke"]
+description = "Orange triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_pink"]
+description = "Pink triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_pink_with_stroke"]
+description = "Pink triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_purple"]
+description = "Purple triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_purple_with_stroke"]
+description = "Purple triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_red"]
+description = "Red triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_red_with_stroke"]
+description = "Red triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_triangular_crate_yellow"]
+description = "Yellow triangular sci-fi crate, rendered."
+tags = [ "subject:crate", "role:pickup", "style:rendered" ]
+
+[assets."sprites/spr_triangular_crate_yellow_with_stroke"]
+description = "Yellow triangular crate, rendered with black outline."
+tags = [ "subject:crate", "role:pickup", "style:rendered", "style:outlined" ]
+
+[assets."sprites/spr_warpdrive"]
+description = "Glowing warp drive engine core, rendered."
+tags = [ "subject:icon", "style:rendered" ]
+
+[assets."sprites/spr_warpdrive_with_stroke"]
+description = "Warp drive engine, rendered with black outline."
+tags = [ "subject:icon", "style:rendered", "style:outlined" ]

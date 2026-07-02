@@ -1,0 +1,195 @@
+id = "ui-icons-pixel-flat"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Pixel-art UI icon pack: ~37 white flat-filled glyph icons (arrows, media controls, hearts, shields, settings and more) for game menus and HUDs."
+tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:pixel-art", "style:flat" ]
+
+[export]
+include = [
+  "sprites/Icon_ArrowDown",
+  "sprites/Icon_ArrowLeft",
+  "sprites/Icon_ArrowRight",
+  "sprites/Icon_ArrowUp",
+  "sprites/Icon_AudioOff",
+  "sprites/Icon_AudioOn",
+  "sprites/Icon_Battle",
+  "sprites/Icon_Bolt",
+  "sprites/Icon_Cross",
+  "sprites/Icon_ExclaimationMark",
+  "sprites/Icon_FastForward",
+  "sprites/Icon_Heart",
+  "sprites/Icon_Home",
+  "sprites/Icon_Magnify",
+  "sprites/Icon_Menu",
+  "sprites/Icon_Menu2",
+  "sprites/Icon_Message",
+  "sprites/Icon_Music",
+  "sprites/Icon_Padlock",
+  "sprites/Icon_PadlockUnlock",
+  "sprites/Icon_Pause",
+  "sprites/Icon_Play",
+  "sprites/Icon_Plus",
+  "sprites/Icon_Profile",
+  "sprites/Icon_QuestionMark",
+  "sprites/Icon_Retry",
+  "sprites/Icon_Rewind",
+  "sprites/Icon_Settings",
+  "sprites/Icon_Share",
+  "sprites/Icon_Shield",
+  "sprites/Icon_Shop",
+  "sprites/Icon_Star",
+  "sprites/Icon_ThumbsDown",
+  "sprites/Icon_ThumbsUp",
+  "sprites/Icon_Tick",
+  "sprites/Icon_Video",
+  "sprites/Icon_WiFi",
+]
+
+[assets."sprites/Icon_ArrowDown"]
+description = "A downward-pointing arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowLeft"]
+description = "A leftward-pointing arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowRight"]
+description = "A rightward-pointing arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowUp"]
+description = "A upward-pointing arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOff"]
+description = "A muted speaker (no sound waves) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOn"]
+description = "A speaker emitting sound waves — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Battle"]
+description = "A pair of crossed swords — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:sword" ]
+
+[assets."sprites/Icon_Bolt"]
+description = "A lightning bolt — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:lightning" ]
+
+[assets."sprites/Icon_Cross"]
+description = "A diagonal X / close cross — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:cross" ]
+
+[assets."sprites/Icon_ExclaimationMark"]
+description = "A exclamation mark — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_FastForward"]
+description = "A double-triangle fast-forward symbol — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Heart"]
+description = "A heart — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:heart" ]
+
+[assets."sprites/Icon_Home"]
+description = "A house with peaked roof (home) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:house" ]
+
+[assets."sprites/Icon_Magnify"]
+description = "A magnifying glass (search) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu"]
+description = "A vertical three-dot menu (kebab) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu2"]
+description = "A bulleted list / hamburger menu — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Message"]
+description = "A envelope (message/mail) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Music"]
+description = "A pair of joined musical notes — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Padlock"]
+description = "A closed padlock — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_PadlockUnlock"]
+description = "A open padlock (unlocked) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_Pause"]
+description = "A two vertical bars (pause) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Play"]
+description = "A right-pointing triangle (play) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Plus"]
+description = "A plus / add symbol — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Profile"]
+description = "A head-and-shoulders person silhouette (profile) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:human" ]
+
+[assets."sprites/Icon_QuestionMark"]
+description = "A question mark — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Retry"]
+description = "A circular refresh / retry arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Rewind"]
+description = "A double-triangle rewind symbol — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Settings"]
+description = "A gear / cog (settings) — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Share"]
+description = "A three-node share graph — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Shield"]
+description = "A shield — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:shield" ]
+
+[assets."sprites/Icon_Shop"]
+description = "A market stall / shop storefront — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Star"]
+description = "A five-pointed star — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:star" ]
+
+[assets."sprites/Icon_ThumbsDown"]
+description = "A thumbs-down hand — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ThumbsUp"]
+description = "A thumbs-up hand — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Tick"]
+description = "A checkmark / tick — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Video"]
+description = "A film-strip video / movie symbol — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_WiFi"]
+description = "A wifi signal arcs — white pixel-art glyph with solid flat fill, single frame on transparent ground."
+tags = [ "subject:icon" ]

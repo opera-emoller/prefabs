@@ -1,0 +1,455 @@
+id = "ninja-woods"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Ninja Woods — a pixel-art side-scrolling platformer pack (Windy Woods remaster) with a blue ninja hero, pink yokai monsters, lush forest and cave environments, Japanese torii end-gate, full HUD/touch UI, and four .mp3 music tracks. Retro, simple, charming."
+tags = [ "genre:platformer", "theme:nature", "theme:fantasy", "style:pixel-art", "style:retro", "projection:side-view" ]
+
+[export]
+include = [
+  "sprites/spr_backtrees_1",
+  "sprites/spr_backtrees_2",
+  "sprites/spr_block_brick",
+  "sprites/spr_block_brick_destroy",
+  "sprites/spr_block_coins_active",
+  "sprites/spr_block_coins_hit_animation",
+  "sprites/spr_block_coins_inactive",
+  "sprites/spr_bridge",
+  "sprites/spr_button_green",
+  "sprites/spr_button_red",
+  "sprites/spr_cave_entry_lit",
+  "sprites/spr_cloud_big",
+  "sprites/spr_cloud_small",
+  "sprites/spr_coin",
+  "sprites/spr_coin_collect_effect",
+  "sprites/spr_dust_effect",
+  "sprites/spr_end_gate",
+  "sprites/spr_end_gate_glow",
+  "sprites/spr_end_gate_particles",
+  "sprites/spr_enemy1_defeated",
+  "sprites/spr_enemy1_walk",
+  "sprites/spr_front_tree_1",
+  "sprites/spr_front_tree_2",
+  "sprites/spr_front_tree_3",
+  "sprites/spr_game_logo",
+  "sprites/spr_game_over",
+  "sprites/spr_game_over_background",
+  "sprites/spr_grass1",
+  "sprites/spr_grass2",
+  "sprites/spr_grass3",
+  "sprites/spr_ground_bottom_moss_left",
+  "sprites/spr_ground_bottom_moss_right",
+  "sprites/spr_ground_side_leaves_left",
+  "sprites/spr_ground_side_leaves_right",
+  "sprites/spr_hanging_1",
+  "sprites/spr_hanging_2",
+  "sprites/spr_hanging_3",
+  "sprites/spr_hanging_group_1",
+  "sprites/spr_hanging_group_2",
+  "sprites/spr_hanging_group_3",
+  "sprites/spr_hud_background",
+  "sprites/spr_hud_coins",
+  "sprites/spr_hud_heart_empty",
+  "sprites/spr_hud_heart_full",
+  "sprites/spr_hurt_zone",
+  "sprites/spr_leaf",
+  "sprites/spr_menu_background",
+  "sprites/spr_message_frame",
+  "sprites/spr_moss",
+  "sprites/spr_mound",
+  "sprites/spr_mushroom_1",
+  "sprites/spr_mushroom_2",
+  "sprites/spr_mushroom_3",
+  "sprites/spr_mushroom_group_1",
+  "sprites/spr_mushroom_group_2",
+  "sprites/spr_mushroom_group_3",
+  "sprites/spr_mushroom_group_4",
+  "sprites/spr_mushroom_group_5",
+  "sprites/spr_mushroom_group_6",
+  "sprites/spr_part_brick_destroy",
+  "sprites/spr_part_character_jump",
+  "sprites/spr_part_character_walk",
+  "sprites/spr_player_fall",
+  "sprites/spr_player_hurt",
+  "sprites/spr_player_idle",
+  "sprites/spr_player_jump",
+  "sprites/spr_player_walk",
+  "sprites/spr_rock1",
+  "sprites/spr_rock2",
+  "sprites/spr_rock3",
+  "sprites/spr_sky",
+  "sprites/spr_stop_leaf_effect",
+  "sprites/spr_tileset_cave",
+  "sprites/spr_tileset_water",
+  "sprites/spr_tileset_world",
+  "sprites/spr_touch_jump",
+  "sprites/spr_touch_left",
+  "sprites/spr_touch_pause",
+  "sprites/spr_touch_right",
+  "sprites/spr_vines_1",
+  "sprites/spr_vines_2",
+  "sprites/spr_vines_3",
+  "sounds/MP3_Ninja_Woods_Game",
+  "sounds/MP3_Ninja_Woods_Lose_Sting",
+  "sounds/MP3_Ninja_Woods_Menu",
+  "sounds/MP3_Ninja_Woods_Win_Sting",
+  "tilesets/ts_cave",
+  "tilesets/ts_water",
+  "tilesets/ts_world",
+]
+
+[assets."sprites/spr_backtrees_1"]
+description = "Wide pixel-art band of distant purple-leaved forest trees, used as a far parallax backdrop; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_backtrees_2"]
+description = "Second variant of the distant purple-canopy tree band for parallax background layering; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_front_tree_1"]
+description = "Large foreground pixel tree with a billowing pink-purple canopy, framing the playfield edges; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_front_tree_2"]
+description = "Foreground pixel tree variant with a fuller magenta canopy; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_front_tree_3"]
+description = "Foreground pixel tree variant, slightly wider crown; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_cloud_big"]
+description = "Soft rounded white pixel cloud, large size, for the sky background; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_cloud_small"]
+description = "Small fluffy white pixel cloud for sky decoration; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:cloud", "state:static" ]
+
+[assets."sprites/spr_sky"]
+description = "1px-wide vertical sky gradient strip, stretched to fill the background; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:sky", "state:static" ]
+
+[assets."sprites/spr_menu_background"]
+description = "Full-screen title-menu backdrop of the forest scene in pixel art; single frame."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_game_over_background"]
+description = "Full-screen dim pixel-art backdrop shown on the game-over screen; single frame."
+tags = [ "asset_type:sprite", "role:background", "state:static" ]
+
+[assets."sprites/spr_grass1"]
+description = "Tiny tuft of green pixel grass for ground decoration; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass2"]
+description = "Small green grass tuft, smaller variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass3"]
+description = "Small green grass tuft variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_moss"]
+description = "Short flat patch of green moss for ledges and stones; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_mound"]
+description = "Low rounded earthen mound of mossy ground; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_ground_bottom_moss_left"]
+description = "Mossy grass-topped ground edge piece, left-facing bottom corner; single frame."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_ground_bottom_moss_right"]
+description = "Mossy grass-topped ground edge piece, right-facing bottom corner; single frame."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_ground_side_leaves_left"]
+description = "Vertical ground side wall trimmed with hanging leaves, left side; single frame."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_ground_side_leaves_right"]
+description = "Vertical ground side wall trimmed with hanging leaves, right side; single frame."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_rock1"]
+description = "Small grey-blue pixel rock for ground scatter; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock2"]
+description = "Tiny flat pixel pebble; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock3"]
+description = "Tiny flat pixel pebble variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_leaf"]
+description = "Single small green leaf prop; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_bridge"]
+description = "Short wooden plank bridge segment, 3-frame subtle sway animation."
+tags = [ "asset_type:sprite", "role:environment", "subject:bridge", "state:animation" ]
+
+[assets."sprites/spr_cave_entry_lit"]
+description = "Dark rocky cave mouth with a warm lit interior glow; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_mushroom_1"]
+description = "Single tall capped pixel mushroom for forest-floor decor; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_2"]
+description = "Tiny pixel mushroom; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_3"]
+description = "Large cluster of capped mushrooms; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_1"]
+description = "Small grouped mushroom cluster decoration; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_2"]
+description = "Grouped mushroom cluster variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_3"]
+description = "Grouped mushroom cluster variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_4"]
+description = "Grouped mushroom cluster variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_5"]
+description = "Small grouped mushroom cluster variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_mushroom_group_6"]
+description = "Large grouped mushroom cluster variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:mushroom", "state:static" ]
+
+[assets."sprites/spr_hanging_1"]
+description = "Thin dangling vine strand of green leaves; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_hanging_2"]
+description = "Dangling vine strand variant; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_hanging_3"]
+description = "Long thin trailing vine strand; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_hanging_group_1"]
+description = "Bunched hanging vine cluster of leaves; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_hanging_group_2"]
+description = "Wider hanging vine cluster; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_hanging_group_3"]
+description = "Broad hanging vine cluster; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_vines_1"]
+description = "Very thin single climbing vine; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_vines_2"]
+description = "Short curved cyan-tipped vine sprout; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_vines_3"]
+description = "Long curving cyan-and-blue vine arc; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_player_idle"]
+description = "Blue-clad pixel ninja with a masked face and red scarf, standing idle; 8-frame breathing loop."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_player_walk"]
+description = "Blue ninja side-on walk cycle, scarf trailing; 8-frame animation."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_player_jump"]
+description = "Blue ninja in mid-air jump pose, legs tucked; single frame."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:static" ]
+
+[assets."sprites/spr_player_fall"]
+description = "Blue ninja falling pose; 4-frame animation."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:animation" ]
+
+[assets."sprites/spr_player_hurt"]
+description = "Blue ninja recoiling in a hurt/hit pose; single frame."
+tags = [ "asset_type:sprite", "role:player", "subject:ninja", "subject:human", "state:static" ]
+
+[assets."sprites/spr_enemy1_walk"]
+description = "Pink-magenta yokai spirit-monster with glowing yellow eyes and a toothy grin, walking; 7-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:monster", "state:animation" ]
+
+[assets."sprites/spr_enemy1_defeated"]
+description = "The pink yokai dissolving/popping on defeat; 8-frame animation."
+tags = [ "asset_type:sprite", "role:enemy", "subject:monster", "state:animation" ]
+
+[assets."sprites/spr_block_brick"]
+description = "Mossy-blue stone brick block, subtle 4-frame idle shimmer."
+tags = [ "asset_type:sprite", "role:terrain", "subject:wall", "state:animation" ]
+
+[assets."sprites/spr_block_brick_destroy"]
+description = "Stone brick block shattering into chunks; 5-frame break animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:wall", "state:animation" ]
+
+[assets."sprites/spr_block_coins_active"]
+description = "Glowing question/coin block with a golden coin emblem, active state; single frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/spr_block_coins_inactive"]
+description = "Spent coin block, dimmed/empty state; single frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/spr_block_coins_hit_animation"]
+description = "Coin popping upward out of a struck coin block; 8-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:coin", "state:animation" ]
+
+[assets."sprites/spr_hurt_zone"]
+description = "Translucent hazard marker tile for damage zones; single frame."
+tags = [ "asset_type:sprite", "role:environment", "state:static" ]
+
+[assets."sprites/spr_stop_leaf_effect"]
+description = "Square marker sprite used to halt the falling-leaf effect; single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_coin"]
+description = "Spinning golden coin pickup; 6-frame rotation animation."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "state:animation" ]
+
+[assets."sprites/spr_end_gate"]
+description = "Crimson-purple Japanese torii gate marking the level exit, with hanging paper charms; single frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:gate", "state:static" ]
+
+[assets."sprites/spr_end_gate_glow"]
+description = "Soft pale glow halo behind the torii end gate; single frame."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:static" ]
+
+[assets."sprites/spr_end_gate_particles"]
+description = "Sparkling magical particles rising around the end gate; 20-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:magic", "state:animation" ]
+
+[assets."sprites/spr_coin_collect_effect"]
+description = "Bright sparkle burst when a coin is collected; 5-frame flash animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:coin", "subject:flash", "state:animation" ]
+
+[assets."sprites/spr_dust_effect"]
+description = "Small puff of landing/footstep dust; 8-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_part_brick_destroy"]
+description = "Tiny single brick-debris particle; single frame."
+tags = [ "asset_type:sprite", "role:vfx", "subject:impact", "state:static" ]
+
+[assets."sprites/spr_part_character_jump"]
+description = "Curved dust kick-up sprite for the jump particle effect; 6-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_part_character_walk"]
+description = "Low dust trail for the walk particle effect; 8-frame animation."
+tags = [ "asset_type:sprite", "role:vfx", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_hud_background"]
+description = "Rounded dark HUD bar panel holding the score and lives readouts; single frame."
+tags = [ "asset_type:sprite", "role:ui", "subject:panel", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_hud_coins"]
+description = "Golden coin icon for the coin counter in the HUD; single frame."
+tags = [ "asset_type:sprite", "role:ui", "subject:icon", "subject:coin", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_hud_heart_empty"]
+description = "Empty grey heart icon for the lives display; single frame."
+tags = [ "asset_type:sprite", "role:ui", "subject:icon", "subject:heart", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_hud_heart_full"]
+description = "Filled red heart icon for the lives display; single frame."
+tags = [ "asset_type:sprite", "role:ui", "subject:icon", "subject:heart", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_message_frame"]
+description = "Decorative bordered dialog/message box frame; single frame."
+tags = [ "asset_type:sprite", "role:ui", "subject:frame", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_button_green"]
+description = "Green rounded UI button, 2-frame normal/pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_button_red"]
+description = "Red rounded UI button, 2-frame normal/pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_touch_jump"]
+description = "On-screen touch control for jump (upward arrow), 2-frame pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_touch_left"]
+description = "On-screen touch control for moving left, 2-frame pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_touch_right"]
+description = "On-screen touch control for moving right, 2-frame pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_touch_pause"]
+description = "On-screen touch pause button, 2-frame pressed states."
+tags = [ "asset_type:sprite", "role:ui", "subject:button", "projection:ui-icon", "state:animation" ]
+
+[assets."sprites/spr_game_logo"]
+description = "'Ninja Woods' pixel title logo with a stylized mask emblem; single frame."
+tags = [ "asset_type:sprite", "role:ui", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_game_over"]
+description = "'Game Over' pixel banner graphic; single frame."
+tags = [ "asset_type:sprite", "role:ui", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_tileset_world"]
+description = "Sprite copy of the full forest/world tilesheet — grass-topped rocky terrain blocks."
+tags = [ "asset_type:sprite", "role:tile", "subject:ground", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_tileset_cave"]
+description = "Sprite copy of the cave tilesheet — dark rocky stone with green crystal spikes."
+tags = [ "asset_type:sprite", "role:tile", "subject:cave", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_tileset_water"]
+description = "Sprite copy of the water tilesheet — a blue rippling water surface block."
+tags = [ "asset_type:sprite", "role:tile", "subject:water", "state:static" ]
+
+[assets."tilesets/ts_world"]
+description = "Forest terrain tileset: grass-and-moss-capped rocky ground blocks, edges, and platforms for building level geometry."
+tags = [ "asset_type:tileset", "role:tile", "subject:ground", "subject:grass", "subject:rock" ]
+
+[assets."tilesets/ts_cave"]
+description = "Cave terrain tileset: dark rugged stone with luminous green crystal/bamboo-like spikes for underground sections."
+tags = [ "asset_type:tileset", "role:tile", "subject:cave", "subject:rock" ]
+
+[assets."tilesets/ts_water"]
+description = "Water tileset: layered blue water surface and depth tiles for pools and streams."
+tags = [ "asset_type:tileset", "role:tile", "subject:water" ]
+
+[assets."sounds/MP3_Ninja_Woods_Game"]
+description = "Upbeat looping in-game background music track, ~112s, .mp3 — the main platforming theme."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Ninja_Woods_Menu"]
+description = "Calmer looping title/menu music track, ~80s, .mp3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Ninja_Woods_Win_Sting"]
+description = "Short triumphant win/victory musical sting, ~3.4s, .mp3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Ninja_Woods_Lose_Sting"]
+description = "Short downbeat lose/fail musical sting, ~3.4s, .mp3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]

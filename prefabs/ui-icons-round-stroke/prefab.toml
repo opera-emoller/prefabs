@@ -1,0 +1,195 @@
+id = "ui-icons-round-stroke"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Stroke round UI glyph icons: a set of 37 smooth-rounded interface symbols rendered as thin clean outline strokes on transparent backgrounds."
+tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:outlined", "style:stroke" ]
+
+[export]
+include = [
+  "sprites/Icon_ArrowDown",
+  "sprites/Icon_ArrowLeft",
+  "sprites/Icon_ArrowRight",
+  "sprites/Icon_ArrowUp",
+  "sprites/Icon_AudioOff",
+  "sprites/Icon_AudioOn",
+  "sprites/Icon_Battle",
+  "sprites/Icon_Bolt",
+  "sprites/Icon_Cross",
+  "sprites/Icon_ExclaimationMark",
+  "sprites/Icon_FastForward",
+  "sprites/Icon_Heart",
+  "sprites/Icon_Home",
+  "sprites/Icon_Magnify",
+  "sprites/Icon_Menu",
+  "sprites/Icon_Menu2",
+  "sprites/Icon_Message",
+  "sprites/Icon_Music",
+  "sprites/Icon_Padlock",
+  "sprites/Icon_PadlockUnlock",
+  "sprites/Icon_Pause",
+  "sprites/Icon_Play",
+  "sprites/Icon_Plus",
+  "sprites/Icon_Profile",
+  "sprites/Icon_QuestionMark",
+  "sprites/Icon_Retry",
+  "sprites/Icon_Rewind",
+  "sprites/Icon_Settings",
+  "sprites/Icon_Share",
+  "sprites/Icon_Shield",
+  "sprites/Icon_Shop",
+  "sprites/Icon_Star",
+  "sprites/Icon_ThumbsDown",
+  "sprites/Icon_ThumbsUp",
+  "sprites/Icon_Tick",
+  "sprites/Icon_Video",
+  "sprites/Icon_WiFi",
+]
+
+[assets."sprites/Icon_ArrowDown"]
+description = "A downward-pointing arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowLeft"]
+description = "A left-pointing arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowRight"]
+description = "A right-pointing arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ArrowUp"]
+description = "An upward-pointing arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOff"]
+description = "A muted speaker (no sound waves); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_AudioOn"]
+description = "A speaker emitting sound waves; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Battle"]
+description = "Two crossed swords (battle / fight); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:sword" ]
+
+[assets."sprites/Icon_Bolt"]
+description = "A lightning bolt; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:lightning" ]
+
+[assets."sprites/Icon_Cross"]
+description = "An X / cross mark (close, cancel); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:cross" ]
+
+[assets."sprites/Icon_ExclaimationMark"]
+description = "An exclamation mark (alert, warning); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_FastForward"]
+description = "A double-triangle fast-forward symbol; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Heart"]
+description = "A heart (love, health, favourite); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:heart" ]
+
+[assets."sprites/Icon_Home"]
+description = "A house (home); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:house" ]
+
+[assets."sprites/Icon_Magnify"]
+description = "A magnifying glass (search, zoom); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu"]
+description = "A vertical three-dot kebab menu; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Menu2"]
+description = "A bulleted list / hamburger-style menu; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Message"]
+description = "An envelope (mail, message); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Music"]
+description = "A pair of musical notes; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Padlock"]
+description = "A closed padlock (locked); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_PadlockUnlock"]
+description = "An open padlock (unlocked); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:lock" ]
+
+[assets."sprites/Icon_Pause"]
+description = "Two vertical bars (pause); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Play"]
+description = "A right-pointing triangle (play); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Plus"]
+description = "A plus sign (add); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Profile"]
+description = "A person bust silhouette (profile, account); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:human" ]
+
+[assets."sprites/Icon_QuestionMark"]
+description = "A question mark (help); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Retry"]
+description = "A circular refresh / retry arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Rewind"]
+description = "A double-triangle rewind symbol; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Settings"]
+description = "A cog / gear (settings); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Share"]
+description = "A three-node share / network symbol; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Shield"]
+description = "A shield (defense, security); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:shield" ]
+
+[assets."sprites/Icon_Shop"]
+description = "A shopping basket (shop, store); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Star"]
+description = "A five-pointed star (rating, favourite); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:star" ]
+
+[assets."sprites/Icon_ThumbsDown"]
+description = "A thumbs-down (dislike); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_ThumbsUp"]
+description = "A thumbs-up (like); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Tick"]
+description = "A checkmark / tick (confirm, done); smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_Video"]
+description = "A film strip / video clip symbol; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]
+
+[assets."sprites/Icon_WiFi"]
+description = "A wifi signal arc symbol; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background."
+tags = [ "subject:icon" ]

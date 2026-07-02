@@ -1,0 +1,1068 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spine_barrel"
+sprite = "spine_barrel"
+x = 22.1
+y = 25.0
+scale_x = 0.84274
+scale_y = 0.84274
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_broken_masts"
+sprite = "spine_broken_masts"
+x = 117.0
+y = 17.8
+scale_x = 0.60864
+scale_y = 0.60864
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_buoy"
+sprite = "spine_buoy"
+x = 202.1
+y = 20.1
+scale_x = 0.42409
+scale_y = 0.42409
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_cannon_fire"
+sprite = "spine_cannon_fire"
+x = 292.1
+y = 28.5
+scale_x = 0.63205
+scale_y = 0.63205
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_cannon_hit"
+sprite = "spine_cannon_hit"
+x = 382.1
+y = 19.5
+scale_x = 0.69193
+scale_y = 0.69193
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_cannonball_trail"
+sprite = "spine_cannonball_trail"
+x = 473.5
+y = 17.8
+scale_x = 1.39858
+scale_y = 1.39858
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_crates"
+sprite = "spine_crates"
+x = 562.7
+y = 17.8
+scale_x = 1.13333
+scale_y = 1.13333
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_pickup_glow"
+sprite = "spine_pickup_glow"
+x = 652.1
+y = 17.8
+scale_x = 0.46291
+scale_y = 0.46291
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_plank"
+sprite = "spine_plank"
+x = 742.1
+y = 41.0
+scale_x = 0.55238
+scale_y = 0.55238
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_rowboat"
+sprite = "spine_rowboat"
+x = 832.1
+y = 24.8
+scale_x = 0.27853
+scale_y = 0.27853
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_sailors"
+sprite = "spine_sailors"
+x = 922.1
+y = 33.6
+scale_x = 0.90046
+scale_y = 0.90046
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_ship_wake"
+sprite = "spine_ship_wake"
+x = 1012.1
+y = 26.3
+scale_x = 2.12043
+scale_y = 2.12043
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_treasure_chest"
+sprite = "spine_treasure_chest"
+x = 1102.1
+y = 28.6
+scale_x = 0.69929
+scale_y = 0.69929
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_water_splash"
+sprite = "spine_water_splash"
+x = 1192.1
+y = 18.7
+scale_x = 1.82593
+scale_y = 1.82593
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spine_whale"
+sprite = "spine_whale"
+x = 33.2
+y = 95.1
+scale_x = 0.18835
+scale_y = 0.18835
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_banner_navy"
+sprite = "spr_banner_navy"
+x = 137.3
+y = 95.1
+scale_x = 0.61433
+scale_y = 0.61433
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_banner_pirate"
+sprite = "spr_banner_pirate"
+x = 227.3
+y = 95.1
+scale_x = 0.61433
+scale_y = 0.61433
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_banner_plain"
+sprite = "spr_banner_plain"
+x = 317.5
+y = 95.1
+scale_x = 0.60306
+scale_y = 0.60306
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_barrel"
+sprite = "spr_barrel"
+x = 382.1
+y = 102.4
+scale_x = 0.66397
+scale_y = 0.66397
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_buoy"
+sprite = "spr_buoy"
+x = 472.1
+y = 97.4
+scale_x = 0.40327
+scale_y = 0.40327
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush1"
+sprite = "spr_bush1"
+x = 562.1
+y = 97.9
+scale_x = 0.49798
+scale_y = 0.49798
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush2"
+sprite = "spr_bush2"
+x = 652.1
+y = 95.4
+scale_x = 0.62603
+scale_y = 0.62603
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cannon"
+sprite = "spr_cannon"
+x = 742.1
+y = 112.2
+scale_x = 0.49424
+scale_y = 0.49424
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cannon_ducksfoot"
+sprite = "spr_cannon_ducksfoot"
+x = 832.1
+y = 100.2
+scale_x = 0.53442
+scale_y = 0.53442
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cannonball"
+sprite = "spr_cannonball"
+x = 922.1
+y = 95.1
+scale_x = 2.12043
+scale_y = 2.12043
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cannonball_hit"
+sprite = "spr_cannonball_hit"
+x = 1012.1
+y = 97.5
+scale_x = 1.19515
+scale_y = 1.19515
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cannonball_trail"
+sprite = "spr_cannonball_trail"
+x = 1102.1
+y = 109.6
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chainshot"
+sprite = "spr_chainshot"
+x = 1192.1
+y = 114.9
+scale_x = 0.70681
+scale_y = 0.70681
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate"
+sprite = "spr_crate"
+x = 22.1
+y = 174.2
+scale_x = 0.85368
+scale_y = 0.85368
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_booty"
+sprite = "spr_crate_booty"
+x = 112.1
+y = 174.2
+scale_x = 0.85368
+scale_y = 0.85368
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glow"
+sprite = "spr_glow"
+x = 202.1
+y = 172.5
+scale_x = 0.43246
+scale_y = 0.43246
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_icon_cannon"
+sprite = "spr_icon_cannon"
+x = 292.1
+y = 173.3
+scale_x = 0.35152
+scale_y = 0.35152
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_icon_duckfoot"
+sprite = "spr_icon_duckfoot"
+x = 382.1
+y = 173.3
+scale_x = 0.35152
+scale_y = 0.35152
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mortar"
+sprite = "spr_mortar"
+x = 472.1
+y = 184.8
+scale_x = 0.68472
+scale_y = 0.68472
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_navy_mast"
+sprite = "spr_navy_mast"
+x = 565.9
+y = 172.5
+scale_x = 0.54325
+scale_y = 0.54325
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pirate_mast"
+sprite = "spr_pirate_mast"
+x = 655.9
+y = 172.5
+scale_x = 0.54325
+scale_y = 0.54325
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plain_mast"
+sprite = "spr_plain_mast"
+x = 745.9
+y = 172.5
+scale_x = 0.54325
+scale_y = 0.54325
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plank"
+sprite = "spr_plank"
+x = 832.1
+y = 194.2
+scale_x = 0.4729
+scale_y = 0.4729
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_repair"
+sprite = "spr_repair"
+x = 922.1
+y = 173.3
+scale_x = 0.35152
+scale_y = 0.35152
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rocks1"
+sprite = "spr_rocks1"
+x = 1014.3
+y = 172.5
+scale_x = 0.36723
+scale_y = 0.36723
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rocks2"
+sprite = "spr_rocks2"
+x = 1102.1
+y = 175.8
+scale_x = 0.4729
+scale_y = 0.4729
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor1"
+sprite = "spr_rowboat_sailor1"
+x = 1192.1
+y = 179.0
+scale_x = 0.27736
+scale_y = 0.27736
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor1_idle"
+sprite = "spr_rowboat_sailor1_idle"
+x = 22.1
+y = 255.8
+scale_x = 0.28456
+scale_y = 0.28456
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor2"
+sprite = "spr_rowboat_sailor2"
+x = 112.1
+y = 256.3
+scale_x = 0.27736
+scale_y = 0.27736
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor2_idle"
+sprite = "spr_rowboat_sailor2_idle"
+x = 202.1
+y = 255.8
+scale_x = 0.28456
+scale_y = 0.28456
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor3"
+sprite = "spr_rowboat_sailor3"
+x = 292.1
+y = 256.3
+scale_x = 0.27736
+scale_y = 0.27736
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor3_idle"
+sprite = "spr_rowboat_sailor3_idle"
+x = 382.1
+y = 255.8
+scale_x = 0.28456
+scale_y = 0.28456
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor4"
+sprite = "spr_rowboat_sailor4"
+x = 472.1
+y = 256.3
+scale_x = 0.27736
+scale_y = 0.27736
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rowboat_sailor4_idle"
+sprite = "spr_rowboat_sailor4_idle"
+x = 562.1
+y = 255.8
+scale_x = 0.28456
+scale_y = 0.28456
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_navy"
+sprite = "spr_sail_brig_navy"
+x = 660.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_navy_damaged"
+sprite = "spr_sail_brig_navy_damaged"
+x = 750.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_pirate"
+sprite = "spr_sail_brig_pirate"
+x = 840.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_pirate_damaged"
+sprite = "spr_sail_brig_pirate_damaged"
+x = 930.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_plain"
+sprite = "spr_sail_brig_plain"
+x = 1020.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_brig_plain_damaged"
+sprite = "spr_sail_brig_plain_damaged"
+x = 1110.7
+y = 249.8
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_navy"
+sprite = "spr_sail_frigate_navy"
+x = 1192.1
+y = 254.4
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_navy_damaged"
+sprite = "spr_sail_frigate_navy_damaged"
+x = 22.1
+y = 331.8
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_pirate"
+sprite = "spr_sail_frigate_pirate"
+x = 112.1
+y = 331.9
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_pirate_damaged"
+sprite = "spr_sail_frigate_pirate_damaged"
+x = 202.1
+y = 331.9
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_plain"
+sprite = "spr_sail_frigate_plain"
+x = 292.1
+y = 331.9
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_frigate_plain_damaged"
+sprite = "spr_sail_frigate_plain_damaged"
+x = 382.1
+y = 331.9
+scale_x = 0.15216
+scale_y = 0.15216
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_navy"
+sprite = "spr_sail_gunboat_navy"
+x = 472.1
+y = 354.5
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_navy_damaged"
+sprite = "spr_sail_gunboat_navy_damaged"
+x = 562.1
+y = 354.5
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_pirate"
+sprite = "spr_sail_gunboat_pirate"
+x = 652.1
+y = 354.4
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_pirate_damaged"
+sprite = "spr_sail_gunboat_pirate_damaged"
+x = 742.1
+y = 354.4
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_plain"
+sprite = "spr_sail_gunboat_plain"
+x = 832.1
+y = 354.5
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_gunboat_plain_damaged"
+sprite = "spr_sail_gunboat_plain_damaged"
+x = 922.1
+y = 354.5
+scale_x = 0.21838
+scale_y = 0.21838
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_navy"
+sprite = "spr_sail_manofwar_navy"
+x = 1012.1
+y = 340.2
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_navy_damaged"
+sprite = "spr_sail_manofwar_navy_damaged"
+x = 1102.1
+y = 340.2
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_pirate"
+sprite = "spr_sail_manofwar_pirate"
+x = 1192.1
+y = 340.3
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_pirate_damaged"
+sprite = "spr_sail_manofwar_pirate_damaged"
+x = 22.1
+y = 417.6
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_plain"
+sprite = "spr_sail_manofwar_plain"
+x = 112.1
+y = 417.6
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_manofwar_plain_damaged"
+sprite = "spr_sail_manofwar_plain_damaged"
+x = 202.1
+y = 417.6
+scale_x = 0.09092
+scale_y = 0.09092
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_navy"
+sprite = "spr_sail_schooner_navy"
+x = 292.1
+y = 409.9
+scale_x = 0.21068
+scale_y = 0.21068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_navy_damaged"
+sprite = "spr_sail_schooner_navy_damaged"
+x = 382.1
+y = 409.9
+scale_x = 0.21068
+scale_y = 0.21068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_pirate"
+sprite = "spr_sail_schooner_pirate"
+x = 472.1
+y = 410.2
+scale_x = 0.20868
+scale_y = 0.20868
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_pirate_damaged"
+sprite = "spr_sail_schooner_pirate_damaged"
+x = 562.1
+y = 410.2
+scale_x = 0.20868
+scale_y = 0.20868
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_plain"
+sprite = "spr_sail_schooner_plain"
+x = 652.1
+y = 409.9
+scale_x = 0.21068
+scale_y = 0.21068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sail_schooner_plain_damaged"
+sprite = "spr_sail_schooner_plain_damaged"
+x = 742.1
+y = 409.9
+scale_x = 0.21068
+scale_y = 0.21068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sailor1"
+sprite = "spr_sailor1"
+x = 832.1
+y = 419.3
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sailor2"
+sprite = "spr_sailor2"
+x = 22.1
+y = 496.6
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sailor3"
+sprite = "spr_sailor3"
+x = 112.1
+y = 495.8
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_sailor4"
+sprite = "spr_sailor4"
+x = 202.1
+y = 497.8
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_brig"
+sprite = "spr_ship_brig"
+x = 292.1
+y = 496.1
+scale_x = 0.11655
+scale_y = 0.11655
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_brig_destroyed"
+sprite = "spr_ship_brig_destroyed"
+x = 382.1
+y = 496.1
+scale_x = 0.11655
+scale_y = 0.11655
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_frigate"
+sprite = "spr_ship_frigate"
+x = 472.1
+y = 498.7
+scale_x = 0.08237
+scale_y = 0.08237
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_frigate_damaged"
+sprite = "spr_ship_frigate_damaged"
+x = 562.1
+y = 498.7
+scale_x = 0.08237
+scale_y = 0.08237
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_gunboat"
+sprite = "spr_ship_gunboat"
+x = 652.1
+y = 504.5
+scale_x = 0.17298
+scale_y = 0.17298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_gunboat_damaged"
+sprite = "spr_ship_gunboat_damaged"
+x = 742.1
+y = 504.5
+scale_x = 0.17298
+scale_y = 0.17298
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_manofwar"
+sprite = "spr_ship_manofwar"
+x = 832.1
+y = 497.9
+scale_x = 0.0732
+scale_y = 0.0732
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_manofwar_damaged"
+sprite = "spr_ship_manofwar_damaged"
+x = 22.1
+y = 575.2
+scale_x = 0.07328
+scale_y = 0.07328
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_schooner"
+sprite = "spr_ship_schooner"
+x = 112.1
+y = 573.6
+scale_x = 0.1336
+scale_y = 0.1336
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_schooner_damaged"
+sprite = "spr_ship_schooner_damaged"
+x = 202.1
+y = 573.6
+scale_x = 0.1336
+scale_y = 0.1336
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ship_wake"
+sprite = "spr_ship_wake"
+x = 292.1
+y = 575.3
+scale_x = 0.62013
+scale_y = 0.62013
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tower"
+sprite = "spr_tower"
+x = 382.1
+y = 559.1
+scale_x = 0.21984
+scale_y = 0.21984
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_treasure_chest"
+sprite = "spr_treasure_chest"
+x = 472.1
+y = 571.0
+scale_x = 0.55238
+scale_y = 0.55238
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree1"
+sprite = "spr_tree1"
+x = 563.0
+y = 559.1
+scale_x = 0.29215
+scale_y = 0.29215
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree2"
+sprite = "spr_tree2"
+x = 652.1
+y = 559.6
+scale_x = 0.29477
+scale_y = 0.29477
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wall_bottom"
+sprite = "spr_wall_bottom"
+x = 744.7
+y = 559.1
+scale_x = 0.2538
+scale_y = 0.2538
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wall_mid"
+sprite = "spr_wall_mid"
+x = 834.6
+y = 559.1
+scale_x = 0.25478
+scale_y = 0.25478
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wall_top"
+sprite = "spr_wall_top"
+x = 24.6
+y = 636.5
+scale_x = 0.25478
+scale_y = 0.25478
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_splash"
+sprite = "spr_water_splash"
+x = 112.1
+y = 640.2
+scale_x = 0.61433
+scale_y = 0.61433
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_whale_swimming"
+sprite = "spr_whale_swimming"
+x = 211.0
+y = 636.5
+scale_x = 0.18009
+scale_y = 0.18009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_whale_swimming_fadein"
+sprite = "spr_whale_swimming_fadein"
+x = 300.7
+y = 636.5
+scale_x = 0.18209
+scale_y = 0.18209
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_whale_swimming_fadeout"
+sprite = "spr_whale_swimming_fadeout"
+x = 390.7
+y = 636.5
+scale_x = 0.18209
+scale_y = 0.18209
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_vfx_cannon_fire"
+sprite = "vfx_cannon_fire"
+x = 472.1
+y = 656.0
+scale_x = 0.18727
+scale_y = 0.18727
+rotation = 0.0
+colour = "#FFFFFFFF"
+

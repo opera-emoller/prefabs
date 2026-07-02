@@ -1,0 +1,2145 @@
+id = "fantasy-platformer"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A bright, fun cartoon fantasy side-scrolling platformer pack: smoothly animated Knight, Bat, Skeleton and Spider, forest/cave/castle/house environments, tilesets, parallax backdrops, plus a full SFX + music library."
+tags = [ "genre:platformer", "theme:fantasy", "theme:medieval", "style:cartoon", "style:shaded", "projection:side-view" ]
+
+[export]
+include = [
+  "sprites/Cave_Layer1",
+  "sprites/Cave_Layer2",
+  "sprites/Cave_Layer3",
+  "sprites/Cave_Layer4",
+  "sprites/Forest_Layer1",
+  "sprites/Forest_Layer2",
+  "sprites/Forest_Layer3",
+  "sprites/Forest_Layer4",
+  "sprites/sprBatSpine",
+  "sprites/sprBat_Attack",
+  "sprites/sprBat_Die",
+  "sprites/sprBat_Fly",
+  "sprites/sprBat_Hang",
+  "sprites/sprBat_Hit",
+  "sprites/sprBat_Idle",
+  "sprites/sprBuilding_Chimney_Base",
+  "sprites/sprBuilding_Chimney_Mid",
+  "sprites/sprBuilding_Chimney_Top",
+  "sprites/sprBuilding_Door",
+  "sprites/sprBuilding_Door_Cave",
+  "sprites/sprBuilding_Door_Cave_Dark",
+  "sprites/sprBuilding_Doorway_Stone",
+  "sprites/sprBuilding_Doorway_Stone_Dark",
+  "sprites/sprBuilding_Doorway_Wood",
+  "sprites/sprBuilding_Fence_Left",
+  "sprites/sprBuilding_Fence_Mid1",
+  "sprites/sprBuilding_Fence_Mid2",
+  "sprites/sprBuilding_Fence_Mid3",
+  "sprites/sprBuilding_Fence_Right",
+  "sprites/sprBuilding_Plain_Panel",
+  "sprites/sprBuilding_Plain_Panel_Left",
+  "sprites/sprBuilding_Plain_Panel_Right",
+  "sprites/sprBuilding_Plank_Diagonal_Left",
+  "sprites/sprBuilding_Plank_Diagonal_Left_Dark",
+  "sprites/sprBuilding_Plank_Diagonal_Left_Shadow",
+  "sprites/sprBuilding_Plank_Diagonal_Left_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Diagonal_Right",
+  "sprites/sprBuilding_Plank_Diagonal_Right_Dark",
+  "sprites/sprBuilding_Plank_Diagonal_Right_Shadow",
+  "sprites/sprBuilding_Plank_Diagonal_Right_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Left",
+  "sprites/sprBuilding_Plank_Left_Dark",
+  "sprites/sprBuilding_Plank_Left_Shadow",
+  "sprites/sprBuilding_Plank_Left_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Mid",
+  "sprites/sprBuilding_Plank_Mid_Dark",
+  "sprites/sprBuilding_Plank_Mid_Shadow",
+  "sprites/sprBuilding_Plank_Mid_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Right",
+  "sprites/sprBuilding_Plank_Right_Dark",
+  "sprites/sprBuilding_Plank_Right_Shadow",
+  "sprites/sprBuilding_Plank_Right_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Vertical_Left",
+  "sprites/sprBuilding_Plank_Vertical_Left_Dark",
+  "sprites/sprBuilding_Plank_Vertical_Left_Shadow",
+  "sprites/sprBuilding_Plank_Vertical_Left_Shadow_Dark",
+  "sprites/sprBuilding_Plank_Vertical_Right",
+  "sprites/sprBuilding_Plank_Vertical_Right_Dark",
+  "sprites/sprBuilding_Plank_Vertical_Right_Shadow",
+  "sprites/sprBuilding_Plank_Vertical_Right_Shadow_Dark",
+  "sprites/sprBuilding_Roof_Left",
+  "sprites/sprBuilding_Roof_Left_Shadow",
+  "sprites/sprBuilding_Roof_Mid",
+  "sprites/sprBuilding_Roof_Mid_Shadow",
+  "sprites/sprBuilding_Roof_Right",
+  "sprites/sprBuilding_Roof_Right_Shadow",
+  "sprites/sprBuilding_Shed_Stone",
+  "sprites/sprBuilding_Shed_Wood",
+  "sprites/sprBuilding_Wall_Plain",
+  "sprites/sprBuilding_Wall_Plain_Left",
+  "sprites/sprBuilding_Wall_Plain_Right",
+  "sprites/sprBuilding_Wall_Stone1",
+  "sprites/sprBuilding_Wall_Stone1_Dark",
+  "sprites/sprBuilding_Wall_Stone2",
+  "sprites/sprBuilding_Wall_Stone2_Dark",
+  "sprites/sprBuilding_Wall_Stone3",
+  "sprites/sprBuilding_Wall_Stone3_Dark",
+  "sprites/sprBuilding_Wall_Stone_Left",
+  "sprites/sprBuilding_Wall_Stone_Left_Dark",
+  "sprites/sprBuilding_Wall_Stone_Right",
+  "sprites/sprBuilding_Wall_Stone_Right_Dark",
+  "sprites/sprBuilding_Wall_Wood",
+  "sprites/sprBuilding_Wall_Wood_Dark",
+  "sprites/sprBuilding_Wall_Wood_Left",
+  "sprites/sprBuilding_Wall_Wood_Left_Dark",
+  "sprites/sprBuilding_Wall_Wood_Right",
+  "sprites/sprBuilding_Wall_Wood_Right_Dark",
+  "sprites/sprBuilding_Window_Stone",
+  "sprites/sprBuilding_Window_Stone_Dark_Shadow",
+  "sprites/sprBuilding_Window_Stone_Shadow",
+  "sprites/sprBuilding_Window_Wood",
+  "sprites/sprBuilding_Window_Wood_Shadow",
+  "sprites/sprDummySpine",
+  "sprites/sprDummy_Hit",
+  "sprites/sprDummy_Idle",
+  "sprites/sprKnightSpine",
+  "sprites/sprKnight_Arrow",
+  "sprites/sprKnight_Attack_Bow",
+  "sprites/sprKnight_Attack_Sword_Heavy",
+  "sprites/sprKnight_Attack_Sword_Light",
+  "sprites/sprKnight_Die",
+  "sprites/sprKnight_Die_Bow",
+  "sprites/sprKnight_Die_Spikes",
+  "sprites/sprKnight_Die_Spikes_Bow",
+  "sprites/sprKnight_Die_Spikes_Sword",
+  "sprites/sprKnight_Die_Sword",
+  "sprites/sprKnight_Hit",
+  "sprites/sprKnight_Hit_Bow",
+  "sprites/sprKnight_Hit_Sword",
+  "sprites/sprKnight_Idle",
+  "sprites/sprKnight_Idle_Bow",
+  "sprites/sprKnight_Idle_Sword",
+  "sprites/sprKnight_Jump_Airborne",
+  "sprites/sprKnight_Jump_Airborne_Bow",
+  "sprites/sprKnight_Jump_Airborne_Sword",
+  "sprites/sprKnight_Jump_Fall",
+  "sprites/sprKnight_Jump_Fall_Bow",
+  "sprites/sprKnight_Jump_Fall_Sword",
+  "sprites/sprKnight_Jump_Up",
+  "sprites/sprKnight_Jump_Up_Bow",
+  "sprites/sprKnight_Jump_Up_Sword",
+  "sprites/sprKnight_Roll",
+  "sprites/sprKnight_Run",
+  "sprites/sprKnight_Run_Bow",
+  "sprites/sprKnight_Run_Sword",
+  "sprites/sprKnight_Walk",
+  "sprites/sprKnight_Walk_Bow",
+  "sprites/sprKnight_Walk_Sword",
+  "sprites/sprPickup_Bow",
+  "sprites/sprPickup_BowSpine",
+  "sprites/sprPickup_CoinBronze",
+  "sprites/sprPickup_CoinGold",
+  "sprites/sprPickup_CoinSilver",
+  "sprites/sprPickup_CoinSpine",
+  "sprites/sprPickup_KeyGold",
+  "sprites/sprPickup_KeySilver",
+  "sprites/sprPickup_KeySpine",
+  "sprites/sprPickup_Sword",
+  "sprites/sprPickup_SwordSpine",
+  "sprites/sprPropIndoor_Bed",
+  "sprites/sprPropIndoor_Bedside_Table",
+  "sprites/sprPropIndoor_Beermug",
+  "sprites/sprPropIndoor_Bones1",
+  "sprites/sprPropIndoor_Bones2",
+  "sprites/sprPropIndoor_Bones3",
+  "sprites/sprPropIndoor_Book_Pile1",
+  "sprites/sprPropIndoor_Book_Pile2",
+  "sprites/sprPropIndoor_Book_Stack1",
+  "sprites/sprPropIndoor_Book_Stack2",
+  "sprites/sprPropIndoor_Bookshelf",
+  "sprites/sprPropIndoor_CandleSpine",
+  "sprites/sprPropIndoor_Candle_LargeLit",
+  "sprites/sprPropIndoor_Candle_LargeUnlit",
+  "sprites/sprPropIndoor_Candle_MediumLit",
+  "sprites/sprPropIndoor_Candle_MediumUnlit",
+  "sprites/sprPropIndoor_Candle_SmallLit",
+  "sprites/sprPropIndoor_Candle_SmallUnlit",
+  "sprites/sprPropIndoor_Candlestick_Bronze",
+  "sprites/sprPropIndoor_Candlestick_Floor_Bronze",
+  "sprites/sprPropIndoor_Candlestick_Floor_Silver",
+  "sprites/sprPropIndoor_Candlestick_Silver",
+  "sprites/sprPropIndoor_Chair1",
+  "sprites/sprPropIndoor_Chair2",
+  "sprites/sprPropIndoor_Chandelier_Bronze",
+  "sprites/sprPropIndoor_Chandelier_Silver",
+  "sprites/sprPropIndoor_ChimneyLit",
+  "sprites/sprPropIndoor_ChimneySpine",
+  "sprites/sprPropIndoor_Chimney_Unlit",
+  "sprites/sprPropIndoor_Cobweb",
+  "sprites/sprPropIndoor_Coffee_Table",
+  "sprites/sprPropIndoor_Dining_Table",
+  "sprites/sprPropIndoor_Grain_Sack",
+  "sprites/sprPropIndoor_Jar_Empty1",
+  "sprites/sprPropIndoor_Jar_Empty2",
+  "sprites/sprPropIndoor_Jar_Empty3",
+  "sprites/sprPropIndoor_Jar_Full1",
+  "sprites/sprPropIndoor_Jar_Full2",
+  "sprites/sprPropIndoor_Jar_Full3",
+  "sprites/sprPropIndoor_Potion1",
+  "sprites/sprPropIndoor_Potion2",
+  "sprites/sprPropIndoor_Potion3",
+  "sprites/sprPropIndoor_Potion4",
+  "sprites/sprPropIndoor_Potion_Empty1",
+  "sprites/sprPropIndoor_Potion_Empty2",
+  "sprites/sprPropIndoor_Potion_Empty3",
+  "sprites/sprPropIndoor_Potion_Empty4",
+  "sprites/sprPropIndoor_Potplant1",
+  "sprites/sprPropIndoor_Potplant2",
+  "sprites/sprPropIndoor_Potplant3",
+  "sprites/sprPropIndoor_Potplant4",
+  "sprites/sprPropIndoor_Scroll1",
+  "sprites/sprPropIndoor_Scroll2",
+  "sprites/sprPropIndoor_Scroll_Wall",
+  "sprites/sprPropIndoor_Shelf_Left",
+  "sprites/sprPropIndoor_Shelf_Mid",
+  "sprites/sprPropIndoor_Shelf_Right",
+  "sprites/sprPropIndoor_Stone_Pile1",
+  "sprites/sprPropIndoor_Stone_Pile2",
+  "sprites/sprPropIndoor_Stone_Pile3",
+  "sprites/sprPropIndoor_Stone_Pile4",
+  "sprites/sprPropIndoor_Stool_Blue",
+  "sprites/sprPropIndoor_Stool_Red",
+  "sprites/sprPropIndoor_Suit_Of_Armour",
+  "sprites/sprPropIndoor_Table_Small",
+  "sprites/sprPropIndoor_WallTorchLit",
+  "sprites/sprPropIndoor_WallTorchSpine",
+  "sprites/sprPropIndoor_WallTorchUnlit",
+  "sprites/sprPropIndoor_Wine_Barrel",
+  "sprites/sprPropIndoor_Wine_Bottle1",
+  "sprites/sprPropIndoor_Wine_Bottle2",
+  "sprites/sprPropOutdoor_Anvil",
+  "sprites/sprPropOutdoor_Barrel",
+  "sprites/sprPropOutdoor_BarrelBreak",
+  "sprites/sprPropOutdoor_BarrelSpine",
+  "sprites/sprPropOutdoor_Bench",
+  "sprites/sprPropOutdoor_Board",
+  "sprites/sprPropOutdoor_Boulder",
+  "sprites/sprPropOutdoor_Boulder_Dark",
+  "sprites/sprPropOutdoor_Bucket",
+  "sprites/sprPropOutdoor_ButterflyFly",
+  "sprites/sprPropOutdoor_ButterflyIdle",
+  "sprites/sprPropOutdoor_ButterflySpine",
+  "sprites/sprPropOutdoor_ChimneyLit",
+  "sprites/sprPropOutdoor_ChimneySpine",
+  "sprites/sprPropOutdoor_ChimneyUnlit",
+  "sprites/sprPropOutdoor_Crate",
+  "sprites/sprPropOutdoor_CrateBreak",
+  "sprites/sprPropOutdoor_CrateSpine",
+  "sprites/sprPropOutdoor_Crystal1",
+  "sprites/sprPropOutdoor_Crystal2",
+  "sprites/sprPropOutdoor_Crystal3",
+  "sprites/sprPropOutdoor_Crystal4",
+  "sprites/sprPropOutdoor_Flower1",
+  "sprites/sprPropOutdoor_Flower2",
+  "sprites/sprPropOutdoor_Gate_Back",
+  "sprites/sprPropOutdoor_Gate_Front",
+  "sprites/sprPropOutdoor_Grass1",
+  "sprites/sprPropOutdoor_Grass2",
+  "sprites/sprPropOutdoor_Grass3",
+  "sprites/sprPropOutdoor_Grass4",
+  "sprites/sprPropOutdoor_Grass5",
+  "sprites/sprPropOutdoor_Grass6",
+  "sprites/sprPropOutdoor_Grass7",
+  "sprites/sprPropOutdoor_HangingLampOff",
+  "sprites/sprPropOutdoor_HangingLampOn",
+  "sprites/sprPropOutdoor_Hedge1",
+  "sprites/sprPropOutdoor_Hedge1_Dark",
+  "sprites/sprPropOutdoor_Hedge2",
+  "sprites/sprPropOutdoor_Hedge2_Dark",
+  "sprites/sprPropOutdoor_Hedge3",
+  "sprites/sprPropOutdoor_Hedge3_Dark",
+  "sprites/sprPropOutdoor_LampSpine",
+  "sprites/sprPropOutdoor_Minecart_Empty",
+  "sprites/sprPropOutdoor_Minecart_Full",
+  "sprites/sprPropOutdoor_Mushroom1",
+  "sprites/sprPropOutdoor_Mushroom2",
+  "sprites/sprPropOutdoor_Mushroom3",
+  "sprites/sprPropOutdoor_Mushroom4",
+  "sprites/sprPropOutdoor_Mushroom5",
+  "sprites/sprPropOutdoor_Plant1",
+  "sprites/sprPropOutdoor_Plant2",
+  "sprites/sprPropOutdoor_Plant3",
+  "sprites/sprPropOutdoor_Plant4",
+  "sprites/sprPropOutdoor_Rock_Large1",
+  "sprites/sprPropOutdoor_Rock_Large1_Dark",
+  "sprites/sprPropOutdoor_Rock_Large2",
+  "sprites/sprPropOutdoor_Rock_Large2_Dark",
+  "sprites/sprPropOutdoor_Rock_Large3",
+  "sprites/sprPropOutdoor_Rock_Large3_Dark",
+  "sprites/sprPropOutdoor_Rock_Small1",
+  "sprites/sprPropOutdoor_Rock_Small1_Dark",
+  "sprites/sprPropOutdoor_Rock_Small2",
+  "sprites/sprPropOutdoor_Rock_Small2_Dark",
+  "sprites/sprPropOutdoor_Rock_Small3",
+  "sprites/sprPropOutdoor_Rock_Small3_Dark",
+  "sprites/sprPropOutdoor_Rock_Small4",
+  "sprites/sprPropOutdoor_Rock_Small4_Dark",
+  "sprites/sprPropOutdoor_Signpost",
+  "sprites/sprPropOutdoor_StreetlampOff",
+  "sprites/sprPropOutdoor_StreetlampOn",
+  "sprites/sprPropOutdoor_Tracks_Left",
+  "sprites/sprPropOutdoor_Tracks_Mid",
+  "sprites/sprPropOutdoor_Tracks_Right",
+  "sprites/sprPropOutdoor_TreasureChestGold_Anim",
+  "sprites/sprPropOutdoor_TreasureChestGold_Closed",
+  "sprites/sprPropOutdoor_TreasureChestGold_Open",
+  "sprites/sprPropOutdoor_TreasureChestSilver_Anim",
+  "sprites/sprPropOutdoor_TreasureChestSilver_Closed",
+  "sprites/sprPropOutdoor_TreasureChestSilver_Open",
+  "sprites/sprPropOutdoor_TreasureChestSpine",
+  "sprites/sprPropOutdoor_Treasure_Gold",
+  "sprites/sprPropOutdoor_Tree1",
+  "sprites/sprPropOutdoor_Tree2",
+  "sprites/sprPropOutdoor_Tree3",
+  "sprites/sprPropOutdoor_Trunk",
+  "sprites/sprPropOutdoor_Well",
+  "sprites/sprSkeletonSpine",
+  "sprites/sprSkeleton_Arrow",
+  "sprites/sprSkeleton_Attack_Bow",
+  "sprites/sprSkeleton_Attack_Sword_Heavy",
+  "sprites/sprSkeleton_Attack_Sword_Light",
+  "sprites/sprSkeleton_Die_Bow",
+  "sprites/sprSkeleton_Die_Sword",
+  "sprites/sprSkeleton_Hit_Bow",
+  "sprites/sprSkeleton_Hit_Sword",
+  "sprites/sprSkeleton_Idle_Bow",
+  "sprites/sprSkeleton_Idle_Sword",
+  "sprites/sprSkeleton_Run_Bow",
+  "sprites/sprSkeleton_Run_Sword",
+  "sprites/sprSkeleton_Walk_Bow",
+  "sprites/sprSkeleton_Walk_Sword",
+  "sprites/sprSpiderSpine",
+  "sprites/sprSpider_Attack",
+  "sprites/sprSpider_Die",
+  "sprites/sprSpider_Hit",
+  "sprites/sprSpider_Idle",
+  "sprites/sprSpider_Walk",
+  "sprites/sprTileset_Caves",
+  "sprites/sprTileset_Forest",
+  "sprites/sprTileset_Stone",
+  "sprites/sprTileset_Wood",
+  "sounds/SFX_BarrelSmash",
+  "sounds/SFX_Bat_Attack1",
+  "sounds/SFX_Bat_Attack2",
+  "sounds/SFX_Bat_Die1",
+  "sounds/SFX_Bat_Die2",
+  "sounds/SFX_Bat_Fly",
+  "sounds/SFX_Bat_Fly_Wing1",
+  "sounds/SFX_Bat_Fly_Wing2",
+  "sounds/SFX_Bat_Fly_Wing3",
+  "sounds/SFX_Bat_Fly_Wing4",
+  "sounds/SFX_Bat_Hit1",
+  "sounds/SFX_Bat_Hit2",
+  "sounds/SFX_Candle_Flame",
+  "sounds/SFX_Chest_Close",
+  "sounds/SFX_Crate_Smash",
+  "sounds/SFX_Door_Close1",
+  "sounds/SFX_Door_Close2",
+  "sounds/SFX_Door_Close3",
+  "sounds/SFX_Door_Open1",
+  "sounds/SFX_Door_Open2",
+  "sounds/SFX_Door_Open3",
+  "sounds/SFX_Fire1",
+  "sounds/SFX_Fire2",
+  "sounds/SFX_Knight_BowFire3",
+  "sounds/SFX_Knight_Bow_Fire1",
+  "sounds/SFX_Knight_Bow_Fire2",
+  "sounds/SFX_Knight_Die_Disappear",
+  "sounds/SFX_Knight_Die_Fall",
+  "sounds/SFX_Knight_Fall",
+  "sounds/SFX_Knight_Hit1",
+  "sounds/SFX_Knight_Hit2",
+  "sounds/SFX_Knight_Hit3",
+  "sounds/SFX_Knight_Jump",
+  "sounds/SFX_Knight_Land",
+  "sounds/SFX_Knight_Roll",
+  "sounds/SFX_Knight_Run1",
+  "sounds/SFX_Knight_Run2",
+  "sounds/SFX_Knight_Run3",
+  "sounds/SFX_Knight_Run4",
+  "sounds/SFX_Knight_Run5",
+  "sounds/SFX_Knight_Sword_Stab1",
+  "sounds/SFX_Knight_Sword_Stab2",
+  "sounds/SFX_Knight_Sword_Stab3",
+  "sounds/SFX_Knight_Sword_Swipe1",
+  "sounds/SFX_Knight_Sword_Swipe2",
+  "sounds/SFX_Knight_Sword_Swipe3",
+  "sounds/SFX_Knight_Walk1",
+  "sounds/SFX_Knight_Walk2",
+  "sounds/SFX_Knight_Walk3",
+  "sounds/SFX_Knight_Walk4",
+  "sounds/SFX_Knight_Walk5",
+  "sounds/SFX_Pickup",
+  "sounds/SFX_Pickup_Bow",
+  "sounds/SFX_Pickup_Sword",
+  "sounds/SFX_Skeleton_Attack_Arrow1",
+  "sounds/SFX_Skeleton_Attack_Arrow2",
+  "sounds/SFX_Skeleton_Attack_Sword_Stab1",
+  "sounds/SFX_Skeleton_Attack_Sword_Stab2",
+  "sounds/SFX_Skeleton_Attack_Sword_Swipe1",
+  "sounds/SFX_Skeleton_Attack_Sword_Swipe2",
+  "sounds/SFX_Skeleton_Die1",
+  "sounds/SFX_Skeleton_Die2",
+  "sounds/SFX_Skeleton_Hit1",
+  "sounds/SFX_Skeleton_Hit2",
+  "sounds/SFX_Skeleton_Run1",
+  "sounds/SFX_Skeleton_Run2",
+  "sounds/SFX_Skeleton_Run3",
+  "sounds/SFX_Skeleton_Run4",
+  "sounds/SFX_Skeleton_Run5",
+  "sounds/SFX_Skeleton_Walk1",
+  "sounds/SFX_Skeleton_Walk2",
+  "sounds/SFX_Skeleton_Walk3",
+  "sounds/SFX_Skeleton_Walk4",
+  "sounds/SFX_Skeleton_Walk5",
+  "sounds/SFX_Spider_Attack1",
+  "sounds/SFX_Spider_Attack2",
+  "sounds/SFX_Spider_Die1",
+  "sounds/SFX_Spider_Die2",
+  "sounds/SFX_Spider_Hit1",
+  "sounds/SFX_Spider_Hit2",
+  "sounds/SFX_Spider_Walk",
+  "sounds/SFX_Training_Dummy_Hit1",
+  "sounds/SFX_Training_Dummy_Hit2",
+  "sounds/SFX_Training_Dummy_Hit3",
+  "sounds/sndAmbient_Building1",
+  "sounds/sndAmbient_Building2",
+  "sounds/sndAmbient_Castle1",
+  "sounds/sndAmbient_Castle2",
+  "sounds/sndAmbient_Cave1",
+  "sounds/sndAmbient_Cave2",
+  "sounds/sndAmbient_Forest_Day1",
+  "sounds/sndAmbient_Forest_Day2",
+  "sounds/sndAmbient_Village_Day1",
+  "sounds/sndAmbient_Village_Day2",
+  "sounds/sndLose1",
+  "sounds/sndLose2",
+  "sounds/sndPassive1",
+  "sounds/sndPassive2",
+  "sounds/sndTense1",
+  "sounds/sndTense2",
+  "sounds/sndWin1",
+  "sounds/sndWin2",
+  "tilesets/tsCave",
+  "tilesets/tsForest",
+  "tilesets/tsStone",
+  "tilesets/tsWood",
+]
+
+[assets."sprites/Cave_Layer1"]
+description = "Cave parallax backdrop layer, dark blue-brown rocky cavern silhouette; wide single-frame scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:cave", "projection:background", "state:static" ]
+
+[assets."sprites/Cave_Layer2"]
+description = "Cave parallax layer, mid-depth craggy rock walls in muted brown-blue tones; wide scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:cave", "projection:background", "state:static" ]
+
+[assets."sprites/Cave_Layer3"]
+description = "Cave parallax layer, foreground rock formations and stalactites; wide scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:cave", "projection:background", "state:static" ]
+
+[assets."sprites/Cave_Layer4"]
+description = "Deep cave sky/void backmost layer, flat dark gradient; widescreen background."
+tags = [ "asset_type:sprite", "role:background", "subject:sky", "projection:background", "state:static" ]
+
+[assets."sprites/Forest_Layer1"]
+description = "Forest parallax backdrop, distant rolling tree-line silhouettes in cool green-blue haze; wide scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "projection:background", "state:static" ]
+
+[assets."sprites/Forest_Layer2"]
+description = "Forest parallax layer, mid-distance trees in greener tone; wide scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "projection:background", "state:static" ]
+
+[assets."sprites/Forest_Layer3"]
+description = "Forest parallax layer, nearer foliage and tree trunks; wide scrolling background."
+tags = [ "asset_type:sprite", "role:background", "subject:tree", "projection:background", "state:static" ]
+
+[assets."sprites/Forest_Layer4"]
+description = "Forest sky backmost layer, soft blue daytime gradient; widescreen background."
+tags = [ "asset_type:sprite", "role:background", "subject:sky", "projection:background", "state:static" ]
+
+[assets."sprites/sprBatSpine"]
+description = "Purple cartoon bat rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:static" ]
+
+[assets."sprites/sprBat_Attack"]
+description = "Purple winged bat lunging in an attack swoop, fully animated (36 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBat_Die"]
+description = "Purple bat tumbling and fading in a death animation (28 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBat_Fly"]
+description = "Purple bat flapping in steady flight, looping animation (16 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBat_Hang"]
+description = "Purple bat hanging upside-down and stirring, tall looping idle (50 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBat_Hit"]
+description = "Purple bat recoiling from a hit, short animation (11 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBat_Idle"]
+description = "Purple bat hovering in place, gentle looping idle (16 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:bat", "state:animation" ]
+
+[assets."sprites/sprBuilding_Chimney_Base"]
+description = "Stone chimney base block, shaded cartoon masonry."
+tags = [ "asset_type:sprite", "role:building", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprBuilding_Chimney_Mid"]
+description = "Tall stone chimney mid section, tileable vertically."
+tags = [ "asset_type:sprite", "role:building", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprBuilding_Chimney_Top"]
+description = "Stone chimney cap/top piece with flared crown."
+tags = [ "asset_type:sprite", "role:building", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprBuilding_Door"]
+description = "Closed wooden plank door with iron bands, warm brown."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Door_Cave"]
+description = "Large arched cave entrance doorway, dark rocky frame."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Door_Cave_Dark"]
+description = "Cave doorway, darkened/shadowed variant of the cave entrance."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Doorway_Stone"]
+description = "Stone-framed doorway opening, light grey masonry."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Doorway_Stone_Dark"]
+description = "Stone doorway, darker shaded variant."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Doorway_Wood"]
+description = "Wood-framed doorway opening, warm timber tones."
+tags = [ "asset_type:sprite", "role:building", "subject:door", "state:static" ]
+
+[assets."sprites/sprBuilding_Fence_Left"]
+description = "Wooden picket fence left end post and rails."
+tags = [ "asset_type:sprite", "role:building", "subject:fence", "state:static" ]
+
+[assets."sprites/sprBuilding_Fence_Mid1"]
+description = "Wooden picket fence middle segment, tileable, variant 1."
+tags = [ "asset_type:sprite", "role:building", "subject:fence", "state:static" ]
+
+[assets."sprites/sprBuilding_Fence_Mid2"]
+description = "Wooden picket fence middle segment, variant 2."
+tags = [ "asset_type:sprite", "role:building", "subject:fence", "state:static" ]
+
+[assets."sprites/sprBuilding_Fence_Mid3"]
+description = "Wooden picket fence middle segment, variant 3."
+tags = [ "asset_type:sprite", "role:building", "subject:fence", "state:static" ]
+
+[assets."sprites/sprBuilding_Fence_Right"]
+description = "Wooden picket fence right end post."
+tags = [ "asset_type:sprite", "role:building", "subject:fence", "state:static" ]
+
+[assets."sprites/sprBuilding_Plain_Panel"]
+description = "Plain plaster wall panel, neutral cream square tile."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Plain_Panel_Left"]
+description = "Plain plaster wall panel, left edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Plain_Panel_Right"]
+description = "Plain plaster wall panel, right edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Left"]
+description = "Diagonal wooden plank brace angled left, warm timber."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Left_Dark"]
+description = "Left diagonal plank brace, darker-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Left_Shadow"]
+description = "Left diagonal plank brace with cast shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Left_Shadow_Dark"]
+description = "Left diagonal plank brace, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Right"]
+description = "Diagonal wooden plank brace angled right."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Right_Dark"]
+description = "Right diagonal plank brace, darker-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Right_Shadow"]
+description = "Right diagonal plank brace with cast shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Diagonal_Right_Shadow_Dark"]
+description = "Right diagonal plank brace, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Left"]
+description = "Horizontal wooden plank, left end piece."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Left_Dark"]
+description = "Horizontal plank left end, dark-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Left_Shadow"]
+description = "Horizontal plank left end with drop shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Left_Shadow_Dark"]
+description = "Horizontal plank left end, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Mid"]
+description = "Horizontal wooden plank, tileable middle section."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Mid_Dark"]
+description = "Horizontal plank mid section, dark-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Mid_Shadow"]
+description = "Horizontal plank mid section with drop shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Mid_Shadow_Dark"]
+description = "Horizontal plank mid section, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Right"]
+description = "Horizontal wooden plank, right end piece."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Right_Dark"]
+description = "Horizontal plank right end, dark-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Right_Shadow"]
+description = "Horizontal plank right end with drop shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Right_Shadow_Dark"]
+description = "Horizontal plank right end, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Left"]
+description = "Vertical wooden plank post, left variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Left_Dark"]
+description = "Vertical plank post left, dark-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Left_Shadow"]
+description = "Vertical plank post left with cast shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Left_Shadow_Dark"]
+description = "Vertical plank post left, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Right"]
+description = "Vertical wooden plank post, right variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Right_Dark"]
+description = "Vertical plank post right, dark-stained variant."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Right_Shadow"]
+description = "Vertical plank post right with cast shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Plank_Vertical_Right_Shadow_Dark"]
+description = "Vertical plank post right, dark wood with shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:plank", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Left"]
+description = "Pitched roof left edge piece, terracotta-style shingles."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Left_Shadow"]
+description = "Roof left edge piece with underside shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Mid"]
+description = "Pitched roof tileable middle section, shingled."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Mid_Shadow"]
+description = "Roof middle section with underside shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Right"]
+description = "Pitched roof right edge piece, shingled."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Roof_Right_Shadow"]
+description = "Roof right edge piece with underside shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:roof", "state:static" ]
+
+[assets."sprites/sprBuilding_Shed_Stone"]
+description = "Small stone shed/hut building with wooden door, full structure."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/sprBuilding_Shed_Wood"]
+description = "Small timber shed/hut building, full structure."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Plain"]
+description = "Plain cream plaster wall, square tile."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Plain_Left"]
+description = "Plain plaster wall, left edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Plain_Right"]
+description = "Plain plaster wall, right edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone1"]
+description = "Grey stone-brick wall tile, masonry variant 1."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone1_Dark"]
+description = "Stone-brick wall tile 1, darker shaded variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone2"]
+description = "Grey stone-brick wall tile, masonry variant 2."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone2_Dark"]
+description = "Stone-brick wall tile 2, darker shaded variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone3"]
+description = "Grey stone-brick wall tile, masonry variant 3."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone3_Dark"]
+description = "Stone-brick wall tile 3, darker shaded variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone_Left"]
+description = "Stone-brick wall, left edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone_Left_Dark"]
+description = "Stone-brick wall left edge, dark variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone_Right"]
+description = "Stone-brick wall, right edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Stone_Right_Dark"]
+description = "Stone-brick wall right edge, dark variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood"]
+description = "Wooden plank wall tile, warm brown boards."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood_Dark"]
+description = "Wood plank wall tile, darker variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood_Left"]
+description = "Wood plank wall, left edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood_Left_Dark"]
+description = "Wood plank wall left edge, dark variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood_Right"]
+description = "Wood plank wall, right edge piece."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Wall_Wood_Right_Dark"]
+description = "Wood plank wall right edge, dark variant."
+tags = [ "asset_type:sprite", "role:building", "subject:wall", "state:static" ]
+
+[assets."sprites/sprBuilding_Window_Stone"]
+description = "Arched stone window with iron mullions, grey frame."
+tags = [ "asset_type:sprite", "role:building", "subject:window", "state:static" ]
+
+[assets."sprites/sprBuilding_Window_Stone_Dark_Shadow"]
+description = "Stone window, darkened with cast shadow."
+tags = [ "asset_type:sprite", "role:building", "subject:window", "state:static" ]
+
+[assets."sprites/sprBuilding_Window_Stone_Shadow"]
+description = "Stone window with cast shadow variant."
+tags = [ "asset_type:sprite", "role:building", "subject:window", "state:static" ]
+
+[assets."sprites/sprBuilding_Window_Wood"]
+description = "Wood-framed window with cross panes, warm timber."
+tags = [ "asset_type:sprite", "role:building", "subject:window", "state:static" ]
+
+[assets."sprites/sprBuilding_Window_Wood_Shadow"]
+description = "Wood window with cast shadow variant."
+tags = [ "asset_type:sprite", "role:building", "subject:window", "state:static" ]
+
+[assets."sprites/sprDummySpine"]
+description = "Training dummy rig base pose: straw-stuffed practice figure on a post, setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:human", "state:static" ]
+
+[assets."sprites/sprDummy_Hit"]
+description = "Straw training dummy jolting when struck, animation (22 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:human", "state:animation" ]
+
+[assets."sprites/sprDummy_Idle"]
+description = "Straw training dummy bobbing gently, looping idle (40 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:human", "state:animation" ]
+
+[assets."sprites/sprKnightSpine"]
+description = "Golden-armored knight rig base pose with blue plume, setup frame."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:static" ]
+
+[assets."sprites/sprKnight_Arrow"]
+description = "Slim wooden arrow with fletching, single static projectile."
+tags = [ "asset_type:sprite", "role:projectile", "subject:arrow", "state:static" ]
+
+[assets."sprites/sprKnight_Attack_Bow"]
+description = "Knight drawing and loosing a bow shot, animation (6 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Attack_Sword_Heavy"]
+description = "Knight winding up a wide heavy sword swing, long animation (29 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Attack_Sword_Light"]
+description = "Knight performing a quick light sword slash, animation (8 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Die"]
+description = "Knight collapsing in a death animation, unarmed (45 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Die_Bow"]
+description = "Knight death animation holding a bow (45 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Die_Spikes"]
+description = "Knight impaled-on-spikes death, unarmed (40 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Die_Spikes_Bow"]
+description = "Knight spike-death holding a bow (40 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Die_Spikes_Sword"]
+description = "Knight spike-death holding a sword (40 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Die_Sword"]
+description = "Knight death animation holding a sword (45 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Hit"]
+description = "Knight flinching from damage, unarmed (13 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Hit_Bow"]
+description = "Knight flinching while holding a bow (13 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Hit_Sword"]
+description = "Knight flinching while holding a sword (13 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Idle"]
+description = "Knight standing at ease, breathing idle loop, unarmed (22 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Idle_Bow"]
+description = "Knight idle stance holding a bow (22 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Idle_Sword"]
+description = "Knight idle stance holding a sword (22 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Airborne"]
+description = "Knight at the apex of a jump, unarmed (7 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Airborne_Bow"]
+description = "Knight airborne holding a bow (7 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Airborne_Sword"]
+description = "Knight airborne holding a sword (7 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Fall"]
+description = "Knight descending from a jump, unarmed (4 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Fall_Bow"]
+description = "Knight falling holding a bow (4 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Fall_Sword"]
+description = "Knight falling holding a sword (4 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Up"]
+description = "Knight launching upward into a jump, unarmed (6 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Up_Bow"]
+description = "Knight jumping up holding a bow (6 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Jump_Up_Sword"]
+description = "Knight jumping up holding a sword (6 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Roll"]
+description = "Knight performing a dodge roll, animation (14 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Run"]
+description = "Knight running fast, unarmed cycle (20 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Run_Bow"]
+description = "Knight running holding a bow (20 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Run_Sword"]
+description = "Knight running holding a sword (20 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprKnight_Walk"]
+description = "Knight walking, unarmed cycle (28 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "state:animation" ]
+
+[assets."sprites/sprKnight_Walk_Bow"]
+description = "Knight walking holding a bow (28 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprKnight_Walk_Sword"]
+description = "Knight walking holding a sword (28 frames)."
+tags = [ "asset_type:sprite", "role:player", "subject:knight", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprPickup_Bow"]
+description = "Spinning collectible bow pickup, glinting, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprPickup_BowSpine"]
+description = "Bow pickup rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:bow", "state:static" ]
+
+[assets."sprites/sprPickup_CoinBronze"]
+description = "Spinning bronze coin pickup, looping shine (32 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "state:animation" ]
+
+[assets."sprites/sprPickup_CoinGold"]
+description = "Spinning gold coin pickup, looping shine (32 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "state:animation" ]
+
+[assets."sprites/sprPickup_CoinSilver"]
+description = "Spinning silver coin pickup, looping shine (32 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "state:animation" ]
+
+[assets."sprites/sprPickup_CoinSpine"]
+description = "Coin pickup rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:coin", "state:static" ]
+
+[assets."sprites/sprPickup_KeyGold"]
+description = "Spinning ornate gold key pickup, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:key", "state:animation" ]
+
+[assets."sprites/sprPickup_KeySilver"]
+description = "Spinning ornate silver key pickup, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:key", "state:animation" ]
+
+[assets."sprites/sprPickup_KeySpine"]
+description = "Key pickup rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:key", "state:static" ]
+
+[assets."sprites/sprPickup_Sword"]
+description = "Spinning collectible sword pickup, glinting blade, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:pickup", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprPickup_SwordSpine"]
+description = "Sword pickup rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:pickup", "subject:sword", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bed"]
+description = "Wooden bed with blue blanket and pillow, side view."
+tags = [ "asset_type:sprite", "role:prop", "subject:bed", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bedside_Table"]
+description = "Small wooden bedside nightstand."
+tags = [ "asset_type:sprite", "role:prop", "subject:table", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Beermug"]
+description = "Foamy beer/ale mug, small tavern prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:bottle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bones1"]
+description = "Scattered pile of pale bones, decorative remains, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:bone", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bones2"]
+description = "Small heap of bones, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:bone", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bones3"]
+description = "Bone pile with a skull, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:bone", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Book_Pile1"]
+description = "Small flat pile of closed books, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:book", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Book_Pile2"]
+description = "Flat pile of books, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:book", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Book_Stack1"]
+description = "Short upright stack of books, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:book", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Book_Stack2"]
+description = "Taller stack of books, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:book", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Bookshelf"]
+description = "Tall wooden bookshelf filled with colorful books."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "subject:book", "state:static" ]
+
+[assets."sprites/sprPropIndoor_CandleSpine"]
+description = "Candle rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candle_LargeLit"]
+description = "Large lit candle with flickering flame, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropIndoor_Candle_LargeUnlit"]
+description = "Large unlit candle, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candle_MediumLit"]
+description = "Medium lit candle with flickering flame, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropIndoor_Candle_MediumUnlit"]
+description = "Medium unlit candle, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candle_SmallLit"]
+description = "Small lit candle with flickering flame, looping animation (24 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropIndoor_Candle_SmallUnlit"]
+description = "Small unlit candle stub, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candlestick_Bronze"]
+description = "Bronze tabletop candlestick holding a candle."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candlestick_Floor_Bronze"]
+description = "Tall bronze floor-standing candlestick."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candlestick_Floor_Silver"]
+description = "Tall silver floor-standing candlestick."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Candlestick_Silver"]
+description = "Silver tabletop candlestick holding a candle."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Chair1"]
+description = "Wooden chair with high back, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:chair", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Chair2"]
+description = "Wooden chair, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:chair", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Chandelier_Bronze"]
+description = "Hanging bronze chandelier ringed with candles."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "subject:lantern", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Chandelier_Silver"]
+description = "Hanging silver chandelier ringed with candles."
+tags = [ "asset_type:sprite", "role:prop", "subject:candle", "subject:lantern", "state:static" ]
+
+[assets."sprites/sprPropIndoor_ChimneyLit"]
+description = "Indoor stone fireplace with crackling flames, looping animation (21 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropIndoor_ChimneySpine"]
+description = "Indoor fireplace rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Chimney_Unlit"]
+description = "Indoor stone fireplace, cold and unlit, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Cobweb"]
+description = "Dusty grey corner cobweb, spooky decoration."
+tags = [ "asset_type:sprite", "role:prop", "subject:spider", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Coffee_Table"]
+description = "Low wooden coffee table."
+tags = [ "asset_type:sprite", "role:prop", "subject:table", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Dining_Table"]
+description = "Long wooden dining table."
+tags = [ "asset_type:sprite", "role:prop", "subject:table", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Grain_Sack"]
+description = "Plump cloth grain/flour sack, storage prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Empty1"]
+description = "Empty clay storage jar, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Empty2"]
+description = "Empty clay storage jar, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Empty3"]
+description = "Empty clay storage jar, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Full1"]
+description = "Filled clay storage jar, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Full2"]
+description = "Filled clay storage jar, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Jar_Full3"]
+description = "Filled clay storage jar, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:jar", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion1"]
+description = "Full glass potion bottle, colorful liquid, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion2"]
+description = "Full glass potion bottle, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion3"]
+description = "Full small potion vial, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion4"]
+description = "Full slim potion vial, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion_Empty1"]
+description = "Empty glass potion bottle, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion_Empty2"]
+description = "Empty glass potion bottle, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion_Empty3"]
+description = "Empty small potion vial, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potion_Empty4"]
+description = "Empty slim potion vial, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:potion", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potplant1"]
+description = "Leafy potted plant in a terracotta pot, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potplant2"]
+description = "Potted plant, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potplant3"]
+description = "Small potted plant, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Potplant4"]
+description = "Potted plant, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Scroll1"]
+description = "Rolled parchment scroll lying flat, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:scroll", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Scroll2"]
+description = "Rolled parchment scroll, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:scroll", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Scroll_Wall"]
+description = "Hanging unfurled parchment scroll on the wall."
+tags = [ "asset_type:sprite", "role:prop", "subject:scroll", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Shelf_Left"]
+description = "Wooden wall shelf, left bracket piece."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Shelf_Mid"]
+description = "Wooden wall shelf, tileable middle section."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Shelf_Right"]
+description = "Wooden wall shelf, right bracket piece."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stone_Pile1"]
+description = "Small heap of loose grey stones, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stone_Pile2"]
+description = "Tiny scatter of stones, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stone_Pile3"]
+description = "Tiny stone scatter, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stone_Pile4"]
+description = "Small stone pile, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stool_Blue"]
+description = "Round wooden stool with blue cushion."
+tags = [ "asset_type:sprite", "role:prop", "subject:chair", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Stool_Red"]
+description = "Round wooden stool with red cushion."
+tags = [ "asset_type:sprite", "role:prop", "subject:chair", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Suit_Of_Armour"]
+description = "Decorative standing suit of plate armour."
+tags = [ "asset_type:sprite", "role:prop", "subject:armor", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Table_Small"]
+description = "Small wooden table."
+tags = [ "asset_type:sprite", "role:prop", "subject:table", "state:static" ]
+
+[assets."sprites/sprPropIndoor_WallTorchLit"]
+description = "Wall-mounted torch with dancing flame, looping animation (21 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:torch", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropIndoor_WallTorchSpine"]
+description = "Wall torch rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:torch", "state:static" ]
+
+[assets."sprites/sprPropIndoor_WallTorchUnlit"]
+description = "Wall-mounted torch, unlit, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:torch", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Wine_Barrel"]
+description = "Wooden wine barrel/cask, indoor cellar prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Wine_Bottle1"]
+description = "Corked wine bottle, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:bottle", "state:static" ]
+
+[assets."sprites/sprPropIndoor_Wine_Bottle2"]
+description = "Tall slim wine bottle, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:bottle", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Anvil"]
+description = "Black blacksmith's anvil on a wooden base."
+tags = [ "asset_type:sprite", "role:prop", "subject:anvil", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Barrel"]
+description = "Wooden barrel with iron hoops, outdoor prop."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_BarrelBreak"]
+description = "Wooden barrel smashing into flying staves, break animation (25 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "subject:impact", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_BarrelSpine"]
+description = "Barrel rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Bench"]
+description = "Long wooden outdoor bench seat."
+tags = [ "asset_type:sprite", "role:prop", "subject:furniture", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Board"]
+description = "Large wooden notice board / signboard panel."
+tags = [ "asset_type:sprite", "role:prop", "subject:sign", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Boulder"]
+description = "Large rounded grey boulder, outdoor obstacle."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Boulder_Dark"]
+description = "Large boulder, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Bucket"]
+description = "Wooden water bucket with handle."
+tags = [ "asset_type:sprite", "role:prop", "subject:bucket", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_ButterflyFly"]
+description = "Pink butterfly fluttering in flight, looping animation (12 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:butterfly", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_ButterflyIdle"]
+description = "Pink butterfly resting and slowly fanning wings, idle loop (40 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:butterfly", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_ButterflySpine"]
+description = "Butterfly rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:butterfly", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_ChimneyLit"]
+description = "Outdoor stone chimney/forge with burning fire, looping animation (21 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "subject:fire", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_ChimneySpine"]
+description = "Outdoor chimney rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_ChimneyUnlit"]
+description = "Outdoor stone chimney/forge, cold and unlit, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chimney", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Crate"]
+description = "Wooden shipping crate with cross-board face."
+tags = [ "asset_type:sprite", "role:prop", "subject:crate", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_CrateBreak"]
+description = "Wooden crate shattering into planks, break animation (40 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:crate", "subject:impact", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_CrateSpine"]
+description = "Crate rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:crate", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Crystal1"]
+description = "Tall glowing blue crystal cluster formation, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:crystal", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Crystal2"]
+description = "Wide blue crystal cluster, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:crystal", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Crystal3"]
+description = "Slim blue crystal shard cluster, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:crystal", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Crystal4"]
+description = "Blue crystal cluster, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:crystal", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Flower1"]
+description = "Single cheerful cartoon flower, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:flower", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Flower2"]
+description = "Single small flower, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:flower", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Gate_Back"]
+description = "Iron portcullis/gate, rear post piece."
+tags = [ "asset_type:sprite", "role:building", "subject:gate", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Gate_Front"]
+description = "Iron portcullis/gate front grille, tall barred door."
+tags = [ "asset_type:sprite", "role:building", "subject:gate", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass1"]
+description = "Tiny tuft of green grass, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass2"]
+description = "Small clump of grass blades, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass3"]
+description = "Grass tuft, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass4"]
+description = "Grass tuft, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass5"]
+description = "Wide grass clump, variant 5."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass6"]
+description = "Wide grass clump, variant 6."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Grass7"]
+description = "Small grass tuft, variant 7."
+tags = [ "asset_type:sprite", "role:prop", "subject:grass", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_HangingLampOff"]
+description = "Hanging iron lantern, dark and unlit, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:lantern", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_HangingLampOn"]
+description = "Hanging iron lantern with warm glowing flame, looping animation (52 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:lantern", "subject:glow", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_Hedge1"]
+description = "Wide rounded green hedge bush, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Hedge1_Dark"]
+description = "Green hedge variant 1, darker shaded."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Hedge2"]
+description = "Wide green hedge bush, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Hedge2_Dark"]
+description = "Green hedge variant 2, darker shaded."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Hedge3"]
+description = "Wide green hedge bush, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Hedge3_Dark"]
+description = "Green hedge variant 3, darker shaded."
+tags = [ "asset_type:sprite", "role:prop", "subject:hedge", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_LampSpine"]
+description = "Streetlamp rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:lantern", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Minecart_Empty"]
+description = "Empty wooden minecart on iron wheels."
+tags = [ "asset_type:sprite", "role:prop", "subject:minecart", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Minecart_Full"]
+description = "Wooden minecart heaped with ore/rocks."
+tags = [ "asset_type:sprite", "role:prop", "subject:minecart", "subject:ore", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Mushroom1"]
+description = "Red-capped toadstool mushroom, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:mushroom", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Mushroom2"]
+description = "Cluster of mushrooms, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:mushroom", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Mushroom3"]
+description = "Mushroom, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:mushroom", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Mushroom4"]
+description = "Mushroom, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:mushroom", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Mushroom5"]
+description = "Small mushroom cluster, variant 5."
+tags = [ "asset_type:sprite", "role:prop", "subject:mushroom", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Plant1"]
+description = "Leafy green bush/shrub, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Plant2"]
+description = "Leafy green bush, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Plant3"]
+description = "Small leafy plant, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Plant4"]
+description = "Small leafy plant, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large1"]
+description = "Wide large grey rock formation, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large1_Dark"]
+description = "Large rock 1, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large2"]
+description = "Chunky large grey rock, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large2_Dark"]
+description = "Large rock 2, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large3"]
+description = "Wide flat large rock, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Large3_Dark"]
+description = "Large rock 3, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small1"]
+description = "Low small grey rock, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small1_Dark"]
+description = "Small rock 1, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small2"]
+description = "Small grey rock, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small2_Dark"]
+description = "Small rock 2, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small3"]
+description = "Wide low small rock, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small3_Dark"]
+description = "Small rock 3, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small4"]
+description = "Small grey rock, variant 4."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Rock_Small4_Dark"]
+description = "Small rock 4, darker shaded variant."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Signpost"]
+description = "Wooden directional signpost on a stake."
+tags = [ "asset_type:sprite", "role:prop", "subject:sign", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_StreetlampOff"]
+description = "Tall iron streetlamp, dark and unlit, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:lantern", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_StreetlampOn"]
+description = "Tall iron streetlamp with glowing flame, looping animation (52 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:lantern", "subject:glow", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_Tracks_Left"]
+description = "Minecart rail track, left curved/end section."
+tags = [ "asset_type:sprite", "role:prop", "subject:plank", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Tracks_Mid"]
+description = "Minecart rail track, tileable straight middle section."
+tags = [ "asset_type:sprite", "role:prop", "subject:plank", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Tracks_Right"]
+description = "Minecart rail track, right curved/end section."
+tags = [ "asset_type:sprite", "role:prop", "subject:plank", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestGold_Anim"]
+description = "Gold treasure chest springing open to reveal coins, animation (32 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "subject:coin", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestGold_Closed"]
+description = "Closed gold-trimmed treasure chest, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestGold_Open"]
+description = "Open gold treasure chest overflowing with coins, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "subject:coin", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestSilver_Anim"]
+description = "Silver treasure chest springing open to reveal coins, animation (32 frames)."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "subject:coin", "state:animation" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestSilver_Closed"]
+description = "Closed silver-trimmed treasure chest, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestSilver_Open"]
+description = "Open silver treasure chest overflowing with coins, static."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "subject:coin", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_TreasureChestSpine"]
+description = "Treasure chest rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:prop", "subject:chest", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Treasure_Gold"]
+description = "Loose spill of gold coins/treasure on the ground."
+tags = [ "asset_type:sprite", "role:prop", "subject:coin", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Tree1"]
+description = "Large leafy fantasy tree with full green canopy, variant 1."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Tree2"]
+description = "Tall leafy tree, variant 2."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Tree3"]
+description = "Tall leafy tree, variant 3."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Trunk"]
+description = "Fallen tree trunk / cut log lying horizontally."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "subject:log", "state:static" ]
+
+[assets."sprites/sprPropOutdoor_Well"]
+description = "Stone water well with wooden roof and bucket."
+tags = [ "asset_type:sprite", "role:prop", "subject:well", "state:static" ]
+
+[assets."sprites/sprSkeletonSpine"]
+description = "Bony skeleton warrior rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "state:static" ]
+
+[assets."sprites/sprSkeleton_Arrow"]
+description = "Slim wooden arrow with fletching, skeleton's projectile."
+tags = [ "asset_type:sprite", "role:projectile", "subject:arrow", "state:static" ]
+
+[assets."sprites/sprSkeleton_Attack_Bow"]
+description = "Skeleton drawing and firing a bow, animation (35 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Attack_Sword_Heavy"]
+description = "Skeleton swinging a wide heavy sword strike, animation (40 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Attack_Sword_Light"]
+description = "Skeleton quick light sword slash, animation (25 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Die_Bow"]
+description = "Skeleton crumbling apart in death, holding a bow (28 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Die_Sword"]
+description = "Skeleton crumbling apart in death, holding a sword (27 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Hit_Bow"]
+description = "Skeleton flinching from a hit, holding a bow (15 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Hit_Sword"]
+description = "Skeleton flinching from a hit, holding a sword (15 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Idle_Bow"]
+description = "Skeleton idle stance holding a bow (22 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Idle_Sword"]
+description = "Skeleton idle stance holding a sword (22 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Run_Bow"]
+description = "Skeleton running with a bow (24 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Run_Sword"]
+description = "Skeleton running with a sword (24 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Walk_Bow"]
+description = "Skeleton walking with a bow (32 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:bow", "state:animation" ]
+
+[assets."sprites/sprSkeleton_Walk_Sword"]
+description = "Skeleton walking with a sword (32 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:skeleton", "subject:sword", "state:animation" ]
+
+[assets."sprites/sprSpiderSpine"]
+description = "Round-bodied cartoon spider rig base pose, single setup frame."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:static" ]
+
+[assets."sprites/sprSpider_Attack"]
+description = "Spider rearing and lunging to bite, animation (28 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:animation" ]
+
+[assets."sprites/sprSpider_Die"]
+description = "Spider curling up legs in death, animation (21 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:animation" ]
+
+[assets."sprites/sprSpider_Hit"]
+description = "Spider recoiling from a hit, animation (13 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:animation" ]
+
+[assets."sprites/sprSpider_Idle"]
+description = "Spider standing in place, twitching idle loop (20 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:animation" ]
+
+[assets."sprites/sprSpider_Walk"]
+description = "Spider scuttling along on eight legs, walk loop (20 frames)."
+tags = [ "asset_type:sprite", "role:enemy", "subject:spider", "state:animation" ]
+
+[assets."sprites/sprTileset_Caves"]
+description = "Cave tileset atlas image: brown dirt platforms with blue spikes and pools, full sheet."
+tags = [ "asset_type:sprite", "role:terrain", "subject:cave", "state:static" ]
+
+[assets."sprites/sprTileset_Forest"]
+description = "Forest tileset atlas image: grassy-topped dirt platforms, full sheet."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "subject:grass", "state:static" ]
+
+[assets."sprites/sprTileset_Stone"]
+description = "Stone tileset atlas image: grey stone-brick blocks and platforms, full sheet."
+tags = [ "asset_type:sprite", "role:terrain", "subject:wall", "subject:rock", "state:static" ]
+
+[assets."sprites/sprTileset_Wood"]
+description = "Wood tileset atlas image: timber beam platforms and planking, full sheet."
+tags = [ "asset_type:sprite", "role:terrain", "subject:plank", "state:static" ]
+
+[assets."tilesets/tsCave"]
+description = "Cave terrain tileset: brown earthen platforms with grass-free dirt edges, blue spike hazards and water pools; side-view platformer tiles."
+tags = [ "asset_type:tileset", "role:terrain", "subject:cave", "subject:ground" ]
+
+[assets."tilesets/tsForest"]
+description = "Forest terrain tileset: dirt platforms capped with bright green grass, autographed pine-spike edges; side-view platformer tiles."
+tags = [ "asset_type:tileset", "role:terrain", "subject:ground", "subject:grass" ]
+
+[assets."tilesets/tsStone"]
+description = "Stone dungeon/castle tileset: blue-grey stone-brick platforms and walls; side-view platformer tiles."
+tags = [ "asset_type:tileset", "role:terrain", "subject:wall", "subject:rock" ]
+
+[assets."tilesets/tsWood"]
+description = "Wooden structure tileset: brown timber beams, scaffolding and plank flooring; side-view platformer tiles."
+tags = [ "asset_type:tileset", "role:terrain", "subject:plank", "subject:wall" ]
+
+[assets."sounds/SFX_BarrelSmash"]
+description = "Wooden barrel shattering, splintering crunch, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:barrel", "subject:impact" ]
+
+[assets."sounds/SFX_Bat_Attack1"]
+description = "Bat screech-lunge attack cry, ~1.2s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Attack2"]
+description = "Bat screech-lunge attack cry, ~1.2s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Die1"]
+description = "Bat death squeal, ~0.9s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Die2"]
+description = "Bat death squeal, ~0.6s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Fly"]
+description = "Sustained bat wing-flutter flight loop, ~2.1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Fly_Wing1"]
+description = "Single bat wing flap, ~0.5s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Fly_Wing2"]
+description = "Single bat wing flap, ~0.5s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Fly_Wing3"]
+description = "Single bat wing flap, ~0.5s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Fly_Wing4"]
+description = "Single bat wing flap, ~0.4s, variant 4."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat" ]
+
+[assets."sounds/SFX_Bat_Hit1"]
+description = "Bat taking a hit, short impact squeak, ~0.5s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat", "subject:impact" ]
+
+[assets."sounds/SFX_Bat_Hit2"]
+description = "Bat taking a hit, short impact squeak, ~0.4s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bat", "subject:impact" ]
+
+[assets."sounds/SFX_Candle_Flame"]
+description = "Soft crackling candle/small flame loop, ~4.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:fire" ]
+
+[assets."sounds/SFX_Chest_Close"]
+description = "Treasure chest lid thumping shut, ~0.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:chest" ]
+
+[assets."sounds/SFX_Crate_Smash"]
+description = "Wooden crate breaking apart, sharp splinter crack, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:crate", "subject:impact" ]
+
+[assets."sounds/SFX_Door_Close1"]
+description = "Heavy wooden door swinging closed, ~1.7s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Door_Close2"]
+description = "Wooden door closing, ~1.7s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Door_Close3"]
+description = "Wooden door closing, ~1.7s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Door_Open1"]
+description = "Creaking wooden door opening, ~4.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Door_Open2"]
+description = "Creaking wooden door opening, ~4.0s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Door_Open3"]
+description = "Creaking wooden door opening, ~2.8s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:door" ]
+
+[assets."sounds/SFX_Fire1"]
+description = "Crackling open fire loop, ~4.0s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:fire" ]
+
+[assets."sounds/SFX_Fire2"]
+description = "Crackling open fire loop, ~4.0s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:fire" ]
+
+[assets."sounds/SFX_Knight_BowFire3"]
+description = "Knight bowstring release and arrow whoosh, ~0.4s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:bow" ]
+
+[assets."sounds/SFX_Knight_Bow_Fire1"]
+description = "Knight bowstring release, ~0.5s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:bow" ]
+
+[assets."sounds/SFX_Knight_Bow_Fire2"]
+description = "Knight bowstring release, ~0.4s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:bow" ]
+
+[assets."sounds/SFX_Knight_Die_Disappear"]
+description = "Knight death poof/vanish sound, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Die_Fall"]
+description = "Knight death fall with thud, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Fall"]
+description = "Knight falling/landing whoosh-thud, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Hit1"]
+description = "Knight taking damage grunt/impact, ~0.6s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:impact" ]
+
+[assets."sounds/SFX_Knight_Hit2"]
+description = "Knight taking damage grunt/impact, ~0.6s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:impact" ]
+
+[assets."sounds/SFX_Knight_Hit3"]
+description = "Knight taking damage grunt/impact, ~0.5s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:impact" ]
+
+[assets."sounds/SFX_Knight_Jump"]
+description = "Knight jump effort hop, ~0.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Land"]
+description = "Knight landing footfall thud, ~0.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Roll"]
+description = "Knight dodge-roll tumble whoosh, ~0.9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Run1"]
+description = "Knight running footstep, ~0.3s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Run2"]
+description = "Knight running footstep, ~0.3s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Run3"]
+description = "Knight running footstep, ~0.3s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Run4"]
+description = "Knight running footstep, ~0.3s, variant 4."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Run5"]
+description = "Knight running footstep, ~0.3s, variant 5."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Sword_Stab1"]
+description = "Knight sword thrust/stab, ~0.7s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Sword_Stab2"]
+description = "Knight sword thrust/stab, ~0.8s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Sword_Stab3"]
+description = "Knight sword thrust/stab, ~0.9s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Sword_Swipe1"]
+description = "Knight sword swipe whoosh, ~0.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Sword_Swipe2"]
+description = "Knight sword swipe whoosh, ~0.7s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Sword_Swipe3"]
+description = "Knight sword swipe whoosh, ~0.5s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight", "subject:sword" ]
+
+[assets."sounds/SFX_Knight_Walk1"]
+description = "Knight walking footstep, ~0.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Walk2"]
+description = "Knight walking footstep, ~0.2s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Walk3"]
+description = "Knight walking footstep, ~0.3s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Walk4"]
+description = "Knight walking footstep, ~0.3s, variant 4."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Knight_Walk5"]
+description = "Knight walking footstep, ~0.4s, variant 5."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:knight" ]
+
+[assets."sounds/SFX_Pickup"]
+description = "Bright collectible pickup chime, ~2.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:coin" ]
+
+[assets."sounds/SFX_Pickup_Bow"]
+description = "Bow pickup acquire sound, ~0.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:bow" ]
+
+[assets."sounds/SFX_Pickup_Sword"]
+description = "Sword pickup acquire sound, ~0.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:sword" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Arrow1"]
+description = "Skeleton bow shot release, ~1.0s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:bow" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Arrow2"]
+description = "Skeleton bow shot release, ~1.2s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:bow" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Sword_Stab1"]
+description = "Skeleton sword stab, ~0.9s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:sword" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Sword_Stab2"]
+description = "Skeleton sword stab, ~1.0s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:sword" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Sword_Swipe1"]
+description = "Skeleton sword swipe whoosh, ~0.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:sword" ]
+
+[assets."sounds/SFX_Skeleton_Attack_Sword_Swipe2"]
+description = "Skeleton sword swipe whoosh, ~0.5s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:sword" ]
+
+[assets."sounds/SFX_Skeleton_Die1"]
+description = "Skeleton death rattle/crumble, ~0.6s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Die2"]
+description = "Skeleton death rattle/crumble, ~0.7s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Hit1"]
+description = "Skeleton taking a hit, bony clatter impact, ~0.8s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:impact" ]
+
+[assets."sounds/SFX_Skeleton_Hit2"]
+description = "Skeleton taking a hit, bony clatter impact, ~0.9s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton", "subject:impact" ]
+
+[assets."sounds/SFX_Skeleton_Run1"]
+description = "Skeleton running footstep, ~0.3s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Run2"]
+description = "Skeleton running footstep, ~0.2s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Run3"]
+description = "Skeleton running footstep, ~0.2s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Run4"]
+description = "Skeleton running footstep, ~0.2s, variant 4."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Run5"]
+description = "Skeleton running footstep, ~0.2s, variant 5."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Walk1"]
+description = "Skeleton walking footstep, ~0.3s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Walk2"]
+description = "Skeleton walking footstep, ~0.2s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Walk3"]
+description = "Skeleton walking footstep, ~0.2s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Walk4"]
+description = "Skeleton walking footstep, ~0.2s, variant 4."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Skeleton_Walk5"]
+description = "Skeleton walking footstep, ~0.2s, variant 5."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:skeleton" ]
+
+[assets."sounds/SFX_Spider_Attack1"]
+description = "Spider attack hiss/screech, ~1.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider" ]
+
+[assets."sounds/SFX_Spider_Attack2"]
+description = "Spider attack hiss/screech, ~1.3s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider" ]
+
+[assets."sounds/SFX_Spider_Die1"]
+description = "Spider death squeal, ~0.9s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider" ]
+
+[assets."sounds/SFX_Spider_Die2"]
+description = "Spider death squeal, ~0.8s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider" ]
+
+[assets."sounds/SFX_Spider_Hit1"]
+description = "Spider taking a hit, short squeak, ~0.4s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider", "subject:impact" ]
+
+[assets."sounds/SFX_Spider_Hit2"]
+description = "Spider taking a hit, short squeak, ~0.4s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider", "subject:impact" ]
+
+[assets."sounds/SFX_Spider_Walk"]
+description = "Spider skittering footsteps loop, ~2.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:spider" ]
+
+[assets."sounds/SFX_Training_Dummy_Hit1"]
+description = "Training dummy thump on impact, ~1.0s, variant 1."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:impact" ]
+
+[assets."sounds/SFX_Training_Dummy_Hit2"]
+description = "Training dummy thump on impact, ~0.8s, variant 2."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:impact" ]
+
+[assets."sounds/SFX_Training_Dummy_Hit3"]
+description = "Training dummy thump on impact, ~1.1s, variant 3."
+tags = [ "asset_type:sound", "audio_type:sfx", "role:audio", "subject:impact" ]
+
+[assets."sounds/sndAmbient_Building1"]
+description = "Interior house room-tone ambience bed, 60s loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:house" ]
+
+[assets."sounds/sndAmbient_Building2"]
+description = "Interior house room-tone ambience bed, 60s loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:house" ]
+
+[assets."sounds/sndAmbient_Castle1"]
+description = "Stone castle interior ambience, hollow echoing tone, 60s loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:house" ]
+
+[assets."sounds/sndAmbient_Castle2"]
+description = "Stone castle interior ambience, 60s loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:house" ]
+
+[assets."sounds/sndAmbient_Cave1"]
+description = "Dripping echoing cave ambience bed, ~30s loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:cave" ]
+
+[assets."sounds/sndAmbient_Cave2"]
+description = "Dripping echoing cave ambience bed, ~28s loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:cave" ]
+
+[assets."sounds/sndAmbient_Forest_Day1"]
+description = "Daytime forest ambience with birdsong and breeze, 60s loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:tree" ]
+
+[assets."sounds/sndAmbient_Forest_Day2"]
+description = "Daytime forest ambience, 60s loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:tree" ]
+
+[assets."sounds/sndAmbient_Village_Day1"]
+description = "Daytime village ambience with distant chatter and activity, 60s loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:city" ]
+
+[assets."sounds/sndAmbient_Village_Day2"]
+description = "Daytime village ambience, 60s loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:ambience", "role:audio", "subject:city" ]
+
+[assets."sounds/sndLose1"]
+description = "Short downbeat 'lose / game over' music sting, ~8s, variant 1."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndLose2"]
+description = "Short downbeat 'lose' music sting, ~7s, variant 2."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndPassive1"]
+description = "Calm exploration background music track, ~2 min loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndPassive2"]
+description = "Calm exploration background music track, ~2 min loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndTense1"]
+description = "Tense combat/danger background music track, ~2 min loop, variant 1."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndTense2"]
+description = "Tense combat/danger background music track, 2 min loop, variant 2."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndWin1"]
+description = "Triumphant 'win / victory' music sting, ~8s, variant 1."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]
+
+[assets."sounds/sndWin2"]
+description = "Triumphant 'win / victory' music sting, ~8s, variant 2."
+tags = [ "asset_type:sound", "audio_type:music", "role:audio" ]

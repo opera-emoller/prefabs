@@ -1,0 +1,850 @@
+id = "fantasy-town"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Fantasy Town: a colourful, cartoony pack of 3D-rendered-to-2D medieval town assets — houses, inns, shops, guard towers, market stalls, carts, windmills, trees and farm fields — each provided in front, top-down and isometric projections across four rotation angles."
+tags = [ "theme:fantasy", "theme:medieval", "style:rendered", "style:shaded", "genre:strategy", "role:building" ]
+
+[export]
+include = [
+  "sprites/spr_front_view_cart_back",
+  "sprites/spr_front_view_cart_front",
+  "sprites/spr_front_view_cart_left",
+  "sprites/spr_front_view_cart_right",
+  "sprites/spr_front_view_farm_house_01_back",
+  "sprites/spr_front_view_farm_house_01_front",
+  "sprites/spr_front_view_farm_house_01_left",
+  "sprites/spr_front_view_farm_house_01_right",
+  "sprites/spr_front_view_farm_house_02_back",
+  "sprites/spr_front_view_farm_house_02_front",
+  "sprites/spr_front_view_farm_house_02_left",
+  "sprites/spr_front_view_farm_house_02_right",
+  "sprites/spr_front_view_farm_house_field_back",
+  "sprites/spr_front_view_farm_house_field_front",
+  "sprites/spr_front_view_farm_house_field_left",
+  "sprites/spr_front_view_farm_house_field_right",
+  "sprites/spr_front_view_guard_tower_back",
+  "sprites/spr_front_view_guard_tower_front",
+  "sprites/spr_front_view_guard_tower_left",
+  "sprites/spr_front_view_guard_tower_right",
+  "sprites/spr_front_view_house_01_back",
+  "sprites/spr_front_view_house_01_front",
+  "sprites/spr_front_view_house_01_left",
+  "sprites/spr_front_view_house_01_right",
+  "sprites/spr_front_view_house_02_back",
+  "sprites/spr_front_view_house_02_front",
+  "sprites/spr_front_view_house_02_left",
+  "sprites/spr_front_view_house_02_right",
+  "sprites/spr_front_view_inn_back",
+  "sprites/spr_front_view_inn_front",
+  "sprites/spr_front_view_inn_left",
+  "sprites/spr_front_view_inn_right",
+  "sprites/spr_front_view_shop_01_back",
+  "sprites/spr_front_view_shop_01_front",
+  "sprites/spr_front_view_shop_01_left",
+  "sprites/spr_front_view_shop_01_right",
+  "sprites/spr_front_view_shop_02_back",
+  "sprites/spr_front_view_shop_02_front",
+  "sprites/spr_front_view_shop_02_left",
+  "sprites/spr_front_view_shop_02_right",
+  "sprites/spr_front_view_stall_01_back",
+  "sprites/spr_front_view_stall_01_front",
+  "sprites/spr_front_view_stall_01_left",
+  "sprites/spr_front_view_stall_01_right",
+  "sprites/spr_front_view_stall_02_back",
+  "sprites/spr_front_view_stall_02_front",
+  "sprites/spr_front_view_stall_02_left",
+  "sprites/spr_front_view_stall_02_right",
+  "sprites/spr_front_view_trees_back",
+  "sprites/spr_front_view_trees_front",
+  "sprites/spr_front_view_trees_left",
+  "sprites/spr_front_view_trees_right",
+  "sprites/spr_front_view_windmill_back",
+  "sprites/spr_front_view_windmill_front",
+  "sprites/spr_front_view_windmill_left",
+  "sprites/spr_front_view_windmill_right",
+  "sprites/spr_isometric_view_cart_back",
+  "sprites/spr_isometric_view_cart_front",
+  "sprites/spr_isometric_view_cart_left",
+  "sprites/spr_isometric_view_cart_right",
+  "sprites/spr_isometric_view_farm_house_01_back",
+  "sprites/spr_isometric_view_farm_house_01_font",
+  "sprites/spr_isometric_view_farm_house_01_left",
+  "sprites/spr_isometric_view_farm_house_01_right",
+  "sprites/spr_isometric_view_farm_house_02_back",
+  "sprites/spr_isometric_view_farm_house_02_front",
+  "sprites/spr_isometric_view_farm_house_02_left",
+  "sprites/spr_isometric_view_farm_house_02_right",
+  "sprites/spr_isometric_view_farm_house_field_back",
+  "sprites/spr_isometric_view_farm_house_field_front",
+  "sprites/spr_isometric_view_farm_house_field_left",
+  "sprites/spr_isometric_view_farm_house_field_right",
+  "sprites/spr_isometric_view_guard_tower_back",
+  "sprites/spr_isometric_view_guard_tower_front",
+  "sprites/spr_isometric_view_guard_tower_left",
+  "sprites/spr_isometric_view_guard_tower_right",
+  "sprites/spr_isometric_view_house_01_back",
+  "sprites/spr_isometric_view_house_01_front",
+  "sprites/spr_isometric_view_house_01_left",
+  "sprites/spr_isometric_view_house_01_right",
+  "sprites/spr_isometric_view_house_02_back",
+  "sprites/spr_isometric_view_house_02_front",
+  "sprites/spr_isometric_view_house_02_left",
+  "sprites/spr_isometric_view_house_02_right",
+  "sprites/spr_isometric_view_inn_back",
+  "sprites/spr_isometric_view_inn_front",
+  "sprites/spr_isometric_view_inn_left",
+  "sprites/spr_isometric_view_inn_right",
+  "sprites/spr_isometric_view_shop_01_back",
+  "sprites/spr_isometric_view_shop_01_front",
+  "sprites/spr_isometric_view_shop_01_left",
+  "sprites/spr_isometric_view_shop_01_right",
+  "sprites/spr_isometric_view_shop_02_back",
+  "sprites/spr_isometric_view_shop_02_front",
+  "sprites/spr_isometric_view_shop_02_left",
+  "sprites/spr_isometric_view_shop_02_right",
+  "sprites/spr_isometric_view_stall_01_back",
+  "sprites/spr_isometric_view_stall_01_front",
+  "sprites/spr_isometric_view_stall_01_left",
+  "sprites/spr_isometric_view_stall_01_right",
+  "sprites/spr_isometric_view_stall_02_back",
+  "sprites/spr_isometric_view_stall_02_front",
+  "sprites/spr_isometric_view_stall_02_left",
+  "sprites/spr_isometric_view_stall_02_right",
+  "sprites/spr_isometric_view_trees_back",
+  "sprites/spr_isometric_view_trees_front",
+  "sprites/spr_isometric_view_trees_left",
+  "sprites/spr_isometric_view_trees_right",
+  "sprites/spr_isometric_view_windmill_back",
+  "sprites/spr_isometric_view_windmill_front",
+  "sprites/spr_isometric_view_windmill_left",
+  "sprites/spr_isometric_view_windmill_right",
+  "sprites/spr_top_down_view_cart_back",
+  "sprites/spr_top_down_view_cart_front",
+  "sprites/spr_top_down_view_cart_left",
+  "sprites/spr_top_down_view_cart_right",
+  "sprites/spr_top_down_view_farm_field_back",
+  "sprites/spr_top_down_view_farm_field_front",
+  "sprites/spr_top_down_view_farm_field_left",
+  "sprites/spr_top_down_view_farm_field_right",
+  "sprites/spr_top_down_view_farm_house_01_back",
+  "sprites/spr_top_down_view_farm_house_01_front",
+  "sprites/spr_top_down_view_farm_house_01_left",
+  "sprites/spr_top_down_view_farm_house_01_right",
+  "sprites/spr_top_down_view_farm_house_02_back",
+  "sprites/spr_top_down_view_farm_house_02_front",
+  "sprites/spr_top_down_view_farm_house_02_left",
+  "sprites/spr_top_down_view_farm_house_02_right",
+  "sprites/spr_top_down_view_guard_tower_back",
+  "sprites/spr_top_down_view_guard_tower_front",
+  "sprites/spr_top_down_view_guard_tower_left",
+  "sprites/spr_top_down_view_guard_tower_right",
+  "sprites/spr_top_down_view_house_01_back",
+  "sprites/spr_top_down_view_house_01_front",
+  "sprites/spr_top_down_view_house_01_left",
+  "sprites/spr_top_down_view_house_01_right",
+  "sprites/spr_top_down_view_house_02_back",
+  "sprites/spr_top_down_view_house_02_front",
+  "sprites/spr_top_down_view_house_02_left",
+  "sprites/spr_top_down_view_house_02_right",
+  "sprites/spr_top_down_view_inn_back",
+  "sprites/spr_top_down_view_inn_front",
+  "sprites/spr_top_down_view_inn_left",
+  "sprites/spr_top_down_view_inn_right",
+  "sprites/spr_top_down_view_shop_01_back",
+  "sprites/spr_top_down_view_shop_01_front",
+  "sprites/spr_top_down_view_shop_01_left",
+  "sprites/spr_top_down_view_shop_01_right",
+  "sprites/spr_top_down_view_shop_02_back",
+  "sprites/spr_top_down_view_shop_02_front",
+  "sprites/spr_top_down_view_shop_02_left",
+  "sprites/spr_top_down_view_shop_02_right",
+  "sprites/spr_top_down_view_stall_01_back",
+  "sprites/spr_top_down_view_stall_01_front",
+  "sprites/spr_top_down_view_stall_01_left",
+  "sprites/spr_top_down_view_stall_01_right",
+  "sprites/spr_top_down_view_stall_02_back",
+  "sprites/spr_top_down_view_stall_02_front",
+  "sprites/spr_top_down_view_stall_02_left",
+  "sprites/spr_top_down_view_stall_02_right",
+  "sprites/spr_top_down_view_trees_back",
+  "sprites/spr_top_down_view_trees_front",
+  "sprites/spr_top_down_view_trees_left",
+  "sprites/spr_top_down_view_trees_right",
+  "sprites/spr_top_down_view_windmill_back",
+  "sprites/spr_top_down_view_windmill_front",
+  "sprites/spr_top_down_view_windmill_left",
+  "sprites/spr_top_down_view_windmill_right",
+]
+
+[assets."sprites/spr_front_view_cart_back"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_cart_front"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_cart_left"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_cart_right"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_01_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_01_front"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_01_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_01_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_02_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_02_front"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_02_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_02_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_field_back"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_field_front"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_field_left"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_farm_house_field_right"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_guard_tower_back"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_guard_tower_front"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_guard_tower_left"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_guard_tower_right"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_01_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_01_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_01_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_01_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_02_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_02_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_02_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_house_02_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_inn_back"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_inn_front"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_inn_left"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_inn_right"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_01_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_01_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_01_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_01_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_02_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_02_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_02_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_shop_02_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_01_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_01_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_01_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_01_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_02_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_02_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_02_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_stall_02_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_trees_back"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_trees_front"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_trees_left"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_trees_right"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_windmill_back"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_windmill_front"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — front-on view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_windmill_left"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — front-on view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_front_view_windmill_right"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — front-on view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:front-view", "state:static" ]
+
+[assets."sprites/spr_isometric_view_cart_back"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_cart_front"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_cart_left"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_cart_right"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_01_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_01_font"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_01_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_01_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_02_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_02_front"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_02_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_02_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_field_back"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_field_front"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_field_left"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_farm_house_field_right"]
+description = "A farmhouse paired with tilled crop plots, vegetable baskets and garden patches; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_guard_tower_back"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_guard_tower_front"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_guard_tower_left"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_guard_tower_right"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_01_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_01_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_01_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_01_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_02_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_02_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_02_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_house_02_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_inn_back"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_inn_front"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_inn_left"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_inn_right"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_01_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_01_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_01_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_01_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_02_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_02_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_02_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_shop_02_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_01_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_01_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_01_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_01_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_02_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_02_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_02_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_stall_02_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_trees_back"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_trees_front"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_trees_left"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_trees_right"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_windmill_back"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — isometric view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_windmill_front"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — isometric view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_windmill_left"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — isometric view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_isometric_view_windmill_right"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — isometric view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:isometric", "state:static" ]
+
+[assets."sprites/spr_top_down_view_cart_back"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_cart_front"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_cart_left"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_cart_right"]
+description = "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:cart", "role:prop", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_field_back"]
+description = "A tilled farm plot scene with rows of orange soil, green crops and produce baskets; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:field", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_field_front"]
+description = "A tilled farm plot scene with rows of orange soil, green crops and produce baskets; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:field", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_field_left"]
+description = "A tilled farm plot scene with rows of orange soil, green crops and produce baskets; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:field", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_field_right"]
+description = "A tilled farm plot scene with rows of orange soil, green crops and produce baskets; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:field", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_01_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_01_front"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_01_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_01_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_02_back"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_02_front"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_02_left"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_farm_house_02_right"]
+description = "A rustic timber farmhouse with a steep blue-tiled roof and warm-lit windows (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_guard_tower_back"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_guard_tower_front"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_guard_tower_left"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_guard_tower_right"]
+description = "A tall fortified stone guard tower with a pointed roof and a flag on top; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_01_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_01_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_01_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_01_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_02_back"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_02_front"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_02_left"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_house_02_right"]
+description = "A cozy medieval cottage with plastered walls, timber framing and a pitched roof (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_inn_back"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_inn_front"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_inn_left"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_inn_right"]
+description = "A two-storey medieval inn with a hanging sign, balcony and tiled roof; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_01_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_01_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_01_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_01_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_02_back"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_02_front"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_02_left"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_shop_02_right"]
+description = "A medieval merchant shop with an awning, display counter and goods out front (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:house", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_01_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_01_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_01_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_01_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 01); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_02_back"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_02_front"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_02_left"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_stall_02_right"]
+description = "A striped-canopy market stall stacked with wares on its wooden counter (variant 02); soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:stall", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_trees_back"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_trees_front"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_trees_left"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_trees_right"]
+description = "A cluster of stylised conifer pine trees in rich greens; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_windmill_back"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — top-down view, rear angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_windmill_front"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — top-down view, front angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_windmill_left"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — top-down view, left-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:top-down", "state:static" ]
+
+[assets."sprites/spr_top_down_view_windmill_right"]
+description = "A round tower windmill with a bright red conical cap and angled sail blades; soft rounded shading, warm rendered cartoon look — top-down view, right-side angle, single frame."
+tags = [ "asset_type:sprite", "subject:windmill", "role:building", "projection:top-down", "state:static" ]

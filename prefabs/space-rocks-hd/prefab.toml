@@ -1,0 +1,330 @@
+id = "space-rocks-hd"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Space Rocks HD — an HD asset pack for a top-down Asteroids-style arcade shooter: shaded cartoon spaceships, tumbling asteroids, glowing blasters and lasers, planets, and rendered starfield/nebula backgrounds with explosion, muzzle-flash and thruster VFX."
+tags = [ "genre:shmup", "theme:space", "theme:sci-fi", "projection:top-down" ]
+
+[export]
+include = [
+  "sprites/spr_asteroid_large1_gold_anim",
+  "sprites/spr_asteroid_large1_ice_anim",
+  "sprites/spr_asteroid_large1_rock_anim",
+  "sprites/spr_asteroids_large2_gold_anim",
+  "sprites/spr_asteroids_large2_ice_anim",
+  "sprites/spr_asteroids_large2_rock_anim",
+  "sprites/spr_asteroids_medium1_gold_anim",
+  "sprites/spr_asteroids_medium1_ice_anim",
+  "sprites/spr_asteroids_medium1_rock_anim",
+  "sprites/spr_asteroids_medium2_gold_anim",
+  "sprites/spr_asteroids_medium2_ice_anim",
+  "sprites/spr_asteroids_medium2_rock_anim",
+  "sprites/spr_asteroids_small1_gold_anim",
+  "sprites/spr_asteroids_small1_ice_anim",
+  "sprites/spr_asteroids_small1_rock_anim",
+  "sprites/spr_asteroids_small2_gold_anim",
+  "sprites/spr_asteroids_small2_ice_anim",
+  "sprites/spr_asteroids_small2_rock_anim",
+  "sprites/spr_blue_laser_anim",
+  "sprites/spr_bullet1_blue",
+  "sprites/spr_bullet1_green",
+  "sprites/spr_bullet1_yellow",
+  "sprites/spr_bullet2_blue",
+  "sprites/spr_bullet2_green",
+  "sprites/spr_bullet2_yellow",
+  "sprites/spr_cluster1",
+  "sprites/spr_cluster2",
+  "sprites/spr_explosion_large_anim",
+  "sprites/spr_explosion_medium_anim",
+  "sprites/spr_explosion_small_anim",
+  "sprites/spr_green_laser_anim",
+  "sprites/spr_muzzle_bullet_blue_anim",
+  "sprites/spr_muzzle_bullet_green_anim",
+  "sprites/spr_muzzle_bullet_yellow_anim",
+  "sprites/spr_muzzle_laser_blue_anim",
+  "sprites/spr_muzzle_laser_green_anim",
+  "sprites/spr_muzzle_laser_yellow_anim",
+  "sprites/spr_overlay_sky_stars1",
+  "sprites/spr_overlay_sky_stars2",
+  "sprites/spr_overlay_sky_starsblue",
+  "sprites/spr_overlay_sky_starspurple",
+  "sprites/spr_overlay_sky_starsred",
+  "sprites/spr_planet_black",
+  "sprites/spr_planet_blue",
+  "sprites/spr_planet_pink",
+  "sprites/spr_ship1_gold",
+  "sprites/spr_ship1_purple",
+  "sprites/spr_ship1_red",
+  "sprites/spr_ship2_gold",
+  "sprites/spr_ship2_purple",
+  "sprites/spr_ship2_red",
+  "sprites/spr_ship3_gold",
+  "sprites/spr_ship3_purple",
+  "sprites/spr_ship3_red",
+  "sprites/spr_sky_nebula1",
+  "sprites/spr_sky_nebula2",
+  "sprites/spr_sky_standard",
+  "sprites/spr_star_green",
+  "sprites/spr_star_red",
+  "sprites/spr_star_red2",
+  "sprites/spr_thruster_end_anim",
+  "sprites/spr_thruster_loop_anim",
+  "sprites/spr_thruster_start_anim",
+  "sprites/spr_yellow_laser_anim",
+]
+
+[assets."sprites/spr_asteroid_large1_gold_anim"]
+description = "Large craggy asteroid with a golden-tinted shaded surface and dark pits, slowly tumbling; cartoon outline, 30-frame rotation."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroid_large1_ice_anim"]
+description = "Large icy-blue asteroid with frosted shaded facets and craters, slowly spinning; cartoon outline, 30-frame rotation."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroid_large1_rock_anim"]
+description = "Large grey rocky asteroid with shaded craters and a faint rim glow, tumbling; cartoon outline, 30-frame rotation."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_large2_gold_anim"]
+description = "Big golden-hued asteroid variant, pitted and shaded, slow rotating tumble; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_large2_ice_anim"]
+description = "Big ice-blue asteroid variant with frosty shading and craters, rotating; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_large2_rock_anim"]
+description = "Big grey rock asteroid variant, cratered and shaded, rotating tumble; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium1_gold_anim"]
+description = "Medium golden asteroid, shaded with dark pockmarks, spinning; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium1_ice_anim"]
+description = "Medium icy-blue asteroid, frosted shading and craters, spinning; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium1_rock_anim"]
+description = "Medium grey rocky asteroid, cratered shaded surface, spinning; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium2_gold_anim"]
+description = "Medium golden asteroid (second shape), shaded and pitted, rotating; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium2_ice_anim"]
+description = "Medium ice-blue asteroid (second shape), frosty craters, rotating; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_medium2_rock_anim"]
+description = "Medium grey rock asteroid (second shape), shaded craters, rotating; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small1_gold_anim"]
+description = "Small chunk of golden asteroid, shaded and cratered, fast tumble; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small1_ice_anim"]
+description = "Small icy-blue asteroid chunk, frosted shading, tumbling; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small1_rock_anim"]
+description = "Small grey rock chunk, shaded craters, tumbling; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small2_gold_anim"]
+description = "Small golden asteroid fragment (second shape), shaded, tumbling; cartoon outline, 29 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small2_ice_anim"]
+description = "Small ice-blue asteroid fragment (second shape), frosty shading, tumbling; cartoon outline, 30 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_asteroids_small2_rock_anim"]
+description = "Small grey rock fragment (second shape), shaded craters, tumbling; cartoon outline, 29 frames."
+tags = [ "asset_type:sprite", "subject:rock", "role:enemy", "style:cartoon", "style:shaded", "state:animation" ]
+
+[assets."sprites/spr_blue_laser_anim"]
+description = "Tall flickering cyan-blue laser beam with a bright white core and soft glow, vertically oriented; 12-frame animation."
+tags = [ "asset_type:sprite", "subject:laser", "role:projectile", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_green_laser_anim"]
+description = "Tall flickering green laser beam with white-hot core and glowing edges, vertical; 12-frame animation."
+tags = [ "asset_type:sprite", "subject:laser", "role:projectile", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_yellow_laser_anim"]
+description = "Tall flickering yellow laser beam with bright core and warm glow, vertical; 12-frame animation."
+tags = [ "asset_type:sprite", "subject:laser", "role:projectile", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_bullet1_blue"]
+description = "Slim blue energy bolt with a bright teal tip and a fading glowing tail, pointing up; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_bullet1_green"]
+description = "Slim green energy bolt with a glowing head and fading tail, pointing up; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_bullet1_yellow"]
+description = "Slim yellow energy bolt with a glowing head and fading tail, pointing up; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_bullet2_blue"]
+description = "Larger blue plasma round — a bright round glowing head with a long thin trailing streak; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_bullet2_green"]
+description = "Larger green plasma round with a glowing orb head and long thin trail; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_bullet2_yellow"]
+description = "Larger yellow plasma round with a glowing orb head and long thin trail; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "style:rendered", "state:static" ]
+
+[assets."sprites/spr_cluster1"]
+description = "Soft pink-and-white nebula cloud sprinkled with tiny glowing star points; diffuse glowing space overlay, single frame."
+tags = [ "asset_type:sprite", "subject:star", "subject:space", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_cluster2"]
+description = "Pale blue-violet nebula cloud dotted with small multicolored glowing stars; diffuse space overlay, single frame."
+tags = [ "asset_type:sprite", "subject:star", "subject:space", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_explosion_large_anim"]
+description = "Large fiery orange-yellow burst that blooms into smoke and sparks; glowing VFX, 24-frame animation."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_explosion_medium_anim"]
+description = "Medium fireball blast with bright core, flame and dissipating smoke; glowing VFX, 22-frame animation."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_explosion_small_anim"]
+description = "Small quick fiery pop with sparks and a brief smoke puff; glowing VFX, 19-frame animation."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_bullet_blue_anim"]
+description = "Brief blue spiked muzzle flash burst fired when a blue bullet launches; glowing VFX, 3 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_bullet_green_anim"]
+description = "Brief green spiked muzzle flash for a green bullet shot; glowing VFX, 3 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_bullet_yellow_anim"]
+description = "Brief yellow spiked muzzle flash for a yellow bullet shot; glowing VFX, 3 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_laser_blue_anim"]
+description = "Blue laser-mouth flash, a bright burst at the beam origin; glowing VFX, 4 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_laser_green_anim"]
+description = "Green laser-mouth flash burst at the beam origin; glowing VFX, 4 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_muzzle_laser_yellow_anim"]
+description = "Yellow laser-mouth flash burst at the beam origin; glowing VFX, 4 frames."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_overlay_sky_stars1"]
+description = "Wide transparent overlay of scattered soft-glowing white stars for layering over space backgrounds; single frame."
+tags = [ "asset_type:sprite", "subject:star", "subject:space", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_overlay_sky_stars2"]
+description = "Second wide star-glow overlay with a different scatter of twinkling white stars; single frame."
+tags = [ "asset_type:sprite", "subject:star", "subject:space", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_overlay_sky_starsblue"]
+description = "Square overlay with a large soft four-point blue star glow and surrounding haze; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_overlay_sky_starspurple"]
+description = "Square overlay with a large soft purple star glow; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_overlay_sky_starsred"]
+description = "Square overlay with a large soft red star glow; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_planet_black"]
+description = "Dark blue-grey moon-like planet with subtle shaded surface mottling and a thin bright rim light; single frame."
+tags = [ "asset_type:sprite", "subject:planet", "role:environment", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_planet_blue"]
+description = "Large deep-blue planet sphere with cloudy shaded texture and a faint glowing atmosphere rim; single frame."
+tags = [ "asset_type:sprite", "subject:planet", "role:environment", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_planet_pink"]
+description = "Ringed gas planet in crimson-and-purple swirls with a glowing pink ring system; shaded, single frame."
+tags = [ "asset_type:sprite", "subject:planet", "role:environment", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship1_gold"]
+description = "Top-down arrowhead spaceship in gold with grey metal trim, dark cockpit slit and side wings; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship1_purple"]
+description = "Top-down arrowhead spaceship in purple with grey trim and dark cockpit; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship1_red"]
+description = "Top-down arrowhead spaceship in red with grey trim and dark teardrop cockpit; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship2_gold"]
+description = "Sleek top-down fighter with swept delta wings in gold and grey, slim cockpit; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship2_purple"]
+description = "Sleek swept-wing fighter in purple and grey with slim cockpit; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship2_red"]
+description = "Sleek swept-wing fighter in red and grey with slim cockpit; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship3_gold"]
+description = "Stout rounded top-down craft in gold with shoulder fins and a central pod; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship3_purple"]
+description = "Stout rounded top-down craft in purple with shoulder fins and central pod; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_ship3_red"]
+description = "Stout rounded top-down craft in red with shoulder fins and central pod; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:player", "style:cartoon", "style:shaded", "state:static" ]
+
+[assets."sprites/spr_sky_nebula1"]
+description = "Full-screen rendered space background: a colorful green-and-red nebula cloud strewn across a deep starfield; single frame."
+tags = [ "asset_type:sprite", "subject:space", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_sky_nebula2"]
+description = "Full-screen rendered nebula starfield background with billowing colored gas clouds; single frame."
+tags = [ "asset_type:sprite", "subject:space", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_sky_standard"]
+description = "Full-screen rendered plain starfield background — scattered white stars on deep blue-black space; single frame."
+tags = [ "asset_type:sprite", "subject:space", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_star_green"]
+description = "Single glowing green star with a bright white center and soft radiating haze; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_star_red"]
+description = "Single glowing red-pink star with a hot white core and soft pink halo; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_star_red2"]
+description = "Single glowing red star (alternate), bright core with a wider soft pink glow; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:background", "style:rendered", "projection:background", "state:static" ]
+
+[assets."sprites/spr_thruster_end_anim"]
+description = "Engine thruster shutdown flame — an orange-white jet fading out; glowing VFX, 11-frame animation."
+tags = [ "asset_type:sprite", "subject:thruster", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_thruster_loop_anim"]
+description = "Looping engine thruster flame, a steady orange-white exhaust plume; glowing VFX, 16-frame animation."
+tags = [ "asset_type:sprite", "subject:thruster", "role:vfx", "style:rendered", "state:animation" ]
+
+[assets."sprites/spr_thruster_start_anim"]
+description = "Engine thruster ignition flame flaring up to full burn; glowing VFX, 21-frame animation."
+tags = [ "asset_type:sprite", "subject:thruster", "role:vfx", "style:rendered", "state:animation" ]

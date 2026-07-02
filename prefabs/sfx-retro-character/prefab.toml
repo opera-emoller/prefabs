@@ -1,0 +1,335 @@
+id = "sfx-retro-character"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Retro, bit-crushed character action SFX pack: hits, melee, footsteps, jumps, pain, death, sword swings, magic spells and impacts for knight, monk, ninja and wizard protagonists."
+tags = [ "genre:action", "theme:fantasy", "role:audio", "asset_type:sound", "audio_type:sfx", "style:retro" ]
+
+[export]
+include = [
+  "sounds/mp3_snd_knight_death",
+  "sounds/mp3_snd_knight_footstep_01",
+  "sounds/mp3_snd_knight_footstep_02",
+  "sounds/mp3_snd_knight_jump_land",
+  "sounds/mp3_snd_knight_jump_up",
+  "sounds/mp3_snd_knight_pain_01",
+  "sounds/mp3_snd_knight_pain_02",
+  "sounds/mp3_snd_knight_pain_03",
+  "sounds/mp3_snd_knight_sword_swing_01",
+  "sounds/mp3_snd_knight_sword_swing_02",
+  "sounds/mp3_snd_knight_sword_swing_03",
+  "sounds/mp3_snd_monk_death",
+  "sounds/mp3_snd_monk_footstep_01",
+  "sounds/mp3_snd_monk_footstep_02",
+  "sounds/mp3_snd_monk_jump_land",
+  "sounds/mp3_snd_monk_jump_up",
+  "sounds/mp3_snd_monk_pain_01",
+  "sounds/mp3_snd_monk_pain_02",
+  "sounds/mp3_snd_monk_pain_03",
+  "sounds/mp3_snd_monk_punch_01",
+  "sounds/mp3_snd_monk_punch_02",
+  "sounds/mp3_snd_monk_punch_03",
+  "sounds/mp3_snd_monk_ranged_attack_01",
+  "sounds/mp3_snd_monk_ranged_attack_02",
+  "sounds/mp3_snd_monk_ranged_attack_hit",
+  "sounds/mp3_snd_ninja_death",
+  "sounds/mp3_snd_ninja_footstep_01",
+  "sounds/mp3_snd_ninja_footstep_02",
+  "sounds/mp3_snd_ninja_jump_land",
+  "sounds/mp3_snd_ninja_jump_up",
+  "sounds/mp3_snd_ninja_melee_attack_01",
+  "sounds/mp3_snd_ninja_melee_attack_02",
+  "sounds/mp3_snd_ninja_melee_attack_03",
+  "sounds/mp3_snd_ninja_pain_01",
+  "sounds/mp3_snd_ninja_pain_02",
+  "sounds/mp3_snd_ninja_pain_03",
+  "sounds/mp3_snd_ninja_ranged_attack_01",
+  "sounds/mp3_snd_ninja_ranged_attack_02",
+  "sounds/mp3_snd_ninja_ranged_attack_hit_hard",
+  "sounds/mp3_snd_ninja_ranged_attack_hit_soft",
+  "sounds/mp3_snd_sfx_blood_splatter_01",
+  "sounds/mp3_snd_sfx_blood_splatter_02",
+  "sounds/mp3_snd_sfx_charging_01",
+  "sounds/mp3_snd_sfx_charging_02",
+  "sounds/mp3_snd_sfx_fireball_impact_01",
+  "sounds/mp3_snd_sfx_fireball_impact_02",
+  "sounds/mp3_snd_sfx_magic_missile_01",
+  "sounds/mp3_snd_sfx_magic_missile_02",
+  "sounds/mp3_snd_sfx_sword_impact_01",
+  "sounds/mp3_snd_sfx_sword_impact_02",
+  "sounds/mp3_snd_sfx_sword_impact_03",
+  "sounds/mp3_snd_sfx_sword_sheath",
+  "sounds/mp3_snd_sfx_sword_unsheath",
+  "sounds/mp3_snd_wizard_attack_01",
+  "sounds/mp3_snd_wizard_attack_02",
+  "sounds/mp3_snd_wizard_attack_03",
+  "sounds/mp3_snd_wizard_death",
+  "sounds/mp3_snd_wizard_jump_land",
+  "sounds/mp3_snd_wizard_jump_up",
+  "sounds/mp3_snd_wizard_pain_01",
+  "sounds/mp3_snd_wizard_pain_02",
+  "sounds/mp3_snd_wizard_pain_03",
+  "sounds/mp3_snd_wizard_ranged_attack_01",
+  "sounds/mp3_snd_wizard_ranged_attack_02",
+  "sounds/mp3_snd_wizard_ranged_attack_hit",
+]
+
+[assets."sounds/mp3_snd_knight_death"]
+description = "Bit-crushed retro death cry for the knight, a falling, defeated grunt, ~1.1s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_footstep_01"]
+description = "Short crunchy retro knight footstep, a single armored step, ~0.4s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_footstep_02"]
+description = "Alternate crunchy retro knight footstep, a single armored step, ~0.4s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_jump_land"]
+description = "Lo-fi thud as the knight lands from a jump, ~0.4s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_jump_up"]
+description = "Quick bit-crushed whoosh as the knight leaps upward, ~0.27s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_pain_01"]
+description = "Retro hurt grunt for the knight taking damage, ~0.62s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_pain_02"]
+description = "Alternate retro hurt grunt for the knight taking damage, ~0.53s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_pain_03"]
+description = "Third retro hurt grunt for the knight taking damage, ~0.67s."
+tags = [ "subject:knight" ]
+
+[assets."sounds/mp3_snd_knight_sword_swing_01"]
+description = "Very short bit-crushed sword swish as the knight slashes, ~0.13s."
+tags = [ "subject:knight", "subject:sword" ]
+
+[assets."sounds/mp3_snd_knight_sword_swing_02"]
+description = "Quick retro sword swish for the knight's attack, ~0.2s."
+tags = [ "subject:knight", "subject:sword" ]
+
+[assets."sounds/mp3_snd_knight_sword_swing_03"]
+description = "Slightly longer retro sword swing whoosh for the knight, ~0.29s."
+tags = [ "subject:knight", "subject:sword" ]
+
+[assets."sounds/mp3_snd_monk_death"]
+description = "Bit-crushed retro death sound for the monk, a fading defeated cry, ~1.2s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_footstep_01"]
+description = "Short crunchy retro monk footstep, ~0.4s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_footstep_02"]
+description = "Alternate crunchy retro monk footstep, ~0.4s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_jump_land"]
+description = "Lo-fi thud as the monk lands from a jump, ~0.4s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_jump_up"]
+description = "Bit-crushed whoosh as the monk jumps upward, ~0.4s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_pain_01"]
+description = "Retro hurt grunt for the monk taking damage, ~0.4s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_pain_02"]
+description = "Alternate retro hurt grunt for the monk taking damage, ~0.38s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_pain_03"]
+description = "Third retro hurt grunt for the monk taking damage, ~0.39s."
+tags = [ "subject:monk" ]
+
+[assets."sounds/mp3_snd_monk_punch_01"]
+description = "Punchy bit-crushed melee impact as the monk strikes, ~0.35s."
+tags = [ "subject:monk", "subject:impact" ]
+
+[assets."sounds/mp3_snd_monk_punch_02"]
+description = "Alternate retro punch impact for the monk's melee attack, ~0.34s."
+tags = [ "subject:monk", "subject:impact" ]
+
+[assets."sounds/mp3_snd_monk_punch_03"]
+description = "Third retro punch impact for the monk's melee attack, ~0.4s."
+tags = [ "subject:monk", "subject:impact" ]
+
+[assets."sounds/mp3_snd_monk_ranged_attack_01"]
+description = "Charged bit-crushed energy blast as the monk launches a ranged attack, ~1.2s."
+tags = [ "subject:monk", "subject:magic" ]
+
+[assets."sounds/mp3_snd_monk_ranged_attack_02"]
+description = "Alternate retro energy projectile for the monk's ranged attack, ~1.2s."
+tags = [ "subject:monk", "subject:magic" ]
+
+[assets."sounds/mp3_snd_monk_ranged_attack_hit"]
+description = "Bit-crushed impact as the monk's ranged attack connects, ~1.6s."
+tags = [ "subject:monk", "subject:magic", "subject:impact" ]
+
+[assets."sounds/mp3_snd_ninja_death"]
+description = "Sharp retro death cry for the ninja, a quick defeated grunt, ~0.59s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_footstep_01"]
+description = "Soft crunchy retro ninja footstep, ~0.4s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_footstep_02"]
+description = "Alternate soft crunchy retro ninja footstep, ~0.4s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_jump_land"]
+description = "Lo-fi thud as the ninja lands from a jump, ~0.4s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_jump_up"]
+description = "Bit-crushed whoosh as the ninja leaps upward, ~0.4s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_melee_attack_01"]
+description = "Very fast retro blade swish for the ninja's melee attack, ~0.21s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_melee_attack_02"]
+description = "Alternate quick retro blade swish for the ninja, ~0.21s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_melee_attack_03"]
+description = "Slightly longer retro melee slash for the ninja, ~0.4s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_pain_01"]
+description = "Quick retro hurt grunt for the ninja taking damage, ~0.27s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_pain_02"]
+description = "Alternate retro hurt grunt for the ninja taking damage, ~0.57s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_pain_03"]
+description = "Third retro hurt grunt for the ninja taking damage, ~0.69s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_ranged_attack_01"]
+description = "Snappy bit-crushed throw for the ninja's ranged attack, ~0.12s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_ranged_attack_02"]
+description = "Alternate quick retro throw for the ninja's ranged attack, ~0.16s."
+tags = [ "subject:ninja" ]
+
+[assets."sounds/mp3_snd_ninja_ranged_attack_hit_hard"]
+description = "Hard bit-crushed impact as the ninja's ranged attack lands solidly, ~0.4s."
+tags = [ "subject:ninja", "subject:impact" ]
+
+[assets."sounds/mp3_snd_ninja_ranged_attack_hit_soft"]
+description = "Softer retro impact as the ninja's ranged attack grazes, ~0.4s."
+tags = [ "subject:ninja", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_blood_splatter_01"]
+description = "Wet bit-crushed splatter for a blood hit effect, ~0.8s."
+tags = [ "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_blood_splatter_02"]
+description = "Alternate retro blood splatter impact, ~0.99s."
+tags = [ "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_charging_01"]
+description = "Rising bit-crushed charge-up hum building power, ~1.84s."
+tags = [ "subject:magic" ]
+
+[assets."sounds/mp3_snd_sfx_charging_02"]
+description = "Alternate retro charging build-up tone, ~2.0s."
+tags = [ "subject:magic" ]
+
+[assets."sounds/mp3_snd_sfx_fireball_impact_01"]
+description = "Booming bit-crushed fireball explosion impact, ~2.4s."
+tags = [ "subject:fire", "subject:magic", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_fireball_impact_02"]
+description = "Alternate retro fireball blast impact, ~2.11s."
+tags = [ "subject:fire", "subject:magic", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_magic_missile_01"]
+description = "Whooshing bit-crushed magic missile projectile, ~1.2s."
+tags = [ "subject:magic", "subject:missile" ]
+
+[assets."sounds/mp3_snd_sfx_magic_missile_02"]
+description = "Alternate retro magic missile launch, ~1.36s."
+tags = [ "subject:magic", "subject:missile" ]
+
+[assets."sounds/mp3_snd_sfx_sword_impact_01"]
+description = "Metallic bit-crushed sword clash impact, ~0.8s."
+tags = [ "subject:sword", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_sword_impact_02"]
+description = "Alternate retro sword clang impact, ~0.8s."
+tags = [ "subject:sword", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_sword_impact_03"]
+description = "Third retro sword clash impact, ~0.8s."
+tags = [ "subject:sword", "subject:impact" ]
+
+[assets."sounds/mp3_snd_sfx_sword_sheath"]
+description = "Bit-crushed metallic shing as a sword is sheathed, ~0.8s."
+tags = [ "subject:sword" ]
+
+[assets."sounds/mp3_snd_sfx_sword_unsheath"]
+description = "Bit-crushed metallic ring as a sword is drawn from its scabbard, ~0.8s."
+tags = [ "subject:sword" ]
+
+[assets."sounds/mp3_snd_wizard_attack_01"]
+description = "Crackling bit-crushed spell cast for the wizard's attack, ~0.56s."
+tags = [ "subject:wizard", "subject:magic" ]
+
+[assets."sounds/mp3_snd_wizard_attack_02"]
+description = "Alternate retro spell cast for the wizard, ~0.58s."
+tags = [ "subject:wizard", "subject:magic" ]
+
+[assets."sounds/mp3_snd_wizard_attack_03"]
+description = "Third retro spell cast for the wizard's attack, ~0.64s."
+tags = [ "subject:wizard", "subject:magic" ]
+
+[assets."sounds/mp3_snd_wizard_death"]
+description = "Bit-crushed retro death cry for the wizard, a fading magical groan, ~1.34s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_jump_land"]
+description = "Lo-fi thud as the wizard lands from a jump, ~0.4s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_jump_up"]
+description = "Bit-crushed whoosh as the wizard jumps upward, ~0.4s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_pain_01"]
+description = "Retro hurt grunt for the wizard taking damage, ~0.64s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_pain_02"]
+description = "Alternate retro hurt grunt for the wizard taking damage, ~0.53s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_pain_03"]
+description = "Third retro hurt grunt for the wizard taking damage, ~0.61s."
+tags = [ "subject:wizard" ]
+
+[assets."sounds/mp3_snd_wizard_ranged_attack_01"]
+description = "Charged bit-crushed magic blast for the wizard's ranged attack, ~1.6s."
+tags = [ "subject:wizard", "subject:magic" ]
+
+[assets."sounds/mp3_snd_wizard_ranged_attack_02"]
+description = "Alternate retro magic projectile for the wizard's ranged attack, ~1.6s."
+tags = [ "subject:wizard", "subject:magic" ]
+
+[assets."sounds/mp3_snd_wizard_ranged_attack_hit"]
+description = "Bit-crushed magical impact as the wizard's spell connects, ~1.37s."
+tags = [ "subject:wizard", "subject:magic", "subject:impact" ]

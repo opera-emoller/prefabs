@@ -1,0 +1,98 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_SPR_Cannon_VFX"
+sprite = "SPR_Cannon_VFX"
+x = 68.9
+y = 39.8
+scale_x = 1.89615
+scale_y = 1.89615
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Flamer_VFX"
+sprite = "SPR_Flamer_VFX"
+x = 439.0
+y = 29.4
+scale_x = 1.00102
+scale_y = 1.00102
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Freeze_VFX"
+sprite = "SPR_Freeze_VFX"
+x = 698.9
+y = 94.0
+scale_x = 0.46841
+scale_y = 0.46841
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Heal_VFX"
+sprite = "SPR_Heal_VFX"
+x = 1050.2
+y = 29.4
+scale_x = 1.13333
+scale_y = 1.13333
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Holy_VFX"
+sprite = "SPR_Holy_VFX"
+x = 68.9
+y = 344.5
+scale_x = 0.70681
+scale_y = 0.70681
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Magic_VFX"
+sprite = "SPR_Magic_VFX"
+x = 383.9
+y = 344.7
+scale_x = 0.43151
+scale_y = 0.43151
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Poison_VFX"
+sprite = "SPR_Poison_VFX"
+x = 698.9
+y = 302.6
+scale_x = 0.57159
+scale_y = 0.57159
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Rail_VFX"
+sprite = "SPR_Rail_VFX"
+x = 68.9
+y = 493.4
+scale_x = 3.08125
+scale_y = 3.08125
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_SPR_Slow_VFX"
+sprite = "SPR_Slow_VFX"
+x = 383.9
+y = 539.0
+scale_x = 0.59219
+scale_y = 0.59219
+rotation = 0.0
+colour = "#FFFFFFFF"
+

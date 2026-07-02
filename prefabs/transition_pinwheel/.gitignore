@@ -1,0 +1,12 @@
+# gmx build artifacts
+*.wad
+*.yydebug
+*.bld-key
+.gmx/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/

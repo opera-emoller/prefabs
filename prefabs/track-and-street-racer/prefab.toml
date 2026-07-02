@@ -1,0 +1,1225 @@
+id = "track-and-street-racer"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Top-down racing art and audio pack with a bright, detailed cartoon look: four race cars plus a police car (each in multiple liveries), modular track and chevron pieces, grandstands, buildings, roadside props, ground tiles and decals, plus a full set of engine, collision, crowd, siren and music sounds."
+tags = [ "genre:racing", "theme:modern", "style:cartoon", "projection:top-down" ]
+
+[export]
+include = [
+  "sprites/spr_Chevrons_Corner",
+  "sprites/spr_Chevrons_Diagonal_BottomLeft_Bottom",
+  "sprites/spr_Chevrons_Diagonal_BottomLeft_Top",
+  "sprites/spr_Chevrons_Diagonal_BottomRight_Bottom",
+  "sprites/spr_Chevrons_Diagonal_BottomRight_Top",
+  "sprites/spr_Chevrons_Diagonal_TopLeft_Bottom",
+  "sprites/spr_Chevrons_Diagonal_TopLeft_Top",
+  "sprites/spr_Chevrons_Diagonal_TopRight_Bottom",
+  "sprites/spr_Chevrons_Diagonal_TopRight_Top",
+  "sprites/spr_Chevrons_Horizontal_Bottom_R_Left",
+  "sprites/spr_Chevrons_Horizontal_Bottom_R_Right",
+  "sprites/spr_Chevrons_Horizontal_Bottom_W_Left",
+  "sprites/spr_Chevrons_Horizontal_Bottom_W_Right",
+  "sprites/spr_Chevrons_Horizontal_Top_R_Left",
+  "sprites/spr_Chevrons_Horizontal_Top_R_Right",
+  "sprites/spr_Chevrons_Horizontal_Top_W_Left",
+  "sprites/spr_Chevrons_Horizontal_Top_W_Right",
+  "sprites/spr_Chevrons_Round",
+  "sprites/spr_Chevrons_Straight_Diagonal",
+  "sprites/spr_Chevrons_Vertical_Bottom_R_Left",
+  "sprites/spr_Chevrons_Vertical_Bottom_R_Right",
+  "sprites/spr_Chevrons_Vertical_Bottom_W_Left",
+  "sprites/spr_Chevrons_Vertical_Bottom_W_Right",
+  "sprites/spr_Chevrons_Vertical_Top_R_Left",
+  "sprites/spr_Chevrons_Vertical_Top_R_Right",
+  "sprites/spr_Chevrons_Vertical_Top_W_Left",
+  "sprites/spr_Chevrons_Vertical_Top_W_Right",
+  "sprites/spr_Track_Corner",
+  "sprites/spr_Track_Round",
+  "sprites/spr_Track_Straight_Diagonal",
+  "sprites/spr_billboard_blue",
+  "sprites/spr_billboard_yellow",
+  "sprites/spr_building",
+  "sprites/spr_building2",
+  "sprites/spr_building3",
+  "sprites/spr_cactus",
+  "sprites/spr_car_endurance_blue",
+  "sprites/spr_car_endurance_purple",
+  "sprites/spr_car_endurance_red",
+  "sprites/spr_car_endurance_shadow",
+  "sprites/spr_car_endurance_white",
+  "sprites/spr_car_endurance_yellow",
+  "sprites/spr_car_highspec_blue",
+  "sprites/spr_car_highspec_purple",
+  "sprites/spr_car_highspec_red",
+  "sprites/spr_car_highspec_shadow",
+  "sprites/spr_car_highspec_white",
+  "sprites/spr_car_highspec_yellow",
+  "sprites/spr_car_police",
+  "sprites/spr_car_police_light_blue",
+  "sprites/spr_car_police_light_red",
+  "sprites/spr_car_police_shadow",
+  "sprites/spr_car_safety_blue",
+  "sprites/spr_car_safety_green",
+  "sprites/spr_car_safety_grey",
+  "sprites/spr_car_safety_red",
+  "sprites/spr_car_safety_white",
+  "sprites/spr_car_touring_blue",
+  "sprites/spr_car_touring_purple",
+  "sprites/spr_car_touring_red",
+  "sprites/spr_car_touring_shadow",
+  "sprites/spr_car_touring_white",
+  "sprites/spr_car_touring_yellow",
+  "sprites/spr_car_wheel",
+  "sprites/spr_cone",
+  "sprites/spr_cone_tipped",
+  "sprites/spr_crack_a",
+  "sprites/spr_crack_b",
+  "sprites/spr_decal_pavement",
+  "sprites/spr_desert_crack_a",
+  "sprites/spr_desert_crack_b",
+  "sprites/spr_desert_plant_a",
+  "sprites/spr_desert_plant_b",
+  "sprites/spr_desert_rocks_a",
+  "sprites/spr_desert_rocks_b",
+  "sprites/spr_desert_tree_a",
+  "sprites/spr_desert_tree_b",
+  "sprites/spr_drain",
+  "sprites/spr_flagwaver",
+  "sprites/spr_flower",
+  "sprites/spr_fuel",
+  "sprites/spr_fuel_barrel_a",
+  "sprites/spr_fuel_barrel_b",
+  "sprites/spr_hedge_a",
+  "sprites/spr_hedge_b",
+  "sprites/spr_house1_blue",
+  "sprites/spr_house1_orange",
+  "sprites/spr_house1_yellow",
+  "sprites/spr_house2_blue",
+  "sprites/spr_house2_orange",
+  "sprites/spr_house2_yellow",
+  "sprites/spr_house3_blue",
+  "sprites/spr_house3_orange",
+  "sprites/spr_house3_yellow",
+  "sprites/spr_lamppost",
+  "sprites/spr_lights",
+  "sprites/spr_lights_green_on",
+  "sprites/spr_lights_red_on",
+  "sprites/spr_oil_smear_a",
+  "sprites/spr_oil_smear_b",
+  "sprites/spr_oil_spill_a",
+  "sprites/spr_oil_spill_b",
+  "sprites/spr_pickup_boost",
+  "sprites/spr_pickup_fuel",
+  "sprites/spr_pickup_tyre",
+  "sprites/spr_pit_marking",
+  "sprites/spr_plant",
+  "sprites/spr_rocks_a",
+  "sprites/spr_rocks_b",
+  "sprites/spr_sign",
+  "sprites/spr_stands",
+  "sprites/spr_stands_large_00",
+  "sprites/spr_stands_large_01",
+  "sprites/spr_stands_large_02",
+  "sprites/spr_stands_large_03",
+  "sprites/spr_stands_large_04",
+  "sprites/spr_stands_large_05",
+  "sprites/spr_stands_large_06",
+  "sprites/spr_stands_large_07",
+  "sprites/spr_stands_large_08",
+  "sprites/spr_stands_large_09",
+  "sprites/spr_stands_large_10",
+  "sprites/spr_stands_large_11",
+  "sprites/spr_stands_large_12",
+  "sprites/spr_stands_large_13",
+  "sprites/spr_stands_large_14",
+  "sprites/spr_stands_large_15",
+  "sprites/spr_stands_large_16",
+  "sprites/spr_stands_large_17",
+  "sprites/spr_stands_large_18",
+  "sprites/spr_stands_large_19",
+  "sprites/spr_stands_small_00",
+  "sprites/spr_stands_small_01",
+  "sprites/spr_stands_small_02",
+  "sprites/spr_stands_small_03",
+  "sprites/spr_stands_small_04",
+  "sprites/spr_stands_small_05",
+  "sprites/spr_stands_small_06",
+  "sprites/spr_stands_small_07",
+  "sprites/spr_stands_small_08",
+  "sprites/spr_stands_small_09",
+  "sprites/spr_stands_small_10",
+  "sprites/spr_stands_small_11",
+  "sprites/spr_stands_small_12",
+  "sprites/spr_stands_small_13",
+  "sprites/spr_stands_small_14",
+  "sprites/spr_stands_small_15",
+  "sprites/spr_stands_small_16",
+  "sprites/spr_stands_small_17",
+  "sprites/spr_stands_small_18",
+  "sprites/spr_stands_small_19",
+  "sprites/spr_start",
+  "sprites/spr_start_position",
+  "sprites/spr_tile_grass",
+  "sprites/spr_tile_sand",
+  "sprites/spr_tile_tarmac",
+  "sprites/spr_tree_a",
+  "sprites/spr_tree_b",
+  "sprites/spr_tree_c",
+  "sprites/spr_tyre",
+  "sprites/spr_tyre_black",
+  "sprites/spr_tyre_black_wall",
+  "sprites/spr_tyre_mark_a",
+  "sprites/spr_tyre_mark_b",
+  "sprites/spr_tyre_mark_c",
+  "sprites/spr_tyre_red",
+  "sprites/spr_tyre_red_wall",
+  "sprites/spr_tyre_white",
+  "sprites/spr_tyre_white_wall",
+  "sprites/spr_wall_black",
+  "sprites/spr_wall_red",
+  "sprites/spr_wall_white",
+  "sprites/vfx_tyresmoke",
+  "sounds/MP3_Racing_Track1",
+  "sounds/MP3_Racing_Track1_Lose",
+  "sounds/MP3_Racing_Track1_Win",
+  "sounds/MP3_Racing_Track2",
+  "sounds/MP3_Racing_Track2_Lose",
+  "sounds/MP3_Racing_Track2_Win",
+  "sounds/OGG_Racing_Track1",
+  "sounds/OGG_Racing_Track1_Lose",
+  "sounds/OGG_Racing_Track1_Win",
+  "sounds/OGG_Racing_Track2",
+  "sounds/OGG_Racing_Track2_Lose",
+  "sounds/OGG_Racing_Track2_Win",
+  "sounds/SFX_collection_v1",
+  "sounds/SFX_collection_v2",
+  "sounds/SFX_collision_barrel_v1",
+  "sounds/SFX_collision_barrel_v2",
+  "sounds/SFX_collision_car_v1",
+  "sounds/SFX_collision_car_v2",
+  "sounds/SFX_collision_cone_v1",
+  "sounds/SFX_collision_cone_v2",
+  "sounds/SFX_collision_sign_v1",
+  "sounds/SFX_collision_sign_v2",
+  "sounds/SFX_collision_tyre_v1",
+  "sounds/SFX_collision_tyre_v2",
+  "sounds/SFX_collision_wall_v1",
+  "sounds/SFX_collision_wall_v2",
+  "sounds/SFX_crowd_applause_v1",
+  "sounds/SFX_crowd_applause_v2",
+  "sounds/SFX_crowd_applause_v3",
+  "sounds/SFX_crowd_applause_v4",
+  "sounds/SFX_crowd_murmur_loop",
+  "sounds/SFX_endurance_car_idle_v1",
+  "sounds/SFX_endurance_car_idle_v2",
+  "sounds/SFX_endurance_car_loop_v1",
+  "sounds/SFX_endurance_car_loop_v2",
+  "sounds/SFX_highspec_car_engine_idle_v1",
+  "sounds/SFX_highspec_car_engine_idle_v2",
+  "sounds/SFX_highspec_car_engine_idle_v3",
+  "sounds/SFX_highspec_car_loop_v1",
+  "sounds/SFX_highspec_car_loop_v2",
+  "sounds/SFX_highspec_car_loop_v3",
+  "sounds/SFX_horn_v1",
+  "sounds/SFX_horn_v2",
+  "sounds/SFX_policeRadio_chatter_female_01",
+  "sounds/SFX_policeRadio_chatter_female_02",
+  "sounds/SFX_policeRadio_chatter_male_01",
+  "sounds/SFX_policeRadio_chatter_male_02",
+  "sounds/SFX_policeSiren_american_lp_01",
+  "sounds/SFX_policeSiren_american_lp_02",
+  "sounds/SFX_policeSiren_european_lp_01",
+  "sounds/SFX_policeSiren_european_lp_02",
+  "sounds/SFX_policeSiren_strobe_01",
+  "sounds/SFX_policeSiren_strobe_lp_01",
+  "sounds/SFX_starting_beep_v1",
+  "sounds/SFX_starting_beep_v2",
+  "sounds/SFX_touring_car_idle_v1",
+  "sounds/SFX_touring_car_idle_v2",
+  "sounds/SFX_touring_car_loop_v1",
+  "sounds/SFX_touring_car_loop_v2",
+  "sounds/SFX_tyre_screech_v1",
+  "sounds/SFX_tyre_screech_v2",
+  "sounds/SFX_tyre_screech_v3",
+  "sounds/SFX_wheel_gun_v1",
+  "sounds/SFX_wheel_gun_v2",
+  "sounds/WAV_Racing_Track1",
+  "sounds/WAV_Racing_Track1_Lose",
+  "sounds/WAV_Racing_Track1_Win",
+  "sounds/WAV_Racing_Track2",
+  "sounds/WAV_Racing_Track2_Lose",
+  "sounds/WAV_Racing_Track2_Win",
+]
+
+[assets."sprites/spr_Chevrons_Corner"]
+description = "Large red-and-white striped chevron warning marking for a track corner; glossy cartoon, single frame."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_BottomLeft_Bottom"]
+description = "Small red/white diagonal chevron edge tile, bottom-left bottom segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_BottomLeft_Top"]
+description = "Small red/white diagonal chevron edge tile, bottom-left top segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_BottomRight_Bottom"]
+description = "Small red/white diagonal chevron edge tile, bottom-right bottom segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_BottomRight_Top"]
+description = "Small red/white diagonal chevron edge tile, bottom-right top segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_TopLeft_Bottom"]
+description = "Small red/white diagonal chevron edge tile, top-left bottom segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_TopLeft_Top"]
+description = "Small red/white diagonal chevron edge tile, top-left top segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_TopRight_Bottom"]
+description = "Small red/white diagonal chevron edge tile, top-right bottom segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Diagonal_TopRight_Top"]
+description = "Small red/white diagonal chevron edge tile, top-right top segment; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Bottom_R_Left"]
+description = "Small horizontal chevron edge tile, bottom red left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Bottom_R_Right"]
+description = "Small horizontal chevron edge tile, bottom red right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Bottom_W_Left"]
+description = "Small horizontal chevron edge tile, bottom white left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Bottom_W_Right"]
+description = "Small horizontal chevron edge tile, bottom white right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Top_R_Left"]
+description = "Small horizontal chevron edge tile, top red left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Top_R_Right"]
+description = "Small horizontal chevron edge tile, top red right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Top_W_Left"]
+description = "Small horizontal chevron edge tile, top white left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Horizontal_Top_W_Right"]
+description = "Small horizontal chevron edge tile, top white right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Round"]
+description = "Large circular red-and-white striped chevron border ring for a round track; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Straight_Diagonal"]
+description = "Long red-and-white striped chevron run for a straight/diagonal track edge; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Bottom_R_Left"]
+description = "Small vertical chevron edge tile, bottom red left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Bottom_R_Right"]
+description = "Small vertical chevron edge tile, bottom red right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Bottom_W_Left"]
+description = "Small vertical chevron edge tile, bottom white left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Bottom_W_Right"]
+description = "Small vertical chevron edge tile, bottom white right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Top_R_Left"]
+description = "Small vertical chevron edge tile, top red left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Top_R_Right"]
+description = "Small vertical chevron edge tile, top red right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Top_W_Left"]
+description = "Small vertical chevron edge tile, top white left piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Chevrons_Vertical_Top_W_Right"]
+description = "Small vertical chevron edge tile, top white right piece; glossy cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_Track_Corner"]
+description = "Grey tarmac track corner section seen top-down, modular road piece; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_Track_Round"]
+description = "Grey tarmac round/oval track section seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_Track_Straight_Diagonal"]
+description = "Long grey tarmac straight/diagonal track section seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_billboard_blue"]
+description = "Tall blue roadside advertising billboard on a post, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:sign", "state:static" ]
+
+[assets."sprites/spr_billboard_yellow"]
+description = "Tall yellow roadside advertising billboard on a post, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:sign", "state:static" ]
+
+[assets."sprites/spr_sign"]
+description = "Wide trackside advertising sign banner, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:sign", "state:static" ]
+
+[assets."sprites/spr_building"]
+description = "Wide flat-roofed building seen top-down, neutral grey/tan; cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:building", "state:static" ]
+
+[assets."sprites/spr_building2"]
+description = "Tall rectangular building roof seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:building", "state:static" ]
+
+[assets."sprites/spr_building3"]
+description = "Smaller building roof seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:building", "state:static" ]
+
+[assets."sprites/spr_house1_blue"]
+description = "House type 1 with a blue roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house1_orange"]
+description = "House type 1 with an orange roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house1_yellow"]
+description = "House type 1 with a yellow roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house2_blue"]
+description = "House type 2 with a blue roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house2_orange"]
+description = "House type 2 with an orange roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house2_yellow"]
+description = "House type 2 with a yellow roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house3_blue"]
+description = "House type 3 with a blue roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house3_orange"]
+description = "House type 3 with an orange roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_house3_yellow"]
+description = "House type 3 with a yellow roof, top-down; bright cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:house", "state:static" ]
+
+[assets."sprites/spr_cactus"]
+description = "Small green desert cactus seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_desert_plant_a"]
+description = "Dry desert shrub/plant, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_desert_plant_b"]
+description = "Small dry desert plant, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_desert_tree_a"]
+description = "Sparse desert tree, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_desert_tree_b"]
+description = "Sparse desert tree, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_flower"]
+description = "Tiny cluster of bright flowers, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_hedge_a"]
+description = "Trimmed green hedge bush, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:hedge", "state:static" ]
+
+[assets."sprites/spr_hedge_b"]
+description = "Trimmed green hedge bush, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:hedge", "state:static" ]
+
+[assets."sprites/spr_plant"]
+description = "Leafy green shrub plant, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_tree_a"]
+description = "Lush round green tree, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_b"]
+description = "Lush round green tree, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_tree_c"]
+description = "Lush round green tree, variant C, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_desert_rocks_a"]
+description = "Cluster of sandy desert rocks, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_desert_rocks_b"]
+description = "Small sandy desert rock, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rocks_a"]
+description = "Cluster of grey rocks, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rocks_b"]
+description = "Small grey rock, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_car_endurance_blue"]
+description = "Blue endurance race car seen top-down; glossy detailed cartoon, single frame."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_endurance_purple"]
+description = "Purple endurance race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_endurance_red"]
+description = "Red endurance race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_endurance_shadow"]
+description = "Soft drop-shadow silhouette for the endurance race car, top-down."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_endurance_white"]
+description = "White endurance race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_endurance_yellow"]
+description = "Yellow endurance race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_blue"]
+description = "Blue high-spec sports race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_purple"]
+description = "Purple high-spec sports race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_red"]
+description = "Red high-spec sports race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_shadow"]
+description = "Soft drop-shadow silhouette for the high-spec race car, top-down."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_white"]
+description = "White high-spec sports race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_highspec_yellow"]
+description = "Yellow high-spec sports race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_police"]
+description = "Black-and-white police car seen top-down with empty light bar; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_police_light_blue"]
+description = "Blue glowing police roof light overlay, top-down; cartoon VFX for the light bar."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:static" ]
+
+[assets."sprites/spr_car_police_light_red"]
+description = "Red glowing police roof light overlay, top-down; cartoon VFX for the light bar."
+tags = [ "asset_type:sprite", "role:vfx", "subject:glow", "state:static" ]
+
+[assets."sprites/spr_car_police_shadow"]
+description = "Soft drop-shadow silhouette for the police car, top-down."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_safety_blue"]
+description = "Blue safety/pace car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_safety_green"]
+description = "Green safety/pace car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_safety_grey"]
+description = "Grey safety/pace car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_safety_red"]
+description = "Red safety/pace car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_safety_white"]
+description = "White safety/pace car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_blue"]
+description = "Blue touring race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_purple"]
+description = "Purple touring race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_red"]
+description = "Red touring race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_shadow"]
+description = "Soft drop-shadow silhouette for the touring race car, top-down."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_white"]
+description = "White touring race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_touring_yellow"]
+description = "Yellow touring race car seen top-down; glossy detailed cartoon."
+tags = [ "asset_type:sprite", "role:vehicle", "subject:car", "state:static" ]
+
+[assets."sprites/spr_car_wheel"]
+description = "Tiny single car wheel/tyre detail, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_cone"]
+description = "Orange-and-white traffic safety cone standing upright, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:cone", "state:static" ]
+
+[assets."sprites/spr_cone_tipped"]
+description = "Orange-and-white traffic cone knocked over on its side, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:cone", "state:static" ]
+
+[assets."sprites/spr_drain"]
+description = "Grey rectangular road drain grate seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_flagwaver"]
+description = "Trackside flag marshal waving a flag, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:flag", "state:static" ]
+
+[assets."sprites/spr_fuel"]
+description = "Red fuel pump/dispenser prop, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:fuel", "state:static" ]
+
+[assets."sprites/spr_fuel_barrel_a"]
+description = "Round fuel/oil barrel drum, variant A, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "state:static" ]
+
+[assets."sprites/spr_fuel_barrel_b"]
+description = "Round fuel/oil barrel drum, variant B, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:barrel", "state:static" ]
+
+[assets."sprites/spr_lamppost"]
+description = "Tall street lamppost seen top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:lamppost", "state:static" ]
+
+[assets."sprites/spr_lights"]
+description = "Vertical row of starting-grid signal lights (light tree), top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:traffic-light", "state:static" ]
+
+[assets."sprites/spr_lights_green_on"]
+description = "Green-lit signal light, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:traffic-light", "state:static" ]
+
+[assets."sprites/spr_lights_red_on"]
+description = "Red-lit signal light, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:traffic-light", "state:static" ]
+
+[assets."sprites/spr_pit_marking"]
+description = "Painted pit-lane road marking on tarmac, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_start"]
+description = "Black-and-white checkered start/finish line strip painted on tarmac, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_start_position"]
+description = "Painted starting grid position box marking on tarmac, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_stands"]
+description = "Large composite grandstand block packed with seated spectators, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_00"]
+description = "Large grandstand seating section with crowd, frame 00, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_01"]
+description = "Large grandstand seating section with crowd, frame 01, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_02"]
+description = "Large grandstand seating section with crowd, frame 02, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_03"]
+description = "Large grandstand seating section with crowd, frame 03, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_04"]
+description = "Large grandstand seating section with crowd, frame 04, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_05"]
+description = "Large grandstand seating section with crowd, frame 05, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_06"]
+description = "Large grandstand seating section with crowd, frame 06, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_07"]
+description = "Large grandstand seating section with crowd, frame 07, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_08"]
+description = "Large grandstand seating section with crowd, frame 08, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_09"]
+description = "Large grandstand seating section with crowd, frame 09, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_10"]
+description = "Large grandstand seating section with crowd, frame 10, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_11"]
+description = "Large grandstand seating section with crowd, frame 11, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_12"]
+description = "Large grandstand seating section with crowd, frame 12, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_13"]
+description = "Large grandstand seating section with crowd, frame 13, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_14"]
+description = "Large grandstand seating section with crowd, frame 14, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_15"]
+description = "Large grandstand seating section with crowd, frame 15, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_16"]
+description = "Large grandstand seating section with crowd, frame 16, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_17"]
+description = "Large grandstand seating section with crowd, frame 17, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_18"]
+description = "Large grandstand seating section with crowd, frame 18, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_large_19"]
+description = "Large grandstand seating section with crowd, frame 19, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_00"]
+description = "Small grandstand seating section with crowd, frame 00, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_01"]
+description = "Small grandstand seating section with crowd, frame 01, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_02"]
+description = "Small grandstand seating section with crowd, frame 02, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_03"]
+description = "Small grandstand seating section with crowd, frame 03, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_04"]
+description = "Small grandstand seating section with crowd, frame 04, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_05"]
+description = "Small grandstand seating section with crowd, frame 05, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_06"]
+description = "Small grandstand seating section with crowd, frame 06, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_07"]
+description = "Small grandstand seating section with crowd, frame 07, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_08"]
+description = "Small grandstand seating section with crowd, frame 08, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_09"]
+description = "Small grandstand seating section with crowd, frame 09, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_10"]
+description = "Small grandstand seating section with crowd, frame 10, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_11"]
+description = "Small grandstand seating section with crowd, frame 11, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_12"]
+description = "Small grandstand seating section with crowd, frame 12, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_13"]
+description = "Small grandstand seating section with crowd, frame 13, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_14"]
+description = "Small grandstand seating section with crowd, frame 14, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_15"]
+description = "Small grandstand seating section with crowd, frame 15, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_16"]
+description = "Small grandstand seating section with crowd, frame 16, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_17"]
+description = "Small grandstand seating section with crowd, frame 17, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_18"]
+description = "Small grandstand seating section with crowd, frame 18, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_stands_small_19"]
+description = "Small grandstand seating section with crowd, frame 19, top-down; detailed cartoon."
+tags = [ "asset_type:sprite", "role:building", "subject:grandstand", "state:static" ]
+
+[assets."sprites/spr_tile_grass"]
+description = "Seamless green grass ground tile, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_tile_sand"]
+description = "Seamless tan sand/dirt ground tile, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_tile_tarmac"]
+description = "Seamless grey tarmac/asphalt ground tile, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:terrain", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_tyre"]
+description = "Single black rubber tyre, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_black"]
+description = "Small black tyre, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_black_wall"]
+description = "Row of stacked black tyres forming a barrier wall, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_red"]
+description = "Small red-painted tyre, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_red_wall"]
+description = "Row of stacked red tyres forming a barrier wall, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_white"]
+description = "Small white-painted tyre, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_tyre_white_wall"]
+description = "Row of stacked white tyres forming a barrier wall, top-down; glossy cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheel", "state:static" ]
+
+[assets."sprites/spr_wall_black"]
+description = "Short black trackside barrier wall segment, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wall", "state:static" ]
+
+[assets."sprites/spr_wall_red"]
+description = "Short red trackside barrier wall segment, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wall", "state:static" ]
+
+[assets."sprites/spr_wall_white"]
+description = "Short white trackside barrier wall segment, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:prop", "subject:wall", "state:static" ]
+
+[assets."sprites/spr_crack_a"]
+description = "Small tarmac surface crack decal, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_crack_b"]
+description = "Larger tarmac surface crack decal, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_desert_crack_a"]
+description = "Cracked dry desert ground decal, variant A, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_desert_crack_b"]
+description = "Small cracked desert ground decal, variant B, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_decal_pavement"]
+description = "Worn pavement/road surface decal patch, top-down; cartoon."
+tags = [ "asset_type:sprite", "role:environment", "subject:ground", "state:static" ]
+
+[assets."sprites/spr_oil_smear_a"]
+description = "Long dark oil smear streak on the road, variant A, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_oil_smear_b"]
+description = "Short dark oil smear on the road, variant B, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_oil_spill_a"]
+description = "Dark glossy oil spill puddle, variant A, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_oil_spill_b"]
+description = "Smaller dark oil spill puddle, variant B, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_tyre_mark_a"]
+description = "Black skid/tyre mark streak, variant A, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_tyre_mark_b"]
+description = "Curved black skid/tyre mark, variant B, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_tyre_mark_c"]
+description = "Curved black skid/tyre mark, variant C, top-down; cartoon decal."
+tags = [ "asset_type:sprite", "role:environment", "subject:road-marking", "state:static" ]
+
+[assets."sprites/spr_pickup_boost"]
+description = "Glowing boost/speed power-up pickup icon, top-down; bright glossy cartoon."
+tags = [ "asset_type:sprite", "role:pickup", "subject:powerup", "state:static" ]
+
+[assets."sprites/spr_pickup_fuel"]
+description = "Fuel can refuel pickup icon, top-down; bright glossy cartoon."
+tags = [ "asset_type:sprite", "role:pickup", "subject:fuel", "state:static" ]
+
+[assets."sprites/spr_pickup_tyre"]
+description = "Tyre/wheel repair pickup icon, top-down; bright glossy cartoon."
+tags = [ "asset_type:sprite", "role:pickup", "subject:wheel", "state:static" ]
+
+[assets."sprites/vfx_tyresmoke"]
+description = "Puff of grey-white tyre smoke effect sprite; soft cartoon VFX."
+tags = [ "asset_type:sprite", "role:vfx", "subject:smoke", "state:static" ]
+
+[assets."sounds/MP3_Racing_Track1"]
+description = "Upbeat racing background music, track 1, ~2:02 looping theme (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Racing_Track1_Lose"]
+description = "Short downbeat lose/fail jingle for track 1, ~5s (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Racing_Track1_Win"]
+description = "Short triumphant win/victory jingle for track 1, ~5s (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Racing_Track2"]
+description = "Upbeat racing background music, track 2, ~2:21 looping theme (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Racing_Track2_Lose"]
+description = "Short downbeat lose/fail jingle for track 2, ~6s (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/MP3_Racing_Track2_Win"]
+description = "Short triumphant win/victory jingle for track 2, ~6s (MP3)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track1"]
+description = "Upbeat racing background music, track 1, ~2:02 looping theme (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track1_Lose"]
+description = "Short downbeat lose/fail jingle for track 1, ~5s (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track1_Win"]
+description = "Short triumphant win/victory jingle for track 1, ~5s (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track2"]
+description = "Upbeat racing background music, track 2, ~2:21 looping theme (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track2_Lose"]
+description = "Short downbeat lose/fail jingle for track 2, ~6s (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/OGG_Racing_Track2_Win"]
+description = "Short triumphant win/victory jingle for track 2, ~6s (OGG)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track1"]
+description = "Upbeat racing background music, track 1, ~2:02 looping theme (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track1_Lose"]
+description = "Short downbeat lose/fail jingle for track 1, ~5s (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track1_Win"]
+description = "Short triumphant win/victory jingle for track 1, ~5s (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track2"]
+description = "Upbeat racing background music, track 2, ~2:21 looping theme (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track2_Lose"]
+description = "Short downbeat lose/fail jingle for track 2, ~6s (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/WAV_Racing_Track2_Win"]
+description = "Short triumphant win/victory jingle for track 2, ~6s (WAV)."
+tags = [ "asset_type:sound", "role:audio", "audio_type:music" ]
+
+[assets."sounds/SFX_collection_v1"]
+description = "Short pickup-collected chime, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collection_v2"]
+description = "Short pickup-collected chime, ~1.8s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_barrel_v1"]
+description = "Clattering barrel impact crash, ~3.1s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_barrel_v2"]
+description = "Clattering barrel impact crash, ~2.7s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_car_v1"]
+description = "Car-to-car metallic crash impact, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_car_v2"]
+description = "Car-to-car metallic crash impact, ~2s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_cone_v1"]
+description = "Traffic cone knock/bounce impact, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_cone_v2"]
+description = "Traffic cone knock/bounce impact, ~1.5s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_sign_v1"]
+description = "Sign/billboard hit impact, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_sign_v2"]
+description = "Sign/billboard hit impact, ~2s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_tyre_v1"]
+description = "Rubber tyre-barrier impact thud, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_tyre_v2"]
+description = "Rubber tyre-barrier impact thud, ~2s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_wall_v1"]
+description = "Hard wall crash impact, ~2s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_collision_wall_v2"]
+description = "Hard wall crash impact, ~2s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_crowd_applause_v1"]
+description = "Cheering crowd applause bed, ~23s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ambience" ]
+
+[assets."sounds/SFX_crowd_applause_v2"]
+description = "Cheering crowd applause bed, ~14s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ambience" ]
+
+[assets."sounds/SFX_crowd_applause_v3"]
+description = "Cheering crowd applause bed, ~19s, variant 3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ambience" ]
+
+[assets."sounds/SFX_crowd_applause_v4"]
+description = "Cheering crowd applause bed, ~14s, variant 4."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ambience" ]
+
+[assets."sounds/SFX_crowd_murmur_loop"]
+description = "Looping low crowd murmur ambience, ~35s."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ambience" ]
+
+[assets."sounds/SFX_endurance_car_idle_v1"]
+description = "Endurance car engine idle rumble, ~3.5s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_endurance_car_idle_v2"]
+description = "Endurance car engine idle rumble, ~3.5s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_endurance_car_loop_v1"]
+description = "Endurance car engine driving loop, ~11s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_endurance_car_loop_v2"]
+description = "Endurance car engine driving loop, ~10s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_engine_idle_v1"]
+description = "High-spec car engine idle rumble, ~3.5s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_engine_idle_v2"]
+description = "High-spec car engine idle rumble, ~3.5s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_engine_idle_v3"]
+description = "High-spec car engine idle rumble, ~3.5s, variant 3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_loop_v1"]
+description = "High-spec car engine driving loop, ~10s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_loop_v2"]
+description = "High-spec car engine driving loop, ~10s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_highspec_car_loop_v3"]
+description = "High-spec car engine driving loop, ~10s, variant 3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_touring_car_idle_v1"]
+description = "Touring car engine idle rumble, ~3.4s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_touring_car_idle_v2"]
+description = "Touring car engine idle rumble, ~3.5s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_touring_car_loop_v1"]
+description = "Touring car engine driving loop, ~9s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_touring_car_loop_v2"]
+description = "Touring car engine driving loop, ~11s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_horn_v1"]
+description = "Short car horn honk, ~0.9s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_horn_v2"]
+description = "Short car horn honk, ~0.9s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_tyre_screech_v1"]
+description = "Tyre screech/skid, ~1.1s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_tyre_screech_v2"]
+description = "Tyre screech/skid, ~1.4s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_tyre_screech_v3"]
+description = "Tyre screech/skid, ~1.4s, variant 3."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_wheel_gun_v1"]
+description = "Pit-stop pneumatic wheel/impact gun burst, ~1.3s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_wheel_gun_v2"]
+description = "Pit-stop pneumatic wheel/impact gun burst, ~1.3s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeRadio_chatter_female_01"]
+description = "Female police radio chatter voice clip, ~1.4s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:voice" ]
+
+[assets."sounds/SFX_policeRadio_chatter_female_02"]
+description = "Female police radio chatter voice clip, ~1.4s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:voice" ]
+
+[assets."sounds/SFX_policeRadio_chatter_male_01"]
+description = "Male police radio chatter voice clip, ~1.5s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:voice" ]
+
+[assets."sounds/SFX_policeRadio_chatter_male_02"]
+description = "Male police radio chatter voice clip, ~1.4s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:voice" ]
+
+[assets."sounds/SFX_policeSiren_american_lp_01"]
+description = "Looping American-style police siren wail, ~5s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeSiren_american_lp_02"]
+description = "Looping American-style police siren wail, ~5s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeSiren_european_lp_01"]
+description = "Looping European-style two-tone police siren, ~8s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeSiren_european_lp_02"]
+description = "Looping European-style two-tone police siren, ~8s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeSiren_strobe_01"]
+description = "Quick police strobe/yelp siren chirp, ~0.6s."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_policeSiren_strobe_lp_01"]
+description = "Looping police strobe/yelp siren, ~1.7s."
+tags = [ "asset_type:sound", "role:audio", "audio_type:sfx" ]
+
+[assets."sounds/SFX_starting_beep_v1"]
+description = "Race-start countdown beep sequence, ~6s, variant 1."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ui-sound" ]
+
+[assets."sounds/SFX_starting_beep_v2"]
+description = "Race-start countdown beep sequence, ~5.4s, variant 2."
+tags = [ "asset_type:sound", "role:audio", "audio_type:ui-sound" ]

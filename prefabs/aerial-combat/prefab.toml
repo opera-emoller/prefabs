@@ -1,0 +1,1640 @@
+id = "aerial-combat"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Modern aerial/land/sea combat art and audio pack: side-on cartoon planes, tanks, jeeps, boats and submarines in five team colors, plus VFX, environment props and a full SFX/music set. Shaded, glossy cartoon style, fully animated."
+tags = [ "genre:action", "theme:modern", "style:cartoon", "style:shaded" ]
+
+[export]
+include = [
+  "sprites/spr4x4Spine",
+  "sprites/spr4x4_Blue_Gun",
+  "sprites/spr4x4_Blue_Idle",
+  "sprites/spr4x4_Blue_Move",
+  "sprites/spr4x4_Green_Gun",
+  "sprites/spr4x4_Green_Idle",
+  "sprites/spr4x4_Green_Move",
+  "sprites/spr4x4_Orange_Gun",
+  "sprites/spr4x4_Orange_Idle",
+  "sprites/spr4x4_Orange_Move",
+  "sprites/spr4x4_Pink_Gun",
+  "sprites/spr4x4_Pink_Idle",
+  "sprites/spr4x4_Pink_Move",
+  "sprites/spr4x4_Red_Gun",
+  "sprites/spr4x4_Red_Idle",
+  "sprites/spr4x4_Red_Move",
+  "sprites/sprBiplane_BlueSpine",
+  "sprites/sprBiplane_Blue_Barrel_Full",
+  "sprites/sprBiplane_Blue_Barrel_Half",
+  "sprites/sprBiplane_Blue_Flying",
+  "sprites/sprBiplane_Blue_Topdown",
+  "sprites/sprBiplane_GreenSpine",
+  "sprites/sprBiplane_Green_Barrel_Full",
+  "sprites/sprBiplane_Green_Barrel_Half",
+  "sprites/sprBiplane_Green_Flying",
+  "sprites/sprBiplane_Green_Topdown",
+  "sprites/sprBiplane_OrangeSpine",
+  "sprites/sprBiplane_Orange_Barrel_Full",
+  "sprites/sprBiplane_Orange_Barrel_Half",
+  "sprites/sprBiplane_Orange_Flying",
+  "sprites/sprBiplane_Orange_Topdown",
+  "sprites/sprBiplane_PinkSpine",
+  "sprites/sprBiplane_Pink_Barrel_Full",
+  "sprites/sprBiplane_Pink_Barrel_Half",
+  "sprites/sprBiplane_Pink_Flying",
+  "sprites/sprBiplane_Pink_Topdown",
+  "sprites/sprBiplane_RedSpine",
+  "sprites/sprBiplane_Red_Barrel_Full",
+  "sprites/sprBiplane_Red_Barrel_Half",
+  "sprites/sprBiplane_Red_Flying",
+  "sprites/sprBiplane_Red_Topdown",
+  "sprites/sprBoat_Large",
+  "sprites/sprBoat_Small",
+  "sprites/sprEffect_Cloud_Trail",
+  "sprites/sprEffect_Cloud_TrailSpine",
+  "sprites/sprEffect_Explosion_Air1",
+  "sprites/sprEffect_Explosion_Air1Spine",
+  "sprites/sprEffect_Explosion_Air2",
+  "sprites/sprEffect_Explosion_Air2Spine",
+  "sprites/sprEffect_Explosion_Ground1",
+  "sprites/sprEffect_Explosion_Ground1Spine",
+  "sprites/sprEffect_Explosion_Ground2",
+  "sprites/sprEffect_Explosion_Ground2Spine",
+  "sprites/sprEffect_Explosion_Water1",
+  "sprites/sprEffect_Explosion_Water1Spine",
+  "sprites/sprEffect_Explosion_Water2",
+  "sprites/sprEffect_Explosion_Water2Spine",
+  "sprites/sprEffect_Fire_Jet",
+  "sprites/sprEffect_Fire_JetSpine",
+  "sprites/sprEffect_Fire_Trail",
+  "sprites/sprEffect_Fire_TrailSpine",
+  "sprites/sprEffect_Hit",
+  "sprites/sprEffect_HitSpine",
+  "sprites/sprEffect_Shoot_Fire",
+  "sprites/sprEffect_Shoot_FireSpine",
+  "sprites/sprEffect_Shoot_Flash1",
+  "sprites/sprEffect_Shoot_Flash1Spine",
+  "sprites/sprEffect_Shoot_Flash2",
+  "sprites/sprEffect_Shoot_Flash2Spine",
+  "sprites/sprEffect_Smoke_Trail",
+  "sprites/sprEffect_Smoke_TrailSpine",
+  "sprites/sprEnvironment_Airport_Runway",
+  "sprites/sprEnvironment_Airport_Tower",
+  "sprites/sprEnvironment_Background_GrassStone",
+  "sprites/sprEnvironment_Background_Island",
+  "sprites/sprEnvironment_Background_Stone",
+  "sprites/sprEnvironment_Balloon",
+  "sprites/sprEnvironment_BirdSpine",
+  "sprites/sprEnvironment_Bird_Fly",
+  "sprites/sprEnvironment_Bird_Shot",
+  "sprites/sprEnvironment_Blimp",
+  "sprites/sprEnvironment_Cloud1",
+  "sprites/sprEnvironment_Cloud2",
+  "sprites/sprEnvironment_Cloud3",
+  "sprites/sprEnvironment_Crater_Grass",
+  "sprites/sprEnvironment_Crater_Stone",
+  "sprites/sprEnvironment_Grass1",
+  "sprites/sprEnvironment_Grass2",
+  "sprites/sprEnvironment_Rocks1",
+  "sprites/sprEnvironment_Rocks2",
+  "sprites/sprEnvironment_Rocks3",
+  "sprites/sprEnvironment_Shrub1",
+  "sprites/sprEnvironment_Shrub2",
+  "sprites/sprEnvironment_Shrub3",
+  "sprites/sprEnvironment_Sky",
+  "sprites/sprEnvironment_Sun",
+  "sprites/sprEnvironment_Tile_Grass_Left",
+  "sprites/sprEnvironment_Tile_Grass_Mid",
+  "sprites/sprEnvironment_Tile_Grass_Right",
+  "sprites/sprEnvironment_Tile_Stone_Left",
+  "sprites/sprEnvironment_Tile_Stone_Mid",
+  "sprites/sprEnvironment_Tile_Stone_Right",
+  "sprites/sprEnvironment_Trail1",
+  "sprites/sprEnvironment_Trail2",
+  "sprites/sprEnvironment_Tree1",
+  "sprites/sprEnvironment_Tree2",
+  "sprites/sprEnvironment_Tree3",
+  "sprites/sprEnvironment_Tree_Palm",
+  "sprites/sprEnvironment_Water",
+  "sprites/sprJet_Blue",
+  "sprites/sprJet_BlueSpine",
+  "sprites/sprJet_Blue_Barrel_Full",
+  "sprites/sprJet_Blue_Barrel_Half",
+  "sprites/sprJet_Blue_Topdown",
+  "sprites/sprJet_Green",
+  "sprites/sprJet_GreenSpine",
+  "sprites/sprJet_Green_Barrel_Full",
+  "sprites/sprJet_Green_Barrel_Half",
+  "sprites/sprJet_Green_Topdown",
+  "sprites/sprJet_Orange",
+  "sprites/sprJet_OrangeSpine",
+  "sprites/sprJet_Orange_Barrel_Full",
+  "sprites/sprJet_Orange_Barrel_Half",
+  "sprites/sprJet_Orange_Topdown",
+  "sprites/sprJet_Pink",
+  "sprites/sprJet_PinkSpine",
+  "sprites/sprJet_Pink_Barrel_Full",
+  "sprites/sprJet_Pink_Barrel_Half",
+  "sprites/sprJet_Pink_Topdown",
+  "sprites/sprJet_Red",
+  "sprites/sprJet_RedSpine",
+  "sprites/sprJet_Red_Barrel_Full",
+  "sprites/sprJet_Red_Barrel_Half",
+  "sprites/sprJet_Red_Topdown",
+  "sprites/sprPickup_BalloonSpine",
+  "sprites/sprPickup_Balloon_Idle",
+  "sprites/sprPickup_Balloon_Pop",
+  "sprites/sprPickup_CrateSpine",
+  "sprites/sprPickup_Crate_Break",
+  "sprites/sprPickup_HoopSpine",
+  "sprites/sprPickup_Hoop_Active_Back",
+  "sprites/sprPickup_Hoop_Active_Front",
+  "sprites/sprPickup_Hoop_Idle_Back",
+  "sprites/sprPickup_Hoop_Idle_Front",
+  "sprites/sprPickup_ParachuteSpine",
+  "sprites/sprPickup_Parachute_Idle",
+  "sprites/sprPickup_Parachute_Shot",
+  "sprites/sprPickup_StarSpine",
+  "sprites/sprPickup_Star_Idle",
+  "sprites/sprPickup_Star_In",
+  "sprites/sprPickup_Star_Out",
+  "sprites/sprProjectile_Bomb",
+  "sprites/sprProjectile_Bullet",
+  "sprites/sprProjectile_Missile",
+  "sprites/sprProjectile_Rocket",
+  "sprites/sprSAMSpine",
+  "sprites/sprSAM_Blue_Idle",
+  "sprites/sprSAM_Blue_Move",
+  "sprites/sprSAM_Blue_Shooter",
+  "sprites/sprSAM_Green_Idle",
+  "sprites/sprSAM_Green_Move",
+  "sprites/sprSAM_Green_Shooter",
+  "sprites/sprSAM_Orange_Idle",
+  "sprites/sprSAM_Orange_Move",
+  "sprites/sprSAM_Orange_Shooter",
+  "sprites/sprSAM_Pink_Idle",
+  "sprites/sprSAM_Pink_Move",
+  "sprites/sprSAM_Pink_Shooter",
+  "sprites/sprSAM_Red_Idle",
+  "sprites/sprSAM_Red_Move",
+  "sprites/sprSAM_Red_Shooter",
+  "sprites/sprSingleWings_BlueSpine",
+  "sprites/sprSingleWings_GreenSpine",
+  "sprites/sprSingleWings_OrangeSpine",
+  "sprites/sprSingleWings_PinkSpine",
+  "sprites/sprSingleWings_RedSpine",
+  "sprites/sprSinglewing_Blue_Barrel_Full",
+  "sprites/sprSinglewing_Blue_Barrel_Half",
+  "sprites/sprSinglewing_Blue_Flying",
+  "sprites/sprSinglewing_Blue_Topdown",
+  "sprites/sprSinglewing_Green_Barrel_Full",
+  "sprites/sprSinglewing_Green_Barrel_Half",
+  "sprites/sprSinglewing_Green_Flying",
+  "sprites/sprSinglewing_Green_Topdown",
+  "sprites/sprSinglewing_Orange_Barrel_Full",
+  "sprites/sprSinglewing_Orange_Barrel_Half",
+  "sprites/sprSinglewing_Orange_Flying",
+  "sprites/sprSinglewing_Orange_Topdown",
+  "sprites/sprSinglewing_Pink_Barrel_Full",
+  "sprites/sprSinglewing_Pink_Barrel_Half",
+  "sprites/sprSinglewing_Pink_Flying",
+  "sprites/sprSinglewing_Pink_Topdown",
+  "sprites/sprSinglewing_Red_Barrel_Full",
+  "sprites/sprSinglewing_Red_Barrel_Half",
+  "sprites/sprSinglewing_Red_Flying",
+  "sprites/sprSinglewing_Red_Topdown",
+  "sprites/sprSubmarineSpine",
+  "sprites/sprSubmarine_Idle",
+  "sprites/sprSubmarine_Move",
+  "sprites/sprTankSpine",
+  "sprites/sprTank_Blue_Gun",
+  "sprites/sprTank_Blue_Idle",
+  "sprites/sprTank_Blue_Move",
+  "sprites/sprTank_Green_Gun",
+  "sprites/sprTank_Green_Idle",
+  "sprites/sprTank_Green_Move",
+  "sprites/sprTank_Orange_Gun",
+  "sprites/sprTank_Orange_Idle",
+  "sprites/sprTank_Orange_Move",
+  "sprites/sprTank_Pink_Gun",
+  "sprites/sprTank_Pink_Idle",
+  "sprites/sprTank_Pink_Move",
+  "sprites/sprTank_Red_Gun",
+  "sprites/sprTank_Red_Idle",
+  "sprites/sprTank_Red_Move",
+  "sounds/SFX_4x4_Engine1_Intro",
+  "sounds/SFX_4x4_Engine1_Loop",
+  "sounds/SFX_4x4_Engine1_Outro",
+  "sounds/SFX_4x4_Engine2_Intro",
+  "sounds/SFX_4x4_Engine2_Loop",
+  "sounds/SFX_4x4_Engine_Full",
+  "sounds/SFX_4x4_Engine_Idle",
+  "sounds/SFX_Airship_Swoosh_Fast",
+  "sounds/SFX_Airship_Swoosh_Slow",
+  "sounds/SFX_Ambience",
+  "sounds/SFX_Barrel_Roll",
+  "sounds/SFX_Biplane_Barrel_Roll1",
+  "sounds/SFX_Biplane_Barrel_Roll2",
+  "sounds/SFX_Biplane_Engine1_Full",
+  "sounds/SFX_Biplane_Engine1_Intro",
+  "sounds/SFX_Biplane_Engine1_Loop",
+  "sounds/SFX_Biplane_Engine1_Outro",
+  "sounds/SFX_Biplane_Engine1_Stutter",
+  "sounds/SFX_Biplane_Engine2_Full",
+  "sounds/SFX_Biplane_Engine2_Intro",
+  "sounds/SFX_Biplane_Engine2_Loop",
+  "sounds/SFX_Biplane_Engine2_Outro",
+  "sounds/SFX_Biplane_Engine2_Stutter",
+  "sounds/SFX_Biplane_Engine_Stutter1",
+  "sounds/SFX_Biplane_Engine_Stutter2",
+  "sounds/SFX_Bird1",
+  "sounds/SFX_Bird2",
+  "sounds/SFX_Bomb_Drop1",
+  "sounds/SFX_Bomb_Drop2",
+  "sounds/SFX_Crate1",
+  "sounds/SFX_Crate2",
+  "sounds/SFX_Crate_Balloon1",
+  "sounds/SFX_Crate_Balloon2",
+  "sounds/SFX_Crate_Parachute1",
+  "sounds/SFX_Crate_Parachute2",
+  "sounds/SFX_Explosion_Air1",
+  "sounds/SFX_Explosion_Air2",
+  "sounds/SFX_Explosion_Ground1",
+  "sounds/SFX_Explosion_Ground2",
+  "sounds/SFX_Explosion_Underwater",
+  "sounds/SFX_Explosion_Water1",
+  "sounds/SFX_Explosion_Water2",
+  "sounds/SFX_Hoop_Collect1",
+  "sounds/SFX_Hoop_Collect2",
+  "sounds/SFX_Hot_Air_Balloon_Burner",
+  "sounds/SFX_Hot_Air_Balloon_Loop",
+  "sounds/SFX_Jet_Engine1_Full",
+  "sounds/SFX_Jet_Engine1_Intro",
+  "sounds/SFX_Jet_Engine1_Loop",
+  "sounds/SFX_Jet_Engine1_Outro",
+  "sounds/SFX_Jet_Engine2_Barrel_Roll1",
+  "sounds/SFX_Jet_Engine2_Barrel_Roll2",
+  "sounds/SFX_Jet_Engine2_Full",
+  "sounds/SFX_Jet_Engine2_Intro",
+  "sounds/SFX_Jet_Engine2_Loop",
+  "sounds/SFX_Jet_Engine2_Outro",
+  "sounds/SFX_Jet_Engine_Stutter1",
+  "sounds/SFX_Jet_Engine_Stutter2",
+  "sounds/SFX_Machine_Gun_Impact",
+  "sounds/SFX_Machine_Gun_Loop1",
+  "sounds/SFX_Machine_Gun_Loop2",
+  "sounds/SFX_Medium_Boat_Engine_Full",
+  "sounds/SFX_Medium_Boat_Engine_Idle",
+  "sounds/SFX_Medium_Boat_Engine_Intro",
+  "sounds/SFX_Medium_Boat_Engine_Loop",
+  "sounds/SFX_Medium_Boat_Engine_Outro",
+  "sounds/SFX_Missile_Impact",
+  "sounds/SFX_Missile_Launch1",
+  "sounds/SFX_Missile_Launch2",
+  "sounds/SFX_Rocket_Impact",
+  "sounds/SFX_Rocket_Launch1",
+  "sounds/SFX_Rocket_Launch2",
+  "sounds/SFX_SAM_Engine_Full",
+  "sounds/SFX_SAM_Engine_Idle",
+  "sounds/SFX_SAM_Engine_Intro",
+  "sounds/SFX_SAM_Engine_Loop",
+  "sounds/SFX_SAM_Engine_Outro",
+  "sounds/SFX_Singlewing_Engine1_Full",
+  "sounds/SFX_Singlewing_Engine1_Intro",
+  "sounds/SFX_Singlewing_Engine1_Loop",
+  "sounds/SFX_Singlewing_Engine1_Outro",
+  "sounds/SFX_Singlewing_Engine2_Full",
+  "sounds/SFX_Singlewing_Engine2_Intro",
+  "sounds/SFX_Singlewing_Engine2_Loop",
+  "sounds/SFX_Singlewing_Engine2_Outro",
+  "sounds/SFX_Singlewing_Engine_Barrel_Roll1",
+  "sounds/SFX_Singlewing_Engine_Barrel_Roll2",
+  "sounds/SFX_Singlewing_Engine_Stutter1",
+  "sounds/SFX_Singlewing_Engine_Stutter2",
+  "sounds/SFX_Small_Boat_Engine_Full",
+  "sounds/SFX_Small_Boat_Engine_Idle",
+  "sounds/SFX_Small_Boat_Engine_Intro",
+  "sounds/SFX_Small_Boat_Engine_Loop",
+  "sounds/SFX_Small_Boat_Engine_Outro",
+  "sounds/SFX_Star_Coin_Collect",
+  "sounds/SFX_Submarine_Engine_Full",
+  "sounds/SFX_Submarine_Engine_Idle",
+  "sounds/SFX_Submarine_Engine_Intro",
+  "sounds/SFX_Submarine_Engine_Loop",
+  "sounds/SFX_Submarine_Engine_Outro",
+  "sounds/SFX_Tank_Engine_Full",
+  "sounds/SFX_Tank_Engine_Idle",
+  "sounds/SFX_Tank_Engine_Intro",
+  "sounds/SFX_Tank_Engine_Loop",
+  "sounds/SFX_Tank_Engine_Outro",
+  "sounds/sndTrack1",
+  "sounds/sndTrack1_Lose",
+  "sounds/sndTrack1_Win",
+  "sounds/sndTrack2",
+  "sounds/sndTrack2_Lose",
+  "sounds/sndTrack2_Win",
+]
+
+[assets."sprites/spr4x4Spine"]
+description = "Reference/spine base frame of the open-top combat jeep with a helmeted driver; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Blue_Gun"]
+description = "Slim blue gun barrel that mounts on the jeep, side view; single frame."
+tags = [ "asset_type:sprite", "subject:car", "subject:gun", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Blue_Idle"]
+description = "Blue open-top combat jeep with a driver, idling in place; side-on shaded cartoon, looping animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Blue_Move"]
+description = "Blue combat jeep driving with spinning wheels and bounce; long side-on drive-cycle animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Green_Gun"]
+description = "Green jeep-mounted gun barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:car", "subject:gun", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Green_Idle"]
+description = "Green open-top combat jeep with driver idling; side-on cartoon loop."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Green_Move"]
+description = "Green combat jeep mid-drive with rolling wheels; long side-on animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Orange_Gun"]
+description = "Orange jeep-mounted gun barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:car", "subject:gun", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Orange_Idle"]
+description = "Orange open-top combat jeep with driver idling; side-on cartoon loop."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Orange_Move"]
+description = "Orange combat jeep driving with spinning wheels; long side-on animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Pink_Gun"]
+description = "Pink jeep-mounted gun barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:car", "subject:gun", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Pink_Idle"]
+description = "Pink open-top combat jeep with driver idling; side-on cartoon loop."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Pink_Move"]
+description = "Pink combat jeep driving with rolling wheels; long side-on animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Red_Gun"]
+description = "Red jeep-mounted gun barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:car", "subject:gun", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/spr4x4_Red_Idle"]
+description = "Red open-top combat jeep with a blue-helmeted driver idling; side-on shaded cartoon loop."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr4x4_Red_Move"]
+description = "Red combat jeep driving with spinning chunky tires; long side-on animation."
+tags = [ "asset_type:sprite", "subject:car", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_BlueSpine"]
+description = "Reference/spine base frame of the blue twin-wing biplane in side profile; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBiplane_Blue_Barrel_Full"]
+description = "Blue biplane performing a full barrel-roll spin; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Blue_Barrel_Half"]
+description = "Blue biplane performing a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Blue_Flying"]
+description = "Blue biplane cruising with a spinning propeller; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Blue_Topdown"]
+description = "Blue biplane seen from directly above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprBiplane_GreenSpine"]
+description = "Reference/spine base frame of the green biplane in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBiplane_Green_Barrel_Full"]
+description = "Green biplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Green_Barrel_Half"]
+description = "Green biplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Green_Flying"]
+description = "Green biplane cruising with spinning prop; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Green_Topdown"]
+description = "Green biplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprBiplane_OrangeSpine"]
+description = "Reference/spine base frame of the orange biplane in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBiplane_Orange_Barrel_Full"]
+description = "Orange biplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Orange_Barrel_Half"]
+description = "Orange biplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Orange_Flying"]
+description = "Orange biplane cruising with spinning prop; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Orange_Topdown"]
+description = "Orange biplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprBiplane_PinkSpine"]
+description = "Reference/spine base frame of the pink biplane in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBiplane_Pink_Barrel_Full"]
+description = "Pink biplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Pink_Barrel_Half"]
+description = "Pink biplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Pink_Flying"]
+description = "Pink biplane cruising with spinning prop; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Pink_Topdown"]
+description = "Pink biplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprBiplane_RedSpine"]
+description = "Reference/spine base frame of the red biplane in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBiplane_Red_Barrel_Full"]
+description = "Red biplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Red_Barrel_Half"]
+description = "Red biplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Red_Flying"]
+description = "Red twin-wing biplane cruising with a spinning propeller; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprBiplane_Red_Topdown"]
+description = "Red biplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:biplane", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprBoat_Large"]
+description = "Large modern military patrol boat in side profile; shaded glossy cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:boat", "subject:ship", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprBoat_Small"]
+description = "Small modern speedboat in side profile; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:boat", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Cloud_Trail"]
+description = "Puffy white vapor/contrail dissipating behind a craft; soft cartoon, looping animation."
+tags = [ "asset_type:sprite", "subject:cloud", "subject:trail", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Cloud_TrailSpine"]
+description = "Reference base frame of the puffy cloud-trail puff; single frame."
+tags = [ "asset_type:sprite", "subject:cloud", "subject:trail", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Air1"]
+description = "Big orange airburst fireball blooming and fading; large explosion animation."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Air1Spine"]
+description = "Reference base frame of the air-explosion fireball; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Air2"]
+description = "Alternate orange airburst fireball; large explosion animation."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Air2Spine"]
+description = "Reference base frame of the second air-explosion; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Ground1"]
+description = "Tall ground blast with fire and billowing smoke column; explosion animation."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:smoke", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Ground1Spine"]
+description = "Reference base frame of the ground-explosion; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Ground2"]
+description = "Wide ground blast with fire and smoke; explosion animation."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:smoke", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Ground2Spine"]
+description = "Reference base frame of the second ground-explosion; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Water1"]
+description = "Water-impact blast throwing up a white spray plume; explosion/splash animation."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:splash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Water1Spine"]
+description = "Reference base frame of the water-explosion spray; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:splash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Explosion_Water2"]
+description = "Alternate water-impact spray burst; explosion/splash animation."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:splash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Explosion_Water2Spine"]
+description = "Reference base frame of the second water-explosion; single frame."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:splash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Fire_Jet"]
+description = "Stretched orange jet/afterburner flame plume; thruster exhaust animation."
+tags = [ "asset_type:sprite", "subject:fire", "subject:thruster", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Fire_JetSpine"]
+description = "Reference base frame of the jet-flame plume; single frame."
+tags = [ "asset_type:sprite", "subject:fire", "subject:thruster", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Fire_Trail"]
+description = "Small flickering flame trailing a projectile; fire-trail loop animation."
+tags = [ "asset_type:sprite", "subject:fire", "subject:trail", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Fire_TrailSpine"]
+description = "Reference base frame of the small fire-trail flame; single frame."
+tags = [ "asset_type:sprite", "subject:fire", "subject:trail", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Hit"]
+description = "Small spiky yellow impact flash/burst; quick hit animation."
+tags = [ "asset_type:sprite", "subject:impact", "subject:flash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_HitSpine"]
+description = "Reference base frame of the small hit flash; single frame."
+tags = [ "asset_type:sprite", "subject:impact", "subject:flash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Shoot_Fire"]
+description = "Large fiery muzzle blast for firing; flash-and-fire animation."
+tags = [ "asset_type:sprite", "subject:fire", "subject:flash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Shoot_FireSpine"]
+description = "Reference base frame of the firing fire blast; single frame."
+tags = [ "asset_type:sprite", "subject:fire", "subject:flash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Shoot_Flash1"]
+description = "Compact yellow muzzle-flash star; quick shoot animation."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Shoot_Flash1Spine"]
+description = "Reference base frame of muzzle-flash variant 1; single frame."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Shoot_Flash2"]
+description = "Larger spreading yellow muzzle flash; quick shoot animation."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Shoot_Flash2Spine"]
+description = "Reference base frame of muzzle-flash variant 2; single frame."
+tags = [ "asset_type:sprite", "subject:flash", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEffect_Smoke_Trail"]
+description = "Grey puffy smoke trail dissipating behind a craft; looping animation."
+tags = [ "asset_type:sprite", "subject:smoke", "subject:trail", "role:vfx", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEffect_Smoke_TrailSpine"]
+description = "Reference base frame of the smoke-trail puff; single frame."
+tags = [ "asset_type:sprite", "subject:smoke", "subject:trail", "role:vfx", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Airport_Runway"]
+description = "Thin grey paved runway strip, side view; single frame."
+tags = [ "asset_type:sprite", "subject:ground", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Airport_Tower"]
+description = "Tall slender airport control tower, side view; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Background_GrassStone"]
+description = "Wide layered grass-and-stone terrain backdrop strip; parallax background, single frame."
+tags = [ "asset_type:sprite", "subject:ground", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnvironment_Background_Island"]
+description = "Distant island silhouette backdrop with greenery; parallax background, single frame."
+tags = [ "asset_type:sprite", "subject:ground", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnvironment_Background_Stone"]
+description = "Wide rocky stone-cliff terrain backdrop strip; parallax background, single frame."
+tags = [ "asset_type:sprite", "subject:rock", "subject:ground", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnvironment_Balloon"]
+description = "Striped hot-air balloon floating in the sky; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:balloon", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_BirdSpine"]
+description = "Reference base frame of a small flying bird; single frame."
+tags = [ "asset_type:sprite", "subject:bird", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Bird_Fly"]
+description = "Small bird flapping its wings in flight; looping fly animation."
+tags = [ "asset_type:sprite", "subject:bird", "role:environment", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEnvironment_Bird_Shot"]
+description = "Small bird being hit and tumbling; longer reaction animation."
+tags = [ "asset_type:sprite", "subject:bird", "role:environment", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprEnvironment_Blimp"]
+description = "Large glossy blue-and-white airship/blimp in side profile; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:airship", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Cloud1"]
+description = "Fluffy white cumulus cloud; soft shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:cloud", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Cloud2"]
+description = "Fluffy white cloud variant; single frame."
+tags = [ "asset_type:sprite", "subject:cloud", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Cloud3"]
+description = "Fluffy white cloud variant; single frame."
+tags = [ "asset_type:sprite", "subject:cloud", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Crater_Grass"]
+description = "Small scorched crater decal on grassy ground; single frame."
+tags = [ "asset_type:sprite", "subject:ground", "subject:grass", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Crater_Stone"]
+description = "Small scorched crater decal on stony ground; single frame."
+tags = [ "asset_type:sprite", "subject:ground", "subject:rock", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Grass1"]
+description = "Small clump of cartoon grass blades; single frame."
+tags = [ "asset_type:sprite", "subject:grass", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Grass2"]
+description = "Tiny grass tuft; single frame."
+tags = [ "asset_type:sprite", "subject:grass", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Rocks1"]
+description = "Cluster of grey boulders, wide; single frame."
+tags = [ "asset_type:sprite", "subject:rock", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Rocks2"]
+description = "Small pile of grey rocks; single frame."
+tags = [ "asset_type:sprite", "subject:rock", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Rocks3"]
+description = "Medium cluster of grey rocks; single frame."
+tags = [ "asset_type:sprite", "subject:rock", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Shrub1"]
+description = "Low green leafy bush; single frame."
+tags = [ "asset_type:sprite", "subject:foliage", "subject:plant", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Shrub2"]
+description = "Wider green leafy bush; single frame."
+tags = [ "asset_type:sprite", "subject:foliage", "subject:plant", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Shrub3"]
+description = "Green leafy bush variant; single frame."
+tags = [ "asset_type:sprite", "subject:foliage", "subject:plant", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Sky"]
+description = "Large soft blue-gradient sky backdrop; full-screen background, single frame."
+tags = [ "asset_type:sprite", "subject:sky", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnvironment_Sun"]
+description = "Round soft glowing sun disc; background element, single frame."
+tags = [ "asset_type:sprite", "subject:sun", "role:environment", "projection:background", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Grass_Left"]
+description = "Grass-topped earth ground tile, left edge piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:grass", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Grass_Mid"]
+description = "Grass-topped earth ground tile, repeating middle piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:grass", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Grass_Right"]
+description = "Grass-topped earth ground tile, right edge piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:grass", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Stone_Left"]
+description = "Stone ground tile, left edge piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:rock", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Stone_Mid"]
+description = "Stone ground tile, repeating middle piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:rock", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tile_Stone_Right"]
+description = "Stone ground tile, right edge piece; terrain tile, single frame."
+tags = [ "asset_type:sprite", "subject:rock", "subject:ground", "role:terrain", "role:tile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Trail1"]
+description = "Long worn dirt path/ground strip; single frame."
+tags = [ "asset_type:sprite", "subject:ground", "role:terrain", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Trail2"]
+description = "Long worn dirt path/ground strip variant; single frame."
+tags = [ "asset_type:sprite", "subject:ground", "role:terrain", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tree1"]
+description = "Round leafy green tree; shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tree2"]
+description = "Leafy green tree variant; single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tree3"]
+description = "Leafy green tree variant; single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Tree_Palm"]
+description = "Tropical palm tree; single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprEnvironment_Water"]
+description = "Tiling blue water surface with gentle rolling waves; looping animation."
+tags = [ "asset_type:sprite", "subject:water", "subject:wave", "role:environment", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Blue"]
+description = "Sleek blue fighter jet in side profile; shaded glossy cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_BlueSpine"]
+description = "Reference/spine base frame of the blue jet; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_Blue_Barrel_Full"]
+description = "Blue jet performing a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Blue_Barrel_Half"]
+description = "Blue jet performing a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Blue_Topdown"]
+description = "Blue fighter jet seen from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprJet_Green"]
+description = "Sleek green fighter jet in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_GreenSpine"]
+description = "Reference base frame of the green jet; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_Green_Barrel_Full"]
+description = "Green jet in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Green_Barrel_Half"]
+description = "Green jet in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Green_Topdown"]
+description = "Green jet from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprJet_Orange"]
+description = "Sleek orange fighter jet in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_OrangeSpine"]
+description = "Reference base frame of the orange jet; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_Orange_Barrel_Full"]
+description = "Orange jet in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Orange_Barrel_Half"]
+description = "Orange jet in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Orange_Topdown"]
+description = "Orange jet from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprJet_Pink"]
+description = "Sleek pink fighter jet in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_PinkSpine"]
+description = "Reference base frame of the pink jet; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_Pink_Barrel_Full"]
+description = "Pink jet in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Pink_Barrel_Half"]
+description = "Pink jet in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Pink_Topdown"]
+description = "Pink jet from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprJet_Red"]
+description = "Sleek red fighter jet in side profile; shaded glossy cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_RedSpine"]
+description = "Reference base frame of the red jet; single frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprJet_Red_Barrel_Full"]
+description = "Red jet in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Red_Barrel_Half"]
+description = "Red jet in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprJet_Red_Topdown"]
+description = "Red jet from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:jet", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprPickup_BalloonSpine"]
+description = "Reference base frame of a small toy balloon pickup; single frame."
+tags = [ "asset_type:sprite", "subject:balloon", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Balloon_Idle"]
+description = "Small round balloon pickup floating idle; single frame."
+tags = [ "asset_type:sprite", "subject:balloon", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Balloon_Pop"]
+description = "Balloon pickup bursting and popping; short pop animation."
+tags = [ "asset_type:sprite", "subject:balloon", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_CrateSpine"]
+description = "Reference base frame of a wooden supply crate; single frame."
+tags = [ "asset_type:sprite", "subject:crate", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Crate_Break"]
+description = "Wooden supply crate smashing apart into splinters; break animation."
+tags = [ "asset_type:sprite", "subject:crate", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_HoopSpine"]
+description = "Reference base frame of a vertical ring/hoop gate; single frame."
+tags = [ "asset_type:sprite", "subject:hoop", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Hoop_Active_Back"]
+description = "Glowing ring/hoop gate (rear half) pulsing when active; looping animation."
+tags = [ "asset_type:sprite", "subject:hoop", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_Hoop_Active_Front"]
+description = "Glowing ring/hoop gate (front half) pulsing when active; looping animation."
+tags = [ "asset_type:sprite", "subject:hoop", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_Hoop_Idle_Back"]
+description = "Ring/hoop gate, rear half, idle; single frame."
+tags = [ "asset_type:sprite", "subject:hoop", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Hoop_Idle_Front"]
+description = "Ring/hoop gate, front half, idle; single frame."
+tags = [ "asset_type:sprite", "subject:hoop", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_ParachuteSpine"]
+description = "Reference base frame of a supply crate hanging under a parachute; single frame."
+tags = [ "asset_type:sprite", "subject:parachute", "subject:crate", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Parachute_Idle"]
+description = "Supply crate descending under an open parachute; single frame."
+tags = [ "asset_type:sprite", "subject:parachute", "subject:crate", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Parachute_Shot"]
+description = "Parachute crate jolting when shot; short reaction animation."
+tags = [ "asset_type:sprite", "subject:parachute", "subject:crate", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_StarSpine"]
+description = "Reference base frame of a golden collectible star; single frame."
+tags = [ "asset_type:sprite", "subject:star", "role:pickup", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprPickup_Star_Idle"]
+description = "Glossy golden star pickup spinning/shimmering in place; looping idle animation."
+tags = [ "asset_type:sprite", "subject:star", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_Star_In"]
+description = "Golden star pickup appearing/popping in; short spawn animation."
+tags = [ "asset_type:sprite", "subject:star", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprPickup_Star_Out"]
+description = "Golden star pickup bursting out on collection; short collect animation."
+tags = [ "asset_type:sprite", "subject:star", "role:pickup", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprProjectile_Bomb"]
+description = "Small dark dropped bomb with tail fins, side view; single frame."
+tags = [ "asset_type:sprite", "subject:bomb", "role:projectile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprProjectile_Bullet"]
+description = "Tiny yellow machine-gun bullet, side view; single frame."
+tags = [ "asset_type:sprite", "subject:bullet", "role:projectile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprProjectile_Missile"]
+description = "Slim guided missile with fins, side view; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "role:projectile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprProjectile_Rocket"]
+description = "Unguided rocket projectile, side view; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "role:projectile", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAMSpine"]
+description = "Reference base frame of the surface-to-air missile launcher truck; single frame."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAM_Blue_Idle"]
+description = "Blue SAM missile-launcher truck idling in place; looping animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Blue_Move"]
+description = "Blue SAM truck driving with rolling wheels; long side-on drive animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Blue_Shooter"]
+description = "Blue SAM launch tube / missile unit, side view; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAM_Green_Idle"]
+description = "Green SAM launcher truck idling; looping animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Green_Move"]
+description = "Green SAM truck driving; long side-on animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Green_Shooter"]
+description = "Green SAM launch tube / missile unit; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAM_Orange_Idle"]
+description = "Orange SAM launcher truck idling; looping animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Orange_Move"]
+description = "Orange SAM truck driving; long side-on animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Orange_Shooter"]
+description = "Orange SAM launch tube / missile unit; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAM_Pink_Idle"]
+description = "Pink SAM launcher truck idling; looping animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Pink_Move"]
+description = "Pink SAM truck driving; long side-on animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Pink_Shooter"]
+description = "Pink SAM launch tube / missile unit; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSAM_Red_Idle"]
+description = "Red SAM launcher truck idling; looping animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Red_Move"]
+description = "Red SAM truck driving with rolling wheels; long side-on animation."
+tags = [ "asset_type:sprite", "subject:truck", "subject:missile", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSAM_Red_Shooter"]
+description = "Red SAM launch tube / missile unit, side view; single frame."
+tags = [ "asset_type:sprite", "subject:missile", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSingleWings_BlueSpine"]
+description = "Reference base frame of the blue single-wing monoplane in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSingleWings_GreenSpine"]
+description = "Reference base frame of the green single-wing monoplane; single frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSingleWings_OrangeSpine"]
+description = "Reference base frame of the orange single-wing monoplane; single frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSingleWings_PinkSpine"]
+description = "Reference base frame of the pink single-wing monoplane; single frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSingleWings_RedSpine"]
+description = "Reference base frame of the red single-wing monoplane; single frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSinglewing_Blue_Barrel_Full"]
+description = "Blue monoplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Blue_Barrel_Half"]
+description = "Blue monoplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Blue_Flying"]
+description = "Blue single-wing plane cruising with spinning prop; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Blue_Topdown"]
+description = "Blue monoplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSinglewing_Green_Barrel_Full"]
+description = "Green monoplane in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Green_Barrel_Half"]
+description = "Green monoplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Green_Flying"]
+description = "Green single-wing plane cruising; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Green_Topdown"]
+description = "Green monoplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSinglewing_Orange_Barrel_Full"]
+description = "Orange monoplane in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Orange_Barrel_Half"]
+description = "Orange monoplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Orange_Flying"]
+description = "Orange single-wing plane cruising; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Orange_Topdown"]
+description = "Orange monoplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSinglewing_Pink_Barrel_Full"]
+description = "Pink monoplane in a full barrel-roll; rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Pink_Barrel_Half"]
+description = "Pink monoplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Pink_Flying"]
+description = "Pink single-wing plane cruising; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Pink_Topdown"]
+description = "Pink monoplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSinglewing_Red_Barrel_Full"]
+description = "Red monoplane in a full barrel-roll; rotating side-on animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Red_Barrel_Half"]
+description = "Red monoplane in a half barrel-roll; short rotating animation."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Red_Flying"]
+description = "Red single-wing plane cruising with spinning prop; side-on flight loop."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprSinglewing_Red_Topdown"]
+description = "Red monoplane from above; single top-down frame."
+tags = [ "asset_type:sprite", "subject:aircraft", "role:vehicle", "projection:top-down", "state:static" ]
+
+[assets."sprites/sprSubmarineSpine"]
+description = "Reference base frame of the blue-and-yellow cartoon submarine in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:submarine", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSubmarine_Idle"]
+description = "Blue submarine with a yellow porthole and periscope, idle; side-on shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:submarine", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprSubmarine_Move"]
+description = "Blue submarine cruising forward with bubble wake; side-on animation."
+tags = [ "asset_type:sprite", "subject:submarine", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprTankSpine"]
+description = "Reference base frame of the tracked battle tank in side profile; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Blue_Gun"]
+description = "Blue tank turret cannon barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Blue_Idle"]
+description = "Blue tracked battle tank parked idle; side-on shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Blue_Move"]
+description = "Blue tank rolling forward on churning treads; long side-on drive animation."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprTank_Green_Gun"]
+description = "Green tank turret cannon barrel; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Green_Idle"]
+description = "Green tracked battle tank idle; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Green_Move"]
+description = "Green tank rolling on churning treads; long side-on animation."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprTank_Orange_Gun"]
+description = "Orange tank turret cannon barrel; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Orange_Idle"]
+description = "Orange tracked battle tank idle; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Orange_Move"]
+description = "Orange tank rolling on churning treads; long side-on animation."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprTank_Pink_Gun"]
+description = "Pink tank turret cannon barrel; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Pink_Idle"]
+description = "Pink tracked battle tank idle; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Pink_Move"]
+description = "Pink tank rolling on churning treads; long side-on animation."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sprites/sprTank_Red_Gun"]
+description = "Red tank turret cannon barrel, side view; single frame."
+tags = [ "asset_type:sprite", "subject:tank", "subject:cannon", "role:weapon", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Red_Idle"]
+description = "Red tracked battle tank with rounded turret, parked idle; side-on shaded cartoon, single frame."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:static" ]
+
+[assets."sprites/sprTank_Red_Move"]
+description = "Red tank rolling forward on churning treads; long side-on drive animation."
+tags = [ "asset_type:sprite", "subject:tank", "role:vehicle", "projection:side-view", "state:animation" ]
+
+[assets."sounds/SFX_4x4_Engine1_Intro"]
+description = "Jeep engine start-up ramp, ~1.8s; SFX layer intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine1_Loop"]
+description = "Steady jeep engine drone, ~8s seamless loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine1_Outro"]
+description = "Jeep engine wind-down tail, ~3.3s; SFX layer outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine2_Intro"]
+description = "Alternate jeep engine start-up, ~1.2s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine2_Loop"]
+description = "Alternate steady jeep engine loop, ~9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine_Full"]
+description = "Full jeep engine pass, ~40s start-to-stop; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_4x4_Engine_Idle"]
+description = "Jeep engine idling rumble, ~14.5s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:car" ]
+
+[assets."sounds/SFX_Airship_Swoosh_Fast"]
+description = "Fast airy whoosh of an airship passing, ~6s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:airship" ]
+
+[assets."sounds/SFX_Airship_Swoosh_Slow"]
+description = "Slow drawn-out airship swoosh, ~16s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:airship" ]
+
+[assets."sounds/SFX_Ambience"]
+description = "Long open-air outdoor ambience bed, ~43.5s; looping ambience."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/SFX_Barrel_Roll"]
+description = "Quick aerial barrel-roll whoosh, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Biplane_Barrel_Roll1"]
+description = "Biplane barrel-roll whoosh, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Barrel_Roll2"]
+description = "Biplane barrel-roll whoosh variant, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine1_Full"]
+description = "Full propeller-biplane engine pass, ~30s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine1_Intro"]
+description = "Biplane prop engine start, ~2.2s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine1_Loop"]
+description = "Steady biplane prop drone, ~12s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine1_Outro"]
+description = "Biplane prop engine wind-down, ~3.5s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine1_Stutter"]
+description = "Biplane engine sputter/misfire, ~5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine2_Full"]
+description = "Alternate full biplane engine pass, ~30s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine2_Intro"]
+description = "Alternate biplane engine start, ~1.8s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine2_Loop"]
+description = "Alternate biplane prop drone, ~15s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine2_Outro"]
+description = "Alternate biplane wind-down, ~2.6s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine2_Stutter"]
+description = "Alternate biplane engine sputter, ~5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine_Stutter1"]
+description = "Biplane engine stutter/cough, ~5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Biplane_Engine_Stutter2"]
+description = "Biplane engine stutter variant, ~5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:biplane" ]
+
+[assets."sounds/SFX_Bird1"]
+description = "Short chirping bird call, ~2.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/SFX_Bird2"]
+description = "Short bird call variant, ~2.9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/SFX_Bomb_Drop1"]
+description = "Falling bomb whistle into impact, ~3.6s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bomb" ]
+
+[assets."sounds/SFX_Bomb_Drop2"]
+description = "Falling bomb whistle variant, ~3.6s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bomb" ]
+
+[assets."sounds/SFX_Crate1"]
+description = "Wooden crate hit/smash, ~2.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:crate" ]
+
+[assets."sounds/SFX_Crate2"]
+description = "Wooden crate smash variant, ~2.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:crate" ]
+
+[assets."sounds/SFX_Crate_Balloon1"]
+description = "Balloon-crate pickup pop, ~1.7s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:balloon", "subject:crate" ]
+
+[assets."sounds/SFX_Crate_Balloon2"]
+description = "Balloon-crate pop variant, ~1.6s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:balloon", "subject:crate" ]
+
+[assets."sounds/SFX_Crate_Parachute1"]
+description = "Parachute-crate deploy/land, ~1.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:parachute", "subject:crate" ]
+
+[assets."sounds/SFX_Crate_Parachute2"]
+description = "Parachute-crate deploy variant, ~1.3s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:parachute", "subject:crate" ]
+
+[assets."sounds/SFX_Explosion_Air1"]
+description = "Sharp airburst explosion, ~1.4s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Air2"]
+description = "Airburst explosion variant, ~1.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Ground1"]
+description = "Heavy ground explosion boom, ~1.9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Ground2"]
+description = "Ground explosion boom variant, ~1.9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Underwater"]
+description = "Muffled underwater explosion thud, ~2s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Water1"]
+description = "Water-impact explosion splash-boom, ~1.9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Explosion_Water2"]
+description = "Water explosion variant, ~1.9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:explosion" ]
+
+[assets."sounds/SFX_Hoop_Collect1"]
+description = "Bright pass-through-hoop chime, ~1.1s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:hoop" ]
+
+[assets."sounds/SFX_Hoop_Collect2"]
+description = "Hoop-collect chime variant, ~1.1s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:hoop" ]
+
+[assets."sounds/SFX_Hot_Air_Balloon_Burner"]
+description = "Hot-air-balloon burner whoosh blast, ~5.2s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:balloon" ]
+
+[assets."sounds/SFX_Hot_Air_Balloon_Loop"]
+description = "Steady hot-air-balloon burner loop, ~8.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:balloon" ]
+
+[assets."sounds/SFX_Jet_Engine1_Full"]
+description = "Full jet engine pass with roar, ~29s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine1_Intro"]
+description = "Jet engine spool-up, ~3.1s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine1_Loop"]
+description = "Steady jet engine roar, ~10.5s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine1_Outro"]
+description = "Jet engine spool-down, ~5.4s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Barrel_Roll1"]
+description = "Jet barrel-roll whoosh, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Barrel_Roll2"]
+description = "Jet barrel-roll whoosh variant, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Full"]
+description = "Alternate full jet engine pass, ~29s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Intro"]
+description = "Alternate jet spool-up, ~3s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Loop"]
+description = "Alternate jet engine roar loop, ~11s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine2_Outro"]
+description = "Alternate jet spool-down, ~6.5s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine_Stutter1"]
+description = "Jet engine stutter/cut-out, ~4.1s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Jet_Engine_Stutter2"]
+description = "Jet engine stutter variant, ~3.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:jet" ]
+
+[assets."sounds/SFX_Machine_Gun_Impact"]
+description = "Sustained machine-gun fire with impacts, ~15s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun", "subject:impact" ]
+
+[assets."sounds/SFX_Machine_Gun_Loop1"]
+description = "Rapid machine-gun fire burst, ~0.7s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/SFX_Machine_Gun_Loop2"]
+description = "Machine-gun fire burst variant, ~0.5s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/SFX_Medium_Boat_Engine_Full"]
+description = "Full medium-boat motor pass, ~37s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Medium_Boat_Engine_Idle"]
+description = "Medium-boat motor idling, ~26s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Medium_Boat_Engine_Intro"]
+description = "Medium-boat motor start, ~2s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Medium_Boat_Engine_Loop"]
+description = "Steady medium-boat motor loop, ~9s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Medium_Boat_Engine_Outro"]
+description = "Medium-boat motor wind-down, ~4.2s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Missile_Impact"]
+description = "Missile detonation impact, ~2.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile", "subject:impact" ]
+
+[assets."sounds/SFX_Missile_Launch1"]
+description = "Missile launch whoosh, ~2s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Missile_Launch2"]
+description = "Missile launch whoosh variant, ~2s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Rocket_Impact"]
+description = "Rocket detonation impact, ~2.3s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile", "subject:impact" ]
+
+[assets."sounds/SFX_Rocket_Launch1"]
+description = "Rocket launch roar, ~4s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_Rocket_Launch2"]
+description = "Rocket launch roar variant, ~4s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:missile" ]
+
+[assets."sounds/SFX_SAM_Engine_Full"]
+description = "Full SAM-truck engine pass, ~39s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:truck" ]
+
+[assets."sounds/SFX_SAM_Engine_Idle"]
+description = "SAM-truck engine idling, ~13s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:truck" ]
+
+[assets."sounds/SFX_SAM_Engine_Intro"]
+description = "SAM-truck engine start, ~2.3s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:truck" ]
+
+[assets."sounds/SFX_SAM_Engine_Loop"]
+description = "Steady SAM-truck engine loop, ~8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:truck" ]
+
+[assets."sounds/SFX_SAM_Engine_Outro"]
+description = "SAM-truck engine wind-down, ~3s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:truck" ]
+
+[assets."sounds/SFX_Singlewing_Engine1_Full"]
+description = "Full single-wing prop engine pass, ~30s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine1_Intro"]
+description = "Single-wing prop engine start, ~2.1s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine1_Loop"]
+description = "Steady single-wing prop drone, ~14s loop; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine1_Outro"]
+description = "Single-wing prop wind-down, ~4.9s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine2_Full"]
+description = "Alternate full single-wing engine pass, ~30s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine2_Intro"]
+description = "Alternate single-wing engine start, ~2s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine2_Loop"]
+description = "Alternate single-wing prop loop, ~12s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine2_Outro"]
+description = "Alternate single-wing wind-down, ~5.1s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine_Barrel_Roll1"]
+description = "Single-wing barrel-roll whoosh, ~3s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine_Barrel_Roll2"]
+description = "Single-wing barrel-roll whoosh variant, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine_Stutter1"]
+description = "Single-wing engine stutter, ~4.4s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Singlewing_Engine_Stutter2"]
+description = "Single-wing engine stutter variant, ~4.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:aircraft" ]
+
+[assets."sounds/SFX_Small_Boat_Engine_Full"]
+description = "Full small-boat motor pass, ~36s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Small_Boat_Engine_Idle"]
+description = "Small-boat motor idling, ~28s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Small_Boat_Engine_Intro"]
+description = "Small-boat motor start, ~2.6s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Small_Boat_Engine_Loop"]
+description = "Steady small-boat motor loop, ~7.5s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Small_Boat_Engine_Outro"]
+description = "Small-boat motor wind-down, ~4.8s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:boat" ]
+
+[assets."sounds/SFX_Star_Coin_Collect"]
+description = "Bright star/coin pickup chime, ~1.8s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:star", "subject:coin" ]
+
+[assets."sounds/SFX_Submarine_Engine_Full"]
+description = "Full submarine motor pass, ~19s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:submarine" ]
+
+[assets."sounds/SFX_Submarine_Engine_Idle"]
+description = "Submarine motor idling hum, ~18s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:submarine" ]
+
+[assets."sounds/SFX_Submarine_Engine_Intro"]
+description = "Submarine motor start, ~3s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:submarine" ]
+
+[assets."sounds/SFX_Submarine_Engine_Loop"]
+description = "Steady submarine motor loop, ~11s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:submarine" ]
+
+[assets."sounds/SFX_Submarine_Engine_Outro"]
+description = "Submarine motor wind-down, ~4.9s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:submarine" ]
+
+[assets."sounds/SFX_Tank_Engine_Full"]
+description = "Full tank engine pass with tread rumble, ~30s; long SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:tank" ]
+
+[assets."sounds/SFX_Tank_Engine_Idle"]
+description = "Tank engine idling rumble, ~24s loopable; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:tank" ]
+
+[assets."sounds/SFX_Tank_Engine_Intro"]
+description = "Tank engine start, ~1.7s; SFX intro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:tank" ]
+
+[assets."sounds/SFX_Tank_Engine_Loop"]
+description = "Steady tank engine loop, ~14s; SFX."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:tank" ]
+
+[assets."sounds/SFX_Tank_Engine_Outro"]
+description = "Tank engine wind-down, ~4s; SFX outro."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:tank" ]
+
+[assets."sounds/sndTrack1"]
+description = "Full upbeat background music track, ~2 min; looping music."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack1_Lose"]
+description = "Short lose/defeat musical sting for Track 1, ~3.9s; music cue."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack1_Win"]
+description = "Short win/victory musical sting for Track 1, ~4.3s; music cue."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2"]
+description = "Second full background music track, ~2 min; looping music."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2_Lose"]
+description = "Short lose/defeat musical sting for Track 2, ~5s; music cue."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sndTrack2_Win"]
+description = "Short win/victory musical sting for Track 2, ~5s; music cue."
+tags = [ "asset_type:sound", "audio_type:music" ]

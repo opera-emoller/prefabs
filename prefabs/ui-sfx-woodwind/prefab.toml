@@ -1,0 +1,205 @@
+id = "ui-sfx-woodwind"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pack of ~39 user-interface sound effects voiced as soft woodwind tones — gentle flute-like clicks, hovers, pops, confirmations, errors and navigation cues with a warm, mellow, organic character."
+tags = [ "role:ui" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Soft woodwind keyboard-click blip, ~1.0s — gentle flute-toned typing tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Quick mellow woodwind keyboard-click, ~0.75s — light flute-like keypress."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Soft woodwind keyboard-click variant, ~1.0s — warm flute-toned typing tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Mellow woodwind mouse-click, ~1.5s — rounded flute-like select tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Very short woodwind mouse-click, ~0.25s — crisp soft flute blip for a tap."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Gentle woodwind hover cue, ~1.1s — airy flute tone for cursor rollover."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Brief woodwind hover blip, ~0.5s — light flute-toned rollover accent."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Soft woodwind 'no'/decline tone, ~2.0s — mellow falling flute phrase signalling cancel or reject."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_2"]
+description = "Soft woodwind 'no'/decline variant, ~2.0s — gentle flute cue for a negative answer."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_1"]
+description = "Woodwind pop, ~2.0s — warm rounded flute 'pop' for an element appearing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Shorter woodwind pop, ~1.0s — light flute-toned pop accent."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Descending woodwind pop-down, ~1.75s — mellow flute glide for a menu or element collapsing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Descending woodwind pop-down variant, ~2.0s — soft downward flute tone for closing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Rising woodwind pop-up, ~1.75s — gentle upward flute phrase for an element opening."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Rising woodwind pop-up variant, ~2.0s — warm ascending flute tone for appearing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Woodwind power-off cue, ~2.5s — soft descending flute phrase like a shutdown sigh."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Shorter woodwind power-off, ~1.25s — quick mellow flute fall for switching off."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Woodwind power-on cue, ~2.5s — gentle rising flute phrase like a warm start-up."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Shorter woodwind power-on, ~1.25s — quick airy flute lift for switching on."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Ascending woodwind slider sweep, ~1.5s — rising flute glissando for increasing a value."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Ascending woodwind slider sweep variant, ~1.75s — warm upward flute run."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Descending woodwind slider sweep, ~1.43s — falling flute glissando for decreasing a value."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Descending woodwind slider sweep variant, ~1.68s — mellow downward flute run."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Woodwind swipe-closed gesture, ~1.5s — soft flute whoosh for swiping a panel shut."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Woodwind swipe-closed variant, ~2.0s — airy flute sweep for closing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Woodwind swipe-open gesture, ~1.75s — soft rising flute whoosh for sliding a panel open."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Woodwind swipe-open variant, ~2.0s — warm flute sweep for opening."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Woodwind task-complete fanfare, ~6.0s — cheerful resolving flute melody for success."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Woodwind task-complete fanfare variant, ~6.0s — warm celebratory flute phrase for completion."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Woodwind task-failed cue, ~3.25s — somber descending flute phrase signalling failure."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Woodwind task-failed variant, ~4.0s — downcast mellow flute motif for an error."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny woodwind timer tick, ~0.08s — soft flute-toned pip for a clock tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Tiny woodwind timer tick variant, ~0.08s — light flute pip for a countdown tick."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Woodwind window-close cue, ~2.0s — gentle falling flute phrase for dismissing a window."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Woodwind window-close variant, ~1.75s — soft downward flute tone for closing."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Woodwind window-open cue, ~2.0s — warm rising flute phrase for opening a window."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Woodwind window-open variant, ~2.0s — airy ascending flute tone for opening."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Woodwind 'yes'/confirm tone, ~3.25s — bright rising flute phrase for accepting or approving."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Woodwind 'yes'/confirm variant, ~4.5s — warm affirming flute melody for a positive answer."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]

@@ -1,0 +1,33 @@
+sounds = [
+    "MP3_Box_Break",
+    "MP3_Coin_Collect",
+    "MP3_Dash",
+    "MP3_Enemy_Death1",
+    "MP3_Enemy_Death2",
+    "MP3_Enemy_Stomped_On",
+    "MP3_Extra_Life",
+    "MP3_Headbonk",
+    "MP3_Jump",
+    "MP3_Jump_Land",
+    "MP3_Option_Choose",
+    "MP3_Option_Select",
+    "MP3_Player_Death1",
+    "MP3_Player_Death2",
+    "MP3_Player_Pain1",
+    "MP3_Player_Pain2",
+    "MP3_Potion_Collect",
+    "MP3_Potion_Use",
+    "MP3_Ranged_Attack",
+    "MP3_Score_Counter",
+    "MP3_Step1",
+    "MP3_Step2",
+    "MP3_Sword_Hit1",
+    "MP3_Sword_Hit2",
+    "MP3_Sword_Swing1",
+    "MP3_Sword_Swing2",
+    "MP3_Water_Splash1",
+    "MP3_Water_Splash2",
+];
+sel = 0;
+view_top = 0;
+playing = -1;   // handle of the currently playing sound instance

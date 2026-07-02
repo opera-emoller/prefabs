@@ -1,0 +1,518 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_bloodsplatter1"
+sprite = "spr_bloodsplatter1"
+x = 23.7
+y = 26.7
+scale_x = 2.40488
+scale_y = 2.40488
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bloodsplatter2"
+sprite = "spr_bloodsplatter2"
+x = 149.7
+y = 31.9
+scale_x = 1.86038
+scale_y = 1.86038
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fireball_charge"
+sprite = "spr_fireball_charge"
+x = 275.7
+y = 60.3
+scale_x = 1.14651
+scale_y = 1.14651
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fireball_impact"
+sprite = "spr_fireball_impact"
+x = 416.4
+y = 20.7
+scale_x = 2.66486
+scale_y = 2.66486
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_fireball_loop"
+sprite = "spr_fireball_loop"
+x = 527.7
+y = 50.0
+scale_x = 2.34762
+scale_y = 2.34762
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_death"
+sprite = "spr_knight_death"
+x = 653.7
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_hit"
+sprite = "spr_knight_hit"
+x = 779.7
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_idle"
+sprite = "spr_knight_idle"
+x = 905.7
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_jumpdown"
+sprite = "spr_knight_jumpdown"
+x = 1031.7
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_jumpmid"
+sprite = "spr_knight_jumpmid"
+x = 1157.7
+y = 20.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_jumpup"
+sprite = "spr_knight_jumpup"
+x = 23.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_meleeattack"
+sprite = "spr_knight_meleeattack"
+x = 149.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_rangedattack"
+sprite = "spr_knight_rangedattack"
+x = 275.7
+y = 153.1
+scale_x = 0.51354
+scale_y = 0.51354
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_run"
+sprite = "spr_knight_run"
+x = 401.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_knight_stunned"
+sprite = "spr_knight_stunned"
+x = 527.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_kunai"
+sprite = "spr_kunai"
+x = 653.7
+y = 167.8
+scale_x = 5.18947
+scale_y = 5.18947
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_magic_projectile"
+sprite = "spr_magic_projectile"
+x = 779.7
+y = 146.6
+scale_x = 3.28667
+scale_y = 3.28667
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_magic_projectileimpact"
+sprite = "spr_magic_projectileimpact"
+x = 911.9
+y = 136.7
+scale_x = 3.08125
+scale_y = 3.08125
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_death"
+sprite = "spr_monk_death"
+x = 1031.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_hit"
+sprite = "spr_monk_hit"
+x = 1157.7
+y = 136.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_idle"
+sprite = "spr_monk_idle"
+x = 23.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_jump_down"
+sprite = "spr_monk_jump_down"
+x = 149.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_jump_mid"
+sprite = "spr_monk_jump_mid"
+x = 275.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_jump_up"
+sprite = "spr_monk_jump_up"
+x = 401.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_melee_attack"
+sprite = "spr_monk_melee_attack"
+x = 527.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_ranged_attack"
+sprite = "spr_monk_ranged_attack"
+x = 653.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_ranged_attack_short_"
+sprite = "spr_monk_ranged_attack_short_"
+x = 779.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_run"
+sprite = "spr_monk_run"
+x = 905.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_monk_stunned"
+sprite = "spr_monk_stunned"
+x = 1031.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_death"
+sprite = "spr_ninja_death"
+x = 1157.7
+y = 252.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_hit"
+sprite = "spr_ninja_hit"
+x = 23.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_idle"
+sprite = "spr_ninja_idle"
+x = 149.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_jump_down"
+sprite = "spr_ninja_jump_down"
+x = 275.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_jump_mid"
+sprite = "spr_ninja_jump_mid"
+x = 401.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_jump_mid_spin"
+sprite = "spr_ninja_jump_mid_spin"
+x = 527.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_jump_up"
+sprite = "spr_ninja_jump_up"
+x = 653.7
+y = 368.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_melee_attack"
+sprite = "spr_ninja_melee_attack"
+x = 779.7
+y = 378.6
+scale_x = 0.61625
+scale_y = 0.61625
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_ranged_attack"
+sprite = "spr_ninja_ranged_attack"
+x = 23.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_run"
+sprite = "spr_ninja_run"
+x = 149.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ninja_stunned"
+sprite = "spr_ninja_stunned"
+x = 275.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_death"
+sprite = "spr_wizard_death"
+x = 401.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_hit"
+sprite = "spr_wizard_hit"
+x = 527.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_idle"
+sprite = "spr_wizard_idle"
+x = 653.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_jumpdown"
+sprite = "spr_wizard_jumpdown"
+x = 779.7
+y = 484.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_jumpmid"
+sprite = "spr_wizard_jumpmid"
+x = 23.7
+y = 600.7
+scale_x = 0.77031
+scale_y = 0.77031
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_jumpup"
+sprite = "spr_wizard_jumpup"
+x = 175.4
+y = 600.7
+scale_x = 1.35068
+scale_y = 1.35068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_meleeattack"
+sprite = "spr_wizard_meleeattack"
+x = 275.7
+y = 616.3
+scale_x = 0.80163
+scale_y = 0.80163
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_rangedattack"
+sprite = "spr_wizard_rangedattack"
+x = 401.7
+y = 615.5
+scale_x = 0.986
+scale_y = 0.986
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_rangedattackfast"
+sprite = "spr_wizard_rangedattackfast"
+x = 527.7
+y = 615.5
+scale_x = 0.986
+scale_y = 0.986
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_run"
+sprite = "spr_wizard_run"
+x = 653.7
+y = 600.7
+scale_x = 1.40857
+scale_y = 1.40857
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_wizard_stunned"
+sprite = "spr_wizard_stunned"
+x = 785.4
+y = 600.7
+scale_x = 1.61639
+scale_y = 1.61639
+rotation = 0.0
+colour = "#FFFFFFFF"
+

@@ -1,0 +1,40 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 100
+
+[[sprites]]
+id = "ast_0"
+sprite = "spr_asteroid"
+x = 230.0
+y = 170.0
+scale_x = 0.55
+scale_y = 0.55
+rotation = 20.0
+
+[[sprites]]
+id = "ast_1"
+sprite = "spr_asteroid"
+x = 1010.0
+y = 200.0
+scale_x = 0.4
+scale_y = 0.4
+rotation = 200.0
+
+[[sprites]]
+id = "ast_2"
+sprite = "spr_asteroid"
+x = 640.0
+y = 540.0
+scale_x = 0.7
+scale_y = 0.7
+rotation = 110.0
+
+[[sprites]]
+id = "ast_3"
+sprite = "spr_asteroid"
+x = 1080.0
+y = 560.0
+scale_x = 0.45
+scale_y = 0.45
+rotation = 300.0

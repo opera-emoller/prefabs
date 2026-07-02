@@ -1,0 +1,1358 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_Flat_Blue_Banner_Big"
+sprite = "Flat_Blue_Banner_Big"
+x = 25.1
+y = 37.5
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Banner_Small"
+sprite = "Flat_Blue_Banner_Small"
+x = 109.1
+y = 39.6
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Circle"
+sprite = "Flat_Blue_Circle"
+x = 193.1
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Diamond"
+sprite = "Flat_Blue_Diamond"
+x = 277.1
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Dot_Back"
+sprite = "Flat_Blue_Dot_Back"
+x = 361.1
+y = 16.7
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Dot_Front"
+sprite = "Flat_Blue_Dot_Front"
+x = 445.1
+y = 16.7
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Long_Round"
+sprite = "Flat_Blue_Long_Round"
+x = 529.1
+y = 30.2
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Long_Square"
+sprite = "Flat_Blue_Long_Square"
+x = 613.1
+y = 30.2
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Panel"
+sprite = "Flat_Blue_Panel"
+x = 697.1
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_ScrollBarRound_Back"
+sprite = "Flat_Blue_ScrollBarRound_Back"
+x = 801.3
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_ScrollBarRound_Front"
+sprite = "Flat_Blue_ScrollBarRound_Front"
+x = 885.3
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_ScrollBarSquare_Back"
+sprite = "Flat_Blue_ScrollBarSquare_Back"
+x = 969.3
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_ScrollBarSquare_Front"
+sprite = "Flat_Blue_ScrollBarSquare_Front"
+x = 1053.3
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Square"
+sprite = "Flat_Blue_Square"
+x = 1117.1
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Blue_Triangle"
+sprite = "Flat_Blue_Triangle"
+x = 1201.1
+y = 16.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Banner_Big"
+sprite = "Flat_Cyan_Banner_Big"
+x = 25.1
+y = 100.8
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Banner_Small"
+sprite = "Flat_Cyan_Banner_Small"
+x = 109.1
+y = 102.8
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Circle"
+sprite = "Flat_Cyan_Circle"
+x = 193.1
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Diamond"
+sprite = "Flat_Cyan_Diamond"
+x = 277.1
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Dot_Back"
+sprite = "Flat_Cyan_Dot_Back"
+x = 361.1
+y = 80.0
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Dot_Front"
+sprite = "Flat_Cyan_Dot_Front"
+x = 445.1
+y = 80.0
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Long_Round"
+sprite = "Flat_Cyan_Long_Round"
+x = 529.1
+y = 93.5
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Long_Square"
+sprite = "Flat_Cyan_Long_Square"
+x = 613.1
+y = 93.5
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Panel"
+sprite = "Flat_Cyan_Panel"
+x = 697.1
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_ScrollBarRound_Back"
+sprite = "Flat_Cyan_ScrollBarRound_Back"
+x = 801.3
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_ScrollBarRound_Front"
+sprite = "Flat_Cyan_ScrollBarRound_Front"
+x = 885.3
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_ScrollBarSquare_Back"
+sprite = "Flat_Cyan_ScrollBarSquare_Back"
+x = 969.3
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_ScrollBarSquare_Front"
+sprite = "Flat_Cyan_ScrollBarSquare_Front"
+x = 1053.3
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Square"
+sprite = "Flat_Cyan_Square"
+x = 1117.1
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Cyan_Triangle"
+sprite = "Flat_Cyan_Triangle"
+x = 1201.1
+y = 80.0
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Banner_Big"
+sprite = "Flat_Green_Banner_Big"
+x = 25.1
+y = 164.0
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Banner_Small"
+sprite = "Flat_Green_Banner_Small"
+x = 109.1
+y = 166.1
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Circle"
+sprite = "Flat_Green_Circle"
+x = 193.1
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Diamond"
+sprite = "Flat_Green_Diamond"
+x = 277.1
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Dot_Back"
+sprite = "Flat_Green_Dot_Back"
+x = 361.1
+y = 143.3
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Dot_Front"
+sprite = "Flat_Green_Dot_Front"
+x = 445.1
+y = 143.3
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Long_Round"
+sprite = "Flat_Green_Long_Round"
+x = 529.1
+y = 156.7
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Long_Square"
+sprite = "Flat_Green_Long_Square"
+x = 613.1
+y = 156.7
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Panel"
+sprite = "Flat_Green_Panel"
+x = 697.1
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_ScrollBarRound_Back"
+sprite = "Flat_Green_ScrollBarRound_Back"
+x = 801.3
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_ScrollBarRound_Front"
+sprite = "Flat_Green_ScrollBarRound_Front"
+x = 885.3
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_ScrollBarSquare_Back"
+sprite = "Flat_Green_ScrollBarSquare_Back"
+x = 969.3
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_ScrollBarSquare_Front"
+sprite = "Flat_Green_ScrollBarSquare_Front"
+x = 1053.3
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Square"
+sprite = "Flat_Green_Square"
+x = 1117.1
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Green_Triangle"
+sprite = "Flat_Green_Triangle"
+x = 1201.1
+y = 143.3
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Banner_Big"
+sprite = "Flat_Grey_Banner_Big"
+x = 25.1
+y = 227.3
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Banner_Small"
+sprite = "Flat_Grey_Banner_Small"
+x = 109.1
+y = 229.4
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Circle"
+sprite = "Flat_Grey_Circle"
+x = 193.1
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Diamond"
+sprite = "Flat_Grey_Diamond"
+x = 277.1
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Dot_Back"
+sprite = "Flat_Grey_Dot_Back"
+x = 361.1
+y = 206.6
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Dot_Front"
+sprite = "Flat_Grey_Dot_Front"
+x = 445.1
+y = 206.6
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Long_Round"
+sprite = "Flat_Grey_Long_Round"
+x = 529.1
+y = 220.0
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Long_Square"
+sprite = "Flat_Grey_Long_Square"
+x = 613.1
+y = 220.0
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Panel"
+sprite = "Flat_Grey_Panel"
+x = 697.1
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_ScrollBarRound_Back"
+sprite = "Flat_Grey_ScrollBarRound_Back"
+x = 801.3
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_ScrollBarRound_Front"
+sprite = "Flat_Grey_ScrollBarRound_Front"
+x = 885.3
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_ScrollBarSquare_Back"
+sprite = "Flat_Grey_ScrollBarSquare_Back"
+x = 969.3
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_ScrollBarSquare_Front"
+sprite = "Flat_Grey_ScrollBarSquare_Front"
+x = 1053.3
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Square"
+sprite = "Flat_Grey_Square"
+x = 1117.1
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Grey_Triangle"
+sprite = "Flat_Grey_Triangle"
+x = 1201.1
+y = 206.6
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Banner_Big"
+sprite = "Flat_Orange_Banner_Big"
+x = 25.1
+y = 290.6
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Banner_Small"
+sprite = "Flat_Orange_Banner_Small"
+x = 109.1
+y = 292.7
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Circle"
+sprite = "Flat_Orange_Circle"
+x = 193.1
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Diamond"
+sprite = "Flat_Orange_Diamond"
+x = 277.1
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Dot_Back"
+sprite = "Flat_Orange_Dot_Back"
+x = 361.1
+y = 269.8
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Dot_Front"
+sprite = "Flat_Orange_Dot_Front"
+x = 445.1
+y = 269.8
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Long_Round"
+sprite = "Flat_Orange_Long_Round"
+x = 529.1
+y = 283.3
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Long_Square"
+sprite = "Flat_Orange_Long_Square"
+x = 613.1
+y = 283.3
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Panel"
+sprite = "Flat_Orange_Panel"
+x = 697.1
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_ScrollBarRound_Back"
+sprite = "Flat_Orange_ScrollBarRound_Back"
+x = 801.3
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_ScrollBarRound_Front"
+sprite = "Flat_Orange_ScrollBarRound_Front"
+x = 885.3
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_ScrollBarSquare_Back"
+sprite = "Flat_Orange_ScrollBarSquare_Back"
+x = 969.3
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_ScrollBarSquare_Front"
+sprite = "Flat_Orange_ScrollBarSquare_Front"
+x = 1053.3
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Square"
+sprite = "Flat_Orange_Square"
+x = 1117.1
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Orange_Triangle"
+sprite = "Flat_Orange_Triangle"
+x = 1201.1
+y = 269.8
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Banner_Big"
+sprite = "Flat_Pink_Banner_Big"
+x = 25.1
+y = 353.9
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Banner_Small"
+sprite = "Flat_Pink_Banner_Small"
+x = 109.1
+y = 355.9
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Circle"
+sprite = "Flat_Pink_Circle"
+x = 193.1
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Diamond"
+sprite = "Flat_Pink_Diamond"
+x = 277.1
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Dot_Back"
+sprite = "Flat_Pink_Dot_Back"
+x = 361.1
+y = 333.1
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Dot_Front"
+sprite = "Flat_Pink_Dot_Front"
+x = 445.1
+y = 333.1
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Long_Round"
+sprite = "Flat_Pink_Long_Round"
+x = 529.1
+y = 346.6
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Long_Square"
+sprite = "Flat_Pink_Long_Square"
+x = 613.1
+y = 346.6
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Panel"
+sprite = "Flat_Pink_Panel"
+x = 697.1
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_ScrollBarRound_Back"
+sprite = "Flat_Pink_ScrollBarRound_Back"
+x = 801.3
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_ScrollBarRound_Front"
+sprite = "Flat_Pink_ScrollBarRound_Front"
+x = 885.3
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_ScrollBarSquare_Back"
+sprite = "Flat_Pink_ScrollBarSquare_Back"
+x = 969.3
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_ScrollBarSquare_Front"
+sprite = "Flat_Pink_ScrollBarSquare_Front"
+x = 1053.3
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Square"
+sprite = "Flat_Pink_Square"
+x = 1117.1
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Pink_Triangle"
+sprite = "Flat_Pink_Triangle"
+x = 1201.1
+y = 333.1
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Banner_Big"
+sprite = "Flat_Purple_Banner_Big"
+x = 25.1
+y = 417.1
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Banner_Small"
+sprite = "Flat_Purple_Banner_Small"
+x = 109.1
+y = 419.2
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Circle"
+sprite = "Flat_Purple_Circle"
+x = 193.1
+y = 396.4
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Diamond"
+sprite = "Flat_Purple_Diamond"
+x = 277.1
+y = 396.4
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Dot_Back"
+sprite = "Flat_Purple_Dot_Back"
+x = 361.1
+y = 396.4
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Dot_Front"
+sprite = "Flat_Purple_Dot_Front"
+x = 445.1
+y = 396.4
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Long_Round"
+sprite = "Flat_Purple_Long_Round"
+x = 529.1
+y = 409.8
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Long_Square"
+sprite = "Flat_Purple_Long_Square"
+x = 613.1
+y = 409.8
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Panel"
+sprite = "Flat_Purple_Panel"
+x = 697.1
+y = 396.4
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_ScrollBarRound_Back"
+sprite = "Flat_Purple_ScrollBarRound_Back"
+x = 801.3
+y = 396.4
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_ScrollBarRound_Front"
+sprite = "Flat_Purple_ScrollBarRound_Front"
+x = 885.3
+y = 396.4
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_ScrollBarSquare_Back"
+sprite = "Flat_Purple_ScrollBarSquare_Back"
+x = 45.3
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_ScrollBarSquare_Front"
+sprite = "Flat_Purple_ScrollBarSquare_Front"
+x = 129.3
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Square"
+sprite = "Flat_Purple_Square"
+x = 193.1
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Purple_Triangle"
+sprite = "Flat_Purple_Triangle"
+x = 277.1
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Banner_Big"
+sprite = "Flat_Red_Banner_Big"
+x = 361.1
+y = 480.4
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Banner_Small"
+sprite = "Flat_Red_Banner_Small"
+x = 445.1
+y = 482.5
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Circle"
+sprite = "Flat_Red_Circle"
+x = 529.1
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Diamond"
+sprite = "Flat_Red_Diamond"
+x = 613.1
+y = 459.7
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Dot_Back"
+sprite = "Flat_Red_Dot_Back"
+x = 697.1
+y = 459.7
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Dot_Front"
+sprite = "Flat_Red_Dot_Front"
+x = 781.1
+y = 459.7
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Long_Round"
+sprite = "Flat_Red_Long_Round"
+x = 865.1
+y = 473.1
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Long_Square"
+sprite = "Flat_Red_Long_Square"
+x = 25.1
+y = 536.4
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Panel"
+sprite = "Flat_Red_Panel"
+x = 109.1
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_ScrollBarRound_Back"
+sprite = "Flat_Red_ScrollBarRound_Back"
+x = 213.3
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_ScrollBarRound_Front"
+sprite = "Flat_Red_ScrollBarRound_Front"
+x = 297.3
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_ScrollBarSquare_Back"
+sprite = "Flat_Red_ScrollBarSquare_Back"
+x = 381.3
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_ScrollBarSquare_Front"
+sprite = "Flat_Red_ScrollBarSquare_Front"
+x = 465.3
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Square"
+sprite = "Flat_Red_Square"
+x = 529.1
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Red_Triangle"
+sprite = "Flat_Red_Triangle"
+x = 613.1
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Banner_Big"
+sprite = "Flat_Yellow_Banner_Big"
+x = 697.1
+y = 543.7
+scale_x = 0.10671
+scale_y = 0.10671
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Banner_Small"
+sprite = "Flat_Yellow_Banner_Small"
+x = 781.1
+y = 545.7
+scale_x = 0.10714
+scale_y = 0.10714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Circle"
+sprite = "Flat_Yellow_Circle"
+x = 865.1
+y = 522.9
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Diamond"
+sprite = "Flat_Yellow_Diamond"
+x = 25.1
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Dot_Back"
+sprite = "Flat_Yellow_Dot_Back"
+x = 109.1
+y = 586.2
+scale_x = 1.68068
+scale_y = 1.68068
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Dot_Front"
+sprite = "Flat_Yellow_Dot_Front"
+x = 193.1
+y = 586.2
+scale_x = 2.24091
+scale_y = 2.24091
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Long_Round"
+sprite = "Flat_Yellow_Long_Round"
+x = 277.1
+y = 599.6
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Long_Square"
+sprite = "Flat_Yellow_Long_Square"
+x = 361.1
+y = 599.6
+scale_x = 0.21009
+scale_y = 0.21009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Panel"
+sprite = "Flat_Yellow_Panel"
+x = 445.1
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_ScrollBarRound_Back"
+sprite = "Flat_Yellow_ScrollBarRound_Back"
+x = 549.3
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_ScrollBarRound_Front"
+sprite = "Flat_Yellow_ScrollBarRound_Front"
+x = 633.3
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_ScrollBarSquare_Back"
+sprite = "Flat_Yellow_ScrollBarSquare_Back"
+x = 717.3
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_ScrollBarSquare_Front"
+sprite = "Flat_Yellow_ScrollBarSquare_Front"
+x = 801.3
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Square"
+sprite = "Flat_Yellow_Square"
+x = 865.1
+y = 586.2
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_Flat_Yellow_Triangle"
+sprite = "Flat_Yellow_Triangle"
+x = 25.1
+y = 649.5
+scale_x = 0.42017
+scale_y = 0.42017
+rotation = 0.0
+colour = "#FFFFFFFF"
+

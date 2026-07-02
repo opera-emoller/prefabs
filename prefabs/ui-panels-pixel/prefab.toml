@@ -1,0 +1,685 @@
+id = "ui-panels-pixel"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pixel-art UI widget pack: glossy retro panels, frames, buttons, banners, scrollbars and indicator dots in nine bright color schemes for building game user interfaces."
+tags = [ "role:ui", "projection:ui-icon", "style:pixel-art", "asset_type:sprite" ]
+
+[export]
+include = [
+  "sprites/Pixel_Blue_Banner_Big",
+  "sprites/Pixel_Blue_Banner_Small",
+  "sprites/Pixel_Blue_Circle",
+  "sprites/Pixel_Blue_Diamond",
+  "sprites/Pixel_Blue_Dot_Back",
+  "sprites/Pixel_Blue_Dot_Front",
+  "sprites/Pixel_Blue_Long_Round",
+  "sprites/Pixel_Blue_Long_Square",
+  "sprites/Pixel_Blue_Panel",
+  "sprites/Pixel_Blue_ScrollBarRound_Back",
+  "sprites/Pixel_Blue_ScrollBarRound_Front",
+  "sprites/Pixel_Blue_ScrollBarSquare_Back",
+  "sprites/Pixel_Blue_ScrollBarSquare_Front",
+  "sprites/Pixel_Blue_Square",
+  "sprites/Pixel_Blue_Triangle",
+  "sprites/Pixel_Cyan_Banner_Big",
+  "sprites/Pixel_Cyan_Banner_Small",
+  "sprites/Pixel_Cyan_Circle",
+  "sprites/Pixel_Cyan_Diamond",
+  "sprites/Pixel_Cyan_Dot_Back",
+  "sprites/Pixel_Cyan_Dot_Front",
+  "sprites/Pixel_Cyan_Long_Round",
+  "sprites/Pixel_Cyan_Long_Square",
+  "sprites/Pixel_Cyan_Panel",
+  "sprites/Pixel_Cyan_ScrollBarRound_Back",
+  "sprites/Pixel_Cyan_ScrollBarRound_Front",
+  "sprites/Pixel_Cyan_ScrollBarSquare_Back",
+  "sprites/Pixel_Cyan_ScrollBarSquare_Front",
+  "sprites/Pixel_Cyan_Square",
+  "sprites/Pixel_Cyan_Triangle",
+  "sprites/Pixel_Green_Banner_Big",
+  "sprites/Pixel_Green_Banner_Small",
+  "sprites/Pixel_Green_Circle",
+  "sprites/Pixel_Green_Diamond",
+  "sprites/Pixel_Green_Dot_Back",
+  "sprites/Pixel_Green_Dot_Front",
+  "sprites/Pixel_Green_Long_Round",
+  "sprites/Pixel_Green_Long_Square",
+  "sprites/Pixel_Green_Panel",
+  "sprites/Pixel_Green_ScrollBarRound_Back",
+  "sprites/Pixel_Green_ScrollBarRound_Front",
+  "sprites/Pixel_Green_ScrollBarSquare_Back",
+  "sprites/Pixel_Green_ScrollBarSquare_Front",
+  "sprites/Pixel_Green_Square",
+  "sprites/Pixel_Green_Triangle",
+  "sprites/Pixel_Grey_Banner_Big",
+  "sprites/Pixel_Grey_Banner_Small",
+  "sprites/Pixel_Grey_Circle",
+  "sprites/Pixel_Grey_Diamond",
+  "sprites/Pixel_Grey_Dot_Back",
+  "sprites/Pixel_Grey_Dot_Front",
+  "sprites/Pixel_Grey_Long_Round",
+  "sprites/Pixel_Grey_Long_Square",
+  "sprites/Pixel_Grey_Panel",
+  "sprites/Pixel_Grey_ScrollBarRound_Back",
+  "sprites/Pixel_Grey_ScrollBarRound_Front",
+  "sprites/Pixel_Grey_ScrollBarSquare_Back",
+  "sprites/Pixel_Grey_ScrollBarSquare_Front",
+  "sprites/Pixel_Grey_Square",
+  "sprites/Pixel_Grey_Triangle",
+  "sprites/Pixel_Orange_Banner_Big",
+  "sprites/Pixel_Orange_Banner_Small",
+  "sprites/Pixel_Orange_Circle",
+  "sprites/Pixel_Orange_Diamond",
+  "sprites/Pixel_Orange_Dot_Back",
+  "sprites/Pixel_Orange_Dot_Front",
+  "sprites/Pixel_Orange_Long_Round",
+  "sprites/Pixel_Orange_Long_Square",
+  "sprites/Pixel_Orange_Panel",
+  "sprites/Pixel_Orange_ScrollBarRound_Back",
+  "sprites/Pixel_Orange_ScrollBarRound_Front",
+  "sprites/Pixel_Orange_ScrollBarSquare_Back",
+  "sprites/Pixel_Orange_ScrollBarSquare_Front",
+  "sprites/Pixel_Orange_Square",
+  "sprites/Pixel_Orange_Triangle",
+  "sprites/Pixel_Pink_Banner_Big",
+  "sprites/Pixel_Pink_Banner_Small",
+  "sprites/Pixel_Pink_Circle",
+  "sprites/Pixel_Pink_Diamond",
+  "sprites/Pixel_Pink_Dot_Back",
+  "sprites/Pixel_Pink_Dot_Front",
+  "sprites/Pixel_Pink_Long_Round",
+  "sprites/Pixel_Pink_Long_Square",
+  "sprites/Pixel_Pink_Panel",
+  "sprites/Pixel_Pink_ScrollBarRound_Back",
+  "sprites/Pixel_Pink_ScrollBarRound_Front",
+  "sprites/Pixel_Pink_ScrollBarSquare_Back",
+  "sprites/Pixel_Pink_ScrollBarSquare_Front",
+  "sprites/Pixel_Pink_Square",
+  "sprites/Pixel_Pink_Triangle",
+  "sprites/Pixel_Purple_Banner_Big",
+  "sprites/Pixel_Purple_Banner_Small",
+  "sprites/Pixel_Purple_Circle",
+  "sprites/Pixel_Purple_Diamond",
+  "sprites/Pixel_Purple_Dot_Back",
+  "sprites/Pixel_Purple_Dot_Front",
+  "sprites/Pixel_Purple_Long_Round",
+  "sprites/Pixel_Purple_Long_Square",
+  "sprites/Pixel_Purple_Panel",
+  "sprites/Pixel_Purple_ScrollBarRound_Back",
+  "sprites/Pixel_Purple_ScrollBarRound_Front",
+  "sprites/Pixel_Purple_ScrollBarSquare_Back",
+  "sprites/Pixel_Purple_ScrollBarSquare_Front",
+  "sprites/Pixel_Purple_Square",
+  "sprites/Pixel_Purple_Triangle",
+  "sprites/Pixel_Red_Banner_Big",
+  "sprites/Pixel_Red_Banner_Small",
+  "sprites/Pixel_Red_Circle",
+  "sprites/Pixel_Red_Diamond",
+  "sprites/Pixel_Red_Dot_Back",
+  "sprites/Pixel_Red_Dot_Front",
+  "sprites/Pixel_Red_Long_Round",
+  "sprites/Pixel_Red_Long_Square",
+  "sprites/Pixel_Red_Panel",
+  "sprites/Pixel_Red_ScrollBarRound_Back",
+  "sprites/Pixel_Red_ScrollBarRound_Front",
+  "sprites/Pixel_Red_ScrollBarSquare_Back",
+  "sprites/Pixel_Red_ScrollBarSquare_Front",
+  "sprites/Pixel_Red_Square",
+  "sprites/Pixel_Red_Triangle",
+  "sprites/Pixel_Yellow_Banner_Big",
+  "sprites/Pixel_Yellow_Banner_Small",
+  "sprites/Pixel_Yellow_Circle",
+  "sprites/Pixel_Yellow_Diamond",
+  "sprites/Pixel_Yellow_Dot_Back",
+  "sprites/Pixel_Yellow_Dot_Front",
+  "sprites/Pixel_Yellow_Long_Round",
+  "sprites/Pixel_Yellow_Long_Square",
+  "sprites/Pixel_Yellow_Panel",
+  "sprites/Pixel_Yellow_ScrollBarRound_Back",
+  "sprites/Pixel_Yellow_ScrollBarRound_Front",
+  "sprites/Pixel_Yellow_ScrollBarSquare_Back",
+  "sprites/Pixel_Yellow_ScrollBarSquare_Front",
+  "sprites/Pixel_Yellow_Square",
+  "sprites/Pixel_Yellow_Triangle",
+]
+
+[assets."sprites/Pixel_Blue_Banner_Big"]
+description = "Pixel-art bright blue ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Banner_Small"]
+description = "Pixel-art bright blue ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Circle"]
+description = "Pixel-art bright blue round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Diamond"]
+description = "Pixel-art bright blue diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Dot_Back"]
+description = "Pixel-art small dark bright blue round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Dot_Front"]
+description = "Pixel-art small bright bright blue round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Long_Round"]
+description = "Pixel-art bright blue long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Long_Square"]
+description = "Pixel-art bright blue long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick bright blue rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Blue_ScrollBarRound_Back"]
+description = "Pixel-art vertical bright blue scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Blue_ScrollBarRound_Front"]
+description = "Pixel-art vertical bright blue scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_ScrollBarSquare_Back"]
+description = "Pixel-art vertical bright blue scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Blue_ScrollBarSquare_Front"]
+description = "Pixel-art vertical bright blue scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Square"]
+description = "Pixel-art bright blue rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Blue_Triangle"]
+description = "Pixel-art bright blue right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Banner_Big"]
+description = "Pixel-art cyan ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Banner_Small"]
+description = "Pixel-art cyan ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Circle"]
+description = "Pixel-art cyan round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Diamond"]
+description = "Pixel-art cyan diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Dot_Back"]
+description = "Pixel-art small dark cyan round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Dot_Front"]
+description = "Pixel-art small bright cyan round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Long_Round"]
+description = "Pixel-art cyan long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Long_Square"]
+description = "Pixel-art cyan long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick cyan rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_ScrollBarRound_Back"]
+description = "Pixel-art vertical cyan scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_ScrollBarRound_Front"]
+description = "Pixel-art vertical cyan scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_ScrollBarSquare_Back"]
+description = "Pixel-art vertical cyan scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_ScrollBarSquare_Front"]
+description = "Pixel-art vertical cyan scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Square"]
+description = "Pixel-art cyan rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Cyan_Triangle"]
+description = "Pixel-art cyan right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Banner_Big"]
+description = "Pixel-art lime-green ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Green_Banner_Small"]
+description = "Pixel-art lime-green ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Green_Circle"]
+description = "Pixel-art lime-green round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Diamond"]
+description = "Pixel-art lime-green diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Dot_Back"]
+description = "Pixel-art small dark lime-green round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Dot_Front"]
+description = "Pixel-art small bright lime-green round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Long_Round"]
+description = "Pixel-art lime-green long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Long_Square"]
+description = "Pixel-art lime-green long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick lime-green rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Green_ScrollBarRound_Back"]
+description = "Pixel-art vertical lime-green scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Green_ScrollBarRound_Front"]
+description = "Pixel-art vertical lime-green scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_ScrollBarSquare_Back"]
+description = "Pixel-art vertical lime-green scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Green_ScrollBarSquare_Front"]
+description = "Pixel-art vertical lime-green scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Square"]
+description = "Pixel-art lime-green rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Green_Triangle"]
+description = "Pixel-art lime-green right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Banner_Big"]
+description = "Pixel-art silver-grey ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Banner_Small"]
+description = "Pixel-art silver-grey ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Circle"]
+description = "Pixel-art silver-grey round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Diamond"]
+description = "Pixel-art silver-grey diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Dot_Back"]
+description = "Pixel-art small dark silver-grey round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Dot_Front"]
+description = "Pixel-art small bright silver-grey round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Long_Round"]
+description = "Pixel-art silver-grey long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Long_Square"]
+description = "Pixel-art silver-grey long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick silver-grey rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Grey_ScrollBarRound_Back"]
+description = "Pixel-art vertical silver-grey scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Grey_ScrollBarRound_Front"]
+description = "Pixel-art vertical silver-grey scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_ScrollBarSquare_Back"]
+description = "Pixel-art vertical silver-grey scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Grey_ScrollBarSquare_Front"]
+description = "Pixel-art vertical silver-grey scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Square"]
+description = "Pixel-art silver-grey rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Grey_Triangle"]
+description = "Pixel-art silver-grey right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Banner_Big"]
+description = "Pixel-art orange ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Banner_Small"]
+description = "Pixel-art orange ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Circle"]
+description = "Pixel-art orange round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Diamond"]
+description = "Pixel-art orange diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Dot_Back"]
+description = "Pixel-art small dark orange round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Dot_Front"]
+description = "Pixel-art small bright orange round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Long_Round"]
+description = "Pixel-art orange long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Long_Square"]
+description = "Pixel-art orange long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick orange rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Orange_ScrollBarRound_Back"]
+description = "Pixel-art vertical orange scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Orange_ScrollBarRound_Front"]
+description = "Pixel-art vertical orange scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_ScrollBarSquare_Back"]
+description = "Pixel-art vertical orange scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Orange_ScrollBarSquare_Front"]
+description = "Pixel-art vertical orange scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Square"]
+description = "Pixel-art orange rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Orange_Triangle"]
+description = "Pixel-art orange right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Banner_Big"]
+description = "Pixel-art hot magenta-pink ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Banner_Small"]
+description = "Pixel-art hot magenta-pink ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Circle"]
+description = "Pixel-art hot magenta-pink round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Diamond"]
+description = "Pixel-art hot magenta-pink diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Dot_Back"]
+description = "Pixel-art small dark hot magenta-pink round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Dot_Front"]
+description = "Pixel-art small bright hot magenta-pink round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Long_Round"]
+description = "Pixel-art hot magenta-pink long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Long_Square"]
+description = "Pixel-art hot magenta-pink long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick hot magenta-pink rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Pink_ScrollBarRound_Back"]
+description = "Pixel-art vertical hot magenta-pink scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Pink_ScrollBarRound_Front"]
+description = "Pixel-art vertical hot magenta-pink scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_ScrollBarSquare_Back"]
+description = "Pixel-art vertical hot magenta-pink scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Pink_ScrollBarSquare_Front"]
+description = "Pixel-art vertical hot magenta-pink scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Square"]
+description = "Pixel-art hot magenta-pink rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Pink_Triangle"]
+description = "Pixel-art hot magenta-pink right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Banner_Big"]
+description = "Pixel-art purple ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Banner_Small"]
+description = "Pixel-art purple ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Circle"]
+description = "Pixel-art purple round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Diamond"]
+description = "Pixel-art purple diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Dot_Back"]
+description = "Pixel-art small dark purple round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Dot_Front"]
+description = "Pixel-art small bright purple round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Long_Round"]
+description = "Pixel-art purple long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Long_Square"]
+description = "Pixel-art purple long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick purple rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Purple_ScrollBarRound_Back"]
+description = "Pixel-art vertical purple scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Purple_ScrollBarRound_Front"]
+description = "Pixel-art vertical purple scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_ScrollBarSquare_Back"]
+description = "Pixel-art vertical purple scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Purple_ScrollBarSquare_Front"]
+description = "Pixel-art vertical purple scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Square"]
+description = "Pixel-art purple rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Purple_Triangle"]
+description = "Pixel-art purple right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Banner_Big"]
+description = "Pixel-art red ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Red_Banner_Small"]
+description = "Pixel-art red ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Red_Circle"]
+description = "Pixel-art red round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Diamond"]
+description = "Pixel-art red diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Dot_Back"]
+description = "Pixel-art small dark red round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Dot_Front"]
+description = "Pixel-art small bright red round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Long_Round"]
+description = "Pixel-art red long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Long_Square"]
+description = "Pixel-art red long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick red rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Red_ScrollBarRound_Back"]
+description = "Pixel-art vertical red scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Red_ScrollBarRound_Front"]
+description = "Pixel-art vertical red scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_ScrollBarSquare_Back"]
+description = "Pixel-art vertical red scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Red_ScrollBarSquare_Front"]
+description = "Pixel-art vertical red scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Square"]
+description = "Pixel-art red rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Red_Triangle"]
+description = "Pixel-art red right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Banner_Big"]
+description = "Pixel-art golden-yellow ribbon banner, large/wide; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Banner_Small"]
+description = "Pixel-art golden-yellow ribbon banner, small/short; glossy retro UI header banner with notched ends."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Circle"]
+description = "Pixel-art golden-yellow round circular button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Diamond"]
+description = "Pixel-art golden-yellow diamond-shaped button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Dot_Back"]
+description = "Pixel-art small dark golden-yellow round indicator socket (radio/toggle backing dot), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Dot_Front"]
+description = "Pixel-art small bright golden-yellow round indicator dot (radio/toggle fill), retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Long_Round"]
+description = "Pixel-art golden-yellow long rounded pill button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Long_Square"]
+description = "Pixel-art golden-yellow long rounded-rectangle button, glossy shaded retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Panel"]
+description = "Pixel-art cream-filled dialog panel with thick golden-yellow rounded border; glossy retro RPG UI frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_ScrollBarRound_Back"]
+description = "Pixel-art vertical golden-yellow scrollbar track with rounded ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_ScrollBarRound_Front"]
+description = "Pixel-art vertical golden-yellow scrollbar thumb/handle with rounded ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_ScrollBarSquare_Back"]
+description = "Pixel-art vertical golden-yellow scrollbar track with square ends (backing groove), retro UI style."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_ScrollBarSquare_Front"]
+description = "Pixel-art vertical golden-yellow scrollbar thumb/handle with square ends, glossy retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Square"]
+description = "Pixel-art golden-yellow rounded-square button/badge with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Pixel_Yellow_Triangle"]
+description = "Pixel-art golden-yellow right-pointing triangle/arrow button with glossy shaded highlight, retro UI style."
+tags = [ "subject:button", "state:static" ]

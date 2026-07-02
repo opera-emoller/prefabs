@@ -1,0 +1,205 @@
+id = "ui-sfx-military"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Military-flavored UI sound effect pack: tactical clicks, confirms, navigation, sliders, window/swipe transitions, and mission-style task results, all with a crisp modern command-console vibe."
+tags = [ "asset_type:sound", "audio_type:ui-sound", "role:ui", "theme:modern" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Sharp tactical keystroke, ~0.25s — terse mechanical keyboard click for text entry or hotkey input."
+tags = []
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Firm keystroke with a touch more body, ~0.5s — military-console keyboard click variant."
+tags = []
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Punchy keystroke, ~0.5s — third keyboard click variant for randomized typing feedback."
+tags = []
+
+[assets."sounds/Mouse_Click_1"]
+description = "Clean cursor click, ~0.35s — tactical UI pointer select/press tick."
+tags = [ "subject:cursor" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Tight cursor click, ~0.29s — alternate pointer select for button presses."
+tags = [ "subject:cursor" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Tiny hover blip, ~0.09s — brief tactical highlight cue as the cursor passes over an element."
+tags = [ "subject:cursor" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Soft hover sweep, ~0.27s — longer focus/rollover cue with a subtle military edge."
+tags = [ "subject:cursor" ]
+
+[assets."sounds/No_Button_1"]
+description = "Curt negative tone, ~0.75s — 'No'/cancel/deny confirmation with a stern tactical character."
+tags = [ "subject:button" ]
+
+[assets."sounds/No_Button_2"]
+description = "Firmer rejection tone, ~0.83s — alternate 'No'/decline button blip."
+tags = [ "subject:button" ]
+
+[assets."sounds/Pop_1"]
+description = "Crisp pop, ~0.5s — element appear or selection accent with a clean console feel."
+tags = []
+
+[assets."sounds/Pop_2"]
+description = "Quick pop, ~0.3s — shorter pop accent variant for popping UI elements."
+tags = []
+
+[assets."sounds/Popdown_1"]
+description = "Descending pop, ~0.4s — dropdown collapse or element retract cue."
+tags = []
+
+[assets."sounds/Popdown_2"]
+description = "Pop-down close, ~0.5s — alternate menu/panel retract blip."
+tags = []
+
+[assets."sounds/Popup_1"]
+description = "Rising popup whoosh, ~1.36s — tactical dialog or alert window appearing."
+tags = []
+
+[assets."sounds/Popup_2"]
+description = "Fuller popup swell, ~1.74s — longer pop-up emergence for prominent alerts."
+tags = []
+
+[assets."sounds/Power_Off_1"]
+description = "Powering-down sweep, ~1.25s — system/HUD shutdown with a descending mechanical hum."
+tags = []
+
+[assets."sounds/Power_Off_2"]
+description = "Extended power-off, ~1.5s — longer console/device shutdown cue."
+tags = []
+
+[assets."sounds/Power_On_1"]
+description = "Boot-up rise, ~1.42s — tactical system/HUD power-on with an energizing sweep."
+tags = []
+
+[assets."sounds/Power_On_2"]
+description = "Startup swell, ~1.5s — alternate power-on/boot sequence cue."
+tags = []
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Rising slider sweep, ~0.48s — value increase/scrub-up feedback for a settings slider."
+tags = []
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Longer ascending slider, ~0.75s — extended upward value-drag tone."
+tags = []
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Falling slider sweep, ~0.5s — value decrease/scrub-down feedback."
+tags = []
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Descending slider variant, ~0.5s — alternate downward value-drag tone."
+tags = []
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Swipe-close whoosh, ~0.5s — panel or drawer swiping shut with a tactical sweep."
+tags = []
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Longer swipe-close, ~0.75s — extended drawer/menu dismiss sweep."
+tags = []
+
+[assets."sounds/Swipe_Open_1"]
+description = "Swipe-open whoosh, ~0.5s — panel or drawer sliding into view."
+tags = []
+
+[assets."sounds/Swipe_Open_2"]
+description = "Drawn-out swipe-open, ~1.0s — longer reveal sweep for opening a panel."
+tags = []
+
+[assets."sounds/Task_Complete_1"]
+description = "Mission-complete fanfare, ~3.5s — affirmative tactical success jingle for finished objectives."
+tags = []
+
+[assets."sounds/Task_Complete_2"]
+description = "Shorter success cue, ~2.0s — alternate task-complete confirmation."
+tags = []
+
+[assets."sounds/Task_Failed_1"]
+description = "Failure alarm, ~4.0s — descending tactical 'mission failed' tone with a grim character."
+tags = []
+
+[assets."sounds/Task_Failed_2"]
+description = "Extended failure cue, ~4.75s — longer alert-style task-failed sting."
+tags = []
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny timer tick, ~0.05s — single clipped countdown/clock tick."
+tags = []
+
+[assets."sounds/Timer_Tick_2"]
+description = "Brief timer tick, ~0.07s — alternate countdown tick variant."
+tags = []
+
+[assets."sounds/Window_Close_1"]
+description = "Window-close blip, ~0.5s — tactical panel dismiss with a quick mechanical snap."
+tags = []
+
+[assets."sounds/Window_Close_2"]
+description = "Longer window-close, ~0.75s — alternate dialog close cue."
+tags = []
+
+[assets."sounds/Window_Open_1"]
+description = "Window-open blip, ~0.59s — tactical panel opening with a crisp slide."
+tags = []
+
+[assets."sounds/Window_Open_2"]
+description = "Longer window-open, ~0.75s — alternate dialog open cue."
+tags = []
+
+[assets."sounds/Yes_Button_1"]
+description = "Affirmative confirm tone, ~1.5s — decisive 'Yes'/accept button with a tactical lift."
+tags = [ "subject:button" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Shorter confirm tone, ~0.75s — alternate 'Yes'/accept blip."
+tags = [ "subject:button" ]

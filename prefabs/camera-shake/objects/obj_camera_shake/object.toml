@@ -1,0 +1,13 @@
+#:schema ../../.gm-schema/v1.json#object
+
+persistent = true
+
+[[variables]]
+name = "shake_length"
+type = "real"
+value = 1.0
+
+[[variables]]
+name = "shake_mag"
+type = "expression"
+value = "[0.2, 0.3, 0.5]"

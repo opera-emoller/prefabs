@@ -1,0 +1,680 @@
+id = "world-hexmaps"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Hand-drawn, painterly hexagonal map tiles for top-down strategy and 4X-style world maps: five terrain types (grass, rock-lands, sand, snow, water) as flat and stacked hexes, river-edge variants, plus colorful feature tokens and resource icons (trees, caves, rocks, settlements' building materials, ore and harvest indicators)."
+tags = [ "genre:strategy", "theme:nature", "projection:top-down", "style:painted" ]
+
+[export]
+include = [
+  "sprites/spr_grass_1",
+  "sprites/spr_grass_2",
+  "sprites/spr_grass_3",
+  "sprites/spr_grass_4",
+  "sprites/spr_grass_5",
+  "sprites/spr_grass_cave",
+  "sprites/spr_grass_flower",
+  "sprites/spr_grass_stack",
+  "sprites/spr_grass_stump",
+  "sprites/spr_grass_tree_1",
+  "sprites/spr_grass_tree_2",
+  "sprites/spr_incidental_axe",
+  "sprites/spr_incidental_bar_bronze",
+  "sprites/spr_incidental_bar_gold",
+  "sprites/spr_incidental_bar_silver",
+  "sprites/spr_incidental_brick",
+  "sprites/spr_incidental_hammer",
+  "sprites/spr_incidental_log",
+  "sprites/spr_incidental_ore_bronze",
+  "sprites/spr_incidental_ore_gold",
+  "sprites/spr_incidental_ore_rock",
+  "sprites/spr_incidental_ore_silver",
+  "sprites/spr_incidental_scroll",
+  "sprites/spr_incidental_timber",
+  "sprites/spr_incidental_wheat",
+  "sprites/spr_river_bl_b",
+  "sprites/spr_river_bl_tr",
+  "sprites/spr_river_br_b",
+  "sprites/spr_river_grass_bl_b",
+  "sprites/spr_river_grass_bl_tr",
+  "sprites/spr_river_grass_br_b",
+  "sprites/spr_river_grass_t_b",
+  "sprites/spr_river_grass_t_bl",
+  "sprites/spr_river_grass_t_bl_b_br",
+  "sprites/spr_river_grass_t_br",
+  "sprites/spr_river_grass_t_tl",
+  "sprites/spr_river_grass_t_tr",
+  "sprites/spr_river_grass_tl_bl",
+  "sprites/spr_river_grass_tl_br",
+  "sprites/spr_river_grass_tr_br",
+  "sprites/spr_river_rock_bl_b",
+  "sprites/spr_river_rock_bl_tr",
+  "sprites/spr_river_rock_br_b",
+  "sprites/spr_river_rock_t_b",
+  "sprites/spr_river_rock_t_bl",
+  "sprites/spr_river_rock_t_bl_b_br",
+  "sprites/spr_river_rock_t_br",
+  "sprites/spr_river_rock_t_tl",
+  "sprites/spr_river_rock_t_tr",
+  "sprites/spr_river_rock_tl_bl",
+  "sprites/spr_river_rock_tl_br",
+  "sprites/spr_river_rock_tr_br",
+  "sprites/spr_river_sand_bl_b",
+  "sprites/spr_river_sand_bl_tr",
+  "sprites/spr_river_sand_br_b",
+  "sprites/spr_river_sand_t_b",
+  "sprites/spr_river_sand_t_bl",
+  "sprites/spr_river_sand_t_bl_b_br",
+  "sprites/spr_river_sand_t_br",
+  "sprites/spr_river_sand_t_tl",
+  "sprites/spr_river_sand_t_tr",
+  "sprites/spr_river_sand_tl_bl",
+  "sprites/spr_river_sand_tl_br",
+  "sprites/spr_river_sand_tr_br",
+  "sprites/spr_river_snow_bl_b",
+  "sprites/spr_river_snow_bl_tr",
+  "sprites/spr_river_snow_br_b",
+  "sprites/spr_river_snow_t_b",
+  "sprites/spr_river_snow_t_bl",
+  "sprites/spr_river_snow_t_bl_b_br",
+  "sprites/spr_river_snow_t_br",
+  "sprites/spr_river_snow_t_tl",
+  "sprites/spr_river_snow_t_tr",
+  "sprites/spr_river_snow_tl_bl",
+  "sprites/spr_river_snow_tl_br",
+  "sprites/spr_river_snow_tr_br",
+  "sprites/spr_river_t_b",
+  "sprites/spr_river_t_bl",
+  "sprites/spr_river_t_bl_b_br",
+  "sprites/spr_river_t_br",
+  "sprites/spr_river_t_tl",
+  "sprites/spr_river_t_tr",
+  "sprites/spr_river_tl_bl",
+  "sprites/spr_river_tl_br",
+  "sprites/spr_river_tr_br",
+  "sprites/spr_rock_1",
+  "sprites/spr_rock_2",
+  "sprites/spr_rock_3",
+  "sprites/spr_rock_4",
+  "sprites/spr_rock_5",
+  "sprites/spr_rock_cave",
+  "sprites/spr_rock_crack_1",
+  "sprites/spr_rock_crack_2",
+  "sprites/spr_rock_group_1",
+  "sprites/spr_rock_group_2",
+  "sprites/spr_rock_large_1",
+  "sprites/spr_rock_large_2",
+  "sprites/spr_rock_medium_1",
+  "sprites/spr_rock_medium_2",
+  "sprites/spr_rock_medium_3",
+  "sprites/spr_rock_small_1",
+  "sprites/spr_rock_small_2",
+  "sprites/spr_rock_stack",
+  "sprites/spr_sand_1",
+  "sprites/spr_sand_2",
+  "sprites/spr_sand_3",
+  "sprites/spr_sand_4",
+  "sprites/spr_sand_5",
+  "sprites/spr_sand_cactus",
+  "sprites/spr_sand_cave",
+  "sprites/spr_sand_oasis",
+  "sprites/spr_sand_palm",
+  "sprites/spr_sand_stack",
+  "sprites/spr_snow_1",
+  "sprites/spr_snow_2",
+  "sprites/spr_snow_3",
+  "sprites/spr_snow_4",
+  "sprites/spr_snow_6",
+  "sprites/spr_snow_cave",
+  "sprites/spr_snow_ice",
+  "sprites/spr_snow_rock",
+  "sprites/spr_snow_stack",
+  "sprites/spr_snow_tree",
+  "sprites/spr_water_1",
+  "sprites/spr_water_2",
+  "sprites/spr_water_3",
+  "sprites/spr_water_4",
+  "sprites/spr_water_stack",
+  "sprites/spr_waterfall_left",
+  "sprites/spr_waterfall_left_fade",
+  "sprites/spr_waterfall_mid",
+  "sprites/spr_waterfall_mid_fade",
+  "sprites/spr_waterfall_right",
+  "sprites/spr_waterfall_right_fade",
+]
+
+[assets."sprites/spr_grass_1"]
+description = "Lush green grassland hexagon tile, painted top-down, subtle texture variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_2"]
+description = "Green grass hex tile, alternate variation with slightly different shading."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_3"]
+description = "Green grass hex tile, third variation for tiling variety."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_4"]
+description = "Green grass hex tile, fourth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_5"]
+description = "Green grass hex tile, fifth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_stack"]
+description = "Grass hexagon shown as a raised 3D block/chunk with green top and earthy sides, for stacked-elevation map looks."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_grass_cave"]
+description = "Dark cave mouth set into a grassy mound, painted illustration; a map point of interest."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_grass_flower"]
+description = "Tiny cluster of small white flowers, a decorative grass-field accent token."
+tags = [ "asset_type:sprite", "role:prop", "subject:plant", "subject:foliage", "state:static" ]
+
+[assets."sprites/spr_grass_stump"]
+description = "Low brown tree stump on grass, a small map detail token."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_grass_tree_1"]
+description = "Rounded leafy green broadleaf tree, painted, top-down-ish forest token."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_grass_tree_2"]
+description = "Second leafy green tree variant with a slightly different canopy."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_rock_1"]
+description = "Grey rocky-lands hexagon tile, stony painted texture, top-down."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_2"]
+description = "Grey rock hex tile, alternate variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_3"]
+description = "Grey rock hex tile, third variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_4"]
+description = "Grey rock hex tile, fourth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_5"]
+description = "Grey rock hex tile, fifth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_stack"]
+description = "Rocky hexagon rendered as a raised 3D stone block for elevated terrain."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_cave"]
+description = "Shadowed cave entrance in a grey rock outcrop, a mountain point of interest."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_rock_crack_1"]
+description = "Thin painted crack/fissure decal for rocky ground."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_crack_2"]
+description = "Smaller rock-crack decal."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_group_1"]
+description = "Small cluster of grey boulders, scatter token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_group_2"]
+description = "Low grouping of grey rocks, scatter token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_large_1"]
+description = "Large grey boulder, prominent rocky landmark."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_large_2"]
+description = "Big jagged grey rock formation, the largest boulder token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_medium_1"]
+description = "Medium grey rock, scatter token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_medium_2"]
+description = "Medium grey rock, alternate shape."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_medium_3"]
+description = "Medium grey rock, third shape."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_small_1"]
+description = "Small grey pebble/stone token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_rock_small_2"]
+description = "Small grey stone, alternate shape."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_sand_1"]
+description = "Warm tan desert sand hexagon tile, painted, top-down."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_2"]
+description = "Sand hex tile, alternate variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_3"]
+description = "Sand hex tile, third variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_4"]
+description = "Sand hex tile, fourth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_5"]
+description = "Sand hex tile, fifth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_stack"]
+description = "Sand hexagon as a raised 3D dune block with tan top and sides."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_cactus"]
+description = "Green desert cactus token on sand."
+tags = [ "asset_type:sprite", "role:prop", "subject:cactus", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_sand_cave"]
+description = "Cave opening in a sandy/rocky desert mound."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_sand_oasis"]
+description = "Blue water pool ringed by sand — a desert oasis feature with soft shadow."
+tags = [ "asset_type:sprite", "role:environment", "subject:water", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_sand_palm"]
+description = "Green palm tree, desert/tropical token."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_snow_1"]
+description = "Pale white snowfield hexagon tile, painted, top-down."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_2"]
+description = "Snow hex tile, alternate variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_3"]
+description = "Snow hex tile, third variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_4"]
+description = "Snow hex tile, fourth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_6"]
+description = "Snow hex tile, additional variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_stack"]
+description = "Snowy hexagon as a raised 3D block with white top and icy sides."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_cave"]
+description = "Dark cave mouth in a snow-covered mound."
+tags = [ "asset_type:sprite", "role:environment", "subject:cave", "state:static" ]
+
+[assets."sprites/spr_snow_ice"]
+description = "Small pale blue ice/frost patch token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ice", "state:static" ]
+
+[assets."sprites/spr_snow_rock"]
+description = "Snow-dusted grey rock token."
+tags = [ "asset_type:sprite", "role:prop", "subject:rock", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_snow_tree"]
+description = "Snow-capped green conifer tree, wintry token."
+tags = [ "asset_type:sprite", "role:prop", "subject:tree", "state:static" ]
+
+[assets."sprites/spr_water_1"]
+description = "Blue water/ocean hexagon tile with gentle ripples, painted, top-down."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:water", "state:static" ]
+
+[assets."sprites/spr_water_2"]
+description = "Water hex tile, alternate ripple variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:water", "state:static" ]
+
+[assets."sprites/spr_water_3"]
+description = "Water hex tile, third variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:water", "state:static" ]
+
+[assets."sprites/spr_water_4"]
+description = "Water hex tile, fourth variation."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:water", "state:static" ]
+
+[assets."sprites/spr_water_stack"]
+description = "Water hexagon as a raised 3D block, blue top with deeper sides."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_left"]
+description = "Narrow vertical strip of falling blue water, left edge piece of a waterfall."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_left_fade"]
+description = "Left waterfall strip fading out at the base for blending."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_mid"]
+description = "Central section of cascading blue water, waterfall middle piece."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_mid_fade"]
+description = "Waterfall middle piece fading at the bottom."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_right"]
+description = "Right-edge vertical waterfall water strip."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_waterfall_right_fade"]
+description = "Right waterfall strip fading out at the base."
+tags = [ "asset_type:sprite", "role:environment", "subject:waterfall", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_b"]
+description = "Blue river path overlay running top-to-bottom across a hex, transparent background."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_bl"]
+description = "River overlay bending from top to bottom-left."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_bl_b_br"]
+description = "River overlay with a three-way junction (top, bottom-left, bottom-right)."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_br"]
+description = "River overlay bending from top to bottom-right."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_tl"]
+description = "River overlay bending from top to top-left."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_t_tr"]
+description = "River overlay bending from top to top-right."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_tl_bl"]
+description = "River overlay connecting top-left to bottom-left edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_tl_br"]
+description = "River overlay connecting top-left to bottom-right edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_tr_br"]
+description = "River overlay connecting top-right to bottom-right edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_bl_b"]
+description = "River overlay connecting bottom-left to bottom edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_bl_tr"]
+description = "River overlay connecting bottom-left to top-right edge (straight diagonal)."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_br_b"]
+description = "River overlay connecting bottom-right to bottom edge."
+tags = [ "asset_type:sprite", "role:terrain", "subject:river", "subject:water", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_b"]
+description = "Grass hex with a blue river flowing top to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_bl"]
+description = "Grass hex with river bending top to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_bl_b_br"]
+description = "Grass hex with a three-way river junction."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_br"]
+description = "Grass hex with river bending top to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_tl"]
+description = "Grass hex with river bending top to top-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_t_tr"]
+description = "Grass hex with river bending top to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_tl_bl"]
+description = "Grass hex with river from top-left to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_tl_br"]
+description = "Grass hex with river from top-left to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_tr_br"]
+description = "Grass hex with river from top-right to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_bl_b"]
+description = "Grass hex with river from bottom-left to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_bl_tr"]
+description = "Grass hex with river crossing bottom-left to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_grass_br_b"]
+description = "Grass hex with river from bottom-right to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:grass", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_b"]
+description = "Rock hex with a blue river flowing top to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_bl"]
+description = "Rock hex with river bending top to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_bl_b_br"]
+description = "Rock hex with a three-way river junction."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_br"]
+description = "Rock hex with river bending top to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_tl"]
+description = "Rock hex with river bending top to top-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_t_tr"]
+description = "Rock hex with river bending top to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_tl_bl"]
+description = "Rock hex with river from top-left to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_tl_br"]
+description = "Rock hex with river from top-left to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_tr_br"]
+description = "Rock hex with river from top-right to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_bl_b"]
+description = "Rock hex with river from bottom-left to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_bl_tr"]
+description = "Rock hex with river crossing bottom-left to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_rock_br_b"]
+description = "Rock hex with river from bottom-right to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_b"]
+description = "Sand hex with a blue river flowing top to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_bl"]
+description = "Sand hex with river bending top to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_bl_b_br"]
+description = "Sand hex with a three-way river junction."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_br"]
+description = "Sand hex with river bending top to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_tl"]
+description = "Sand hex with river bending top to top-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_t_tr"]
+description = "Sand hex with river bending top to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_tl_bl"]
+description = "Sand hex with river from top-left to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_tl_br"]
+description = "Sand hex with river from top-left to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_tr_br"]
+description = "Sand hex with river from top-right to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_bl_b"]
+description = "Sand hex with river from bottom-left to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_bl_tr"]
+description = "Sand hex with river crossing bottom-left to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_sand_br_b"]
+description = "Sand hex with river from bottom-right to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:sand", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_b"]
+description = "Snow hex with a blue river flowing top to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_bl"]
+description = "Snow hex with river bending top to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_bl_b_br"]
+description = "Snow hex with a three-way river junction."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_br"]
+description = "Snow hex with river bending top to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_tl"]
+description = "Snow hex with river bending top to top-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_t_tr"]
+description = "Snow hex with river bending top to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_tl_bl"]
+description = "Snow hex with river from top-left to bottom-left."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_tl_br"]
+description = "Snow hex with river from top-left to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_tr_br"]
+description = "Snow hex with river from top-right to bottom-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_bl_b"]
+description = "Snow hex with river from bottom-left to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_bl_tr"]
+description = "Snow hex with river crossing bottom-left to top-right."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_river_snow_br_b"]
+description = "Snow hex with river from bottom-right to bottom."
+tags = [ "asset_type:sprite", "role:tile", "subject:hex", "subject:river", "subject:snow", "state:static" ]
+
+[assets."sprites/spr_incidental_axe"]
+description = "Painted woodcutter's axe icon, a tool/resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:axe", "state:static" ]
+
+[assets."sprites/spr_incidental_hammer"]
+description = "Painted hammer icon, a crafting/construction token."
+tags = [ "asset_type:sprite", "role:prop", "subject:hammer", "state:static" ]
+
+[assets."sprites/spr_incidental_bar_bronze"]
+description = "Stacked bronze metal ingots/bars, refined-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "state:static" ]
+
+[assets."sprites/spr_incidental_bar_gold"]
+description = "Stacked shiny gold bars, refined-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "state:static" ]
+
+[assets."sprites/spr_incidental_bar_silver"]
+description = "Stacked silver metal bars, refined-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "state:static" ]
+
+[assets."sprites/spr_incidental_ore_bronze"]
+description = "Chunk of rock veined with bronze/copper ore, raw-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_incidental_ore_gold"]
+description = "Grey rock veined with glittering gold ore, raw-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_incidental_ore_silver"]
+description = "Grey rock with silver ore veins, raw-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_incidental_ore_rock"]
+description = "Plain grey ore-bearing rock, raw stone-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:ore", "subject:rock", "state:static" ]
+
+[assets."sprites/spr_incidental_brick"]
+description = "Stacked red/brown bricks, building-material token."
+tags = [ "asset_type:sprite", "role:prop", "subject:brick", "state:static" ]
+
+[assets."sprites/spr_incidental_log"]
+description = "Cut brown wooden log, lumber-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:log", "state:static" ]
+
+[assets."sprites/spr_incidental_timber"]
+description = "Stacked cut timber planks/logs, processed-wood token."
+tags = [ "asset_type:sprite", "role:prop", "subject:log", "subject:plank", "state:static" ]
+
+[assets."sprites/spr_incidental_wheat"]
+description = "Golden bundle/sheaf of wheat, harvest/food-resource token."
+tags = [ "asset_type:sprite", "role:prop", "subject:wheat", "subject:plant", "state:static" ]
+
+[assets."sprites/spr_incidental_scroll"]
+description = "Rolled tan parchment scroll, document/quest token."
+tags = [ "asset_type:sprite", "role:prop", "subject:scroll", "state:static" ]

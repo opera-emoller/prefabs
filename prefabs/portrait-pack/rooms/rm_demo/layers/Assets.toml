@@ -1,0 +1,2888 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_anime_sweatdrop"
+sprite = "spr_anime_sweatdrop"
+x = 17.7
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_01"
+sprite = "spr_ear_attachedlobe_skintone_01"
+x = 72.5
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_02"
+sprite = "spr_ear_attachedlobe_skintone_02"
+x = 127.2
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_03"
+sprite = "spr_ear_attachedlobe_skintone_03"
+x = 182.0
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_04"
+sprite = "spr_ear_attachedlobe_skintone_04"
+x = 236.8
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_05"
+sprite = "spr_ear_attachedlobe_skintone_05"
+x = 291.6
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_attachedlobe_skintone_06"
+sprite = "spr_ear_attachedlobe_skintone_06"
+x = 346.4
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_01"
+sprite = "spr_ear_batear_skintone_01"
+x = 401.1
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_02"
+sprite = "spr_ear_batear_skintone_02"
+x = 455.9
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_03"
+sprite = "spr_ear_batear_skintone_03"
+x = 510.7
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_04"
+sprite = "spr_ear_batear_skintone_04"
+x = 565.5
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_05"
+sprite = "spr_ear_batear_skintone_05"
+x = 620.3
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_batear_skintone_06"
+sprite = "spr_ear_batear_skintone_06"
+x = 675.1
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_catear"
+sprite = "spr_ear_catear"
+x = 729.8
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_dog"
+sprite = "spr_ear_dog"
+x = 784.6
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_01"
+sprite = "spr_ear_elfear_skintone_01"
+x = 839.4
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_02"
+sprite = "spr_ear_elfear_skintone_02"
+x = 894.2
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_03"
+sprite = "spr_ear_elfear_skintone_03"
+x = 949.0
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_04"
+sprite = "spr_ear_elfear_skintone_04"
+x = 1003.8
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_05"
+sprite = "spr_ear_elfear_skintone_05"
+x = 1058.5
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_elfear_skintone_06"
+sprite = "spr_ear_elfear_skintone_06"
+x = 1113.3
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_ring_01"
+sprite = "spr_ear_ring_01"
+x = 1168.1
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_ring_02"
+sprite = "spr_ear_ring_02"
+x = 1222.9
+y = 15.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_01"
+sprite = "spr_ear_stickingout_skintone_01"
+x = 17.7
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_02"
+sprite = "spr_ear_stickingout_skintone_02"
+x = 72.5
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_03"
+sprite = "spr_ear_stickingout_skintone_03"
+x = 127.2
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_04"
+sprite = "spr_ear_stickingout_skintone_04"
+x = 182.0
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_05"
+sprite = "spr_ear_stickingout_skintone_05"
+x = 236.8
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_ear_stickingout_skintone_06"
+sprite = "spr_ear_stickingout_skintone_06"
+x = 291.6
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_01"
+sprite = "spr_eye_hoodedlid_skinetone_01"
+x = 346.4
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_02"
+sprite = "spr_eye_hoodedlid_skinetone_02"
+x = 401.1
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_03"
+sprite = "spr_eye_hoodedlid_skinetone_03"
+x = 455.9
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_04"
+sprite = "spr_eye_hoodedlid_skinetone_04"
+x = 510.7
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_05"
+sprite = "spr_eye_hoodedlid_skinetone_05"
+x = 565.5
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_hoodedlid_skinetone_06"
+sprite = "spr_eye_hoodedlid_skinetone_06"
+x = 620.3
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_01"
+sprite = "spr_eye_monolid_skintone_01"
+x = 675.1
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_02"
+sprite = "spr_eye_monolid_skintone_02"
+x = 729.8
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_03"
+sprite = "spr_eye_monolid_skintone_03"
+x = 784.6
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_04"
+sprite = "spr_eye_monolid_skintone_04"
+x = 839.4
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_05"
+sprite = "spr_eye_monolid_skintone_05"
+x = 894.2
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_monolid_skintone_06"
+sprite = "spr_eye_monolid_skintone_06"
+x = 949.0
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_01"
+sprite = "spr_eye_roundlid_skintone_01"
+x = 1003.8
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_02"
+sprite = "spr_eye_roundlid_skintone_02"
+x = 1058.5
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_03"
+sprite = "spr_eye_roundlid_skintone_03"
+x = 1113.3
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_04"
+sprite = "spr_eye_roundlid_skintone_04"
+x = 1168.1
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_05"
+sprite = "spr_eye_roundlid_skintone_05"
+x = 1222.9
+y = 61.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_roundlid_skintone_06"
+sprite = "spr_eye_roundlid_skintone_06"
+x = 17.7
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eye_sclera"
+sprite = "spr_eye_sclera"
+x = 72.5
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_01"
+sprite = "spr_eyebag_basic_skintone_01"
+x = 127.2
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_02"
+sprite = "spr_eyebag_basic_skintone_02"
+x = 182.0
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_03"
+sprite = "spr_eyebag_basic_skintone_03"
+x = 236.8
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_04"
+sprite = "spr_eyebag_basic_skintone_04"
+x = 291.6
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_05"
+sprite = "spr_eyebag_basic_skintone_05"
+x = 346.4
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_basic_skintone_06"
+sprite = "spr_eyebag_basic_skintone_06"
+x = 401.1
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_01"
+sprite = "spr_eyebag_tired_skintone_01"
+x = 455.9
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_02"
+sprite = "spr_eyebag_tired_skintone_02"
+x = 510.7
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_03"
+sprite = "spr_eyebag_tired_skintone_03"
+x = 565.5
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_04"
+sprite = "spr_eyebag_tired_skintone_04"
+x = 620.3
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_05"
+sprite = "spr_eyebag_tired_skintone_05"
+x = 675.1
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebag_tired_skintone_06"
+sprite = "spr_eyebag_tired_skintone_06"
+x = 729.8
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_bushy"
+sprite = "spr_eyebrow_bushy"
+x = 784.6
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_curved"
+sprite = "spr_eyebrow_curved"
+x = 839.4
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_piercing"
+sprite = "spr_eyebrow_piercing"
+x = 894.2
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_plucked"
+sprite = "spr_eyebrow_plucked"
+x = 949.0
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_pointy"
+sprite = "spr_eyebrow_pointy"
+x = 1003.8
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_eyebrow_thick"
+sprite = "spr_eyebrow_thick"
+x = 1058.5
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_01"
+sprite = "spr_face_heart_skintone_01"
+x = 1113.3
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_02"
+sprite = "spr_face_heart_skintone_02"
+x = 1168.1
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_03"
+sprite = "spr_face_heart_skintone_03"
+x = 1222.9
+y = 108.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_04"
+sprite = "spr_face_heart_skintone_04"
+x = 17.7
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_05"
+sprite = "spr_face_heart_skintone_05"
+x = 72.5
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_heart_skintone_06"
+sprite = "spr_face_heart_skintone_06"
+x = 127.2
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_01"
+sprite = "spr_face_oval_skintone_01"
+x = 182.0
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_02"
+sprite = "spr_face_oval_skintone_02"
+x = 236.8
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_03"
+sprite = "spr_face_oval_skintone_03"
+x = 291.6
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_04"
+sprite = "spr_face_oval_skintone_04"
+x = 346.4
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_05"
+sprite = "spr_face_oval_skintone_05"
+x = 401.1
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_oval_skintone_06"
+sprite = "spr_face_oval_skintone_06"
+x = 455.9
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_01"
+sprite = "spr_face_round_skintone_01"
+x = 510.7
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_02"
+sprite = "spr_face_round_skintone_02"
+x = 565.5
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_03"
+sprite = "spr_face_round_skintone_03"
+x = 620.3
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_04"
+sprite = "spr_face_round_skintone_04"
+x = 675.1
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_05"
+sprite = "spr_face_round_skintone_05"
+x = 729.8
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_round_skintone_06"
+sprite = "spr_face_round_skintone_06"
+x = 784.6
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_01"
+sprite = "spr_face_square_skintone_01"
+x = 839.4
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_02"
+sprite = "spr_face_square_skintone_02"
+x = 894.2
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_03"
+sprite = "spr_face_square_skintone_03"
+x = 949.0
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_04"
+sprite = "spr_face_square_skintone_04"
+x = 1003.8
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_05"
+sprite = "spr_face_square_skintone_05"
+x = 1058.5
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_face_square_skintone_06"
+sprite = "spr_face_square_skintone_06"
+x = 1113.3
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_facial_eyepatch"
+sprite = "spr_facial_eyepatch"
+x = 1168.1
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_facial_fullbeard"
+sprite = "spr_facial_fullbeard"
+x = 1222.9
+y = 154.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_facial_goateebeard"
+sprite = "spr_facial_goateebeard"
+x = 17.7
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_facial_mountainman"
+sprite = "spr_facial_mountainman"
+x = 72.5
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_frustration_marker"
+sprite = "spr_frustration_marker"
+x = 127.2
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glasses_aviator"
+sprite = "spr_glasses_aviator"
+x = 182.0
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glasses_fashion"
+sprite = "spr_glasses_fashion"
+x = 236.8
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glasses_milk_bottle"
+sprite = "spr_glasses_milk_bottle"
+x = 291.6
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glasses_square"
+sprite = "spr_glasses_square"
+x = 346.4
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glasses_star"
+sprite = "spr_glasses_star"
+x = 401.1
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_afrolong_brown"
+sprite = "spr_hair_afrolong_brown"
+x = 455.9
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_afrolong_dark"
+sprite = "spr_hair_afrolong_dark"
+x = 510.7
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_anime_brown"
+sprite = "spr_hair_anime_brown"
+x = 565.5
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_anime_white"
+sprite = "spr_hair_anime_white"
+x = 620.3
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_anime_yellow"
+sprite = "spr_hair_anime_yellow"
+x = 675.1
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bald_dark"
+sprite = "spr_hair_bald_dark"
+x = 729.8
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bald_dark_grey"
+sprite = "spr_hair_bald_dark_grey"
+x = 784.6
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_band"
+sprite = "spr_hair_band"
+x = 839.4
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bigquiff_brown"
+sprite = "spr_hair_bigquiff_brown"
+x = 894.2
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bigquiff_dark"
+sprite = "spr_hair_bigquiff_dark"
+x = 949.0
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bigquiff_white"
+sprite = "spr_hair_bigquiff_white"
+x = 1003.8
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bobcut_blond"
+sprite = "spr_hair_bobcut_blond"
+x = 1058.5
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bobcut_pink"
+sprite = "spr_hair_bobcut_pink"
+x = 1113.3
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bobcut_red"
+sprite = "spr_hair_bobcut_red"
+x = 1168.1
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_bobcut_white"
+sprite = "spr_hair_bobcut_white"
+x = 1222.9
+y = 201.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_crewcut_blond"
+sprite = "spr_hair_crewcut_blond"
+x = 17.7
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_crewcut_brown"
+sprite = "spr_hair_crewcut_brown"
+x = 72.5
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_elfcurls_blond_copy"
+sprite = "spr_hair_elfcurls_blond_copy"
+x = 127.2
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_elfcurls_brown"
+sprite = "spr_hair_elfcurls_brown"
+x = 182.0
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_elfcurls_white"
+sprite = "spr_hair_elfcurls_white"
+x = 236.8
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_medium_length_sides_brown"
+sprite = "spr_hair_medium_length_sides_brown"
+x = 291.6
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_medium_length_sides_grey"
+sprite = "spr_hair_medium_length_sides_grey"
+x = 346.4
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_medium_lenth_sides_mix"
+sprite = "spr_hair_medium_lenth_sides_mix"
+x = 401.1
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_mohawk_brown"
+sprite = "spr_hair_mohawk_brown"
+x = 455.9
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_mohawk_colorful"
+sprite = "spr_hair_mohawk_colorful"
+x = 510.7
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_mohawk_fire"
+sprite = "spr_hair_mohawk_fire"
+x = 565.5
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pigtails_blond"
+sprite = "spr_hair_pigtails_blond"
+x = 620.3
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pigtails_brown"
+sprite = "spr_hair_pigtails_brown"
+x = 675.1
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pigtails_iconic"
+sprite = "spr_hair_pigtails_iconic"
+x = 729.8
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pigtails_red"
+sprite = "spr_hair_pigtails_red"
+x = 784.6
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pixiecut_brown"
+sprite = "spr_hair_pixiecut_brown"
+x = 839.4
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pixiecut_mix"
+sprite = "spr_hair_pixiecut_mix"
+x = 894.2
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_pixiecut_white"
+sprite = "spr_hair_pixiecut_white"
+x = 949.0
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_blond_01"
+sprite = "spr_hair_shoulder_length_blond_01"
+x = 1003.8
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_brown_01"
+sprite = "spr_hair_shoulder_length_brown_01"
+x = 1058.5
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_curly_blond_01"
+sprite = "spr_hair_shoulder_length_curly_blond_01"
+x = 1113.3
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_curly_brown_01"
+sprite = "spr_hair_shoulder_length_curly_brown_01"
+x = 1168.1
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_curly_grey_01"
+sprite = "spr_hair_shoulder_length_curly_grey_01"
+x = 1222.9
+y = 247.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_red_01"
+sprite = "spr_hair_shoulder_length_red_01"
+x = 17.7
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_shoulder_length_white_01"
+sprite = "spr_hair_shoulder_length_white_01"
+x = 72.5
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_single_bangs_blond_01"
+sprite = "spr_hair_single_bangs_blond_01"
+x = 127.2
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_single_bangs_brown_01"
+sprite = "spr_hair_single_bangs_brown_01"
+x = 182.0
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_single_bangs_grey_01"
+sprite = "spr_hair_single_bangs_grey_01"
+x = 236.8
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_skinfade_brown"
+sprite = "spr_hair_skinfade_brown"
+x = 291.6
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_skinfade_orange"
+sprite = "spr_hair_skinfade_orange"
+x = 346.4
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_skinfade_white"
+sprite = "spr_hair_skinfade_white"
+x = 401.1
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_topknot_blond"
+sprite = "spr_hair_topknot_blond"
+x = 455.9
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_topknot_brown"
+sprite = "spr_hair_topknot_brown"
+x = 510.7
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hair_topknot_dark"
+sprite = "spr_hair_topknot_dark"
+x = 565.5
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_baseball"
+sprite = "spr_hat_baseball"
+x = 620.3
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_beanie"
+sprite = "spr_hat_beanie"
+x = 675.1
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_bow"
+sprite = "spr_hat_bow"
+x = 729.8
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_cowboy"
+sprite = "spr_hat_cowboy"
+x = 784.6
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_pirate"
+sprite = "spr_hat_pirate"
+x = 839.4
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_roman"
+sprite = "spr_hat_roman"
+x = 894.2
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_space_helmet"
+sprite = "spr_hat_space_helmet"
+x = 949.0
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hat_top"
+sprite = "spr_hat_top"
+x = 1003.8
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_headphone"
+sprite = "spr_headphone"
+x = 1058.5
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iris_blue"
+sprite = "spr_iris_blue"
+x = 1113.3
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iris_brown"
+sprite = "spr_iris_brown"
+x = 1168.1
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iris_green"
+sprite = "spr_iris_green"
+x = 1222.9
+y = 293.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_iris_grey"
+sprite = "spr_iris_grey"
+x = 17.7
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_01"
+sprite = "spr_lips_full_closed_skintone_01"
+x = 72.5
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_02"
+sprite = "spr_lips_full_closed_skintone_02"
+x = 127.2
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_03"
+sprite = "spr_lips_full_closed_skintone_03"
+x = 182.0
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_04"
+sprite = "spr_lips_full_closed_skintone_04"
+x = 236.8
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_05"
+sprite = "spr_lips_full_closed_skintone_05"
+x = 291.6
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_closed_skintone_06"
+sprite = "spr_lips_full_closed_skintone_06"
+x = 346.4
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_01"
+sprite = "spr_lips_full_skintone_01"
+x = 401.1
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_02"
+sprite = "spr_lips_full_skintone_02"
+x = 455.9
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_03"
+sprite = "spr_lips_full_skintone_03"
+x = 510.7
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_04"
+sprite = "spr_lips_full_skintone_04"
+x = 565.5
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_05"
+sprite = "spr_lips_full_skintone_05"
+x = 620.3
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_full_skintone_06"
+sprite = "spr_lips_full_skintone_06"
+x = 675.1
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_01"
+sprite = "spr_lips_lower_heavy_closed_skintone_01"
+x = 729.8
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_02"
+sprite = "spr_lips_lower_heavy_closed_skintone_02"
+x = 784.6
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_03"
+sprite = "spr_lips_lower_heavy_closed_skintone_03"
+x = 839.4
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_04"
+sprite = "spr_lips_lower_heavy_closed_skintone_04"
+x = 894.2
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_05"
+sprite = "spr_lips_lower_heavy_closed_skintone_05"
+x = 949.0
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_closed_skintone_06"
+sprite = "spr_lips_lower_heavy_closed_skintone_06"
+x = 1003.8
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_01"
+sprite = "spr_lips_lower_heavy_skintone_01"
+x = 1058.5
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_02"
+sprite = "spr_lips_lower_heavy_skintone_02"
+x = 1113.3
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_03"
+sprite = "spr_lips_lower_heavy_skintone_03"
+x = 1168.1
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_04"
+sprite = "spr_lips_lower_heavy_skintone_04"
+x = 1222.9
+y = 340.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_05"
+sprite = "spr_lips_lower_heavy_skintone_05"
+x = 17.7
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_lower_heavy_skintone_06"
+sprite = "spr_lips_lower_heavy_skintone_06"
+x = 72.5
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_01"
+sprite = "spr_lips_round_closed_skintone_01"
+x = 127.2
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_02"
+sprite = "spr_lips_round_closed_skintone_02"
+x = 182.0
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_03"
+sprite = "spr_lips_round_closed_skintone_03"
+x = 236.8
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_04"
+sprite = "spr_lips_round_closed_skintone_04"
+x = 291.6
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_05"
+sprite = "spr_lips_round_closed_skintone_05"
+x = 346.4
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_closed_skintone_06"
+sprite = "spr_lips_round_closed_skintone_06"
+x = 401.1
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_01"
+sprite = "spr_lips_round_skintone_01"
+x = 455.9
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_02"
+sprite = "spr_lips_round_skintone_02"
+x = 510.7
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_03"
+sprite = "spr_lips_round_skintone_03"
+x = 565.5
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_04"
+sprite = "spr_lips_round_skintone_04"
+x = 620.3
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_05"
+sprite = "spr_lips_round_skintone_05"
+x = 675.1
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_round_skintone_06"
+sprite = "spr_lips_round_skintone_06"
+x = 729.8
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_01"
+sprite = "spr_lips_thin_closed_skintone_01"
+x = 784.6
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_02"
+sprite = "spr_lips_thin_closed_skintone_02"
+x = 839.4
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_03"
+sprite = "spr_lips_thin_closed_skintone_03"
+x = 894.2
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_04"
+sprite = "spr_lips_thin_closed_skintone_04"
+x = 949.0
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_05"
+sprite = "spr_lips_thin_closed_skintone_05"
+x = 1003.8
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_closed_skintone_06"
+sprite = "spr_lips_thin_closed_skintone_06"
+x = 1058.5
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_01"
+sprite = "spr_lips_thin_skintone_01"
+x = 1113.3
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_02"
+sprite = "spr_lips_thin_skintone_02"
+x = 1168.1
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_03"
+sprite = "spr_lips_thin_skintone_03"
+x = 1222.9
+y = 386.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_04"
+sprite = "spr_lips_thin_skintone_04"
+x = 17.7
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_05"
+sprite = "spr_lips_thin_skintone_05"
+x = 72.5
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lips_thin_skintone_06"
+sprite = "spr_lips_thin_skintone_06"
+x = 127.2
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mask_camouflage"
+sprite = "spr_mask_camouflage"
+x = 182.0
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mask_sergical"
+sprite = "spr_mask_sergical"
+x = 236.8
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mask_spooky"
+sprite = "spr_mask_spooky"
+x = 291.6
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_01"
+sprite = "spr_nose_aquiline_skintone_01"
+x = 346.4
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_02"
+sprite = "spr_nose_aquiline_skintone_02"
+x = 401.1
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_03"
+sprite = "spr_nose_aquiline_skintone_03"
+x = 455.9
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_04"
+sprite = "spr_nose_aquiline_skintone_04"
+x = 510.7
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_05"
+sprite = "spr_nose_aquiline_skintone_05"
+x = 565.5
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_aquiline_skintone_06"
+sprite = "spr_nose_aquiline_skintone_06"
+x = 620.3
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_01"
+sprite = "spr_nose_broken_skintone_01"
+x = 675.1
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_02"
+sprite = "spr_nose_broken_skintone_02"
+x = 729.8
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_03"
+sprite = "spr_nose_broken_skintone_03"
+x = 784.6
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_04"
+sprite = "spr_nose_broken_skintone_04"
+x = 839.4
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_05"
+sprite = "spr_nose_broken_skintone_05"
+x = 894.2
+y = 433.1
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_broken_skintone_06"
+sprite = "spr_nose_broken_skintone_06"
+x = 17.7
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_01"
+sprite = "spr_nose_nubian_skintone_01"
+x = 72.5
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_02"
+sprite = "spr_nose_nubian_skintone_02"
+x = 127.2
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_03"
+sprite = "spr_nose_nubian_skintone_03"
+x = 182.0
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_04"
+sprite = "spr_nose_nubian_skintone_04"
+x = 236.8
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_05"
+sprite = "spr_nose_nubian_skintone_05"
+x = 291.6
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_nubian_skintone_06"
+sprite = "spr_nose_nubian_skintone_06"
+x = 346.4
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_ring"
+sprite = "spr_nose_ring"
+x = 401.1
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_01"
+sprite = "spr_nose_round_skintone_01"
+x = 455.9
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_02"
+sprite = "spr_nose_round_skintone_02"
+x = 510.7
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_03"
+sprite = "spr_nose_round_skintone_03"
+x = 565.5
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_04"
+sprite = "spr_nose_round_skintone_04"
+x = 620.3
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_05"
+sprite = "spr_nose_round_skintone_05"
+x = 675.1
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_round_skintone_06"
+sprite = "spr_nose_round_skintone_06"
+x = 729.8
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_01"
+sprite = "spr_nose_snub_skintone_01"
+x = 784.6
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_02"
+sprite = "spr_nose_snub_skintone_02"
+x = 839.4
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_03"
+sprite = "spr_nose_snub_skintone_03"
+x = 894.2
+y = 479.5
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_04"
+sprite = "spr_nose_snub_skintone_04"
+x = 17.7
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_05"
+sprite = "spr_nose_snub_skintone_05"
+x = 72.5
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_snub_skintone_06"
+sprite = "spr_nose_snub_skintone_06"
+x = 127.2
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_01"
+sprite = "spr_nose_straight_skintone_01"
+x = 182.0
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_02"
+sprite = "spr_nose_straight_skintone_02"
+x = 236.8
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_03"
+sprite = "spr_nose_straight_skintone_03"
+x = 291.6
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_04"
+sprite = "spr_nose_straight_skintone_04"
+x = 346.4
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_05"
+sprite = "spr_nose_straight_skintone_05"
+x = 401.1
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_nose_straight_skintone_06"
+sprite = "spr_nose_straight_skintone_06"
+x = 455.9
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pupil_goat"
+sprite = "spr_pupil_goat"
+x = 510.7
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_pupil_heart"
+sprite = "spr_pupil_heart"
+x = 565.5
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_septum_ring"
+sprite = "spr_septum_ring"
+x = 620.3
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spots_crossedscar"
+sprite = "spr_spots_crossedscar"
+x = 675.1
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spots_freckles"
+sprite = "spr_spots_freckles"
+x = 729.8
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spots_scar"
+sprite = "spr_spots_scar"
+x = 784.6
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_armor"
+sprite = "spr_torso_feminine_armor"
+x = 839.4
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_hoodie_01"
+sprite = "spr_torso_feminine_hoodie_01"
+x = 894.2
+y = 525.9
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_hoodie_02"
+sprite = "spr_torso_feminine_hoodie_02"
+x = 17.7
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_hoodie_03"
+sprite = "spr_torso_feminine_hoodie_03"
+x = 72.5
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_shirt_01"
+sprite = "spr_torso_feminine_shirt_01"
+x = 127.2
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_shirt_02"
+sprite = "spr_torso_feminine_shirt_02"
+x = 182.0
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_shirt_03"
+sprite = "spr_torso_feminine_shirt_03"
+x = 236.8
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_01"
+sprite = "spr_torso_feminine_skintone_01"
+x = 291.6
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_02"
+sprite = "spr_torso_feminine_skintone_02"
+x = 346.4
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_03"
+sprite = "spr_torso_feminine_skintone_03"
+x = 401.1
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_04"
+sprite = "spr_torso_feminine_skintone_04"
+x = 455.9
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_05"
+sprite = "spr_torso_feminine_skintone_05"
+x = 510.7
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_skintone_06"
+sprite = "spr_torso_feminine_skintone_06"
+x = 565.5
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_t_shirt_01"
+sprite = "spr_torso_feminine_t_shirt_01"
+x = 620.3
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_t_shirt_02"
+sprite = "spr_torso_feminine_t_shirt_02"
+x = 675.1
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_feminine_t_shirt_03"
+sprite = "spr_torso_feminine_t_shirt_03"
+x = 729.8
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_armor"
+sprite = "spr_torso_masculine_armor"
+x = 784.6
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_hoodie_01"
+sprite = "spr_torso_masculine_hoodie_01"
+x = 839.4
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_hoodie_02"
+sprite = "spr_torso_masculine_hoodie_02"
+x = 894.2
+y = 572.3
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_hoodie_03"
+sprite = "spr_torso_masculine_hoodie_03"
+x = 17.7
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_shirt_01"
+sprite = "spr_torso_masculine_shirt_01"
+x = 72.5
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_shirt_02"
+sprite = "spr_torso_masculine_shirt_02"
+x = 127.2
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_shirt_03"
+sprite = "spr_torso_masculine_shirt_03"
+x = 182.0
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_01"
+sprite = "spr_torso_masculine_skintone_01"
+x = 236.8
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_02"
+sprite = "spr_torso_masculine_skintone_02"
+x = 291.6
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_03"
+sprite = "spr_torso_masculine_skintone_03"
+x = 346.4
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_04"
+sprite = "spr_torso_masculine_skintone_04"
+x = 401.1
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_05"
+sprite = "spr_torso_masculine_skintone_05"
+x = 455.9
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_skintone_06"
+sprite = "spr_torso_masculine_skintone_06"
+x = 510.7
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_t_shirt_01"
+sprite = "spr_torso_masculine_t_shirt_01"
+x = 565.5
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_t_shirt_02"
+sprite = "spr_torso_masculine_t_shirt_02"
+x = 620.3
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_torso_masculine_t_shirt_03"
+sprite = "spr_torso_masculine_t_shirt_03"
+x = 675.1
+y = 618.7
+scale_x = 0.07888
+scale_y = 0.07888
+rotation = 0.0
+colour = "#FFFFFFFF"
+

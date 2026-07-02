@@ -1,0 +1,2668 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_alien_skull"
+sprite = "spr_alien_skull"
+x = 17.5
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_skull_with_stroke"
+sprite = "spr_alien_skull_with_stroke"
+x = 74.8
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tablet"
+sprite = "spr_alien_tablet"
+x = 132.1
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tablet_with_stroke"
+sprite = "spr_alien_tablet_with_stroke"
+x = 189.3
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_01"
+sprite = "spr_alien_tree_01"
+x = 246.6
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_01_with_stroke"
+sprite = "spr_alien_tree_01_with_stroke"
+x = 303.9
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_02"
+sprite = "spr_alien_tree_02"
+x = 361.1
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_02_with_stroke"
+sprite = "spr_alien_tree_02_with_stroke"
+x = 418.4
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_03"
+sprite = "spr_alien_tree_03"
+x = 475.7
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_alien_tree_03_with_stroke"
+sprite = "spr_alien_tree_03_with_stroke"
+x = 533.0
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_astronaut_thruster_01"
+sprite = "spr_astronaut_thruster_01"
+x = 590.2
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_astronaut_thruster_01_with_stroke"
+sprite = "spr_astronaut_thruster_01_with_stroke"
+x = 647.5
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_astronaut_thruster_02"
+sprite = "spr_astronaut_thruster_02"
+x = 704.8
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_astronaut_thruster_02_with_stroke"
+sprite = "spr_astronaut_thruster_02_with_stroke"
+x = 762.1
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blaster"
+sprite = "spr_blaster"
+x = 819.3
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blaster_with_stroke"
+sprite = "spr_blaster_with_stroke"
+x = 876.6
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blowtorch"
+sprite = "spr_blowtorch"
+x = 933.9
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blowtorch_with_stroke"
+sprite = "spr_blowtorch_with_stroke"
+x = 991.1
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_01"
+sprite = "spr_bush_01"
+x = 1048.4
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_01_with_stroke"
+sprite = "spr_bush_01_with_stroke"
+x = 1105.7
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_02"
+sprite = "spr_bush_02"
+x = 1163.0
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_02_with_stroke"
+sprite = "spr_bush_02_with_stroke"
+x = 1220.2
+y = 15.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_03"
+sprite = "spr_bush_03"
+x = 17.5
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bush_03_with_stroke"
+sprite = "spr_bush_03_with_stroke"
+x = 74.8
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chunky_holographic_device"
+sprite = "spr_chunky_holographic_device"
+x = 132.1
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_chunky_holographic_device_with_stroke"
+sprite = "spr_chunky_holographic_device_with_stroke"
+x = 189.3
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_blue"
+sprite = "spr_crate_01_blue"
+x = 246.6
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_blue_with_stroke"
+sprite = "spr_crate_01_blue_with_stroke"
+x = 303.9
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_cyan"
+sprite = "spr_crate_01_cyan"
+x = 361.1
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_cyan_with_stroke"
+sprite = "spr_crate_01_cyan_with_stroke"
+x = 418.4
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_green"
+sprite = "spr_crate_01_green"
+x = 475.7
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_green_with_stroke"
+sprite = "spr_crate_01_green_with_stroke"
+x = 533.0
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_orange"
+sprite = "spr_crate_01_orange"
+x = 590.2
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_orange_with_stroke"
+sprite = "spr_crate_01_orange_with_stroke"
+x = 647.5
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_pink"
+sprite = "spr_crate_01_pink"
+x = 704.8
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_pink_with_stroke"
+sprite = "spr_crate_01_pink_with_stroke"
+x = 762.1
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_purple"
+sprite = "spr_crate_01_purple"
+x = 819.3
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_purple_with_stroke"
+sprite = "spr_crate_01_purple_with_stroke"
+x = 876.6
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_red"
+sprite = "spr_crate_01_red"
+x = 933.9
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_red_with_stroke"
+sprite = "spr_crate_01_red_with_stroke"
+x = 991.1
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_yellow"
+sprite = "spr_crate_01_yellow"
+x = 1048.4
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_01_yellow_with_stroke"
+sprite = "spr_crate_01_yellow_with_stroke"
+x = 1105.7
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_blue"
+sprite = "spr_crate_02_blue"
+x = 1163.0
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_blue_with_stroke"
+sprite = "spr_crate_02_blue_with_stroke"
+x = 1220.2
+y = 65.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_cyan"
+sprite = "spr_crate_02_cyan"
+x = 17.5
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_cyan_with_stroke"
+sprite = "spr_crate_02_cyan_with_stroke"
+x = 74.8
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_green"
+sprite = "spr_crate_02_green"
+x = 132.1
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_green_with_stroke"
+sprite = "spr_crate_02_green_with_stroke"
+x = 189.3
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_orange"
+sprite = "spr_crate_02_orange"
+x = 246.6
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_orange_with_stroke"
+sprite = "spr_crate_02_orange_with_stroke"
+x = 303.9
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_pink"
+sprite = "spr_crate_02_pink"
+x = 361.1
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_pink_with_stroke"
+sprite = "spr_crate_02_pink_with_stroke"
+x = 418.4
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_purple"
+sprite = "spr_crate_02_purple"
+x = 475.7
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_purple_with_stroke"
+sprite = "spr_crate_02_purple_with_stroke"
+x = 533.0
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_red"
+sprite = "spr_crate_02_red"
+x = 590.2
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_red_with_stroke"
+sprite = "spr_crate_02_red_with_stroke"
+x = 647.5
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_yellow"
+sprite = "spr_crate_02_yellow"
+x = 704.8
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_crate_02_yellow_with_stroke"
+sprite = "spr_crate_02_yellow_with_stroke"
+x = 762.1
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_datapad_01"
+sprite = "spr_datapad_01"
+x = 819.3
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_datapad_01_with_stroke"
+sprite = "spr_datapad_01_with_stroke"
+x = 876.6
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_datapad_02"
+sprite = "spr_datapad_02"
+x = 933.9
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_datapad_02_with_stroke"
+sprite = "spr_datapad_02_with_stroke"
+x = 991.1
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_first_aid_01"
+sprite = "spr_first_aid_01"
+x = 1048.4
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_first_aid_01_with_stroke"
+sprite = "spr_first_aid_01_with_stroke"
+x = 1105.7
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_first_aid_02"
+sprite = "spr_first_aid_02"
+x = 1163.0
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_first_aid_02_with_stroke"
+sprite = "spr_first_aid_02_with_stroke"
+x = 1220.2
+y = 115.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_alien_skull"
+sprite = "spr_flatblack_alien_skull"
+x = 17.5
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_alien_tablet"
+sprite = "spr_flatblack_alien_tablet"
+x = 74.8
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_alien_tree_01"
+sprite = "spr_flatblack_alien_tree_01"
+x = 132.1
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_alien_tree_02"
+sprite = "spr_flatblack_alien_tree_02"
+x = 189.3
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_alien_tree_03"
+sprite = "spr_flatblack_alien_tree_03"
+x = 246.6
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_astronaut_thruster"
+sprite = "spr_flatblack_astronaut_thruster"
+x = 303.9
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_blaster"
+sprite = "spr_flatblack_blaster"
+x = 361.1
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_blowtorch"
+sprite = "spr_flatblack_blowtorch"
+x = 418.4
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bush_01"
+sprite = "spr_flatblack_bush_01"
+x = 475.7
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bush_02"
+sprite = "spr_flatblack_bush_02"
+x = 533.0
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_bush_03"
+sprite = "spr_flatblack_bush_03"
+x = 590.2
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_chunky_holographic_device"
+sprite = "spr_flatblack_chunky_holographic_device"
+x = 647.5
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_crate"
+sprite = "spr_flatblack_crate"
+x = 704.8
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_crate_small"
+sprite = "spr_flatblack_crate_small"
+x = 762.1
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_datapad_01"
+sprite = "spr_flatblack_datapad_01"
+x = 819.3
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_datapad_02"
+sprite = "spr_flatblack_datapad_02"
+x = 876.6
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_first_aid_01"
+sprite = "spr_flatblack_first_aid_01"
+x = 933.9
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_first_aid_02"
+sprite = "spr_flatblack_first_aid_02"
+x = 991.1
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_flying_saucer"
+sprite = "spr_flatblack_flying_saucer"
+x = 1048.4
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_glowing_handheld_device"
+sprite = "spr_flatblack_glowing_handheld_device"
+x = 1105.7
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_glowing_space_crystals_01"
+sprite = "spr_flatblack_glowing_space_crystals_01"
+x = 1163.0
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_glowing_space_crystals_02"
+sprite = "spr_flatblack_glowing_space_crystals_02"
+x = 1220.2
+y = 164.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_hand"
+sprite = "spr_flatblack_hand"
+x = 17.5
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_hand_laser"
+sprite = "spr_flatblack_hand_laser"
+x = 74.8
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_heart"
+sprite = "spr_flatblack_heart"
+x = 132.1
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_hyper_screwdriver"
+sprite = "spr_flatblack_hyper_screwdriver"
+x = 189.3
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_jetpack"
+sprite = "spr_flatblack_jetpack"
+x = 246.6
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_laser_blaster"
+sprite = "spr_flatblack_laser_blaster"
+x = 303.9
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_medal"
+sprite = "spr_flatblack_medal"
+x = 361.1
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_messenger_bag"
+sprite = "spr_flatblack_messenger_bag"
+x = 418.4
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_modern_astronaut_helmet_01"
+sprite = "spr_flatblack_modern_astronaut_helmet_01"
+x = 475.7
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_modern_astronaut_helmet_02"
+sprite = "spr_flatblack_modern_astronaut_helmet_02"
+x = 533.0
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plasmablade"
+sprite = "spr_flatblack_plasmablade"
+x = 590.2
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_plasmablade_no_beam"
+sprite = "spr_flatblack_plasmablade_no_beam"
+x = 647.5
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_rocket_ship"
+sprite = "spr_flatblack_rocket_ship"
+x = 704.8
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_screen"
+sprite = "spr_flatblack_screen"
+x = 762.1
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_space_shuttle"
+sprite = "spr_flatblack_space_shuttle"
+x = 819.3
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_testtube"
+sprite = "spr_flatblack_testtube"
+x = 876.6
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_testtube_stopper"
+sprite = "spr_flatblack_testtube_stopper"
+x = 933.9
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_timedevice"
+sprite = "spr_flatblack_timedevice"
+x = 991.1
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_triangular_crate"
+sprite = "spr_flatblack_triangular_crate"
+x = 1048.4
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatblack_warpdrive"
+sprite = "spr_flatblack_warpdrive"
+x = 1105.7
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_alien_skull"
+sprite = "spr_flatwhite_alien_skull"
+x = 1163.0
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_alien_tablet"
+sprite = "spr_flatwhite_alien_tablet"
+x = 1220.2
+y = 214.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_alien_tree_01"
+sprite = "spr_flatwhite_alien_tree_01"
+x = 17.5
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_alien_tree_02"
+sprite = "spr_flatwhite_alien_tree_02"
+x = 74.8
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_alien_tree_03"
+sprite = "spr_flatwhite_alien_tree_03"
+x = 132.1
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_astronaut_thruster"
+sprite = "spr_flatwhite_astronaut_thruster"
+x = 189.3
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_blaster"
+sprite = "spr_flatwhite_blaster"
+x = 246.6
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_blowtorch"
+sprite = "spr_flatwhite_blowtorch"
+x = 303.9
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bush_01"
+sprite = "spr_flatwhite_bush_01"
+x = 361.1
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bush_02"
+sprite = "spr_flatwhite_bush_02"
+x = 418.4
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_bush_03"
+sprite = "spr_flatwhite_bush_03"
+x = 475.7
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_chunky_holographic_device"
+sprite = "spr_flatwhite_chunky_holographic_device"
+x = 533.0
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_crate"
+sprite = "spr_flatwhite_crate"
+x = 590.2
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_crate_small"
+sprite = "spr_flatwhite_crate_small"
+x = 647.5
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_datapad_01"
+sprite = "spr_flatwhite_datapad_01"
+x = 704.8
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_datapad_02"
+sprite = "spr_flatwhite_datapad_02"
+x = 762.1
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_first_aid_01"
+sprite = "spr_flatwhite_first_aid_01"
+x = 819.3
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_first_aid_02"
+sprite = "spr_flatwhite_first_aid_02"
+x = 876.6
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_flying_saucer"
+sprite = "spr_flatwhite_flying_saucer"
+x = 933.9
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_glowing_handheld_device"
+sprite = "spr_flatwhite_glowing_handheld_device"
+x = 991.1
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_glowing_space_crystals_01"
+sprite = "spr_flatwhite_glowing_space_crystals_01"
+x = 1048.4
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_glowing_space_crystals_02"
+sprite = "spr_flatwhite_glowing_space_crystals_02"
+x = 1105.7
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_hand"
+sprite = "spr_flatwhite_hand"
+x = 1163.0
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_hand_laser"
+sprite = "spr_flatwhite_hand_laser"
+x = 1220.2
+y = 264.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_heart"
+sprite = "spr_flatwhite_heart"
+x = 17.5
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_hyper_screwdriver"
+sprite = "spr_flatwhite_hyper_screwdriver"
+x = 74.8
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_jetpack"
+sprite = "spr_flatwhite_jetpack"
+x = 132.1
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_laser_blaster"
+sprite = "spr_flatwhite_laser_blaster"
+x = 189.3
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_medal"
+sprite = "spr_flatwhite_medal"
+x = 246.6
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_messenger_bag"
+sprite = "spr_flatwhite_messenger_bag"
+x = 303.9
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_modern_astronaut_helmet_01"
+sprite = "spr_flatwhite_modern_astronaut_helmet_01"
+x = 361.1
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_modern_astronaut_helmet_02"
+sprite = "spr_flatwhite_modern_astronaut_helmet_02"
+x = 418.4
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plasmablade"
+sprite = "spr_flatwhite_plasmablade"
+x = 475.7
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_plasmablade_no_beam"
+sprite = "spr_flatwhite_plasmablade_no_beam"
+x = 533.0
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_rocket_ship"
+sprite = "spr_flatwhite_rocket_ship"
+x = 590.2
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_screen"
+sprite = "spr_flatwhite_screen"
+x = 647.5
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_space_shuttle"
+sprite = "spr_flatwhite_space_shuttle"
+x = 704.8
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_testtube"
+sprite = "spr_flatwhite_testtube"
+x = 762.1
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_testtube_stopper"
+sprite = "spr_flatwhite_testtube_stopper"
+x = 819.3
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_timedevice"
+sprite = "spr_flatwhite_timedevice"
+x = 876.6
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_triangular_crate"
+sprite = "spr_flatwhite_triangular_crate"
+x = 933.9
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flatwhite_warpdrive"
+sprite = "spr_flatwhite_warpdrive"
+x = 991.1
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flying_saucer"
+sprite = "spr_flying_saucer"
+x = 1048.4
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flying_saucer_with_stroke"
+sprite = "spr_flying_saucer_with_stroke"
+x = 1105.7
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_handheld_device"
+sprite = "spr_glowing_handheld_device"
+x = 1163.0
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_handheld_device_with_stroke"
+sprite = "spr_glowing_handheld_device_with_stroke"
+x = 1220.2
+y = 314.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_01"
+sprite = "spr_glowing_space_crystals_01"
+x = 17.5
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_01_with_stroke"
+sprite = "spr_glowing_space_crystals_01_with_stroke"
+x = 74.8
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_02"
+sprite = "spr_glowing_space_crystals_02"
+x = 132.1
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_02_with_stroke"
+sprite = "spr_glowing_space_crystals_02_with_stroke"
+x = 189.3
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_03"
+sprite = "spr_glowing_space_crystals_03"
+x = 246.6
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_glowing_space_crystals_03_with_stroke"
+sprite = "spr_glowing_space_crystals_03_with_stroke"
+x = 303.9
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand"
+sprite = "spr_hand"
+x = 361.1
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand_laser"
+sprite = "spr_hand_laser"
+x = 418.4
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand_laser_with_stroke"
+sprite = "spr_hand_laser_with_stroke"
+x = 475.7
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hand_with_stroke"
+sprite = "spr_hand_with_stroke"
+x = 533.0
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_heart"
+sprite = "spr_heart"
+x = 590.2
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_heart_with_stroke"
+sprite = "spr_heart_with_stroke"
+x = 647.5
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hyper_screwdriver"
+sprite = "spr_hyper_screwdriver"
+x = 704.8
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_hyper_screwdriver_with_stroke"
+sprite = "spr_hyper_screwdriver_with_stroke"
+x = 762.1
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jetpack_01"
+sprite = "spr_jetpack_01"
+x = 819.3
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jetpack_01_with_stroke"
+sprite = "spr_jetpack_01_with_stroke"
+x = 876.6
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jetpack_02"
+sprite = "spr_jetpack_02"
+x = 933.9
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_jetpack_02_with_stroke"
+sprite = "spr_jetpack_02_with_stroke"
+x = 991.1
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_laser_blaster"
+sprite = "spr_laser_blaster"
+x = 1048.4
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_laser_blaster_with_stroke"
+sprite = "spr_laser_blaster_with_stroke"
+x = 1105.7
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_bronze"
+sprite = "spr_medal_bronze"
+x = 1163.0
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_bronze_with_stroke"
+sprite = "spr_medal_bronze_with_stroke"
+x = 1220.2
+y = 363.7
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_gold"
+sprite = "spr_medal_gold"
+x = 17.5
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_gold_with_stroke"
+sprite = "spr_medal_gold_with_stroke"
+x = 74.8
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_silver"
+sprite = "spr_medal_silver"
+x = 132.1
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_medal_silver_with_stroke"
+sprite = "spr_medal_silver_with_stroke"
+x = 189.3
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_messenger_bag"
+sprite = "spr_messenger_bag"
+x = 246.6
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_messenger_bag_with_stroke"
+sprite = "spr_messenger_bag_with_stroke"
+x = 303.9
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_modern_astronaut_helmet_01"
+sprite = "spr_modern_astronaut_helmet_01"
+x = 361.1
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_modern_astronaut_helmet_01_with_stroke"
+sprite = "spr_modern_astronaut_helmet_01_with_stroke"
+x = 418.4
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_modern_astronaut_helmet_02"
+sprite = "spr_modern_astronaut_helmet_02"
+x = 475.7
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_modern_astronaut_helmet_02_with_stroke"
+sprite = "spr_modern_astronaut_helmet_02_with_stroke"
+x = 533.0
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_blue"
+sprite = "spr_plasmablade_blue"
+x = 590.2
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_blue_with_stroke"
+sprite = "spr_plasmablade_blue_with_stroke"
+x = 647.5
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_cyan"
+sprite = "spr_plasmablade_cyan"
+x = 704.8
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_cyan_with_stroke"
+sprite = "spr_plasmablade_cyan_with_stroke"
+x = 762.1
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_green"
+sprite = "spr_plasmablade_green"
+x = 819.3
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_green_with_stroke"
+sprite = "spr_plasmablade_green_with_stroke"
+x = 876.6
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_nobeam"
+sprite = "spr_plasmablade_nobeam"
+x = 933.9
+y = 413.4
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_nobeam_with_stroke"
+sprite = "spr_plasmablade_nobeam_with_stroke"
+x = 17.5
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_orange"
+sprite = "spr_plasmablade_orange"
+x = 74.8
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_orange_with_stroke"
+sprite = "spr_plasmablade_orange_with_stroke"
+x = 132.1
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_pink"
+sprite = "spr_plasmablade_pink"
+x = 189.3
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_pink_with_stroke"
+sprite = "spr_plasmablade_pink_with_stroke"
+x = 246.6
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_purple"
+sprite = "spr_plasmablade_purple"
+x = 303.9
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_purple_with_stroke"
+sprite = "spr_plasmablade_purple_with_stroke"
+x = 361.1
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_red"
+sprite = "spr_plasmablade_red"
+x = 418.4
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_red_with_stroke"
+sprite = "spr_plasmablade_red_with_stroke"
+x = 475.7
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_yellow"
+sprite = "spr_plasmablade_yellow"
+x = 533.0
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plasmablade_yellow_with_stroke"
+sprite = "spr_plasmablade_yellow_with_stroke"
+x = 590.2
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rocket_ship"
+sprite = "spr_rocket_ship"
+x = 647.5
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_rocket_ship_with_stroke"
+sprite = "spr_rocket_ship_with_stroke"
+x = 704.8
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_screen"
+sprite = "spr_screen"
+x = 762.1
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_screen_with_stroke"
+sprite = "spr_screen_with_stroke"
+x = 819.3
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_space_shuttle"
+sprite = "spr_space_shuttle"
+x = 876.6
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_space_shuttle_with_stroke"
+sprite = "spr_space_shuttle_with_stroke"
+x = 933.9
+y = 463.2
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_blue"
+sprite = "spr_testtube_blue"
+x = 17.5
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_blue_with_stroke"
+sprite = "spr_testtube_blue_with_stroke"
+x = 74.8
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_cyan"
+sprite = "spr_testtube_cyan"
+x = 132.1
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_cyan_with_stroke"
+sprite = "spr_testtube_cyan_with_stroke"
+x = 189.3
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_green"
+sprite = "spr_testtube_green"
+x = 246.6
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_green_with_stroke"
+sprite = "spr_testtube_green_with_stroke"
+x = 303.9
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_orange"
+sprite = "spr_testtube_orange"
+x = 361.1
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_orange_with_stroke"
+sprite = "spr_testtube_orange_with_stroke"
+x = 418.4
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_pink"
+sprite = "spr_testtube_pink"
+x = 475.7
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_pink_with_stroke"
+sprite = "spr_testtube_pink_with_stroke"
+x = 533.0
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_purple"
+sprite = "spr_testtube_purple"
+x = 590.2
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_purple_with_stroke"
+sprite = "spr_testtube_purple_with_stroke"
+x = 647.5
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_red"
+sprite = "spr_testtube_red"
+x = 704.8
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_red_with_stroke"
+sprite = "spr_testtube_red_with_stroke"
+x = 762.1
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_blue"
+sprite = "spr_testtube_stopper_blue"
+x = 819.3
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_blue_with_stroke"
+sprite = "spr_testtube_stopper_blue_with_stroke"
+x = 876.6
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_cyan"
+sprite = "spr_testtube_stopper_cyan"
+x = 933.9
+y = 512.9
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_cyan_with_stroke"
+sprite = "spr_testtube_stopper_cyan_with_stroke"
+x = 17.5
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_green"
+sprite = "spr_testtube_stopper_green"
+x = 74.8
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_green_with_stroke"
+sprite = "spr_testtube_stopper_green_with_stroke"
+x = 132.1
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_orange"
+sprite = "spr_testtube_stopper_orange"
+x = 189.3
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_orange_with_stroke"
+sprite = "spr_testtube_stopper_orange_with_stroke"
+x = 246.6
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_pink"
+sprite = "spr_testtube_stopper_pink"
+x = 303.9
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_pink_with_stroke"
+sprite = "spr_testtube_stopper_pink_with_stroke"
+x = 361.1
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_purple"
+sprite = "spr_testtube_stopper_purple"
+x = 418.4
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_purple_with_stroke"
+sprite = "spr_testtube_stopper_purple_with_stroke"
+x = 475.7
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_red"
+sprite = "spr_testtube_stopper_red"
+x = 533.0
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_red_with_stroke"
+sprite = "spr_testtube_stopper_red_with_stroke"
+x = 590.2
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_water"
+sprite = "spr_testtube_stopper_water"
+x = 647.5
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_water_with_stroke"
+sprite = "spr_testtube_stopper_water_with_stroke"
+x = 704.8
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_yellow"
+sprite = "spr_testtube_stopper_yellow"
+x = 762.1
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_stopper_yellow_with_stroke"
+sprite = "spr_testtube_stopper_yellow_with_stroke"
+x = 819.3
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_water"
+sprite = "spr_testtube_water"
+x = 876.6
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_water_with_stroke"
+sprite = "spr_testtube_water_with_stroke"
+x = 933.9
+y = 562.6
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_yellow"
+sprite = "spr_testtube_yellow"
+x = 17.5
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_testtube_yellow_with_stroke"
+sprite = "spr_testtube_yellow_with_stroke"
+x = 74.8
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_timedevice"
+sprite = "spr_timedevice"
+x = 132.1
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_timedevice_with_stroke"
+sprite = "spr_timedevice_with_stroke"
+x = 189.3
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_blue"
+sprite = "spr_triangular_crate_blue"
+x = 246.6
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_blue_with_stroke"
+sprite = "spr_triangular_crate_blue_with_stroke"
+x = 303.9
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_cyan"
+sprite = "spr_triangular_crate_cyan"
+x = 361.1
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_cyan_with_stroke"
+sprite = "spr_triangular_crate_cyan_with_stroke"
+x = 418.4
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_green"
+sprite = "spr_triangular_crate_green"
+x = 475.7
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_green_with_stroke"
+sprite = "spr_triangular_crate_green_with_stroke"
+x = 533.0
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_orange"
+sprite = "spr_triangular_crate_orange"
+x = 590.2
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_orange_with_stroke"
+sprite = "spr_triangular_crate_orange_with_stroke"
+x = 647.5
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_pink"
+sprite = "spr_triangular_crate_pink"
+x = 704.8
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_pink_with_stroke"
+sprite = "spr_triangular_crate_pink_with_stroke"
+x = 762.1
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_purple"
+sprite = "spr_triangular_crate_purple"
+x = 819.3
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_purple_with_stroke"
+sprite = "spr_triangular_crate_purple_with_stroke"
+x = 876.6
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_red"
+sprite = "spr_triangular_crate_red"
+x = 933.9
+y = 612.3
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_red_with_stroke"
+sprite = "spr_triangular_crate_red_with_stroke"
+x = 17.5
+y = 662.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_yellow"
+sprite = "spr_triangular_crate_yellow"
+x = 74.8
+y = 662.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_triangular_crate_yellow_with_stroke"
+sprite = "spr_triangular_crate_yellow_with_stroke"
+x = 132.1
+y = 662.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_warpdrive"
+sprite = "spr_warpdrive"
+x = 189.3
+y = 662.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_warpdrive_with_stroke"
+sprite = "spr_warpdrive_with_stroke"
+x = 246.6
+y = 662.0
+scale_x = 0.16507
+scale_y = 0.16507
+rotation = 0.0
+colour = "#FFFFFFFF"
+

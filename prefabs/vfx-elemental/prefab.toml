@@ -1,0 +1,185 @@
+id = "vfx-elemental"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Hand-drawn elemental VFX pack: dozens of animated, shaded effects — explosions, electric arcs, fireball projectiles and swooshing beams across fire, water, lightning, smoke and poison elements."
+tags = [ "role:vfx", "style:shaded" ]
+
+[export]
+include = [
+  "sprites/spr_camp_fire",
+  "sprites/spr_candle_flickering",
+  "sprites/spr_candle_still",
+  "sprites/spr_circle_swoosh",
+  "sprites/spr_electric_explosion_with_build_up",
+  "sprites/spr_electric_explosion_without_build_up",
+  "sprites/spr_explosion_with_bomb",
+  "sprites/spr_explosion_without_bomb",
+  "sprites/spr_flame_swoosh",
+  "sprites/spr_incense_smoke",
+  "sprites/spr_lightning_bolt",
+  "sprites/spr_lightning_swoosh",
+  "sprites/spr_magic_sparkle_with_build_up",
+  "sprites/spr_magic_sparkle_without_build_up",
+  "sprites/spr_plumes_of_smoke",
+  "sprites/spr_running_on_land",
+  "sprites/spr_running_on_water",
+  "sprites/spr_shooting_fireball_without_impact",
+  "sprites/spr_shooting_fireballs_without_impact_version_2",
+  "sprites/spr_slime_explosion",
+  "sprites/spr_small_flame",
+  "sprites/spr_small_puff_of_smoke_front",
+  "sprites/spr_small_puff_of_smoke_side",
+  "sprites/spr_small_puff_of_smoke_vertical",
+  "sprites/spr_small_spark",
+  "sprites/spr_smoke_swoosh",
+  "sprites/spr_spark_of_electricity",
+  "sprites/spr_star_explosion_with_build_up",
+  "sprites/spr_star_explosion_without_build_up",
+  "sprites/spr_water_arc_swoosh",
+  "sprites/spr_water_droplet",
+  "sprites/spr_water_splash",
+  "sprites/spr_water_swoosh",
+  "sprites/spr_water_tornado",
+  "sprites/spt_ball_of_electricity",
+]
+
+[assets."sprites/spr_camp_fire"]
+description = "Animated orange-and-yellow campfire flame licking upward, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:fire", "state:animation" ]
+
+[assets."sprites/spr_candle_flickering"]
+description = "Small animated candle flame flickering, warm orange-yellow gradient, hand-drawn."
+tags = [ "asset_type:sprite", "subject:fire", "state:animation" ]
+
+[assets."sprites/spr_candle_still"]
+description = "Small animated candle flame burning steady and upright, warm orange-yellow, hand-drawn."
+tags = [ "asset_type:sprite", "subject:fire", "state:animation" ]
+
+[assets."sprites/spr_circle_swoosh"]
+description = "Animated cyan water-arc swoosh tracing a looping circular trail of droplets, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_electric_explosion_with_build_up"]
+description = "Animated pale-yellow electric explosion with a charge-up build-up before the burst of jagged lightning, hand-drawn."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:lightning", "state:animation" ]
+
+[assets."sprites/spr_electric_explosion_without_build_up"]
+description = "Animated pale-yellow electric explosion bursting instantly into jagged lightning, hand-drawn."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:lightning", "state:animation" ]
+
+[assets."sprites/spr_explosion_with_bomb"]
+description = "Animated fiery orange explosion erupting from a round black bomb, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:fire", "subject:bomb", "state:animation" ]
+
+[assets."sprites/spr_explosion_without_bomb"]
+description = "Animated fiery orange explosion blast on its own, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:fire", "state:animation" ]
+
+[assets."sprites/spr_flame_swoosh"]
+description = "Animated orange fire swoosh arcing across the frame as a flaming slash trail, hand-drawn."
+tags = [ "asset_type:sprite", "subject:fire", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_incense_smoke"]
+description = "Animated thin grey wisp of incense smoke curling upward, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_lightning_bolt"]
+description = "Animated yellow lightning bolt striking down in a jagged vertical streak, hand-drawn."
+tags = [ "asset_type:sprite", "subject:lightning", "state:animation" ]
+
+[assets."sprites/spr_lightning_swoosh"]
+description = "Animated pale-yellow electric swoosh arcing across the frame as a crackling trail, hand-drawn."
+tags = [ "asset_type:sprite", "subject:lightning", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_magic_sparkle_with_build_up"]
+description = "Animated golden magic sparkle with a glowing build-up before radiating four-point star glints, hand-drawn."
+tags = [ "asset_type:sprite", "subject:magic", "subject:star", "state:animation" ]
+
+[assets."sprites/spr_magic_sparkle_without_build_up"]
+description = "Animated golden magic sparkle radiating four-point star glints instantly, hand-drawn."
+tags = [ "asset_type:sprite", "subject:magic", "subject:star", "state:animation" ]
+
+[assets."sprites/spr_plumes_of_smoke"]
+description = "Animated billowing grey plumes of smoke rising and rolling, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_running_on_land"]
+description = "Animated brown dust kick-up puff thrown up by feet running on land, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_running_on_water"]
+description = "Animated cyan water splash kick-up thrown up by feet running across water, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "subject:splash", "state:animation" ]
+
+[assets."sprites/spr_shooting_fireball_without_impact"]
+description = "Animated orange fireball projectile streaking horizontally with a flaming tail, hand-drawn (no impact)."
+tags = [ "asset_type:sprite", "subject:fire", "subject:projectile", "role:projectile", "state:animation" ]
+
+[assets."sprites/spr_shooting_fireballs_without_impact_version_2"]
+description = "Animated orange fireball projectile streaking vertically with a flaming tail, alternate version, hand-drawn (no impact)."
+tags = [ "asset_type:sprite", "subject:fire", "subject:projectile", "role:projectile", "state:animation" ]
+
+[assets."sprites/spr_slime_explosion"]
+description = "Animated bright-green slime/poison explosion bursting and splattering globs outward, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:poison", "state:animation" ]
+
+[assets."sprites/spr_small_flame"]
+description = "Small animated orange-yellow flame flickering, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:fire", "state:animation" ]
+
+[assets."sprites/spr_small_puff_of_smoke_front"]
+description = "Animated small grey puff of smoke seen head-on from the front, hand-drawn."
+tags = [ "asset_type:sprite", "subject:smoke", "projection:front-view", "state:animation" ]
+
+[assets."sprites/spr_small_puff_of_smoke_side"]
+description = "Animated small grey puff of smoke seen from the side, hand-drawn."
+tags = [ "asset_type:sprite", "subject:smoke", "projection:side-view", "state:animation" ]
+
+[assets."sprites/spr_small_puff_of_smoke_vertical"]
+description = "Animated small grey puff of smoke rising vertically, hand-drawn."
+tags = [ "asset_type:sprite", "subject:smoke", "state:animation" ]
+
+[assets."sprites/spr_small_spark"]
+description = "Animated small pale-yellow electric spark flickering, hand-drawn."
+tags = [ "asset_type:sprite", "subject:lightning", "state:animation" ]
+
+[assets."sprites/spr_smoke_swoosh"]
+description = "Animated grey smoke swoosh arcing across the frame as a curling trail, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:smoke", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_spark_of_electricity"]
+description = "Animated pale-yellow spark of electricity crackling with jagged arcs, hand-drawn."
+tags = [ "asset_type:sprite", "subject:lightning", "state:animation" ]
+
+[assets."sprites/spr_star_explosion_with_build_up"]
+description = "Animated white-and-grey star burst explosion with a build-up before radiating outward, hand-drawn."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:magic", "subject:star", "state:animation" ]
+
+[assets."sprites/spr_star_explosion_without_build_up"]
+description = "Animated white-and-grey star burst explosion radiating outward instantly, hand-drawn."
+tags = [ "asset_type:sprite", "subject:explosion", "subject:magic", "subject:star", "state:animation" ]
+
+[assets."sprites/spr_water_arc_swoosh"]
+description = "Animated cyan water swoosh arcing in a crescent with flying droplets, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_water_droplet"]
+description = "Animated blue water droplet falling and rippling, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "state:animation" ]
+
+[assets."sprites/spr_water_splash"]
+description = "Animated cyan water splash bursting upward in spray, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "subject:splash", "state:animation" ]
+
+[assets."sprites/spr_water_swoosh"]
+description = "Animated cyan water swoosh sweeping across the frame as a watery slash trail, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "subject:trail", "state:animation" ]
+
+[assets."sprites/spr_water_tornado"]
+description = "Animated cyan water tornado spiralling upward in a swirling column, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:water", "state:animation" ]
+
+[assets."sprites/spt_ball_of_electricity"]
+description = "Animated glowing yellow ball of electricity crackling with surrounding sparks, hand-drawn and shaded."
+tags = [ "asset_type:sprite", "subject:lightning", "subject:glow", "state:animation" ]

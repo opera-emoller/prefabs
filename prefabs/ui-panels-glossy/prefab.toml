@@ -1,0 +1,685 @@
+id = "ui-panels-glossy"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Glossy UI kit of shiny, candy-gloss panels, buttons, frames, banners, scrollbars and indicator dots in nine colors, with bright top highlights for clean game interfaces."
+tags = [ "role:ui", "projection:ui-icon", "style:glossy", "asset_type:sprite" ]
+
+[export]
+include = [
+  "sprites/Glossy_Blue_Banner_Big",
+  "sprites/Glossy_Blue_Banner_Small",
+  "sprites/Glossy_Blue_Circle",
+  "sprites/Glossy_Blue_Diamond",
+  "sprites/Glossy_Blue_Dot_Back",
+  "sprites/Glossy_Blue_Dot_Front",
+  "sprites/Glossy_Blue_Long_Round",
+  "sprites/Glossy_Blue_Long_Square",
+  "sprites/Glossy_Blue_Panel",
+  "sprites/Glossy_Blue_ScrollBarRound_Back",
+  "sprites/Glossy_Blue_ScrollBarRound_Front",
+  "sprites/Glossy_Blue_ScrollBarSquare_Back",
+  "sprites/Glossy_Blue_ScrollBarSquare_Front",
+  "sprites/Glossy_Blue_Square",
+  "sprites/Glossy_Blue_Triangle",
+  "sprites/Glossy_Cyan_Banner_Big",
+  "sprites/Glossy_Cyan_Banner_Small",
+  "sprites/Glossy_Cyan_Circle",
+  "sprites/Glossy_Cyan_Diamond",
+  "sprites/Glossy_Cyan_Dot_Back",
+  "sprites/Glossy_Cyan_Dot_Front",
+  "sprites/Glossy_Cyan_Long_Round",
+  "sprites/Glossy_Cyan_Long_Square",
+  "sprites/Glossy_Cyan_Panel",
+  "sprites/Glossy_Cyan_ScrollBarRound_Back",
+  "sprites/Glossy_Cyan_ScrollBarRound_Front",
+  "sprites/Glossy_Cyan_ScrollBarSquare_Back",
+  "sprites/Glossy_Cyan_ScrollBarSquare_Front",
+  "sprites/Glossy_Cyan_Square",
+  "sprites/Glossy_Cyan_Triangle",
+  "sprites/Glossy_Green_Banner_Big",
+  "sprites/Glossy_Green_Banner_Small",
+  "sprites/Glossy_Green_Circle",
+  "sprites/Glossy_Green_Diamond",
+  "sprites/Glossy_Green_Dot_Back",
+  "sprites/Glossy_Green_Dot_Front",
+  "sprites/Glossy_Green_Long_Round",
+  "sprites/Glossy_Green_Long_Square",
+  "sprites/Glossy_Green_Panel",
+  "sprites/Glossy_Green_ScrollBarRound_Back",
+  "sprites/Glossy_Green_ScrollBarRound_Front",
+  "sprites/Glossy_Green_ScrollBarSquare_Back",
+  "sprites/Glossy_Green_ScrollBarSquare_Front",
+  "sprites/Glossy_Green_Square",
+  "sprites/Glossy_Green_Triangle",
+  "sprites/Glossy_Grey_Banner_Big",
+  "sprites/Glossy_Grey_Banner_Small",
+  "sprites/Glossy_Grey_Circle",
+  "sprites/Glossy_Grey_Diamond",
+  "sprites/Glossy_Grey_Dot_Back",
+  "sprites/Glossy_Grey_Dot_Front",
+  "sprites/Glossy_Grey_Long_Round",
+  "sprites/Glossy_Grey_Long_Square",
+  "sprites/Glossy_Grey_Panel",
+  "sprites/Glossy_Grey_ScrollBarRound_Back",
+  "sprites/Glossy_Grey_ScrollBarRound_Front",
+  "sprites/Glossy_Grey_ScrollBarSquare_Back",
+  "sprites/Glossy_Grey_ScrollBarSquare_Front",
+  "sprites/Glossy_Grey_Square",
+  "sprites/Glossy_Grey_Triangle",
+  "sprites/Glossy_Orange_Banner_Big",
+  "sprites/Glossy_Orange_Banner_Small",
+  "sprites/Glossy_Orange_Circle",
+  "sprites/Glossy_Orange_Diamond",
+  "sprites/Glossy_Orange_Dot_Back",
+  "sprites/Glossy_Orange_Dot_Front",
+  "sprites/Glossy_Orange_Long_Round",
+  "sprites/Glossy_Orange_Long_Square",
+  "sprites/Glossy_Orange_Panel",
+  "sprites/Glossy_Orange_ScrollBarRound_Back",
+  "sprites/Glossy_Orange_ScrollBarRound_Front",
+  "sprites/Glossy_Orange_ScrollBarSquare_Back",
+  "sprites/Glossy_Orange_ScrollBarSquare_Front",
+  "sprites/Glossy_Orange_Square",
+  "sprites/Glossy_Orange_Triangle",
+  "sprites/Glossy_Pink_Banner_Big",
+  "sprites/Glossy_Pink_Banner_Small",
+  "sprites/Glossy_Pink_Circle",
+  "sprites/Glossy_Pink_Diamond",
+  "sprites/Glossy_Pink_Dot_Back",
+  "sprites/Glossy_Pink_Dot_Front",
+  "sprites/Glossy_Pink_Long_Round",
+  "sprites/Glossy_Pink_Long_Square",
+  "sprites/Glossy_Pink_Panel",
+  "sprites/Glossy_Pink_ScrollBarRound_Back",
+  "sprites/Glossy_Pink_ScrollBarRound_Front",
+  "sprites/Glossy_Pink_ScrollBarSquare_Back",
+  "sprites/Glossy_Pink_ScrollBarSquare_Front",
+  "sprites/Glossy_Pink_Square",
+  "sprites/Glossy_Pink_Triangle",
+  "sprites/Glossy_Purple_Banner_Big",
+  "sprites/Glossy_Purple_Banner_Small",
+  "sprites/Glossy_Purple_Circle",
+  "sprites/Glossy_Purple_Diamond",
+  "sprites/Glossy_Purple_Dot_Back",
+  "sprites/Glossy_Purple_Dot_Front",
+  "sprites/Glossy_Purple_Long_Round",
+  "sprites/Glossy_Purple_Long_Square",
+  "sprites/Glossy_Purple_Panel",
+  "sprites/Glossy_Purple_ScrollBarRound_Back",
+  "sprites/Glossy_Purple_ScrollBarRound_Front",
+  "sprites/Glossy_Purple_ScrollBarSquare_Back",
+  "sprites/Glossy_Purple_ScrollBarSquare_Front",
+  "sprites/Glossy_Purple_Square",
+  "sprites/Glossy_Purple_Triangle",
+  "sprites/Glossy_Red_Banner_Big",
+  "sprites/Glossy_Red_Banner_Small",
+  "sprites/Glossy_Red_Circle",
+  "sprites/Glossy_Red_Diamond",
+  "sprites/Glossy_Red_Dot_Back",
+  "sprites/Glossy_Red_Dot_Front",
+  "sprites/Glossy_Red_Long_Round",
+  "sprites/Glossy_Red_Long_Square",
+  "sprites/Glossy_Red_Panel",
+  "sprites/Glossy_Red_ScrollBarRound_Back",
+  "sprites/Glossy_Red_ScrollBarRound_Front",
+  "sprites/Glossy_Red_ScrollBarSquare_Back",
+  "sprites/Glossy_Red_ScrollBarSquare_Front",
+  "sprites/Glossy_Red_Square",
+  "sprites/Glossy_Red_Triangle",
+  "sprites/Glossy_Yellow_Banner_Big",
+  "sprites/Glossy_Yellow_Banner_Small",
+  "sprites/Glossy_Yellow_Circle",
+  "sprites/Glossy_Yellow_Diamond",
+  "sprites/Glossy_Yellow_Dot_Back",
+  "sprites/Glossy_Yellow_Dot_Front",
+  "sprites/Glossy_Yellow_Long_Round",
+  "sprites/Glossy_Yellow_Long_Square",
+  "sprites/Glossy_Yellow_Panel",
+  "sprites/Glossy_Yellow_ScrollBarRound_Back",
+  "sprites/Glossy_Yellow_ScrollBarRound_Front",
+  "sprites/Glossy_Yellow_ScrollBarSquare_Back",
+  "sprites/Glossy_Yellow_ScrollBarSquare_Front",
+  "sprites/Glossy_Yellow_Square",
+  "sprites/Glossy_Yellow_Triangle",
+]
+
+[assets."sprites/Glossy_Blue_Banner_Big"]
+description = "Glossy blue ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Banner_Small"]
+description = "Glossy blue ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Circle"]
+description = "Glossy blue round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Diamond"]
+description = "Glossy blue diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Dot_Back"]
+description = "Small dark blue recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Dot_Front"]
+description = "Small glossy blue dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Long_Round"]
+description = "Glossy blue pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Long_Square"]
+description = "Glossy blue wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Panel"]
+description = "Cream UI panel framed by a thick glossy blue rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Blue_ScrollBarRound_Back"]
+description = "Dark blue recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Blue_ScrollBarRound_Front"]
+description = "Glossy blue vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Blue_ScrollBarSquare_Back"]
+description = "Dark blue recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Blue_ScrollBarSquare_Front"]
+description = "Glossy blue vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Square"]
+description = "Glossy blue rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Blue_Triangle"]
+description = "Glossy blue triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Banner_Big"]
+description = "Glossy cyan ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Banner_Small"]
+description = "Glossy cyan ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Circle"]
+description = "Glossy cyan round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Diamond"]
+description = "Glossy cyan diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Dot_Back"]
+description = "Small dark cyan recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Dot_Front"]
+description = "Small glossy cyan dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Long_Round"]
+description = "Glossy cyan pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Long_Square"]
+description = "Glossy cyan wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Panel"]
+description = "Cream UI panel framed by a thick glossy cyan rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_ScrollBarRound_Back"]
+description = "Dark cyan recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_ScrollBarRound_Front"]
+description = "Glossy cyan vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_ScrollBarSquare_Back"]
+description = "Dark cyan recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_ScrollBarSquare_Front"]
+description = "Glossy cyan vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Square"]
+description = "Glossy cyan rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Cyan_Triangle"]
+description = "Glossy cyan triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Banner_Big"]
+description = "Glossy green ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Green_Banner_Small"]
+description = "Glossy green ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Green_Circle"]
+description = "Glossy green round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Diamond"]
+description = "Glossy green diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Dot_Back"]
+description = "Small dark green recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Dot_Front"]
+description = "Small glossy green dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Long_Round"]
+description = "Glossy green pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Long_Square"]
+description = "Glossy green wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Panel"]
+description = "Cream UI panel framed by a thick glossy green rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Green_ScrollBarRound_Back"]
+description = "Dark green recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Green_ScrollBarRound_Front"]
+description = "Glossy green vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Green_ScrollBarSquare_Back"]
+description = "Dark green recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Green_ScrollBarSquare_Front"]
+description = "Glossy green vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Green_Square"]
+description = "Glossy green rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Green_Triangle"]
+description = "Glossy green triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Banner_Big"]
+description = "Glossy grey ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Banner_Small"]
+description = "Glossy grey ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Circle"]
+description = "Glossy grey round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Diamond"]
+description = "Glossy grey diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Dot_Back"]
+description = "Small dark grey recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Dot_Front"]
+description = "Small glossy grey dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Long_Round"]
+description = "Glossy grey pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Long_Square"]
+description = "Glossy grey wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Panel"]
+description = "Cream UI panel framed by a thick glossy grey rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Grey_ScrollBarRound_Back"]
+description = "Dark grey recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Grey_ScrollBarRound_Front"]
+description = "Glossy grey vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Grey_ScrollBarSquare_Back"]
+description = "Dark grey recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Grey_ScrollBarSquare_Front"]
+description = "Glossy grey vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Square"]
+description = "Glossy grey rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Grey_Triangle"]
+description = "Glossy grey triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Banner_Big"]
+description = "Glossy orange ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Banner_Small"]
+description = "Glossy orange ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Circle"]
+description = "Glossy orange round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Diamond"]
+description = "Glossy orange diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Dot_Back"]
+description = "Small dark orange recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Dot_Front"]
+description = "Small glossy orange dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Long_Round"]
+description = "Glossy orange pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Long_Square"]
+description = "Glossy orange wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Panel"]
+description = "Cream UI panel framed by a thick glossy orange rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Orange_ScrollBarRound_Back"]
+description = "Dark orange recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Orange_ScrollBarRound_Front"]
+description = "Glossy orange vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Orange_ScrollBarSquare_Back"]
+description = "Dark orange recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Orange_ScrollBarSquare_Front"]
+description = "Glossy orange vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Square"]
+description = "Glossy orange rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Orange_Triangle"]
+description = "Glossy orange triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Banner_Big"]
+description = "Glossy magenta-pink ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Banner_Small"]
+description = "Glossy magenta-pink ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Circle"]
+description = "Glossy magenta-pink round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Diamond"]
+description = "Glossy magenta-pink diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Dot_Back"]
+description = "Small dark magenta-pink recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Dot_Front"]
+description = "Small glossy magenta-pink dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Long_Round"]
+description = "Glossy magenta-pink pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Long_Square"]
+description = "Glossy magenta-pink wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Panel"]
+description = "Cream UI panel framed by a thick glossy magenta-pink rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Pink_ScrollBarRound_Back"]
+description = "Dark magenta-pink recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Pink_ScrollBarRound_Front"]
+description = "Glossy magenta-pink vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Pink_ScrollBarSquare_Back"]
+description = "Dark magenta-pink recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Pink_ScrollBarSquare_Front"]
+description = "Glossy magenta-pink vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Square"]
+description = "Glossy magenta-pink rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Pink_Triangle"]
+description = "Glossy magenta-pink triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Banner_Big"]
+description = "Glossy purple ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Banner_Small"]
+description = "Glossy purple ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Circle"]
+description = "Glossy purple round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Diamond"]
+description = "Glossy purple diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Dot_Back"]
+description = "Small dark purple recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Dot_Front"]
+description = "Small glossy purple dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Long_Round"]
+description = "Glossy purple pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Long_Square"]
+description = "Glossy purple wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Panel"]
+description = "Cream UI panel framed by a thick glossy purple rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Purple_ScrollBarRound_Back"]
+description = "Dark purple recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Purple_ScrollBarRound_Front"]
+description = "Glossy purple vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Purple_ScrollBarSquare_Back"]
+description = "Dark purple recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Purple_ScrollBarSquare_Front"]
+description = "Glossy purple vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Square"]
+description = "Glossy purple rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Purple_Triangle"]
+description = "Glossy purple triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Banner_Big"]
+description = "Glossy red ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Red_Banner_Small"]
+description = "Glossy red ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Red_Circle"]
+description = "Glossy red round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Diamond"]
+description = "Glossy red diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Dot_Back"]
+description = "Small dark red recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Dot_Front"]
+description = "Small glossy red dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Long_Round"]
+description = "Glossy red pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Long_Square"]
+description = "Glossy red wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Panel"]
+description = "Cream UI panel framed by a thick glossy red rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Red_ScrollBarRound_Back"]
+description = "Dark red recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Red_ScrollBarRound_Front"]
+description = "Glossy red vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Red_ScrollBarSquare_Back"]
+description = "Dark red recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Red_ScrollBarSquare_Front"]
+description = "Glossy red vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Red_Square"]
+description = "Glossy red rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Red_Triangle"]
+description = "Glossy red triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Banner_Big"]
+description = "Glossy yellow ribbon banner, large size, with notched flag ends and a bright curved top highlight."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Banner_Small"]
+description = "Glossy yellow ribbon banner, slim size, with notched flag ends and a shiny top sheen."
+tags = [ "subject:banner", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Circle"]
+description = "Glossy yellow round button, filled disc with a bright crescent highlight across the top."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Diamond"]
+description = "Glossy yellow diamond button, four-pointed rhombus with a shiny top facet."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Dot_Back"]
+description = "Small dark yellow recessed dot, the sunken socket/base for a round indicator or LED."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Dot_Front"]
+description = "Small glossy yellow dot, bright round knob/indicator with a tiny top glint."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Long_Round"]
+description = "Glossy yellow pill button, wide capsule with fully rounded ends and a bright top sheen."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Long_Square"]
+description = "Glossy yellow wide rectangular button with softly rounded corners and a bright top highlight."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Panel"]
+description = "Cream UI panel framed by a thick glossy yellow rounded border, an empty content frame."
+tags = [ "subject:frame", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_ScrollBarRound_Back"]
+description = "Dark yellow recessed vertical scroll track with rounded ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_ScrollBarRound_Front"]
+description = "Glossy yellow vertical scrollbar thumb with rounded ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_ScrollBarSquare_Back"]
+description = "Dark yellow recessed vertical scroll track with square ends, the sunken channel behind the thumb."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_ScrollBarSquare_Front"]
+description = "Glossy yellow vertical scrollbar thumb with square ends and a bright corner glint."
+tags = [ "subject:panel", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Square"]
+description = "Glossy yellow rounded-square button with a bright curved highlight across the upper half."
+tags = [ "subject:button", "state:static" ]
+
+[assets."sprites/Glossy_Yellow_Triangle"]
+description = "Glossy yellow triangle button shaped like a right-pointing play arrow with a shiny top facet."
+tags = [ "subject:button", "state:static" ]

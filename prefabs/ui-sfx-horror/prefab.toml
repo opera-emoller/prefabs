@@ -1,0 +1,205 @@
+id = "ui-sfx-horror"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A horror-flavored UI sound pack: ~39 dark synth interface blips and stings — clicks, hovers, confirms, errors, sliders, swipes and window transitions — all rendered with an eerie, dread-laced synth character for menus and HUDs."
+tags = [ "theme:horror", "role:ui" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Dark horror-synth keyboard keystroke, ~1.5s — dull dread-tinged typing blip for text entry."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Short eerie keyboard tap, ~0.5s — clipped horror-synth keystroke for fast typing feedback."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Lower, drawn-out horror-synth keyboard press, ~1.75s — moody key thud variant."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Ominous horror-synth mouse click, ~1.25s — UI select/confirm blip with a cold, hollow tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Tighter eerie mouse click, ~1s — dark synth press for button activation."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Soft uneasy hover tone, ~0.5s — subtle horror-synth shimmer as the cursor passes a UI element."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Very short whispery hover tick, ~0.17s — faint dread-laced cursor focus blip."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Foreboding 'No'/cancel sting, ~3s — descending horror-synth tone signaling rejection or decline."
+tags = [ "asset_type:sound", "audio_type:ui-sound", "subject:button" ]
+
+[assets."sounds/No_Button_2"]
+description = "Shorter ominous cancel blip, ~1.25s — clipped dark synth 'No' confirmation."
+tags = [ "asset_type:sound", "audio_type:ui-sound", "subject:button" ]
+
+[assets."sounds/Pop_1"]
+description = "Warped horror-synth pop, ~4.25s — eerie bubbling element-appear sound with a sinister resonance."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Shorter dark pop, ~3s — uneasy synth burst for popping a UI element into view."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Falling horror-synth pop-down, ~1.25s — element retracting with a downward dread-tinged sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Longer brooding pop-down, ~2.75s — drawn-out dark synth collapse of a UI element."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Rising horror-synth pop-up, ~1.25s — element emerging with an uneasy upward swell."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Extended ominous pop-up, ~5s — slow, dread-building synth rise as a panel appears."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Sinister power-down drone, ~4s — descending horror-synth shutdown with a hollow fade."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Alternate dark power-off sweep, ~4s — eerie de-energizing wind-down tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Foreboding power-up surge, ~4s — rising horror-synth boot/energize tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Shorter dread-laced power-on, ~2s — quick ominous synth start-up swell."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Ascending horror-synth slider sweep, ~1.5s — rising dread-tinged glide as a value increases."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Alternate ascending slider tone, ~1.28s — eerie upward synth slide for increasing settings."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Descending horror-synth slider sweep, ~1.25s — falling uneasy glide as a value decreases."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Alternate descending slider tone, ~1.64s — dark downward synth slide for lowering settings."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Dark horror-synth swipe-closed whoosh, ~2s — menu sliding shut with a dread-tinged sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Shorter ominous close swipe, ~1.75s — eerie synth whoosh for dismissing a panel."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Horror-synth swipe-open whoosh, ~2s — menu sliding into view with an uneasy rising sweep."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Tighter dark open swipe, ~1.5s — quick dread-laced synth whoosh for revealing a panel."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Drawn-out horror-synth completion chime, ~6s — ominous success sting that resolves uneasily."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Alternate long completion stinger, ~6s — dark, brooding 'task done' synth flourish."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Foreboding failure sting, ~4s — descending horror-synth tone signaling an error or failed action."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Extended dread-laced failure stinger, ~6s — long sinister synth drone for a failed task."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Very short horror-synth tick, ~0.18s — sharp uneasy clock tick for countdowns."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Tiny clipped tick, ~0.1s — faint dread-tinged synth tock for timers."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Dark horror-synth window-close, ~1.25s — panel dismissing with a hollow downward tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Longer ominous window-close, ~2s — eerie synth fade as a window shuts."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Horror-synth window-open, ~1.11s — panel appearing with an uneasy rising tone."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Extended dark window-open, ~1.75s — brooding synth swell as a window reveals."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Affirming horror-synth 'Yes'/confirm sting, ~4.5s — ominous accept tone with a dark resolve."
+tags = [ "asset_type:sound", "audio_type:ui-sound", "subject:button" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Shorter dread-tinged confirm blip, ~3.5s — eerie synth 'Yes' acknowledgement."
+tags = [ "asset_type:sound", "audio_type:ui-sound", "subject:button" ]

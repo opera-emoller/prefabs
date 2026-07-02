@@ -1,0 +1,358 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_camp_fire"
+sprite = "spr_camp_fire"
+x = 29.6
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_candle_flickering"
+sprite = "spr_candle_flickering"
+x = 187.1
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_candle_still"
+sprite = "spr_candle_still"
+x = 344.6
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_circle_swoosh"
+sprite = "spr_circle_swoosh"
+x = 502.1
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_electric_explosion_with_build_up"
+sprite = "spr_electric_explosion_with_build_up"
+x = 659.6
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_electric_explosion_without_build_up"
+sprite = "spr_electric_explosion_without_build_up"
+x = 817.1
+y = 22.4
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_explosion_with_bomb"
+sprite = "spr_explosion_with_bomb"
+x = 974.6
+y = 22.4
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_explosion_without_bomb"
+sprite = "spr_explosion_without_bomb"
+x = 1132.1
+y = 22.4
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flame_swoosh"
+sprite = "spr_flame_swoosh"
+x = 29.6
+y = 161.6
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_incense_smoke"
+sprite = "spr_incense_smoke"
+x = 187.1
+y = 161.6
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lightning_bolt"
+sprite = "spr_lightning_bolt"
+x = 369.7
+y = 161.6
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_lightning_swoosh"
+sprite = "spr_lightning_swoosh"
+x = 502.1
+y = 161.6
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_magic_sparkle_with_build_up"
+sprite = "spr_magic_sparkle_with_build_up"
+x = 659.6
+y = 161.6
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_magic_sparkle_without_build_up"
+sprite = "spr_magic_sparkle_without_build_up"
+x = 817.1
+y = 161.6
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_plumes_of_smoke"
+sprite = "spr_plumes_of_smoke"
+x = 992.4
+y = 161.6
+scale_x = 0.62603
+scale_y = 0.62603
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_running_on_land"
+sprite = "spr_running_on_land"
+x = 1132.1
+y = 172.6
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_running_on_water"
+sprite = "spr_running_on_water"
+x = 29.6
+y = 311.8
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_shooting_fireball_without_impact"
+sprite = "spr_shooting_fireball_without_impact"
+x = 187.1
+y = 318.9
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_shooting_fireballs_without_impact_version_2"
+sprite = "spr_shooting_fireballs_without_impact_version_2"
+x = 362.6
+y = 300.8
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_slime_explosion"
+sprite = "spr_slime_explosion"
+x = 502.1
+y = 300.8
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_small_flame"
+sprite = "spr_small_flame"
+x = 659.6
+y = 300.8
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_small_puff_of_smoke_front"
+sprite = "spr_small_puff_of_smoke_front"
+x = 817.1
+y = 300.8
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_small_puff_of_smoke_side"
+sprite = "spr_small_puff_of_smoke_side"
+x = 974.6
+y = 311.8
+scale_x = 0.87644
+scale_y = 0.87644
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_small_puff_of_smoke_vertical"
+sprite = "spr_small_puff_of_smoke_vertical"
+x = 1145.4
+y = 300.8
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_small_spark"
+sprite = "spr_small_spark"
+x = 29.6
+y = 440.0
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_smoke_swoosh"
+sprite = "spr_smoke_swoosh"
+x = 187.1
+y = 440.0
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_spark_of_electricity"
+sprite = "spr_spark_of_electricity"
+x = 344.6
+y = 440.0
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_star_explosion_with_build_up"
+sprite = "spr_star_explosion_with_build_up"
+x = 502.1
+y = 440.0
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_star_explosion_without_build_up"
+sprite = "spr_star_explosion_without_build_up"
+x = 659.6
+y = 440.0
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_arc_swoosh"
+sprite = "spr_water_arc_swoosh"
+x = 817.1
+y = 440.0
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_droplet"
+sprite = "spr_water_droplet"
+x = 29.6
+y = 579.2
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_splash"
+sprite = "spr_water_splash"
+x = 187.1
+y = 579.2
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_swoosh"
+sprite = "spr_water_swoosh"
+x = 344.6
+y = 579.2
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_water_tornado"
+sprite = "spr_water_tornado"
+x = 502.1
+y = 579.2
+scale_x = 0.76335
+scale_y = 0.76335
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spt_ball_of_electricity"
+sprite = "spt_ball_of_electricity"
+x = 659.6
+y = 579.2
+scale_x = 0.5916
+scale_y = 0.5916
+rotation = 0.0
+colour = "#FFFFFFFF"
+

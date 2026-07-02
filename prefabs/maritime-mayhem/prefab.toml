@@ -1,0 +1,1060 @@
+id = "maritime-mayhem"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "Maritime Mayhem — a bright, detailed cartoon top-down naval action pack: five classes of tall sailing ship plus a rowboat in navy/pirate/plain liveries with damage states, sea-life, coastal terrain and fortifications, plus a full set of nautical SFX, voice and music."
+tags = [ "genre:action", "theme:nature", "style:cartoon", "projection:top-down" ]
+
+[export]
+include = [
+  "sprites/spine_barrel",
+  "sprites/spine_broken_masts",
+  "sprites/spine_buoy",
+  "sprites/spine_cannon_fire",
+  "sprites/spine_cannon_hit",
+  "sprites/spine_cannonball_trail",
+  "sprites/spine_crates",
+  "sprites/spine_pickup_glow",
+  "sprites/spine_plank",
+  "sprites/spine_rowboat",
+  "sprites/spine_sailors",
+  "sprites/spine_ship_wake",
+  "sprites/spine_treasure_chest",
+  "sprites/spine_water_splash",
+  "sprites/spine_whale",
+  "sprites/spr_Fog",
+  "sprites/spr_Grass",
+  "sprites/spr_Water",
+  "sprites/spr_banner_navy",
+  "sprites/spr_banner_pirate",
+  "sprites/spr_banner_plain",
+  "sprites/spr_barrel",
+  "sprites/spr_beach",
+  "sprites/spr_buoy",
+  "sprites/spr_bush1",
+  "sprites/spr_bush2",
+  "sprites/spr_cannon",
+  "sprites/spr_cannon_ducksfoot",
+  "sprites/spr_cannonball",
+  "sprites/spr_cannonball_hit",
+  "sprites/spr_cannonball_trail",
+  "sprites/spr_chainshot",
+  "sprites/spr_crate",
+  "sprites/spr_crate_booty",
+  "sprites/spr_glow",
+  "sprites/spr_icon_cannon",
+  "sprites/spr_icon_duckfoot",
+  "sprites/spr_mortar",
+  "sprites/spr_navy_mast",
+  "sprites/spr_pirate_mast",
+  "sprites/spr_plain_mast",
+  "sprites/spr_plank",
+  "sprites/spr_repair",
+  "sprites/spr_rocks1",
+  "sprites/spr_rocks2",
+  "sprites/spr_rowboat_sailor1",
+  "sprites/spr_rowboat_sailor1_idle",
+  "sprites/spr_rowboat_sailor2",
+  "sprites/spr_rowboat_sailor2_idle",
+  "sprites/spr_rowboat_sailor3",
+  "sprites/spr_rowboat_sailor3_idle",
+  "sprites/spr_rowboat_sailor4",
+  "sprites/spr_rowboat_sailor4_idle",
+  "sprites/spr_sail_brig_navy",
+  "sprites/spr_sail_brig_navy_damaged",
+  "sprites/spr_sail_brig_pirate",
+  "sprites/spr_sail_brig_pirate_damaged",
+  "sprites/spr_sail_brig_plain",
+  "sprites/spr_sail_brig_plain_damaged",
+  "sprites/spr_sail_frigate_navy",
+  "sprites/spr_sail_frigate_navy_damaged",
+  "sprites/spr_sail_frigate_pirate",
+  "sprites/spr_sail_frigate_pirate_damaged",
+  "sprites/spr_sail_frigate_plain",
+  "sprites/spr_sail_frigate_plain_damaged",
+  "sprites/spr_sail_gunboat_navy",
+  "sprites/spr_sail_gunboat_navy_damaged",
+  "sprites/spr_sail_gunboat_pirate",
+  "sprites/spr_sail_gunboat_pirate_damaged",
+  "sprites/spr_sail_gunboat_plain",
+  "sprites/spr_sail_gunboat_plain_damaged",
+  "sprites/spr_sail_manofwar_navy",
+  "sprites/spr_sail_manofwar_navy_damaged",
+  "sprites/spr_sail_manofwar_pirate",
+  "sprites/spr_sail_manofwar_pirate_damaged",
+  "sprites/spr_sail_manofwar_plain",
+  "sprites/spr_sail_manofwar_plain_damaged",
+  "sprites/spr_sail_schooner_navy",
+  "sprites/spr_sail_schooner_navy_damaged",
+  "sprites/spr_sail_schooner_pirate",
+  "sprites/spr_sail_schooner_pirate_damaged",
+  "sprites/spr_sail_schooner_plain",
+  "sprites/spr_sail_schooner_plain_damaged",
+  "sprites/spr_sailor1",
+  "sprites/spr_sailor2",
+  "sprites/spr_sailor3",
+  "sprites/spr_sailor4",
+  "sprites/spr_ship_brig",
+  "sprites/spr_ship_brig_destroyed",
+  "sprites/spr_ship_frigate",
+  "sprites/spr_ship_frigate_damaged",
+  "sprites/spr_ship_gunboat",
+  "sprites/spr_ship_gunboat_damaged",
+  "sprites/spr_ship_manofwar",
+  "sprites/spr_ship_manofwar_damaged",
+  "sprites/spr_ship_schooner",
+  "sprites/spr_ship_schooner_damaged",
+  "sprites/spr_ship_wake",
+  "sprites/spr_tower",
+  "sprites/spr_treasure_chest",
+  "sprites/spr_tree1",
+  "sprites/spr_tree2",
+  "sprites/spr_wall_bottom",
+  "sprites/spr_wall_mid",
+  "sprites/spr_wall_top",
+  "sprites/spr_water_splash",
+  "sprites/spr_whale_swimming",
+  "sprites/spr_whale_swimming_fadein",
+  "sprites/spr_whale_swimming_fadeout",
+  "sprites/vfx_cannon_fire",
+  "sounds/MP3_Maritime_Mayhem_Track1",
+  "sounds/MP3_Maritime_Mayhem_Track1_Lose",
+  "sounds/MP3_Maritime_Mayhem_Track1_Win",
+  "sounds/MP3_Maritime_Mayhem_Track2",
+  "sounds/MP3_Maritime_Mayhem_Track2_Lose",
+  "sounds/MP3_Maritime_Mayhem_Track2_Win",
+  "sounds/sfx_bats_01",
+  "sounds/sfx_bats_02",
+  "sounds/sfx_bats_03",
+  "sounds/sfx_bats_04",
+  "sounds/sfx_blunderbuss_fire_01",
+  "sounds/sfx_blunderbuss_fire_02",
+  "sounds/sfx_blunderbuss_fire_03",
+  "sounds/sfx_cannon_fire_01",
+  "sounds/sfx_cannon_fire_02",
+  "sounds/sfx_cannon_fire_03",
+  "sounds/sfx_chainshot_01",
+  "sounds/sfx_collision_boat_to_boat_01",
+  "sounds/sfx_collision_boat_to_boat_02",
+  "sounds/sfx_collision_boat_to_land_01",
+  "sounds/sfx_collision_boat_to_land_02",
+  "sounds/sfx_collision_shot_to_boat_01",
+  "sounds/sfx_collision_shot_to_boat_02",
+  "sounds/sfx_collision_shot_to_building_01",
+  "sounds/sfx_collision_shot_to_building_02",
+  "sounds/sfx_collision_shot_to_water_01",
+  "sounds/sfx_collision_shot_to_water_02",
+  "sounds/sfx_crow_01",
+  "sounds/sfx_crow_02",
+  "sounds/sfx_crow_03",
+  "sounds/sfx_crow_04",
+  "sounds/sfx_environment_seabirds_01",
+  "sounds/sfx_environment_seabirds_02",
+  "sounds/sfx_environment_seabirds_03",
+  "sounds/sfx_environment_seabirds_04",
+  "sounds/sfx_environment_stillWaters_lp_01",
+  "sounds/sfx_environment_stillWaters_lp_02",
+  "sounds/sfx_environment_waves_lp_01",
+  "sounds/sfx_environment_waves_lp_02",
+  "sounds/sfx_environment_waves_shore_lp_01",
+  "sounds/sfx_environment_waves_shore_lp_02",
+  "sounds/sfx_environment_wind_lp_01",
+  "sounds/sfx_environment_wind_lp_02",
+  "sounds/sfx_grapple_hook_impact_01",
+  "sounds/sfx_grapple_hook_shoot_01",
+  "sounds/sfx_owl_01",
+  "sounds/sfx_owl_02",
+  "sounds/sfx_owl_03",
+  "sounds/sfx_owl_04",
+  "sounds/sfx_parrot_01",
+  "sounds/sfx_parrot_02",
+  "sounds/sfx_pickup_01",
+  "sounds/sfx_pickup_02",
+  "sounds/sfx_pickup_03",
+  "sounds/sfx_rowboat_01",
+  "sounds/sfx_rowboat_02",
+  "sounds/sfx_rowboat_03",
+  "sounds/sfx_rowboat_04",
+  "sounds/sfx_ship_bell_01",
+  "sounds/sfx_ship_bell_02",
+  "sounds/sfx_ship_creak_interior_01",
+  "sounds/sfx_ship_creak_interior_02",
+  "sounds/sfx_ship_creak_interior_03",
+  "sounds/sfx_ship_creak_interior_04",
+  "sounds/sfx_ship_deselect_01",
+  "sounds/sfx_ship_deselect_02",
+  "sounds/sfx_ship_highlight_01",
+  "sounds/sfx_ship_highlight_02",
+  "sounds/sfx_ship_large_wake_lp_01",
+  "sounds/sfx_ship_large_wake_lp_02",
+  "sounds/sfx_ship_sails_down_01",
+  "sounds/sfx_ship_sails_down_02",
+  "sounds/sfx_ship_sails_up_01",
+  "sounds/sfx_ship_sails_up_02",
+  "sounds/sfx_ship_sink_large_01",
+  "sounds/sfx_ship_sink_large_02",
+  "sounds/sfx_ship_sink_small_01",
+  "sounds/sfx_ship_sink_small_02",
+  "sounds/sfx_ship_small_wake_lp_01",
+  "sounds/sfx_ship_small_wake_lp_02",
+  "sounds/sfx_sword_cutlass_draw_01",
+  "sounds/sfx_sword_cutlass_hit_01",
+  "sounds/sfx_sword_cutlass_hit_02",
+  "sounds/sfx_whale_blowhole_01",
+  "sounds/sfx_whale_blowhole_02",
+  "sounds/sfx_whale_song_01",
+  "sounds/sfx_whale_song_02",
+  "sounds/sfx_whale_tail_splash_01",
+  "sounds/vo_female_yarr_01",
+  "sounds/vo_female_yarr_02",
+  "sounds/vo_female_yohoho_01",
+  "sounds/vo_female_yohoho_02",
+  "sounds/vo_male_yarr_01",
+  "sounds/vo_male_yarr_02",
+  "sounds/vo_male_yohoho_01",
+  "sounds/vo_male_yohoho_02",
+  "tilesets/ts_beach",
+  "tilesets/ts_fog",
+  "tilesets/ts_grass",
+  "tilesets/ts_water",
+]
+
+[assets."sprites/spr_ship_brig"]
+description = "Top-down cartoon brig, two-masted sailing warship with full white sails, dark wood hull and deck detail; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_brig_destroyed"]
+description = "Brig wreck seen top-down — shattered hull and broken/scorched masts, the destroyed state of the brig; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_frigate"]
+description = "Top-down cartoon frigate, large three-masted warship with billowing sails and a long wooden deck; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_frigate_damaged"]
+description = "Frigate in its battle-damaged state — torn sails and broken planking, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_gunboat"]
+description = "Small low top-down gunboat, a narrow single-deck vessel; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_gunboat_damaged"]
+description = "Damaged gunboat with splintered hull, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_manofwar"]
+description = "The largest ship — a top-down man-of-war with multiple gun decks and a broad sail rig; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_manofwar_damaged"]
+description = "Man-of-war in damaged state, hull breached and sails ragged, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_schooner"]
+description = "Top-down cartoon schooner, a sleek mid-size sailing ship; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_ship_schooner_damaged"]
+description = "Schooner in damaged state with battered rigging, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_navy"]
+description = "Brig sail layer in navy blue-and-white livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_navy_damaged"]
+description = "Navy brig sails, torn and tattered damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_pirate"]
+description = "Brig sail layer in red pirate livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_pirate_damaged"]
+description = "Pirate brig sails, ragged damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_plain"]
+description = "Brig sail layer in plain white, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_brig_plain_damaged"]
+description = "Plain brig sails, torn damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_navy"]
+description = "Frigate sail layer in navy livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_navy_damaged"]
+description = "Navy frigate sails, damaged/torn variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_pirate"]
+description = "Frigate sail layer in red pirate livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_pirate_damaged"]
+description = "Pirate frigate sails, ragged damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_plain"]
+description = "Frigate sail layer in plain white, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_frigate_plain_damaged"]
+description = "Plain frigate sails, torn damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_navy"]
+description = "Slim gunboat sail strip in navy livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_navy_damaged"]
+description = "Navy gunboat sail, damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_pirate"]
+description = "Gunboat sail strip in red pirate livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_pirate_damaged"]
+description = "Pirate gunboat sail, damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_plain"]
+description = "Plain white gunboat sail strip, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_gunboat_plain_damaged"]
+description = "Plain gunboat sail, damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_navy"]
+description = "Large man-of-war sail spread in navy livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_navy_damaged"]
+description = "Navy man-of-war sails, torn damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_pirate"]
+description = "Man-of-war sail spread in red pirate livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_pirate_damaged"]
+description = "Pirate man-of-war sails, ragged damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_plain"]
+description = "Plain white man-of-war sail spread, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_manofwar_plain_damaged"]
+description = "Plain man-of-war sails, torn damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_navy"]
+description = "Schooner sail layer in navy livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_navy_damaged"]
+description = "Navy schooner sails, damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_pirate"]
+description = "Schooner sail layer in red pirate livery, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_pirate_damaged"]
+description = "Pirate schooner sails, ragged damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_plain"]
+description = "Plain white schooner sail layer, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_sail_schooner_plain_damaged"]
+description = "Plain schooner sails, torn damaged variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_navy_mast"]
+description = "Top-down navy-liveried mast and sail, animated gently swaying/billowing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_pirate_mast"]
+description = "Top-down red pirate mast and sail, animated billowing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_plain_mast"]
+description = "Top-down plain white mast and sail, animated billowing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spine_broken_masts"]
+description = "Broken, snapped ship masts with tangled rigging — wreckage piece, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:ship", "role:vehicle", "state:static" ]
+
+[assets."sprites/spine_rowboat"]
+description = "Wooden rowboat seen top-down, empty cartoon dinghy; single frame."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:static" ]
+
+[assets."sprites/spr_rowboat_sailor1"]
+description = "Top-down rowboat crewed by sailor 1, animated rowing cycle (30 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor1_idle"]
+description = "Top-down rowboat with sailor 1 at rest, animated idle bob (40 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor2"]
+description = "Top-down rowboat crewed by sailor 2, animated rowing cycle (30 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor2_idle"]
+description = "Top-down rowboat with sailor 2 at rest, animated idle bob (40 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor3"]
+description = "Top-down rowboat crewed by sailor 3, animated rowing cycle (30 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor3_idle"]
+description = "Top-down rowboat with sailor 3 at rest, animated idle bob (40 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor4"]
+description = "Top-down rowboat crewed by sailor 4, animated rowing cycle (30 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_rowboat_sailor4_idle"]
+description = "Top-down rowboat with sailor 4 at rest, animated idle bob (40 frames)."
+tags = [ "asset_type:sprite", "subject:rowboat", "role:vehicle", "state:animation" ]
+
+[assets."sprites/spr_sailor1"]
+description = "Small top-down pirate/sailor character 1, animated movement loop (30 frames)."
+tags = [ "asset_type:sprite", "subject:pirate", "role:character", "state:animation" ]
+
+[assets."sprites/spr_sailor2"]
+description = "Small top-down pirate/sailor character 2, animated movement loop (30 frames)."
+tags = [ "asset_type:sprite", "subject:pirate", "role:character", "state:animation" ]
+
+[assets."sprites/spr_sailor3"]
+description = "Small top-down pirate/sailor character 3, animated movement loop (30 frames)."
+tags = [ "asset_type:sprite", "subject:pirate", "role:character", "state:animation" ]
+
+[assets."sprites/spr_sailor4"]
+description = "Small top-down pirate/sailor character 4, animated movement loop (30 frames)."
+tags = [ "asset_type:sprite", "subject:pirate", "role:character", "state:animation" ]
+
+[assets."sprites/spine_sailors"]
+description = "Top-down cluster of tiny sailor figures; single static frame."
+tags = [ "asset_type:sprite", "subject:pirate", "role:character", "state:static" ]
+
+[assets."sprites/spr_cannon"]
+description = "Top-down naval cannon on a wheeled carriage, dark iron barrel; single frame."
+tags = [ "asset_type:sprite", "subject:cannon", "role:weapon", "state:static" ]
+
+[assets."sprites/spr_cannon_ducksfoot"]
+description = "Top-down ducksfoot cannon — a splayed multi-barrel volley gun; single frame."
+tags = [ "asset_type:sprite", "subject:cannon", "role:weapon", "state:static" ]
+
+[assets."sprites/spr_mortar"]
+description = "Top-down stubby siege mortar; single frame."
+tags = [ "asset_type:sprite", "subject:cannon", "role:weapon", "state:static" ]
+
+[assets."sprites/spr_cannonball"]
+description = "Small round black iron cannonball; single frame."
+tags = [ "asset_type:sprite", "subject:cannon", "role:projectile", "state:static" ]
+
+[assets."sprites/spr_chainshot"]
+description = "Chainshot projectile — two iron balls joined by a short chain; single frame."
+tags = [ "asset_type:sprite", "subject:cannon", "role:projectile", "state:static" ]
+
+[assets."sprites/spr_barrel"]
+description = "Floating wooden barrel pickup with metal bands, animated bobbing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:barrel", "role:pickup", "state:animation" ]
+
+[assets."sprites/spine_barrel"]
+description = "Single wooden banded barrel, top-down; static frame."
+tags = [ "asset_type:sprite", "subject:barrel", "role:prop", "state:static" ]
+
+[assets."sprites/spr_crate"]
+description = "Floating wooden supply crate pickup, animated bobbing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:crate", "role:pickup", "state:animation" ]
+
+[assets."sprites/spr_crate_booty"]
+description = "Floating booty crate pickup overflowing with loot, animated bobbing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:crate", "role:pickup", "state:animation" ]
+
+[assets."sprites/spine_crates"]
+description = "Stack of wooden crates, top-down; static frame."
+tags = [ "asset_type:sprite", "subject:crate", "role:prop", "state:static" ]
+
+[assets."sprites/spr_treasure_chest"]
+description = "Gold-laden treasure chest pickup, animated glint/bob loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:chest", "role:pickup", "state:animation" ]
+
+[assets."sprites/spine_treasure_chest"]
+description = "Closed wooden treasure chest with brass fittings, top-down; static frame."
+tags = [ "asset_type:sprite", "subject:chest", "role:pickup", "state:static" ]
+
+[assets."sprites/spr_plank"]
+description = "Floating wooden plank debris, animated bobbing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:plank", "role:prop", "state:animation" ]
+
+[assets."sprites/spine_plank"]
+description = "Single wooden plank, top-down; static frame."
+tags = [ "asset_type:sprite", "subject:plank", "role:prop", "state:static" ]
+
+[assets."sprites/spr_buoy"]
+description = "Floating warning buoy, animated bobbing loop (60 frames)."
+tags = [ "asset_type:sprite", "subject:buoy", "role:prop", "state:animation" ]
+
+[assets."sprites/spine_buoy"]
+description = "Single mooring/marker buoy, top-down; static frame."
+tags = [ "asset_type:sprite", "subject:buoy", "role:prop", "state:static" ]
+
+[assets."sprites/spr_banner_navy"]
+description = "Tall navy-blue heraldic banner/pennant; single frame."
+tags = [ "asset_type:sprite", "subject:banner", "role:prop", "state:static" ]
+
+[assets."sprites/spr_banner_pirate"]
+description = "Tall black pirate flag/banner; single frame."
+tags = [ "asset_type:sprite", "subject:banner", "role:prop", "state:static" ]
+
+[assets."sprites/spr_banner_plain"]
+description = "Tall plain neutral banner/pennant; single frame."
+tags = [ "asset_type:sprite", "subject:banner", "role:prop", "state:static" ]
+
+[assets."sprites/spr_bush1"]
+description = "Round leafy green bush, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:foliage", "role:environment", "state:static" ]
+
+[assets."sprites/spr_bush2"]
+description = "Smaller leafy green bush, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:foliage", "role:environment", "state:static" ]
+
+[assets."sprites/spr_tree1"]
+description = "Lush full green tree canopy seen from above; single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "state:static" ]
+
+[assets."sprites/spr_tree2"]
+description = "Second green tree canopy variant, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:tree", "role:environment", "state:static" ]
+
+[assets."sprites/spr_rocks1"]
+description = "Cluster of grey coastal rocks, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:rock", "role:environment", "state:static" ]
+
+[assets."sprites/spr_rocks2"]
+description = "Smaller grey rock cluster, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:rock", "role:environment", "state:static" ]
+
+[assets."sprites/spr_tower"]
+description = "Round stone coastal fortification tower seen from above; single frame."
+tags = [ "asset_type:sprite", "subject:tower", "role:building", "state:static" ]
+
+[assets."sprites/spr_wall_bottom"]
+description = "Bottom segment of a stone fortification wall, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:wall", "role:building", "state:static" ]
+
+[assets."sprites/spr_wall_mid"]
+description = "Middle segment of a stone fortification wall, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:wall", "role:building", "state:static" ]
+
+[assets."sprites/spr_wall_top"]
+description = "Top segment of a stone fortification wall, top-down; single frame."
+tags = [ "asset_type:sprite", "subject:wall", "role:building", "state:static" ]
+
+[assets."sprites/spr_Water"]
+description = "Large tiling deep-blue open ocean background field; single frame."
+tags = [ "asset_type:sprite", "subject:ocean", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/spr_Grass"]
+description = "Large tiling bright green grassland background field; single frame."
+tags = [ "asset_type:sprite", "subject:grass", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/spr_beach"]
+description = "Large tiling sandy beach/shallows background field; single frame."
+tags = [ "asset_type:sprite", "subject:sand", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/spr_Fog"]
+description = "Large soft grey fog/cloud overlay field for fog-of-war; single frame."
+tags = [ "asset_type:sprite", "subject:cloud", "role:background", "projection:background", "state:static" ]
+
+[assets."sprites/spine_whale"]
+description = "Large blue-grey cartoon whale seen from above; single static frame."
+tags = [ "asset_type:sprite", "subject:whale", "role:npc", "state:static" ]
+
+[assets."sprites/spr_whale_swimming"]
+description = "Top-down whale swimming animation, full tail-pumping loop (70 frames)."
+tags = [ "asset_type:sprite", "subject:whale", "role:npc", "state:animation" ]
+
+[assets."sprites/spr_whale_swimming_fadein"]
+description = "Whale surfacing/fading into view, top-down animation (70 frames)."
+tags = [ "asset_type:sprite", "subject:whale", "role:npc", "state:animation" ]
+
+[assets."sprites/spr_whale_swimming_fadeout"]
+description = "Whale diving/fading out of view, top-down animation (70 frames)."
+tags = [ "asset_type:sprite", "subject:whale", "role:npc", "state:animation" ]
+
+[assets."sprites/spr_cannonball_hit"]
+description = "Bright impact burst of sparks and smoke where a shot lands, animated (9 frames)."
+tags = [ "asset_type:sprite", "subject:impact", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_cannon_hit"]
+description = "Single still puff of cannon-impact smoke and debris; static frame."
+tags = [ "asset_type:sprite", "subject:impact", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_cannonball_trail"]
+description = "Streaking smoke trail behind a flying cannonball, animated (26 frames)."
+tags = [ "asset_type:sprite", "subject:trail", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_cannonball_trail"]
+description = "Single still wisp of cannonball smoke trail; static frame."
+tags = [ "asset_type:sprite", "subject:trail", "role:vfx", "state:static" ]
+
+[assets."sprites/vfx_cannon_fire"]
+description = "Big orange muzzle blast of fire and smoke from a firing cannon, animated (19 frames)."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_cannon_fire"]
+description = "Single still frame of a cannon muzzle flash; static."
+tags = [ "asset_type:sprite", "subject:explosion", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_water_splash"]
+description = "White water splash plume, animated (14 frames)."
+tags = [ "asset_type:sprite", "subject:splash", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_water_splash"]
+description = "Single still water splash droplet burst; static frame."
+tags = [ "asset_type:sprite", "subject:splash", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_ship_wake"]
+description = "Foamy white wake trailing a moving ship, animated loop (20 frames)."
+tags = [ "asset_type:sprite", "subject:wave", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_ship_wake"]
+description = "Single still wisp of ship wake foam; static frame."
+tags = [ "asset_type:sprite", "subject:wave", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_glow"]
+description = "Soft yellow radial pickup glow/halo, animated pulse (14 frames)."
+tags = [ "asset_type:sprite", "subject:glow", "role:vfx", "state:animation" ]
+
+[assets."sprites/spine_pickup_glow"]
+description = "Single still soft yellow pickup glow halo; static frame."
+tags = [ "asset_type:sprite", "subject:glow", "role:vfx", "state:static" ]
+
+[assets."sprites/spr_icon_cannon"]
+description = "Front-view UI button icon of a cannon for selecting cannon weapon; single frame."
+tags = [ "asset_type:sprite", "subject:icon", "role:ui", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_icon_duckfoot"]
+description = "Front-view UI button icon of a splayed ducksfoot multi-barrel gun; single frame."
+tags = [ "asset_type:sprite", "subject:icon", "role:ui", "projection:ui-icon", "state:static" ]
+
+[assets."sprites/spr_repair"]
+description = "Front-view UI repair icon — crossed hammer and pickaxe over a light disc; single frame."
+tags = [ "asset_type:sprite", "subject:icon", "role:ui", "projection:ui-icon", "state:static" ]
+
+[assets."tilesets/ts_water"]
+description = "Cartoon water tileset — bright cyan sea with lighter foam edges for painting open-water shapes, top-down."
+tags = [ "asset_type:tileset", "subject:water", "role:terrain", "state:static" ]
+
+[assets."tilesets/ts_grass"]
+description = "Cartoon grass tileset — bright green land with textured leafy borders, top-down."
+tags = [ "asset_type:tileset", "subject:grass", "role:terrain", "state:static" ]
+
+[assets."tilesets/ts_beach"]
+description = "Cartoon beach tileset — cream sand transitioning through pale-blue shallows to deeper water, top-down."
+tags = [ "asset_type:tileset", "subject:sand", "role:terrain", "state:static" ]
+
+[assets."tilesets/ts_fog"]
+description = "Grey fog tileset — soft cloud-like fog-of-war masses with billowy edges, top-down."
+tags = [ "asset_type:tileset", "subject:cloud", "role:terrain", "state:static" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track1"]
+description = "Full-length adventurous nautical music track, ~2:27 loopable theme."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track1_Lose"]
+description = "Short downbeat lose sting for Track 1, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track1_Win"]
+description = "Short triumphant win sting for Track 1, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track2"]
+description = "Second full-length nautical music track, ~2:06 loopable theme."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track2_Lose"]
+description = "Short downbeat lose sting for Track 2, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/MP3_Maritime_Mayhem_Track2_Win"]
+description = "Short triumphant win sting for Track 2, ~7s."
+tags = [ "asset_type:sound", "audio_type:music" ]
+
+[assets."sounds/sfx_environment_stillWaters_lp_01"]
+description = "Calm still-water ambience loop, ~30s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:water" ]
+
+[assets."sounds/sfx_environment_stillWaters_lp_02"]
+description = "Calm still-water ambience loop variant, ~32s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:water" ]
+
+[assets."sounds/sfx_environment_waves_lp_01"]
+description = "Open-sea rolling waves ambience loop, ~66s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/sfx_environment_waves_lp_02"]
+description = "Rolling waves ambience loop variant, ~28s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/sfx_environment_waves_shore_lp_01"]
+description = "Waves lapping the shore ambience loop, ~53s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/sfx_environment_waves_shore_lp_02"]
+description = "Shore-waves ambience loop variant, ~22s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:wave" ]
+
+[assets."sounds/sfx_environment_wind_lp_01"]
+description = "Steady sea-wind ambience loop, ~20s."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/sfx_environment_wind_lp_02"]
+description = "Sea-wind ambience loop variant, ~22s."
+tags = [ "asset_type:sound", "audio_type:ambience" ]
+
+[assets."sounds/sfx_environment_seabirds_01"]
+description = "Distant seabird calls ambience bed, ~6s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/sfx_environment_seabirds_02"]
+description = "Seabird calls ambience bed variant, ~6s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/sfx_environment_seabirds_03"]
+description = "Seabird calls ambience bed variant, ~4s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/sfx_environment_seabirds_04"]
+description = "Seabird calls ambience bed variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:bird" ]
+
+[assets."sounds/sfx_ship_large_wake_lp_01"]
+description = "Large ship cutting through water, wake ambience loop, ~38s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ship" ]
+
+[assets."sounds/sfx_ship_large_wake_lp_02"]
+description = "Large ship wake ambience loop variant, ~28s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ship" ]
+
+[assets."sounds/sfx_ship_small_wake_lp_01"]
+description = "Small boat wake/rowing-through-water ambience loop, ~24s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ship" ]
+
+[assets."sounds/sfx_ship_small_wake_lp_02"]
+description = "Small boat wake ambience loop variant, ~25s."
+tags = [ "asset_type:sound", "audio_type:ambience", "subject:ship" ]
+
+[assets."sounds/sfx_bats_01"]
+description = "Flapping, screeching bat swarm sound, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bat" ]
+
+[assets."sounds/sfx_bats_02"]
+description = "Bat swarm sound variant, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bat" ]
+
+[assets."sounds/sfx_bats_03"]
+description = "Bat swarm sound variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bat" ]
+
+[assets."sounds/sfx_bats_04"]
+description = "Bat swarm sound variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bat" ]
+
+[assets."sounds/sfx_crow_01"]
+description = "Crow caw, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_crow_02"]
+description = "Crow caw variant, ~3.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_crow_03"]
+description = "Crow caw variant, ~4.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_crow_04"]
+description = "Crow caw sequence variant, ~6.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_owl_01"]
+description = "Owl hoot, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_owl_02"]
+description = "Owl hoot variant, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_owl_03"]
+description = "Owl hoot variant, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_owl_04"]
+description = "Owl hoot variant, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_parrot_01"]
+description = "Squawking parrot call, ~1s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_parrot_02"]
+description = "Parrot call variant, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:bird" ]
+
+[assets."sounds/sfx_blunderbuss_fire_01"]
+description = "Boomy blunderbuss/musket gunshot, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/sfx_blunderbuss_fire_02"]
+description = "Blunderbuss gunshot variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/sfx_blunderbuss_fire_03"]
+description = "Blunderbuss gunshot variant, ~1.6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:gun" ]
+
+[assets."sounds/sfx_cannon_fire_01"]
+description = "Deep cannon boom, ~1.7s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/sfx_cannon_fire_02"]
+description = "Cannon boom variant, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/sfx_cannon_fire_03"]
+description = "Cannon boom variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/sfx_chainshot_01"]
+description = "Whirring chainshot launch/whip sound, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:cannon" ]
+
+[assets."sounds/sfx_collision_boat_to_boat_01"]
+description = "Heavy wooden crunch of two hulls colliding, ~9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship", "subject:impact" ]
+
+[assets."sounds/sfx_collision_boat_to_boat_02"]
+description = "Boat-to-boat collision crunch variant, ~6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship", "subject:impact" ]
+
+[assets."sounds/sfx_collision_boat_to_land_01"]
+description = "Hull running aground / grinding on land, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship", "subject:impact" ]
+
+[assets."sounds/sfx_collision_boat_to_land_02"]
+description = "Boat-to-land grounding crunch variant, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship", "subject:impact" ]
+
+[assets."sounds/sfx_collision_shot_to_boat_01"]
+description = "Cannon shot smashing into a hull, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/sfx_collision_shot_to_boat_02"]
+description = "Shot-into-hull impact variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/sfx_collision_shot_to_building_01"]
+description = "Cannon shot striking a stone building/wall, ~4s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/sfx_collision_shot_to_building_02"]
+description = "Shot-into-building impact variant, ~4.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/sfx_collision_shot_to_water_01"]
+description = "Cannonball splashing into the sea, ~8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash" ]
+
+[assets."sounds/sfx_collision_shot_to_water_02"]
+description = "Shot-into-water splash variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:splash" ]
+
+[assets."sounds/sfx_grapple_hook_impact_01"]
+description = "Grappling hook thunking into wood, short, ~0.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:impact" ]
+
+[assets."sounds/sfx_grapple_hook_shoot_01"]
+description = "Grappling hook launch/whoosh, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/sfx_pickup_01"]
+description = "Pleasant chime/sparkle for collecting a pickup, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/sfx_pickup_02"]
+description = "Pickup collect chime variant, ~2.5s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/sfx_pickup_03"]
+description = "Pickup collect chime variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx" ]
+
+[assets."sounds/sfx_rowboat_01"]
+description = "Wooden oar rowing/splash stroke, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:rowboat" ]
+
+[assets."sounds/sfx_rowboat_02"]
+description = "Rowboat oar stroke variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:rowboat" ]
+
+[assets."sounds/sfx_rowboat_03"]
+description = "Rowboat oar stroke variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:rowboat" ]
+
+[assets."sounds/sfx_rowboat_04"]
+description = "Rowboat oar stroke variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:rowboat" ]
+
+[assets."sounds/sfx_ship_bell_01"]
+description = "Ship's brass bell ringing, ~6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_bell_02"]
+description = "Ship's bell ring variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_creak_interior_01"]
+description = "Creaking timbers of a ship's hull, ~2.5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_creak_interior_02"]
+description = "Ship-creak variant, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_creak_interior_03"]
+description = "Ship-creak variant, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_creak_interior_04"]
+description = "Long ship-creak variant, ~5s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sails_down_01"]
+description = "Sails being dropped/furled with rope and canvas flap, ~6s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sails_down_02"]
+description = "Short sails-down stinger, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sails_up_01"]
+description = "Sails hoisting up, ropes hauling and canvas filling, ~13s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sails_up_02"]
+description = "Short sails-up stinger, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sink_large_01"]
+description = "Large ship sinking — groaning timbers and gushing water, ~16s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sink_large_02"]
+description = "Large ship sinking variant, ~11s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sink_small_01"]
+description = "Small ship sinking — bubbling and creaking, ~16s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_ship_sink_small_02"]
+description = "Small ship sinking variant, ~8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:ship" ]
+
+[assets."sounds/sfx_sword_cutlass_draw_01"]
+description = "Cutlass blade unsheathing ring, ~1.3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/sfx_sword_cutlass_hit_01"]
+description = "Cutlass clash/slash hit, ~1.8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/sfx_sword_cutlass_hit_02"]
+description = "Cutlass hit variant, ~1.2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:sword" ]
+
+[assets."sounds/sfx_whale_blowhole_01"]
+description = "Whale blowhole spout/exhale, ~9s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:whale" ]
+
+[assets."sounds/sfx_whale_blowhole_02"]
+description = "Short whale blowhole puff, ~2s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:whale" ]
+
+[assets."sounds/sfx_whale_song_01"]
+description = "Haunting low whale song, ~8s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:whale" ]
+
+[assets."sounds/sfx_whale_song_02"]
+description = "Whale song variant, ~10s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:whale" ]
+
+[assets."sounds/sfx_whale_tail_splash_01"]
+description = "Whale tail slapping the water, ~3s."
+tags = [ "asset_type:sound", "audio_type:sfx", "subject:whale" ]
+
+[assets."sounds/sfx_ship_deselect_01"]
+description = "Tiny UI deselect blip, ~0.1s."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/sfx_ship_deselect_02"]
+description = "UI deselect blip variant, ~0.3s."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/sfx_ship_highlight_01"]
+description = "Tiny UI highlight/hover blip, ~0.1s."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/sfx_ship_highlight_02"]
+description = "UI highlight/hover blip variant, ~0.2s."
+tags = [ "asset_type:sound", "audio_type:ui-sound" ]
+
+[assets."sounds/vo_female_yarr_01"]
+description = "Female pirate shouting 'Yarr!', ~1s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_female_yarr_02"]
+description = "Female pirate 'Yarr!' variant, ~1s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_female_yohoho_01"]
+description = "Female pirate calling 'Yo-ho-ho!', ~1.5s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_female_yohoho_02"]
+description = "Female pirate 'Yo-ho-ho!' variant, ~1.5s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_male_yarr_01"]
+description = "Male pirate shouting 'Yarr!', ~1.3s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_male_yarr_02"]
+description = "Male pirate 'Yarr!' variant, ~1.3s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_male_yohoho_01"]
+description = "Male pirate calling 'Yo-ho-ho!', ~1.7s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]
+
+[assets."sounds/vo_male_yohoho_02"]
+description = "Male pirate 'Yo-ho-ho!' variant, ~2s."
+tags = [ "asset_type:sound", "audio_type:voice", "subject:pirate" ]

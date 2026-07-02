@@ -1,0 +1,650 @@
+id = "sfx-animal"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "High-definition realistic animal sound effects pack — one-shot vocalizations from badgers, bears, cats, dogs, foxes, owls, horses and many more, in MP3."
+tags = [ "theme:nature", "role:audio", "asset_type:sound", "audio_type:sfx" ]
+
+[export]
+include = [
+  "sounds/MP3_Badger_Chatter_1",
+  "sounds/MP3_Badger_Chatter_2",
+  "sounds/MP3_Badger_Growl_1",
+  "sounds/MP3_Badger_Growl_2",
+  "sounds/MP3_Badger_Hiss_1",
+  "sounds/MP3_Badger_Hiss_2",
+  "sounds/MP3_Bat_Squeak_1",
+  "sounds/MP3_Bat_Squeak_2",
+  "sounds/MP3_Bear_Growl_1",
+  "sounds/MP3_Bear_Growl_2",
+  "sounds/MP3_Bear_Huffing_1",
+  "sounds/MP3_Bear_Huffing_2",
+  "sounds/MP3_Bear_Roar_1",
+  "sounds/MP3_Bear_Roar_2",
+  "sounds/MP3_Bear_Rumble_1",
+  "sounds/MP3_Bear_Rumble_2",
+  "sounds/MP3_Big_Dog_Bark_1",
+  "sounds/MP3_Big_Dog_Bark_2",
+  "sounds/MP3_Big_Dog_Growl_1",
+  "sounds/MP3_Big_Dog_Growl_2",
+  "sounds/MP3_Big_Dog_Whine_1",
+  "sounds/MP3_Big_Dog_Whine_2",
+  "sounds/MP3_Big_Dog_Yelp_1",
+  "sounds/MP3_Big_Dog_Yelp_2",
+  "sounds/MP3_Capybara_Chatter_1",
+  "sounds/MP3_Capybara_Chatter_2",
+  "sounds/MP3_Capybara_Squeak_1",
+  "sounds/MP3_Capybara_Squeak_2",
+  "sounds/MP3_Cat_Hiss_1",
+  "sounds/MP3_Cat_Hiss_2",
+  "sounds/MP3_Cat_Meow_1",
+  "sounds/MP3_Cat_Meow_2",
+  "sounds/MP3_Cat_Purr_1",
+  "sounds/MP3_Cat_Purr_2",
+  "sounds/MP3_Chick_Squeak_1",
+  "sounds/MP3_Chick_Squeak_2",
+  "sounds/MP3_Chicken_Cluck_1",
+  "sounds/MP3_Chicken_Cluck_2",
+  "sounds/MP3_Chicken_Cockadoodledoo_1",
+  "sounds/MP3_Chicken_Cockadoodledoo_2",
+  "sounds/MP3_Chicken_Wing_Flap_1",
+  "sounds/MP3_Chicken_Wing_Flap_2",
+  "sounds/MP3_Cow_Moo_1",
+  "sounds/MP3_Cow_Moo_2",
+  "sounds/MP3_Crocodile_Growl_1",
+  "sounds/MP3_Crocodile_Growl_2",
+  "sounds/MP3_Crocodile_Hiss_1",
+  "sounds/MP3_Crocodile_Hiss_2",
+  "sounds/MP3_Crocodile_Idle_1",
+  "sounds/MP3_Crocodile_Idle_2",
+  "sounds/MP3_Crocofile_Alert_1",
+  "sounds/MP3_Crocofile_Alert_2",
+  "sounds/MP3_Deer_Grunt_1",
+  "sounds/MP3_Deer_Grunt_2",
+  "sounds/MP3_Deer_Mewing_1",
+  "sounds/MP3_Deer_Mewing_2",
+  "sounds/MP3_Fox_Laughing_1",
+  "sounds/MP3_Fox_Laughing_2",
+  "sounds/MP3_Fox_Scream_1",
+  "sounds/MP3_Fox_Scream_2",
+  "sounds/MP3_Fox_Yelp_1",
+  "sounds/MP3_Fox_Yelp_2",
+  "sounds/MP3_Frog_croak_1",
+  "sounds/MP3_Frog_croak_2",
+  "sounds/MP3_Frog_croak_3",
+  "sounds/MP3_Frog_murmur_1",
+  "sounds/MP3_Frog_murmur_2",
+  "sounds/MP3_Giraffe_Groan_1",
+  "sounds/MP3_Giraffe_Groan_2",
+  "sounds/MP3_Goat_Bleat_1",
+  "sounds/MP3_Goat_Bleat_2",
+  "sounds/MP3_Goat_Bleat_3",
+  "sounds/MP3_Goat_Scream_1",
+  "sounds/MP3_Goat_Scream_2",
+  "sounds/MP3_Hoof_sounds_on_grass",
+  "sounds/MP3_Hoof_sounds_on_stone",
+  "sounds/MP3_Horse_Neigh_1",
+  "sounds/MP3_Horse_Neigh_2",
+  "sounds/MP3_Horse_Neigh_3",
+  "sounds/MP3_Horse_Snort_1",
+  "sounds/MP3_Horse_Snort_2",
+  "sounds/MP3_Horse_Snort_3",
+  "sounds/MP3_Horse_Wicker_1",
+  "sounds/MP3_Horse_Wicker_2",
+  "sounds/MP3_Horse_Wicker_3",
+  "sounds/MP3_Kid_Bleat_1",
+  "sounds/MP3_Kid_Bleat_2",
+  "sounds/MP3_Kid_Bleat_3",
+  "sounds/MP3_Kitten_Meow_1",
+  "sounds/MP3_Kitten_Meow_2",
+  "sounds/MP3_Lion_Roar_1",
+  "sounds/MP3_Lion_Roar_2",
+  "sounds/MP3_Monkey_Ook_1",
+  "sounds/MP3_Monkey_Ook_2",
+  "sounds/MP3_Monkey_Ook_3",
+  "sounds/MP3_Monkey_Yell_1",
+  "sounds/MP3_Monkey_Yell_2",
+  "sounds/MP3_Monkey_Yell_3",
+  "sounds/MP3_Mouse_Squeak_1",
+  "sounds/MP3_Mouse_Squeak_2",
+  "sounds/MP3_Otter_Squeak_1",
+  "sounds/MP3_Otter_Squeak_2",
+  "sounds/MP3_Owl_Hoot_1",
+  "sounds/MP3_Owl_Hoot_2",
+  "sounds/MP3_Owl_Hoot_3",
+  "sounds/MP3_Pig_Oink_1",
+  "sounds/MP3_Pig_Oink_2",
+  "sounds/MP3_Pig_Squeal_1",
+  "sounds/MP3_Pig_Squeal_2",
+  "sounds/MP3_Rabbit_Sniffling_1",
+  "sounds/MP3_Rabbit_Sniffling_2",
+  "sounds/MP3_Rabbit_Squeak_1",
+  "sounds/MP3_Rabbit_Squeak_2",
+  "sounds/MP3_Sheep_Baa_1",
+  "sounds/MP3_Sheep_Baa_2",
+  "sounds/MP3_Small_Dog_Bark_1",
+  "sounds/MP3_Small_Dog_Bark_2",
+  "sounds/MP3_Small_Dog_Growl_1",
+  "sounds/MP3_Small_Dog_Whine_1",
+  "sounds/MP3_Small_Dog_Whine_2",
+  "sounds/MP3_Small_Dog_Yelp_1",
+  "sounds/MP3_Small_Dog_Yelp_2",
+  "sounds/MP3_Small_dog_growl_2",
+  "sounds/MP3_Snake_Hiss_1",
+  "sounds/MP3_Snake_Hiss_2",
+  "sounds/MP3_Tiger_Roar_1",
+  "sounds/MP3_Tiger_Roar_2",
+  "sounds/MP3_Wing_Flapping",
+]
+
+[assets."sounds/MP3_Badger_Chatter_1"]
+description = "Realistic badger chattering call, ~2.0s one-shot."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Badger_Chatter_2"]
+description = "Realistic badger chattering call, shorter variant, ~1.5s one-shot."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Badger_Growl_1"]
+description = "Low aggressive badger growl, ~2.5s one-shot."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Badger_Growl_2"]
+description = "Short badger growl, ~1.0s one-shot."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Badger_Hiss_1"]
+description = "Defensive badger hiss, ~1.75s one-shot."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Badger_Hiss_2"]
+description = "Defensive badger hiss, ~1.4s one-shot variant."
+tags = [ "subject:badger" ]
+
+[assets."sounds/MP3_Bat_Squeak_1"]
+description = "High-pitched bat squeak, ~1.0s one-shot."
+tags = [ "subject:bat" ]
+
+[assets."sounds/MP3_Bat_Squeak_2"]
+description = "High-pitched bat squeak, longer ~1.75s variant."
+tags = [ "subject:bat" ]
+
+[assets."sounds/MP3_Bear_Growl_1"]
+description = "Deep menacing bear growl, ~2.5s one-shot."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Growl_2"]
+description = "Deep bear growl, ~2.75s variant."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Huffing_1"]
+description = "Bear huffing and snorting breaths, ~5.5s."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Huffing_2"]
+description = "Short bear huffing breaths, ~2.25s."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Roar_1"]
+description = "Powerful bear roar, ~3.0s one-shot."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Roar_2"]
+description = "Sustained powerful bear roar, ~5.0s."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Rumble_1"]
+description = "Low rumbling bear vocalization, ~6.25s."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Bear_Rumble_2"]
+description = "Low rumbling bear vocalization, ~6.0s variant."
+tags = [ "subject:bear" ]
+
+[assets."sounds/MP3_Big_Dog_Bark_1"]
+description = "Large dog bark, deep and full, ~1.75s one-shot."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Bark_2"]
+description = "Large dog bark, ~1.5s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Growl_1"]
+description = "Big dog low warning growl, ~2.0s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Growl_2"]
+description = "Big dog sustained growl, ~3.3s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Whine_1"]
+description = "Big dog soft whine, ~0.8s one-shot."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Whine_2"]
+description = "Big dog whine, ~1.2s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Yelp_1"]
+description = "Big dog sharp yelp, ~1.1s one-shot."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Big_Dog_Yelp_2"]
+description = "Big dog quick yelp, ~0.75s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Capybara_Chatter_1"]
+description = "Capybara chattering vocalization, ~1.5s one-shot."
+tags = [ "subject:capybara" ]
+
+[assets."sounds/MP3_Capybara_Chatter_2"]
+description = "Capybara chattering vocalization, ~1.25s variant."
+tags = [ "subject:capybara" ]
+
+[assets."sounds/MP3_Capybara_Squeak_1"]
+description = "Short capybara squeak, ~0.75s one-shot."
+tags = [ "subject:capybara" ]
+
+[assets."sounds/MP3_Capybara_Squeak_2"]
+description = "Brief capybara squeak, ~0.5s."
+tags = [ "subject:capybara" ]
+
+[assets."sounds/MP3_Cat_Hiss_1"]
+description = "Sharp cat hiss, ~1.0s one-shot."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Cat_Hiss_2"]
+description = "Drawn-out cat hiss, ~3.0s."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Cat_Meow_1"]
+description = "Domestic cat meow, ~1.1s one-shot."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Cat_Meow_2"]
+description = "Longer drawn cat meow, ~2.0s."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Cat_Purr_1"]
+description = "Content cat purring, ~3.75s."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Cat_Purr_2"]
+description = "Content cat purring, ~4.5s variant."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Chick_Squeak_1"]
+description = "Baby chick peeping squeaks, ~2.25s."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chick_Squeak_2"]
+description = "Baby chick peeping squeaks, ~1.5s variant."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Cluck_1"]
+description = "Hen clucking, ~1.3s one-shot."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Cluck_2"]
+description = "Hen clucking, ~1.6s variant."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Cockadoodledoo_1"]
+description = "Rooster crow (cock-a-doodle-doo), ~2.5s."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Cockadoodledoo_2"]
+description = "Rooster crow (cock-a-doodle-doo), ~2.5s variant."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Wing_Flap_1"]
+description = "Chicken wing flapping flutter, ~1.0s."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Chicken_Wing_Flap_2"]
+description = "Chicken wing flapping flutter, ~2.25s variant."
+tags = [ "subject:chicken" ]
+
+[assets."sounds/MP3_Cow_Moo_1"]
+description = "Cow mooing, ~2.25s one-shot."
+tags = [ "subject:cow" ]
+
+[assets."sounds/MP3_Cow_Moo_2"]
+description = "Cow mooing, ~2.25s variant."
+tags = [ "subject:cow" ]
+
+[assets."sounds/MP3_Crocodile_Growl_1"]
+description = "Guttural crocodile growl, ~3.0s."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocodile_Growl_2"]
+description = "Sustained crocodile growl, ~4.0s."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocodile_Hiss_1"]
+description = "Crocodile threat hiss, ~3.0s."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocodile_Hiss_2"]
+description = "Crocodile hiss, ~2.25s variant."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocodile_Idle_1"]
+description = "Idle crocodile breathing and low rumble, ~7.25s."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocodile_Idle_2"]
+description = "Idle crocodile breathing and low rumble, ~6.25s variant."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocofile_Alert_1"]
+description = "Alert crocodile snap/grunt, ~1.25s one-shot."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Crocofile_Alert_2"]
+description = "Alert crocodile snap/grunt, ~1.5s variant."
+tags = [ "subject:crocodile" ]
+
+[assets."sounds/MP3_Deer_Grunt_1"]
+description = "Deer rutting grunt, ~3.0s."
+tags = [ "subject:deer" ]
+
+[assets."sounds/MP3_Deer_Grunt_2"]
+description = "Deer grunt, ~1.5s variant."
+tags = [ "subject:deer" ]
+
+[assets."sounds/MP3_Deer_Mewing_1"]
+description = "Soft deer/fawn mew, very short ~0.3s."
+tags = [ "subject:deer" ]
+
+[assets."sounds/MP3_Deer_Mewing_2"]
+description = "Soft deer/fawn mew, ~0.65s."
+tags = [ "subject:deer" ]
+
+[assets."sounds/MP3_Fox_Laughing_1"]
+description = "Fox chattering 'laughing' call, ~3.75s."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Fox_Laughing_2"]
+description = "Fox chattering 'laughing' call, ~2.75s variant."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Fox_Scream_1"]
+description = "Piercing fox scream, ~1.75s."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Fox_Scream_2"]
+description = "Piercing fox scream, ~1.75s variant."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Fox_Yelp_1"]
+description = "Fox yelping call, ~3.75s."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Fox_Yelp_2"]
+description = "Fox yelping call, ~3.25s variant."
+tags = [ "subject:fox" ]
+
+[assets."sounds/MP3_Frog_croak_1"]
+description = "Frog croak, ~1.0s one-shot."
+tags = [ "subject:frog" ]
+
+[assets."sounds/MP3_Frog_croak_2"]
+description = "Frog croak, ~1.0s variant."
+tags = [ "subject:frog" ]
+
+[assets."sounds/MP3_Frog_croak_3"]
+description = "Frog croak, ~1.5s variant."
+tags = [ "subject:frog" ]
+
+[assets."sounds/MP3_Frog_murmur_1"]
+description = "Low frog murmuring ribbit, ~1.75s."
+tags = [ "subject:frog" ]
+
+[assets."sounds/MP3_Frog_murmur_2"]
+description = "Low frog murmuring ribbit, ~2.5s variant."
+tags = [ "subject:frog" ]
+
+[assets."sounds/MP3_Giraffe_Groan_1"]
+description = "Deep giraffe groan/moan, ~7.25s."
+tags = [ "subject:giraffe" ]
+
+[assets."sounds/MP3_Giraffe_Groan_2"]
+description = "Giraffe groan/moan, ~4.0s variant."
+tags = [ "subject:giraffe" ]
+
+[assets."sounds/MP3_Goat_Bleat_1"]
+description = "Goat bleat, ~1.75s one-shot."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Goat_Bleat_2"]
+description = "Goat bleat, ~1.75s variant."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Goat_Bleat_3"]
+description = "Goat bleat, ~1.25s variant."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Goat_Scream_1"]
+description = "Comical goat screaming bleat, ~1.25s."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Goat_Scream_2"]
+description = "Comical goat screaming bleat, ~1.25s variant."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Hoof_sounds_on_grass"]
+description = "Horse hooves walking on grass, looping footstep bed, ~10s."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Hoof_sounds_on_stone"]
+description = "Horse hooves clopping on stone, looping footstep bed, ~10s."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Neigh_1"]
+description = "Horse neigh/whinny, ~2.0s."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Neigh_2"]
+description = "Horse neigh/whinny, ~2.0s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Neigh_3"]
+description = "Horse neigh/whinny, ~2.25s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Snort_1"]
+description = "Horse snort, ~1.5s one-shot."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Snort_2"]
+description = "Horse snort, ~1.25s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Snort_3"]
+description = "Horse snort, ~1.25s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Wicker_1"]
+description = "Soft horse nicker (wicker), ~1.5s."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Wicker_2"]
+description = "Soft horse nicker (wicker), ~1.75s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Horse_Wicker_3"]
+description = "Soft horse nicker (wicker), ~1.8s variant."
+tags = [ "subject:horse" ]
+
+[assets."sounds/MP3_Kid_Bleat_1"]
+description = "Baby goat (kid) bleat, ~2.0s."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Kid_Bleat_2"]
+description = "Baby goat (kid) bleat, ~2.0s variant."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Kid_Bleat_3"]
+description = "Baby goat (kid) bleat, ~2.0s variant."
+tags = [ "subject:goat" ]
+
+[assets."sounds/MP3_Kitten_Meow_1"]
+description = "Tiny kitten meow, ~2.25s."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Kitten_Meow_2"]
+description = "Tiny kitten meow, ~1.1s variant."
+tags = [ "subject:cat" ]
+
+[assets."sounds/MP3_Lion_Roar_1"]
+description = "Lion roar, ~1.25s one-shot."
+tags = [ "subject:lion" ]
+
+[assets."sounds/MP3_Lion_Roar_2"]
+description = "Lion roar, ~1.75s variant."
+tags = [ "subject:lion" ]
+
+[assets."sounds/MP3_Monkey_Ook_1"]
+description = "Monkey ook/hoot call, ~1.25s."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Monkey_Ook_2"]
+description = "Monkey ook/hoot call, ~1.5s variant."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Monkey_Ook_3"]
+description = "Monkey ook/hoot call, ~2.75s variant."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Monkey_Yell_1"]
+description = "Monkey shrieking yell, ~1.5s."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Monkey_Yell_2"]
+description = "Monkey shrieking yell, ~1.75s variant."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Monkey_Yell_3"]
+description = "Monkey shrieking yell, ~1.75s variant."
+tags = [ "subject:monkey" ]
+
+[assets."sounds/MP3_Mouse_Squeak_1"]
+description = "High mouse squeak, ~1.0s one-shot."
+tags = [ "subject:mouse" ]
+
+[assets."sounds/MP3_Mouse_Squeak_2"]
+description = "High mouse squeak, ~1.0s variant."
+tags = [ "subject:mouse" ]
+
+[assets."sounds/MP3_Otter_Squeak_1"]
+description = "Short otter squeak, ~0.75s one-shot."
+tags = [ "subject:otter" ]
+
+[assets."sounds/MP3_Otter_Squeak_2"]
+description = "Short otter squeak, ~0.75s variant."
+tags = [ "subject:otter" ]
+
+[assets."sounds/MP3_Owl_Hoot_1"]
+description = "Owl hooting call, ~1.5s."
+tags = [ "subject:owl" ]
+
+[assets."sounds/MP3_Owl_Hoot_2"]
+description = "Owl hooting call, ~1.5s variant."
+tags = [ "subject:owl" ]
+
+[assets."sounds/MP3_Owl_Hoot_3"]
+description = "Owl hooting call, ~1.25s variant."
+tags = [ "subject:owl" ]
+
+[assets."sounds/MP3_Pig_Oink_1"]
+description = "Pig oink, ~0.5s one-shot."
+tags = [ "subject:pig" ]
+
+[assets."sounds/MP3_Pig_Oink_2"]
+description = "Pig oink, ~0.75s variant."
+tags = [ "subject:pig" ]
+
+[assets."sounds/MP3_Pig_Squeal_1"]
+description = "Pig squeal, ~1.0s one-shot."
+tags = [ "subject:pig" ]
+
+[assets."sounds/MP3_Pig_Squeal_2"]
+description = "Pig squeal, ~1.0s variant."
+tags = [ "subject:pig" ]
+
+[assets."sounds/MP3_Rabbit_Sniffling_1"]
+description = "Rabbit sniffling and snuffling, ~1.25s."
+tags = [ "subject:rabbit" ]
+
+[assets."sounds/MP3_Rabbit_Sniffling_2"]
+description = "Rabbit sniffling and snuffling, ~2.0s variant."
+tags = [ "subject:rabbit" ]
+
+[assets."sounds/MP3_Rabbit_Squeak_1"]
+description = "Rabbit distress squeak, ~1.0s."
+tags = [ "subject:rabbit" ]
+
+[assets."sounds/MP3_Rabbit_Squeak_2"]
+description = "Rabbit distress squeak, ~1.0s variant."
+tags = [ "subject:rabbit" ]
+
+[assets."sounds/MP3_Sheep_Baa_1"]
+description = "Sheep baa, ~1.25s one-shot."
+tags = [ "subject:sheep" ]
+
+[assets."sounds/MP3_Sheep_Baa_2"]
+description = "Sheep baa, short ~0.7s variant."
+tags = [ "subject:sheep" ]
+
+[assets."sounds/MP3_Small_Dog_Bark_1"]
+description = "Small dog high-pitched bark, ~1.1s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Bark_2"]
+description = "Small dog high-pitched bark, ~1.3s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Growl_1"]
+description = "Small dog growl, ~3.1s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Whine_1"]
+description = "Small dog whine, ~1.1s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Whine_2"]
+description = "Small dog whine, ~1.0s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Yelp_1"]
+description = "Small dog yelp, ~0.85s."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_Dog_Yelp_2"]
+description = "Small dog yelp, ~0.55s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Small_dog_growl_2"]
+description = "Small dog growl, ~2.2s variant."
+tags = [ "subject:dog" ]
+
+[assets."sounds/MP3_Snake_Hiss_1"]
+description = "Snake hiss, ~1.5s one-shot."
+tags = [ "subject:snake" ]
+
+[assets."sounds/MP3_Snake_Hiss_2"]
+description = "Snake hiss, ~1.25s variant."
+tags = [ "subject:snake" ]
+
+[assets."sounds/MP3_Tiger_Roar_1"]
+description = "Tiger roar, ~1.25s one-shot."
+tags = [ "subject:tiger" ]
+
+[assets."sounds/MP3_Tiger_Roar_2"]
+description = "Tiger roar, ~1.5s variant."
+tags = [ "subject:tiger" ]
+
+[assets."sounds/MP3_Wing_Flapping"]
+description = "Generic bird wing flapping, sustained flutter ~5.75s."
+tags = [ "subject:bird" ]

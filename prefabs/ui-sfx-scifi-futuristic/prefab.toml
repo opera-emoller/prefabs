@@ -1,0 +1,205 @@
+id = "ui-sfx-scifi-futuristic"
+version = "1.0.0"
+kind = "asset"
+license = "Apache-2.0"
+description = "A pack of ~39 futuristic sci-fi user-interface sound effects — digital clicks, hovers, confirms, errors, sliders, swipes, power and window transitions — all with a clean holographic, synthesized character."
+tags = [ "theme:sci-fi", "role:ui", "audio_type:ui-sound" ]
+
+[export]
+include = [
+  "sounds/Keyboard_Click_1",
+  "sounds/Keyboard_Click_2",
+  "sounds/Keyboard_Click_3",
+  "sounds/Mouse_Click_1",
+  "sounds/Mouse_Click_2",
+  "sounds/Mouse_Hover_1",
+  "sounds/Mouse_Hover_2",
+  "sounds/No_Button_1",
+  "sounds/No_Button_2",
+  "sounds/Pop_1",
+  "sounds/Pop_2",
+  "sounds/Popdown_1",
+  "sounds/Popdown_2",
+  "sounds/Popup_1",
+  "sounds/Popup_2",
+  "sounds/Power_Off_1",
+  "sounds/Power_Off_2",
+  "sounds/Power_On_1",
+  "sounds/Power_On_2",
+  "sounds/Slider_Move__Ascending__1",
+  "sounds/Slider_Move__Ascending__2",
+  "sounds/Slider_Move__Descending__1",
+  "sounds/Slider_Move__Descending__2",
+  "sounds/Swipe_Closed_1",
+  "sounds/Swipe_Closed_2",
+  "sounds/Swipe_Open_1",
+  "sounds/Swipe_Open_2",
+  "sounds/Task_Complete_1",
+  "sounds/Task_Complete_2",
+  "sounds/Task_Failed_1",
+  "sounds/Task_Failed_2",
+  "sounds/Timer_Tick_1",
+  "sounds/Timer_Tick_2",
+  "sounds/Window_Close_1",
+  "sounds/Window_Close_2",
+  "sounds/Window_Open_1",
+  "sounds/Window_Open_2",
+  "sounds/Yes_Button_1",
+  "sounds/Yes_Button_2",
+]
+
+[assets."sounds/Keyboard_Click_1"]
+description = "Crisp digital keypress with a soft synthesized tail, ~0.87s — futuristic UI keyboard click."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Keyboard_Click_2"]
+description = "Short snappy electronic keypress blip, ~0.4s — futuristic UI keyboard click."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Keyboard_Click_3"]
+description = "Quick clean digital keytap, ~0.37s — futuristic UI keyboard click."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Mouse_Click_1"]
+description = "Sharp synthetic click tick, ~0.5s — holographic UI mouse-click select."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Mouse_Click_2"]
+description = "Slightly fuller electronic click with a faint glassy ring, ~0.75s — futuristic UI mouse-click select."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Mouse_Hover_1"]
+description = "Soft rising digital blip, ~0.5s — holographic UI hover/focus cue."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Mouse_Hover_2"]
+description = "Light shimmering hover tick, ~0.43s — futuristic UI hover/focus cue."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/No_Button_1"]
+description = "Descending negative buzz with a digital edge, ~0.75s — sci-fi UI cancel/deny button."
+tags = [ "asset_type:sound", "subject:button" ]
+
+[assets."sounds/No_Button_2"]
+description = "Curt synthetic reject blip, ~0.27s — sci-fi UI cancel/deny button."
+tags = [ "asset_type:sound", "subject:button" ]
+
+[assets."sounds/Pop_1"]
+description = "Bright synthesized pop, ~0.31s — futuristic UI element appear/pop blip."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Pop_2"]
+description = "Quick clipped digital pop, ~0.25s — futuristic UI element appear/pop blip."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Popdown_1"]
+description = "Downward-pitched electronic pop with a short tail, ~0.75s — holographic UI element collapse/pop-down."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Popdown_2"]
+description = "Longer descending digital sweep, ~1.5s — holographic UI panel pop-down/dismiss."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Popup_1"]
+description = "Upward-pitched synthesized pop, ~0.75s — futuristic UI element open/pop-up."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Popup_2"]
+description = "Rising digital pop with a glassy bloom, ~1.0s — futuristic UI panel pop-up/appear."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Power_Off_1"]
+description = "Descending power-down whir with a synthesized fade, ~1.25s — sci-fi UI system power-off."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Power_Off_2"]
+description = "Long deep electronic power-down sweep, ~2.0s — sci-fi UI system power-off/shutdown."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Power_On_1"]
+description = "Rising energizing hum that swells up, ~1.5s — sci-fi UI system power-on/boot."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Power_On_2"]
+description = "Longer ascending power-up surge with a digital bloom, ~2.0s — sci-fi UI system power-on/boot."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Slider_Move__Ascending__1"]
+description = "Upward-stepping digital glide, ~0.75s — futuristic UI slider increase/value-up."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Slider_Move__Ascending__2"]
+description = "Shorter rising electronic glide, ~0.58s — futuristic UI slider increase/value-up."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Slider_Move__Descending__1"]
+description = "Downward-stepping digital glide, ~0.75s — futuristic UI slider decrease/value-down."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Slider_Move__Descending__2"]
+description = "Shorter falling electronic glide, ~0.64s — futuristic UI slider decrease/value-down."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Swipe_Closed_1"]
+description = "Synthetic whoosh that pulls inward, ~1.0s — holographic UI swipe-close/dismiss."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Swipe_Closed_2"]
+description = "Longer digital sweep collapsing shut, ~1.25s — holographic UI swipe-close/dismiss."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Swipe_Open_1"]
+description = "Expanding airy digital whoosh, ~2.0s — holographic UI swipe-open/reveal."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Swipe_Open_2"]
+description = "Quicker synthetic sweep opening outward, ~1.0s — holographic UI swipe-open/reveal."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Task_Complete_1"]
+description = "Cheerful ascending chime sequence with a digital sparkle, ~3.25s — sci-fi UI task-complete/success jingle."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Task_Complete_2"]
+description = "Fuller multi-tone success melody, ~4.0s — sci-fi UI task-complete/success jingle."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Task_Failed_1"]
+description = "Descending dissonant alert tones, ~2.0s — sci-fi UI task-failed/error stinger."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Task_Failed_2"]
+description = "Longer brooding error sequence with a synthetic buzz, ~3.0s — sci-fi UI task-failed/error stinger."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Timer_Tick_1"]
+description = "Tiny clean digital tick, ~0.12s — futuristic UI timer/countdown tick."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Timer_Tick_2"]
+description = "Short synthetic tick blip, ~0.15s — futuristic UI timer/countdown tick."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Window_Close_1"]
+description = "Synthesized whoosh sliding shut, ~1.0s — holographic UI window-close."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Window_Close_2"]
+description = "Longer digital sweep closing a panel, ~1.5s — holographic UI window-close."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Window_Open_1"]
+description = "Bright opening whoosh with a digital bloom, ~1.25s — holographic UI window-open."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Window_Open_2"]
+description = "Smooth synthetic window-open sweep, ~1.25s — holographic UI window-open."
+tags = [ "asset_type:sound" ]
+
+[assets."sounds/Yes_Button_1"]
+description = "Upbeat ascending confirm chirp, ~0.55s — sci-fi UI confirm/accept button."
+tags = [ "asset_type:sound", "subject:button" ]
+
+[assets."sounds/Yes_Button_2"]
+description = "Fuller two-tone confirmation with a digital ring, ~1.06s — sci-fi UI confirm/accept button."
+tags = [ "asset_type:sound", "subject:button" ]

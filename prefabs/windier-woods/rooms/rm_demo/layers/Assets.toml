@@ -1,0 +1,598 @@
+#:schema ../../../.gm-schema/v1.json#layer
+
+kind = "assets"
+depth = 10
+visible = true
+sequences = []
+tiles = []
+
+[[sprites]]
+id = "asset_spr_VFX_particle_pineneedles"
+sprite = "spr_VFX_particle_pineneedles"
+x = 30.7
+y = 36.9
+scale_x = 1.65714
+scale_y = 1.65714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_VFX_particle_snowflake"
+sprite = "spr_VFX_particle_snowflake"
+x = 156.7
+y = 36.9
+scale_x = 1.65714
+scale_y = 1.65714
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_alpine_mountains_back"
+sprite = "spr_bg_alpine_mountains_back"
+x = 282.7
+y = 32.8
+scale_x = 0.03668
+scale_y = 0.03668
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_alpine_mountains_front"
+sprite = "spr_bg_alpine_mountains_front"
+x = 408.7
+y = 34.1
+scale_x = 0.03668
+scale_y = 0.03668
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_cave_entrance"
+sprite = "spr_bg_cave_entrance"
+x = 534.7
+y = 40.6
+scale_x = 0.11004
+scale_y = 0.11004
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_cave_snowbound"
+sprite = "spr_bg_cave_snowbound"
+x = 660.7
+y = 19.5
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_cave_snowbound_top"
+sprite = "spr_bg_cave_snowbound_top"
+x = 786.7
+y = 19.5
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_snowbound_mountains_back"
+sprite = "spr_bg_snowbound_mountains_back"
+x = 912.7
+y = 32.8
+scale_x = 0.03668
+scale_y = 0.03668
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bg_snowbound_mountains_front"
+sprite = "spr_bg_snowbound_mountains_front"
+x = 1038.7
+y = 34.1
+scale_x = 0.03668
+scale_y = 0.03668
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_money_off_no_snow"
+sprite = "spr_block_money_off_no_snow"
+x = 1164.7
+y = 19.5
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_money_off_snowy"
+sprite = "spr_block_money_off_snowy"
+x = 30.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_money_on_snowy"
+sprite = "spr_block_money_on_snowy"
+x = 156.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_left_nosnow"
+sprite = "spr_block_smash_left_nosnow"
+x = 282.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_left_snowy"
+sprite = "spr_block_smash_left_snowy"
+x = 408.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_mid_nosnow"
+sprite = "spr_block_smash_mid_nosnow"
+x = 534.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_mid_snowy"
+sprite = "spr_block_smash_mid_snowy"
+x = 660.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_right_nosnow"
+sprite = "spr_block_smash_right_nosnow"
+x = 786.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_right_snowy"
+sprite = "spr_block_smash_right_snowy"
+x = 912.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_single_nosnow"
+sprite = "spr_block_smash_single_nosnow"
+x = 1038.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_block_smash_single_snowy"
+sprite = "spr_block_smash_single_snowy"
+x = 1164.7
+y = 118.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blockbreak_no_snow"
+sprite = "spr_blockbreak_no_snow"
+x = 30.7
+y = 230.3
+scale_x = 0.2401
+scale_y = 0.2401
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_blockbreak_snow"
+sprite = "spr_blockbreak_snow"
+x = 156.7
+y = 230.3
+scale_x = 0.2401
+scale_y = 0.2401
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_left"
+sprite = "spr_bridge_ice_left"
+x = 282.7
+y = 242.4
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_left_behind"
+sprite = "spr_bridge_ice_left_behind"
+x = 426.4
+y = 218.3
+scale_x = 1.53662
+scale_y = 1.53662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_left_behind_cracked"
+sprite = "spr_bridge_ice_left_behind_cracked"
+x = 552.4
+y = 218.3
+scale_x = 1.53662
+scale_y = 1.53662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_left_cracked"
+sprite = "spr_bridge_ice_left_cracked"
+x = 660.7
+y = 242.4
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_mid"
+sprite = "spr_bridge_ice_mid"
+x = 786.7
+y = 242.4
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_mid_cracked"
+sprite = "spr_bridge_ice_mid_cracked"
+x = 912.7
+y = 242.4
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_right"
+sprite = "spr_bridge_ice_right"
+x = 1038.7
+y = 242.4
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_right_behind"
+sprite = "spr_bridge_ice_right_behind"
+x = 1182.4
+y = 218.3
+scale_x = 1.53662
+scale_y = 1.53662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_right_behind_cracked"
+sprite = "spr_bridge_ice_right_behind_cracked"
+x = 48.4
+y = 317.7
+scale_x = 1.53662
+scale_y = 1.53662
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_bridge_ice_right_cracked"
+sprite = "spr_bridge_ice_right_cracked"
+x = 156.7
+y = 341.8
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_cave_light"
+sprite = "spr_cave_light"
+x = 282.7
+y = 334.7
+scale_x = 0.16836
+scale_y = 0.16836
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_exit_inner"
+sprite = "spr_exit_inner"
+x = 413.4
+y = 317.7
+scale_x = 0.49136
+scale_y = 0.49136
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_exit_snowy"
+sprite = "spr_exit_snowy"
+x = 534.7
+y = 334.2
+scale_x = 0.25078
+scale_y = 0.25078
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flowers_1"
+sprite = "spr_flowers_1"
+x = 661.9
+y = 317.7
+scale_x = 2.22406
+scale_y = 2.22406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flowers_2"
+sprite = "spr_flowers_2"
+x = 786.7
+y = 322.2
+scale_x = 2.22406
+scale_y = 2.22406
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_flowers_3"
+sprite = "spr_flowers_3"
+x = 912.7
+y = 318.8
+scale_x = 2.06132
+scale_y = 2.06132
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_frozenriver_bottom"
+sprite = "spr_frozenriver_bottom"
+x = 1038.7
+y = 317.7
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_frozenriver_top"
+sprite = "spr_frozenriver_top"
+x = 1164.7
+y = 317.7
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_grass_1"
+sprite = "spr_grass_1"
+x = 30.7
+y = 430.6
+scale_x = 3.84156
+scale_y = 3.84156
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_grass_2"
+sprite = "spr_grass_2"
+x = 156.7
+y = 433.3
+scale_x = 4.02449
+scale_y = 4.02449
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_grass_3"
+sprite = "spr_grass_3"
+x = 282.7
+y = 426.1
+scale_x = 4.44812
+scale_y = 4.44812
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_icicles_1"
+sprite = "spr_icicles_1"
+x = 416.6
+y = 417.2
+scale_x = 1.20735
+scale_y = 1.20735
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_icicles_2"
+sprite = "spr_icicles_2"
+x = 542.6
+y = 417.2
+scale_x = 1.20735
+scale_y = 1.20735
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_light_shaft_tops"
+sprite = "spr_light_shaft_tops"
+x = 660.7
+y = 442.9
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_mossgrass_mound"
+sprite = "spr_mossgrass_mound"
+x = 786.7
+y = 446.9
+scale_x = 0.58286
+scale_y = 0.58286
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_snowdrift_1"
+sprite = "spr_snowdrift_1"
+x = 30.7
+y = 548.1
+scale_x = 0.76831
+scale_y = 0.76831
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_snowdrift_2"
+sprite = "spr_snowdrift_2"
+x = 156.7
+y = 543.0
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_snowdrift_3"
+sprite = "spr_snowdrift_3"
+x = 282.7
+y = 547.0
+scale_x = 0.66027
+scale_y = 0.66027
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_snowman"
+sprite = "spr_snowman"
+x = 408.7
+y = 516.6
+scale_x = 0.33013
+scale_y = 0.33013
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tileset_cave"
+sprite = "spr_tileset_cave"
+x = 548.8
+y = 516.6
+scale_x = 0.22009
+scale_y = 0.22009
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_alpine_elm"
+sprite = "spr_tree_front_alpine_elm"
+x = 662.5
+y = 516.6
+scale_x = 0.09328
+scale_y = 0.09328
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_alpine_larch_green"
+sprite = "spr_tree_front_alpine_larch_green"
+x = 794.1
+y = 516.6
+scale_x = 0.08278
+scale_y = 0.08278
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_alpine_larch_yellow"
+sprite = "spr_tree_front_alpine_larch_yellow"
+x = 38.1
+y = 616.0
+scale_x = 0.08278
+scale_y = 0.08278
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_alpine_spruce"
+sprite = "spr_tree_front_alpine_spruce"
+x = 165.0
+y = 616.0
+scale_x = 0.0939
+scale_y = 0.0939
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_snowbound_elm"
+sprite = "spr_tree_front_snowbound_elm"
+x = 284.5
+y = 616.0
+scale_x = 0.09328
+scale_y = 0.09328
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_snowbound_larch"
+sprite = "spr_tree_front_snowbound_larch"
+x = 416.9
+y = 616.0
+scale_x = 0.08003
+scale_y = 0.08003
+rotation = 0.0
+colour = "#FFFFFFFF"
+
+[[sprites]]
+id = "asset_spr_tree_front_snowbound_spruce"
+sprite = "spr_tree_front_snowbound_spruce"
+x = 543.0
+y = 616.0
+scale_x = 0.0939
+scale_y = 0.0939
+rotation = 0.0
+colour = "#FFFFFFFF"
+
