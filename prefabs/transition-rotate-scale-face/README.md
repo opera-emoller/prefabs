@@ -10,10 +10,10 @@ machinery, and the demo.
 
 ```gml
 ::transition_rotate_scale_face::goto(rm_next);                                  // default spin
-::transition_rotate_scale_face::goto(rm_next, 1.5, { rotations_f: 2.0, scale_f: 6.0 }); // tune it
+::transition_rotate_scale_face::goto(rm_next, 1.5, { rotations: 2.0, scale: 6.0 }); // tune it
 ```
 
-Tunable params: `rotations_f` (default 1.0), `scale_f` (default 8.0).
+Tunable params: `rotations` (default 1.0), `scale` (default 8.0).
 
 ## Attribution & license
 

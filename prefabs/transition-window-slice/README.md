@@ -9,7 +9,7 @@ machinery, and the demo.
 
 ```gml
 ::transition_window_slice::goto(rm_next);                                        // default slices
-::transition_window_slice::goto(rm_next, 1.5, { count_f: 20.0, smoothness_f: 0.2 }); // more, crisper slices
+::transition_window_slice::goto(rm_next, 1.5, { count: 20.0, smoothness: 0.2 }); // more, crisper slices
 ```
 
 ## Attribution & license

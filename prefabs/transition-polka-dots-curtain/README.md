@@ -10,7 +10,7 @@ machinery, and the demo.
 
 ```gml
 ::transition_polka_dots_curtain::goto(rm_next);                     // default grid
-::transition_polka_dots_curtain::goto(rm_next, 1.5, { dots_f: 30.0 }); // denser dots
+::transition_polka_dots_curtain::goto(rm_next, 1.5, { dots: 30.0 }); // denser dots
 ```
 
 ## Attribution & license

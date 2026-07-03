@@ -9,7 +9,7 @@ the transition machinery, and the demo.
 
 ```gml
 ::transition_angular::goto(rm_next);                                  // default sweep (90°)
-::transition_angular::goto(rm_next, 1.5, { starting_angle_f: 180.0 });// tune the start angle
+::transition_angular::goto(rm_next, 1.5, { starting_angle: 180.0 });// tune the start angle
 ```
 
 ## Attribution & license

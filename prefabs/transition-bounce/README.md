@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_bounce::goto(rm_next);                                            // default (3 bounces)
-::transition_bounce::goto(rm_next, 1.5, { bounces_f: 4.0, shadow_height_f: 0.1 });
+::transition_bounce::goto(rm_next, 1.5, { bounces: 4.0, shadow_height: 0.1 });
 ```
 
 ## Attribution & license

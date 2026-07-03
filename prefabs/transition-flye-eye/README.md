@@ -10,7 +10,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 ```gml
 ::transition_flye_eye::goto(rm_next);                            // default
 ::transition_flye_eye::goto(rm_next, 1.5, {                      // tune the lens
-    size_f: 0.04, zoom_f: 50.0, color_separation_f: 0.3 });
+    size: 0.04, zoom: 50.0, color_separation: 0.3 });
 ```
 
 ## Attribution & license

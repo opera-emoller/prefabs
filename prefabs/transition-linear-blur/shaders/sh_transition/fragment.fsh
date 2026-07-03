@@ -17,11 +17,11 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float intensity;   // set via goto(..., { intensity_f: N }); 0 (unset) => default
+uniform float intensity;   // knob; default in scr_transition_defaults
 const int passes = 6;
 
 vec4 transition(vec2 uv) {
-    float amt = (intensity == 0.0) ? 0.1 : intensity;
+    float amt = intensity;
     vec4 c1 = vec4(0.0);
     vec4 c2 = vec4(0.0);
 

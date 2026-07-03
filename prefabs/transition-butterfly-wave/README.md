@@ -10,7 +10,7 @@ machinery, and the demo.
 
 ```gml
 ::transition_butterfly_wave::goto(rm_next);                                                 // default
-::transition_butterfly_wave::goto(rm_next, 1.5, { waves_f: 20.0, color_separation_f: 0.5 });// tune it
+::transition_butterfly_wave::goto(rm_next, 1.5, { waves: 20.0, color_separation: 0.5 });// tune it
 ```
 
 ## Attribution & license

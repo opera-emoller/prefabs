@@ -17,16 +17,16 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float a;           // set via goto(..., { a_f: N });         0 (unset) => 4.0
-uniform float b;           // set via goto(..., { b_f: N });         0 (unset) => 1.0
-uniform float amplitude;   // set via goto(..., { amplitude_f: N }); 0 (unset) => 120.0
-uniform float smoothness;  // set via goto(..., { smoothness_f: N });0 (unset) => 0.1
+uniform float a;           // knob; default in scr_transition_defaults
+uniform float b;           // knob; default in scr_transition_defaults
+uniform float amplitude;   // knob; default in scr_transition_defaults
+uniform float smoothness;  // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-    float aa  = (a == 0.0) ? 4.0 : a;
-    float bb  = (b == 0.0) ? 1.0 : b;
-    float amp = (amplitude == 0.0) ? 120.0 : amplitude;
-    float sm  = (smoothness == 0.0) ? 0.1 : smoothness;
+    float aa  = a;
+    float bb  = b;
+    float amp = amplitude;
+    float sm  = smoothness;
     vec2 p = uv.xy / vec2(1.0).xy;
     vec2 dir = p - vec2(0.5);
     float dist = length(dir);

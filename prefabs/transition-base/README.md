@@ -16,12 +16,13 @@ Once added to a project it is namespaced under the prefab folder, e.g.:
 ```gml
 ::transition_fade::goto(rm_next);             // 1s, default fade
 ::transition_fade::goto(rm_next, 1.5);        // 1.5s
-::transition_fade::goto(rm_next, 1.5, { speed_f: 2.0 });  // + shader uniforms
 ```
 
-`goto(room, [time], [params])` — `params` sets extra fragment-shader uniforms
-by suffix: `_f` float, `_i` int, `_b` bool, `_vec2`/`_vec3`/`_vec4` float
-arrays.
+`goto(room, [time], [params])` — `params` overrides the effect's tunable knobs
+by uniform name (each a float), e.g. a derived effect might take
+`{ amplitude: 60, speed: 2.0 }`. Unspecified knobs fall back to the effect's
+`transition_defaults()` script, which lists exactly what a given effect exposes
+and its default values. The base fade effect has no knobs.
 
 ## Attribution & license
 

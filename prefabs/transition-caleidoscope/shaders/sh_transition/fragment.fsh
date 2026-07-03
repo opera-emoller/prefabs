@@ -17,14 +17,14 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float speed;   // set via goto(..., { speed_f: N }); 0 => default
-uniform float angle;   // set via goto(..., { angle_f: N }); 0 => default
-uniform float power;   // set via goto(..., { power_f: N }); 0 => default
+uniform float speed;   // knob; default in scr_transition_defaults
+uniform float angle;   // knob; default in scr_transition_defaults
+uniform float power;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-    float sp = (speed == 0.0) ? 1.0 : speed;
-    float an = (angle == 0.0) ? 1.0 : angle;
-    float pw = (power == 0.0) ? 1.5 : power;
+    float sp = speed;
+    float an = angle;
+    float pw = power;
     vec2 p = uv.xy / vec2(1.0).xy;
     vec2 q = p;
     float t = pow(progress, pw) * sp;

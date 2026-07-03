@@ -18,16 +18,16 @@ vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 const vec2 center = vec2(0.5, 0.5);
-uniform float threshold;   // set via goto(..., { threshold_f: N }); 0 (unset) => 3.0
-uniform float fade_edge;   // set via goto(..., { fade_edge_f: N }); 0 (unset) => 0.1
+uniform float threshold;   // knob; default in scr_transition_defaults
+uniform float fade_edge;   // knob; default in scr_transition_defaults
 
 float rand(vec2 co) {
     return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);
 }
 
 vec4 transition(vec2 p) {
-    float th = (threshold == 0.0) ? 3.0 : threshold;
-    float fe = (fade_edge == 0.0) ? 0.1 : fade_edge;
+    float th = threshold;
+    float fe = fade_edge;
     float dist = distance(center, p) / th;
     float r = progress - min(rand(vec2(p.y, 0.0)), rand(vec2(0.0, p.x)));
     return mix(

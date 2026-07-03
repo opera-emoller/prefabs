@@ -17,10 +17,10 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float speed;   // set via goto(..., { speed_f: N }); 0 (unset) => default
+uniform float speed;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-    float s = (speed == 0.0) ? 2.0 : speed;
+    float s = speed;
     vec2 p = uv;
     float circPos = atan(p.y - 0.5, p.x - 0.5) + progress * s;
     float modPos = mod(circPos, 3.1415 / 4.0);

@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_morph::goto(rm_next);                            // default morph
-::transition_morph::goto(rm_next, 1.5, { strength_f: 0.2 });  // stronger warp
+::transition_morph::goto(rm_next, 1.5, { strength: 0.2 });  // stronger warp
 ```
 
 ## Attribution & license

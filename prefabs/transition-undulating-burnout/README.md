@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_undulating_burnout::goto(rm_next);                          // default burn
-::transition_undulating_burnout::goto(rm_next, 1.5, { smoothness_f: 0.1 }); // softer edge
+::transition_undulating_burnout::goto(rm_next, 1.5, { smoothness: 0.1 }); // softer edge
 ```
 
 ## Attribution & license

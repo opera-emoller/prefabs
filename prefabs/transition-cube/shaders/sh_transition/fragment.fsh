@@ -17,13 +17,13 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float persp;       // set via goto(..., { persp_f: N });      0 (unset) => 0.7
-uniform float unzoom;      // set via goto(..., { unzoom_f: N });     0 (unset) => 0.3
-uniform float reflection;  // set via goto(..., { reflection_f: N }); 0 (unset) => 0.4
-uniform float floating;    // set via goto(..., { floating_f: N });   0 (unset) => 3.0
+uniform float persp;       // knob; default in scr_transition_defaults
+uniform float unzoom;      // knob; default in scr_transition_defaults
+uniform float reflection;  // knob; default in scr_transition_defaults
+uniform float floating;    // knob; default in scr_transition_defaults
 
 vec2 project(vec2 p) {
-    float fl = (floating == 0.0) ? 3.0 : floating;
+    float fl = floating;
     return p * vec2(1.0, -1.2) + vec2(0.0, -fl / 100.0);
 }
 
@@ -32,7 +32,7 @@ bool inBounds(vec2 p) {
 }
 
 vec4 bgColor(vec2 p, vec2 pfr, vec2 pto) {
-    float refl = (reflection == 0.0) ? 0.4 : reflection;
+    float refl = reflection;
     vec4 c = vec4(0.0, 0.0, 0.0, 1.0);
     pfr = project(pfr);
     if (inBounds(pfr)) {
@@ -61,8 +61,8 @@ vec2 xskew(vec2 p, float persp, float center) {
 }
 
 vec4 transition(vec2 op) {
-    float prsp = (persp == 0.0) ? 0.7 : persp;
-    float uzoom = (unzoom == 0.0) ? 0.3 : unzoom;
+    float prsp = persp;
+    float uzoom = unzoom;
     float uz = uzoom * 2.0 * (0.5 - distance(0.5, progress));
     vec2 p = -uz * 0.5 + (1.0 + uz) * op;
     vec2 fromP = xskew(

@@ -17,14 +17,14 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float size;   // set via goto(..., { size_f: N }); 0 (unset) => default
+uniform float size;   // knob; default in scr_transition_defaults
 
 float rand (vec2 co) {
   return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
 }
 
 vec4 transition (vec2 uv) {
-  float sz = (size == 0.0) ? 0.2 : size;
+  float sz = size;
   float r = rand(vec2(0, uv.y));
   float m = smoothstep(0.0, -sz, uv.x*(1.0-sz) + sz*r - (progress * (1.0 + sz)));
   return mix(

@@ -18,10 +18,10 @@ vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 const vec3 color = vec3(0.0);   // fade-through colour (default black)
-uniform float color_phase;      // set via goto(..., { color_phase_f: N }); 0 => 0.4
+uniform float color_phase;      // knob; default in scr_transition_defaults
 
 vec4 transition (vec2 uv) {
-  float cphase = (color_phase == 0.0) ? 0.4 : color_phase;
+  float cphase = color_phase;
   return mix(
     mix(vec4(color, 1.0), getFromColor(uv), smoothstep(1.0-cphase, 0.0, progress)),
     mix(vec4(color, 1.0), getToColor(uv),   smoothstep(    cphase, 1.0, progress)),

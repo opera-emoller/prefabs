@@ -9,7 +9,7 @@ the transition machinery, and the demo.
 
 ```gml
 ::transition_perlin::goto(rm_next);                          // default dissolve
-::transition_perlin::goto(rm_next, 1.5, { scale_f: 8.0, smoothness_f: 0.05 }); // finer, softer
+::transition_perlin::goto(rm_next, 1.5, { scale: 8.0, smoothness: 0.05 }); // finer, softer
 ```
 
 ## Attribution & license

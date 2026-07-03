@@ -17,7 +17,7 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float strength;   // set via goto(..., { strength_f: N }); 0 (unset) => default
+uniform float strength;   // knob; default in scr_transition_defaults
 
 const float PI = 3.141592653589793;
 
@@ -49,7 +49,7 @@ vec3 crossFade(in vec2 uv, in float dissolve) {
 }
 
 vec4 transition(vec2 uv) {
-    float s = (strength == 0.0) ? 0.4 : strength;
+    float s = strength;
     vec2 texCoord = uv.xy / vec2(1.0).xy;
 
     // Linear interpolate center across center half of the image

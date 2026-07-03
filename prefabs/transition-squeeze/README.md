@@ -9,10 +9,10 @@ and inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_squeeze::goto(rm_next);                                    // default squeeze
-::transition_squeeze::goto(rm_next, 1.5, { color_separation_f: 0.08 }); // tune the smear
+::transition_squeeze::goto(rm_next, 1.5, { color_separation: 0.08 }); // tune the smear
 ```
 
-Tunable params: `color_separation_f` (default 0.04).
+Tunable params: `color_separation` (default 0.04).
 
 ## Attribution & license
 

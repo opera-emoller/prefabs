@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_luminance_melt::goto(rm_next);                            // default melt
-::transition_luminance_melt::goto(rm_next, 1.5, { threshold_f: 0.5 }); // tune the luminance cutoff
+::transition_luminance_melt::goto(rm_next, 1.5, { threshold: 0.5 }); // tune the luminance cutoff
 ```
 
 The `up` (melt direction) and `above` (melt above vs. below the luminance

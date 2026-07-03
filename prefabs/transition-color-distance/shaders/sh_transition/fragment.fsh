@@ -17,10 +17,10 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float power;   // set via goto(..., { power_f: N }); 0 (unset) => 5.0
+uniform float power;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 p) {
-    float pw = (power == 0.0) ? 5.0 : power;
+    float pw = power;
     vec4 fTex = getFromColor(p);
     vec4 tTex = getToColor(p);
     float m = step(distance(fTex, tTex), progress);

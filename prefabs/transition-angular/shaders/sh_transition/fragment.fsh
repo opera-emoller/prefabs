@@ -19,10 +19,10 @@ vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 #define PI 3.141592653589
 
-uniform float starting_angle;   // set via goto(..., { starting_angle_f: N }); 0 (unset) => default
+uniform float starting_angle;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-    float sa = (starting_angle == 0.0) ? 90.0 : starting_angle;
+    float sa = starting_angle;
     float offset = sa * PI / 180.0;
     float angle = atan(uv.y - 0.5, uv.x - 0.5) + offset;
     float normalizedAngle = (angle + PI) / (2.0 * PI);

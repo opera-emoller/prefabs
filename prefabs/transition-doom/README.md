@@ -10,11 +10,11 @@ machinery, and the demo.
 
 ```gml
 ::transition_doom::goto(rm_next);                              // classic melt
-::transition_doom::goto(rm_next, 1.5, { amplitude_f: 3.0 });   // more speed variation
+::transition_doom::goto(rm_next, 1.5, { amplitude: 3.0 });   // more speed variation
 ```
 
-Tunable uniforms: `amplitude_f` (per-bar speed variation, default 2.0),
-`frequency_f` (horizontal wave frequency, default 0.5). Bar count, noise, and
+Tunable uniforms: `amplitude` (per-bar speed variation, default 2.0),
+`frequency` (horizontal wave frequency, default 0.5). Bar count, noise, and
 drip are baked (30 bars, 0.1 noise, 0.5 drip).
 
 ## Attribution & license

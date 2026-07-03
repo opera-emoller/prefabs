@@ -19,14 +19,14 @@ vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 // size is a vec2 param (default [10,10]) — baked as a const.
 const vec2 size = vec2(10.0, 10.0);
-uniform float smoothness;   // set via goto(..., { smoothness_f: N }); 0 (unset) => default
+uniform float smoothness;   // knob; default in scr_transition_defaults
 
 float rand(vec2 co) {
   return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);
 }
 
 vec4 transition(vec2 p) {
-  float sm = (smoothness == 0.0) ? 0.5 : smoothness;
+  float sm = smoothness;
   float r = rand(floor(vec2(size) * p));
   float m = smoothstep(0.0, -sm, r - (progress * (1.0 + sm)));
   return mix(getFromColor(p), getToColor(p), m);

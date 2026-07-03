@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_ripple::goto(rm_next);                                             // default ripple
-::transition_ripple::goto(rm_next, 1.5, { amplitude_f: 100.0, speed_f: 50.0 }); // tune the wave
+::transition_ripple::goto(rm_next, 1.5, { amplitude: 100.0, speed: 50.0 }); // tune the wave
 ```
 
 ## Attribution & license

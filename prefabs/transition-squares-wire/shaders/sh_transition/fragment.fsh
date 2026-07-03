@@ -19,11 +19,11 @@ vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 const vec2 squares = vec2(10.0, 10.0);
 const vec2 direction = vec2(1.0, -0.5);
-uniform float smoothness;   // set via goto(..., { smoothness_f: N }); 0 (unset) => default 1.6
+uniform float smoothness;   // knob; default in scr_transition_defaults
 
 const vec2 center = vec2(0.5, 0.5);
 vec4 transition(vec2 p) {
-    float sm = (smoothness == 0.0) ? 1.6 : smoothness;
+    float sm = smoothness;
     vec2 v = normalize(direction);
     v /= abs(v.x) + abs(v.y);
     float d = v.x * center.x + v.y * center.y;

@@ -9,7 +9,7 @@ the transition machinery, and the demo.
 
 ```gml
 ::transition_cross_hatch::goto(rm_next);                           // default hatch
-::transition_cross_hatch::goto(rm_next, 1.5, { threshold_f: 3.0 }); // tune the spread
+::transition_cross_hatch::goto(rm_next, 1.5, { threshold: 3.0 }); // tune the spread
 ```
 
 ## Attribution & license

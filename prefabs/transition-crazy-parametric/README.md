@@ -10,7 +10,7 @@ machinery, and the demo.
 
 ```gml
 ::transition_crazy_parametric::goto(rm_next);                          // default wobble
-::transition_crazy_parametric::goto(rm_next, 1.5, { amplitude_f: 120.0 }); // tune the wobble
+::transition_crazy_parametric::goto(rm_next, 1.5, { amplitude: 120.0 }); // tune the wobble
 ```
 
 ## Attribution & license

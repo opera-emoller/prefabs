@@ -10,11 +10,11 @@ machinery, and the demo.
 
 ```gml
 ::transition_swap::goto(rm_next);                                                   // default swap
-::transition_swap::goto(rm_next, 1.5, { depth_f: 4.0, perspective_f: 0.3, reflection_f: 0.5 }); // tune it
+::transition_swap::goto(rm_next, 1.5, { depth: 4.0, perspective: 0.3, reflection: 0.5 }); // tune it
 ```
 
-Tunable params: `reflection_f` (default 0.4), `perspective_f` (default 0.2),
-`depth_f` (default 3.0).
+Tunable params: `reflection` (default 0.4), `perspective` (default 0.2),
+`depth` (default 3.0).
 
 ## Attribution & license
 

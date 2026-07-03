@@ -9,7 +9,7 @@ the transition machinery, and the demo.
 
 ```gml
 ::transition_wind::goto(rm_next);                        // default gust
-::transition_wind::goto(rm_next, 1.5, { size_f: 0.4 });  // wider streaks
+::transition_wind::goto(rm_next, 1.5, { size: 0.4 });  // wider streaks
 ```
 
 ## Attribution & license

@@ -9,7 +9,7 @@ machinery, and the demo.
 
 ```gml
 ::transition_pinwheel::goto(rm_next);                        // default spin
-::transition_pinwheel::goto(rm_next, 1.5, { speed_f: 3.0 }); // tune the spin
+::transition_pinwheel::goto(rm_next, 1.5, { speed: 3.0 }); // tune the spin
 ```
 
 ## Attribution & license

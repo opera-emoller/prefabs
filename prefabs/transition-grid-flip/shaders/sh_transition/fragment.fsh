@@ -21,9 +21,9 @@ vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 const vec2 size = vec2(4.0);
 const vec4 bgcolor = vec4(0.0, 0.0, 0.0, 1.0);
 
-uniform float pause;          // set via goto(..., { pause_f: N });          0 => 0.1
-uniform float divider_width;  // set via goto(..., { divider_width_f: N });  0 => 0.05
-uniform float randomness;     // set via goto(..., { randomness_f: N });     0 => 0.1
+uniform float pause;          // knob; default in scr_transition_defaults
+uniform float divider_width;  // knob; default in scr_transition_defaults
+uniform float randomness;     // knob; default in scr_transition_defaults
 
 float rand(vec2 co) {
     return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);
@@ -42,14 +42,14 @@ float getDelta(vec2 p) {
 }
 
 float getDividerSize() {
-    float dw = divider_width == 0.0 ? 0.05 : divider_width;
+    float dw = divider_width;
     vec2 rectangleSize = vec2(1.0 / size.x, 1.0 / size.y);
     return min(rectangleSize.x, rectangleSize.y) * dw;
 }
 
 vec4 transition(vec2 p) {
-    float epause = pause == 0.0 ? 0.1 : pause;
-    float erand = randomness == 0.0 ? 0.1 : randomness;
+    float epause = pause;
+    float erand = randomness;
     if (progress < epause) {
         float currentProg = progress / epause;
         float a = 1.0;

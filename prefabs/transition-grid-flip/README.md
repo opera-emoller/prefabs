@@ -11,9 +11,9 @@ machinery, and the demo.
 ```gml
 ::transition_grid_flip::goto(rm_next);                          // baked defaults
 ::transition_grid_flip::goto(rm_next, 1.0, {
-    pause_f: 0.15,          // hold before/after the flip (default 0.1)
-    divider_width_f: 0.08,  // gap between tiles (default 0.05)
-    randomness_f: 0.2       // per-tile timing jitter (default 0.1)
+    pause: 0.15,          // hold before/after the flip (default 0.1)
+    divider_width: 0.08,  // gap between tiles (default 0.05)
+    randomness: 0.2       // per-tile timing jitter (default 0.1)
 });
 ```
 

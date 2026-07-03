@@ -17,7 +17,7 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float smoothness;          // set via goto(..., { smoothness_f: N }); 0 (unset) => default
+uniform float smoothness;          // knob; default in scr_transition_defaults
 const vec2 center = vec2(0.5);     // default center
 const vec3 color  = vec3(0.0);     // default burn color
 
@@ -29,7 +29,7 @@ float quadraticInOut(float t) {
 }
 
 float getGradient(float r, float dist) {
-  float sm = (smoothness == 0.0) ? 0.03 : smoothness;
+  float sm = smoothness;
   float d = r - dist;
   return mix(
     smoothstep(-sm, 0.0, r - dist * (1.0 + sm)),

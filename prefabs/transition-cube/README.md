@@ -10,12 +10,12 @@ machinery, and the demo.
 
 ```gml
 ::transition_cube::goto(rm_next);                                     // default cube
-::transition_cube::goto(rm_next, 1.5, { persp_f: 0.9, reflection_f: 0.2 });
+::transition_cube::goto(rm_next, 1.5, { persp: 0.9, reflection: 0.2 });
 ```
 
-Tunable uniforms: `persp_f` (perspective, default 0.7), `unzoom_f`
-(zoom-out, default 0.3), `reflection_f` (floor reflection, default 0.4),
-`floating_f` (float height, default 3.0).
+Tunable uniforms: `persp` (perspective, default 0.7), `unzoom`
+(zoom-out, default 0.3), `reflection` (floor reflection, default 0.4),
+`floating` (float height, default 3.0).
 
 ## Attribution & license
 

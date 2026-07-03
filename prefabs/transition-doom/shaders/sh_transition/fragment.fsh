@@ -24,17 +24,15 @@ const float noise = 0.1;
 // How much the bars "run" from the middle first. 0 = no drip (valid); default 0.5.
 const float drip_scale = 0.5;
 
-// Multiplier for speed ratio; set via goto(..., { amplitude_f: N }); 0 => 2.0.
-uniform float amplitude;
-// Horizontal speed variation; set via goto(..., { frequency_f: N }); 0 => 0.5.
-uniform float frequency;
+uniform float amplitude;   // knob; default in scr_transition_defaults
+uniform float frequency;   // knob; default in scr_transition_defaults
 
 float rand(int num) {
     return fract(mod(float(num) * 67123.313, 12.0) * sin(float(num) * 10.3) * cos(float(num)));
 }
 
 float wave(int num) {
-    float freq = (frequency == 0.0) ? 0.5 : frequency;
+    float freq = frequency;
     float fn = float(num) * freq * 0.1 * float(bars);
     return cos(fn * 0.5) * cos(fn * 0.13) * sin((fn + 10.0) * 0.3) / 2.0 + 0.5;
 }
@@ -48,7 +46,7 @@ float pos(int num) {
 }
 
 vec4 transition(vec2 uv) {
-    float amp = (amplitude == 0.0) ? 2.0 : amplitude;
+    float amp = amplitude;
     int bar = int(uv.x * (float(bars)));
     float scale = 1.0 + pos(bar) * amp;
     float phase = progress * scale;

@@ -9,7 +9,7 @@ transition machinery, and the demo.
 
 ```gml
 ::transition_linear_blur::goto(rm_next);                          // default blur
-::transition_linear_blur::goto(rm_next, 1.5, { intensity_f: 0.2 }); // stronger blur
+::transition_linear_blur::goto(rm_next, 1.5, { intensity: 0.2 }); // stronger blur
 ```
 
 ## Attribution & license

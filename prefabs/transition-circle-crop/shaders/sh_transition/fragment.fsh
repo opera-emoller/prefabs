@@ -17,7 +17,7 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float ratio;   // set via goto(..., { ratio_f: N }); 0 (unset) => 1.0 (square)
+uniform float ratio;   // aspect ratio; supplied by transition-base machinery
 const vec4 bgcolor = vec4(0.0, 0.0, 0.0, 1.0);
 
 vec4 transition(vec2 p) {

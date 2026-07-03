@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_caleidoscope::goto(rm_next);                                          // default fold
-::transition_caleidoscope::goto(rm_next, 1.5, { speed_f: 2.0, power_f: 2.0 });     // tune it
+::transition_caleidoscope::goto(rm_next, 1.5, { speed: 2.0, power: 2.0 });     // tune it
 ```
 
 ## Attribution & license

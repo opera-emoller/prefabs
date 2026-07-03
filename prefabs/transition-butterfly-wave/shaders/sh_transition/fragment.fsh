@@ -17,9 +17,9 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float amplitude;          // set via goto(..., { amplitude_f: N }); 0 => default
-uniform float waves;              // set via goto(..., { waves_f: N }); 0 => default
-uniform float color_separation;   // set via goto(..., { color_separation_f: N }); 0 => default
+uniform float amplitude;          // knob; default in scr_transition_defaults
+uniform float waves;              // knob; default in scr_transition_defaults
+uniform float color_separation;   // knob; default in scr_transition_defaults
 
 const float PI = 3.14159265358979323846264;
 
@@ -33,9 +33,9 @@ float compute(vec2 p, float progress, vec2 center, float amp, float w) {
 }
 
 vec4 transition(vec2 uv) {
-    float amp = (amplitude == 0.0) ? 1.0 : amplitude;
-    float w = (waves == 0.0) ? 30.0 : waves;
-    float cs = (color_separation == 0.0) ? 0.3 : color_separation;
+    float amp = amplitude;
+    float w = waves;
+    float cs = color_separation;
     vec2 p = uv.xy / vec2(1.0).xy;
     float inv = 1.0 - progress;
     vec2 dir = p - vec2(0.5);

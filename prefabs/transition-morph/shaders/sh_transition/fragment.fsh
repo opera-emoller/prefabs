@@ -17,10 +17,10 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float strength;   // set via goto(..., { strength_f: N }); 0 (unset) => default
+uniform float strength;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 p) {
-  float s = (strength == 0.0) ? 0.1 : strength;
+  float s = strength;
   vec4 ca = getFromColor(p);
   vec4 cb = getToColor(p);
 

@@ -11,8 +11,8 @@ machinery, and the demo.
 ```gml
 ::transition_hexagonalize::goto(rm_next);                       // baked defaults
 ::transition_hexagonalize::goto(rm_next, 1.0, {
-    steps_f: 50,                 // quantisation steps (default 50)
-    horizontal_hexagons_f: 20    // hexagons across (default 20)
+    steps: 50,                 // quantisation steps (default 50)
+    horizontal_hexagons: 20    // hexagons across (default 20)
 });
 ```
 

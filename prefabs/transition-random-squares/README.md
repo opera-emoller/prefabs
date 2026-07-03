@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_random_squares::goto(rm_next);                              // default
-::transition_random_squares::goto(rm_next, 1.5, { smoothness_f: 0.5 });  // tune edge softness
+::transition_random_squares::goto(rm_next, 1.5, { smoothness: 0.5 });  // tune edge softness
 ```
 
 The grid resolution (`size`) is a baked default and not exposed as a tunable param.

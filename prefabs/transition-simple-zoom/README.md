@@ -9,10 +9,10 @@ the transition machinery, and the demo.
 
 ```gml
 ::transition_simple_zoom::goto(rm_next);                              // default zoom
-::transition_simple_zoom::goto(rm_next, 1.5, { zoom_quickness_f: 0.5 }); // tune the zoom timing
+::transition_simple_zoom::goto(rm_next, 1.5, { zoom_quickness: 0.5 }); // tune the zoom timing
 ```
 
-Tunable params: `zoom_quickness_f` (default 0.8, clamped to 0.2..1.0).
+Tunable params: `zoom_quickness` (default 0.8, clamped to 0.2..1.0).
 
 ## Attribution & license
 

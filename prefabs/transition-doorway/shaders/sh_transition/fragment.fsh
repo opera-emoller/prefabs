@@ -17,9 +17,9 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float reflection;   // set via goto(..., { reflection_f: N });  0 => 0.4
-uniform float perspective;  // set via goto(..., { perspective_f: N }); 0 => 0.4
-uniform float depth;        // set via goto(..., { depth_f: N });       0 => 3.0
+uniform float reflection;   // knob; default in scr_transition_defaults
+uniform float perspective;  // knob; default in scr_transition_defaults
+uniform float depth;        // knob; default in scr_transition_defaults
 
 const vec4 black = vec4(0.0, 0.0, 0.0, 1.0);
 const vec2 boundMin = vec2(0.0, 0.0);
@@ -43,9 +43,9 @@ vec4 bgColor (vec2 p, vec2 pto, float refl) {
 }
 
 vec4 transition (vec2 p) {
-  float refl  = (reflection == 0.0)  ? 0.4 : reflection;
-  float persp = (perspective == 0.0) ? 0.4 : perspective;
-  float dpth  = (depth == 0.0)       ? 3.0 : depth;
+  float refl  = reflection;
+  float persp = perspective;
+  float dpth  = depth;
   vec2 pfr = vec2(-1.), pto = vec2(-1.);
   float middleSlit = 2.0 * abs(p.x-0.5) - progress;
   if (middleSlit > 0.0) {

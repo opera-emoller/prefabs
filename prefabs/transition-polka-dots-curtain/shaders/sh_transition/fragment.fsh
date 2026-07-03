@@ -18,11 +18,11 @@ vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 const float SQRT_2 = 1.414213562373;
-uniform float dots;   // set via goto(..., { dots_f: N }); 0 (unset) => default
+uniform float dots;   // knob; default in scr_transition_defaults
 const vec2 center = vec2(0.0, 0.0);
 
 vec4 transition(vec2 uv) {
-  float d = (dots == 0.0) ? 20.0 : dots;
+  float d = dots;
   bool nextImage = distance(fract(uv * d), vec2(0.5, 0.5)) < (progress / distance(uv, center));
   return nextImage ? getToColor(uv) : getFromColor(uv);
 }

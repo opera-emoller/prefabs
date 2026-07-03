@@ -17,14 +17,14 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float scale;       // set via goto(..., { scale_f: N });      0 (unset) => default
-uniform float smoothness;  // set via goto(..., { smoothness_f: N }); 0 (unset) => default
-uniform float seed;        // set via goto(..., { seed_f: N });       0 (unset) => default
+uniform float scale;       // knob; default in scr_transition_defaults
+uniform float smoothness;  // knob; default in scr_transition_defaults
+uniform float seed;        // knob; default in scr_transition_defaults
 
 // http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/
 float random(vec2 co)
 {
-    highp float a = (seed == 0.0) ? 12.9898 : seed;
+    highp float a = seed;
     highp float b = 78.233;
     highp float c = 43758.5453;
     highp float dt= dot(co.xy ,vec2(a,b));
@@ -54,8 +54,8 @@ float noise (in vec2 st) {
 }
 
 vec4 transition (vec2 uv) {
-  float sc = (scale == 0.0) ? 4.0 : scale;
-  float sm = (smoothness == 0.0) ? 0.01 : smoothness;
+  float sc = scale;
+  float sm = smoothness;
   vec4 from = getFromColor(uv);
   vec4 to = getToColor(uv);
   float n = noise(uv * sc);

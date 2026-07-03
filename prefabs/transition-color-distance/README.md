@@ -10,7 +10,7 @@ transition machinery, and the demo.
 
 ```gml
 ::transition_color_distance::goto(rm_next);                       // default
-::transition_color_distance::goto(rm_next, 1.5, { power_f: 5.0 }); // tune the fade power
+::transition_color_distance::goto(rm_next, 1.5, { power: 5.0 }); // tune the fade power
 ```
 
 ## Attribution & license

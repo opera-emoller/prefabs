@@ -9,7 +9,12 @@ precision highp float;
 // `from_tex` and the incoming room from `to_tex` via getFromColor/getToColor,
 // then blend by `progress` (0..1). getFromColor/getToColor flip V to match the
 // surface-texture orientation (keep the flip; it renders upright in-game).
-// Extra effect uniforms (if any) are set from goto()'s `params`.
+//
+// Tunable knobs: declare each as `uniform float <name>` and use it directly —
+// no in-shader default fallback. The base machinery always supplies a value
+// (the caller's goto() param, else the effect's transition_defaults()), so a
+// caller-supplied 0 is a real 0. Declare defaults in scr_transition_defaults,
+// not here. `ratio` is reserved: base sets it to the live display aspect.
 
 uniform sampler2D from_tex;
 uniform sampler2D to_tex;

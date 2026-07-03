@@ -18,8 +18,8 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float steps;               // set via goto(..., { steps_f: N });               0 => 50
-uniform float horizontal_hexagons; // set via goto(..., { horizontal_hexagons_f: N }); 0 => 20
+uniform float steps;               // knob; default in scr_transition_defaults
+uniform float horizontal_hexagons; // knob; default in scr_transition_defaults
 
 struct Hexagon {
     float q;
@@ -73,8 +73,8 @@ vec2 pointFromHexagon(Hexagon hex, float size) {
 }
 
 vec4 transition(vec2 uv) {
-    float esteps = steps == 0.0 ? 50.0 : steps;
-    float ehex = horizontal_hexagons == 0.0 ? 20.0 : horizontal_hexagons;
+    float esteps = steps;
+    float ehex = horizontal_hexagons;
 
     float dist = 2.0 * min(progress, 1.0 - progress);
     dist = esteps > 0.0 ? ceil(dist * esteps) / esteps : dist;

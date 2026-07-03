@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_radial::goto(rm_next);                              // default sweep
-::transition_radial::goto(rm_next, 1.5, { smoothness_f: 0.5 });  // crisper edge
+::transition_radial::goto(rm_next, 1.5, { smoothness: 0.5 });  // crisper edge
 ```
 
 ## Attribution & license

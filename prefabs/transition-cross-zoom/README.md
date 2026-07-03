@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_cross_zoom::goto(rm_next);                          // default blur
-::transition_cross_zoom::goto(rm_next, 1.5, { strength_f: 0.6 }); // tune the zoom blur
+::transition_cross_zoom::goto(rm_next, 1.5, { strength: 0.6 }); // tune the zoom blur
 ```
 
 ## Attribution & license

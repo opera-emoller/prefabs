@@ -17,12 +17,12 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float amplitude;   // set via goto(..., { amplitude_f: N }); 0 (unset) => default
-uniform float speed;       // set via goto(..., { speed_f: N }); 0 (unset) => default
+uniform float amplitude;   // knob; default in scr_transition_defaults
+uniform float speed;       // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-  float amp = (amplitude == 0.0) ? 100.0 : amplitude;
-  float spd = (speed == 0.0) ? 50.0 : speed;
+  float amp = amplitude;
+  float spd = speed;
   vec2 dir = uv - vec2(.5);
   float dist = length(dir);
   vec2 offset = dir * (sin(progress * dist * amp - progress * spd) + .5) / 30.;

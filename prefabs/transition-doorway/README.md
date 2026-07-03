@@ -11,7 +11,7 @@ machinery, and the demo.
 ```gml
 ::transition_doorway::goto(rm_next);                          // default doorway
 ::transition_doorway::goto(rm_next, 1.5, {                    // tune the look
-    reflection_f: 0.4, perspective_f: 0.4, depth_f: 3.0 });
+    reflection: 0.4, perspective: 0.4, depth: 3.0 });
 ```
 
 ## Attribution & license

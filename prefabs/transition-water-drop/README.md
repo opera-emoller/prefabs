@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_water_drop::goto(rm_next);                                        // default ripple
-::transition_water_drop::goto(rm_next, 1.5, { amplitude_f: 50.0, speed_f: 40.0 }); // stronger, faster
+::transition_water_drop::goto(rm_next, 1.5, { amplitude: 50.0, speed: 40.0 }); // stronger, faster
 ```
 
 ## Attribution & license

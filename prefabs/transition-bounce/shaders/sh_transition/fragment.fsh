@@ -18,14 +18,14 @@ vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
 const vec4 shadow_colour = vec4(0.0, 0.0, 0.0, 0.6);
-uniform float shadow_height;   // set via goto(..., { shadow_height_f: N }); 0 => default
-uniform float bounces;         // set via goto(..., { bounces_f: N }); 0 => default
+uniform float shadow_height;   // knob; default in scr_transition_defaults
+uniform float bounces;         // knob; default in scr_transition_defaults
 
 const float PI = 3.14159265358;
 
 vec4 transition(vec2 uv) {
-    float sh = (shadow_height == 0.0) ? 0.075 : shadow_height;
-    float b = (bounces == 0.0) ? 3.0 : bounces;
+    float sh = shadow_height;
+    float b = bounces;
     float time = progress;
     float stime = sin(time * PI / 2.0);
     float phase = time * PI * b;

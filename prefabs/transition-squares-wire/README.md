@@ -9,10 +9,10 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_squares_wire::goto(rm_next);                            // default sweep
-::transition_squares_wire::goto(rm_next, 1.5, { smoothness_f: 1.0 }); // tune the edge softness
+::transition_squares_wire::goto(rm_next, 1.5, { smoothness: 1.0 }); // tune the edge softness
 ```
 
-Tunable params: `smoothness_f` (default 1.6).
+Tunable params: `smoothness` (default 1.6).
 
 ## Attribution & license
 

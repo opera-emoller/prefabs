@@ -17,12 +17,12 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float smoothness;   // set via goto(..., { smoothness_f: N }); 0 (unset) => default
+uniform float smoothness;   // knob; default in scr_transition_defaults
 
 const float PI = 3.141592653589;
 
 vec4 transition(vec2 p) {
-  float sm = (smoothness == 0.0) ? 1.0 : smoothness;
+  float sm = smoothness;
   vec2 rp = p * 2. - 1.;
   return mix(
     getToColor(p),

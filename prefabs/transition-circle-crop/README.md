@@ -9,8 +9,8 @@ machinery, and the demo.
 ## Usage
 
 ```gml
-::transition_circle_crop::goto(rm_next);                        // default crop
-::transition_circle_crop::goto(rm_next, 1.5, { ratio_f: 1.0 }); // tune aspect ratio
+::transition_circle_crop::goto(rm_next);       // default crop
+::transition_circle_crop::goto(rm_next, 1.5);  // slower crop
 ```
 
 ## Attribution & license

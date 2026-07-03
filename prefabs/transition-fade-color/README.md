@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_fade_color::goto(rm_next);                          // fade via black
-::transition_fade_color::goto(rm_next, 1.5, { color_phase_f: 0.4 }); // widen hold
+::transition_fade_color::goto(rm_next, 1.5, { color_phase: 0.4 }); // widen hold
 ```
 
 The fade colour is baked to black; edit the `color` constant in the fragment

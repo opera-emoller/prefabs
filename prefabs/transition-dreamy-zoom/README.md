@@ -10,7 +10,7 @@ API, the transition machinery, and the demo.
 ```gml
 ::transition_dreamy_zoom::goto(rm_next);                             // default
 ::transition_dreamy_zoom::goto(rm_next, 1.5, {                       // tune it
-    rotation_f: 6.0, scale_f: 1.2 });
+    rotation: 6.0, scale: 1.2 });
 ```
 
 ## Attribution & license

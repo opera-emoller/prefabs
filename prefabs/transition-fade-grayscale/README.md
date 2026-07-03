@@ -9,7 +9,7 @@ inherits the `goto` API, the transition machinery, and the demo.
 
 ```gml
 ::transition_fade_grayscale::goto(rm_next);                           // default
-::transition_fade_grayscale::goto(rm_next, 1.5, { intensity_f: 0.3 }); // tune it
+::transition_fade_grayscale::goto(rm_next, 1.5, { intensity: 0.3 }); // tune it
 ```
 
 ## Attribution & license

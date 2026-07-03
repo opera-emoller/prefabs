@@ -17,10 +17,10 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float color_separation;   // set via goto(..., { color_separation_f: N }); 0 (unset) => default 0.04
+uniform float color_separation;   // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 uv) {
-    float cs = (color_separation == 0.0) ? 0.04 : color_separation;
+    float cs = color_separation;
     float y = 0.5 + (uv.y - 0.5) / (1.0 - progress);
     if (y < 0.0 || y > 1.0) {
         return getToColor(uv);

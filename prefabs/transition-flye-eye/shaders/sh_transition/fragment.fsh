@@ -17,14 +17,14 @@ out vec4 frag_colour;
 vec4 getToColor(vec2 uv)   { return texture(to_tex,   vec2(uv.x, 1.0 - uv.y)); }
 vec4 getFromColor(vec2 uv) { return texture(from_tex, vec2(uv.x, 1.0 - uv.y)); }
 
-uniform float size;              // set via goto(..., { size_f: N });             0 => 0.04
-uniform float zoom;              // set via goto(..., { zoom_f: N });             0 => 50.0
-uniform float color_separation;  // set via goto(..., { color_separation_f: N }); 0 => 0.3
+uniform float size;              // knob; default in scr_transition_defaults
+uniform float zoom;              // knob; default in scr_transition_defaults
+uniform float color_separation;  // knob; default in scr_transition_defaults
 
 vec4 transition(vec2 p) {
-  float sz   = (size == 0.0)             ? 0.04 : size;
-  float zm   = (zoom == 0.0)             ? 50.0 : zoom;
-  float csep = (color_separation == 0.0) ? 0.3  : color_separation;
+  float sz   = size;
+  float zm   = zoom;
+  float csep = color_separation;
   float inv = 1. - progress;
   vec2 disp = sz*vec2(cos(zm*p.x), sin(zm*p.y));
   vec4 texTo = getToColor(p + inv*disp);
