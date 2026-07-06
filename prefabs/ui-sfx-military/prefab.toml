@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Military-flavored UI sound effect pack: tactical clicks, confirms, navigation, sliders, window/swipe transitions, and mission-style task results, all with a crisp modern command-console vibe."
 tags = [ "asset_type:sound", "audio_type:ui-sound", "role:ui", "theme:modern" ]

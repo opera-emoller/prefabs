@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Bright, detailed cartoon sci-fi space-shooter art and audio pack: 3 player ships, 6 enemy ships, 6 turrets, animated weapons and VFX, a modular space station, and full SFX plus music tracks for a vertical scrolling shmup."
 tags = [ "genre:shmup", "theme:sci-fi", "theme:space", "style:cartoon" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "HD realistic medieval-fantasy sound pack: long location ambiences (cave, church, farm, tavern, blacksmith, battle, town) plus short feature one-shots for trade, warfare and village life — gates, carts, forge work, weapons and footsteps."
 tags = [ "theme:medieval", "theme:fantasy", "role:audio" ]

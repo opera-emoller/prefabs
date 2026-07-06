@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A large pack of cute head-on animal face icons in two matching art styles — soft kawaii cartoon and blocky pixel art — each available with or without a bold black outline; 50+ species across pets, farm, wild and exotic animals, ideal for menus, avatars, collection grids and emoji-style UI."
 tags = [ "asset_type:sprite", "role:ui", "projection:portrait", "state:static", "theme:nature" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Hand-drawn, painterly hexagonal map tiles for top-down strategy and 4X-style world maps: five terrain types (grass, rock-lands, sand, snow, water) as flat and stacked hexes, river-edge variants, plus colorful feature tokens and resource icons (trees, caves, rocks, settlements' building materials, ore and harvest indicators)."
 tags = [ "genre:strategy", "theme:nature", "projection:top-down", "style:painted" ]

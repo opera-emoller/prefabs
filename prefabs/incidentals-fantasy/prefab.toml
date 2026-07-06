@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Fantasy UI and game icon pack - books, chests, potions, gems, coins, keys, scrolls, tools, ores and more, each in glossy rendered color (plain and outlined) plus flat-black and flat-white silhouette variants."
 tags = [ "theme:fantasy", "role:ui", "projection:ui-icon" ]

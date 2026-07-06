@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Twenty auto-tile-ready 47-tile platformer terrain tilesets across five biomes (ice, lava, haunted, neon city, underwater), each in pixel-art and illustrated styles and in side-on and top-down variants, with matching preview sprite copies."
 tags = [ "genre:platformer", "role:terrain" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Hero's Trail Extended: a high-res, shaded, cartoony pixel-art pack of top-down dungeon assets — a green slime enemy, animated doors, floors, walls, switches, treasure chests, fountains, and glowing VFX, plus a cave tileset."
 tags = [ "genre:action", "genre:adventure", "theme:fantasy", "theme:medieval", "style:pixel-art", "style:shaded", "projection:top-down" ]

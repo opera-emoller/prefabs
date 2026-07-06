@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A horror-flavored UI sound pack: ~39 dark synth interface blips and stings — clicks, hovers, confirms, errors, sliders, swipes and window transitions — all rendered with an eerie, dread-laced synth character for menus and HUDs."
 tags = [ "theme:horror", "role:ui" ]

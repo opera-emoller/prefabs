@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Retro, bit-crushed character action SFX pack: hits, melee, footsteps, jumps, pain, death, sword swings, magic spells and impacts for knight, monk, ninja and wizard protagonists."
 tags = [ "genre:action", "theme:fantasy", "role:audio", "asset_type:sound", "audio_type:sfx", "style:retro" ]

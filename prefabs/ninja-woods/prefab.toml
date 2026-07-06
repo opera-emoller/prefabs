@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Ninja Woods — a pixel-art side-scrolling platformer pack (Windy Woods remaster) with a blue ninja hero, pink yokai monsters, lush forest and cave environments, Japanese torii end-gate, full HUD/touch UI, and four .mp3 music tracks. Retro, simple, charming."
 tags = [ "genre:platformer", "theme:nature", "theme:fantasy", "style:pixel-art", "style:retro", "projection:side-view" ]

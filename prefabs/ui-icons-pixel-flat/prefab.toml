@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Pixel-art UI icon pack: ~37 white flat-filled glyph icons (arrows, media controls, hearts, shields, settings and more) for game menus and HUDs."
 tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:pixel-art", "style:flat" ]

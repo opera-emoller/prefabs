@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Flat round UI glyph icons: a set of 37 clean, smooth-rounded solid-white interface symbols (arrows, media, social, status) on transparent backgrounds."
 tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:flat" ]

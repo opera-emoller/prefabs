@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A pack of 100+ glossy, hand-painted jewels, gems and treasure icons in eight colors (blue, cyan, green, orange, pink, purple, red, yellow) across many shapes — coins, crowns, diamonds, hearts, faceted gems, keys, potions, skulls, stars and more. Cartoony, shaded UI icons ideal for match-3 and casual games."
 tags = [ "asset_type:sprite", "role:pickup", "projection:ui-icon", "style:painted", "style:shaded", "style:glossy", "genre:puzzle", "state:static" ]

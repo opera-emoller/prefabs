@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Natural World ambient audio pack: a dozen-plus long environment soundbeds (arctic, desert, forest, ocean, volcano and more) plus looping weather, water, fire and animal ambiences and a few short geological one-shots, all in .mp3 — for layering immersive outdoor atmosphere under a game scene."
 tags = [ "theme:nature", "role:audio", "asset_type:sound" ]

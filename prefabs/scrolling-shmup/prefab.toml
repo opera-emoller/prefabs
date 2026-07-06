@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Retro arcade top-down vertical-scrolling shooter (SHMUP) art and audio pack: pixel-art aircraft, ground targets, projectiles, pickups and VFX, with chiptune-flavored MP3 music and sound effects."
 tags = [ "genre:shmup", "style:pixel-art", "projection:top-down", "theme:modern" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "High-definition realistic animal sound effects pack — one-shot vocalizations from badgers, bears, cats, dogs, foxes, owls, horses and many more, in MP3."
 tags = [ "theme:nature", "role:audio", "asset_type:sound", "audio_type:sfx" ]

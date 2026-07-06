@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Glossy UI kit of shiny, candy-gloss panels, buttons, frames, banners, scrollbars and indicator dots in nine colors, with bright top highlights for clean game interfaces."
 tags = [ "role:ui", "projection:ui-icon", "style:glossy", "asset_type:sprite" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Modern aerial/land/sea combat art and audio pack: side-on cartoon planes, tanks, jeeps, boats and submarines in five team colors, plus VFX, environment props and a full SFX/music set. Shaded, glossy cartoon style, fully animated."
 tags = [ "genre:action", "theme:modern", "style:cartoon", "style:shaded" ]

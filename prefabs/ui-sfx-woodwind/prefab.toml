@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A pack of ~39 user-interface sound effects voiced as soft woodwind tones — gentle flute-like clicks, hovers, pops, confirmations, errors and navigation cues with a warm, mellow, organic character."
 tags = [ "role:ui" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Flat shadow UI glyph icons: a set of 37 flat solid-white interface symbols, each cast with a soft diagonal long drop shadow, on transparent backgrounds."
 tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:flat" ]

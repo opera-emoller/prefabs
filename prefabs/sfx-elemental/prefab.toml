@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Elemental environmental and projectile sound effects pack matching the Elemental VFX bundle — fire, water, lightning, smoke and magic one-shots plus a few looping beds, all .mp3, fantasy game flavor."
 tags = [ "role:audio", "theme:fantasy" ]

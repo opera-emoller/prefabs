@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Fantasy Town: a colourful, cartoony pack of 3D-rendered-to-2D medieval town assets — houses, inns, shops, guard towers, market stalls, carts, windmills, trees and farm fields — each provided in front, top-down and isometric projections across four rotation angles."
 tags = [ "theme:fantasy", "theme:medieval", "style:rendered", "style:shaded", "genre:strategy", "role:building" ]

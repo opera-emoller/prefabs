@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Retro chiptune UI sound effect pack: 39 8-bit beeps and blips for clicks, hovers, confirms, errors, window/menu transitions and navigation, all in a crisp lo-fi arcade style."
 tags = [ "role:ui", "style:retro" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Sci-fi UI and game icon pack — blasters, plasma blades, crates, test tubes, gadgets, pickups and resources, each rendered in colorful 3D-shaded style plus flat black and flat white silhouette variants."
 tags = [ "theme:sci-fi", "projection:ui-icon", "asset_type:sprite", "state:static" ]

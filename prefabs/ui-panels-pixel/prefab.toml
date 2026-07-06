@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A pixel-art UI widget pack: glossy retro panels, frames, buttons, banners, scrollbars and indicator dots in nine bright color schemes for building game user interfaces."
 tags = [ "role:ui", "projection:ui-icon", "style:pixel-art", "asset_type:sprite" ]

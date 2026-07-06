@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A large pack of glossy rendered cartoon food icons - fruits, vegetables, meats, seafood, baked goods, cakes, drinks and cutlery - each item shipped in a plain glossy version and a bold black-outlined _with_stroke variant; clean UI-icon style on transparent background."
 tags = [ "asset_type:sprite", "subject:food", "role:pickup", "projection:ui-icon", "state:static", "style:glossy", "style:shaded", "theme:nature" ]

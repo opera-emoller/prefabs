@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Windier Woods: a bright, painted side-scrolling platformer environment pack of alpine and arctic (snowbound) sprites, parallax backgrounds, ice/snow props, VFX and looping music."
 tags = [ "genre:platformer", "theme:nature", "projection:side-view", "style:painted" ]

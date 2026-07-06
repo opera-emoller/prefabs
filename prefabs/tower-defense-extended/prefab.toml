@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Hand-drawn cartoon tower-defense effect pack: attack VFX and projectile spritesheets for ten tower types (Cannon, Explosive, Flamer, Freeze, Heal, Holy, Magic, Poison, Rail, Slow), viewed top-down in a colorful storybook style."
 tags = [ "genre:tower-defense", "theme:fantasy", "style:cartoon", "projection:top-down" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Top-down racing art and audio pack with a bright, detailed cartoon look: four race cars plus a police car (each in multiple liveries), modular track and chevron pieces, grandstands, buildings, roadside props, ground tiles and decals, plus a full set of engine, collision, crowd, siren and music sounds."
 tags = [ "genre:racing", "theme:modern", "style:cartoon", "projection:top-down" ]

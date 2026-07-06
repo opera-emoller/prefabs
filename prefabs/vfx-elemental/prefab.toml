@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Hand-drawn elemental VFX pack: dozens of animated, shaded effects — explosions, electric arcs, fireball projectiles and swooshing beams across fire, water, lightning, smoke and poison elements."
 tags = [ "role:vfx", "style:shaded" ]

@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A bright, fun cartoon fantasy side-scrolling platformer pack: smoothly animated Knight, Bat, Skeleton and Spider, forest/cave/castle/house environments, tilesets, parallax backdrops, plus a full SFX + music library."
 tags = [ "genre:platformer", "theme:fantasy", "theme:medieval", "style:cartoon", "style:shaded", "projection:side-view" ]

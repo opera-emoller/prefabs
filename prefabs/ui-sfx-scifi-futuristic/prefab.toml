@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "A pack of ~39 futuristic sci-fi user-interface sound effects — digital clicks, hovers, confirms, errors, sliders, swipes, power and window transitions — all with a clean holographic, synthesized character."
 tags = [ "theme:sci-fi", "role:ui", "audio_type:ui-sound" ]

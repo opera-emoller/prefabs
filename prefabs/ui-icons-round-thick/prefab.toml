@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Thick round UI glyph icons: a set of 37 smooth-rounded interface symbols with bold heavy black outlines on transparent backgrounds."
 tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:outlined" ]

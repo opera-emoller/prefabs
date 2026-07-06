@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Four heroic side-view pixel-art protagonists — Knight, Monk, Wizard and Ninja — each with a full action set (idle, run, jump, melee, ranged, hit, stun, death), plus fireball, magic and blood-splatter VFX. Shaded, highly detailed fantasy character art."
 tags = [ "theme:fantasy", "theme:medieval", "style:pixel-art", "style:shaded", "projection:side-view" ]

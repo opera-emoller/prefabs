@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Modular character-portrait part pack: 288 layered face and body features — face shapes, eyes, eyelids, brows, ears, noses, mouths, hairstyles, beards, torsos, plus accessories (glasses, hats, masks, piercings) — drawn in a clean shaded cartoon illustration style, front-facing, in many colors and six skintones for a character-creator."
 tags = [ "role:ui", "style:cartoon", "style:shaded", "projection:portrait" ]

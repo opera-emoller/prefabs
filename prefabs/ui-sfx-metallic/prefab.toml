@@ -1,4 +1,4 @@
-kind = "asset"
+asset_bundle = true
 license = "Apache-2.0"
 description = "Metallic-flavored UI sound effect pack: clicks, hovers, confirms, errors, window and slider transitions rendered with a clinky, clanking metal character."
 tags = [ "role:ui" ]
