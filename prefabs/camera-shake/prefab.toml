@@ -3,11 +3,14 @@ license = "MIT"
 description = "Camera-shake library: applies a configurable screen shake effect to the active camera for impacts, explosions, and hits. A single camera_shake(time, mag_r, mag_g, mag_b) call drives an RGB-split displacement that decays over the given duration."
 tags = [ "capability:camera", "capability:shader-effect", "role:vfx" ]
 
-[export]
-include = [
-  "scripts/scr_camera_shake",
-  "shaders/shdr_camera_shake",
-  "objects/obj_camera_shake",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "sounds/snd_explosion",
+  "sprites/spr_asteroid",
+  "sprites/spr_sky_nebula1",
+  "rooms/rm_demo",
 ]
 
 [assets."scripts/scr_camera_shake"]

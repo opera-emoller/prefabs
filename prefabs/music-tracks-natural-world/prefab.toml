@@ -3,40 +3,11 @@ license = "Apache-2.0"
 description = "Natural World ambient audio pack: a dozen-plus long environment soundbeds (arctic, desert, forest, ocean, volcano and more) plus looping weather, water, fire and animal ambiences and a few short geological one-shots, all in .mp3 — for layering immersive outdoor atmosphere under a game scene."
 tags = [ "theme:nature", "role:audio", "asset_type:sound" ]
 
-[export]
-include = [
-  "sounds/MP3_SFX_Birdsong",
-  "sounds/MP3_SFX_Campfire",
-  "sounds/MP3_SFX_Crickets",
-  "sounds/MP3_SFX_Crows",
-  "sounds/MP3_SFX_Inferno",
-  "sounds/MP3_SFX_Owls",
-  "sounds/MP3_SFX_Rain_Heavy",
-  "sounds/MP3_SFX_Rain_Light",
-  "sounds/MP3_SFX_Rain_On_Roof",
-  "sounds/MP3_SFX_Rockslide_Big",
-  "sounds/MP3_SFX_Rockslide_Small",
-  "sounds/MP3_SFX_Seagulls",
-  "sounds/MP3_SFX_Thunder_01",
-  "sounds/MP3_SFX_Thunder_02",
-  "sounds/MP3_SFX_Thunder_03",
-  "sounds/MP3_SFX_Waterfalls",
-  "sounds/MP3_SFX_Waves_Heavy",
-  "sounds/MP3_SFX_Waves_Light",
-  "sounds/MP3_SFX_Waves_Medium",
-  "sounds/MP3_SFX_Whalesong",
-  "sounds/MP3_SFX_Wind",
-  "sounds/MP3_SND_Arctic",
-  "sounds/MP3_SND_Badlands",
-  "sounds/MP3_SND_Desert",
-  "sounds/MP3_SND_Forest_At_Night",
-  "sounds/MP3_SND_Grasslands",
-  "sounds/MP3_SND_Oceans",
-  "sounds/MP3_SND_Rainforest",
-  "sounds/MP3_SND_Riverlands",
-  "sounds/MP3_SND_Underwater",
-  "sounds/MP3_SND_Volcano",
-  "sounds/MP3_SND_Woodlands",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "rooms/rm_demo",
 ]
 
 [assets."sounds/MP3_SFX_Birdsong"]

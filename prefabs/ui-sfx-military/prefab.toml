@@ -3,47 +3,11 @@ license = "Apache-2.0"
 description = "Military-flavored UI sound effect pack: tactical clicks, confirms, navigation, sliders, window/swipe transitions, and mission-style task results, all with a crisp modern command-console vibe."
 tags = [ "asset_type:sound", "audio_type:ui-sound", "role:ui", "theme:modern" ]
 
-[export]
-include = [
-  "sounds/Keyboard_Click_1",
-  "sounds/Keyboard_Click_2",
-  "sounds/Keyboard_Click_3",
-  "sounds/Mouse_Click_1",
-  "sounds/Mouse_Click_2",
-  "sounds/Mouse_Hover_1",
-  "sounds/Mouse_Hover_2",
-  "sounds/No_Button_1",
-  "sounds/No_Button_2",
-  "sounds/Pop_1",
-  "sounds/Pop_2",
-  "sounds/Popdown_1",
-  "sounds/Popdown_2",
-  "sounds/Popup_1",
-  "sounds/Popup_2",
-  "sounds/Power_Off_1",
-  "sounds/Power_Off_2",
-  "sounds/Power_On_1",
-  "sounds/Power_On_2",
-  "sounds/Slider_Move__Ascending__1",
-  "sounds/Slider_Move__Ascending__2",
-  "sounds/Slider_Move__Descending__1",
-  "sounds/Slider_Move__Descending__2",
-  "sounds/Swipe_Closed_1",
-  "sounds/Swipe_Closed_2",
-  "sounds/Swipe_Open_1",
-  "sounds/Swipe_Open_2",
-  "sounds/Task_Complete_1",
-  "sounds/Task_Complete_2",
-  "sounds/Task_Failed_1",
-  "sounds/Task_Failed_2",
-  "sounds/Timer_Tick_1",
-  "sounds/Timer_Tick_2",
-  "sounds/Window_Close_1",
-  "sounds/Window_Close_2",
-  "sounds/Window_Open_1",
-  "sounds/Window_Open_2",
-  "sounds/Yes_Button_1",
-  "sounds/Yes_Button_2",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "rooms/rm_demo",
 ]
 
 [assets."sounds/Keyboard_Click_1"]

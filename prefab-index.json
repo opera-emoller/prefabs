@@ -19,22 +19,6 @@
       "resources": [
         {
           "prefab": "aerial-combat",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "aerial-combat",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "aerial-combat",
           "kind": "sound",
           "name": "SFX_4x4_Engine1_Intro",
           "description": "Jeep engine start-up ramp, ~1.8s; SFX layer intro.",
@@ -8378,22 +8362,6 @@
         },
         {
           "prefab": "camera-shake",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "camera-shake",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "camera-shake",
           "kind": "script",
           "name": "scr_camera_shake",
           "description": "Core script exposing camera_shake(time, mag_r, mag_g, mag_b) to trigger and tune the shake — duration plus per-channel (red/green/blue) magnitude. Auto-creates the controller object on first call.",
@@ -8411,42 +8379,6 @@
             "asset_type:shader"
           ],
           "preview": null
-        },
-        {
-          "prefab": "camera-shake",
-          "kind": "sound",
-          "name": "snd_explosion",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sound",
-            "path": "prefabs/camera-shake/sounds/snd_explosion/source.mp3"
-          }
-        },
-        {
-          "prefab": "camera-shake",
-          "kind": "sprite",
-          "name": "spr_asteroid",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "camera-shake",
-          "kind": "sprite",
-          "name": "spr_sky_nebula1",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/camera-shake/sprites/spr_sky_nebula1/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
         }
       ]
     },
@@ -8468,22 +8400,6 @@
       "readme_path": "prefabs/fantasy-platformer/README.md",
       "thumbnail_path": "prefabs/fantasy-platformer/thumbnail.png",
       "resources": [
-        {
-          "prefab": "fantasy-platformer",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "fantasy-platformer",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "fantasy-platformer",
           "kind": "sound",
@@ -19141,22 +19057,6 @@
       "resources": [
         {
           "prefab": "fantasy-town",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "fantasy-town",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "fantasy-town",
           "kind": "sprite",
           "name": "spr_front_view_cart_back",
           "description": "A wooden two-wheeled handcart piled with yellow bananas and produce, with long pull handles; soft rounded shading, warm rendered cartoon look — front-on view, rear angle, single frame.",
@@ -23042,22 +22942,6 @@
       "resources": [
         {
           "prefab": "heros-trail-extended",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "heros-trail-extended",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "heros-trail-extended",
           "kind": "sprite",
           "name": "spr_cracks_bats_anim",
           "description": "Animated floor-crack decal in a bat-shaped pattern glowing teal-green; magical fissure overlay, 64x64.",
@@ -25875,22 +25759,6 @@
       "readme_path": "prefabs/iconic-animals/README.md",
       "thumbnail_path": "prefabs/iconic-animals/thumbnail.png",
       "resources": [
-        {
-          "prefab": "iconic-animals",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "iconic-animals",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "iconic-animals",
           "kind": "sprite",
@@ -30173,22 +30041,6 @@
       "readme_path": "prefabs/incidentals-fantasy/README.md",
       "thumbnail_path": "prefabs/incidentals-fantasy/thumbnail.png",
       "resources": [
-        {
-          "prefab": "incidentals-fantasy",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-fantasy",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "incidentals-fantasy",
           "kind": "sprite",
@@ -39039,22 +38891,6 @@
       "resources": [
         {
           "prefab": "incidentals-food",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-food",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-food",
           "kind": "sprite",
           "name": "spr_apple",
           "description": "Glossy red apple with a small green leaf and bright highlight; rendered cartoon, single frame.",
@@ -42173,22 +42009,6 @@
       "resources": [
         {
           "prefab": "incidentals-jewels-and-gems",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-jewels-and-gems",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-jewels-and-gems",
           "kind": "sprite",
           "name": "spr_Coin_Blue",
           "description": "Round glossy blue coin token with a bright rim highlight; hand-painted shaded.",
@@ -45112,22 +44932,6 @@
       "readme_path": "prefabs/incidentals-scifi/README.md",
       "thumbnail_path": "prefabs/incidentals-scifi/thumbnail.png",
       "resources": [
-        {
-          "prefab": "incidentals-scifi",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-scifi",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "incidentals-scifi",
           "kind": "sprite",
@@ -50717,22 +50521,6 @@
       "resources": [
         {
           "prefab": "incidentals-weapons",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-weapons",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "incidentals-weapons",
           "kind": "sprite",
           "name": "spr_axe_1",
           "description": "Painted, fully-shaded color icon of a single-bladed hatchet; glossy rendered weapon art with no outline, single frame.",
@@ -53139,22 +52927,6 @@
       "readme_path": "prefabs/maritime-mayhem/README.md",
       "thumbnail_path": "prefabs/maritime-mayhem/thumbnail.png",
       "resources": [
-        {
-          "prefab": "maritime-mayhem",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "maritime-mayhem",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "maritime-mayhem",
           "kind": "sound",
@@ -58303,22 +58075,6 @@
       "resources": [
         {
           "prefab": "music-tracks-natural-world",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "music-tracks-natural-world",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "music-tracks-natural-world",
           "kind": "sound",
           "name": "MP3_SFX_Birdsong",
           "description": "Bright, cheerful chorus of songbirds chirping and trilling, ~30s loop — sunny daytime woodland ambience.",
@@ -58791,22 +58547,6 @@
       "readme_path": "prefabs/ninja-woods/README.md",
       "thumbnail_path": "prefabs/ninja-woods/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ninja-woods",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ninja-woods",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ninja-woods",
           "kind": "sound",
@@ -60857,22 +60597,6 @@
       "resources": [
         {
           "prefab": "pixel-protagonists",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "pixel-protagonists",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "pixel-protagonists",
           "kind": "sprite",
           "name": "spr_bloodsplatter1",
           "description": "Small red blood spray/spatter, six-frame hit gore effect.",
@@ -62335,22 +62059,6 @@
       "readme_path": "prefabs/portrait-pack/README.md",
       "thumbnail_path": "prefabs/portrait-pack/thumbnail.png",
       "resources": [
-        {
-          "prefab": "portrait-pack",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "portrait-pack",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "portrait-pack",
           "kind": "sprite",
@@ -68457,22 +68165,6 @@
       "resources": [
         {
           "prefab": "scifi-space-shooter",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "scifi-space-shooter",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "scifi-space-shooter",
           "kind": "sound",
           "name": "SFX_Electrodes1",
           "description": "Short crackling electric/electrode zap, ~2.5s sci-fi spark.",
@@ -72189,22 +71881,6 @@
       "resources": [
         {
           "prefab": "scrolling-shmup",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "scrolling-shmup",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "scrolling-shmup",
           "kind": "sound",
           "name": "snd_ambient_seascape_1_MP3",
           "description": "Looping ocean ambience bed, ~17s — gentle sea atmosphere.",
@@ -74587,22 +74263,6 @@
       "resources": [
         {
           "prefab": "sfx-animal",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-animal",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-animal",
           "kind": "sound",
           "name": "MP3_Badger_Chatter_1",
           "description": "Realistic badger chattering call, ~2.0s one-shot.",
@@ -76283,22 +75943,6 @@
       "resources": [
         {
           "prefab": "sfx-elemental",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-elemental",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-elemental",
           "kind": "sound",
           "name": "MP3_Bomb_Explosion_Large_1",
           "description": "Big booming bomb blast with a deep low-end thump and debris tail, ~4.5s.",
@@ -77118,22 +76762,6 @@
       "readme_path": "prefabs/sfx-fantasy/README.md",
       "thumbnail_path": "prefabs/sfx-fantasy/thumbnail.png",
       "resources": [
-        {
-          "prefab": "sfx-fantasy",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-fantasy",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "sfx-fantasy",
           "kind": "sound",
@@ -78149,22 +77777,6 @@
       "resources": [
         {
           "prefab": "sfx-retro-character",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-retro-character",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-retro-character",
           "kind": "sound",
           "name": "mp3_snd_knight_death",
           "description": "Bit-crushed retro death cry for the knight, a falling, defeated grunt, ~1.1s.",
@@ -79055,22 +78667,6 @@
       "resources": [
         {
           "prefab": "sfx-retro-ninja",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-retro-ninja",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "sfx-retro-ninja",
           "kind": "sound",
           "name": "MP3_Box_Break",
           "description": "Short crunchy bit-crushed smash, ~0.45s — a crate or box shattering.",
@@ -79503,22 +79099,6 @@
       "readme_path": "prefabs/space-rocks-hd/README.md",
       "thumbnail_path": "prefabs/space-rocks-hd/thumbnail.png",
       "resources": [
-        {
-          "prefab": "space-rocks-hd",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "space-rocks-hd",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "space-rocks-hd",
           "kind": "sprite",
@@ -81733,22 +81313,6 @@
       "resources": [
         {
           "prefab": "tower-defense-extended",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "tower-defense-extended",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "tower-defense-extended",
           "kind": "sprite",
           "name": "SPR_Cannon_VFX",
           "description": "Pale yellow puff/muzzle-flash burst that blooms and fades; soft cartoon cannon-fire effect, animated.",
@@ -82491,22 +82055,6 @@
       "readme_path": "prefabs/track-and-street-racer/README.md",
       "thumbnail_path": "prefabs/track-and-street-racer/thumbnail.png",
       "resources": [
-        {
-          "prefab": "track-and-street-racer",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "track-and-street-racer",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "track-and-street-racer",
           "kind": "sound",
@@ -89096,22 +88644,6 @@
       "resources": [
         {
           "prefab": "ui-icons-pixel-flat",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-pixel-flat",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-pixel-flat",
           "kind": "sprite",
           "name": "Icon_ArrowDown",
           "description": "A downward-pointing arrow — white pixel-art glyph with solid flat fill, single frame on transparent ground.",
@@ -89833,22 +89365,6 @@
       "readme_path": "prefabs/ui-icons-pixel-stroke/README.md",
       "thumbnail_path": "prefabs/ui-icons-pixel-stroke/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-icons-pixel-stroke",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-pixel-stroke",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-icons-pixel-stroke",
           "kind": "sprite",
@@ -90574,22 +90090,6 @@
       "resources": [
         {
           "prefab": "ui-icons-pixel-thick",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-pixel-thick",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-pixel-thick",
           "kind": "sprite",
           "name": "Icon_ArrowDown",
           "description": "A downward-pointing arrow — white pixel-art glyph wrapped in a heavy thick dark outline, single frame on transparent ground.",
@@ -91310,22 +90810,6 @@
       "readme_path": "prefabs/ui-icons-round-flat/README.md",
       "thumbnail_path": "prefabs/ui-icons-round-flat/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-icons-round-flat",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-round-flat",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-icons-round-flat",
           "kind": "sprite",
@@ -92051,22 +91535,6 @@
       "resources": [
         {
           "prefab": "ui-icons-round-stroke",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-round-stroke",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-round-stroke",
           "kind": "sprite",
           "name": "Icon_ArrowDown",
           "description": "A downward-pointing arrow; smooth rounded glyph drawn as a thin clean stroke outline, single frame on a transparent background.",
@@ -92787,22 +92255,6 @@
       "readme_path": "prefabs/ui-icons-round-thick/README.md",
       "thumbnail_path": "prefabs/ui-icons-round-thick/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-icons-round-thick",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-round-thick",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-icons-round-thick",
           "kind": "sprite",
@@ -93527,22 +92979,6 @@
       "resources": [
         {
           "prefab": "ui-icons-shadow-flat",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-shadow-flat",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-icons-shadow-flat",
           "kind": "sprite",
           "name": "Icon_ArrowDown",
           "description": "A downward-pointing arrow; flat solid-white glyph with a soft diagonal long drop shadow, single frame on a transparent background.",
@@ -94264,22 +93700,6 @@
       "readme_path": "prefabs/ui-panels-flat/README.md",
       "thumbnail_path": "prefabs/ui-panels-flat/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-panels-flat",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-panels-flat",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-panels-flat",
           "kind": "sprite",
@@ -96863,22 +96283,6 @@
       "readme_path": "prefabs/ui-panels-glossy/README.md",
       "thumbnail_path": "prefabs/ui-panels-glossy/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-panels-glossy",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-panels-glossy",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-panels-glossy",
           "kind": "sprite",
@@ -99599,22 +99003,6 @@
       "resources": [
         {
           "prefab": "ui-panels-pixel",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-panels-pixel",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-panels-pixel",
           "kind": "sprite",
           "name": "Pixel_Blue_Banner_Big",
           "description": "Pixel-art bright blue ribbon banner, large/wide; glossy retro UI header banner with notched ends.",
@@ -102331,22 +101719,6 @@
       "resources": [
         {
           "prefab": "ui-sfx-horror",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-horror",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-horror",
           "kind": "sound",
           "name": "Keyboard_Click_1",
           "description": "Dark horror-synth keyboard keystroke, ~1.5s — dull dread-tinged typing blip for text entry.",
@@ -102910,22 +102282,6 @@
       "readme_path": "prefabs/ui-sfx-metallic/README.md",
       "thumbnail_path": "prefabs/ui-sfx-metallic/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-sfx-metallic",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-metallic",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-sfx-metallic",
           "kind": "sound",
@@ -103492,22 +102848,6 @@
       "resources": [
         {
           "prefab": "ui-sfx-military",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-military",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-military",
           "kind": "sound",
           "name": "Keyboard_Click_1",
           "description": "Sharp tactical keystroke, ~0.25s — terse mechanical keyboard click for text entry or hotkey input.",
@@ -103966,22 +103306,6 @@
       "readme_path": "prefabs/ui-sfx-pen-and-paper/README.md",
       "thumbnail_path": "prefabs/ui-sfx-pen-and-paper/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-sfx-pen-and-paper",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-pen-and-paper",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-sfx-pen-and-paper",
           "kind": "sound",
@@ -104544,22 +103868,6 @@
       "readme_path": "prefabs/ui-sfx-retro-beeps/README.md",
       "thumbnail_path": "prefabs/ui-sfx-retro-beeps/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-sfx-retro-beeps",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-retro-beeps",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-sfx-retro-beeps",
           "kind": "sound",
@@ -105125,22 +104433,6 @@
       "resources": [
         {
           "prefab": "ui-sfx-scifi-futuristic",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-scifi-futuristic",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-scifi-futuristic",
           "kind": "sound",
           "name": "Keyboard_Click_1",
           "description": "Crisp digital keypress with a soft synthesized tail, ~0.87s — futuristic UI keyboard click.",
@@ -105667,22 +104959,6 @@
       "readme_path": "prefabs/ui-sfx-stone/README.md",
       "thumbnail_path": "prefabs/ui-sfx-stone/thumbnail.png",
       "resources": [
-        {
-          "prefab": "ui-sfx-stone",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-stone",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "ui-sfx-stone",
           "kind": "sound",
@@ -106285,22 +105561,6 @@
       "resources": [
         {
           "prefab": "ui-sfx-woodwind",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-woodwind",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "ui-sfx-woodwind",
           "kind": "sound",
           "name": "Keyboard_Click_1",
           "description": "Soft woodwind keyboard-click blip, ~1.0s — gentle flute-toned typing tick.",
@@ -106861,22 +106121,6 @@
       "readme_path": "prefabs/vfx-elemental/README.md",
       "thumbnail_path": "prefabs/vfx-elemental/thumbnail.png",
       "resources": [
-        {
-          "prefab": "vfx-elemental",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "vfx-elemental",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "vfx-elemental",
           "kind": "sprite",
@@ -108222,22 +107466,6 @@
       "readme_path": "prefabs/windier-woods/README.md",
       "thumbnail_path": "prefabs/windier-woods/thumbnail.png",
       "resources": [
-        {
-          "prefab": "windier-woods",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "windier-woods",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "windier-woods",
           "kind": "sound",
@@ -109685,22 +108913,6 @@
       "readme_path": "prefabs/world-backgrounds/README.md",
       "thumbnail_path": "prefabs/world-backgrounds/thumbnail.png",
       "resources": [
-        {
-          "prefab": "world-backgrounds",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "world-backgrounds",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "world-backgrounds",
           "kind": "sprite",
@@ -111567,22 +110779,6 @@
       "readme_path": "prefabs/world-hexmaps/README.md",
       "thumbnail_path": "prefabs/world-hexmaps/thumbnail.png",
       "resources": [
-        {
-          "prefab": "world-hexmaps",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "world-hexmaps",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
         {
           "prefab": "world-hexmaps",
           "kind": "sprite",
@@ -114700,362 +113896,6 @@
       "readme_path": "prefabs/world-tilesets/README.md",
       "thumbnail_path": "prefabs/world-tilesets/thumbnail.png",
       "resources": [
-        {
-          "prefab": "world-tilesets",
-          "kind": "object",
-          "name": "obj_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "room",
-          "name": "rm_demo",
-          "description": null,
-          "tags": [],
-          "preview": null
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_side_Flameville",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_side_Flameville/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_side_Haunted_Graveyard",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_side_Haunted_Graveyard/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_side_Ice_Land",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_side_Ice_Land/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_side_Neon_City",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_side_Neon_City/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_side_Underwater",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_side_Underwater/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_top_Flameville",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_top_Flameville/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_top_Haunted_Graveyard",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_top_Haunted_Graveyard/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_top_Ice_Land",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_top_Ice_Land/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_top_Neon_City",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_top_Neon_City/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_illustrated_top_Underwater",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_illustrated_top_Underwater/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_side_Flameville",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_side_Flameville/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_side_Haunted_Graveyard",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_side_Haunted_Graveyard/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_side_Ice_Land",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_side_Ice_Land/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_side_Neon_City",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_side_Neon_City/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_side_Underwater",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_side_Underwater/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_top_Flameville",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_top_Flameville/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_top_Haunted_Graveyard",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_top_Haunted_Graveyard/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_top_Ice_Land",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_top_Ice_Land/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_top_Neon_City",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_top_Neon_City/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
-        {
-          "prefab": "world-tilesets",
-          "kind": "sprite",
-          "name": "spr_demo_pixel_top_Underwater",
-          "description": null,
-          "tags": [],
-          "preview": {
-            "kind": "sprite",
-            "frames": [
-              "prefabs/world-tilesets/sprites/spr_demo_pixel_top_Underwater/frame_000.png"
-            ],
-            "speed": {
-              "unit": "frames_per_second",
-              "value": 30.0
-            }
-          }
-        },
         {
           "prefab": "world-tilesets",
           "kind": "sprite",

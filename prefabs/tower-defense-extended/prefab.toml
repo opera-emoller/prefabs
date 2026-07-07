@@ -3,17 +3,11 @@ license = "Apache-2.0"
 description = "Hand-drawn cartoon tower-defense effect pack: attack VFX and projectile spritesheets for ten tower types (Cannon, Explosive, Flamer, Freeze, Heal, Holy, Magic, Poison, Rail, Slow), viewed top-down in a colorful storybook style."
 tags = [ "genre:tower-defense", "theme:fantasy", "style:cartoon", "projection:top-down" ]
 
-[export]
-include = [
-  "sprites/SPR_Cannon_VFX",
-  "sprites/SPR_Flamer_VFX",
-  "sprites/SPR_Freeze_VFX",
-  "sprites/SPR_Heal_VFX",
-  "sprites/SPR_Holy_VFX",
-  "sprites/SPR_Magic_VFX",
-  "sprites/SPR_Poison_VFX",
-  "sprites/SPR_Rail_VFX",
-  "sprites/SPR_Slow_VFX",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "rooms/rm_demo",
 ]
 
 [assets."sprites/SPR_Cannon_VFX"]

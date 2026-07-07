@@ -3,43 +3,11 @@ license = "Apache-2.0"
 description = "Hand-drawn elemental VFX pack: dozens of animated, shaded effects — explosions, electric arcs, fireball projectiles and swooshing beams across fire, water, lightning, smoke and poison elements."
 tags = [ "role:vfx", "style:shaded" ]
 
-[export]
-include = [
-  "sprites/spr_camp_fire",
-  "sprites/spr_candle_flickering",
-  "sprites/spr_candle_still",
-  "sprites/spr_circle_swoosh",
-  "sprites/spr_electric_explosion_with_build_up",
-  "sprites/spr_electric_explosion_without_build_up",
-  "sprites/spr_explosion_with_bomb",
-  "sprites/spr_explosion_without_bomb",
-  "sprites/spr_flame_swoosh",
-  "sprites/spr_incense_smoke",
-  "sprites/spr_lightning_bolt",
-  "sprites/spr_lightning_swoosh",
-  "sprites/spr_magic_sparkle_with_build_up",
-  "sprites/spr_magic_sparkle_without_build_up",
-  "sprites/spr_plumes_of_smoke",
-  "sprites/spr_running_on_land",
-  "sprites/spr_running_on_water",
-  "sprites/spr_shooting_fireball_without_impact",
-  "sprites/spr_shooting_fireballs_without_impact_version_2",
-  "sprites/spr_slime_explosion",
-  "sprites/spr_small_flame",
-  "sprites/spr_small_puff_of_smoke_front",
-  "sprites/spr_small_puff_of_smoke_side",
-  "sprites/spr_small_puff_of_smoke_vertical",
-  "sprites/spr_small_spark",
-  "sprites/spr_smoke_swoosh",
-  "sprites/spr_spark_of_electricity",
-  "sprites/spr_star_explosion_with_build_up",
-  "sprites/spr_star_explosion_without_build_up",
-  "sprites/spr_water_arc_swoosh",
-  "sprites/spr_water_droplet",
-  "sprites/spr_water_splash",
-  "sprites/spr_water_swoosh",
-  "sprites/spr_water_tornado",
-  "sprites/spt_ball_of_electricity",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "rooms/rm_demo",
 ]
 
 [assets."sprites/spr_camp_fire"]

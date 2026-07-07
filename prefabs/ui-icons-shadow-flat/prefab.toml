@@ -3,45 +3,11 @@ license = "Apache-2.0"
 description = "Flat shadow UI glyph icons: a set of 37 flat solid-white interface symbols, each cast with a soft diagonal long drop shadow, on transparent backgrounds."
 tags = [ "role:ui", "projection:ui-icon", "asset_type:sprite", "state:static", "style:flat" ]
 
-[export]
-include = [
-  "sprites/Icon_ArrowDown",
-  "sprites/Icon_ArrowLeft",
-  "sprites/Icon_ArrowRight",
-  "sprites/Icon_ArrowUp",
-  "sprites/Icon_AudioOff",
-  "sprites/Icon_AudioOn",
-  "sprites/Icon_Battle",
-  "sprites/Icon_Bolt",
-  "sprites/Icon_Cross",
-  "sprites/Icon_ExclaimationMark",
-  "sprites/Icon_FastForward",
-  "sprites/Icon_Heart",
-  "sprites/Icon_Home",
-  "sprites/Icon_Magnify",
-  "sprites/Icon_Menu",
-  "sprites/Icon_Menu2",
-  "sprites/Icon_Message",
-  "sprites/Icon_Music",
-  "sprites/Icon_Padlock",
-  "sprites/Icon_PadlockUnlock",
-  "sprites/Icon_Pause",
-  "sprites/Icon_Play",
-  "sprites/Icon_Plus",
-  "sprites/Icon_Profile",
-  "sprites/Icon_QuestionMark",
-  "sprites/Icon_Retry",
-  "sprites/Icon_Rewind",
-  "sprites/Icon_Settings",
-  "sprites/Icon_Share",
-  "sprites/Icon_Shield",
-  "sprites/Icon_Shop",
-  "sprites/Icon_Star",
-  "sprites/Icon_ThumbsDown",
-  "sprites/Icon_ThumbsUp",
-  "sprites/Icon_Tick",
-  "sprites/Icon_Video",
-  "sprites/Icon_WiFi",
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull.
+exclude = [
+  "objects/obj_demo",
+  "rooms/rm_demo",
 ]
 
 [assets."sprites/Icon_ArrowDown"]
