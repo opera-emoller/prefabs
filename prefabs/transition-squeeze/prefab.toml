@@ -6,5 +6,6 @@ category = "effects"
 tags = ["effect:transition", "effect:squeeze", "role:library"]
 
 [parent-link]
-# Pinned source; resolves once transition-base is published + tagged.
-source = "gh:opera-emoller/prefabs/transition-base@0.1.0"
+# Sibling prefab in this catalog; short form resolves it as a local
+# sibling directory instead of a network fetch.
+source = "transition-base@v0.5.0"
