@@ -60579,6 +60579,69 @@
       ]
     },
     {
+      "name": "online-leaderboard",
+      "version": "",
+      "display_name": "Online Leaderboard",
+      "description": "Headless gx.games login/profile/score/leaderboard API - login status, profile info, score submission, and highscore lists, with an offline dev-data fallback for local testing.",
+      "category": "online",
+      "tags": [
+        "role:library",
+        "capability:online",
+        "capability:leaderboard"
+      ],
+      "asset_bundle": false,
+      "readme_path": "prefabs/online-leaderboard/README.md",
+      "thumbnail_path": "prefabs/online-leaderboard/thumbnail.png",
+      "resources": [
+        {
+          "prefab": "online-leaderboard",
+          "kind": "font",
+          "name": "fnt_gx_demo_body",
+          "description": null,
+          "tags": [],
+          "preview": null
+        },
+        {
+          "prefab": "online-leaderboard",
+          "kind": "font",
+          "name": "fnt_gx_demo_title",
+          "description": null,
+          "tags": [],
+          "preview": null
+        },
+        {
+          "prefab": "online-leaderboard",
+          "kind": "object",
+          "name": "obj_gx_highscore_helper",
+          "description": "Singleton controller behind the API - HTTP requests on gx.games, canned data everywhere else. Created on demand; don't place in a room.",
+          "tags": [
+            "role:internal"
+          ],
+          "preview": null
+        },
+        {
+          "prefab": "online-leaderboard",
+          "kind": "object",
+          "name": "obj_gx_image_loader",
+          "description": "One-shot async image fetch spawned by gx_load_image(). Internal.",
+          "tags": [
+            "role:internal"
+          ],
+          "preview": null
+        },
+        {
+          "prefab": "online-leaderboard",
+          "kind": "script",
+          "name": "scr_online_leaderboard",
+          "description": "gx_is_logged_in, gx_get_profile_info, gx_submit_score, gx_get_my_score, gx_get_best_score, gx_get_highscore, gx_load_image, gx_score_to_string.",
+          "tags": [
+            "role:api"
+          ],
+          "preview": null
+        }
+      ]
+    },
+    {
       "name": "pixel-protagonists",
       "version": "",
       "display_name": "pixel-protagonists",
