@@ -1,0 +1,4 @@
+#:schema ../../.gm-schema/v1.json#object
+
+persistent = true
+visible = false

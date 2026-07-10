@@ -1,0 +1,5 @@
+#:schema ../../.gm-schema/v1.json#font
+
+mode = "system"
+family = "sans-serif"
+size = 20.0

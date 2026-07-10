@@ -1,0 +1,11 @@
+# gmx build artifacts
+*.wad
+*.yydebug
+*.bld-key
+
+# gmx debug daemon runtime scratch (logs, pids, socket, yydebug)
+.gmx/
+
+# OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+# Prefab manifest - discovery metadata for the gmx prefab catalog.
+name = "Online Leaderboard"
+description = "Headless gx.games login/profile/score/leaderboard API - login status, profile info, score submission, and highscore lists, with an offline dev-data fallback for local testing."
+category = "online"
+tags = ["role:library", "capability:online", "capability:leaderboard"]
+asset_bundle = false
+
+# Demo-only resources: present so `gmx run` works here, but kept out of
+# the published index and out of what consumers pull. The sprites are
+# vendored (unmodified) from the iconic-animals and ui-panels-flat catalog
+# prefabs purely for demo visuals - none of this is part of the exported API.
+exclude = [
+    "objects/obj_demo", "rooms/rm_demo",
+    "sprites/spr_cartoon_bear_panda", "sprites/spr_cartoon_cat_black", "sprites/spr_cartoon_cat_ginger",
+    "sprites/spr_cartoon_dog_corgi", "sprites/spr_cartoon_dog_husky", "sprites/spr_cartoon_dog_labrador",
+    "sprites/spr_cartoon_fox", "sprites/spr_cartoon_owl",
+    "sprites/Flat_Blue_Long_Round", "sprites/Flat_Grey_Long_Round",
+]
+
+# Optional per-asset metadata (surfaced in search), keyed by "<kind-dir>/<name>":
+[assets."scripts/scr_online_leaderboard"]
+description = "gx_is_logged_in, gx_get_profile_info, gx_submit_score, gx_get_my_score, gx_get_best_score, gx_get_highscore, gx_load_image, gx_score_to_string."
+tags = ["role:api"]
+
+[assets."objects/obj_gx_highscore_helper"]
+description = "Singleton controller behind the API - HTTP requests on gx.games, canned data everywhere else. Created on demand; don't place in a room."
+tags = ["role:internal"]
+
+[assets."objects/obj_gx_image_loader"]
+description = "One-shot async image fetch spawned by gx_load_image(). Internal."
+tags = ["role:internal"]
