@@ -8,4 +8,4 @@ tags = ["effect:transition", "effect:grid-flip", "role:library"]
 [parent-link]
 # Sibling prefab in this catalog; short form resolves it as a local
 # sibling directory instead of a network fetch.
-source = "transition-base@v0.5.0"
+source = "transition-base@v0.6.4"
