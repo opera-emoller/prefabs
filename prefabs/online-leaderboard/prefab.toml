@@ -10,8 +10,7 @@ asset_bundle = false
 # vendored (unmodified) from the iconic-animals and ui-panels-flat catalog
 # prefabs purely for demo visuals - none of this is part of the exported API.
 exclude = [
-    "fonts/fnt_gx_demo_body",
-    "fonts/fnt_gx_demo_title"
+    "fonts/fnt_gx_demo_body", "fonts/fnt_gx_demo_title",
     "objects/obj_demo", "rooms/rm_demo",
     "sprites/spr_cartoon_bear_panda", "sprites/spr_cartoon_cat_black", "sprites/spr_cartoon_cat_ginger",
     "sprites/spr_cartoon_dog_corgi", "sprites/spr_cartoon_dog_husky", "sprites/spr_cartoon_dog_labrador",
